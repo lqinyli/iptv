@@ -11,7 +11,7 @@ http://51.210.199.43/hls/stream.m3u8
 http://1hdru-hls-otcnet.cdnvideo.ru/onehdmusic/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="1HDMusicTelevision.ru" tvg-name="1HD Music Television" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Music",1HD Music Television
 https://sc.id-tv.kz/1hd_34_35.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="1Mus" tvg-country="RU" tvg-language="Russian;English" tvg-logo="https://i.imgur.com/PozF9MT.png" tvg-url="" group-title="Music",1Mus
+#EXTINF:-1 tvg-id="" tvg-name="1Mus" tvg-country="" tvg-language="" tvg-logo="https://i.imgur.com/PozF9MT.png" tvg-url="" group-title="Music",1Mus
 http://hz1.teleport.cc/HLS/HD.m3u8
 #EXTINF:-1 tvg-id="1MusicChannelHungary.hu" tvg-name="1Music Channel Hungary" tvg-country="HU" tvg-language="Hungarian" tvg-logo="" tvg-url="" group-title="Music",1Music Channel Hungary
 http://1music.hu/1music.m3u8
@@ -121,7 +121,7 @@ https://vsn1-cdn-phx.icastcenter.com/EBC1/EBC1/playlist.m3u8
 https://57490d2f4ea646bbae56a1a816617a5f.mediatailor.us-west-2.amazonaws.com/v1/manifest/6b8beeb9ed833d048c8c8155a25a28fe617c5474/electro_anthems_plex/3f15c325-941b-4c87-b429-d93bd3e70738/5.m3u8
 #EXTINF:-1 tvg-id="EUROAL.al" tvg-name="EUROAL" tvg-country="AL" tvg-language="Albanian" tvg-logo="https://i.imgur.com/Q1UOlkA.png" tvg-url="" group-title="Music",EUROAL
 http://5.135.92.131:1935/live/euroAl/chunklist.m3u8
-#EXTINF:-1 tvg-id="Eurodance90HD.ru" tvg-name="Eurodance 90 HD" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Music",Eurodance 90 HD
+#EXTINF:-1 tvg-id="Eurodance90HD.ru" tvg-name="Eurodance 90 HD" tvg-country="INT" tvg-language="English" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Music",Eurodance 90 HD
 https://eurodance.catcast.tv/content/36987/index.m3u8
 #EXTINF:-1 tvg-id="EuroLatinaTV.es" tvg-name="EuroLatina TV" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/eurolatinatelevision/picture?width=320&height=320" tvg-url="https://www.tdtchannels.com/epg/TV.xml" group-title="Music",EuroLatina TV
 https://limited1.todostreaming.es/live/eurolatina-livestream.m3u8
@@ -535,7 +535,10 @@ http://live.m2.tv/hls2/stream.m3u8
 http://live.m2.tv/hls3/stream.m3u8
 #EXTINF:-1 tvg-id="MaturTV.ru" tvg-name="Матур ТВ" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Music",Матур ТВ
 https://public.streaming.matur-tv.ru/hls/h264_aac/stream.m3u8
-#EXTINF:-1 tvg-id="MUZTV.ru" tvg-name="МУЗ-ТВ" tvg-country="RU" tvg-language="Russian" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/muz_tv.jpg" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Music",МУЗ-ТВ (720p)
+#EXTINF:-1 tvg-id="MuzTV.ru" tvg-name="Муз-ТВ" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/n7bGFXj.png" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Music",Муз-ТВ (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s28/index.m3u8
+#EXTINF:-1 tvg-id="MuzTV.ru" tvg-name="Муз-ТВ" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/n7bGFXj.png" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Music",Муз-ТВ (720p)
 https://strm.yandex.ru/kal/muztv_supres/muztv_supres0.m3u8
 #EXTINF:-1 tvg-id="MuzSoyuz.ru" tvg-name="МузСоюз" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Music",МузСоюз
 http://hls.tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/chunklist.m3u8

@@ -3,7 +3,7 @@
 https://y5w8j4a9.ssl.hwcdn.net/andflixhd/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="priveHD.in" tvg-name="&privé HD" tvg-country="SAS" tvg-language="English" tvg-logo="" tvg-url="" group-title="Movies",&privé HD
 https://y5w8j4a9.ssl.hwcdn.net/andprivehd/tracks-v1a1/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="100% Auto Moto TV" tvg-country="RU" tvg-language="Russian;English" tvg-logo="https://i.imgur.com/PjBm4Ic.jpg" tvg-url="" group-title="Auto",100% Auto Moto TV
+#EXTINF:-1 tvg-id="100AutoMotoTV.bg" tvg-name="100% Auto Moto TV" tvg-country="BG" tvg-language="Bulgarian;English" tvg-logo="https://i.imgur.com/PjBm4Ic.jpg" tvg-url="" group-title="Auto",100% Auto Moto TV
 http://100automoto.tv:1935/bgtv1/autotv/playlist.m3u8
 #EXTINF:-1 tvg-id="100News.ua" tvg-name="100% News" tvg-country="UA" tvg-language="Ukrainian" tvg-logo="https://i.imgur.com/11llLr1.jpg" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="News",100% News
 http://85.238.112.40:8810/hls_sec/239.33.16.32-.m3u8
@@ -29,7 +29,7 @@ https://meridelive01-lh.akamaihd.net/i/tvparma_1@356964/master.m3u8
 http://1hdru-hls-otcnet.cdnvideo.ru/onehdmusic/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="1HDMusicTelevision.ru" tvg-name="1HD Music Television" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Music",1HD Music Television
 https://sc.id-tv.kz/1hd_34_35.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="1Mus" tvg-country="RU" tvg-language="Russian;English" tvg-logo="https://i.imgur.com/PozF9MT.png" tvg-url="" group-title="Music",1Mus
+#EXTINF:-1 tvg-id="" tvg-name="1Mus" tvg-country="" tvg-language="" tvg-logo="https://i.imgur.com/PozF9MT.png" tvg-url="" group-title="Music",1Mus
 http://hz1.teleport.cc/HLS/HD.m3u8
 #EXTINF:-1 tvg-id="1MusicChannelHungary.hu" tvg-name="1Music Channel Hungary" tvg-country="HU" tvg-language="Hungarian" tvg-logo="" tvg-url="" group-title="Music",1Music Channel Hungary
 http://1music.hu/1music.m3u8
@@ -379,8 +379,16 @@ http://live.noorlive.com:1935/wesal/wesal1/playlist.m3u8
 https://svs.itworkscdn.net/alwoustalive/alwoustatv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlYaumTV.ae" tvg-name="Al Yaum TV" tvg-country="AE" tvg-language="Arabic" tvg-logo="https://alyaumtv.net/wp-content/uploads/2019/04/alyaom-1-1_small2.png" tvg-url="https://raw.githubusercontent.com/Fazzani/grab/master/merge.zip" group-title="News",Al Yaum TV
 https://ikomg1.s.llnwi.net/alyaumtv/playlist.m3u8
-#EXTINF:-1 tvg-id="AlResalah.sa" tvg-name="Al-Resalah" tvg-country="SA" tvg-language="Arabic" tvg-logo="" tvg-url="https://raw.githubusercontent.com/Fazzani/grab/master/merge.zip" group-title="Religious",Al-Resalah
+#EXTINF:-1 tvg-id="AlResalah.sa" tvg-name="Al-Resalah" tvg-country="SA" tvg-language="Arabic" tvg-logo="" tvg-url="https://raw.githubusercontent.com/Fazzani/grab/master/merge.zip" group-title="Religious",Al-Resalah (1080p)
+https://rotananet.hibridcdn.net/rotana/risala_abr/rotana/risala_1080p/chunks.m3u8
+#EXTINF:-1 tvg-id="AlResalah.sa" tvg-name="Al-Resalah" tvg-country="SA" tvg-language="Arabic" tvg-logo="" tvg-url="https://raw.githubusercontent.com/Fazzani/grab/master/merge.zip" group-title="Religious",Al-Resalah (240p)
+https://rotananet.hibridcdn.net/rotana/risala_abr/rotana/risala_240p/chunks.m3u8
+#EXTINF:-1 tvg-id="AlResalah.sa" tvg-name="Al-Resalah" tvg-country="SA" tvg-language="Arabic" tvg-logo="" tvg-url="https://raw.githubusercontent.com/Fazzani/grab/master/merge.zip" group-title="Religious",Al-Resalah (360p)
 https://rotananet.hibridcdn.net/rotana/risala_abr/rotana/risala_360p/chunks.m3u8
+#EXTINF:-1 tvg-id="AlResalah.sa" tvg-name="Al-Resalah" tvg-country="SA" tvg-language="Arabic" tvg-logo="" tvg-url="https://raw.githubusercontent.com/Fazzani/grab/master/merge.zip" group-title="Religious",Al-Resalah (480p)
+https://rotananet.hibridcdn.net/rotana/risala_abr/rotana/risala_480p/chunks.m3u8
+#EXTINF:-1 tvg-id="AlResalah.sa" tvg-name="Al-Resalah" tvg-country="SA" tvg-language="Arabic" tvg-logo="" tvg-url="https://raw.githubusercontent.com/Fazzani/grab/master/merge.zip" group-title="Religious",Al-Resalah (720p)
+https://rotananet.hibridcdn.net/rotana/risala_abr/rotana/risala_720p/chunks.m3u8
 #EXTINF:-1 tvg-id="AlabamaBirminghamSTIRR.us" tvg-name="Alabama: Birmingham (STIRR)" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/7JgPJxx.png" tvg-url="" group-title="Local",Alabama: Birmingham (STIRR)
 https://dai.google.com/linear/hls/event/4RH6FntvSLOIv5FB-p4I8w/master.m3u8
 #EXTINF:-1 tvg-id="AlabamaMobileSTIRR.us" tvg-name="Alabama: Mobile (STIRR)" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/7JgPJxx.png" tvg-url="" group-title="Local",Alabama: Mobile (STIRR)
@@ -455,8 +463,6 @@ http://45.6.4.50:50601/America_Tucuman/video.m3u8
 https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_540p.m3u8
 #EXTINF:-1 tvg-id="America.ar" tvg-name="América" tvg-country="AR" tvg-language="Spanish" tvg-logo="https://s-media-cache-ak0.pinimg.com/originals/40/48/2c/40482cf6af582372c2a22072a2394a80.png" tvg-url="" group-title="Local",América
 https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8
-#EXTINF:-1 tvg-id="Ani.ru" tvg-name="Ani" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Kids",Ani
-http://188.40.68.167/russia/ani/playlist.m3u8
 #EXTINF:-1 tvg-id="AnimaxJapan.jp" tvg-name="Animax Japan" tvg-country="JP" tvg-language="Japanese" tvg-logo="" tvg-url="" group-title="Movies",Animax Japan (720p)
 http://180.92.158.208:9981/stream/channelid/806982131
 #EXTINF:-1 tvg-id="Antena1.ro" tvg-name="Antena 1" tvg-country="RO" tvg-language="Romanian" tvg-logo="" tvg-url="" group-title="Comedy",Antena 1
@@ -1338,7 +1344,7 @@ https://etbvnogeo-lh.akamaihd.net/i/ETBSTR1_1@595581/master.m3u8
 https://etbvnogeo-lh.akamaihd.net/i/ETBSTR2_1@595582/master.m3u8
 #EXTINF:-1 tvg-id="EUROAL.al" tvg-name="EUROAL" tvg-country="AL" tvg-language="Albanian" tvg-logo="https://i.imgur.com/Q1UOlkA.png" tvg-url="" group-title="Music",EUROAL
 http://5.135.92.131:1935/live/euroAl/chunklist.m3u8
-#EXTINF:-1 tvg-id="Eurodance90HD.ru" tvg-name="Eurodance 90 HD" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Music",Eurodance 90 HD
+#EXTINF:-1 tvg-id="Eurodance90HD.ru" tvg-name="Eurodance 90 HD" tvg-country="INT" tvg-language="English" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Music",Eurodance 90 HD
 https://eurodance.catcast.tv/content/36987/index.m3u8
 #EXTINF:-1 tvg-id="EuroLatinaTV.es" tvg-name="EuroLatina TV" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/eurolatinatelevision/picture?width=320&height=320" tvg-url="https://www.tdtchannels.com/epg/TV.xml" group-title="Music",EuroLatina TV
 https://limited1.todostreaming.es/live/eurolatina-livestream.m3u8
@@ -1408,7 +1414,7 @@ http://ott-cdn.ucom.am/s86/index.m3u8
 http://210.210.155.35/session/b09f20ac-0755-11e9-90c8-c81f66f89318/uq2663/h/h05/index.m3u8
 #EXTINF:-1 tvg-id="FightSports.us" tvg-name="Fight Sports" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/wB9CkPG.jpg" tvg-url="" group-title="Sport",Fight Sports (576p)
 http://210.210.155.35/uq2663/h/h05/index.m3u8
-#EXTINF:-1 tvg-id="FilmTV.ru" tvg-name="Film TV" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Movies",Film TV
+#EXTINF:-1 tvg-id="FilmTV.ua" tvg-name="Film TV" tvg-country="INT" tvg-language="Ukrainian;Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Movies",Film TV
 http://filmtv.zapto.org:8050/hls/stream/index.m3u8
 #EXTINF:-1 tvg-id="FilmriseClassics.us" tvg-name="Filmrise Classics" tvg-country="US" tvg-language="English" tvg-logo="" tvg-url="" group-title="Movies",Filmrise Classics
 https://dai2.xumo.com/amagi_hls_data_xumo1212A-filmriseclassictv/CDN/648x432_5000000/index.m3u8
@@ -1670,7 +1676,7 @@ https://bstna.tulix.tv/live/bs_2m/index.m3u8
 https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxgravitas/CDN/playlist.m3u8
 #EXTINF:-1 tvg-id="GRAVITASMOVIESSTIRR.us" tvg-name="GRAVITAS MOVIES (STIRR)" tvg-country="US" tvg-language="English" tvg-logo="https://images-na.ssl-images-amazon.com/images/I/81IDRdRJYyL.png" tvg-url="" group-title="Movies",GRAVITAS MOVIES (STIRR)
 https://gravitas-movies.sinclair.wurl.com/manifest/512.m3u8
-#EXTINF:-1 tvg-id="GravityFouls.ru" tvg-name="Gravity Fouls" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Kids",Gravity Fouls
+#EXTINF:-1 tvg-id="GravityFouls.ru" tvg-name="Gravity Fouls" tvg-country="INT" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Kids",Gravity Fouls
 https://autopilot.catcast.tv/content/38105/index.m3u8
 #EXTINF:-1 tvg-id="GreensboroTV.us" tvg-name="Greensboro TV" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/wHb9BLd.png" tvg-url="" group-title="Local",Greensboro TV
 https://granicusliveus4-a.akamaihd.net/greensboro/G0197_003/chunklist.m3u8
@@ -1684,7 +1690,7 @@ https://d13anarbtxy8c5.cloudfront.net/6play/short/clr/gulli/sdindex.m3u8
 https://mmsiptv.com/live/gulli/playlist.m3u8
 #EXTINF:-1 tvg-id="GulliBilArabi.fr" tvg-name="Gulli Bil Arabi" tvg-country="FR" tvg-language="Arabic" tvg-logo="https://www.lyngsat.com/logo/tv/gg/gulli-bil-arabie.png" tvg-url="" group-title="Kids",Gulli Bil Arabi (1080p)
 https://shls-gulli-bil-arabi-prod-dub.shahid.net/out/v1/440c8a376b2049788371a8c2916887c4/index.m3u8
-#EXTINF:-1 tvg-id="GulliGirlRussia.fr" tvg-name="Gulli Girl Russia" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="" group-title="Kids",Gulli Girl Russia
+#EXTINF:-1 tvg-id="GulliGirl.fr" tvg-name="Gulli Girl" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="" group-title="Kids",Gulli Girl
 http://188.40.68.167/russia/gulli_girl/playlist.m3u8
 #EXTINF:-1 tvg-id="GunmaTV.jp" tvg-name="Gunma TV" tvg-country="JP" tvg-language="Japanese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Gtv_logo_ja_01.svg/800px-Gtv_logo_ja_01.svg.png" tvg-url="" group-title="Local",Gunma TV
 https://movie.mcas.jp/switcher/smil:mcas8.smil/master.m3u8
@@ -1818,7 +1824,7 @@ https://live.imamhossaintv.com/live/ih3.m3u8
 https://live.imamhossaintv.com/live/ih4.m3u8
 #EXTINF:-1 tvg-id="ImamHusseinTV4Urdu.iq" tvg-name="Imam Hussein TV 4 Urdu" tvg-country="IQ" tvg-language="Urdu" tvg-logo="https://i.imgur.com/ocyh4DD.jpg" tvg-url="https://raw.githubusercontent.com/Fazzani/grab/master/merge.zip" group-title="Religious",Imam Hussein TV 4 Urdu (720p)
 https://ur.imamhusseintv.com/live/ih4.m3u8
-#EXTINF:-1 tvg-id="ImpactTV.us" tvg-name="Impact TV" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="" group-title="Religious",Impact TV (480p)
+#EXTINF:-1 tvg-id="ImpactTelevisionNetwork.us" tvg-name="Impact Television Network" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="" group-title="Religious",Impact Television Network (480p)
 http://206.190.141.27:1935/live/impact/playlist.m3u8
 #EXTINF:-1 tvg-id="ImpactTV.bf" tvg-name="Impact TV" tvg-country="BF" tvg-language="French" tvg-logo="https://i.imgur.com/sCGRccj.png" tvg-url="" group-title="Religious",Impact TV (360p)
 https://edge2.vedge.infomaniak.com/livecast/ik:impacttv/chunklist_w1404999051.m3u8
@@ -1958,10 +1964,8 @@ http://media4.tripsmarter.com:1935/LiveTV/KTVHD/playlist.m3u8
 https://vidcdn.vidgyor.com/kat-origin/liveabr/kat-origin/live2/playlist.m3u8
 #EXTINF:-1 tvg-id="KhyberNewsTV.pk" tvg-name="Khyber News TV" tvg-country="PK" tvg-language="Urdu" tvg-logo="https://i.imgur.com/NL1cqS2.png" tvg-url="" group-title="News",Khyber News TV (414p)
 https://dcunilive38-lh.akamaihd.net/i/dclive_1@692677/master.m3u8
-#EXTINF:-1 tvg-id="KinderTV.ru" tvg-name="Kinder TV" tvg-country="RU" tvg-language="Ukrainian;Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Kids",Kinder TV
+#EXTINF:-1 tvg-id="KinderTV.ua" tvg-name="Kinder TV" tvg-country="INT" tvg-language="Ukrainian;Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Kids",Kinder TV
 http://autopilot.catcast.tv/content/38144/index.m3u8
-#EXTINF:-1 tvg-id="Kino24.ru" tvg-name="KINO24" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Movies",KINO24
-http://85.192.44.14/hls/Kino24Ru/playlist.m3u8
 #EXTINF:-1 tvg-id="KIRO7NewsKIROTV.us" tvg-name="KIRO 7 News (KIRO-TV)" tvg-country="US" tvg-language="English" tvg-logo="https://mediaweb.kirotv.com/photo/2018/09/24/kiro7_header_logo_152x60_13118164_ver1.0.png" tvg-url="" group-title="Local",KIRO 7 News (KIRO-TV)
 https://svc-lvanvato-cxtv-kiro.cmgvideo.com/kiro/1864k/index.m3u8
 #EXTINF:-1 tvg-id="Kix.my" tvg-name="Kix" tvg-country="MY" tvg-language="Malay (macrolanguage)" tvg-logo="https://i.imgur.com/mX1nnGy.png" tvg-url="" group-title="Entertainment",Kix
@@ -2162,6 +2166,8 @@ https://dai2.xumo.com/amagi_hls_data_xumo1212A-redbox-maverickmovies/CDN/playlis
 http://103.199.161.254/Content/mazhavil/Live/Channel(Mazhavil)/index.m3u8
 #EXTINF:-1 tvg-id="MBC" tvg-name="MBC" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/eKBXOKd.png" tvg-url="https://raw.githubusercontent.com/Fazzani/grab/master/merge.zip" group-title="General",MBC (1080p)
 https://shls-mbc1ksa-prod-dub.shahid.net/out/v1/451b666db1fb41c7a4bbecf7b4865107/index.m3u8
+#EXTINF:-1 tvg-id="MBC" tvg-name="MBC" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/eKBXOKd.png" tvg-url="https://raw.githubusercontent.com/Fazzani/grab/master/merge.zip" group-title="General",MBC (360p)
+https://shls-mbc1ksa-prod-dub.shahid.net/out/v1/451b666db1fb41c7a4bbecf7b4865107/index_5.m3u8
 #EXTINF:-1 tvg-id="MBC" tvg-name="MBC 2" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/KXuzL1u.png" tvg-url="https://raw.githubusercontent.com/Fazzani/grab/master/merge.zip" group-title="Movies",MBC 2 (1080p)
 https://shls-mbc2-prod-dub.shahid.net/out/v1/b4befe19798745fe986f5a9bfba62126/index.m3u8
 #EXTINF:-1 tvg-id="MBC 3" tvg-name="MBC 3" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/FVNVC73.png" tvg-url="https://raw.githubusercontent.com/Fazzani/grab/master/merge.zip" group-title="Kids",MBC 3 (1080p)
@@ -2388,10 +2394,10 @@ https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8
 https://admdn2.cdn.mangomolo.com/nagtv/smil:nagtv.stream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="NationalGeographicRussia.us" tvg-name="National Geographic Russia" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="" group-title="Documentary",National Geographic Russia
 http://51.195.44.53:8081/tv/national-geographic/chunks.m3u8
-#EXTINF:-1 tvg-id="NationalGeographicWildHDRussia.us" tvg-name="National Geographic Wild HD Russia" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="" group-title="Documentary",National Geographic Wild HD Russia
-https://sc.id-tv.kz/NatGeoWildHD_34_35.m3u8
 #EXTINF:-1 tvg-id="NationalGeographicWildRussia.us" tvg-name="National Geographic Wild Russia" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="" group-title="Documentary",National Geographic Wild Russia (576p)
 http://51.195.44.53:8081/tv/nat-geo-wild/playlist.m3u8
+#EXTINF:-1 tvg-id="NationalGeographicWildRussia.us" tvg-name="National Geographic Wild Russia" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="" group-title="Documentary",National Geographic Wild Russia
+https://sc.id-tv.kz/NatGeoWildHD_34_35.m3u8
 #EXTINF:-1 tvg-id="NavahangTV.ir" tvg-name="Navahang TV" tvg-country="IR" tvg-language="Persian" tvg-logo="http://www.navahang.com/apple-touch-icon.png" tvg-url="" group-title="Music",Navahang TV
 http://163.172.134.85/hls/stream.m3u8
 #EXTINF:-1 tvg-id="US-NBC HD New York" tvg-name="US-NBC HD New York" tvg-country="US" tvg-language="English" tvg-logo="https://s3.amazonaws.com/schedulesdirect/assets/stationLogos/s28717_h3_aa.png" tvg-url="" group-title="Local",NBC (720p)
@@ -3003,6 +3009,14 @@ https://rt-uk-gd.secure2.footprint.net/1106.m3u8
 https://rt-uk.secure.footprint.net/1106.m3u8?streamType=live
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-country="" tvg-language="" tvg-logo="http://static.epg.best/ru/RTInternational.ru.png" tvg-url="" group-title="News",RT(俄罗斯)
 http://rt-news.secure.footprint.net:80/1103_2500Kb.m3u8
+#EXTINF:-1 tvg-id="RTGTV.ru" tvg-name="RTG TV" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/x3IE7sE.png" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Travel",RTG (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s80/index.m3u8
+#EXTINF:-1 tvg-id="RTGHD.ru" tvg-name="RTG HD" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Travel",RTG HD
+http://188.40.68.167/russia/rtg/playlist.m3u8
+#EXTINF:-1 tvg-id="RTGHD.ru" tvg-name="RTG HD" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/NymtU1E.png" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Travel",RTG HD (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s63/index.m3u8
 #EXTINF:-1 tvg-id="RTL1025.it" tvg-name="RTL 102.5" tvg-country="IT" tvg-language="Italian" tvg-logo="https://i.imgur.com/7Ep1zt8.jpg" tvg-url="" group-title="Music",RTL 102.5 (432p)
 https://rtl-video1-stream.thron.com/live-video/video1/ngrp:video1/playlist.m3u8
 #EXTINF:-1 tvg-id="RTMSports.my" tvg-name="RTM Sports" tvg-country="MY" tvg-language="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/02/RTM_HD_Sports.png" tvg-url="" group-title="Sport",RTM Sports
@@ -3031,14 +3045,14 @@ https://streaming-live.rtp.pt/livetvhlsDVR/rtpndvr.smil/playlist.m3u8
 http://edge01eu.ekranet.com:80/rtshhd_low/index.m3u8
 #EXTINF:-1 tvg-id="RTENews.ie" tvg-name="RTÉ News" tvg-country="IE" tvg-language="English" tvg-logo="http://static.epg.best/ie/RTENewsNow.ie.png" tvg-url="" group-title="News",RTÉ News (1080p)
 https://live.rte.ie/live/a/channel3/news.isml/news.m3u8
-#EXTINF:-1 tvg-id="RTDnaRusskom.ru" tvg-name="RTД на Русском" tvg-country="RU" tvg-language="Russian" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/RTD-TV-logo.png/220px-RTD-TV-logo.png" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Documentary",RTД на Русском (480p)
+#EXTINF:-1 tvg-id="RTD.ru" tvg-name="RTД" tvg-country="RU" tvg-language="Russian" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/RTD-TV-logo.png/220px-RTD-TV-logo.png" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Documentary",RTД (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s93/index.m3u8
-#EXTINF:-1 tvg-id="RTDnaRusskom.ru" tvg-name="RTД на Русском" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/C6fylkt.png" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Documentary",RTД на Русском
+#EXTINF:-1 tvg-id="RTD.ru" tvg-name="RTД" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/C6fylkt.png" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Documentary",RTД
 https://rtmp.api.rt.com/hls/rtdru.m3u8
-#EXTINF:-1 tvg-id="RTDnaRusskom.ru" tvg-name="RTД на Русском" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/C6fylkt.png" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Documentary",RTД на Русском (1080p)
+#EXTINF:-1 tvg-id="RTD.ru" tvg-name="RTД" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/C6fylkt.png" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Documentary",RTД (1080p)
 https://strm.yandex.ru/kal/rtd_hd/rtd_hd0.m3u8
-#EXTINF:-1 tvg-id="RTDnaRusskom.ru" tvg-name="RTД на Русском" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/C6fylkt.png" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Documentary",RTД на Русском
+#EXTINF:-1 tvg-id="RTD.ru" tvg-name="RTД" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/C6fylkt.png" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Documentary",RTД
 https://uiptv.do.am/1ufc/300663722/playlist.m3u8
 #EXTINF:-1 tvg-id="RUTV.ru" tvg-name="RU.TV" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/0ujfLYr.png" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Music",RU.TV (1080p)
 http://rutv.gcdn.co/streams/1410_95/playlist.m3u8
@@ -3056,12 +3070,6 @@ https://esmhls2-i.akamaihd.net/hls/live/510581/hls2/playlist.m3u8
 https://esmhls3-i.akamaihd.net/hls/live/510582/hls3/playlist.m3u8
 #EXTINF:-1 tvg-id="RuidosFM.cl" tvg-name="Ruidos FM" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://i.imgur.com/IvSqpx0.jpg" tvg-url="" group-title="Music",Ruidos FM (360p)
 https://593b04c4c5670.streamlock.net:443/8038/8038/playlist.m3u8
-#EXTINF:-1 tvg-id="RussianTravelGuide.ru" tvg-name="Russian Travel Guide" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/x3IE7sE.png" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Travel",Russian Travel Guide (480p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
-http://ott-cdn.ucom.am/s80/index.m3u8
-#EXTINF:-1 tvg-id="RussianTravelGuideHD.ru" tvg-name="Russian Travel Guide HD" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/NymtU1E.png" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Travel",Russian Travel Guide HD (480p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
-http://ott-cdn.ucom.am/s63/index.m3u8
 #EXTINF:-1 tvg-id="SafeTV.us" tvg-name="SafeTV" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/sDGZCpL.png" tvg-url="" group-title="Religious",SafeTV (1080p)
 http://18.191.91.130:1935/live/safetv/playlist.m3u8
 #EXTINF:-1 tvg-id="SahelTV.tn" tvg-name="Sahel TV" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://saheltv.tn/wp-content/uploads/2018/03/saheltv_logox2.png" tvg-url="" group-title="General",Sahel TV (720p)
@@ -3745,7 +3753,7 @@ http://184.173.179.163:1935/victorytelevisionnetwork/victorytelevisionnetwork/pl
 http://k4.usastreams.com/videotour/videotour/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-country="" tvg-language="" tvg-logo="https://i.imgur.com/MWBk2hQ.jpg" tvg-url="" group-title="Music",Videorola HD
 https://d3b2epqdk0p7vd.cloudfront.net/out/v1/8a448b5e16384af4a3c8146a7b049c32/index.m3u8
-#EXTINF:-1 tvg-id="VIPComedyRussia.se" tvg-name="VIP Comedy Russia" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="" group-title="Comedy",VIP Comedy Russia
+#EXTINF:-1 tvg-id="ViPComedyRussia.se" tvg-name="ViP Comedy Russia" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="" group-title="Comedy",ViP Comedy Russia
 http://188.40.68.167/russia/vip_comedy/playlist.m3u8
 #EXTINF:-1 tvg-id="ViPComedyRussia.se" tvg-name="ViP Comedy Russia" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="" group-title="Comedy",ViP Comedy Russia
 http://195.189.105.158:9050/132/index.m3u8
@@ -3933,8 +3941,6 @@ https://slagrtv-live-hls.ssl.cdn.cra.cz/channels/slagrtv/playlist/cze/live_hq.m3
 https://stream-6.mazana.tv/slagr.m3u
 #EXTINF:-1 tvg-id="AvtoPlyus.ru" tvg-name="Авто Плюс" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Auto",Авто Плюс
 https://s4.idata.uz/avtoplyus/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="AVTO24.ru" tvg-name="АВТО24" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Auto",АВТО24
-http://188.40.68.167/russia/avto24/playlist.m3u8
 #EXTINF:-1 tvg-id="Arhyz24.ru" tvg-name="Архыз 24" tvg-country="RU" tvg-language="Russian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/LOGO_ARKHYZ24.tif/lossy-page1-1200px-LOGO_ARKHYZ24.tif.jpg" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Local",Архыз 24 (1080p)
 https://live.mediacdn.ru/sr1/arhis24/playlist.m3u8
 #EXTINF:-1 tvg-id="Arhyz24.ru" tvg-name="Архыз 24" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Local",Архыз 24 (720p)
@@ -4064,7 +4070,7 @@ https://uiptv.do.am/1ufc/000000003/playlist.m3u8
 https://s1.idata.uz/stch_temp19/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="MezhduNetMezhdurechensk.ru" tvg-name="Между.Net (Междуреченск)" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Local",Между.Net (Междуреченск) (720p)
 http://212.77.128.179:8089/www_mezhdunet/mezhdunet/playlist.m3u8
-#EXTINF:-1 tvg-id="MIR.ru" tvg-name="МИР" tvg-country="RU" tvg-language="Russian" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/mir_ru.jpg" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="General",МИР (1080p)
+#EXTINF:-1 tvg-id="Mir.ru" tvg-name="Мир" tvg-country="RU" tvg-language="Russian" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/mir_ru.jpg" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="General",Мир (1080p)
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 #EXTINF:-1 tvg-id="Mir24.ru" tvg-name="Мир 24" tvg-country="RU" tvg-language="Russian" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/mir_24_ru.jpg" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="News",Мир 24
 http://188.40.68.167/russia/mir24/playlist.m3u8
@@ -4074,8 +4080,6 @@ http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 https://sc.id-tv.kz/Mir24.m3u8
 #EXTINF:-1 tvg-id="Mir24.ru" tvg-name="Мир 24" tvg-country="RU" tvg-language="Russian" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/mir_24_ru.jpg" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="News",Мир 24
 https://sc.id-tv.kz/Mir24_38_39.m3u8
-#EXTINF:-1 tvg-id="MIRPremium.ru" tvg-name="МИР Premium" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Entertainment",МИР Premium (1080p)
-http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
 #EXTINF:-1 tvg-id="Mirseriala.ru" tvg-name="Мир сериала" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Movies",Мир сериала
 http://188.40.68.167/russia/mir_seriala/playlist.m3u8
 #EXTINF:-1 tvg-id="Mordoviya24.ru" tvg-name="Мордовия 24" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Local",Мордовия 24 (720p)
@@ -4090,7 +4094,10 @@ https://radio-live-mg.rtr-vesti.ru/live/smil:m24.smil/playlist.m3u8
 https://strm.yandex.ru/kal/msk24_supres/msk24_supres0.m3u8
 #EXTINF:-1 tvg-id="MTV.ru" tvg-name="МТВ" tvg-country="RU" tvg-language="Russian" tvg-logo="http://xn--b1ats.xn--80asehdb/img/logo.png" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Local",МТВ (Волгоград) (720p)
 http://hls.volgograd1vtv.cdnvideo.ru/volgograd1vtv/volgograd1vtv.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="MUZTV.ru" tvg-name="МУЗ-ТВ" tvg-country="RU" tvg-language="Russian" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/muz_tv.jpg" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Music",МУЗ-ТВ (720p)
+#EXTINF:-1 tvg-id="MuzTV.ru" tvg-name="Муз-ТВ" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/n7bGFXj.png" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Music",Муз-ТВ (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s28/index.m3u8
+#EXTINF:-1 tvg-id="MuzTV.ru" tvg-name="Муз-ТВ" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/n7bGFXj.png" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Music",Муз-ТВ (720p)
 https://strm.yandex.ru/kal/muztv_supres/muztv_supres0.m3u8
 #EXTINF:-1 tvg-id="MuzSoyuz.ru" tvg-name="МузСоюз" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Music",МузСоюз
 http://hls.tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/chunklist.m3u8
@@ -4112,10 +4119,8 @@ https://strm.yandex.ru/kal/noyabrsk24/noyabrsk240.m3u8
 https://live-ntm13.cdnvideo.ru/ntm13/smil:ntm13.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="O.ru" tvg-name="О!" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Kids",О!
 https://sc.id-tv.kz/o_34_35.m3u8
-#EXTINF:-1 tvg-id="OdincovoTV.ru" tvg-name="Одинцово ТВ" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Local",Одинцово ТВ
+#EXTINF:-1 tvg-id="OTV.ru" tvg-name="ОТВ" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Local",ОТВ (Одинцово)
 http://185.18.4.16/live/3m/playlist.m3u8
-#EXTINF:-1 tvg-id="OTV24.ru" tvg-name="ОТВ 24" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="News",ОТВ 24 (1080p)
-https://strm.yandex.ru/kal/otv24/otv240.m3u8
 #EXTINF:-1 tvg-id="OTR.ru" tvg-name="ОТР" tvg-country="RU" tvg-language="Russian" tvg-logo="https://iptvx.one/icn/otr_ru.png" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="General",ОТР
 https://uiptv.do.am/1ufc/000000008/playlist.m3u8
 #EXTINF:-1 tvg-id="OTS.ru" tvg-name="ОТС" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Local",ОТС (1080p)
@@ -4124,7 +4129,10 @@ https://strm.yandex.ru/kal/otstv/otstv0.m3u8
 http://51.68.141.106:8081/tv/ohota-i-ryibalka/playlist.m3u8
 #EXTINF:-1 tvg-id="Ohotairybalka.ru" tvg-name="Охота и рыбалка" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Hobby",Охота и рыбалка
 https://s3.idata.uz/dars5/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="OhotnikiRybolovInternational.ru" tvg-name="Охотник и Рыболов International" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Hobby",Охотник и Рыболов International (1080p)
+#EXTINF:-1 tvg-id="OhotnikiRybolov.ru" tvg-name="Охотник и Рыболов" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/k1Gt1Rc.png" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Hobby",Охотник и Рыболов (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s62/index.m3u8
+#EXTINF:-1 tvg-id="OhotnikirybolovInternational.ru" tvg-name="Охотник и рыболов International" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Hobby",Охотник и рыболов International (1080p)
 https://strm.yandex.ru/kal/ohotnik/ohotnik0.m3u8
 #EXTINF:-1 tvg-id="Pervyykanal.ru" tvg-name="Первый канал" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/iW5vhkb.png" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="General",Первый канал (576p)
 http://51.68.141.106:8081/tv/pervyiy-kanal/playlist.m3u8
@@ -4145,7 +4153,7 @@ http://rtmp.one.by:1300
 http://rtmp.one.by:2200
 #EXTINF:-1 tvg-id="PervyyMuzykalnyyRU.by" tvg-name="Первый Музыкальный RU" tvg-country="BY" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Music",Первый Музыкальный RU
 http://rtmp.one.by:2300
-#EXTINF:-1 tvg-id="PREMERA.ru" tvg-name="ПРЕМЬЕРА" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Movies",ПРЕМЬЕРА
+#EXTINF:-1 tvg-id="Premera.ru" tvg-name="Премьера" tvg-country="INT" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Movies",Премьера
 https://autopilot.catcast.tv/content/39161/index.m3u8
 #EXTINF:-1 tvg-id="RadioHITOrsk.by" tvg-name="Радио ХИТ (Орск)" tvg-country="BY" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Local",Радио ХИТ (Орск)
 http://hithd.camsh.orsk.ru/hls/hithd.m3u8
@@ -4153,7 +4161,7 @@ http://hithd.camsh.orsk.ru/hls/hithd.m3u8
 http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8
 #EXTINF:-1 tvg-id="RadioShanson.ru" tvg-name="Радио Шансон" tvg-country="RU" tvg-language="Russian" tvg-logo="http://lion-tv.com/uploads/posts/2016-09/1472964269_178.png" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Music",Радио Шансон
 http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live_hiq/index.m3u8
-#EXTINF:-1 tvg-id="Radostmoya.ru" tvg-name="Радость моя" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Kids",Радость моя
+#EXTINF:-1 tvg-id="RadostMoya.ru" tvg-name="Радость Моя" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Kids",Радость Моя
 http://188.40.68.167/russia/radost_moya/playlist.m3u8
 #EXTINF:-1 tvg-id="Ratnik.ru" tvg-name="Ратник" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Entertainment",Ратник (1080p)
 http://live-ratnik.cdnvideo.ru/ratnik/ratnik.sdp/playlist.m3u8
@@ -4226,7 +4234,7 @@ https://strm.yandex.ru/kal/start/start0_169_720p.json/index-v1-a1.m3u8
 http://212.98.171.116/HLS/ctvby/playlist.m3u8
 #EXTINF:-1 tvg-id="StranaFM.ru" tvg-name="Страна FM" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Music",Страна FM (720p)
 http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="STRKHD.ru" tvg-name="СТРК HD" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Movies",СТРК HD
+#EXTINF:-1 tvg-id="STRK.ru" tvg-name="СТРК" tvg-country="RU" tvg-language="Russian" tvg-logo="" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Movies",СТРК
 http://sochinskayatrk.ru/hdtv/hls/strc_hd/playlist.m3u8
 #EXTINF:-1 tvg-id="Surgut24.ru" tvg-name="Сургут 24" tvg-country="RU" tvg-language="Russian" tvg-logo="http://online-red.com/images/tv/surgut-24.png" tvg-url="https://iptvx.one/epg/epg.xml.gz" group-title="Local",Сургут 24 (720p)
 https://video1.in-news.ru/c24/index.m3u8
