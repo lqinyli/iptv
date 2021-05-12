@@ -1587,7 +1587,7 @@ https://dai2.xumo.com/xumocdn/p=redbox&deviceid=&is_lat=&subp=RedboxdesktopWebLi
 #EXTINF:-1 tvg-id="NRBTV.us" tvg-name="NRBTV" tvg-country="US" tvg-language="English" tvg-logo="" group-title="Religious",NRBTV (480p)
 https://uni6rtmp.tulix.tv/nrbnetwork/myStream.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="NTV Kenya" tvg-name="NTV Kenya" tvg-country="KE" tvg-language="English" tvg-logo="https://kenyatv.tech/wp-content/uploads/2021/04/NTV-1.jpg" group-title="",NTV Kenya
-https://stream-10.ix7.dailymotion.com/sec(oqY34t1NIwbiLJBkRzm88nQKjYR6UF4bjJ5j86l-V4g)/dm/3/x6shkab/d/live-3.m3u8
+https://stream-10.ix7.dailymotion.com/sec(oqY34t1NIwbiLJBkRzm88kmmvOB9tg2jjR8lxstVpVI)/dm/3/x6shkab/d/live-3.m3u8
 #EXTINF:-1 tvg-id="OANEncore.us" tvg-name="OAN Encore" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/9S4ZbPL.jpg" group-title="News",OAN Encore
 https://oneamericanews-roku-us.amagi.tv/hls/amagi_hls_data_oneameric-oneamericanews/CDN/512x288_875600/index.m3u8
 #EXTINF:-1 tvg-id="OANPlus.us" tvg-name="OAN Plus" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/jpDLjPW.png" group-title="",OAN Plus (1080p)
@@ -2804,19 +2804,29 @@ https://rifftrax.samsung.wurl.com/manifest/playlist.m3u8
 https://feed.rightnowtelevision.com/live/smil:rntv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RingofHonorSTIRR.us" tvg-name="Ring of Honor (STIRR)" tvg-country="US" tvg-language="English" tvg-logo="https://komonews.com/resources/media2/3x1/full/119/center/90/154876f2-ed78-4a1e-959d-96aab12af9cd-small3x1_STIRR_Logo_0720_ROHBestofthePlanet_1920x1080_EPG.png?cb=c81e728d9d4c2f636f067f89cc14862c" group-title="",Ring of Honor (STIRR) (720p)
 https://dai.google.com/linear/hls/event/RNiQYO3aTjOqTe8od1zlqA/master.m3u8
-#EXTINF:-1 tvg-id="RTAmerica.ru" tvg-name="RT America" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/3wQJsKQ.jpg" group-title="News",RT America (480p)
+#EXTINF:-1 tvg-id="RT.ru" tvg-name="RT" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/tyXIHlj.png" group-title="News",RT (720p)
+http://rt-news.secure.footprint.net/1103_2500Kb.m3u8
+#EXTINF:-1 tvg-id="RT.ru" tvg-name="RT" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/XYJEasM.png" group-title="News",RT (720p)
+http://rt-news.secure.footprint.net:80/1103.m3u8
+#EXTINF:-1 tvg-id="RT.ru" tvg-name="RT" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/XYJEasM.png" group-title="News",RT (360p)
+https://rt-news.secure.footprint.net/1103_800Kb.m3u8
+#EXTINF:-1 tvg-id="RT.ru" tvg-name="RT" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/XYJEasM.png" group-title="News",RT (1080p)
+https://strm.yandex.ru/kal/rt_hd/rt_hd0.m3u8
+#EXTINF:-1 tvg-id="RTAmerica.ru" tvg-name="RT America" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/tyXIHlj.png" group-title="News",RT America (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s96/index.m3u8
-#EXTINF:-1 tvg-id="RTAmerica.ru" tvg-name="RT America" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/tyXIHlj.png" group-title="News",RT America
-http://uiptv.do.am/1ufc/702424953/playlist.m3u8?streamType=live
-#EXTINF:-1 tvg-id="RTAmerica.ru" tvg-name="RT America" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/Du5rsc8.png" group-title="News",RT America (720p)
-https://rt-news-gd.secure2.footprint.net/1103.m3u8
-#EXTINF:-1 tvg-id="RTAmerica.ru" tvg-name="RT America" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/Du5rsc8.png" group-title="News",RT America
-https://uiptv.do.am/1ufc/702424953/playlist.m3u8
-#EXTINF:-1 tvg-id="RTDocumentary.ru" tvg-name="RT Documentary" tvg-country="RU" tvg-language="English" tvg-logo="https://i.imgur.com/XJGki3v.png" group-title="Documentary",RT Documentary (720p)
-https://rt-doc-gd.secure2.footprint.net/1101.m3u8
+#EXTINF:-1 tvg-id="RTAmerica.ru" tvg-name="RT America" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/tyXIHlj.png" group-title="News",RT America (720p)
+http://rt-usa.secure.footprint.net:80/1105.m3u8
+#EXTINF:-1 tvg-id="RTAmerica.ru" tvg-name="RT America" tvg-country="RU" tvg-language="English" tvg-logo="https://i.imgur.com/tyXIHlj.png" group-title="News",RT America (720p)
+https://rt-usa-gd.secure2.footprint.net/1105_2500Kb.m3u8
+#EXTINF:-1 tvg-id="RTDocumentary.ru" tvg-name="RT Documentary" tvg-country="RU" tvg-language="English;Russian" tvg-logo="https://i.imgur.com/XJGki3v.png" group-title="Documentary",RT Documentary (720p)
+http://rt-doc.secure.footprint.net/1101_2500Kb.m3u8
+#EXTINF:-1 tvg-id="RTDocumentary.ru" tvg-name="RT Documentary" tvg-country="RU" tvg-language="English;Russian" tvg-logo="https://i.imgur.com/XJGki3v.png" group-title="Documentary",RT Documentary (480p)
+https://rt-doc-gd.secure2.footprint.net/1101_1600Kb.m3u8
 #EXTINF:-1 tvg-id="RTUK.ru" tvg-name="RT UK" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/zdTA0ha.png" group-title="News",RT UK (720p)
-https://rt-uk-gd.secure2.footprint.net/1106.m3u8
+http://rt-uk.secure.footprint.net/1106_2500Kb.m3u8
+#EXTINF:-1 tvg-id="RTUK.ru" tvg-name="RT UK" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/tyXIHlj.png" group-title="News",RT UK (720p)
+https://rt-news-gd.secure2.footprint.net/1103.m3u8
 #EXTINF:-1 tvg-id="RTBSukmaindera.bn" tvg-name="RTB Sukmaindera" tvg-country="BN" tvg-language="Malay (macrolanguage);English" tvg-logo="https://i.imgur.com/wRzyzPA.png" group-title="",RTB Sukmaindera (1080p)
 https://rtb-channel.glue.live/smil:rtb1/chunklist.m3u8
 #EXTINF:-1 tvg-id="RTENews.ie" tvg-name="RTÉ News" tvg-country="IE" tvg-language="English" tvg-logo="http://static.epg.best/ie/RTENewsNow.ie.png" group-title="News",RTÉ News (1080p)
@@ -3171,8 +3181,8 @@ https://tscstreaming-lh.akamaihd.net/i/TSCLiveStreaming_1@91031/master.m3u8
 http://tstv-stream.tsm.utexas.edu/hls/livestream_hi/index.m3u8
 #EXTINF:-1 tvg-id="TV16Toronto.ca" tvg-name="TV 16 Toronto" tvg-country="CA" tvg-language="English" tvg-logo="https://i.imgur.com/brxkNbw.png" group-title="Local",TV 16 Toronto (720p)
 http://capcobroadcaststream.in:1935/capco/tv29/playlist.m3u8
-#EXTINF:-1 tvg-id="TVBRICSEnglish.ru" tvg-name="TV BRICS English" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/vLpm8tN.png" group-title="",TV BRICS English
-https://brics.bonus-tv.ru/cdn/brics/english/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="TVBRICSEnglish.ru" tvg-name="TV BRICS English" tvg-country="INT" tvg-language="Russian;English" tvg-logo="https://i.imgur.com/vLpm8tN.png" group-title="General",TV BRICS English
+http://brics.bonus-tv.ru/cdn/brics/english/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="TVDirect13.cw" tvg-name="TV Direct 13" tvg-country="CW" tvg-language="English" tvg-logo="https://i.imgur.com/icDfA5x.jpg" group-title="",TV Direct 13 (720p)
 https://edge1.tvdirect13.com/live/smil:mystream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TV1.zm" tvg-name="TV1" tvg-country="ZM" tvg-language="English" tvg-logo="https://www.znbc.co.zm/wp-content/uploads/2018/10/cropped-ZNBC-logo-192x192.png" group-title="",TV1 (540p)

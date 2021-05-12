@@ -13,6 +13,8 @@ http://59c5c86e10038.streamlock.net:1935/6605140/6605140/playlist.m3u8
 https://panel.dattalive.com/6605140/6605140/playlist.m3u8
 #EXTINF:-1 tvg-id="324.es" tvg-name="3/24" tvg-country="ES;AD" tvg-language="Catalan" tvg-logo="https://i.imgur.com/CnIVW9o.jpg" group-title="News",3/24 (1080p)
 https://directes-tv-int.ccma.cat/int/ngrp:324_web/chunklist.m3u8
+#EXTINF:-1 tvg-id="360degNovosti.ru" tvg-name="360° Новости" tvg-country="RU" tvg-language="Russian" tvg-logo="" group-title="News",360° Новости (1080p)
+https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8
 #EXTINF:-1 tvg-id="KMTVTV.us" tvg-name="3News Now (KMTV-TV)" tvg-country="US" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/ea/KMTV3.png" group-title="News",3News Now (KMTV-TV) (720p)
 https://content.uplynk.com/channel/328d1434fb51476cb6567c74d5b2cc70.m3u8
 #EXTINF:-1 tvg-id="92News.pk" tvg-name="92 News" tvg-country="PK" tvg-language="Urdu" tvg-logo="https://i.imgur.com/OifwcrE.png" group-title="News",92 News (720p)
@@ -482,8 +484,6 @@ http://news1.live14.com/stream/news1.m3u8
 https://news18assam-lh.akamaihd.net/i/n18assamne_1@526575/index_5_av-p.m3u8
 #EXTINF:-1 tvg-id="News18India.in" tvg-name="News18 India" tvg-country="IN" tvg-language="Hindi" tvg-logo="" group-title="News",News18 India
 https://news18india-lh.akamaihd.net/i/news18india_1@174951/index_5_av-p.m3u8
-#EXTINF:-1 tvg-id="News18Lokmat.in" tvg-name="News18 Lokmat" tvg-country="IN" tvg-language="Hindi" tvg-logo="" group-title="News",News18 Lokmat
-https://news18lokmat-lh.akamaihd.net/i/n18lokmat_1@178974/index_5_av-p.m3u8
 #EXTINF:-1 tvg-id="Newsmax.us" tvg-name="Newsmax" tvg-country="US" tvg-language="English" tvg-logo="https://image.xumo.com/v1/channels/channel/9999194/300x300.png?type=color_onBlack" group-title="News",Newsmax (1080p)
 https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="NewsMax" tvg-country="" tvg-language="" tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/606f92e82172644613403a30" group-title="News",NewsMax
@@ -540,27 +540,31 @@ https://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=0000001
 http://103.199.161.254/Content/reporter/Live/Channel(Reporter)/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Revry News" tvg-country="" tvg-language="" tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/5fc81131e591a036585913e9" group-title="News",Revry News
 https://linear-44.frequency.stream/dist/localnow/44/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-id="RT.ru" tvg-name="RT" tvg-country="RU" tvg-language="" tvg-logo="http://static.epg.best/ru/RTInternational.ru.png" group-title="News",RT (720p)
+#EXTINF:-1 tvg-id="RT.ru" tvg-name="RT" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/tyXIHlj.png" group-title="News",RT (720p)
+http://rt-news.secure.footprint.net/1103_2500Kb.m3u8
+#EXTINF:-1 tvg-id="RT.ru" tvg-name="RT" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/XYJEasM.png" group-title="News",RT (720p)
 http://rt-news.secure.footprint.net:80/1103.m3u8
-#EXTINF:-1 tvg-id="RTAmerica.ru" tvg-name="RT America" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/3wQJsKQ.jpg" group-title="News",RT America (480p)
+#EXTINF:-1 tvg-id="RT.ru" tvg-name="RT" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/XYJEasM.png" group-title="News",RT (360p)
+https://rt-news.secure.footprint.net/1103_800Kb.m3u8
+#EXTINF:-1 tvg-id="RT.ru" tvg-name="RT" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/XYJEasM.png" group-title="News",RT (1080p)
+https://strm.yandex.ru/kal/rt_hd/rt_hd0.m3u8
+#EXTINF:-1 tvg-id="RTAmerica.ru" tvg-name="RT America" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/tyXIHlj.png" group-title="News",RT America (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s96/index.m3u8
-#EXTINF:-1 tvg-id="RTAmerica.ru" tvg-name="RT America" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/tyXIHlj.png" group-title="News",RT America
-http://uiptv.do.am/1ufc/702424953/playlist.m3u8?streamType=live
-#EXTINF:-1 tvg-id="RTAmerica.ru" tvg-name="RT America" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/Du5rsc8.png" group-title="News",RT America (720p)
-https://rt-news-gd.secure2.footprint.net/1103.m3u8
-#EXTINF:-1 tvg-id="RTAmerica.ru" tvg-name="RT America" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/Du5rsc8.png" group-title="News",RT America
-https://uiptv.do.am/1ufc/702424953/playlist.m3u8
+#EXTINF:-1 tvg-id="RTAmerica.ru" tvg-name="RT America" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/tyXIHlj.png" group-title="News",RT America (720p)
+http://rt-usa.secure.footprint.net:80/1105.m3u8
+#EXTINF:-1 tvg-id="RTAmerica.ru" tvg-name="RT America" tvg-country="RU" tvg-language="English" tvg-logo="https://i.imgur.com/tyXIHlj.png" group-title="News",RT America (720p)
+https://rt-usa-gd.secure2.footprint.net/1105_2500Kb.m3u8
 #EXTINF:-1 tvg-id="RTArabic.ru" tvg-name="RT Arabic" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="" group-title="News",RT Arabic (720p)
-https://rt-arab-gd.secure2.footprint.net/1104.m3u8
+http://rt-arab.secure.footprint.net:80/1104.m3u8
 #EXTINF:-1 tvg-id="RTenEspanol.ru" tvg-name="RT en Español" tvg-country="ES" tvg-language="Spanish" tvg-logo="" group-title="News",RT en Español (720p)
-https://rt-esp.secure.footprint.net/1102.m3u8
+http://rt-esp.secure.footprint.net/1102_2500Kb.m3u8
 #EXTINF:-1 tvg-id="RTFrance.ru" tvg-name="RT France" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/gVedXRh.png" group-title="News",RT France (720p)
-https://rt-france.secure.footprint.net/1107.m3u8?streamType=live
+http://rt-france.secure.footprint.net/1107_2500Kb.m3u8
 #EXTINF:-1 tvg-id="RTUK.ru" tvg-name="RT UK" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/zdTA0ha.png" group-title="News",RT UK (720p)
-https://rt-uk-gd.secure2.footprint.net/1106.m3u8
-#EXTINF:-1 tvg-id="RTELuoSi.ru" tvg-name="RT(俄罗斯)" tvg-country="RU" tvg-language="" tvg-logo="http://static.epg.best/ru/RTInternational.ru.png" group-title="News",RT(俄罗斯)
-http://rt-news.secure.footprint.net:80/1103_2500Kb.m3u8
+http://rt-uk.secure.footprint.net/1106_2500Kb.m3u8
+#EXTINF:-1 tvg-id="RTUK.ru" tvg-name="RT UK" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/tyXIHlj.png" group-title="News",RT UK (720p)
+https://rt-news-gd.secure2.footprint.net/1103.m3u8
 #EXTINF:-1 tvg-id="RTP 3 PT" tvg-name="RTP 3 PT" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/64-393818101410.png" group-title="News",RTP3 [not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 https://streaming-live.rtp.pt/livetvhlsDVR/rtpndvr.smil/playlist.m3u8
@@ -680,11 +684,19 @@ http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 https://sc.id-tv.kz/Mir24.m3u8
 #EXTINF:-1 tvg-id="Pershiynezalezhniy.ua" tvg-name="Перший незалежний" tvg-country="UA" tvg-language="Ukrainian" tvg-logo="" group-title="News",Перший незалежний
 http://app.live.112.events/hls-ua/112hd_hi/index.m3u8
-#EXTINF:-1 tvg-id="Rossiya24.ru" tvg-name="Россия 24" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/wu7O85f.png" group-title="News",Россия 24
+#EXTINF:-1 tvg-id="Rossiya24.ru" tvg-name="Россия 24" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/wu7O85f.png" group-title="News",Россия 24 (576p)
 http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_24/playlist_3.m3u8
 #EXTINF:-1 tvg-id="Rossiya24.ru" tvg-name="Россия 24" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/wu7O85f.png" group-title="News",Россия 24 (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s21/index.m3u8
+#EXTINF:-1 tvg-id="Rossiya24NNovgorod.ru" tvg-name="Россия 24 (Н.Новгород)" tvg-country="RU" tvg-language="Russian" tvg-logo="" group-title="News",Россия 24 (Н.Новгород) (576p)
+https://live-vestinn.cdnvideo.ru/vestinn/vestinn/playlist.m3u8
+#EXTINF:-1 tvg-id="Rossiya24Ulyanovsk.ru" tvg-name="Россия 24 (Ульяновск)" tvg-country="RU" tvg-language="Russian" tvg-logo="" group-title="News",Россия 24 (Ульяновск) (720p)
+http://gtrk-volga.ru/media/hr24/stream1.m3u8
+#EXTINF:-1 tvg-id="Rossiya24Chita.ru" tvg-name="Россия 24 (Чита)" tvg-country="RU" tvg-language="Russian" tvg-logo="" group-title="News",Россия 24 (Чита) (360p)
+http://tv-online.gtrkchita.ru:8080/hls/r24-chita_360p.m3u8
+#EXTINF:-1 tvg-id="Rossiya24Chita.ru" tvg-name="Россия 24 (Чита)" tvg-country="RU" tvg-language="Russian" tvg-logo="" group-title="News",Россия 24 (Чита) (576p)
+http://tv-online.gtrkchita.ru:8080/hls/r24-chita_576p.m3u8
 #EXTINF:-1 tvg-id="TV9Kannada.in" tvg-name="TV9 Kannada" tvg-country="IN" tvg-language="Kannada" tvg-logo="https://d2jo35ozacw6sq.cloudfront.net/wp-content/themes/tv9kannada/images/Tv9-Kannada-57x57.png" group-title="News",ಟಿವಿ೯ ಕನ್ನಡ TV9 (720p)
 https://vidcdn.vidgyor.com/tv9kannada-origin/live/playlist.m3u8
 #EXTINF:-1 tvg-id="DighvijayNews24x7.in" tvg-name="Dighvijay News 24x7" tvg-country="IN" tvg-language="Kannada" tvg-logo="https://i.imgur.com/wdE7gxU.png" group-title="News",ದಿಗ್ವಿಜಯ ಸುದ್ದಿ Dighvijay (240p)
