@@ -51,10 +51,8 @@ http://streaming.elpinguino.com:1935/live/pinguinotv_360p/livestream.m3u8
 http://streaming.elpinguino.com:1935/live/pinguinotv_720p/livestream.m3u8
 #EXTINF:-1 tvg-id="ESTACIONTVHD.cl" tvg-name="ESTACION TV HD" tvg-country="CL" tvg-language="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-ikVAyjIFBMuH1_tknzbL5zxfU9kQw1YfPw&usqp=CAU" group-title="",ESTACION TV HD
 http://unlimited1-us.dps.live/estaciontv/estaciontv.smil/estaciontv/livestream2/chunks.m3u8
-#EXTINF:-1 tvg-id="France24Espanol.fr" tvg-name="France 24 Español" tvg-country="ES;LATAM" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/France24.png" group-title="News",France 24 Español
-http://f24hls-i.akamaihd.net/hls/live/520845/F24_ES_HI_HLS/master_2000.m3u8
 #EXTINF:-1 tvg-id="France24Espanol.fr" tvg-name="France 24 Español" tvg-country="ES;LATAM" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/France24.png" group-title="News",France 24 Español (576p)
-https://static.france24.com/live/F24_ES_HI_HLS/live_web.m3u8
+http://f24hls-i.akamaihd.net/hls/live/520845/F24_ES_HI_HLS/master.m3u8
 #EXTINF:-1 tvg-id="GenialTV.cl" tvg-name="Genial TV" tvg-country="CL" tvg-language="Spanish" tvg-logo="http://www.chileiptv.cl/img/logos/file_1521688260.jpg" group-title="",Genial TV
 http://v3.tustreaming.cl/genialtv/live1/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="GraciaTV.cl" tvg-name="Gracia TV" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://is1-ssl.mzstatic.com/image/thumb/Purple71/v4/dc/4f/bb/dc4fbb86-fb91-7803-17ad-9e26c5bc61f0/pr_source.png/246x0w.jpg" group-title="",Gracia TV (720p)
@@ -69,6 +67,8 @@ https://unlimited1-us.dps.live/itv/itv.smil/itv/livestream1/playlist.m3u8
 https://unlimited1-us.dps.live/itv/itv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="MAXIMA.cl" tvg-name="MAXIMA" tvg-country="CL" tvg-language="" tvg-logo="https://maximachile.cl/wp-content/uploads/2019/10/LOGO-MAXIMA-MIO-ESTATICO-e1572548123359.png" group-title="",MAXIMA
 https://server1.oklanet.cl:1936/maximavideo1/maximavideo1/chunklist_w400572797.m3u8
+#EXTINF:-1 tvg-id="MASPlusTVCHILE.cl" tvg-name="MÁS+.TV CHILE" tvg-country="CL" tvg-language="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-gJQjLC4uY64nX5RDj7As24mWj35sC73ukw&usqp=CAU" group-title="",MÁS+.TV CHILE
+https://593b04c4c5670.streamlock.net/8008/8008/playlist.m3u8
 #EXTINF:-1 tvg-id="Pauta.cl" tvg-name="Pauta" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://i.imgur.com/CFbHdqZ.jpg" group-title="",Pauta
 https://video-ply.pauta.cl/playlist/stream.m3u8
 #EXTINF:-1 tvg-id="PintanaTV.cl" tvg-name="Pintana TV" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://lh3.googleusercontent.com/-tRkb11g6GOI/WoBPJm9cd4I/AAAAAAAAgyc/lrR7FPg27aoiQryOJXRQGuG8FLpKoXxBQCK8BGAs/s132/2018-02-11.png" group-title="",Pintana TV
@@ -83,7 +83,7 @@ https://593b04c4c5670.streamlock.net/portalfoxmix/portalfoxmix/playlist.m3u8
 http://server1.oklanet.cl:1935/maximavideo1/maximavideo1/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioZetaTV.cl" tvg-name="Radio Zeta TV" tvg-country="CL" tvg-language="Spanish" tvg-logo="http://ik.imagekit.io/ulangotv/image/upload/3788384_logo_radio_zeta.png" group-title="",Radio Zeta TV (480p)
 https://unlimited1-cl.dps.live/radioztv/radioztv.smil/radioztv/livestream2/playlist.m3u8
-#EXTINF:-1 tvg-id="RewindHD.cl" tvg-name="Rewind HD" tvg-country="CL" tvg-language="" tvg-logo="https://i.imgur.com/Ni2jlBi.png" group-title="Music",Rewind HD (720p)
+#EXTINF:-1 tvg-id="RewindHD.cl" tvg-name="Rewind HD" tvg-country="CL" tvg-language="" tvg-logo="https://i.imgur.com/Ni2jlBi.png" group-title="Music",Rewind HD (720p) [Not 24/7]
 https://tls.cdnz.cl/rewindtv/rewindtv/playlist.m3u8
 #EXTINF:-1 tvg-id="RoccoTV.cl" tvg-name="Rocco TV" tvg-country="CL" tvg-language="Spanish" tvg-logo="http://roccotv.cl/wp-content/uploads/2015/02/roccotv.png" group-title="",Rocco TV (Coyhaique) (240p)
 http://evo.eltelon.com:1935/live/rocco-tv/playlist.m3u8
@@ -105,6 +105,8 @@ https://v4.tustreaming.cl/poptv/tracks-v1a1/mono.m3u8
 https://unlimited1-us.dps.live/tv5/tv5.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TVNHD.cl" tvg-name="TVN HD" tvg-country="CL" tvg-language="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLN4WfUMrRsD0b04jbG3EnYrnlV4FYPZURRw&usqp=CAU" group-title="",TVN HD
 http://unlimited10-cl.dps.live/tvn/tvn.smil/tvn/livestream1/chunks.m3u8
+#EXTINF:-1 tvg-id="TVR.cl" tvg-name="TVR" tvg-country="CL" tvg-language="" tvg-logo="https://elfiltrador.com/wp-content/uploads/2019/03/53311917_1258469654318918_8926059123426983936_n.png" group-title="",TVR
+https://unlimited1-cl.dps.live/tvr/tvr.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="UCV3TV.cl" tvg-name="UCV3 TV" tvg-country="CL" tvg-language="" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/f/f6/UCV_3.png/revision/latest?cb=20170820170650" group-title="",UCV3 TV (720p)
 http://unlimited1-cl.dps.live/ucvtv2/ucvtv2.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Uestv.cl" tvg-name="Uestv" tvg-country="CL" tvg-language="" tvg-logo="" group-title="",Uestv
@@ -129,5 +131,15 @@ https://v2.tustreaming.cl/utvsc/live1/tracks-v1a1/mono.m3u8
 https://593b04c4c5670.streamlock.net/8068/8068/playlist.m3u8
 #EXTINF:-1 tvg-id="VTV.cl" tvg-name="VTV" tvg-country="CL" tvg-language="Spanish" tvg-logo="http://images.eltelon.com/cache/media/4151/square_150x150-2.jpg" group-title="",VTV (Valle de Aconcagua)
 http://cdn.streamingmedia.cl:1935/live/vtv2/livestream3/playlist.m3u8
+#EXTINF:-1 tvg-id="VTVAconcaga.cl" tvg-name="VTV Aconcaga" tvg-country="CL" tvg-language="" tvg-logo="http://images.eltelon.com/cache/media/4151/square_150x150-2.jpg" group-title="",VTV Aconcaga
+http://unlimited1-us.dps.live/vtv/vtv.smil/vtv/livestream1/chunks.m3u8
+#EXTINF:-1 tvg-id="VTVHDiptvm3uplaylistscom.cl" tvg-name="VTV HD iptvm3uplaylists.com" tvg-country="CL" tvg-language="" tvg-logo="" group-title="",VTV HD iptvm3uplaylists.com
+http://cdn.streamingmedia.cl:1935/live//vtvvina/playlist.m3u8
+#EXTINF:-1 tvg-id="VTVValledeAconcagua.cl" tvg-name="VTV Valle de Aconcagua" tvg-country="CL" tvg-language="" tvg-logo="" group-title="",VTV Valle de Aconcagua
+http://cdn.streamingmedia.cl:1935/live/vtv2//livestream1/playlist.m3u8
+#EXTINF:-1 tvg-id="VTVVinaValparaisoHD.cl" tvg-name="VTV Vina - Valparaiso HD" tvg-country="CL" tvg-language="" tvg-logo="http://images.eltelon.com/cache/media/4151/square_150x150-2.jpg" group-title="",VTV Vina - Valparaiso HD
+http://cdn.streamingmedia.cl:1935/live/vtvvina/playlist.m3u8
 #EXTINF:-1 tvg-id="XTVMusicHD.cl" tvg-name="XTV Music HD" tvg-country="CL" tvg-language="" tvg-logo="https://i.imgur.com/Gh3UlFo.jpg" group-title="Music",XTV Music HD (720p)
 https://tls.cdnz.cl/xtvmusic/xtvmusic/playlist.m3u8
+#EXTINF:-1 tvg-id="ZappingMusicHD.cl" tvg-name="Zapping Music HD" tvg-country="CL" tvg-language="" tvg-logo="https://i.imgur.com/lHvoKdw.jpg" group-title="Music",Zapping Music HD
+https://zmlive.zappingtv.com/zm_free/zm.smil/playlist.m3u8

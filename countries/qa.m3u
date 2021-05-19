@@ -60,6 +60,8 @@ http://live-hls-web-ajd.getaj.net/AJD/01.m3u8
 http://live-hls-web-ajm.getaj.net/AJM/01.m3u8
 #EXTINF:-1 tvg-id="BBCArabic.uk" tvg-name="BBC Arabic" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/oFGPG9Y.png" group-title="News",BBC Arabic (720p)
 http://vs-cmaf-pushb-ww-live.akamaized.net/manifest/x=3/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2_akamai_dash_live_http.mpd
+#EXTINF:-1 tvg-id="BBCArabic.uk" tvg-name="BBC Arabic" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/oFGPG9Y.png" group-title="News",BBC Arabic (540p)
+http://vs-hls-pushb-ww-live.akamaized.net/manifest/x=3/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2_akamai_hls_live_http.m3u8
 #EXTINF:-1 tvg-id="beINSports1Asia.qa" tvg-name="beIN Sports 1 Asia" tvg-country="QA" tvg-language="" tvg-logo="https://static.epg.best/qa/beINSports1.qa.png" group-title="",beIN Sports 1 Asia
 https://liveanevia.mncnow.id/live/eds/BeIN1/sa_dash_vmx/BeIN1.mpd
 #EXTINF:-1 tvg-id="BloombergTVEMEALiveEvent.us" tvg-name="Bloomberg TV EMEA Live Event" tvg-country="EMEA" tvg-language="English" tvg-logo="https://i.imgur.com/EEAwv8z.jpg" group-title="Business",Bloomberg TV EMEA Live Event (720p)
@@ -72,8 +74,10 @@ https://ch.iptvmate.net/f5d063ba7b6f6a5acbb3dd649ecf38d8.m3u8
 https://dminnvll.cdn.mangomolo.com/dubaione/smil:dubaione.stream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="DWArabic.de" tvg-name="DW Arabic" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/A1xzjOI.png" group-title="News",DW Arabic (400p)
 https://dwstream2-lh.akamaihd.net/i/dwstream2_live@124400/master.m3u8
-#EXTINF:-1 tvg-id="France24Arabic.fr" tvg-name="France 24 Arabic" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/61MSiq9.png" group-title="News",France 24 Arabic (576p)
+#EXTINF:-1 tvg-id="France24Arabic.fr" tvg-name="France 24 Arabic" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/61MSiq9.png" group-title="News",France 24 Arabic (1080p)
 https://static.france24.com/live/F24_AR_HI_HLS/live_tv.m3u8
+#EXTINF:-1 tvg-id="France24Arabic.fr" tvg-name="France 24 Arabic" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/61MSiq9.png" group-title="News",France 24 Arabic (576p)
+https://static.france24.com/live/F24_AR_LO_HLS/live_web.m3u8
 #EXTINF:-1 tvg-id="MBC" tvg-name="MBC" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/eKBXOKd.png" group-title="General",MBC 1 KSA (1080p)
 https://shls-mbc1ksa-prod-dub.shahid.net/out/v1/451b666db1fb41c7a4bbecf7b4865107/index.m3u8
 #EXTINF:-1 tvg-id="MBC" tvg-name="MBC" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/eKBXOKd.png" group-title="General",MBC 1 KSA (360p)
@@ -108,6 +112,8 @@ https://admdn2.cdn.mangomolo.com/nagtv/smil:nagtv.stream.smil/playlist.m3u8
 http://qtv-i.akamaihd.net/hls/live/213233-b/QTV/master.m3u8
 #EXTINF:-1 tvg-id="QatarTV.qa" tvg-name="Qatar TV" tvg-country="QA" tvg-language="Arabic" tvg-logo="http://www.qtv.qa/assets/images/logos/qtv.png" group-title="General",Qatar TV (720p)
 https://qatartv.akamaized.net/hls/live/2026573/qtv1/master.m3u8
+#EXTINF:-1 tvg-id="QatarTV.qa" tvg-name="Qatar TV" tvg-country="QA" tvg-language="Arabic" tvg-logo="http://www.qtv.qa/assets/images/logos/qtv.png" group-title="General",Qatar TV (720p) [Not 24/7]
+https://qatartv.akamaized.net/hls/live/2026573/qtv1/master720p.m3u8
 #EXTINF:-1 tvg-id="QatarTV2.qa" tvg-name="Qatar TV 2" tvg-country="QA" tvg-language="Arabic" tvg-logo="http://www.qtv.qa/assets/images/logos/qtvTwo2.png" group-title="General",Qatar TV 2 (720p)
 https://qatartv.akamaized.net/hls/live/2026574/qtv2/master.m3u8
 #EXTINF:-1 tvg-id="QatarTV2.qa" tvg-name="Qatar TV 2" tvg-country="QA" tvg-language="" tvg-logo="" group-title="",Qatar TV 2 (720p)
@@ -124,3 +130,5 @@ https://stream.skynewsarabia.com/hls/sna.m3u8
 https://tv-trtarabi.live.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="Wanasah" tvg-name="Wanasah" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/GmgibYW.jpg" group-title="Music",Wanasah (1080p)
 https://shls-wanasah-prod-dub.shahid.net/out/v1/c84ef3128e564b74a6a796e8b6287de6/index.m3u8
+#EXTINF:-1 tvg-id="BanDaoDianShiTai.qa" tvg-name="半岛电视台" tvg-country="QA" tvg-language="" tvg-logo="" group-title="",半岛电视台
+https://live-hls-web-ajb.getaj.net/AJB/01.m3u8

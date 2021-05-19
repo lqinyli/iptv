@@ -7,8 +7,6 @@ https://5b38ce71f1f00.streamlock.net/8180/8180/playlist.m3u8
 http://live-edge01.telecentro.net.ar/live/smil:c26.smil/chunklist_w125697617_b1264000_sleng.m3u8
 #EXTINF:-1 tvg-id="Canal26.ar" tvg-name="Canal 26" tvg-country="AR;LATAM" tvg-language="Spanish" tvg-logo="http://1.bp.blogspot.com/-oaM5k7pbu3A/ULKcb6odA1I/AAAAAAAAXko/nmQ_WMr0c4k/s1600/canal26hd.png" group-title="News",Canal 26 (720p)
 http://live-edge01.telecentro.net.ar:1935/live/26hd-720/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal4RD.do" tvg-name="Canal 4 RD" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/UI8DIYE.jpg" group-title="",Canal 4 RD (720p)
-https://api.new.livestream.com/accounts/27035275/events/8371710/live.m3u8
 #EXTINF:-1 tvg-id="CANAL5.do" tvg-name="CANAL 5" tvg-country="DO" tvg-language="" tvg-logo="" group-title="",CANAL 5 (720p)
 http://www.radiosargentina.com.ar/php/tvm3u.php
 #EXTINF:-1 tvg-id="CANALAME47HD.do" tvg-name="CANAL AME 47 HD" tvg-country="DO" tvg-language="" tvg-logo="https://live-tv-channels.org/pt-data/uploads/logo/do-ame-47-tv-1188.jpg?fbclid=IwAR1r-g3rV6p267JpjOxS7T-kt_or8H2T-ebvAtOyQlFqig7k8WTntWPYI7g#" group-title="",CANAL AME 47 HD
@@ -33,12 +31,14 @@ https://dwstream3-lh.akamaihd.net/i/dwstream3_live@124409/master.m3u8
 http://dwstream3-lh.akamaihd.net/i/dwstream3_live@124409/index_1_av-p.m3u8
 #EXTINF:-1 tvg-id="ElGarageTV.ar" tvg-name="El Garage TV" tvg-country="HISPAM;ES" tvg-language="Spanish" tvg-logo="https://i.imgur.com/cd0hP5e.png" group-title="Auto",El Garage TV (480p)
 http://186.0.233.76:1935/Garage/smil:garage.smil/master.m3u8
-#EXTINF:-1 tvg-id="France24Espanol.fr" tvg-name="France 24 Español" tvg-country="ES;LATAM" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/France24.png" group-title="News",France 24 Español
-http://f24hls-i.akamaihd.net/hls/live/520845/F24_ES_HI_HLS/master_2000.m3u8
 #EXTINF:-1 tvg-id="France24Espanol.fr" tvg-name="France 24 Español" tvg-country="ES;LATAM" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/France24.png" group-title="News",France 24 Español (576p)
-https://static.france24.com/live/F24_ES_HI_HLS/live_web.m3u8
+http://f24hls-i.akamaihd.net/hls/live/520845/F24_ES_HI_HLS/master.m3u8
 #EXTINF:-1 tvg-id="GDMTELEVISION.do" tvg-name="GDM TELEVISION" tvg-country="DO" tvg-language="" tvg-logo="https://i0.wp.com/www.gdm.do/wp-content/uploads/2020/01/Logo-GDM.png?w=696&ssl=1" group-title="",GDM TELEVISION
 https://ss2.domint.net:3200/gdm_str/gdmtv/chunklist_w1317041912.m3u8
+#EXTINF:-1 tvg-id="GHTELEVISIONCANAL10HD.do" tvg-name="GH TELEVISION CANAL 10 HD" tvg-country="DO" tvg-language="" tvg-logo="" group-title="",GH TELEVISION CANAL 10 HD
+https://cloudflare.streamgato.us:3352/live/ghtelevisionhdlive.m3u8
+#EXTINF:-1 tvg-id="GHTELEVISIONCANAL10HD.do" tvg-name="GH TELEVISION CANAL 10 HD" tvg-country="DO" tvg-language="" tvg-logo="https://yt3.ggpht.com/ytc/AAUvwninYlGRCnZuK3DTrVqyzK4bbB9LoZUSJI-pww3yRA=s900-c-k-c0x00ffffff-no-rj" group-title="",GH TELEVISION CANAL 10 HD
+https://cloudflare.streamgato.us:3352/live/ghtelevisionhdlive.m3u8?DVR
 #EXTINF:-1 tvg-id="HilandoFino.do" tvg-name="Hilando Fino" tvg-country="DO" tvg-language="Spanish" tvg-logo="http://www.hilandofinotv.com/wp-content/uploads/2017/04/cropped-logo-tv-3.png" group-title="",Hilando Fino (720p)
 https://4k-server-mia.2cdn.eu//HilandoFinoTV/ngrp:HilandoFinoTV_all/playlist.m3u8
 #EXTINF:-1 tvg-id="HM.do" tvg-name="HM" tvg-country="DO" tvg-language="Spanish" tvg-logo="http://emisoradominicana.net/television/wp-content/uploads/2015/06/hermanas-mirabal-tv.jpg" group-title="",HM (720p)
@@ -57,9 +57,9 @@ http://ss6.domint.net:2052/otv_str/tv10/playlist.m3u8
 https://ss3.domint.net:3134/otv_str/orbittv/chunklist_w1625501623.m3u8
 #EXTINF:-1 tvg-id="PH.do" tvg-name="PH" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://3.bp.blogspot.com/-INH3BeYCloo/XWVcY2zOpUI/AAAAAAAAmxI/YRwbGEa3orQf7ltrcE2VTv20TPoqYSiygCLcBGAs/s320/PHTV.png" group-title="",PH (720p)
 https://cm.hostlagarto.com:4445/phtv/Phtv.myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="ReadyTV.do" tvg-name="Ready TV" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/QT78nTj.png" group-title="",Ready TV
+#EXTINF:-1 tvg-id="ReadyTV.do" tvg-name="Ready TV" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/QT78nTj.png" group-title="",Ready TV [Not 24/7]
 http://190.103.183.24:1935/ReadyTV/ReadyHD/chunklist.m3u8
-#EXTINF:-1 tvg-id="READYTVCANAL6HD.do" tvg-name="READY TV CANAL 6 HD" tvg-country="DO" tvg-language="" tvg-logo="http://juanvmedrano.com/readytv/wp-content/uploads/2016/12/Ready-Logo-2016-oi2.png" group-title="",READY TV CANAL 6 HD (360p)
+#EXTINF:-1 tvg-id="READYTVCANAL6HD.do" tvg-name="READY TV CANAL 6 HD" tvg-country="DO" tvg-language="" tvg-logo="http://juanvmedrano.com/readytv/wp-content/uploads/2016/12/Ready-Logo-2016-oi2.png" group-title="",READY TV CANAL 6 HD (360p) [Not 24/7]
 http://190.103.183.24:1935/ReadyTV/ReadyHD/playlist.m3u8
 #EXTINF:-1 tvg-id="RNN.do" tvg-name="RNN" tvg-country="DO" tvg-language="" tvg-logo="" group-title="",RNN
 https://ss2.domint.net:3202/rnn_str/canal27/chunklist_w1813055510.m3u8

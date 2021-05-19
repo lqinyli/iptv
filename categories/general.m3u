@@ -122,7 +122,7 @@ http://82.212.74.100:8000/live/8130.m3u8
 #EXTINF:-1 tvg-id="FailArmy.us" tvg-name="Fail Army" tvg-country="US" tvg-language="English" tvg-logo="https://assets.tvplayer.com/tvos/images/channels/585.png" group-title="General",Fail Army (720p)
 https://dai.google.com/linear/hls/event/7tuuoX1wSsCTaki1HqJFYw/master.m3u8
 #EXTINF:-1 tvg-id="FastWay.us" tvg-name="FastWay" tvg-country="US;IN" tvg-language="English" tvg-logo="" group-title="General",FastWay (576p)
-http://fastway.ddns.net:6421/fastway/live10/index.m3u8?
+http://fastway.ddns.net:6421/fastway/live10/index.m3u8
 #EXTINF:-1 tvg-id="France2.fr" tvg-name="France 2" tvg-country="FR" tvg-language="French" tvg-logo="https://www.francetvpub.fr/wp-content/uploads/2018/01/france_2_logo_rvb_2_couleur_noir-crop-226x180.png" group-title="General",France 2 (576p)
 http://cdn.webtv4.cdnfr.orange.fr/hs/HALO3/hls/france2live-12471/hls/index.m3u8
 #EXTINF:-1 tvg-id="FutureTV.lb" tvg-name="Future TV" tvg-country="LB" tvg-language="Arabic" tvg-logo="http://futuretvnetwork.com/images/logo.png" group-title="General",Future TV (486p)
@@ -151,7 +151,7 @@ https://5a3ed7a72ed4b.streamlock.net/live/SMIL:myStream.smil/chunklist.m3u8
 https://eitc.secure2.footprint.net/egress/chandler/emirates/eitc/master22-vod.m3u8
 #EXTINF:-1 tvg-id="LanaPlusTV.sy" tvg-name="Lana Plus TV" tvg-country="SY" tvg-language="Arabic" tvg-logo="https://lanacanal.tv/LanaTVPlus/wp-content/uploads/2019/09/Untitled-1.png" group-title="General",Lana Plus TV (720p)
 https://eitc.secure2.footprint.net/egress/chandler/emirates/eitc2/m3u8/sdi2-720p.m3u8
-#EXTINF:-1 tvg-id="LBC" tvg-name="LBC" tvg-country="LB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/YLcmYCR.png" group-title="General",LBC (1080p)
+#EXTINF:-1 tvg-id="LBC" tvg-name="LBC" tvg-country="LB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/YLcmYCR.png" group-title="General",LBC (1080p) [Geo-blocked]
 https://hiplayer.hibridcdn.net/t/rotana-lbc.m3u8
 #EXTINF:-1 tvg-id="LBCInternational.lb" tvg-name="LBC International" tvg-country="LB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/YPR45yP.png" group-title="General",LBC International (1080p)
 http://93.184.1.247/LBC-International/index.m3u8
@@ -205,8 +205,6 @@ http://htvpalsat.mada.ps:8888/PBC/tracks-v1a1/mono.m3u8
 https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/palestinian_satellite_channel/hls1/palestinian_satellite_channel.m3u8
 #EXTINF:-1 tvg-id="PBCTapeshTV.us" tvg-name="PBC Tapesh TV" tvg-country="US;IR" tvg-language="Persian" tvg-logo="" group-title="General",PBC Tapesh TV (720p)
 https://iptv.tapesh.tv/tapesh/playlist.m3u8
-#EXTINF:-1 tvg-id="PBSAmerica.us" tvg-name="PBS America" tvg-country="US" tvg-language="English" tvg-logo="" group-title="General",PBS America
-http://51.52.156.22:8888/http/012
 #EXTINF:-1 tvg-id="PBSAmerica.us" tvg-name="PBS America" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/J4zE5z9.jpg" group-title="General",PBS America (720p)
 https://pbs-samsunguk.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="PeopleTV.us" tvg-name="People TV" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/lSAfKXY.jpg" group-title="General",People TV
@@ -221,6 +219,8 @@ https://streamer-b02.videos.sapo.pt/live/portocanal/playlist.m3u8
 https://stream1.1616.ro:1945/prima/livestream/playlist.m3u8?wowzatokenhash=hOdIznDoakApEuQ8FaFI3yrJuBMZHqCB7B3cWTmRWsc=
 #EXTINF:-1 tvg-id="QatarTV.qa" tvg-name="Qatar TV" tvg-country="QA" tvg-language="Arabic" tvg-logo="http://www.qtv.qa/assets/images/logos/qtv.png" group-title="General",Qatar TV (720p)
 https://qatartv.akamaized.net/hls/live/2026573/qtv1/master.m3u8
+#EXTINF:-1 tvg-id="QatarTV.qa" tvg-name="Qatar TV" tvg-country="QA" tvg-language="Arabic" tvg-logo="http://www.qtv.qa/assets/images/logos/qtv.png" group-title="General",Qatar TV (720p) [Not 24/7]
+https://qatartv.akamaized.net/hls/live/2026573/qtv1/master720p.m3u8
 #EXTINF:-1 tvg-id="QatarTV2.qa" tvg-name="Qatar TV 2" tvg-country="QA" tvg-language="Arabic" tvg-logo="http://www.qtv.qa/assets/images/logos/qtvTwo2.png" group-title="General",Qatar TV 2 (720p)
 https://qatartv.akamaized.net/hls/live/2026574/qtv2/master.m3u8
 #EXTINF:-1 tvg-id="RedeBrasil.br" tvg-name="Rede Brasil" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/3/39/Logotipo_da_Rede_Brasil_de_Televis%C3%A3o.png" group-title="General",Rede Brasil (720p)
@@ -229,8 +229,10 @@ https://59f2354c05961.streamlock.net:1443/rbtv/_definst_/rbtv/playlist.m3u8
 https://feed.rightnowtelevision.com/live/smil:rntv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Roya TV ARB" tvg-name="Roya TV ARB" tvg-country="JO" tvg-language="Arabic" tvg-logo="https://i.imgur.com/Sa2nBTP.png" group-title="General",Ro'ya TV (720p)
 https://weyyak-live.akamaized.net/weyyak_roya/index.m3u8
-#EXTINF:-1 tvg-id="Rotana Drama" tvg-name="Rotana Drama" tvg-country="SA" tvg-language="Arabic" tvg-logo="https://rotana.net/assets/themes/TriTheme/images/channels/drama.png" group-title="General",Rotana Drama HD (1080p)
+#EXTINF:-1 tvg-id="Rotana Drama" tvg-name="Rotana Drama" tvg-country="SA" tvg-language="Arabic" tvg-logo="https://rotana.net/assets/themes/TriTheme/images/channels/drama.png" group-title="General",Rotana Drama HD (1080p) [Geo-blocked]
 https://hiplayer.hibridcdn.net/t/rotana-drama.m3u8
+#EXTINF:-1 tvg-id="Rotana Drama" tvg-name="Rotana Drama" tvg-country="SA" tvg-language="Arabic" tvg-logo="https://rotana.net/assets/themes/TriTheme/images/channels/drama.png" group-title="General",Rotana Drama HD (1080p)
+https://shls-rotanadrama-prod-dub.shahid.net/out/v1/20c617b40dc743589ecc9d08d9d3345d/index.m3u8
 #EXTINF:-1 tvg-id="RotanaPlus.sa" tvg-name="Rotana+" tvg-country="SA" tvg-language="Arabic" tvg-logo="https://rotana.net/assets/themes/TriTheme-new/images/channels/hd.png" group-title="General",Rotana+ (1080p)
 https://shls-rotanaplus-prod-dub.shahid.net/out/v1/1fc6103458be480b96e6a574b00fe1c0/index.m3u8
 #EXTINF:-1 tvg-id="RTP Acores PT" tvg-name="RTP Acores PT" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/106-563419141305.png" group-title="General",RTP Açores
