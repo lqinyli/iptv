@@ -617,9 +617,9 @@ https://5c7b683162943.streamlock.net/live/ngrp:Bahrain%20Sports%202_all/playlist
 #EXTINF:-1 tvg-id="BahrainTV.bh" tvg-name="Bahrain TV" tvg-country="BH" tvg-language="Arabic" tvg-logo="https://i.imgur.com/XZcLqWk.jpg" group-title="Arabic",Bahrain TV (720p)
 http://185.105.4.106:1935/live/Bahrain%20TV/playlist.m3u8
 #EXTINF:-1 tvg-id="BBCArabic.uk" tvg-name="BBC Arabic" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/oFGPG9Y.png" group-title="Arabic",BBC Arabic (720p)
-http://vs-cmaf-pushb-ww-live.akamaized.net/manifest/x=3/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2_akamai_dash_live_http.mpd
+https://vs-cmaf-pushb-ww-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2_akamai_dash_live.mpd
 #EXTINF:-1 tvg-id="BBCArabic.uk" tvg-name="BBC Arabic" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/oFGPG9Y.png" group-title="Arabic",BBC Arabic (540p)
-http://vs-hls-pushb-ww-live.akamaized.net/manifest/x=3/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2_akamai_hls_live_http.m3u8
+https://vs-hls-pushb-ww-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2_akamai_hls_live.m3u8
 #EXTINF:-1 tvg-id="Beity.sa" tvg-name="Beity" tvg-country="SA" tvg-language="Arabic" tvg-logo="https://i.imgur.com/7aD1yan.jpg" group-title="Arabic",Beity
 http://82.212.74.2:8000/live/7312.m3u8
 #EXTINF:-1 tvg-id="CartoonNetworkArabic.us" tvg-name="Cartoon Network Arabic" tvg-country="MENA" tvg-language="Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Cartoon_Network_Arabic_logo.png/693px-Cartoon_Network_Arabic_logo.png" group-title="Arabic",Cartoon Network Arabic (1080p)
@@ -3370,9 +3370,9 @@ http://live.4ulive.ir/
 #EXTINF:-1 tvg-id="AllSports.ir" tvg-name="All Sports" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Persian",All Sports (1080p)
 http://cdn1.live.irib.ir:1935/channel-live/smil:varzesh.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="BBCPersian.uk" tvg-name="BBC Persian" tvg-country="IR" tvg-language="Persian" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/44/BBC_News_Persian_Logo.jpg" group-title="Persian",BBC Persian (720p)
-http://vs-cmaf-pushb-ww-live.akamaized.net/manifest/x=3/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2_akamai_dash_live_http.mpd
+https://vs-cmaf-pushb-ww-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2_akamai_dash_live.mpd
 #EXTINF:-1 tvg-id="BBCPersian.uk" tvg-name="BBC Persian" tvg-country="IR" tvg-language="Persian" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/44/BBC_News_Persian_Logo.jpg" group-title="Persian",BBC Persian (540p)
-http://vs-hls-pushb-ww-live.akamaized.net/manifest/x=3/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2_akamai_hls_live_http.m3u8
+https://vs-hls-pushb-ww-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2_akamai_hls_live.m3u8
 #EXTINF:-1 tvg-id="EBC1TV.ir" tvg-name="EBC1 TV" tvg-country="IR" tvg-language="Persian" tvg-logo="https://www.livefarsi.com/uploads/tv_image/ebc1-tv.jpg" group-title="Persian",EBC1 TV (720p)
 https://vsn1-cdn-phx.icastcenter.com/EBC1/EBC1/playlist.m3u8
 #EXTINF:-1 tvg-id="GEM24b.ir" tvg-name="GEM 24b" tvg-country="IR" tvg-language="Persian" tvg-logo="https://i1.wp.com/www.irtv98.com/wp-content/uploads/2020/08/24b.png?resize=1335%2C844&ssl=1" group-title="Persian",GEM 24b [Geo-blocked]
@@ -4245,8 +4245,14 @@ https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_540p.m3u8
 https://5c3fb01839654.streamlock.net:554/iptvantares/liveantarestv/playlist.m3u8
 #EXTINF:-1 tvg-id="AXN.us" tvg-name="AXN" tvg-country="US" tvg-language="Spanish" tvg-logo="" group-title="Spanish",AXN
 http://136.243.177.164/AXN/playlist.m3u8
+#EXTINF:-1 tvg-id="BestCableMusic.pe" tvg-name="Best Cable Music" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/BestCableMusicCanal97/picture?width=320&height=320" group-title="Spanish",Best Cable Music (720p) [Not 24/7]
+https://live.siete.us/bestcablemusic/bestcablemusic/index.m3u8
+#EXTINF:-1 tvg-id="BestCableMasCumbia.pe" tvg-name="Best Cable Más Cumbia" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/BestCableMusicCanal97/picture?width=320&height=320" group-title="Spanish",Best Cable Más Cumbia (720p) [Not 24/7]
+https://live.siete.us/mascumbiatvonline/mascumbiatvonline/index.m3u8
 #EXTINF:-1 tvg-id="BestCablePeru.pe" tvg-name="Best Cable Perú" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/BestCableTvCanal3/picture?width=320&height=320" group-title="Spanish",Best Cable Perú
 https://live.siete.us/bestcable/bestcable/index.m3u8
+#EXTINF:-1 tvg-id="BestCableSportsPeru.pe" tvg-name="Best Cable Sports Perú" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/BestCableSportsCanal6/picture?width=320&height=320" group-title="Spanish",Best Cable Sports Perú (720p) [Not 24/7]
+https://live.siete.us/bestcablesports/bestcablesports/index.m3u8
 #EXTINF:-1 tvg-id="BeXtremeTVLima.pe" tvg-name="BeXtreme TV (Lima)" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/d9n0sOZ.png" group-title="Spanish",BeXtreme TV (Lima) (1080p) [Not 24/7]
 https://video1.getstreamhosting.com:1936/8106/8106/playlist.m3u8
 #EXTINF:-1 tvg-id="BHTV.pe" tvg-name="BHTV" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/7hP4nps.png" group-title="Spanish",BHTV (720p)
@@ -4391,6 +4397,8 @@ https://mdstrm.com/live-stream-playlist_800/58dc3d471cbe05ff3c8e463e.m3u8
 https://query-streamlink.lanesh4d0w.repl.co/iptv-query?streaming-ip=https://www.twitch.tv/nuestratvlima
 #EXTINF:-1 tvg-id="OmegaTVYurimaguas.pe" tvg-name="Omega TV (Yurimaguas)" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/omegatvyurimaguas/picture?width=320&height=320" group-title="Spanish",Omega TV (Yurimaguas) [Not 24/7]
 https://7.innovatestream.pe:19360/omega/omega.m3u8
+#EXTINF:-1 tvg-id="OvacionTVLima.pe" tvg-name="Ovación TV (Lima)" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/ovacionperu/picture?width=320&height=320" group-title="Spanish",Ovación TV (Lima) [Not 24/7]
+https://5c3fb01839654.streamlock.net:1963/iptvovacion1/liveovacion1tv/playlist.m3u8
 #EXTINF:-1 tvg-id="OyeTV.pa" tvg-name="Oye TV" tvg-country="PA" tvg-language="Spanish" tvg-logo="https://i.imgur.com/IqLT2CC.png" group-title="Spanish",Oye TV (480p)
 https://mdstrm.com/live-stream-playlist/5d88df173853e7072f3f953f.m3u8
 #EXTINF:-1 tvg-id="PanamericanaTV.pe" tvg-name="Panamericana TV" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/uQhEDES.png" group-title="Spanish",Panamericana TV (HD) [Not 24/7]
@@ -4433,10 +4441,16 @@ https://7.innovatestream.pe:19360/rtvtotal/rtvtotal.m3u8
 https://rtvc-live1-rm.flumotion.com/playlist.m3u8
 #EXTINF:-1 tvg-id="RuidosFM.cl" tvg-name="Ruidos FM" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://i.imgur.com/IvSqpx0.jpg" group-title="Spanish",Ruidos FM (360p)
 https://593b04c4c5670.streamlock.net:443/8038/8038/playlist.m3u8
+#EXTINF:-1 tvg-id="RWTelevisionTarapoto.pe" tvg-name="RW Televisión (Tarapoto)" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/rwtelevision/picture?width=320&height=320" group-title="Spanish",RW Televisión (Tarapoto) [Not 24/7]
+https://tvdatta.com:3952/live/rwtelevisionlive.m3u8
 #EXTINF:-1 tvg-id="SBN.us" tvg-name="SBN" tvg-country="US" tvg-language="Spanish" tvg-logo="http://sonlifetv.com/images/logo.png" group-title="Spanish",SBN
 https://sonlife5-i.akamaihd.net/hls/live/584631/ch5/ch51/ch51.m3u8
 #EXTINF:-1 tvg-id="ShalomTV.us" tvg-name="Shalom TV" tvg-country="INT" tvg-language="Spanish" tvg-logo="https://i3.wp.com/unored.tv/wp-content/uploads/2018/10/Shalom-TV-logo-oficial.jpg" group-title="Spanish",Shalom TV
 https://livestreamcdn.net:444/ShalomTV/ShalomTV/chunklist_w1625794902.m3u8
+#EXTINF:-1 tvg-id="SomosTelevisionChimbote.pe" tvg-name="Somos Televisión (Chimbote)" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/somostelevision/picture?width=320&height=320" group-title="Spanish",Somos Televisión (Chimbote) [Not 24/7]
+https://query-streamlink.lanesh4d0w.repl.co/iptv-query?streaming-ip=https://www.pscp.tv/somostv/1YqKDeErkvOGV
+#EXTINF:-1 tvg-id="StereoTVPeru.pe" tvg-name="Stereo TV (Peru)" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/StereotvOficial/picture?width=320&height=320" group-title="Spanish",Stereo TV (Peru) [Not 24/7]
+https://servers.amelbasoluciones.co:19360/5medialive/5medialive.m3u8
 #EXTINF:-1 tvg-id="SuperCanalYurimaguas.pe" tvg-name="Super Canal (Yurimaguas)" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/supercanalyuri/picture?width=320&height=320" group-title="Spanish",Super Canal (Yurimaguas) [Not 24/7]
 https://7.innovatestream.pe:19360/supercanal/supercanal.m3u8
 #EXTINF:-1 tvg-id="Taroteame.es" tvg-name="Tarotéame" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://i.imgur.com/OgEeQzl.jpg" group-title="Spanish",Tarotéame (576p)
@@ -4459,6 +4473,8 @@ https://stmv.panel.mivideo.pro/cinetv/cinetv/playlist.m3u8
 http://212.104.160.156:1935/live/trebujenatv2/master.m3u8
 #EXTINF:-1 tvg-id="TrebujenaTV.es" tvg-name="Trebujena TV" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://bopiweb.com/imagenes/2580/tomo.1.M-3503739-3.jpg" group-title="Spanish",Trebujena TV (360p)
 https://wowzaprod256-i.akamaihd.net/hls/live/779970/7e9bac89/playlist.m3u8
+#EXTINF:-1 tvg-id="TropicalTVPuertoMaldonado.pe" tvg-name="Tropical TV (Puerto Maldonado)" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/radiotropical105.7fm/picture?width=320&height=320" group-title="Spanish",Tropical TV (Puerto Maldonado) [Not 24/7]
+https://tv.oyotunstream.com:1936/tropicaltv/tropicaltv/playlist.m3u8
 #EXTINF:-1 tvg-id="TurboMixRadioTV.pe" tvg-name="Turbo Mix Radio TV" tvg-country="PE" tvg-language="Spanish" tvg-logo="" group-title="Spanish",Turbo Mix Radio TV (480p)
 http://167.114.116.212:1935/tvmb/turbomix/master.m3u8
 #EXTINF:-1 tvg-id="TVCosmos.pe" tvg-name="TV Cosmos" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/TVCosmosPeru/picture?width=320&height=320" group-title="Spanish",TV Cosmos (480p)
@@ -4485,6 +4501,8 @@ https://live.siete.us/uraniotv/uraniotv/index.m3u8
 https://5ee0faac3bbae.streamlock.net/visionnoticias/visionnoticias/playlist.m3u8
 #EXTINF:-1 tvg-id="VisionTVMusicaPeru.pe" tvg-name="Visión TV Musica (Peru)" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/visiontvmusica/picture?width=320&height=320" group-title="Spanish",Visión TV Musica (Peru)
 https://5ee0faac3bbae.streamlock.net/visionmusica/visionmusica/playlist.m3u8
+#EXTINF:-1 tvg-id="VIATelevisión.pe" tvg-name="VIA Televisión" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/viatelevisionperu/picture?width=320&height=320" group-title="Spanish",Vía Televisión (Tarapoto) [Not 24/7]
+https://5ee0faac3bbae.streamlock.net:443/viatv2021/viatv2021/playlist.m3u8
 #EXTINF:-1 tvg-id="Willax.pe" tvg-name="Willax" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/willaxtv/picture?width=320&height=320" group-title="Spanish",Willax
 https://query-streamlink.lanesh4d0w.repl.co/iptv-query?streaming-ip=https://www.dailymotion.com/WillaxTV
 #EXTINF:-1 tvg-id="WOWTV.sv" tvg-name="WOW TV" tvg-country="SV" tvg-language="Spanish" tvg-logo="" group-title="Spanish",WOW TV
@@ -4535,6 +4553,10 @@ http://rtmp.santhoratv.zecast.net/santhora/santhorashortfilm/playlist.m3u8
 https://vidcdn.vidgyor.com/thanthi-origin/liveabr/thanthi-origin/live1/playlist.m3u8
 #EXTINF:-1 tvg-id="Velicham.in" tvg-name="Velicham" tvg-country="IN" tvg-language="Tamil" tvg-logo="https://i.imgur.com/YeR3mm9.png" group-title="Tamil",Velicham (360p) [Not 24/7]
 https://rtmp.smartstream.video/velichamtv/velichamtv/playlist.m3u8
+#EXTINF:-1 tvg-id="TV9News.in" tvg-name="TV9 NEWS" tvg-country="IN" tvg-language="Telugu" tvg-logo="https://www.lyngsat-logo.com/logo/tv/tt/tv-9-telugu-in.png" group-title="Telugu",TV9 News
+http://103.199.161.254/Content/tv9telungu/Live/Channel(TV9Telungu)/index.m3u8
+#EXTINF:-1 tvg-id="ZeeCinemalu.in" tvg-name="ZEE CINEMALU" tvg-country="IN" tvg-language="Telugu" tvg-logo="https://picon-13398.kxcdn.com/zeecinemain.jpg" group-title="Telugu",ZEE CINEMALU
+https://y5w8j4a9.ssl.hwcdn.net/zcinemalusd//tracks-v1a1/playlist.m3u8
 #EXTINF:-1 tvg-id="News1.th" tvg-name="News1" tvg-country="TH" tvg-language="Thai" tvg-logo="https://news1live.com/images/social-share-logo.png" group-title="Thai",News1
 http://news1.live14.com/stream/news1.m3u8
 #EXTINF:-1 tvg-id="4TurkMusic.fr" tvg-name="4 Turk Music" tvg-country="FR;TK" tvg-language="Turkish" tvg-logo="" group-title="Turkish",4 Turk Music
