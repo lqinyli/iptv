@@ -121,6 +121,8 @@ https://alaraby.cdn.octivid.com/alaraby/smil:alaraby.stream.smil/playlist.m3u8
 http://82.212.74.3:8000/live/7512.m3u8
 #EXTINF:-1 tvg-id="AmarUjala.in" tvg-name="Amar Ujala" tvg-country="IN" tvg-language="Hindi" tvg-logo="" group-title="News",Amar Ujala (360p)
 https://streamcdn.amarujala.com/live/smil:stream1.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="ANN.sy" tvg-name="ANN" tvg-country="SY" tvg-language="Arabic" tvg-logo="http://www.freeetv.com/images/01_logo/arab_news_network.jpg" group-title="News",ANN
+http://ns8.indexforce.com:1935/ann/ann/playlist.m3u8
 #EXTINF:-1 tvg-id="Antena3.ro" tvg-name="Antena 3" tvg-country="RO" tvg-language="Romanian" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/91/Antena_3_%282016-present%29.png" group-title="News",Antena 3 (720p)
 https://ivm.antenaplay.ro/live/a3/playlist.m3u8
 #EXTINF:-1 tvg-id="ARB24.az" tvg-name="ARB 24" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://i.imgur.com/wiIJMek.jpg" group-title="News",ARB 24
@@ -164,8 +166,6 @@ http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
 http://ott-cdn.ucom.am/s24/index.m3u8
 #EXTINF:-1 tvg-id="BBCWorldNewsYingGuo.uk" tvg-name="BBC World News(英国)" tvg-country="UK" tvg-language="" tvg-logo="http://static.epg.best/gb/BBCWorldNews.uk.png" group-title="News",BBC World News(英国)
 https://liveanevia.mncnow.id/live/eds/BBCWorldNews/sa_dash_vmx/BBCWorldNews.mpd
-#EXTINF:-1 tvg-id="BeritaRTM.my" tvg-name="Berita RTM" tvg-country="MY" tvg-language="Malay (macrolanguage)" tvg-logo="https://berita.rtm.gov.my/images/logobes.jpg" group-title="News",Berita RTM (1080p)
-https://rtmbesmobile.secureswiftcontent.com/Origin03/ngrp:RTM3/playlist.m3u8
 #EXTINF:-1 tvg-id="BeritaSatu.id" tvg-name="BeritaSatu" tvg-country="ID" tvg-language="Indonesian" tvg-logo="" group-title="News",BeritaSatu
 http://edge.linknetott.swiftserve.com/live/BsNew/amlst:beritasatunewsbs/chunklist_b846000.m3u8
 #EXTINF:-1 tvg-id="BeritaSatu.id" tvg-name="BeritaSatu" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://m3u-editor.com/storage/channel-logos/07cd9d90-3cc5-11ea-9aa8-0b5bd3ba261d/92697/14040323.png" group-title="News",BeritaSatu
@@ -262,10 +262,14 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5421f71da6af422839
 https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="CNNInternational.us" tvg-name="CNN International" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/bD9jUgK.png" group-title="News",CNN International (720p)
 https://cnn-cnninternational-1-de.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="CNNInternational.us" tvg-name="CNN International" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/bD9jUgK.png" group-title="News",CNN International
+https://cnn-cnninternational-1-de.samsung.wurl.com/manifest/playlist_384_216_500k.m3u8
 #EXTINF:-1 tvg-id="CNNInternational.us" tvg-name="CNN International" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/2BXCg0x.jpg" group-title="News",CNN International (720p)
 https://cnn-cnninternational-1-gb.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="CNNInternationalMeiGuo.us" tvg-name="CNN International (美国)" tvg-country="US" tvg-language="English" tvg-logo="http://static.epg.best/gb/CNN.uk.png" group-title="News",CNN International (美国)
 https://liveanevia.mncnow.id/live/eds/CNNInternational/sa_dash_vmx/CNNInternational.mpd
+#EXTINF:-1 tvg-id="CNNInternationalHD.us" tvg-name="CNN International HD" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/bD9jUgK.png" group-title="News",CNN International HD
+https://cnn-cnninternational-1-gb.samsung.wurl.com/manifest/playlist_1280x720_3000k.m3u8
 #EXTINF:-1 tvg-id="CNNTurk.us" tvg-name="CNN Türk" tvg-country="US;TR" tvg-language="Turkish" tvg-logo="http://haber.sol.org.tr/sites/default/files/styles/newsimagestyle_615x410/public/20110201141238cnn_turk_logosu.png" group-title="News",CNN Türk
 http://media.netd.com.tr/S1/HLS_LIVE/cnn_turk/1000/prog_index.m3u8
 #EXTINF:-1 tvg-id="DBCNews.bd" tvg-name="DBC News" tvg-country="BD" tvg-language="Bengali" tvg-logo="" group-title="News",DBC News (1080p)
@@ -368,6 +372,8 @@ https://edge.free-speech-tv-live.top.comcast.net/out/u/fstv.m3u8
 https://dai.google.com/linear/hls/event/YakHdnr_RpyszducVuHOpQ/master.m3u8
 #EXTINF:-1 tvg-id="GacetaUcayalina.pe" tvg-name="Gaceta Ucayalina" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/GacetaUcayalinaTelevision/picture?width=320&height=320" group-title="News",Gaceta Ucayalina [Not 24/7]
 https://tvsource.gacetaucayalina.com/hls/prueba.m3u8
+#EXTINF:-1 tvg-id="GBNews.uk" tvg-name="GB News" tvg-country="UK" tvg-language="English" tvg-logo="https://www.gbnews.uk/view-resources/dachser2/public/gbnews/logo.svg" group-title="News",GB News
+https://live-gbnews.simplestreamcdn.com/gbnews/gbnews/bitrate1.isml/live.m3u8
 #EXTINF:-1 tvg-id="GlobalNews.ca" tvg-name="Global News" tvg-country="CA" tvg-language="English" tvg-logo="https://i.imgur.com/mhhVQE6.png" group-title="News",Global News (720p)
 https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/master.m3u8
 #EXTINF:-1 tvg-id="GlobalPunjab.in" tvg-name="Global Punjab" tvg-country="IN" tvg-language="Hindi" tvg-logo="" group-title="News",Global Punjab (720p)
@@ -562,6 +568,8 @@ https://live.paltoday.tv/paltv/live/playlist.m3u8
 https://live.palitranews.ge/hls/palitratv/index.m3u8
 #EXTINF:-1 tvg-id="PalitraNews.ge" tvg-name="Palitra News" tvg-country="GE" tvg-language="Georgian" tvg-logo="https://i.imgur.com/AqSRphj.png" group-title="News",Palitra News
 https://livestream.palitra.ge/hls/palitratv/index.m3u8
+#EXTINF:-1 tvg-id="BlackNewsChannel.us" tvg-name="Black News Channel" tvg-country="US" tvg-language="English" tvg-logo="http://images.pluto.tv/channels/5f1efad04320070007dbb60b/colorLogoPNG.png" group-title="News",Pluto TV Black News Channel (720p)
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1efad04320070007dbb60b/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
 #EXTINF:-1 tvg-id="PolsatNews.pl" tvg-name="Polsat News" tvg-country="PL" tvg-language="Polish" tvg-logo="" group-title="News",Polsat News (1080p)
 http://91.218.60.3:8001/play/a04v
 #EXTINF:-1 tvg-id="PolsatNews2.pl" tvg-name="Polsat News 2" tvg-country="PL" tvg-language="Polish" tvg-logo="" group-title="News",Polsat News 2 (576p)
@@ -646,6 +654,8 @@ https://live2-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(kf)/
 https://vidcdn.vidgyor.com/thanthi-origin/liveabr/thanthi-origin/live1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="The First" tvg-country="" tvg-language="" tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/5fc953ab6426646dbd7347b4" group-title="News",The First
 https://redseat-thefirst-localnow.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TheFirstSTIRR.us" tvg-name="The First (STIRR)" tvg-country="US" tvg-language="English" tvg-logo="https://komonews.com/resources/media2/3x1/full/119/center/90/5cc1a83b-0a37-452a-9fb2-3708d4579a58-small3x1_STIRR_Logo_0520_TheFirst_1920x1080_EPG.png?cb=c81e728d9d4c2f636f067f89cc14862c" group-title="News",The First (STIRR) (1080p)
+https://dai.google.com/linear/hls/event/nX39-giHRPuKQiVAhua0Kg/master.m3u8
 #EXTINF:-1 tvg-id="TheWallStreetJournalLive.us" tvg-name="The Wall Street Journal Live" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/ZzyXAKm.jpg" group-title="News",The Wall Street Journal Live (720p)
 https://d155hi8td9k2ns.cloudfront.net/out/wapo-medialive3-rtmp/live.m3u8?player=powa
 #EXTINF:-1 tvg-id="The Weather Channel" tvg-name="The Weather Channel" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/8z7UeY8.png" group-title="News",The Weather Channel
@@ -688,10 +698,6 @@ https://voa-lh.akamaihd.net/i/voapnn_7@72817/master.m3u8
 https://voa-lh.akamaihd.net/i/voa_mpls_tvmc3_3@320295/master.m3u8
 #EXTINF:-1 tvg-id="WAGAFox5Atlanta.us" tvg-name="WAGA Fox 5 Atlanta" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/DcZoeGw.jpg" group-title="News",WAGA Fox 5 Atlanta (720p)
 https://lnc-waga-fox-aws.tubi.video/index.m3u8
-#EXTINF:-1 tvg-id="WeatherChannel.us" tvg-name="Weather Channel" tvg-country="US" tvg-language="English" tvg-logo="http://i.imgur.com/D4vJyy9.png" group-title="News",Weather Channel
-https://weather-lh.akamaihd.net/i/twc_1@92006/index_2400_av-b.m3u8?sd=10&rebase=on
-#EXTINF:-1 tvg-id="WeatherNation.us" tvg-name="Weather Nation" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/K1kJf1s.png" group-title="News",Weather Nation (720p)
-https://weathernationtv.roku.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="WEWS 5 ABC Cleveland News" tvg-country="" tvg-language="" tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/606e0f9a9739652ec518e8c1" group-title="News",WEWS 5 ABC Cleveland News
 https://wews-syndication.ewscloud.com/out/v1/72729e3f4dbe4aafbab93d6b1117e5f1/index.m3u8
 #EXTINF:-1 tvg-id="WFLDFOX32Chicago.us" tvg-name="WFLD FOX 32 Chicago" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/lf5sLNn.png" group-title="News",WFLD FOX 32 Chicago (720p)
