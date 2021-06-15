@@ -35,7 +35,7 @@ http://212.79.122.23:8000/play/a007/index.m3u8
 https://cdn.jmvstream.com/w/LVW-8155/ngrp:LVW8155_41E1ciuCvO_all/chunklist.m3u8
 #EXTINF:-1 tvg-id="123TV.ve" tvg-name="123 TV" tvg-country="VE" tvg-language="Spanish" tvg-logo="" group-title="",123 TV
 http://177.52.221.214:8000/play/a0ew/index.m3u8
-#EXTINF:-1 tvg-id="13thStreet.us" tvg-name="13th Street (Poland)" tvg-country="PL" tvg-language="Polish" tvg-logo="" group-title="",13th Street (Poland)
+#EXTINF:-1 tvg-id="13thStreet.us" tvg-name="13th Street (Poland)" tvg-country="PL" tvg-language="Polish;English" tvg-logo="" group-title="",13th Street (Poland)
 http://91.218.60.3:8001/play/a004
 #EXTINF:-1 tvg-id="1HDMusic.hu" tvg-name="1HD (Music)" tvg-country="HU" tvg-language="" tvg-logo="" group-title="",1HD (Music)
 http://spb1.peers.tv/streaming/firstmuz/16/hd/playlist.m3u8
@@ -736,12 +736,8 @@ http://210.210.155.35/dr9445/h/h02/01.m3u8
 https://ma.anixa.tv/clips/stream/anixehd/index.m3u8
 #EXTINF:-1 tvg-id="Anjan.in" tvg-name="Anjan" tvg-country="IN" tvg-language="Hindi" tvg-logo="" group-title="",Anjan (720p)
 https://f3.vstream.online:7443/bstb/ngrp:anjan_hdall/playlist.m3u8
-#EXTINF:-1 tvg-id="ANT1 GR" tvg-name="ANT1 GR" tvg-country="GR" tvg-language="Modern Greek (1453-)" tvg-logo="https://www.worldtvpc.com/onlinevideosites/img/ant1.jpg" group-title="",ANT1 (1080p)
-https://antennalivesp-lh.akamaihd.net/i/live_1@715138/master.m3u8
-#EXTINF:-1 tvg-id="ANT1BUP.gr" tvg-name="ANT1 BUP" tvg-country="GR" tvg-language="" tvg-logo="http://greektv.pbworks.com/f/ANT1.png" group-title="",ANT1 BUP
-http://78.83.87.222:9999/play/a012/index.m3u8
-#EXTINF:-1 tvg-id="ANT1HD.gr" tvg-name="ANT1 HD" tvg-country="GR" tvg-language="" tvg-logo="" group-title="",ANT1 HD
-https://antennalivesp-lh.akamaihd.net/i/live_1@715138/index_800_av-p.m3u8
+#EXTINF:-1 tvg-id="ANT1.GR" tvg-name="ANT1" tvg-country="GR" tvg-language="Modern Greek (1453-)" tvg-logo="https://www.worldtvpc.com/onlinevideosites/img/ant1.jpg" group-title="",ANT1 (1080p) [Geo-blocked]
+https://antennaamdnoenc.akamaized.net/ant1_akamai/abr/playlist.m3u8
 #EXTINF:-1 tvg-id="AntenaComedy.ro" tvg-name="Antena Comedy" tvg-country="RO" tvg-language="" tvg-logo="" group-title="",Antena Comedy
 https://ch.iptvmate.net/8e00b8e53dfd2f3522d4c70bac04e3ee.m3u8
 #EXTINF:-1 tvg-id="AntenaCookandPLay.ro" tvg-name="Antena Cook and PLay" tvg-country="RO" tvg-language="" tvg-logo="" group-title="",Antena Cook and PLay
@@ -1151,8 +1147,10 @@ https://livecdn.fptplay.net/qnetlive/bbcearth_hls.smil/chunklist_b2500000.m3u8
 https://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_four_hd/mobile_wifi_main_sd_abr_v2_akamai_hls_live_http.m3u8
 #EXTINF:-1 tvg-id="BBCFourHD.uk" tvg-name="BBC Four HD" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="",BBC Four HD (720p) [Geo-Blocked]
 https://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_four_hd/t=3840/v=pv14/b=5070016/main.m3u8
-#EXTINF:-1 tvg-id="BBCLifestyle.uk" tvg-name="BBCLifestyle" tvg-country="UK" tvg-language="" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/BBCLifestyle.png" group-title="",BBC Lifestyle
+#EXTINF:-1 tvg-id="BBCLifestyle.uk" tvg-name="BBC Lifestyle" tvg-country="UK" tvg-language="" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/BBCLifestyle.png" group-title="",BBC Lifestyle
 https://livecdn.fptplay.net/qnetlive/bbclifestyle_2000.stream/chunklist.m3u8
+#EXTINF:-1 tvg-id="BBCLifestyle.uk" tvg-name="BBC Lifestyle" tvg-country="PL" tvg-language="Polish;English" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/BBCLifestyle.png" group-title="",BBC Lifestyle (Poland)
+http://91.218.60.3:8001/play/a00s
 #EXTINF:-1 tvg-id="BBCNews.uk" tvg-name="BBC News" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="",BBC News (540p) [Geo-Blocked]
 https://vs-hls-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_sd_abr_v2.m3u8
 #EXTINF:-1 tvg-id="BBCNewsHD.uk" tvg-name="BBC News HD" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="",BBC News HD (720p) [Geo-Blocked]
@@ -1221,8 +1219,13 @@ https://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_two_no
 https://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_two_northern_ireland_hd/t=3840/v=pv14/b=5070016/main.m3u8
 #EXTINF:-1 tvg-id="BBCTwoWales.uk" tvg-name="BBC Two Wales" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="",BBC Two Wales (540p) [Geo-Blocked]
 https://vs-hls-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_two_wales_digital/mobile_wifi_main_sd_abr_v2_akamai_hls_live_http.m3u8
-#EXTINF:-1 tvg-id="BBCWorldNews.uk" tvg-name="BBC World News" tvg-country="UK" tvg-language="" tvg-logo="" group-title="",BBC World News
+#EXTINF:-1 tvg-id="BBCWorldNews.uk" tvg-name="BBC World News" tvg-country="UK" tvg-language="" tvg-logo="https://i.imgur.com/Nx0BRdV.png" group-title="",BBC World News
 http://1111296894.rsc.cdn77.org/LS-ATL-54548-11/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="BBCWorldNews.uk" tvg-name="BBC World News" tvg-country="UK" tvg-language="" tvg-logo="https://i.imgur.com/Nx0BRdV.png" group-title="",BBC World News
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s24/index.m3u8
+#EXTINF:-1 tvg-id="BBCWorldNews.uk" tvg-name="BBC World News" tvg-country="PL" tvg-language="" tvg-logo="https://i.imgur.com/Nx0BRdV.png" group-title="",BBC World News (Poland)
+http://91.218.60.3:8001/play/a00t
 #EXTINF:-1 tvg-id="BBSBuddhistBroadcasting.kr" tvg-name="BBS Buddhist Broadcasting" tvg-country="KR" tvg-language="" tvg-logo="" group-title="",BBS Buddhist Broadcasting
 http://bbstv.clouducs.com:1935/bbstv-live/livestream/chunklist_w1216149699.m3u8
 #EXTINF:-1 tvg-id="BBSBuddhistBroadcasting.kr" tvg-name="BBS Buddhist Broadcasting" tvg-country="KR" tvg-language="Korean" tvg-logo="https://i.imgur.com/i7uUG2m.png" group-title="",BBS Buddhist Broadcasting (1080p)
