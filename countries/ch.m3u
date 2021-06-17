@@ -40,6 +40,8 @@ https://5856e1a25f71a.streamlock.net/easycast9-live/_definst_/mp4:livestreamhd5/
 https://livesd2.vedge.infomaniak.com/livecast/livehd/master.m3u8
 #EXTINF:-1 tvg-id="KTO.fr" tvg-name="KTO" tvg-country="FR;UK;PT;ES;DK;NL;BE;CH" tvg-language="French" tvg-logo="https://i.imgur.com/LvbXFUy.jpg" group-title="",KTO (404p)
 https://livehdkto-lh.akamaihd.net/i/LiveStream_1@178944/master.m3u8
+#EXTINF:-1 tvg-id="LaTele.ch" tvg-name="La Télé" tvg-country="CH" tvg-language="" tvg-logo="https://i.imgur.com/JiAnDPu.png" group-title="",La Télé
+https://latele.vedge.infomaniak.com/livecast/latele/chunklist.m3u8
 #EXTINF:-1 tvg-id="LaTele.ch" tvg-name="La Télé" tvg-country="CH" tvg-language="French" tvg-logo="https://i.imgur.com/JiAnDPu.png" group-title="",La Télé (1080p)
 https://latele.vedge.infomaniak.com/livecast/latele/playlist.m3u8
 #EXTINF:-1 tvg-id="LCI.fr" tvg-name="LCI" tvg-country="FR;BE;CH;LU" tvg-language="French" tvg-logo="https://i.imgur.com/6VzdKEa.png" group-title="",LCI (720p)
@@ -152,8 +154,6 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ecd336d64c90007
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ecc1b37867f00071469e9/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
 #EXTINF:-1 tvg-id="TROLLTV.us" tvg-name="TROLL TV" tvg-country="CH;FR" tvg-language="French" tvg-logo="https://images.pluto.tv/channels/5f8eb8a8b2619a000710605c/colorLogoPNG.png" group-title="",Pluto TV TROLL TV
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8eb8a8b2619a000710605c/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
-#EXTINF:-1 tvg-id="WPT.us" tvg-name="WPT" tvg-country="CH;FR" tvg-language="French" tvg-logo="https://images.pluto.tv/channels/5f8ecfb9db6c180007a6d1b0/colorLogoPNG.png" group-title="",Pluto TV WPT
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ecfb9db6c180007a6d1b0/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
 #EXTINF:-1 tvg-id="Radio3iWebradio.ch" tvg-name="Radio 3i (Webradio)" tvg-country="CH" tvg-language="German" tvg-logo="https://i.imgur.com/lp23ChL.jpg" group-title="",Radio 3i (Webradio) (720p)
 https://livestream.gruppocdt.ch/hls/radio3i.m3u8
 #EXTINF:-1 tvg-id="RadioPilatus.ch" tvg-name="Radio Pilatus" tvg-country="CH" tvg-language="" tvg-logo="" group-title="",Radio Pilatus (1080p)
@@ -174,6 +174,12 @@ https://rakuten-spotlight-4-ch.samsung.wurl.com/manifest/playlist.m3u8
 http://source2.primetime.ch:2981/play/royaltv/index.m3u8
 #EXTINF:-1 tvg-id="Schweiz5.ch" tvg-name="Schweiz 5" tvg-country="CH" tvg-language="German" tvg-logo="http://www.schweiz5.ch/wp-content/uploads/2018/10/ch5logo-large-1.png" group-title="",Schweiz 5
 https://stream.schweiz5.ch/schweiz52020/stream.m3u8
+#EXTINF:-1 tvg-id="SofyTV.ch" tvg-name="Sofy TV" tvg-country="CH" tvg-language="" tvg-logo="" group-title="",Sofy TV
+https://sofytv-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="SofyTVItaly.ch" tvg-name="Sofy TV (Italy)" tvg-country="CH" tvg-language="" tvg-logo="" group-title="",Sofy TV (Italy)
+https://sofytv-samsungit.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="SofyTVSpain.ch" tvg-name="Sofy TV (Spain)" tvg-country="CH" tvg-language="" tvg-logo="" group-title="",Sofy TV (Spain)
+https://sofytv-samsunges.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="SwissSportTV.ch" tvg-name="Swiss Sport TV" tvg-country="CH" tvg-language="English" tvg-logo="https://i.imgur.com/HC0j4cC.jpg" group-title="Sports",Swiss Sport TV (720p)
 https://av02.upstream-cloud.ch/sstvlinear/ngrp:sstvlinear_all/playlist.m3u8
 #EXTINF:-1 tvg-id="SWISSSportTV247.ch" tvg-name="SWISS Sport TV 24/7" tvg-country="CH" tvg-language="German" tvg-logo="https://i.imgur.com/lTqP4Ij.jpg" group-title="",SWISS Sport TV 24/7 (720p)
@@ -210,3 +216,5 @@ https://tvm3.vedge.infomaniak.com/livecast/tvm3/playlist.m3u8
 https://cdnapisec.kaltura.com/p/1719221/sp/171922100/playManifest/entryId/1_t5h46v64/format/applehttp/protocol/https/a.m3u8
 #EXTINF:-1 tvg-id="TVO.ch" tvg-name="TVO (CH)" tvg-country="CH" tvg-language="" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/tvo_ch.png" group-title="",TVO (CH)
 https://s3.welocal.world/tvo/media/447348/videos/hls.m3u8
+#EXTINF:-1 tvg-id="WorldPokerTour.us" tvg-name="World Poker Tour" tvg-country="CH;FR" tvg-language="French" tvg-logo="https://images.pluto.tv/channels/5f8ecfb9db6c180007a6d1b0/colorLogoPNG.png" group-title="",World Poker Tour
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ecfb9db6c180007a6d1b0/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
