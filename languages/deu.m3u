@@ -9,6 +9,8 @@ https://alex-stream.rosebud-media.de/live/alexlivetv40.smil/playlist.m3u8
 https://ma.anixa.tv/clips/stream/anixehd/index.m3u8
 #EXTINF:-1 tvg-id="ARTEDeutsch.fr" tvg-name="Arte Deutsch" tvg-country="DE" tvg-language="German" tvg-logo="https://www.arte.tv/sites/corporate/wp-content/themes/arte-entreprise/img/arte_logo.png" group-title="",Arte Deutsch [Geo-blocked]
 https://artelive-lh.akamaihd.net/i/artelive_de@393591/master.m3u8?set-segment-duration=quality
+#EXTINF:-1 tvg-id="ARTITV.de" tvg-name="ARTI TV" tvg-country="DE" tvg-language="German;Turkish" tvg-logo="" group-title="",ARTI TV
+http://176.10.117.18:8000/play/a002/index.m3u8
 #EXTINF:-1 tvg-id="BadenTV.de" tvg-name="Baden TV" tvg-country="DE" tvg-language="German" tvg-logo="" group-title="",Baden TV (720p)
 http://badentv-stream2.siebnich.info/rtplive/btv.stream/live.m3u8
 #EXTINF:-1 tvg-id="BibelTV.de" tvg-name="Bibel TV" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/0OoMMbd.png" group-title="",Bibel TV (720p)
@@ -78,8 +80,6 @@ http://14000-l.z.core.cdn.streamfarm.net/007erfiphonelive/smil:stream_live.smil/
 https://cldf-wzw-live.r53.cdn.tv1.eu/14000erf/_definst_/live/app610238466/w2371551233/live.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="EuronewsDeutsch.fr" tvg-name="Euronews Deutsch" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/szYOy8S.jpg" group-title="News",Euronews Deutsch (720p)
 https://rakuten-euronews-5-de.samsung.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 tvg-id="EWTNaufDeutsch.us" tvg-name="EWTN auf Deutsch" tvg-country="DE" tvg-language="German" tvg-logo="" group-title="",EWTN auf Deutsch (720p)
-https://d3j0n5al39mfyd.cloudfront.net/p/GERG.m3u8
 #EXTINF:-1 tvg-id="Filstalwelle.de" tvg-name="Filstalwelle" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/19iKLvf.png" group-title="",Filstalwelle (576p)
 http://62.113.210.2/filstalwelle-live/_definst_/mp4:livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="FrankenFernsehen.de" tvg-name="Franken Fernsehen" tvg-country="DE" tvg-language="German" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/frankenfernsehen.png" group-title="",Franken Fernsehen (Nürnberg) (1080p)
@@ -212,13 +212,13 @@ https://s.ok54.de/okweinstrasse/okweinstrasse/playlist.m3u8
 http://62.113.210.250:1935/medienasa-live/_definst_/mp4:ok-wernigerode_high/playlist.m3u8?&ref=www.campus-tv-harz.de&seid=765525
 #EXTINF:-1 tvg-id="OktoEight.at" tvg-name="Okto Eight" tvg-country="AT" tvg-language="German" tvg-logo="https://i.imgur.com/Z9LgT0v.jpg" group-title="",Okto Eight (720p)
 https://d38d1dtxhym0zi.cloudfront.net/LiveHTTPOrigin/okto/playlist.m3u8
-#EXTINF:-1 tvg-id="ORF1.at" tvg-name="ORF 1" tvg-country="AT" tvg-language="German" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/ORF1_logo.svg/1280px-ORF1_logo.svg.png" group-title="General",ORF 1 (540p)
+#EXTINF:-1 tvg-id="ORF1.at" tvg-name="ORF 1" tvg-country="AT" tvg-language="German" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/ORF1_logo.svg/1280px-ORF1_logo.svg.png" group-title="General",ORF 1 (540p) [Geo-blocked]
 https://orf1.mdn.ors.at/out/u/orf1/qxb/manifest.m3u8
-#EXTINF:-1 tvg-id="ORF2.at" tvg-name="ORF 2" tvg-country="AT" tvg-language="German" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/ORF2_logo_n.svg/1280px-ORF2_logo_n.svg.png" group-title="",ORF 2 (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="ORF2.at" tvg-name="ORF 2" tvg-country="AT" tvg-language="German" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/ORF2_logo_n.svg/1280px-ORF2_logo_n.svg.png" group-title="",ORF 2 (720p) [Geo-blocked]
 https://orf2.mdn.ors.at/out/u/orf2/qxb/manifest.m3u8
-#EXTINF:-1 tvg-id="ORF3.at" tvg-name="ORF 3" tvg-country="AT" tvg-language="German" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/40/ORF_III_Logo.png" group-title="",ORF 3 (720p)
+#EXTINF:-1 tvg-id="ORF3.at" tvg-name="ORF 3" tvg-country="AT" tvg-language="German" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/40/ORF_III_Logo.png" group-title="",ORF 3 (720p) [Geo-blocked]
 https://orf3.mdn.ors.at/out/u/orf3/qxb/manifest.m3u8
-#EXTINF:-1 tvg-id="ORFSportPlus.at" tvg-name="ORF Sport +" tvg-country="AT" tvg-language="German" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/ORF_Sport%2B.svg/1200px-ORF_Sport%2B.svg.png" group-title="Sports",ORF Sport + (540p)
+#EXTINF:-1 tvg-id="ORFSportPlus.at" tvg-name="ORF Sport +" tvg-country="AT" tvg-language="German" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/ORF_Sport%2B.svg/1200px-ORF_Sport%2B.svg.png" group-title="Sports",ORF Sport+ (540p) [Geo-blocked]
 https://orfs.mdn.ors.at/out/u/orfs/qxb/manifest.m3u8
 #EXTINF:-1 tvg-id="P3tv.at" tvg-name="P3tv" tvg-country="AT" tvg-language="German" tvg-logo="https://i.imgur.com/C6Hp5Pb.jpg" group-title="",P3tv (720p) [Not 24/7]
 http://p3-6.mov.at:1935/live/weekstream/master.m3u8
