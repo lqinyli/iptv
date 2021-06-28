@@ -183,7 +183,7 @@ https://cdnlive.shooowit.net/canalextremaduralive/smil:channel1DVR.smil/playlist
 https://vcp.myplaytv.com/canali/canali/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalMundoPlus.mx" tvg-name="Canal Mundo+" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/9BtSyV2.png" group-title="",Canal Mundo+ (560p)
 http://vcp1.myplaytv.com:1935/mundomas/mundomas/playlist.m3u8
-#EXTINF:-1 tvg-id="CanalMalagaRTV.es" tvg-name="Canal Málaga RTV" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://i.imgur.com/BXmmroM.jpg" group-title="Local",Canal Málaga RTV (720p)
+#EXTINF:-1 tvg-id="CanalMalagaRTV.es" tvg-name="Canal Málaga RTV" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://i.imgur.com/BXmmroM.jpg" group-title="Local",Canal Málaga RTV (720p) [Not 24/7]
 https://canalmalaga-tv-live.flumotion.com/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalOnceInternacional.mx" tvg-name="Canal Once Internacional" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/CANALONCETV/picture?width=200&height=200" group-title="",Canal Once Internacional
 http://live.canaloncelive.tv:1935/livepkgr2/smil:internacional.smil/playlist.m3u8
@@ -308,8 +308,6 @@ https://streaming.elche7tv.es/hls/canal2.m3u8
 http://live-15.viewer.dacast.com:80/i/dclive_1@397642/master.m3u8
 #EXTINF:-1 tvg-id="ElimTV.sv" tvg-name="Elim TV" tvg-country="SV" tvg-language="Spanish" tvg-logo="https://directostv.teleame.com/wp-content/uploads/2017/10/ELIM-TV.png" group-title="",Elim TV
 https://dcunilive15-lh.akamaihd.net/i/dclive_1@397642/index_150_av-p.m3u8?sd=6&rebase=on
-#EXTINF:-1 tvg-id="EsAsturiasTV.es" tvg-name="EsAsturiasTV" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/EsAsturiasTV/picture?width=320&height=320" group-title="",EsAsturiasTV (720p)
-https://5df8a678a3840.streamlock.net/8032/8032/chunklist_w872298128.m3u8
 #EXTINF:-1 tvg-id="ESNETV.es" tvg-name="ESNE TV" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://i.imgur.com/VbxfLY5.png" group-title="Religious",ESNE TV (1080p)
 https://zypelive-lh.akamaihd.net/i/default_1@710948/master.m3u8
 #EXTINF:-1 tvg-id="EsperanzaTV.us" tvg-name="Esperanza TV" tvg-country="US" tvg-language="Spanish" tvg-logo="http://iptvchile.xyz/Logos/TeVe/esperanza%20tv.png" group-title="",Esperanza TV (480p)
@@ -506,6 +504,8 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5d8d08395
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ddd7cb2cbb9010009b4fe32/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 #EXTINF:-1 tvg-id="NIUS.es" tvg-name="NIUS" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/NiusDiario/picture?width=320&height=320" group-title="",NIUS
 https://mdslivehlsb-i.akamaihd.net/hls/live/875601-b/niusdiario/01.m3u8
+#EXTINF:-1 tvg-id="NoticiasCaracol.co" tvg-name="Noticias Caracol" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://platform-static.cdn.mdstrm.com/player/logo/589b13f631f1bebd088ff756.png" group-title="News",Noticias Caracol
+https://mdstrm.com/live-stream-playlist/58dc3d471cbe05ff3c8e463e.m3u8
 #EXTINF:-1 tvg-id="NoticiasCaracol.co" tvg-name="Noticias Caracol" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://platform-static.cdn.mdstrm.com/player/logo/589b13f631f1bebd088ff756.png" group-title="News",Noticias Caracol (720p)
 https://mdstrm.com/live-stream-playlist_800/58dc3d471cbe05ff3c8e463e.m3u8
 #EXTINF:-1 tvg-id="NuestraTVLima.pe" tvg-name="Nuestra TV (Lima)" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/NUESTRATVPERU/picture?width=320&height=320" group-title="Local",Nuestra TV (Lima) [Not 24/7]
@@ -524,8 +524,6 @@ http://ondamadridhls-live.hls.adaptive.level3.net/telemadrid/ondamadrid1/index.m
 http://telemadridhls-live.hls.adaptive.level3.net/telemadrid/tvradio/bitrate_2.m3u8
 #EXTINF:-1 tvg-id="OndaMadrid.es" tvg-name="Onda Madrid" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://i.imgur.com/BA6HVt3.png" group-title="",Onda Madrid (360p)
 http://telemadridhls-live.hls.adaptive.level3.net/telemadrid/tvradio/index.m3u8
-#EXTINF:-1 tvg-id="ONDATVCANAL10.do" tvg-name="ONDA TV CANAL 10" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/OE4q3b9.jpg" group-title="",ONDA TV CANAL 10 (720p)
-http://ss6.domint.net:2052/otv_str/tv10/playlist.m3u8
 #EXTINF:-1 tvg-id="Ovacion.uy" tvg-name="Ovacion" tvg-country="UY" tvg-language="Spanish" tvg-logo="https://ovacion.pe/sites/default/files/logo-ovacion.png" group-title="",Ovacion (720p)
 http://cdn2.ujjina.com:1935/iptvovacion1/liveovacion1tv/playlist.m3u8
 #EXTINF:-1 tvg-id="OvacionTVLima.pe" tvg-name="Ovación TV (Lima)" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/ovacionperu/picture?width=320&height=320" group-title="Sports",Ovación TV (Lima) [Not 24/7]
@@ -760,8 +758,6 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5e84dc590
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5e6690befbdf780007f78158/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
 #EXTINF:-1 tvg-id="PlutoTVOhMyPet.us" tvg-name="Pluto TV Oh My Pet" tvg-country="US" tvg-language="Spanish" tvg-logo="https://images.pluto.tv/channels/5f2acdab16f5b3000721ae2c/colorLogoPNG.png" group-title="Series",Pluto TV Oh My Pet
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f2acdab16f5b3000721ae2c/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
-#EXTINF:-1 tvg-id="PaisajesporStingray.us" tvg-name="Paisajes por Stingray" tvg-country="US" tvg-language="Spanish" tvg-logo="https://images.pluto.tv/channels/5f4fed840a2764000720d966/colorLogoPNG.png" group-title="",Pluto TV Paisajes por Stingray (720p)
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f4fed840a2764000720d966/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 #EXTINF:-1 tvg-id="PlutoTVPeleas.us" tvg-name="Pluto TV Peleas" tvg-country="US" tvg-language="Spanish" tvg-logo="https://images.pluto.tv/channels/5e98b0447665f200078caded/colorLogoPNG.png" group-title="",Pluto TV Peleas
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e98b0447665f200078caded/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 #EXTINF:-1 tvg-id="PeopleareAwesome.us" tvg-name="People are Awesome" tvg-country="US" tvg-language="Spanish" tvg-logo="https://images.pluto.tv/channels/5ebac65911406400078b8993/colorLogoPNG.png" group-title="",Pluto TV People are Awesome
@@ -860,6 +856,8 @@ https://cp.sradiotv.com:1936/8034/8034/playlist.m3u8
 http://wowzacontrol.com:1936/stream23/stream23/playlist.m3u8
 #EXTINF:-1 tvg-id="RCGTV3.mx" tvg-name="RCG TV-3" tvg-country="MX" tvg-language="Spanish" tvg-logo="" group-title="",RCG TV-3 (360p)
 http://wowzacontrol.com:1936/stream56/stream56/playlist.m3u8
+#EXTINF:-1 tvg-id="RCNNovelas.co" tvg-name="RCN Novelas" tvg-country="CO" tvg-language="Spanish" tvg-logo="" group-title="Entertainment",RCN Novelas
+http://209.91.213.10:8088/play/a020
 #EXTINF:-1 tvg-id="ReadyTV.do" tvg-name="Ready TV" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/QT78nTj.png" group-title="",Ready TV [Not 24/7]
 http://190.103.183.24:1935/ReadyTV/ReadyHD/chunklist.m3u8
 #EXTINF:-1 tvg-id="RealMadridTV.es" tvg-name="Real Madrid TV" tvg-country="ES" tvg-language="Spanish" tvg-logo="" group-title="Sports",Real Madrid TV
@@ -891,11 +889,11 @@ https://593b04c4c5670.streamlock.net:443/8038/8038/playlist.m3u8
 #EXTINF:-1 tvg-id="RWTelevisionTarapoto.pe" tvg-name="RW Televisión (Tarapoto)" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/rwtelevision/picture?width=320&height=320" group-title="Local",RW Televisión (Tarapoto) [Not 24/7]
 https://tvdatta.com:3952/live/rwtelevisionlive.m3u8
 #EXTINF:-1 tvg-id="SBN.us" tvg-name="SBN" tvg-country="US" tvg-language="Spanish" tvg-logo="http://sonlifetv.com/images/logo.png" group-title="Religious",SBN
-https://sonlife5-i.akamaihd.net/hls/live/584631/ch5/ch51/ch51.m3u8
+https://sonlife5-i.akamaihd.net/hls/live/584631/master.m3u8
 #EXTINF:-1 tvg-id="SercanoTV.hn" tvg-name="Sercano TV" tvg-country="HN" tvg-language="Spanish" tvg-logo="" group-title="",Sercano TV (720p)
 http://stream.grupoabchn.com:1935/SERCANOHD/SERCANOLive.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ShalomTV.us" tvg-name="Shalom TV" tvg-country="INT" tvg-language="Spanish" tvg-logo="https://i3.wp.com/unored.tv/wp-content/uploads/2018/10/Shalom-TV-logo-oficial.jpg" group-title="Religious",Shalom TV
-https://livestreamcdn.net:444/ShalomTV/ShalomTV/chunklist_w1625794902.m3u8
+https://livestreamcdn.net:444/ShalomTV/ShalomTV/playlist.m3u8
 #EXTINF:-1 tvg-id="SiTV.do" tvg-name="SiTV" tvg-country="DO" tvg-language="Spanish" tvg-logo="http://sitv.com.do/imgs/sitv.png" group-title="",SiTV
 http://190.122.104.221/Player/sitv.m3u8
 #EXTINF:-1 tvg-id="SolidariaTV.es" tvg-name="Solidaria TV" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://directostv.teleame.com/wp-content/uploads/2018/02/solidaria-tv.png" group-title="",Solidaria TV
