@@ -265,28 +265,15 @@ http://stream.tvtap.live:8081/live/us-cnn.stream/playlist.m3u8
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5421f71da6af422839419cb3/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=209&deviceId=5421f71da6af422839419cb3&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false
 #EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-name="CNN Indonesia" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/CNN_Indonesia.svg/1200px-CNN_Indonesia.svg.png" group-title="News",CNN Indonesia (720p)
 https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="CNNInternational.us" tvg-name="CNN International" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/bD9jUgK.png" group-title="News",CNN International (720p)
-https://cnn-cnninternational-1-de.samsung.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 tvg-id="CNNInternational.us" tvg-name="CNN International" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/bD9jUgK.png" group-title="News",CNN International
-https://cnn-cnninternational-1-de.samsung.wurl.com/manifest/playlist_384_216_500k.m3u8
-#EXTINF:-1 tvg-id="CNNInternational.us" tvg-name="CNN International" tvg-country="US" tvg-language="" tvg-logo="" group-title="News",CNN International
-https://cnn-cnninternational-1-eu.rakuten.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="CNNInternational.us" tvg-name="CNN International" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/2BXCg0x.jpg" group-title="News",CNN International (720p)
-https://cnn-cnninternational-1-gb.samsung.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 tvg-id="CNNInternationalMeiGuo.us" tvg-name="CNN International (美国)" tvg-country="US" tvg-language="English" tvg-logo="http://static.epg.best/gb/CNN.uk.png" group-title="News",CNN International (美国)
-https://liveanevia.mncnow.id/live/eds/CNNInternational/sa_dash_vmx/CNNInternational.mpd
-#EXTINF:-1 tvg-id="CNNInternationalHD.us" tvg-name="CNN International HD" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/bD9jUgK.png" group-title="News",CNN International HD
-https://cnn-cnninternational-1-gb.samsung.wurl.com/manifest/playlist_1280x720_3000k.m3u8
-#EXTINF:-1 tvg-id="CNNPhilippines.us" tvg-name="CNN Philippines" tvg-country="US" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/CNN_Philippines_Logo.svg/220px-CNN_Philippines_Logo.svg.png" group-title="News",CNN Philippines
-https://streaming.cnnphilippines.com/live/myStream/chunklist_w1877522213.m3u8
+https://cnn-cnninternational-1-de.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="CNNPhilippines.us" tvg-name="CNN Philippines" tvg-country="PH" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/CNN_Philippines_Logo.svg/220px-CNN_Philippines_Logo.svg.png" group-title="News",CNN Philippines
 https://streaming.cnnphilippines.com/live/myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="CNNTURKHD.us" tvg-name="CNN TURK HD" tvg-country="US" tvg-language="Turkish" tvg-logo="https://haber.sol.org.tr/sites/default/files/styles/newsimagestyle_615x410/public/20110201141238cnn_turk_logosu.png" group-title="News",CNN TURK HD
-https://mn-nl.mncdn.com/blutv_cnnturk/smil:cnnturk_sd.smil/chunklist_b2064000.m3u8
 #EXTINF:-1 tvg-id="CNNTurk.us" tvg-name="CNN Türk" tvg-country="US;TR" tvg-language="Turkish" tvg-logo="http://haber.sol.org.tr/sites/default/files/styles/newsimagestyle_615x410/public/20110201141238cnn_turk_logosu.png" group-title="News",CNN Türk
-http://media.netd.com.tr/S1/HLS_LIVE/cnn_turk/1000/prog_index.m3u8
-#EXTINF:-1 tvg-id="CNNTURKHDPlus.us" tvg-name="CNN TÜRK HD+" tvg-country="US" tvg-language="Turkish" tvg-logo="https://haber.sol.org.tr/sites/default/files/styles/newsimagestyle_615x410/public/20110201141238cnn_turk_logosu.png" group-title="News",CNN TÜRK HD+
 http://163.172.39.215:25461/line/C4@!a3a1@!w72A/129
+#EXTINF:-1 tvg-id="CNNTurk.us" tvg-name="CNN Türk" tvg-country="US;TR" tvg-language="Turkish" tvg-logo="http://haber.sol.org.tr/sites/default/files/styles/newsimagestyle_615x410/public/20110201141238cnn_turk_logosu.png" group-title="News",CNN Türk
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0
+https://mn-nl.mncdn.com/blutv_cnnturk/smil:cnnturk_sd.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="DBCNews.bd" tvg-name="DBC News" tvg-country="BD" tvg-language="Bengali" tvg-logo="" group-title="News",DBC News (1080p)
 https://live.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/dbcnews.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8yMi8yMDIxIDM6MzQ6MjQgUE0maGFzaF92YWx1ZT1mdVdtWlhUaVZpZEZwbjg1cWQzZXRnPT0mdmFsaWRtaW51dGVzPTYw
 #EXTINF:-1 tvg-id="DDNational.in" tvg-name="DD National" tvg-country="IN" tvg-language="Hindi" tvg-logo="" group-title="News",DD National (480p)
