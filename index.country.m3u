@@ -50,7 +50,7 @@ rtmp://ivi.bupt.edu.cn:1935/livetv/starsports
 #EXTINF:-1 tvg-id="Thrill.hk" tvg-name="Thrill" tvg-country="SAS" tvg-language="English" tvg-logo="http://console.celestialtiger.com/images/upload/1f6e441382a388940977fd9e165178c42fe0c193.png" group-title="Afghanistan",Thrill (480p)
 http://45.126.83.51/qwr9ew/s/s34/index.m3u8
 #EXTINF:-1 tvg-id="ToloTV.af" tvg-name="Tolo TV" tvg-country="AF" tvg-language="Pashto" tvg-logo="https://pbs.twimg.com/profile_images/579001245697908737/bSnXEBFo_400x400.jpeg" group-title="Afghanistan",Tolo TV
-https://github.com/taodicakhia/IPTV_Overworld/raw/master/channels/af/tolotv.m3u8
+https://github.com/taodicakhia/IPTV_Exception/raw/master/channels/af/tolotv.m3u8
 #EXTINF:-1 tvg-id="Tuti.af" tvg-name="Tuti" tvg-country="AF" tvg-language="Pashto" tvg-logo="https://i.imgur.com/JerfIBt.jpg" group-title="Afghanistan",Tuti (480p) [Not 24/7]
 https://rrsatrtmp.tulix.tv/livecdn827/myStream.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="ABCNews.al" tvg-name="ABC News" tvg-country="AL" tvg-language="Albanian" tvg-logo="https://abcnews.al/wp-content/uploads/2020/11/cropped-abclogo.png" group-title="Albania",ABC News
@@ -7501,9 +7501,7 @@ https://autopilot.catcast.tv/content/38801/index.m3u8
 #EXTINF:-1 tvg-id="4UTV.ir" tvg-name="4U TV" tvg-country="IR" tvg-language="Persian" tvg-logo="https://i.imgur.com/Icob3E3.jpg" group-title="Iran",4U TV (480p)
 http://live.4ulive.ir/
 #EXTINF:-1 tvg-id="AlAlam.ir" tvg-name="Al Alam" tvg-country="IR" tvg-language="Arabic" tvg-logo="https://i.imgur.com/jY1u1zz.png" group-title="Iran",Al Alam (576p)
-https://live2.alalamtv.net/alalam.m3u8
-#EXTINF:-1 tvg-id="AlAlam.ir" tvg-name="Al Alam" tvg-country="IR" tvg-language="" tvg-logo="" group-title="Iran",Al Alam
-https://live2.alalamtv.net/live/Alalam/index.m3u8
+https://live2.alalam.ir/alalam.m3u8
 #EXTINF:-1 tvg-id="AlKawtharTV.ir" tvg-name="Al Kawthar TV" tvg-country="IR" tvg-language="" tvg-logo="" group-title="Iran",Al Kawthar TV
 http://178.252.143.156:1935/live/myStream/chunklist_w907760503.m3u8
 #EXTINF:-1 tvg-id="AlZahraTV.ir" tvg-name="Al Zahra TV" tvg-country="IR" tvg-language="Arabic" tvg-logo="https://i.imgur.com/ffFbUmd.jpg" group-title="Iran",Al Zahra TV
@@ -8777,12 +8775,18 @@ https://cinedigm.vo.llnwd.net/conssui/amagi_hls_data_xumo1234A-docuramaA/CDN/mas
 https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxdocurama/CDN/playlist.m3u8
 #EXTINF:-1 tvg-id="SportsMax.jm" tvg-name="SportsMax" tvg-country="JM" tvg-language="English" tvg-logo="" group-title="Jamaica",SportsMax
 https://ch.iptvmate.net/d632f569730eaeaee6f99d050e1fb9e0.m3u8
-#EXTINF:-1 tvg-id="AnimaxJapan.jp" tvg-name="Animax Japan" tvg-country="JP" tvg-language="Japanese" tvg-logo="" group-title="Japan",Animax
-https://redlabmcdn.s.llnwi.net/jp01/bs14/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="AnimaxJapan.jp" tvg-name="Animax Japan" tvg-country="JP" tvg-language="Japanese;Indonesian" tvg-logo="" group-title="Japan",Animax Japan (Indonesian Subs)
+http://185.180.221.194:8278/streams/d/Animax/playlist.m3u8
+#EXTINF:-1 tvg-id="AnimaxJapan.jp" tvg-name="Animax Japan" tvg-country="JP" tvg-language="Japanese;Indonesian" tvg-logo="" group-title="Japan",Animax Japan (Indonesian Subs) [Geo-blocked]
 http://210.210.155.35/dr9445/h/h02/01.m3u8
+#EXTINF:-1 tvg-id="AnimaxJapan.jp" tvg-name="Animax Japan" tvg-country="JP" tvg-language="Japanese;Indonesian" tvg-logo="" group-title="Japan",Animax Japan (Indonesian Subs)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+https://tv.mbed.cc/u/master.m3u8?id=animax&bandwidth=default&sync=0
+#EXTINF:-1 tvg-id="AnimaxJapan.jp" tvg-name="Animax Japan" tvg-country="JP" tvg-language="Japanese;Thai" tvg-logo="" group-title="Japan",Animax Japan (Thai Subs)
+http://27.254.130.62/feed/LC38/playlist.m3u8
 #EXTINF:-1 tvg-id="AnimaxJapan.jp" tvg-name="Animax Japan" tvg-country="JP" tvg-language="Japanese;Vietnamese" tvg-logo="" group-title="Japan",Animax Japan (Vietnamese Subs)
-https://livecdn.fptplay.net/hda3/animaxport_2000.stream/.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+https://livecdn.fptplay.net/hda3/animaxport_hls.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ATX.jp" tvg-name="AT-X" tvg-country="JP" tvg-language="Japanese" tvg-logo="https://www.at-x.com/favicon_android.png" group-title="Japan",AT-X
 https://sub2.neetball.net/live/neet.m3u8
 #EXTINF:-1 tvg-id="BloombergTVAsia.us" tvg-name="Bloomberg TV Asia" tvg-country="APAC" tvg-language="English" tvg-logo="https://i.imgur.com/fhcaNlc.png" group-title="Japan",Bloomberg TV Asia (720p)
@@ -8843,14 +8847,10 @@ http://203.162.235.41:16903
 https://nhk.mov3.co/hls/nhk.m3u8
 #EXTINF:-1 tvg-id="NHKWorld.jp" tvg-name="NHKWorld" tvg-country="JP" tvg-language="" tvg-logo="https://www3.nhk.or.jp/nhkworld/common/site_images/nw_webapp_1500x1500.png" group-title="Japan",NHK World (720p)
 https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/sycc-live/zh/playlist.m3u8
+#EXTINF:-1 tvg-id="NHKWorldJapan.jp" tvg-name="NHK World Japan" tvg-country="JP" tvg-language="Japanese" tvg-logo="https://i.imgur.com/SQISXoD.jpg" group-title="Japan",NHK World Japan (720p)
+https://b-nhkwlive-xjp.webcdn.stream.ne.jp/hls/live/2003458-b/nhkwlive-xjp-en/index.m3u8
 #EXTINF:-1 tvg-id="NHKWorldJapan.jp" tvg-name="NHK World Japan" tvg-country="JP" tvg-language="Japanese" tvg-logo="https://i.imgur.com/SQISXoD.jpg" group-title="Japan",NHK World Japan (1080p)
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
-#EXTINF:-1 tvg-id="NHKWorldJapan.jp" tvg-name="NHK World Japan" tvg-country="JP" tvg-language="" tvg-logo="" group-title="Japan",NHK World Japan
-https://nhkwlive-xjp.akamaized.net/hls/live/2003458/nhkwlive-xjp-en/index_600k.m3u8
-#EXTINF:-1 tvg-id="NHKWorldJapan.jp" tvg-name="NHK World Japan" tvg-country="JP" tvg-language="Japanese" tvg-logo="https://i.imgur.com/SQISXoD.jpg" group-title="Japan",NHK World Japan (720p)
-https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/2003458/live.m3u8
-#EXTINF:-1 tvg-id="NHKWorldPremium.jp" tvg-name="NHK World Premium" tvg-country="JP" tvg-language="" tvg-logo="https://nhkworldpremium.com/img/common/logo.png" group-title="Japan",NHK World Premium
-https://liveanevia.mncnow.id/live/eds/NHKWorldPremium/sa_dash_vmx/NHKWorldPremium.mpd
 #EXTINF:-1 tvg-id="NHKWORLDTV.jp" tvg-name="NHK WORLD TV" tvg-country="JP" tvg-language="" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/nhkworldtv.png" group-title="Japan",NHK WORLD TV
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
 #EXTINF:-1 tvg-id="NHKHuaYuShiJie.jp" tvg-name="NHK华语视界" tvg-country="JP" tvg-language="" tvg-logo="http://www.tvyan.com/uploads/dianshi/nhkhuayu.jpg" group-title="Japan",NHK华语视界 (720p)
@@ -9343,9 +9343,6 @@ https://admdn4ta.cdn.mgmlcdn.com/adsports4/smil:adsports4.stream.smil/playlist.m
 https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlIttihad.lb" tvg-name="Al Ittihad" tvg-country="LB" tvg-language="Arabic" tvg-logo="http://alittihad.tv/assets/images/logo.png" group-title="Lebanon",Al Ittihad (552p)
 https://live.alittihad.tv/ittihad/index.m3u8
-#EXTINF:-1 tvg-id="AljadeedTv.lb" tvg-name="Al Jadeed TV" tvg-country="LB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/qtQQJQc.png" group-title="Lebanon",Al Jadeed (1080p)
-#EXTVLCOPT:http-referrer=http://azrotv.com/
-http://arabictv.teledunet.com:8080/live/azrotv/azrotv2021/10008.m3u8
 #EXTINF:-1 tvg-id="AlJazeeraArabic.qa" tvg-name="Al Jazeera Arabic" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/DBJTZaS.png" group-title="Lebanon",Al Jazeera Arabic (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s69/index.m3u8
@@ -9361,7 +9358,7 @@ https://live-hls-web-ajm.getaj.net/AJM/index.m3u8
 #EXTINF:-1 tvg-id="AlManar.lb" tvg-name="Al Manar" tvg-country="LB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/dmDzNQO.png" group-title="Lebanon",Al Manar
 https://manar.live/iptv/playlist.m3u8
 #EXTINF:-1 tvg-id="AlManar.lb" tvg-name="Al Manar" tvg-country="LB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/dmDzNQO.png" group-title="Lebanon",Al Manar (576p)
-https://manar.live/x.smil/tracks-v1a1/mono.m3u8
+https://manar.live/x.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlMayadeen.lb" tvg-name="Al Mayadeen" tvg-country="LB" tvg-language="Arabic" tvg-logo="http://media.almayadeen.tv/uploads/archive/web-logo.png" group-title="Lebanon",Al Mayadeen (576p)
 https://lmdstrm.cdn.octivid.com/mayadeen-live/smil:mayadeen.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlQamarTV.ae" tvg-name="Al Qamar TV" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://alqamartv-rfrfjjt.netdna-ssl.com/arb/wp-content/uploads/2017/05/Title5.png" group-title="Lebanon",Al Qamar TV (360p)
@@ -9376,6 +9373,8 @@ https://mn-nl.mncdn.com/alhiwar_live/smil:alhiwar.smil/playlist.m3u8
 https://svs.itworkscdn.net/alimanlive/imantv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ArabicaMusic.lb" tvg-name="Arabica Music" tvg-country="LB" tvg-language="Arabic" tvg-logo="https://arabicagroup.tv/images/app1.png" group-title="Lebanon",Arabica TV (720p)
 http://istream.binarywaves.com:8081/hls/arabica/playlist.m3u8
+#EXTINF:-1 tvg-id="Assirat.lb" tvg-name="Assirat" tvg-country="LB" tvg-language="Arabic" tvg-logo="" group-title="Lebanon",Assirat
+https://svs.itworkscdn.net/assiratvlive/assirat/playlist.m3u8
 #EXTINF:-1 tvg-id="BBCArabic.uk" tvg-name="BBC Arabic" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/oFGPG9Y.png" group-title="Lebanon",BBC Arabic (720p)
 https://vs-cmaf-pushb-ww-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2_akamai_dash_live.mpd
 #EXTINF:-1 tvg-id="BBCArabic.uk" tvg-name="BBC Arabic" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/oFGPG9Y.png" group-title="Lebanon",BBC Arabic (540p)
@@ -11077,10 +11076,14 @@ https://live-hls-web-ajm.getaj.net/AJM/index.m3u8
 https://cdn5.iqsat.net/iq/8c17d37e0f5c88b1e9c7e1f8f82bc980.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="AlarabyTV.uk" tvg-name="Alaraby TV" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/LNI1HNi.png" group-title="Palestine",Alaraby TV (1080p)
 https://alaraby.cdn.octivid.com/alaraby/smil:alaraby.stream.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="AlfajerTvHD1.ps" tvg-name="Alfajer Tv HD 1" tvg-country="PS" tvg-language="Arabic" tvg-logo="https://i.imgur.com/H8SaZXN.png" group-title="Palestine",Alfajer Tv HD 1
+https://www.elahmad.com/tv/m3u8/online_tv.m3u8?id=alfajertv
 #EXTINF:-1 tvg-id="AlfajerTvHD2.ps" tvg-name="Alfajer Tv HD 2" tvg-country="PS" tvg-language="Arabic" tvg-logo="https://i.imgur.com/H8SaZXN.png" group-title="Palestine",Alfajer Tv HD 2 (720p)
 http://two.alfajertv.com:8081/AlfajertvHDTwo_web/web/playlist.m3u8
 #EXTINF:-1 tvg-id="AlhiwarTV.uk" tvg-name="Alhiwar TV" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/ooiJwD5.png" group-title="Palestine",Alhiwar TV (1080p)
 https://mn-nl.mncdn.com/alhiwar_live/smil:alhiwar.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="Audeh.ps" tvg-name="Audeh" tvg-country="PS" tvg-language="Arabic" tvg-logo="" group-title="Palestine",Audeh
+http://htvpalsat.mada.ps:8888/audeh/index.m3u8
 #EXTINF:-1 tvg-id="BBCArabic.uk" tvg-name="BBC Arabic" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/oFGPG9Y.png" group-title="Palestine",BBC Arabic (720p)
 https://vs-cmaf-pushb-ww-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2_akamai_dash_live.mpd
 #EXTINF:-1 tvg-id="BBCArabic.uk" tvg-name="BBC Arabic" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/oFGPG9Y.png" group-title="Palestine",BBC Arabic (540p)
@@ -11099,8 +11102,14 @@ http://51.255.84.28:8081/palestiniantv_source/live/playlist.m3u8
 https://static.france24.com/live/F24_AR_HI_HLS/live_tv.m3u8
 #EXTINF:-1 tvg-id="France24Arabic.fr" tvg-name="France 24 Arabic" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/61MSiq9.png" group-title="Palestine",France 24 Arabic (576p)
 https://static.france24.com/live/F24_AR_LO_HLS/live_web.m3u8
+#EXTINF:-1 tvg-id="HebronTV.ps" tvg-name="Hebron TV" tvg-country="PS" tvg-language="Arabic" tvg-logo="" group-title="Palestine",Hebron TV
+https://streaming.zaytonatube.com:8081/newhebron/newheb/playlist.m3u8
+#EXTINF:-1 tvg-id="HekayaTV.ps" tvg-name="Hekaya TV" tvg-country="PS" tvg-language="Arabic" tvg-logo="" group-title="Palestine",Hekaya TV
+https://streaming.zaytonatube.com:8081/Hekaya/hekayamix/playlist.m3u8
 #EXTINF:-1 tvg-id="MarahFM.ps" tvg-name="Marah FM" tvg-country="PS" tvg-language="Arabic" tvg-logo="https://i.imgur.com/PeIYCXs.jpg" group-title="Palestine",Marah FM (720p)
 http://vstream3.hadara.ps:8081/marahFM_web/web/playlist.m3u8
+#EXTINF:-1 tvg-id="Mawal.ps" tvg-name="Mawal" tvg-country="PS" tvg-language="Arabic" tvg-logo="" group-title="Palestine",Mawal
+http://vstream3.hadara.ps:8081/MawwalHD_web/web/playlist.m3u8
 #EXTINF:-1 tvg-id="MBC.ae" tvg-name="MBC" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/eKBXOKd.png" group-title="Palestine",MBC 1 KSA (1080p)
 https://shls-mbc1ksa-prod-dub.shahid.net/out/v1/451b666db1fb41c7a4bbecf7b4865107/index.m3u8
 #EXTINF:-1 tvg-id="MBC1USA.ae" tvg-name="MBC 1 USA" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/eKBXOKd.png" group-title="Palestine",MBC 1 USA (1080p)
@@ -11131,6 +11140,8 @@ https://shls-mbcplusdrama-prod-dub.shahid.net/out/v1/97ca0ce6fc6142f4b14c0a694af
 http://163.172.39.215:25461/line/C4@!a3a1@!w72A/45
 #EXTINF:-1 tvg-id="MusawaChannel.ps" tvg-name="MusawaChannel" tvg-country="PS" tvg-language="Arabic" tvg-logo="https://i.imgur.com/PEFW4Vy.png" group-title="Palestine",MusawaChannel (404p)
 http://htvpalsat.mada.ps:8888/musawa/index.m3u8
+#EXTINF:-1 tvg-id="NablusTV.ps" tvg-name="Nablus TV" tvg-country="PS" tvg-language="Arabic" tvg-logo="" group-title="Palestine",Nablus TV
+http://htvmada.mada.ps:8888/nabluslive/index.m3u8
 #EXTINF:-1 tvg-id="NationalGeographicAbuDhabi.ae" tvg-name="National Geographic Abu Dhabi" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/baXbWro.jpg" group-title="Palestine",National Geographic Abu Dhabi (1080p)
 https://admdn2.cdn.mangomolo.com/nagtv/smil:nagtv.stream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="PalestineMubasher.ps" tvg-name="Palestine Mubasher" tvg-country="PS" tvg-language="Arabic" tvg-logo="https://i.imgur.com/bYz6HUG.png" group-title="Palestine",Palestine Mubasher
@@ -11143,12 +11154,18 @@ https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/palestinian_satellite_ch
 https://live.paltoday.tv/paltv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="palestiniantv.ps" tvg-name="palestiniantv" tvg-country="PS" tvg-language="Arabic" tvg-logo="" group-title="Palestine",palestiniantv
 http://palestiniantv.origin.technostreaming.net:8081/palestiniantv_source/live/playlist.m3u8
+#EXTINF:-1 tvg-id="RadioAlbaladTV.ps" tvg-name="Radio Albalad TV" tvg-country="PS" tvg-language="Arabic" tvg-logo="" group-title="Palestine",Radio Albalad TV
+http://streaming.zaytonatube.com:8080/radioalbalad/radioalbalad/playlist.m3u8
+#EXTINF:-1 tvg-id="RajeenTV.ps" tvg-name="Rajeen TV" tvg-country="PS" tvg-language="Arabic" tvg-logo="" group-title="Palestine",Rajeen TV
+https://mn-nl.mncdn.com/palabroad/live/playlist.m3u8
 #EXTINF:-1 tvg-id="RTArabic.ru" tvg-name="RT Arabic" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="" group-title="Palestine",RT Arabic (720p)
 http://rt-arab.secure.footprint.net:80/1104.m3u8
 #EXTINF:-1 tvg-id="SAT7ARABIC.cy" tvg-name="SAT-7 ARABIC" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/xvJw3qt.png" group-title="Palestine",SAT-7 ARABIC (720p)
 https://svs.itworkscdn.net/sat7arabiclive/sat7arabic.smil/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="SAT7KIDS.cy" tvg-name="SAT-7 KIDS" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="" group-title="Palestine",SAT-7 KIDS (720p)
 https://svs.itworkscdn.net/sat7kidslive/sat7kids.smil/playlist_dvr.m3u8
+#EXTINF:-1 tvg-id="ShababFM.ps" tvg-name="Shabab FM" tvg-country="PS" tvg-language="Arabic" tvg-logo="" group-title="Palestine",Shabab FM
+https://streaming.zaytonatube.com:8081/ShababFM/shabab/index.m3u8
 #EXTINF:-1 tvg-id="SkyNewsArabia.uk" tvg-name="Sky News Arabia" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/kF7TvcH.png" group-title="Palestine",Sky News Arabia [Portrait]
 https://iptv-all.lanesh4d0w.codes/m3u8/sky_arabia.m3u8
 #EXTINF:-1 tvg-id="SkyNewsArabia.uk" tvg-name="Sky News Arabia" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/kF7TvcH.png" group-title="Palestine",Sky News Arabia (720p)
@@ -13758,6 +13775,8 @@ http://tbs.hscdn.com/tbstvweb/tbstv/chunklist_w1331473189.m3u8
 https://tbs.hscdn.com/tbstvweb/tbstv/playlist.m3u8
 #EXTINF:-1 tvg-id="TJBdaejeonbangsongSBSDaTian.kr" tvg-name="TJB 대전방송(SBS 大田)" tvg-country="KR" tvg-language="" tvg-logo="https://upload.wikimedia.org/wikipedia/ko/8/8b/TJB_Logo.jpg" group-title="South Korea",TJB 대전방송(SBS 大田)
 http://1.245.74.5:1935/live/tv/.m3u8
+#EXTINF:-1 tvg-id="tvNAsia.kr" tvg-name="tvN Asia" tvg-country="KR" tvg-language="" tvg-logo="https://www.lyngsat.com/logo/tv/tt/tvn-asia-kr.png" group-title="South Korea",tvN Asia
+http://50.7.161.82:8278/streams/d/TVN/playlist.m3u8
 #EXTINF:-1 tvg-id="TVWorkNet.kr" tvg-name="TVWorkNet" tvg-country="KR" tvg-language="Korean" tvg-logo="https://i.imgur.com/xLL7Sxm.png" group-title="South Korea",TVWorkNet (480p)
 http://live.worktv.or.kr:1935/live/wowtvlive1.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="YTN.kr" tvg-name="YTN" tvg-country="KR" tvg-language="Korean" tvg-logo="https://static.epg.best/kr/YTN.kr.png" group-title="South Korea",YTN (720p)
@@ -16794,6 +16813,54 @@ https://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_one_we
 https://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_one_yorks/mobile_wifi_main_sd_abr_v2_akamai_hls_live_http.m3u8
 #EXTINF:-1 tvg-id="BBCParliament.uk" tvg-name="BBC Parliament" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="United Kingdom",BBC Parliament (540p) [Geo-Blocked]
 https://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_parliament/mobile_wifi_main_sd_abr_v2_akamai_hls_live_http.m3u8
+#EXTINF:-1 tvg-id="BBCRedButton1.uk" tvg-name="BBC Red Button 1" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="United Kingdom",BBC Red Button 1 [Geo-Blocked] [Not 24/7]
+https://a.files.bbci.co.uk/media/live/manifesto/audio_video/webcast/hls/uk/abr_hdtv/ak/sport_stream_01.m3u8
+#EXTINF:-1 tvg-id="BBCRedButton10.uk" tvg-name="BBC Red Button 10" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="United Kingdom",BBC Red Button 10 [Geo-Blocked] [Not 24/7]
+https://a.files.bbci.co.uk/media/live/manifesto/audio_video/webcast/hls/uk/abr_hdtv/ak/sport_stream_10.m3u8
+#EXTINF:-1 tvg-id="BBCRedButton11.uk" tvg-name="BBC Red Button 11" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="United Kingdom",BBC Red Button 11 [Geo-Blocked] [Not 24/7]
+https://a.files.bbci.co.uk/media/live/manifesto/audio_video/webcast/hls/uk/abr_hdtv/ak/sport_stream_11.m3u8
+#EXTINF:-1 tvg-id="BBCRedButton12.uk" tvg-name="BBC Red Button 12" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="United Kingdom",BBC Red Button 12 [Geo-Blocked] [Not 24/7]
+https://a.files.bbci.co.uk/media/live/manifesto/audio_video/webcast/hls/uk/abr_hdtv/ak/sport_stream_12.m3u8
+#EXTINF:-1 tvg-id="BBCRedButton13.uk" tvg-name="BBC Red Button 13" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="United Kingdom",BBC Red Button 13 [Geo-Blocked] [Not 24/7]
+https://a.files.bbci.co.uk/media/live/manifesto/audio_video/webcast/hls/uk/abr_hdtv/ak/sport_stream_13.m3u8
+#EXTINF:-1 tvg-id="BBCRedButton14.uk" tvg-name="BBC Red Button 14" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="United Kingdom",BBC Red Button 14 [Geo-Blocked] [Not 24/7]
+https://a.files.bbci.co.uk/media/live/manifesto/audio_video/webcast/hls/uk/abr_hdtv/ak/sport_stream_14.m3u8
+#EXTINF:-1 tvg-id="BBCRedButton15.uk" tvg-name="BBC Red Button 15" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="United Kingdom",BBC Red Button 15 [Geo-Blocked] [Not 24/7]
+https://a.files.bbci.co.uk/media/live/manifesto/audio_video/webcast/hls/uk/abr_hdtv/ak/sport_stream_15.m3u8
+#EXTINF:-1 tvg-id="BBCRedButton16.uk" tvg-name="BBC Red Button 16" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="United Kingdom",BBC Red Button 16 [Geo-Blocked] [Not 24/7]
+https://a.files.bbci.co.uk/media/live/manifesto/audio_video/webcast/hls/uk/abr_hdtv/ak/sport_stream_16.m3u8
+#EXTINF:-1 tvg-id="BBCRedButton17.uk" tvg-name="BBC Red Button 17" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="United Kingdom",BBC Red Button 17 [Geo-Blocked] [Not 24/7]
+https://a.files.bbci.co.uk/media/live/manifesto/audio_video/webcast/hls/uk/abr_hdtv/ak/sport_stream_17.m3u8
+#EXTINF:-1 tvg-id="BBCRedButton18.uk" tvg-name="BBC Red Button 18" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="United Kingdom",BBC Red Button 18 [Geo-Blocked] [Not 24/7]
+https://a.files.bbci.co.uk/media/live/manifesto/audio_video/webcast/hls/uk/abr_hdtv/ak/sport_stream_18.m3u8
+#EXTINF:-1 tvg-id="BBCRedButton19.uk" tvg-name="BBC Red Button 19" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="United Kingdom",BBC Red Button 19 [Geo-Blocked] [Not 24/7]
+https://a.files.bbci.co.uk/media/live/manifesto/audio_video/webcast/hls/uk/abr_hdtv/ak/sport_stream_19.m3u8
+#EXTINF:-1 tvg-id="BBCRedButton2.uk" tvg-name="BBC Red Button 2" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="United Kingdom",BBC Red Button 2 [Geo-Blocked] [Not 24/7]
+https://a.files.bbci.co.uk/media/live/manifesto/audio_video/webcast/hls/uk/abr_hdtv/ak/sport_stream_02.m3u8
+#EXTINF:-1 tvg-id="BBCRedButton20.uk" tvg-name="BBC Red Button 20" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="United Kingdom",BBC Red Button 20 [Geo-Blocked] [Not 24/7]
+https://a.files.bbci.co.uk/media/live/manifesto/audio_video/webcast/hls/uk/abr_hdtv/ak/sport_stream_20.m3u8
+#EXTINF:-1 tvg-id="BBCRedButton21.uk" tvg-name="BBC Red Button 21" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="United Kingdom",BBC Red Button 21 [Geo-Blocked] [Not 24/7]
+https://a.files.bbci.co.uk/media/live/manifesto/audio_video/webcast/hls/uk/abr_hdtv/ak/sport_stream_21.m3u8
+#EXTINF:-1 tvg-id="BBCRedButton22.uk" tvg-name="BBC Red Button 22" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="United Kingdom",BBC Red Button 22 [Geo-Blocked] [Not 24/7]
+https://a.files.bbci.co.uk/media/live/manifesto/audio_video/webcast/hls/uk/abr_hdtv/ak/sport_stream_22.m3u8
+#EXTINF:-1 tvg-id="BBCRedButton23.uk" tvg-name="BBC Red Button 23" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="United Kingdom",BBC Red Button 23 [Geo-Blocked] [Not 24/7]
+https://a.files.bbci.co.uk/media/live/manifesto/audio_video/webcast/hls/uk/abr_hdtv/ak/sport_stream_23.m3u8
+#EXTINF:-1 tvg-id="BBCRedButton24.uk" tvg-name="BBC Red Button 24" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="United Kingdom",BBC Red Button 24 [Geo-Blocked] [Not 24/7]
+https://a.files.bbci.co.uk/media/live/manifesto/audio_video/webcast/hls/uk/abr_hdtv/ak/sport_stream_24.m3u8
+#EXTINF:-1 tvg-id="BBCRedButton3.uk" tvg-name="BBC Red Button 3" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="United Kingdom",BBC Red Button 3 [Geo-Blocked] [Not 24/7]
+https://a.files.bbci.co.uk/media/live/manifesto/audio_video/webcast/hls/uk/abr_hdtv/ak/sport_stream_03.m3u8
+#EXTINF:-1 tvg-id="BBCRedButton4.uk" tvg-name="BBC Red Button 4" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="United Kingdom",BBC Red Button 4 [Geo-Blocked] [Not 24/7]
+https://a.files.bbci.co.uk/media/live/manifesto/audio_video/webcast/hls/uk/abr_hdtv/ak/sport_stream_04.m3u8
+#EXTINF:-1 tvg-id="BBCRedButton5.uk" tvg-name="BBC Red Button 5" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="United Kingdom",BBC Red Button 5 [Geo-Blocked] [Not 24/7]
+https://a.files.bbci.co.uk/media/live/manifesto/audio_video/webcast/hls/uk/abr_hdtv/ak/sport_stream_05.m3u8
+#EXTINF:-1 tvg-id="BBCRedButton6.uk" tvg-name="BBC Red Button 6" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="United Kingdom",BBC Red Button 6 [Geo-Blocked] [Not 24/7]
+https://a.files.bbci.co.uk/media/live/manifesto/audio_video/webcast/hls/uk/abr_hdtv/ak/sport_stream_06.m3u8
+#EXTINF:-1 tvg-id="BBCRedButton7.uk" tvg-name="BBC Red Button 7" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="United Kingdom",BBC Red Button 7 [Geo-Blocked] [Not 24/7]
+https://a.files.bbci.co.uk/media/live/manifesto/audio_video/webcast/hls/uk/abr_hdtv/ak/sport_stream_07.m3u8
+#EXTINF:-1 tvg-id="BBCRedButton8.uk" tvg-name="BBC Red Button 8" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="United Kingdom",BBC Red Button 8 [Geo-Blocked] [Not 24/7]
+https://a.files.bbci.co.uk/media/live/manifesto/audio_video/webcast/hls/uk/abr_hdtv/ak/sport_stream_08.m3u8
+#EXTINF:-1 tvg-id="BBCRedButton9.uk" tvg-name="BBC Red Button 9" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="United Kingdom",BBC Red Button 9 [Geo-Blocked] [Not 24/7]
+https://a.files.bbci.co.uk/media/live/manifesto/audio_video/webcast/hls/uk/abr_hdtv/ak/sport_stream_09.m3u8
 #EXTINF:-1 tvg-id="BBCScotland.uk" tvg-name="BBC Scotland" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="United Kingdom",BBC Scotland (540p) [Geo-Blocked]
 https://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_scotland_hd/mobile_wifi_main_sd_abr_v2_akamai_hls_live_http.m3u8
 #EXTINF:-1 tvg-id="BBCScotlandHD.uk" tvg-name="BBC Scotland HD" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="United Kingdom",BBC Scotland HD (720p) [Geo-Blocked]
