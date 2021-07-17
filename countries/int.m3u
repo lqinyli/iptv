@@ -10,14 +10,12 @@ https://austchannel-live.akamaized.net/hls/live/2002729/austchannel-news/master.
 http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
 #EXTINF:-1 tvg-id="CNNInternational.us" tvg-name="CNN International" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/2BXCg0x.jpg" group-title="News",CNN International (720p)
 https://cnn-cnninternational-1-de.samsung.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 tvg-id="DWEnglish.de" tvg-name="DW English" tvg-country="INT" tvg-language="English" tvg-logo="" group-title="News",DW English
-http://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/index_1_av-b.m3u8
 #EXTINF:-1 tvg-id="DWEnglish.de" tvg-name="DW English" tvg-country="INT" tvg-language="English" tvg-logo="" group-title="News",DW English (400p)
 https://dwstream1-lh.akamaihd.net/i/dwstream1_live@120422/master.m3u8
 #EXTINF:-1 tvg-id="DWEnglish.de" tvg-name="DW English" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/xnv0Pgm.jpg" group-title="News",DW English
-https://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/index_4_av-p.m3u8
-#EXTINF:-1 tvg-id="DWEnglish.de" tvg-name="DW English" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/xnv0Pgm.jpg" group-title="News",DW English (400p)
 https://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/master.m3u8
+#EXTINF:-1 tvg-id="DWEnglish.de" tvg-name="DW English" tvg-country="INT" tvg-language="English" tvg-logo="" group-title="News",DW English
+https://m-c010-j2apps.s.llnwi.net/hls/8023.DWEnglish.in_360p/index.m3u8
 #EXTINF:-1 tvg-id="DWEnglish.de" tvg-name="DW English" tvg-country="INT" tvg-language="English" tvg-logo="" group-title="News",DW English (720p)
 https://m-c010-j2apps.s.llnwi.net/hls_hd/8024.DWEnglishHD.in.m3u8
 #EXTINF:-1 tvg-id="Eurodance90HD.ru" tvg-name="Eurodance 90 HD" tvg-country="INT" tvg-language="English" tvg-logo="" group-title="Music",Eurodance 90 HD
@@ -60,6 +58,9 @@ http://live.tamilvision.tv:8081/TVI/SD/playlist.m3u8
 https://the-pet-collective-international-de.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="TRTWorld.tr" tvg-name="TRT World" tvg-country="INT" tvg-language="English" tvg-logo="https://i.ibb.co/phw4pjP/mjTjJ1N.png" group-title="News",TRT World (1080p)
 https://api.trtworld.com/livestream/v1/WcM3Oa2LHD9iUjWDSRUI335NkMWVTUV351H56dqC/master.m3u8
+#EXTINF:-1 tvg-id="TRTWorld.tr" tvg-name="TRT World" tvg-country="INT" tvg-language="English" tvg-logo="https://i.ibb.co/phw4pjP/mjTjJ1N.png" group-title="News",TRT World (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+https://mn-nl.mncdn.com/blutv_trtworld/smil:trtworld_sd.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TVBRICSEnglish.ru" tvg-name="TV BRICS English" tvg-country="INT" tvg-language="Russian;English" tvg-logo="https://i.imgur.com/vLpm8tN.png" group-title="General",TV BRICS English
 http://brics.bonus-tv.ru/cdn/brics/english/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="UNWebTV.us" tvg-name="UN Web TV" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/lPyJhBN.png" group-title="News",UN Web TV (540p)
