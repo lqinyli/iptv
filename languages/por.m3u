@@ -45,16 +45,14 @@ https://cast.cdnseguro.com:19360/8094/8094.m3u8
 http://c2.manasat.com:1935/kcine/kcine3/FluxusTV.m3u8
 #EXTINF:-1 tvg-id="KuriakosCine.pt" tvg-name="Kuriakos Cine" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/CZViCwB.jpg" group-title="Movies",Kuriakos Cine (1080p)
 http://c2.manasat.com:1935/kcine/kcine3/master.m3u8
-#EXTINF:-1 tvg-id="KuriakosKids.pt" tvg-name="Kuriakos Kids" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/tfc2BYM.png" group-title="Kids",Kuriakos Kids (1080p)
-http://c2.manasat.com:1935/kkids/kkids3/FluxusTV.m3u8
 #EXTINF:-1 tvg-id="KuriakosKids.pt" tvg-name="Kuriakos Kids" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/aNVzKYJ.png" group-title="Kids",Kuriakos Kids (1080p)
 http://c2.manasat.com:1935/kkids/kkids3/master.m3u8
-#EXTINF:-1 tvg-id="KuriakosMusic.pt" tvg-name="Kuriakos Music" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/q6K4S0N.png" group-title="Music",Kuriakos Music (1080p)
-http://c2.manasat.com:1935/kmusic/kmusic3/FluxusTV.m3u8
 #EXTINF:-1 tvg-id="KuriakosMusic.pt" tvg-name="Kuriakos Music" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/Zl40NYi.jpg" group-title="Music",Kuriakos Music (1080p)
 http://c2.manasat.com:1935/kmusic/kmusic3/master.m3u8
 #EXTINF:-1 tvg-id="KuriakosTV.pt" tvg-name="Kuriakos TV" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/M5i4hfh.png" group-title="Religious",Kuriakos TV (1080p)
-http://195.22.11.11:1935/ktv/ktv1/FluxusTV.m3u8
+http://195.22.11.11:1935/ktv/ktv1/master.m3u8
+#EXTINF:-1 tvg-id="KuriakosTV.pt" tvg-name="Kuriakos TV" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://cdn.teleon.tv/logo/kuriakos_tv_pt.png" group-title="",Kuriakos TV (576p)
+http://195.22.11.11:1935/ktv/ktv2/playlist.m3u8
 #EXTINF:-1 tvg-id="MKKWebTV.br" tvg-name="MKK Web TV" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://mkkwebtv.com.br/upload/logo_branco_MkkWeb_TV_okk_pequinino_20190503.jpg" group-title="General",MKK Web TV (360p)
 http://tv02.logicahost.com.br:1935/mkkweb/mkkweb/live.m3u8
 #EXTINF:-1 tvg-id="NovaEraTV.br" tvg-name="Nova Era TV" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/IK3F9Uq.png" group-title="Local",Nova Era TV (1080p)
@@ -122,6 +120,14 @@ http://185.236.229.21:9981/play/a037
 http://213.13.26.11:1935/live/sobrenaturaltv/livestream.m3u8
 #EXTINF:-1 tvg-id="SobrenaturalTV.pt" tvg-name="Sobrenatural TV" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/VgzVZto.png" group-title="Religious",Sobrenatural TV (720p) [Not 24/7]
 http://livestreamcdn.net:1935/SobrenaturalTV/SobrenaturalTV/playlist.m3u8
+#EXTINF:-1 tvg-id="SportTV1.pt" tvg-name="Sport TV 1" tvg-country="PT" tvg-language="Portuguese" tvg-logo="" group-title="",Sport TV 1
+http://212.224.98.207:2200/NL/sporttv1-por/index.m3u8?token=
+#EXTINF:-1 tvg-id="SportTV2.pt" tvg-name="Sport TV 2" tvg-country="PT" tvg-language="Portuguese" tvg-logo="" group-title="",Sport TV 2
+http://212.224.98.207:2200/NL/sporttv2-por/index.m3u8?token=
+#EXTINF:-1 tvg-id="SportTV3.pt" tvg-name="Sport TV 3" tvg-country="PT" tvg-language="Portuguese" tvg-logo="" group-title="",Sport TV 3
+http://212.224.98.207:2200/NL/sporttv3-por/index.m3u8?token=
+#EXTINF:-1 tvg-id="SportTV4.pt" tvg-name="Sport TV 4" tvg-country="PT" tvg-language="Portuguese" tvg-logo="" group-title="",Sport TV 4
+http://212.224.98.207:2200/NL/sporttv4-por/index.m3u8?token=
 #EXTINF:-1 tvg-id="SportTV5.pt" tvg-name="Sport TV 5" tvg-country="PT" tvg-language="Portuguese" tvg-logo="" group-title="",Sport TV 5
 http://185.236.229.21:9981/play/a03n
 #EXTINF:-1 tvg-id="SportTVPlus.pt" tvg-name="Sport TV+" tvg-country="PT" tvg-language="Portuguese" tvg-logo="" group-title="",Sport TV+
