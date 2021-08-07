@@ -51,6 +51,8 @@ https://content.uplynk.com/channel/64ca339f04964a5e961c3207a7771bf1.m3u8
 https://content-auso2.uplynk.com/channel/9c9e4e410b5a471391c116166d8c010e.m3u8
 #EXTINF:-1 tvg-id="WABC.us" tvg-name="ABC 7 New York NY (WABC-TV)" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/99K3yyn.png" group-title="Local",ABC 7 New York NY (WABC-TV) (720p)
 https://streams.the6tv.duckdns.org:2443/locals/NewYorkCity/wabc-dt1.m3u8
+#EXTINF:-1 tvg-id="KGOTV.us" tvg-name="ABC 7 News San Francisco (KGO-TV)" tvg-country="US" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/64/KGOTVABC7.png" group-title="Local",ABC 7 News San Francisco (KGO-TV) (720p)
+https://streams.the6tv.duckdns.org:2443/locals/BayArea/kgo-dt1.m3u8
 #EXTINF:-1 tvg-id="WWSB.us" tvg-name="ABC 7 Sarasota FL (WWSB)" tvg-country="US" tvg-language="English" tvg-logo="https://cloudfront-us-east-1.images.arcpublishing.com/raycom/HJ3SAXRMNFAHXOFIRVYCQBIOGM.jpg" group-title="Local",ABC 7 Sarasota FL (WWSB) (720p)
 https://d2nt5wxzqbe1ad.cloudfront.net/out/raycom-wwsb1-hls/live.m3u8
 #EXTINF:-1 tvg-id="WJLA.us" tvg-name="ABC 7 Washington D.C. (WJLA)" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/LttuGfq.png" group-title="Local",ABC 7 Washington D.C. (WJLA) (720p)
@@ -83,8 +85,6 @@ https://abcnews-streams.akamaized.net/hls/live/2023566/abcnews7/master.m3u8
 https://abcnews-streams.akamaized.net/hls/live/2023567/abcnews8/master.m3u8
 #EXTINF:-1 tvg-id="ABCNews9.us" tvg-name="ABC News 9" tvg-country="US" tvg-language="English" tvg-logo="https://od.lk/s/MF8yMjk3NjU0OTJf/ABCNewsLive_2021_200x200.png" group-title="Local",ABC News 9 (720p)
 https://abcnews-streams.akamaized.net/hls/live/2023568/abcnews9/master.m3u8
-#EXTINF:-1 tvg-id="KGOTV.us" tvg-name="ABC7 News San Francisco (KGO-TV)" tvg-country="US" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/64/KGOTVABC7.png" group-title="Local",ABC7 News San Francisco (KGO-TV) (720p)
-https://streams.the6tv.duckdns.org:2443/locals/BayArea/kgo-dt1.m3u8
 #EXTINF:-1 tvg-id="Akaku53Hawaii.us" tvg-name="Akaku 53 (Hawaii)" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/MQET539.jpg" group-title="Local",Akaku 53 (Hawaii)
 https://akaku.vod.castus.tv/live/ch1.m3u8
 #EXTINF:-1 tvg-id="Akaku54Hawaii.us" tvg-name="Akaku 54 (Hawaii)" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/MQET539.jpg" group-title="Local",Akaku 54 (Hawaii)
@@ -459,6 +459,24 @@ http://gov.leominster.tv/Gov/smil:Gov.smil/playlist.m3u8
 http://gov.leominster.tv/Pub/smil:Pub.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="LexTV.us" tvg-name="Lex TV" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/OyUrnuD.jpg" group-title="Local",Lex TV (720p)
 https://granicusliveus2-a.akamaihd.net/lfucg/G0264_002/playlist.m3u8
+#EXTINF:-1 tvg-id="KABCDT2.us" tvg-name="Localish (KABC-DT2)" tvg-country="US" tvg-language="English" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/35230/s70938_h3_aa.png" group-title="Local",Localish (KABC-DT2) (432p)
+https://streams.the6tv.duckdns.org:2443/locals/SoCal/kabc-dt2.m3u8
+#EXTINF:-1 tvg-id="LocalNowAtlantaGA.us" tvg-name="LocalNow - Atlanta GA" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/x8KRwBz.png" group-title="Local",LocalNow - Atlanta GA (720p) [Geo-blocked]
+https://prod.localnowapi.com/vod/api/v2/LiveStream/Playback/gaAtlanta/index.m3u8
+#EXTINF:-1 tvg-id="LocalNowHarrisburgPA.us" tvg-name="LocalNow - Harrisburg PA" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/x8KRwBz.png" group-title="Local",LocalNow - Harrisburg PA (720p) [Geo-blocked]
+https://prod.localnowapi.com/vod/api/v2/LiveStream/Playback/paHarrisburg/index.m3u8
+#EXTINF:-1 tvg-id="LocalNowPhiladelphiaPA.us" tvg-name="LocalNow - Philadelphia PA" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/x8KRwBz.png" group-title="Local",LocalNow - Philadelphia PA (720p) [Geo-blocked]
+https://prod.localnowapi.com/vod/api/v2/LiveStream/Playback/paPhiladelphia/index.m3u8
+#EXTINF:-1 tvg-id="LocalNowPhoenixAZ.us" tvg-name="LocalNow - Phoenix AZ" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/x8KRwBz.png" group-title="Local",LocalNow - Phoenix AZ (720p) [Geo-blocked]
+https://prod.localnowapi.com/vod/api/v2/LiveStream/Playback/azPhoenix/index.m3u8
+#EXTINF:-1 tvg-id="LocalNowSanDiegoCA.us" tvg-name="LocalNow - San Diego CA" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/x8KRwBz.png" group-title="Local",LocalNow - San Diego CA (720p) [Geo-blocked]
+https://prod.localnowapi.com/vod/api/v2/LiveStream/Playback/caSanDiego/index.m3u8
+#EXTINF:-1 tvg-id="LocalNowStLouisMO.us" tvg-name="LocalNow - St Louis MO" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/x8KRwBz.png" group-title="Local",LocalNow - St Louis MO (720p) [Geo-blocked]
+https://prod.localnowapi.com/vod/api/v2/LiveStream/Playback/moStLouis/index.m3u8
+#EXTINF:-1 tvg-id="LocalNowTulsaOK.us" tvg-name="LocalNow - Tulsa OK" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/x8KRwBz.png" group-title="Local",LocalNow - Tulsa OK (720p) [Geo-blocked]
+https://prod.localnowapi.com/vod/api/v2/LiveStream/Playback/okTulsa/index.m3u8
+#EXTINF:-1 tvg-id="LocalNowNewYorkCityNY.us" tvg-name="LocalNow - New York City NY" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/x8KRwBz.png" group-title="Local",LocalNow New York City NY (720p) [Geo-blocked]
+https://prod.localnowapi.com/vod/api/v2/LiveStream/Playback/nyNewYorkCity/index.m3u8
 #EXTINF:-1 tvg-id="M95TelevisionMarbella.es" tvg-name="M95 Televisión Marbella" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/m95tvmarbella/picture?width=320&height=320" group-title="Local",M95 Televisión Marbella
 https://limited2.todostreaming.es/live/m95-livestream.m3u8
 #EXTINF:-1 tvg-id="MainePortlandSTIRR.us" tvg-name="Maine: Portland (STIRR)" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/7JgPJxx.png" group-title="Local",Maine: Portland (STIRR) (720p)
@@ -683,7 +701,7 @@ https://5ee0faac3bbae.streamlock.net/raditropical/raditropical/playlist.m3u8
 https://query-streamlink.lanesh4d0w.repl.co/iptv-query?streaming-ip=https://www.youtube.com/channel/UCK0lpuL9PQb3I5CDcu7Y7bA
 #EXTINF:-1 tvg-id="RadioyTelevisionMarti.us" tvg-name="Radio y Televisión Martí" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/B6C0FyM.png" group-title="Local",Radio y Televisión Martí (480p)
 https://ocb-lh.akamaihd.net/i/ocb_mpls_tvmc1@383606/master.m3u8
-#EXTINF:-1 tvg-id="RadioTVOrienteYurimaguas.pe" tvg-name="RadioTV Oriente (Yurimaguas)" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/www.roriente.org/picture?width=320&height=320" group-title="Local",RadioTV Oriente (Yurimaguas) [Not 24/7]
+#EXTINF:-1 tvg-id="RadioTVOrienteYurimaguas.pe" tvg-name="RadioTV Oriente (Yurimaguas)" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/www.roriente.org/picture?width=320&height=320" group-title="Local",RadioTV Oriente (Yurimaguas) (360p) [Not 24/7]
 https://cp.sradiotv.com:1936/8034/8034/playlist.m3u8
 #EXTINF:-1 tvg-id="RedeRC.br" tvg-name="Rede RC" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/nc95BPy.png" group-title="Local",Rede RC (360p)
 http://tv02.logicahost.com.br:1935/rederc/rederc/live.m3u8
@@ -805,7 +823,7 @@ https://query-streamlink.lanesh4d0w.repl.co/iptv-query?streaming-ip=https://www.
 https://tv.siete.us/tvsensacion/tvsensacion/index.m3u8
 #EXTINF:-1 tvg-id="TVSolComunidade.br" tvg-name="TV Sol Comunidade" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://tvsolcomunidade.com.br/wp-content/uploads/2019/01/logo-tv-sol.png" group-title="Local",TV Sol Comunidade (480p)
 http://streaming03.zas.media:1935/tvsol/tvsol/playlist.m3u8
-#EXTINF:-1 tvg-id="TVUniSantos.br" tvg-name="TV UniSantos" tvg-country="BR" tvg-language="Portuguese" tvg-logo="http://tvunisantos.com.br/upload/612Logo%20TV%20Unisantos.JPG" group-title="Local",TV UniSantos
+#EXTINF:-1 tvg-id="TVUniSantos.br" tvg-name="TV UniSantos" tvg-country="BR" tvg-language="Portuguese" tvg-logo="http://tvunisantos.com.br/upload/612Logo%20TV%20Unisantos.JPG" group-title="Local",TV UniSantos (216p)
 http://live.cdn.upx.com/7550/myStream.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="TVGuberniya.ru" tvg-name="TV Губерния" tvg-country="RU" tvg-language="Russian" tvg-logo="" group-title="Local",TV Губерния (Воронеж) (720p)
 https://tvgubernia-htlive.cdn.ngenix.net/live/mp4:tv-gubernia-live/playlist.m3u8
