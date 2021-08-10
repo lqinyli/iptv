@@ -139,9 +139,9 @@ http://live4.tdm.com.mo/ch2/_definst_/ch2.live/playlist.m3u8
 http://cbs-live.gscdn.com/cbs-live/cbs-live.stream/hasbahca.m3u8
 #EXTINF:-1 tvg-id="CBS.kr" tvg-name="CBS" tvg-country="KR" tvg-language="Korean" tvg-logo="https://m3u-editor.com/storage/channel-logos/07cd9d90-3cc5-11ea-9aa8-0b5bd3ba261d/92706/14090022.png" group-title="General",CBS (1080p)
 http://cbs-live.gscdn.com:1935/cbs-live/cbs-live.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-country="CN" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/6/65/CCTV-1_Logo.png" group-title="General",CCTV中国中央电视台-1 综合
+#EXTINF:-1 tvg-id="CCTV1.cn" tvg-name="CCTV1" tvg-country="CN" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/6/65/CCTV-1_Logo.png" group-title="General",CCTV中国中央电视台-1 综合
 http://117.148.187.37/PLTV/88888888/224/3221226154/index.m3u8
-#EXTINF:-1 tvg-id="4" tvg-name="CCTV4" tvg-country="CN" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/0/07/CCTV-4_Logo.svg/800px-CCTV-4_Logo.svg.png" group-title="General",CCTV中国中央电视台-4 中文国际
+#EXTINF:-1 tvg-id="CCTV4.cn" tvg-name="CCTV4" tvg-country="CN" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/0/07/CCTV-4_Logo.svg/800px-CCTV-4_Logo.svg.png" group-title="General",CCTV中国中央电视台-4 中文国际
 http://117.148.187.37/PLTV/88888888/224/3221226171/index.m3u8
 #EXTINF:-1 tvg-id="CitizenTV.ke" tvg-name="Citizen TV" tvg-country="KE" tvg-language="English" tvg-logo="https://kenyatv.tech/wp-content/uploads/2021/05/Webp.net-resizeimage.png" group-title="General",Citizen TV
 https://iptv--iptv.repl.co/streamlink?url=https://www.youtube.com/user/kenyacitizentv/live
@@ -575,7 +575,7 @@ https://596639ebdd89b.streamlock.net/8124/8124/playlist.m3u8
 #EXTINF:-1 tvg-id="TV47.ke" tvg-name="TV47" tvg-country="KE" tvg-language="English" tvg-logo="https://tv47.co.ke/wp-content/uploads/2020/10/tv-47-logo-600-e1617870103726.png" group-title="General",TV47
 https://iptv--iptv.repl.co/streamlink?url=https://www.twitch.tv/tv47kenya/
 #EXTINF:-1 tvg-id="TVGAmerica.es" tvg-name="TVG América" tvg-country="ES" tvg-language="Galician" tvg-logo="https://i.imgur.com/1Z6svKc.jpg" group-title="General",TVG América (720p)
-https://america-crtvg.flumotion.com/crtvg/america_high/playlist.m3u8
+https://america-crtvg.flumotion.com/playlist.m3u8
 #EXTINF:-1 tvg-id="TVGEuropa.es" tvg-name="TVG Europa" tvg-country="ES" tvg-language="Galician" tvg-logo="https://i.imgur.com/QkhxAuY.png" group-title="General",TVG Europa (720p)
 https://europa-crtvg.flumotion.com/playlist.m3u8
 #EXTINF:-1 tvg-id="TVM.mz" tvg-name="TVM" tvg-country="MZ" tvg-language="Portuguese" tvg-logo="http://online.tvm.co.mz/site/public/images/flat_5.png" group-title="General",TVM (480p)
@@ -653,15 +653,13 @@ http://46.46.143.222:1935/live/mp4:ldpr.stream_480p/playlist.m3u8
 http://46.46.143.222:1935/live/mp4:ldpr.stream_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="Mir.ru" tvg-name="Мир" tvg-country="RU" tvg-language="Russian" tvg-logo="http://www.tv-logo.com/pt-data/uploads/images/logo/mir_ru.jpg" group-title="General",Мир (1080p)
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
-#EXTINF:-1 tvg-id="OTR.ru" tvg-name="ОТР" tvg-country="RU" tvg-language="Russian" tvg-logo="https://iptvx.one/icn/otr_ru.png" group-title="General",ОТР
-http://uiptv.do.am/1ufc/000000008/playlist.m3u8
+#EXTINF:-1 tvg-id="OTR.ru" tvg-name="ОТР" tvg-country="RU" tvg-language="Russian" tvg-logo="https://iptvx.one/icn/otr_ru.png" group-title="General",ОТР (720p)
+https://strm.yandex.ru/kal/otr/otr0.m3u8
 #EXTINF:-1 tvg-id="Pervyykanal.ru" tvg-name="Первый канал" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/iW5vhkb.png" group-title="General",Первый канал
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s14/04.m3u8
 #EXTINF:-1 tvg-id="PervyykanalEvraziya.ru" tvg-name="Первый канал Евразия" tvg-country="RU" tvg-language="Russian" tvg-logo="" group-title="General",Первый канал Евразия
-http://sc.id-tv.kz/1KanalEvraziya_38_39.m3u8
-#EXTINF:-1 tvg-id="Rossiya1Kaluga.ru" tvg-name="Россия 1 (Калуга)" tvg-country="RU" tvg-language="Russian" tvg-logo="" group-title="General",Россия 1 (Калуга)
-http://cdnmg.secure.live.rtr-vesti.ru/vgtrkrtmp/smil:kaluga_r1.smil/playlist.m3u8
+http://stream.euroasia.lfstrm.tv/perviy_evrasia/1/index.m3u8
 #EXTINF:-1 tvg-id="Rossiya1Plus6.ru" tvg-name="Россия 1 +6" tvg-country="RU" tvg-language="Russian" tvg-logo="" group-title="General",Россия 1 +6
 https://gtrkchita.ru:8081/hls/r1-chita_180p.m3u8
 #EXTINF:-1 tvg-id="Rossiya1HD.ru" tvg-name="Россия 1 HD" tvg-country="RU" tvg-language="Russian" tvg-logo="" group-title="General",Россия 1 HD (720p)
