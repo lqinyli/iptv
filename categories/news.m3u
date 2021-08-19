@@ -99,6 +99,8 @@ https://live-hls-web-aje.getaj.net/AJE/index.m3u8
 https://manar.live/iptv/playlist.m3u8
 #EXTINF:-1 tvg-id="AlMasirah.ye" tvg-name="Al Masirah" tvg-country="YE" tvg-language="Arabic" tvg-logo="https://i.imgur.com/poHvbNV.jpg" group-title="News",Al Masirah (720p)
 https://svs.itworkscdn.net/almasiralive/almasira.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="AlMayadeen.lb" tvg-name="Al Mayadeen" tvg-country="LB" tvg-language="Arabic" tvg-logo="http://media.almayadeen.tv/uploads/archive/web-logo.png" group-title="News",Al Mayadeen (576p)
+https://lmdstrm.cdn.octivid.com/mayadeen-live/smil:mayadeen.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlRafidain.iq" tvg-name="Al Rafidain" tvg-country="IQ" tvg-language="Arabic" tvg-logo="https://i.imgur.com/x5buqzt.jpg" group-title="News",Al Rafidain (1024p)
 http://149.202.79.190:8081/arrafidaintv/publish/playlist.m3u8
 #EXTINF:-1 tvg-id="AlSharqiyaNews.iq" tvg-name="Al Sharqiya News" tvg-country="IQ" tvg-language="Arabic" tvg-logo="https://i.imgur.com/qNi4rwG.jpg" group-title="News",Al Sharqiya News (1080p)
@@ -138,8 +140,6 @@ https://vidcdn.vidgyor.com/rplus-origin/rplusasianetlive/playlist.m3u8
 https://vidcdn.vidgyor.com/suvarna-origin/liveabr/playlist.m3u8
 #EXTINF:-1 tvg-id="AsianetNewsTamil.in" tvg-name="Asianet News Tamil" tvg-country="IN" tvg-language="Tamil" tvg-logo="https://static.asianetnews.com/v1/images/tamil_logo.png" group-title="News",Asianet News Tamil (360p)
 https://vidcdn.vidgyor.com/ptm-origin/aslive/playlist.m3u8
-#EXTINF:-1 tvg-id="AssamTalks.in" tvg-name="Assam Talks" tvg-country="IN" tvg-language="Hindi" tvg-logo="" group-title="News",Assam Talks (240p)
-http://vidnetcdn.vidgyor.com/assamtalks-origin/liveabr/playlist.m3u8
 #EXTINF:-1 tvg-id="ATNNews.af" tvg-name="ATN News" tvg-country="AF" tvg-language="Pashto" tvg-logo="https://i.imgur.com/x8mlbJM.jpg" group-title="News",ATN News (360p) [Not 24/7]
 https://d10rltuy0iweup.cloudfront.net/ATNNEWS/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="ATV.co" tvg-name="ATV" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://cdn.colombia.com/canales/canal-atv-1694.jpg" group-title="News",ATV [Not 24/7]
@@ -202,7 +202,7 @@ http://edge1.cdn.bg:2006/fls/bonair.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="Bulgaria On Air" tvg-name="Bulgaria On Air" tvg-country="BG" tvg-language="Bulgarian" tvg-logo="https://i.imgur.com/fawQSJN.jpg" group-title="News",Bulgaria On Air (576p)
 http://edge15.cdn.bg:2006/fls/bonair.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal26.ar" tvg-name="Canal 26" tvg-country="AR;LATAM" tvg-language="Spanish" tvg-logo="http://1.bp.blogspot.com/-oaM5k7pbu3A/ULKcb6odA1I/AAAAAAAAXko/nmQ_WMr0c4k/s1600/canal26hd.png" group-title="News",Canal 26 (720p)
-https://live-edge01.telecentro.net.ar/live/smil:c26.smil/playlist.m3u8
+http://200.115.193.177/live/26hd-720/playlist.m3u8
 #EXTINF:-1 tvg-id="CaspianNews.kz" tvg-name="Caspian News" tvg-country="KZ" tvg-language="" tvg-logo="" group-title="News",Caspian News (512p)
 https://sc.id-tv.kz/CaspianNews_36_37.m3u8
 #EXTINF:-1 tvg-id="CBCNews.ca" tvg-name="CBC News" tvg-country="CA" tvg-language="English" tvg-logo="https://i.imgur.com/SGbZKbJ.png" group-title="News",CBC News (720p)
@@ -215,6 +215,8 @@ https://dai2.xumo.com/amagi_hls_data_xumo1212A-cbcnews/CDN/master.m3u8
 https://csm-e-eb.csm.tubi.video/csm/live/243017997.m3u8
 #EXTINF:-1 tvg-id="CBCNewsNetwork.ca" tvg-name="CBC News Network" tvg-country="CA" tvg-language="English" tvg-logo="https://i.imgur.com/SGbZKbJ.png" group-title="News",CBC News Network
 https://cbcnewshd-f.akamaihd.net/i/cbcnews_30@304030/index_2500_av-p.m3u8
+#EXTINF:-1 tvg-id="CBCNewsNetwork.ca" tvg-name="CBC News Network" tvg-country="CA" tvg-language="English" tvg-logo="https://i.imgur.com/thAavMy.png" group-title="News",CBC News Network [Geo-blocked]
+https://livecbcdai-i.akamaihd.net/hls/live/567245/event2/CBCNN/master5.m3u8
 #EXTINF:-1 tvg-id="CBNRio.br" tvg-name="CBN Rio" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/FZwHq8k.png" group-title="News",CBN Rio (720p)
 https://medias.sgr.globo.com/hls/vCBNRJ/vCBNRJ.m3u8
 #EXTINF:-1 tvg-id="CBNSaoPaulo.br" tvg-name="CBN São Paulo" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/FZwHq8k.png" group-title="News",CBN São Paulo (720p)
@@ -453,6 +455,8 @@ https://dev-live.livetvstream.co.uk/LS-63503-4/index.m3u8
 https://live.playstop.me/1816184091/index.m3u8
 #EXTINF:-1 tvg-id="JamahiriaTV.ly" tvg-name="Jamahiria TV" tvg-country="LY" tvg-language="Arabic" tvg-logo="https://www.ljbctv.tv/logo.png" group-title="News",Jamahiria TV (576p)
 https://master.starmena-cloud.com/hls/jam.m3u8
+#EXTINF:-1 tvg-id="JanamTV.in" tvg-name="Janam TV" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/AIPi60k.jpg" group-title="News",Janam TV (240p)
+https://vidcdn.vidgyor.com/janamtv-origin/liveabr/janamtv-origin/live3/playlist.m3u8
 #EXTINF:-1 tvg-id="KairaliNews.in" tvg-name="Kairali News" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/hXsVrIh.jpg" group-title="News",Kairali News (576p)
 http://103.199.161.254/Content/people/Live/Channel(People)/index.m3u8
 #EXTINF:-1 tvg-id="KairaliNews.in" tvg-name="Kairali News" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/hXsVrIh.jpg" group-title="News",Kairali News
@@ -529,10 +533,6 @@ https://best-str.umn.cdn.united.cloud/stream?channel=n1hrv&p=n1Sh4redSecre7iNf0&
 https://best-str.umn.cdn.united.cloud/stream?channel=n1srp&p=n1Sh4redSecre7iNf0&sp=n1info&stream=sp1400&u=n1info
 #EXTINF:-1 tvg-id="n1.si" tvg-name="N1 SLOVENSKA" tvg-country="SI" tvg-language="Slovenian" tvg-logo="https://www.lyngsat.com/logo/tv/nn/n1_rs.png" group-title="News",N1 SLOVENSKA (576p)
 https://best-str.umn.cdn.united.cloud/stream?channel=n1slv&p=n1Sh4redSecre7iNf0&sp=n1info&stream=sp1400&u=n1info
-#EXTINF:-1 tvg-id="NabaaTV.lb" tvg-name="Nabaa TV" tvg-country="LB" tvg-language="Arabic" tvg-logo="https://nabaa.tv/wp-content/uploads/2018/07/nabaa-logo-66x116.png" group-title="News",Nabaa TV (720p)
-http://31.14.40.237:1935/live/Nabaa/playlist.m3u8
-#EXTINF:-1 tvg-id="NabaaTV.lb" tvg-name="Nabaa TV" tvg-country="LB" tvg-language="Arabic" tvg-logo="https://nabaa.tv/wp-content/uploads/2018/07/nabaa-logo-66x116.png" group-title="News",Nabaa TV (480p)
-https://5dc7d824154d0.streamlock.net/live/Nabaa/playlist.m3u8
 #EXTINF:-1 tvg-id="NaxtraNews.in" tvg-name="Naxtra News" tvg-country="IN" tvg-language="Hindi" tvg-logo="" group-title="News",Naxtra News (720p)
 http://wearelive.livebox.co.in/naxatratvhls/Naxatratv.m3u8
 #EXTINF:-1 tvg-id="NBCNewsNow.us" tvg-name="NBC News Now" tvg-country="US" tvg-language="English" tvg-logo="https://raw.githubusercontent.com/geonsey/Free2ViewTV/master/images/logos/NBCNewsNow.png" group-title="News",NBC News Now (1080p)
@@ -675,7 +675,7 @@ https://cdn.smartstream.video/smartstream-us/rplus/rplus/playlist.m3u8
 https://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=0000001
 #EXTINF:-1 tvg-id="RealAmericasVoice.us" tvg-name="Real America's Voice" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/5Noa5O2.png" group-title="News",Real America's Voice (360p)
 https://p1media-americasvoice-1.roku.wurl.com/manifest/b1ba4c5e9571b4919d24d0e97f8b7202.m3u8
-#EXTINF:-1 tvg-id="RealNewsKerala.in" tvg-name="Real News Kerala" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://imgur.com/a/Zdwlvln" group-title="News",Real News Kerala (1080p)
+#EXTINF:-1 tvg-id="RealNewsKerala.in" tvg-name="Real News Kerala" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/EmBpOWM.png" group-title="News",Real News Kerala (1080p)
 https://bk7l298nyx53-hls-live.5centscdn.com/realnews/e7dee419f91aa9e65939d3677fb9c4f5.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="RecordNews.br" tvg-name="Record News" tvg-country="BR" tvg-language="" tvg-logo="" group-title="News",Record News (720p)
 https://rede-muhler-recordnews-1-br.samsung.wurl.com/manifest/playlist.m3u8
@@ -741,6 +741,8 @@ http://103.81.104.118/hls/stream21.m3u8
 https://dai.google.com/linear/hls/event/8hUeiLMpTm-YNqk7kadUwA/master.m3u8
 #EXTINF:-1 tvg-id="STVNoticias.pt" tvg-name="STV Noticias" tvg-country="PT" tvg-language="Portuguese" tvg-logo="" group-title="News",STV Noticias (720p)
 http://dcunilive36-lh.akamaihd.net/i/dclive_1@668002/master.m3u8
+#EXTINF:-1 tvg-id="SubRangTV.us" tvg-name="SubRang TV" tvg-country="US" tvg-language="Hindi" tvg-logo="https://i.imgur.com/xMN1q8P.jpg" group-title="News",SubRang TV (480p)
+https://cdn20.liveonlineservices.com/hls/subrang.m3u8
 #EXTINF:-1 tvg-id="SuhailTV.ye" tvg-name="Suhail TV" tvg-country="YE" tvg-language="Arabic" tvg-logo="" group-title="News",Suhail TV (576p)
 http://82.212.74.98:8000/live/hls/7726.m3u8
 #EXTINF:-1 tvg-id="SuvarnaNews247.in" tvg-name="Suvarna News 24/7" tvg-country="IN" tvg-language="" tvg-logo="" group-title="News",Suvarna News 24/7 (360p)

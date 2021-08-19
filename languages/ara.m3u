@@ -115,6 +115,8 @@ https://almamlka-live.ercdn.net/almamlka/almamlka.m3u8
 https://manar.live/iptv/playlist.m3u8
 #EXTINF:-1 tvg-id="AlMasirah.ye" tvg-name="Al Masirah" tvg-country="YE" tvg-language="Arabic" tvg-logo="https://i.imgur.com/poHvbNV.jpg" group-title="News",Al Masirah (720p)
 https://svs.itworkscdn.net/almasiralive/almasira.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="AlMayadeen.lb" tvg-name="Al Mayadeen" tvg-country="LB" tvg-language="Arabic" tvg-logo="http://media.almayadeen.tv/uploads/archive/web-logo.png" group-title="News",Al Mayadeen (576p)
+https://lmdstrm.cdn.octivid.com/mayadeen-live/smil:mayadeen.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlQamarTV.ae" tvg-name="Al Qamar TV" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://alqamartv-rfrfjjt.netdna-ssl.com/arb/wp-content/uploads/2017/05/Title5.png" group-title="",Al Qamar TV (360p)
 https://cdn5.iqsat.net/iq/8c17d37e0f5c88b1e9c7e1f8f82bc980.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="AlQuranAlKareemTV.sa" tvg-name="Al Quran Al Kareem TV" tvg-country="SA" tvg-language="Arabic" tvg-logo="https://i.imgur.com/zmVCXIK.png" group-title="Religious",Al Quran Al Kareem TV (Mecca) (720p)
@@ -195,8 +197,6 @@ https://wowzaprod140-i.akamaihd.net/hls/live/750788/7552102e/playlist.m3u8
 https://mn-nl.mncdn.com/alhiwar_live/smil:alhiwar.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlimanTV.lb" tvg-name="Aliman TV" tvg-country="LB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/817xRPg.png" group-title="Religious",Aliman TV (240p)
 https://svs.itworkscdn.net/alimanlive/imantv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="AlkafeelBetweenthetwoholyshrines.iq" tvg-name="Alkafeel: Between the two holy shrines" tvg-country="IQ" tvg-language="Arabic" tvg-logo="https://alkafeel.net/src/svg/logo_stripped.svg" group-title="Religious",Alkafeel: Between the two holy shrines (360p)
-https://stream.alkafeel.net/live/alkafeel/rAa5PGot4/manifest.m3u8
 #EXTINF:-1 tvg-id="AlkafeelTheentranceoftheholysanctuary.iq" tvg-name="Alkafeel: The entrance of the holy sanctuary" tvg-country="IQ" tvg-language="Arabic" tvg-logo="https://alkafeel.net/src/svg/logo_stripped.svg" group-title="Religious",Alkafeel: The entrance of the holy sanctuary (360p) [Not 24/7]
 https://stream.alkafeel.net/live/alkafeel/rAa5PGot3/manifest.m3u8
 #EXTINF:-1 tvg-id="AlkafeelTheHolyTomb.iq" tvg-name="Alkafeel: The Holy Tomb" tvg-country="IQ" tvg-language="Arabic" tvg-logo="https://alkafeel.net/src/svg/logo_stripped.svg" group-title="Religious",Alkafeel: The Holy Tomb (360p) [Not 24/7]
@@ -513,45 +513,37 @@ https://cdn3.wowza.com/1/ZFBldUlPNjRBRDZM/ZW90V2ZW/hls/live/playlist.m3u8
 https://linkastream.co/headless?url=https://www.youtube.com/channel/UCg5uHOxrP5GkMWldOavPKGQ/live
 #EXTINF:-1 tvg-id="MinbijTV.sy" tvg-name="Minbij TV" tvg-country="MENA" tvg-language="Arabic" tvg-logo="" group-title="",Minbij TV (576p)
 http://163.172.39.215:25461/line/C4@!a3a1@!w72A/45
-#EXTINF:-1 tvg-id="MosaiqueFM.tn" tvg-name="Mosaïque FM" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://www.mosaiquefm.net/images/front2020/logoar.png" group-title="Music",Mosaïque FM
+#EXTINF:-1 tvg-id="MosaiqueFM.tn" tvg-name="Mosaïque FM" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://www.mosaiquefm.net/images/front2020/logoar.png" group-title="Music",Mosaïque FM (480p)
 https://webcam.mosaiquefm.net:1936/mosatv/studio/playlist.m3u8
 #EXTINF:-1 tvg-id="MTA3.uk" tvg-name="MTA 3" tvg-country="UK" tvg-language="Arabic" tvg-logo="https://i.imgur.com/C5nT9yi.png" group-title="",MTA 3 (1080p)
 https://ooyalahd2-f.akamaihd.net/i/mtach7_delivery@348438/master.m3u8
 #EXTINF:-1 tvg-id="MusawaChannel.ps" tvg-name="MusawaChannel" tvg-country="PS" tvg-language="Arabic" tvg-logo="https://i.imgur.com/PEFW4Vy.png" group-title="General",MusawaChannel (404p)
 http://htvpalsat.mada.ps:8888/musawa/index.m3u8
-#EXTINF:-1 tvg-id="NabaaTV.lb" tvg-name="Nabaa TV" tvg-country="LB" tvg-language="Arabic" tvg-logo="https://nabaa.tv/wp-content/uploads/2018/07/nabaa-logo-66x116.png" group-title="News",Nabaa TV (720p)
-http://31.14.40.237:1935/live/Nabaa/playlist.m3u8
-#EXTINF:-1 tvg-id="NabaaTV.lb" tvg-name="Nabaa TV" tvg-country="LB" tvg-language="Arabic" tvg-logo="https://nabaa.tv/wp-content/uploads/2018/07/nabaa-logo-66x116.png" group-title="News",Nabaa TV (480p)
-https://5dc7d824154d0.streamlock.net/live/Nabaa/playlist.m3u8
-#EXTINF:-1 tvg-id="NablusTV.ps" tvg-name="Nablus TV" tvg-country="PS" tvg-language="Arabic" tvg-logo="" group-title="",Nablus TV (720p)
-http://htvmada.mada.ps:8888/nabluslive/index.m3u8
 #EXTINF:-1 tvg-id="NationalGeographicAbuDhabi.us" tvg-name="National Geographic Abu Dhabi" tvg-country="US" tvg-language="Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Nat_geo_channel_abu_dhabi.png/220px-Nat_geo_channel_abu_dhabi.png" group-title="Documentary",National Geographic Abu Dhabi (1080p)
 http://admdn2.cdn.mangomolo.com/nagtv/smil:nagtv.stream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="NationalGeographicAbuDhabi.ae" tvg-name="National Geographic Abu Dhabi" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/baXbWro.jpg" group-title="Outdoor",National Geographic Abu Dhabi (1080p)
 https://admdn2.cdn.mangomolo.com/nagtv/smil:nagtv.stream.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="NBN.lb" tvg-name="NBN" tvg-country="LB" tvg-language="Arabic" tvg-logo="" group-title="",NBN (720p)
-https://nbntv.me:8443/nbntv/index.m3u8
 #EXTINF:-1 tvg-id="Newvision.lb" tvg-name="Newvision" tvg-country="LB" tvg-language="Arabic" tvg-logo="http://www.newvision.tv/wp-content/uploads/2020/05/Logo.jpg" group-title="News",Newvision (576p)
 https://master.starmena-cloud.com/hls/newv.m3u8
-#EXTINF:-1 tvg-id="NileTVCinema.eg" tvg-name="Nile TV Cinema" tvg-country="EG" tvg-language="Arabic" tvg-logo="http://www.niletc.tv/images/cinema/cinema.png" group-title="Movies",Nile TV Cinema
+#EXTINF:-1 tvg-id="NileTVCinema.eg" tvg-name="Nile TV Cinema" tvg-country="EG" tvg-language="Arabic" tvg-logo="http://www.niletc.tv/images/cinema/cinema.png" group-title="Movies",Nile TV Cinema (576p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
 http://livestreaming5.onlinehorizons.net/hls-live/NTNNileCinema/_definst_/liveevent/livestream.m3u8
-#EXTINF:-1 tvg-id="NileTVComedy.eg" tvg-name="Nile TV Comedy" tvg-country="EG" tvg-language="Arabic" tvg-logo="http://www.niletc.tv/images/comedy/comedy.png" group-title="Comedy",Nile TV Comedy
+#EXTINF:-1 tvg-id="NileTVComedy.eg" tvg-name="Nile TV Comedy" tvg-country="EG" tvg-language="Arabic" tvg-logo="http://www.niletc.tv/images/comedy/comedy.png" group-title="Comedy",Nile TV Comedy (576p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
 http://livestreaming5.onlinehorizons.net/hls-live/NTNNileComedy/_definst_/liveevent/livestream.m3u8
-#EXTINF:-1 tvg-id="NileTVCulture.eg" tvg-name="Nile TV Culture" tvg-country="EG" tvg-language="Arabic" tvg-logo="http://www.niletc.tv/images/culture/culture.png" group-title="Culture",Nile TV Culture
+#EXTINF:-1 tvg-id="NileTVCulture.eg" tvg-name="Nile TV Culture" tvg-country="EG" tvg-language="Arabic" tvg-logo="http://www.niletc.tv/images/culture/culture.png" group-title="Culture",Nile TV Culture (576p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
 http://livestreaming5.onlinehorizons.net/hls-live/NTNNileCulture/_definst_/liveevent/livestream.m3u8
-#EXTINF:-1 tvg-id="NileTVFamily.eg" tvg-name="Nile TV Family" tvg-country="EG" tvg-language="Arabic" tvg-logo="http://www.niletc.tv/images/family/family.png" group-title="Family",Nile TV Family
+#EXTINF:-1 tvg-id="NileTVFamily.eg" tvg-name="Nile TV Family" tvg-country="EG" tvg-language="Arabic" tvg-logo="http://www.niletc.tv/images/family/family.png" group-title="Family",Nile TV Family (576p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
 http://livestreaming5.onlinehorizons.net/hls-live/NTNNileFamily/_definst_/liveevent/livestream.m3u8
 #EXTINF:-1 tvg-id="NileTVLearning.eg" tvg-name="Nile TV Learning" tvg-country="EG" tvg-language="Arabic" tvg-logo="http://www.niletc.tv/images/learning/learning.png" group-title="Education",Nile TV Learning
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
 http://livestreaming5.onlinehorizons.net/hls-live/Learning1/_definst_/liveevent/livestream.m3u8
-#EXTINF:-1 tvg-id="NileTVLife.eg" tvg-name="Nile TV Life" tvg-country="EG" tvg-language="Arabic" tvg-logo="http://www.niletc.tv/images/live/live.png" group-title="Lifestyle",Nile TV Life
+#EXTINF:-1 tvg-id="NileTVLife.eg" tvg-name="Nile TV Life" tvg-country="EG" tvg-language="Arabic" tvg-logo="http://www.niletc.tv/images/live/live.png" group-title="Lifestyle",Nile TV Life (576p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
 http://livestreaming5.onlinehorizons.net/hls-live/NTNNileLife/_definst_/liveevent/livestream.m3u8
-#EXTINF:-1 tvg-id="NileTVSport.eg" tvg-name="Nile TV Sport" tvg-country="EG" tvg-language="Arabic" tvg-logo="http://www.niletc.tv/images/sport/sport.png" group-title="Sports",Nile TV Sport
+#EXTINF:-1 tvg-id="NileTVSport.eg" tvg-name="Nile TV Sport" tvg-country="EG" tvg-language="Arabic" tvg-logo="http://www.niletc.tv/images/sport/sport.png" group-title="Sports",Nile TV Sport (576p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
 http://livestreaming5.onlinehorizons.net/hls-live/NTNNileSport/_definst_/liveevent/livestream.m3u8
 #EXTINF:-1 tvg-id="NogoumFMTV.eg" tvg-name="Nogoum FM TV" tvg-country="EG" tvg-language="Arabic" tvg-logo="https://storage.googleapis.com/nogoumfm-eu-web/1/2019/12/logo-nogoum-1.png" group-title="Music",Nogoum FM TV (180p)
@@ -604,8 +596,6 @@ https://shls-panoramafm-prod-dub.shahid.net/out/v1/66262e420d824475aaae794dc2d69
 https://qatartv.akamaized.net/hls/live/2026573/qtv1/master.m3u8
 #EXTINF:-1 tvg-id="QatarTV2.qa" tvg-name="Qatar TV 2" tvg-country="QA" tvg-language="Arabic" tvg-logo="http://www.qtv.qa/assets/images/logos/qtvTwo2.png" group-title="General",Qatar TV 2 (720p)
 https://qatartv.akamaized.net/hls/live/2026574/qtv2/master.m3u8
-#EXTINF:-1 tvg-id="RadioAlbaladTV.ps" tvg-name="Radio Albalad TV" tvg-country="PS" tvg-language="Arabic" tvg-logo="" group-title="",Radio Albalad TV (1080p)
-http://streaming.zaytonatube.com:8080/radioalbalad/radioalbalad/playlist.m3u8
 #EXTINF:-1 tvg-id="RajeenTV.ps" tvg-name="Rajeen TV" tvg-country="PS" tvg-language="Arabic" tvg-logo="" group-title="",Rajeen TV (1080p)
 https://mn-nl.mncdn.com/palabroad/live/playlist.m3u8
 #EXTINF:-1 tvg-id="RojavaTV.sy" tvg-name="Rojava TV" tvg-country="SY" tvg-language="Kurdish;Arabic" tvg-logo="" group-title="",Rojava TV (1080p)
@@ -644,8 +634,6 @@ https://shls-rotanaplus-prod-dub.shahid.net/out/v1/1fc6103458be480b96e6a574b00fe
 https://weyyak-live.akamaized.net/weyyak_roya/index.m3u8
 #EXTINF:-1 tvg-id="RTArabic.ru" tvg-name="RT Arabic" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="" group-title="News",RT Arabic (720p)
 https://rt-arab-gd.secure2.footprint.net/1104.m3u8
-#EXTINF:-1 tvg-id="SahelTV.tn" tvg-name="Sahel TV" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://saheltv.tn/wp-content/uploads/2018/03/saheltv_logox2.png" group-title="General",Sahel TV (720p)
-http://142.44.214.231:1935/saheltv/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="Sama Dubai" tvg-name="Sama Dubai" tvg-country="AE" tvg-language="Arabic" tvg-logo="https://i.imgur.com/bF6I3N1.jpg" group-title="General",Sama Dubai (1080p)
 https://dmieigthvll.cdn.mgmlcdn.com/samadubaiht/smil:samadubai.stream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="SamaTV.sy" tvg-name="Sama TV" tvg-country="SY" tvg-language="Arabic" tvg-logo="https://i.imgur.com/Bg52GiG.png" group-title="General",Sama TV [Not 24/7]
@@ -724,8 +712,6 @@ https://tv-trtarabi.live.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRTArabi.tr" tvg-name="TRT Arabi̇" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.ibb.co/HTzkq9P/iJIHMq9.png" group-title="News",TRT Arabi̇ (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
 https://mn-nl.mncdn.com/blutv_trtarapca/smil:trtarapca_sd.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TunisieImmobilierTV.tn" tvg-name="Tunisie Immobilier TV" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://i.imgur.com/cZM2t0P.png" group-title="Travel",Tunisie Immobilier TV (720p)
-https://5ac31d8a4c9af.streamlock.net/tunimmob/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="TunisnaTV.tn" tvg-name="Tunisna TV" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://tunisie360.net/img/tv/min/tunisna-tv.png" group-title="General",Tunisna TV
 http://streaming.tunisna.tv:1935/live/tunisna/playlist.m3u8
 #EXTINF:-1 tvg-id="TVSeventeen.lb" tvg-name="TV Seventeen" tvg-country="LB" tvg-language="Arabic" tvg-logo="https://www.tvseventeen.com/img/logo.png" group-title="News",TV Seventeen (720p)
