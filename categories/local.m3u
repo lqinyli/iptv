@@ -32,7 +32,7 @@ https://livevideo01.wnep.com/hls/live/2011655/newscasts/live.m3u8
 #EXTINF:-1 tvg-id="WSBTV.us" tvg-name="ABC 2 Atlanta GA (WSB-TV)" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/HkY10xX.jpg" group-title="Local",ABC 2 Atlanta GA (WSB-TV) (720p)
 https://d2rwx6gwduugne.cloudfront.net/v1/master/77872db67918a151b697b5fbc23151e5765767dc/cmg_PROD_cmg-tv-10010_183ec1c7-4183-4661-803b-3ed282ffb625_LE/in/cmg-wsbtvnow-hls-v3/live.m3u8
 #EXTINF:-1 tvg-id="WBRZ.us" tvg-name="ABC 2 Baton Rouge LA (WBRZ)" tvg-country="US" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/86/WBRZ_Logo_2013.png" group-title="Local",ABC 2 Baton Rouge LA (WBRZ) (720p)
-http://cms-wowza.lunabyte.io/wbrz-live-1/_definst_/smil:wbrz-live.smil/chunklist_b1300000.m3u8
+http://cms-wowza.lunabyte.io/wbrz-live-1/_definst_/smil:wbrz-live.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="KVUE.us" tvg-name="ABC 24 Austin TX (KVUE)" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/nLBEhIx.jpg" group-title="Local",ABC 24 Austin TX (KVUE) (1080p)
 https://livevideo01.kvue.com/hls/live/2016282/newscasts/live.m3u8
 #EXTINF:-1 tvg-id="WATNTV.us" tvg-name="ABC 24 Memphis TN (WATN-TV)" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/ukf1WZ0.jpg" group-title="Local",ABC 24 Memphis TN (WATN-TV) (1080p)
@@ -127,6 +127,8 @@ http://media4.tripsmarter.com:1935/LiveTV/MTVHD/playlist.m3u8
 https://video1.getstreamhosting.com:1936/8106/8106/playlist.m3u8
 #EXTINF:-1 tvg-id="Boston25NewsWFXT.us" tvg-name="Boston 25 News (WFXT)" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/YGdDVAQ.jpg" group-title="Local",Boston 25 News (WFXT) (720p)
 https://d2dy6pkj44n6e7.cloudfront.net/v1/master/77872db67918a151b697b5fbc23151e5765767dc/cmg_PROD_cmg-tv-10020_27d61a9c-67b2-4d7c-9486-626a6a071467_LE/in/cmg-wftxtv-hls-v3/live.m3u8
+#EXTINF:-1 tvg-id="BowieTV.us" tvg-name="Bowie TV" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/ZgrlVYT.jpg" group-title="Local",Bowie TV (720p)
+https://granicusliveus3-a.akamaihd.net/cityofbowie/G0466_001/playlist.m3u8
 #EXTINF:-1 tvg-id="BUTV10BostonUniversity.us" tvg-name="BUTV10 (Boston University)" tvg-country="US" tvg-language="English" tvg-logo="http://www.butv10.com/wp-content/themes/butv10/_images/favicon.png" group-title="Local",BUTV10 (Boston University) (1080p)
 http://butv10-livestream.bu.edu/live/WIFI-2096k-1080p/WIFI-2096k-1080p.m3u8
 #EXTINF:-1 tvg-id="CNTV.pe" tvg-name="Cable Netword TV" tvg-country="PE" tvg-language="Spanish" tvg-logo="" group-title="Local",Cable Netword TV (720p) [Not 24/7]
@@ -199,8 +201,6 @@ https://livevideo01.10tv.com/hls/live/2013836/newscasts/live.m3u8
 https://livevideo01.wtsp.com/hls/live/2015503/newscasts/live.m3u8
 #EXTINF:-1 tvg-id="KTVT.us" tvg-name="CBS 11 Dallas TX (KTVT)" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/Oy5hH08.png" group-title="Local",CBS 11 Dallas TX (KTVT) (720p)
 https://cbsn-dal-cedexis.cbsnstream.cbsnews.com/out/v1/ffa98bbf7d2b4c038c229bd4d9122708/master.m3u8
-#EXTINF:-1 tvg-id="KTVT.us" tvg-name="CBS 11 Dallas TX (KTVT)" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/Oy5hH08.png" group-title="Local",CBS 11 Dallas TX (KTVT) (180p)
-https://cbsn-dal-cedexis.cbsnstream.cbsnews.com/out/v1/ffa98bbf7d2b4c038c229bd4d9122708/master_6.m3u8
 #EXTINF:-1 tvg-id="KHOU.us" tvg-name="CBS 11 Houston TX (KHOU)" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/aTU1n4l.jpg" group-title="Local",CBS 11 Houston TX (KHOU) (1080p)
 https://livevideo01.khou.com/hls/live/2014966/newscasts/live.m3u8
 #EXTINF:-1 tvg-id="WTOL.us" tvg-name="CBS 11 Toledo OH (WTOL)" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/NCpIwNs.jpg" group-title="Local",CBS 11 Toledo OH (WTOL) (1080p)
@@ -369,24 +369,6 @@ https://dai.google.com/linear/hls/event/fD3VBzTxRXGz-v7HV0vryQ/master.m3u8
 https://dai.google.com/linear/hls/event/PPMxI7GZSRG6Kgkp2gSF1g/master.m3u8
 #EXTINF:-1 tvg-id="Glendale11AZ.us" tvg-name="Glendale 11 AZ" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/Zxb1Xyj.jpg" group-title="Local",Glendale 11 AZ (360p)
 https://stream.swagit.com/live-edge/glendaleaz/smil:std-4x3-1-a/playlist.m3u8
-#EXTINF:-1 tvg-id="GlobalBritishColumbia.ca" tvg-name="Global British Columbia" tvg-country="CA" tvg-language="English" tvg-logo="https://i.imgur.com/bcHP3Vg.png" group-title="Local",Global British Columbia (720p)
-https://live.corusdigitaldev.com/groupa/live/48a5882b-a1ec-42d7-bfd7-6c2739e737da/live.isml/master.m3u8
-#EXTINF:-1 tvg-id="GlobalNewsHalifax.ca" tvg-name="Global News Halifax" tvg-country="CA" tvg-language="English" tvg-logo="https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/GlobalNews_650x650.png?raw=true" group-title="Local",Global News Halifax (720p)
-https://live.corusdigitaldev.com/groupa/live/b60d1d57-2851-4c29-bf5c-36feed988e57/live.isml/.m3u8
-#EXTINF:-1 tvg-id="GlobalNewsKingston.ca" tvg-name="Global News Kingston" tvg-country="CA" tvg-language="English" tvg-logo="https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/GlobalNews_650x650.png?raw=true" group-title="Local",Global News Kingston (720p)
-https://live.corusdigitaldev.com/groupa/live/023a9e25-f0cf-4d97-af9f-5c665b7d45b9/live.isml/.m3u8
-#EXTINF:-1 tvg-id="GlobalNewsMontreal.ca" tvg-name="Global News Montreal" tvg-country="CA" tvg-language="English" tvg-logo="https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/GlobalNews_650x650.png?raw=true" group-title="Local",Global News Montreal (720p)
-https://live.corusdigitaldev.com/groupa/live/6bfb7f13-9d9d-4211-9c50-fb56330e4ccd/live.isml/.m3u8
-#EXTINF:-1 tvg-id="GlobalNewsPeterborough.ca" tvg-name="Global News Peterborough" tvg-country="CA" tvg-language="English" tvg-logo="https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/GlobalNews_650x650.png?raw=true" group-title="Local",Global News Peterborough (720p)
-https://live.corusdigitaldev.com/groupa/live/5eb39b64-58e8-47d2-97ca-25e8cd760b63/live.isml/.m3u8
-#EXTINF:-1 tvg-id="GlobalNewsRegina.ca" tvg-name="Global News Regina" tvg-country="CA" tvg-language="English" tvg-logo="https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/GlobalNews_650x650.png?raw=true" group-title="Local",Global News Regina (720p)
-https://live.corusdigitaldev.com/groupb/live/3062d0e3-ed4c-4f47-8482-95648250f4b8/live.isml/.m3u8
-#EXTINF:-1 tvg-id="GlobalNewsSaskatoon.ca" tvg-name="Global News Saskatoon" tvg-country="CA" tvg-language="English" tvg-logo="https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/GlobalNews_650x650.png?raw=true" group-title="Local",Global News Saskatoon (720p)
-https://live.corusdigitaldev.com/groupc/live/f191ef59-6c28-42ba-86d0-d47df5280249/live.isml/.m3u8
-#EXTINF:-1 tvg-id="GlobalNewsWinnipeg.ca" tvg-name="Global News Winnipeg" tvg-country="CA" tvg-language="English" tvg-logo="https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/GlobalNews_650x650.png?raw=true" group-title="Local",Global News Winnipeg (720p)
-https://live.corusdigitaldev.com/groupb/live/564df695-94f9-4f27-b1b9-0a936ab01721/live.isml/.m3u8
-#EXTINF:-1 tvg-id="GlobalToronto.ca" tvg-name="Global Toronto" tvg-country="CA" tvg-language="English" tvg-logo="https://i.imgur.com/wlqYdqN.png" group-title="Local",Global Toronto (720p)
-https://live.corusdigitaldev.com/groupd/live/8970c668-40cd-4ca9-8c4d-25fd04f619b5/live.isml/master.m3u8
 #EXTINF:-1 tvg-id="GoldValleyTV.pe" tvg-name="Gold Valley TV (Cafsma)" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/Goldvalleytvcasma/picture?width=320&height=320" group-title="Local",Gold Valley TV (Casma) [Not 24/7]
 https://stmv.panel.grupolimalive.com/gold/gold/playlist.m3u8
 #EXTINF:-1 tvg-id="GTV.ro" tvg-name="GTV" tvg-country="RO" tvg-language="Romanian" tvg-logo="https://i.ibb.co/bJVG9HX/GTV.jpg" group-title="Local",GTV (576p)
@@ -501,8 +483,6 @@ http://94.130.180.175:8081/live/greektv/playlist.m3u8
 http://81.30.182.82:18092/hls/live.m3u8
 #EXTINF:-1 tvg-id="KRON.us" tvg-name="myTV 4 San Francisco Bay Area CA (KRON-TV)" tvg-country="US" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/KRON_4_Main_Logo.svg/1920px-KRON_4_Main_Logo.svg.png" group-title="Local",myTV 4 San Francisco Bay Area CA (KRON-TV) (720p)
 https://cdn87.theus6tv.tk/locals/BayArea/kron-dt1.m3u8
-#EXTINF:-1 tvg-id="WCTX.us" tvg-name="myTV 9 New Haven CT (WCTX)" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/QwuP3cX.png" group-title="Local",myTV 9 New Haven CT (WCTX) (360p)
-https://bozztv.com/teleyupp/e5CGxWp8iU/tracks-v3a1/mono.m3u8
 #EXTINF:-1 tvg-id="WTLV.us" tvg-name="NBC Jacksonville FL (WTLV)" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/KQrtvoo.jpg" group-title="Local",NBC / ABC Jacksonville FL (WTLV) (1080p)
 https://livevideo01.firstcoastnews.com/hls/live/2014550/newscasts/live.m3u8
 #EXTINF:-1 tvg-id="WBIRTV.us" tvg-name="NBC 10 Knoxville TN (WBIR-TV)" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/mMQoVWG.jpg" group-title="Local",NBC 10 Knoxville TN (WBIR-TV) (1080p)
@@ -569,8 +549,6 @@ https://dai.google.com/linear/hls/event/FftwN8CLTnaX1pFHztXlYw/master.m3u8
 https://dai.google.com/linear/hls/event/HSX_ZpxDQNy5aXzJHjhGGQ/master.m3u8
 #EXTINF:-1 tvg-id="News12NewYork.us" tvg-name="News 12 New York" tvg-country="US" tvg-language="English" tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/5f9c57ad92cd1774a1091752" group-title="Local",News 12 New York (1080p)
 https://cheddar-news12ny-1.plex.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 tvg-id="News12NewYork.us" tvg-name="News 12 New York" tvg-country="US" tvg-language="English" tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/5f9c57ad92cd1774a1091752" group-title="Local",News 12 New York (360p)
-https://lnc-news12.tubi.video/primary/5.m3u8
 #EXTINF:-1 tvg-id="NorthCarolinaGreenvilleAshevilleSTIRR.us" tvg-name="North Carolina: Greenville Asheville (STIRR)" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/7JgPJxx.png" group-title="Local",North Carolina: Greenville Asheville (STIRR) (720p)
 https://dai.google.com/linear/hls/event/trvuY4TqQCmrAKFTlr6tPQ/master.m3u8
 #EXTINF:-1 tvg-id="NorthCarolinaGreenvilleNewBernSTIRR.us" tvg-name="North Carolina: Greenville New Bern (STIRR)" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/7JgPJxx.png" group-title="Local",North Carolina: Greenville New Bern (STIRR) (720p)
@@ -612,7 +590,7 @@ https://granicusliveus12-a.akamaihd.net/olelo/G0125_013/playlist.m3u8
 #EXTINF:-1 tvg-id="OmegaTVYurimaguas.pe" tvg-name="Omega TV (Yurimaguas)" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/omegatvyurimaguas/picture?width=320&height=320" group-title="Local",Omega TV (Yurimaguas) [Not 24/7]
 https://7.innovatestream.pe:19360/omega/omega.m3u8
 #EXTINF:-1 tvg-id="ONNtv.ca" tvg-name="ONNtv" tvg-country="CA" tvg-language="English" tvg-logo="https://i.imgur.com/RUuCbIG.png" group-title="Local",ONNtv (Ontario) (1080p)
-https://onntv.vantrix.tv/onntv_hls/1080p/onntv_hls-HLS-1080p.m3u8
+https://onntv.vantrix.tv/onntv_hls/h264_aac_ABR.m3u8
 #EXTINF:-1 tvg-id="OrangeTV.us" tvg-name="Orange TV" tvg-country="US" tvg-language="English" tvg-logo="http://lh4.ggpht.com/rTO2b4xizn7KZy6X-3RUSMWmNi86B116IuF9kgi51fyNTp8mrEhP25svcAMx5BngXwlf=w300" group-title="Local",Orange TV (720p)
 http://otv3.ocfl.net:1936/OrangeTV/smil:OrangeTV.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="OregonEugeneSpringfield1STIRR.us" tvg-name="Oregon: Eugene Springfield #1 (STIRR)" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/7JgPJxx.png" group-title="Local",Oregon: Eugene Springfield #1 (STIRR) (720p)
@@ -785,6 +763,8 @@ https://cdn.jmvstream.com/w/LVW-8538/LVW8538_KBtZ9UMIZn/playlist.m3u8
 http://ventdelnord.tv:8080/girona/directe.m3u8
 #EXTINF:-1 tvg-id="TVInterlagos.br" tvg-name="TV Interlagos" tvg-country="BR" tvg-language="Portuguese" tvg-logo="http://www.tvinterlagos.com.br/images/logo_tv2.jpg" group-title="Local",TV Interlagos (576p)
 http://tv.tvalphanet.com.br:1935/tvinterlagos/tvinterlagos/playlist.m3u8
+#EXTINF:-1 tvg-id="TVManaArgentina.ar" tvg-name="TV Maná Argentina" tvg-country="AR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/GVI8kkp.jpg" group-title="Local",TV Maná Argentina (576p)
+http://streamspub.manasat.com:1935/tvar/tvmanaar2/playlist.m3u8
 #EXTINF:-1 tvg-id="TVNorteChiclayo.pe" tvg-name="TV Norte (Chiclayo)" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/tvnorte7/picture?width=320&height=320" group-title="Local",TV Norte (Chiclayo) [Not 24/7]
 https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.dailymotion.com/TVNORTEHD
 #EXTINF:-1 tvg-id="TVSensacion.pe" tvg-name="TV Sensación" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/492483611619635/picture?width=320&height=320" group-title="Local",TV Sensación (Tacna) (1080p) [Not 24/7]
@@ -949,8 +929,6 @@ https://live.mediacdn.ru/sr1/arhis24/playlist.m3u8
 https://strm.yandex.ru/kal/arhyz24/arhyz240.m3u8
 #EXTINF:-1 tvg-id="Astrahan24.ru" tvg-name="Астрахань 24" tvg-country="RU" tvg-language="Russian" tvg-logo="" group-title="Local",Астрахань 24 (720p)
 http://83.234.104.142/astrakhan24hd/playlist.m3u8
-#EXTINF:-1 tvg-id="Afontovo.ru" tvg-name="Афонтово" tvg-country="RU" tvg-language="Russian" tvg-logo="" group-title="Local",Афонтово (Красноярск) (768p)
-http://xstream.afontovo.ru/afontovo_ya.m3u8
 #EXTINF:-1 tvg-id="Bashkortostan24.ru" tvg-name="Башкортостан 24" tvg-country="RU" tvg-language="Russian" tvg-logo="" group-title="Local",Башкортостан 24 (1080p)
 http://live.gtrk.tv/hls/b24-hls.m3u8
 #EXTINF:-1 tvg-id="Belgorod24.ru" tvg-name="Белгород 24" tvg-country="RU" tvg-language="Russian" tvg-logo="" group-title="Local",Белгород 24 (720p)
