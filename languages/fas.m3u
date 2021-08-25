@@ -65,8 +65,6 @@ http://159.69.58.154/ekran/ekrantv.m3u8
 https://sdm.telewebion.com/live/esfahan/playlist.m3u8
 #EXTINF:-1 tvg-id="ESHRAGH.ir" tvg-name="ESHRAGH" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="",ESHRAGH (576p)
 https://sdm.telewebion.com/live/eshragh/playlist.m3u8
-#EXTINF:-1 tvg-id="FarazTV.ir" tvg-name="Faraz TV" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Movies",Faraz TV (720p)
-https://faraztv.net/hls/stream.m3u8
 #EXTINF:-1 tvg-id="FARS.ir" tvg-name="FARS" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="",FARS (240p)
 http://cdn1.live.irib.ir:1935/epg-live/smil:fars/playlist.m3u8
 #EXTINF:-1 tvg-id="FARS.ir" tvg-name="FARS" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="",FARS (576p)
@@ -87,9 +85,8 @@ https://stream-cdn.gemonline.tv/live/gembollywood/index.m3u8
 #EXTINF:-1 tvg-id="GEMClassic.ir" tvg-name="GEM Classic" tvg-country="IR" tvg-language="Persian" tvg-logo="https://www.gemonline.tv/Assets/channels-box/gem_az.png?14" group-title="Classic",GEM Classic (576p)
 #EXTVLCOPT:http-referrer=https://www.gemonline.tv/en-US/Live/Index?channelname=gemclassic
 https://stream-cdn.gemonline.tv/live/gemclassic/index.m3u8
-#EXTINF:-1 tvg-id="GEMComedy.ir" tvg-name="GEM Comedy" tvg-country="IR" tvg-language="Persian" tvg-logo="https://www.gemonline.tv/Assets/channels-box/gem_comedy.png" group-title="Movies",GEM Comedy (540p) [Geo-blocked]
-#EXTVLCOPT:http-referrer=https://www.gemonline.tv/en-US/Live/Index?channelname=gem_comedy
-https://d2e40kvaojifd6.cloudfront.net/stream/gem_comedy/playlist.m3u8
+#EXTINF:-1 tvg-id="GEMComedy.ir" tvg-name="GEM Comedy" tvg-country="IR" tvg-language="Persian" tvg-logo="https://www.gemonline.tv/Assets/channels-box/gem_comedy.png" group-title="Movies",GEM Comedy (576p)
+http://216.66.42.47:7777/GemComedy_HD.m3u8
 #EXTINF:-1 tvg-id="GEMDrama.ir" tvg-name="GEM Drama" tvg-country="IR" tvg-language="Persian" tvg-logo="https://www.gemonline.tv/Assets/channels-box/gemdrama.png" group-title="Movies",GEM Drama (576p)
 #EXTVLCOPT:http-referrer=https://www.gemonline.tv/en-US/Live/Index?channelname=gemdrama
 https://stream-cdn.gemonline.tv/live/gemdrama/index.m3u8
@@ -187,6 +184,8 @@ http://51.210.199.31/hls/stream.m3u8
 http://cdn1.live.irib.ir:1935/epg-live/smil:jahanbin/playlist.m3u8
 #EXTINF:-1 tvg-id="JAHANBIN.ir" tvg-name="JAHANBIN" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="",JAHANBIN (576p)
 https://sdm.telewebion.com/live/jahanbin/playlist.m3u8
+#EXTINF:-1 tvg-id="KalemehTV.uk" tvg-name="Kalemeh TV" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Religious",Kalemeh TV (576p) [Not 24/7]
+http://51.210.199.37/hls/stream.m3u8
 #EXTINF:-1 tvg-id="KalemehTV.ir" tvg-name="Kalemeh TV" tvg-country="IR" tvg-language="Persian" tvg-logo="https://i.imgur.com/HQjLbwm.png" group-title="Religious",Kalemeh TV (1080p)
 https://live.kalemehtv.tv/live/ngrp:kalemeh_all/playlist.m3u8
 #EXTINF:-1 tvg-id="KERMAN.ir" tvg-name="KERMAN" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="",KERMAN (576p)
@@ -225,8 +224,6 @@ https://livefa.marjaeyattv.com/mtv_fa/playlist.m3u8
 https://sdm.telewebion.com/live/tabarestan/playlist.m3u8
 #EXTINF:-1 tvg-id="MBCPersia.ae" tvg-name="MBC Persia" tvg-country="IR" tvg-language="Persian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8f/MBC_Persia_Logo.png" group-title="General",MBC Persia (1080p)
 https://shls-mbcpersia-prod-dub.shahid.net/out/v1/bdc7cd0d990e4c54808632a52c396946/index.m3u8
-#EXTINF:-1 tvg-id="MihanTV.us" tvg-name="Mihan TV" tvg-country="US" tvg-language="Persian" tvg-logo="https://i.imgur.com/E6zzyqZ.jpg" group-title="News",Mihan TV (720p)
-http://iptv.mihantv.com/live/playlist.m3u8
 #EXTINF:-1 tvg-id="MihanTV.ir" tvg-name="Mihan TV" tvg-country="IR" tvg-language="Persian" tvg-logo="http://mihantv.com/wp-content/themes/mihantv/images/logo.png" group-title="News",Mihan TV (360p)
 https://iptv.mihantv.com/live/playlist1/index.m3u8
 #EXTINF:-1 tvg-id="ModernEconomy.ir" tvg-name="Modern Economy" tvg-country="IR" tvg-language="Persian" tvg-logo="https://live-tv-channels.org/pt-data/uploads/logo/ae-gem-modern-economy-6721.jpg" group-title="Entertainment",Modern Economy [Geo-blocked]
@@ -277,6 +274,8 @@ http://iptv.tapesh.tv/tapesh/playlist.m3u8
 https://stream.persiantv1.com/ptv1/playlist1/index.m3u8
 #EXTINF:-1 tvg-id="PersianFilm.ir" tvg-name="Persian Film" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Movies",Persian Film (720p)
 http://51.210.227.135/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PersianaBillboard.fr" tvg-name="Persiana Billboard" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Music",Persiana Billboard (720p) [Not 24/7]
+http://51.210.199.10/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PersianaCinema.fr" tvg-name="Persiana Cinema" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Movies",Persiana Cinema (720p)
 http://51.210.199.15/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PersianaComedy.fr" tvg-name="Persiana Comedy" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Movies",Persiana Comedy (720p)
