@@ -35,8 +35,6 @@ http://start.agmediachandigarh.com/gaundapunjab/tv/playlist.m3u8
 http://cdn8.live247stream.com/canadaone/tv/playlist.m3u8
 #EXTINF:-1 tvg-id="CanadaStarTV.ca" tvg-name="Canada Star TV" tvg-country="CA" tvg-language="English" tvg-logo="https://i.imgur.com/3Q9Nxj1.jpg" group-title="",Canada Star TV (1080p)
 http://live.canadastartv.com:1935/canadastartv/canadastartv/playlist.m3u
-#EXTINF:-1 tvg-id="CanadianArabTV.ca" tvg-name="Canadian Arab TV" tvg-country="CA" tvg-language="Arabic" tvg-logo="https://i.imgur.com/rAZBgir.png" group-title="",Canadian Arab TV (720p)
-http://142.112.39.133:8080/catv.mp4
 #EXTINF:-1 tvg-id="CanalSavoir.ca" tvg-name="Canal Savoir" tvg-country="CA" tvg-language="French" tvg-logo="https://i.imgur.com/dSvUExH.png" group-title="Documentary",Canal Savoir (360p)
 https://hls.savoir.media/live/stream.m3u8
 #EXTINF:-1 tvg-id="CBCCalgary.ca" tvg-name="CBC Calgary" tvg-country="CA" tvg-language="English" tvg-logo="https://i.imgur.com/thAavMy.png" group-title="Local",CBC Calgary [Geo-blocked]
@@ -90,7 +88,7 @@ https://endemol-dealornodeal-1-ca.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="DryBarComedy.ca" tvg-name="DryBar Comedy" tvg-country="CA" tvg-language="English" tvg-logo="https://i.imgur.com/a3mGVRE.jpg" group-title="Comedy",DryBar Comedy (720p)
 https://drybar-drybarcomedy-1-ca.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="EawazTV.ca" tvg-name="Eawaz TV" tvg-country="CA" tvg-language="Urdu" tvg-logo="https://i.imgur.com/vB4yzen.png" group-title="",Eawaz TV (720p)
-https://streamer12.vdn.dstreamone.net/saazoawaz/saazoawaz/chunks.m3u8
+https://streamer12.vdn.dstreamone.net/saazoawaz/saazoawaz/playlist.m3u8
 #EXTINF:-1 tvg-id="EETTV.ca" tvg-name="EET TV" tvg-country="CA" tvg-language="" tvg-logo="https://i.imgur.com/k0Hzr3X.png" group-title="",EET TV (720p)
 https://eu.streamjo.com/eetlive/eettv.m3u8
 #EXTINF:-1 tvg-id="EMCITV.ca" tvg-name="EMCI TV" tvg-country="CA" tvg-language="French" tvg-logo="https://i.imgur.com/HRqcIcR.png" group-title="Religious",EMCI TV (1080p)
@@ -148,7 +146,7 @@ http://kidoodletv-kdtv-3.roku.wurl.com/manifest/playlist.m3u8
 http://kidoodletv-kdtv-3.vizio.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="KidoodleTV.us" tvg-name="Kidoodle.TV" tvg-country="CA" tvg-language="English" tvg-logo="https://i.imgur.com/MaFtbM5.png" group-title="Kids",Kidoodle.TV (720p)
 https://kidoodletv-kdtv-1-ca.samsung.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 tvg-id="Knowledge.ca" tvg-name="Knowledge Network CA" tvg-country="CA" tvg-language="English" tvg-logo="https://i.imgur.com/kdgMVOI.png" group-title="Kids",Knowledge Kids (720p)
+#EXTINF:-1 tvg-id="Knowledge.ca" tvg-name="Knowledge" tvg-country="CA" tvg-language="English" tvg-logo="https://i.imgur.com/kdgMVOI.png" group-title="Kids",Knowledge (720p)
 http://knstream1.azureedge.net/knlive/knlive_high.m3u8
 #EXTINF:-1 tvg-id="MavTV.us" tvg-name="MavTV" tvg-country="CA" tvg-language="CA" tvg-logo="https://www.mavtv.com/assets/images/mavtv_logo.png" group-title="Sports",MavTV (720p)
 https://mavtv-1-ca.samsung.wurl.com/manifest/playlist.m3u8
@@ -275,15 +273,23 @@ https://bcovlive-a.akamaihd.net/575d86160eb143458d51f7ab187a4e68/us-east-1/61016
 #EXTINF:-1 tvg-id="TheDesignNetwork.ca" tvg-name="The Design Network" tvg-country="CA" tvg-language="CA" tvg-logo="https://i.imgur.com/wCq3E0M.png" group-title="",The Design Network (720p)
 https://thedesignnetwork-tdn-6-ca.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="WeatherNetwork.ca" tvg-name="Weather Network CA" tvg-country="CA" tvg-language="English" tvg-logo="https://i.imgur.com/jOOkSCE.png" group-title="Weather",The Weather Network Event [Not 24/7]
-https://bcliveunivsecure-lh.akamaihd.net/i/twn_1@631672/index_2000_av-p.m3u8?rebase=on&sd=10
+https://bcliveunivsecure-lh.akamaihd.net/i/twn_1@631672/master.m3u8
 #EXTINF:-1 tvg-id="Toronto360TV.ca" tvg-name="Toronto 360 TV" tvg-country="CA" tvg-language="English" tvg-logo="https://i.imgur.com/PkWndsv.png" group-title="Local",Toronto 360 TV (720p)
 http://toronto3.live247stream.com/toronto360/tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TSC.ca" tvg-name="TSC" tvg-country="CA" tvg-language="English" tvg-logo="https://i.imgur.com/FlJVD8a.png" group-title="Shop",TSC (720p)
 https://tscstreaming-lh.akamaihd.net/i/TSCLiveStreaming_1@91031/master.m3u8
+#EXTINF:-1 tvg-id="TVC9.ca" tvg-name="CablevisionTVC9 CA" tvg-country="CA" tvg-language="French" tvg-logo="https://i.imgur.com/KLWdogU.png" group-title="Local",TVC9 (1080p)
+https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtube.com/channel/UC0JP0ek-HhcqisiEpsZiQZA/live
 #EXTINF:-1 tvg-id="TVM3.ch" tvg-name="TVM3" tvg-country="CH;FR;MC;BE;CA;LU" tvg-language="French" tvg-logo="https://www.tvm3.tv/images/Tvm3BlueLogo.png" group-title="",TVM3 (1080p)
 https://tvm3.vedge.infomaniak.com/livecast/tvm3/playlist.m3u8
+#EXTINF:-1 tvg-id="TVO.ca" tvg-name="TV Ontario CA" tvg-country="CA" tvg-language="English" tvg-logo="https://i.imgur.com/hpONhUM.png" group-title="Kids",TVO (720p)
+https://bozztv.com/teleyupp1/teleup-OMZsmYVUMp/playlist.m3u8
 #EXTINF:-1 tvg-id="TeleCulturelleMedias.ca" tvg-name="Télé Culturelle Médias" tvg-country="CA" tvg-language="French" tvg-logo="https://i.imgur.com/oRigj9q.jpg" group-title="",Télé Culturelle Médias (720p)
 https://5790d294af2dc.streamlock.net/8150/8150/playlist.m3u8
+#EXTINF:-1 tvg-id="TeleMag.ca" tvg-name="Télé-Mag CA" tvg-country="CA" tvg-language="French" tvg-logo="https://i.imgur.com/i5Isrob.png" group-title="General",Télé-Mag Québec (1080p)
+https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtube.com/user/ctmq/live
+#EXTINF:-1 tvg-id="isumatv.ca" tvg-name="isuma.tv" tvg-country="CA" tvg-language="English;Inuktitut" tvg-logo="https://i.imgur.com/RR7ATr2.png" group-title="Local",Uvagut TV (720p)
+http://dee7mwgg9dzvl.cloudfront.net/hls/uvagut/playlist.m3u8
 #EXTINF:-1 tvg-id="VBS.ca" tvg-name="VBS" tvg-country="CA" tvg-language="Vietnamese" tvg-logo="https://i.imgur.com/IWpevBp.jpg" group-title="",VBS (480p)
 https://uni6rtmp.tulix.tv/vbstv/vbsabr.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="WaypointTV.ca" tvg-name="Waypoint TV" tvg-country="CA" tvg-language="English" tvg-logo="https://i.imgur.com/yBTz6JA.png" group-title="",Waypoint TV (720p)
