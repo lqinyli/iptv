@@ -233,6 +233,8 @@ https://ms7.mx-cd.net/tv/192-840604/Jenz_TV.smil/playlist.m3u8
 http://159.203.9.134/hls/jhanjar_music/jhanjar_music.m3u8
 #EXTINF:-1 tvg-id="KadakHits.in" tvg-name="Kadak Hits" tvg-country="IN" tvg-language="" tvg-logo="" group-title="Music",Kadak Hits (1080p)
 https://live.hungama.com/linear/kadak-hits/playlist.m3u8
+#EXTINF:-1 tvg-id="Karibena.pe" tvg-name="Karibeña" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/LaKaribena/picture?width=320&height=320" group-title="Music",Karibeña (720p) [Not 24/7]
+https://cu.onliv3.com/livevd/user1.m3u8
 #EXTINF:-1 tvg-id="KissTV.ro" tvg-name="Kiss TV" tvg-country="RO" tvg-language="Romanian" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c4/Kiss_TV_%282014-present%29.png" group-title="Music",Kiss TV (576p)
 https://fms-https1.mediadirect.ro/live3/_definst_/kiss.smil/playlist.m3u8?publisher=83
 #EXTINF:-1 tvg-id="KoolLondonRadio.uk" tvg-name="Kool London Radio" tvg-country="UK" tvg-language="English" tvg-logo="http://undergroundbass.co.uk/image/koollondon.png" group-title="Music",Kool London Radio (720p)
@@ -249,8 +251,6 @@ http://68.235.35.243:1935/lamegamundial/lamegamundial2/playlist.m3u8
 https://dai2.xumo.com/amagi_hls_data_xumo1212A-xumovidaprimolatido/CDN/master.m3u8
 #EXTINF:-1 tvg-id="LatidoMusic.us" tvg-name="Latido Music" tvg-country="US" tvg-language="Spanish" tvg-logo="https://i.imgur.com/p3n3CZP.jpg" group-title="Music",Latido Music (720p)
 https://latidomusic.vizio.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 tvg-id="LatidoMusic.us" tvg-name="Latido_Music" tvg-country="US" tvg-language="Spanish" tvg-logo="https://i.imgur.com/p3n3CZP.jpg" group-title="Music",Latido Music (1080p)
-https://vidaprimo-plex.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="LFMCH.ch" tvg-name="LFM (CH)" tvg-country="CH" tvg-language="" tvg-logo="https://i.imgur.com/UE1E3uH.png" group-title="Music",LFM (CH) (1080p)
 https://edge7.vedge.infomaniak.com/livecast/ik:lfmmd/manifest.m3u8
 #EXTINF:-1 tvg-id="LiveTVHD.mk" tvg-name="LiveTV HD" tvg-country="MK" tvg-language="Macedonian" tvg-logo="" group-title="Music",LiveTV HD
@@ -259,61 +259,59 @@ rtmp://live.livetvhd.cf/live/livetvhd
 https://linear-136.frequency.stream/dist/localnow/136/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="Loop80s.us" tvg-name="Loop 80s" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/lDmxwji.png" group-title="Music",Loop 80s (1080p) [Geo-blocked]
 https://loop-80s-2.roku.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 tvg-id="Loop80s.us" tvg-name="Loop 80s" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/lDmxwji.png" group-title="Music",Loop 80s (East) (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="Loop80s.us" tvg-name="Loop 80s" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/lDmxwji.png" group-title="Music",Loop 80s East (1080p) [Geo-blocked]
 https://55e014b3437040d08777729c863a2097.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Roku_Loop80s-1/playlist.m3u8
-#EXTINF:-1 tvg-id="Loop80s.us" tvg-name="Loop 80s" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/lDmxwji.png" group-title="Music",Loop 80s (West) (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="Loop80s.us" tvg-name="Loop 80s" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/lDmxwji.png" group-title="Music",Loop 80s West (1080p) [Geo-blocked]
 https://a500d902bdf94ea69ad343720add6036.mediatailor.us-west-2.amazonaws.com/v1/master/6b8beeb9ed833d048c8c8155a25a28fe617c5474/80s_party_littlstar/master.m3u8
 #EXTINF:-1 tvg-id="Loop90s.us" tvg-name="90s Loop" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/K8YV2bR.png" group-title="Music",Loop 90s (1080p)
 https://loop-90s-1.roku.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 tvg-id="Loop90s.us" tvg-name="Loop 90s" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/K8YV2bR.png" group-title="Music",Loop 90s (West) (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="Loop90s.us" tvg-name="Loop 90s" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/K8YV2bR.png" group-title="Music",Loop 90s West (1080p) [Geo-blocked]
 https://7626362bfa104137aded60d8d7e72ff5.mediatailor.us-west-2.amazonaws.com/v1/master/6b8beeb9ed833d048c8c8155a25a28fe617c5474/90s_kids_littlstar/master.m3u8
-#EXTINF:-1 tvg-id="LoopBeastMode.us" tvg-name="Loop Beast" tvg-country="US" tvg-language="English" tvg-logo="https://static.12core.net/fb8c7ba652305a8700924347d46dcdff.jpeg" group-title="Music",Loop Beast Mode (West) (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="LoopBeastMode.us" tvg-name="Loop Beast" tvg-country="US" tvg-language="English" tvg-logo="https://static.12core.net/fb8c7ba652305a8700924347d46dcdff.jpeg" group-title="Music",Loop Beast Mode West (1080p) [Geo-blocked]
 https://1f0e60dbce3043279c491fe51983361d.mediatailor.us-west-2.amazonaws.com/v1/master/6b8beeb9ed833d048c8c8155a25a28fe617c5474/beast_mode_plex/master.m3u8
-#EXTINF:-1 tvg-id="LoopBedroom.us" tvg-name="Loop Bedroom" tvg-country="US" tvg-language="English" tvg-logo="https://static.12core.net/2a347a69ef251082e125c7b15fc721a9.jpeg" group-title="Music",Loop Bedroom (West) (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="LoopBedroom.us" tvg-name="Loop Bedroom" tvg-country="US" tvg-language="English" tvg-logo="https://static.12core.net/2a347a69ef251082e125c7b15fc721a9.jpeg" group-title="Music",Loop Bedroom West (1080p) [Geo-blocked]
 https://3bbe22c035b4409d80f997adc8ad33ee.mediatailor.us-west-2.amazonaws.com/v1/master/6b8beeb9ed833d048c8c8155a25a28fe617c5474/bedroom_beats_littlstar/master.m3u8
 #EXTINF:-1 tvg-id="LoopCountry.us" tvg-name="Loop Country" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/62CjWTa.jpg" group-title="Music",Loop Country (1080p)
 https://loop-country-1.roku.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 tvg-id="LoopElectronica.us" tvg-name="Loop Electronica" tvg-country="US" tvg-language="English" tvg-logo="https://static.12core.net/d8d1f2a3ea03ed135a7873ff7c0ce161.jpeg" group-title="Music",Loop Electronica (West) (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="LoopElectronica.us" tvg-name="Loop Electronica" tvg-country="US" tvg-language="English" tvg-logo="https://static.12core.net/d8d1f2a3ea03ed135a7873ff7c0ce161.jpeg" group-title="Music",Loop Electronica West (1080p) [Geo-blocked]
 https://0bdf3efc906045538c63468aa2f86a96.mediatailor.us-west-2.amazonaws.com/v1/master/6b8beeb9ed833d048c8c8155a25a28fe617c5474/electro_anthems_littlstar/master.m3u8
-#EXTINF:-1 tvg-id="LoopElectronica.us" tvg-name="Loop_Electronica" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/xQlkS6U.png" group-title="Music",Loop Electronica (West) (1080p)
-https://57490d2f4ea646bbae56a1a816617a5f.mediatailor.us-west-2.amazonaws.com/v1/master/6b8beeb9ed833d048c8c8155a25a28fe617c5474/electro_anthems_plex/master.m3u8
-#EXTINF:-1 tvg-id="LoopFarOut.us" tvg-name="Loop Far Out" tvg-country="US" tvg-language="English" tvg-logo="https://static.12core.net/66b982a91d8b8f8383420675781139a1.jpeg" group-title="Music",Loop Far Out (West) (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="LoopFarOut.us" tvg-name="Loop Far Out" tvg-country="US" tvg-language="English" tvg-logo="https://static.12core.net/66b982a91d8b8f8383420675781139a1.jpeg" group-title="Music",Loop Far Out West (1080p) [Geo-blocked]
 https://957d71ce01dc447384d3978d3cdc55d9.mediatailor.us-west-2.amazonaws.com/v1/master/6b8beeb9ed833d048c8c8155a25a28fe617c5474/that_70s_channel_littlstar/master.m3u8
-#EXTINF:-1 tvg-id="LoopFlashback.us" tvg-name="Loop Flashback" tvg-country="US" tvg-language="English" tvg-logo="https://static.12core.net/52a174e6787a4ade949c6f5903777cff.jpeg" group-title="Music",Loop Flashback (West) (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="LoopFlashback.us" tvg-name="Loop Flashback" tvg-country="US" tvg-language="English" tvg-logo="https://static.12core.net/52a174e6787a4ade949c6f5903777cff.jpeg" group-title="Music",Loop Flashback West (1080p) [Geo-blocked]
 https://ea86081fb9454be9b3b50037f9117024.mediatailor.us-west-2.amazonaws.com/v1/master/6b8beeb9ed833d048c8c8155a25a28fe617c5474/like_yesterday_littlstar/master.m3u8
 #EXTINF:-1 tvg-id="LoopHipHop.us" tvg-name="Loop Hip Hop" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/yW7WCPm.png" group-title="Music",Loop Hip-Hop (1080p)
 https://loop-hip-hop-1.roku.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 tvg-id="LoopHipHop.us" tvg-name="Loop Hip Hop" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/yW7WCPm.png" group-title="Music",Loop Hip-Hop (West) (1080p)
+#EXTINF:-1 tvg-id="LoopHipHop.us" tvg-name="Loop Hip Hop" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/yW7WCPm.png" group-title="Music",Loop Hip-Hop West (1080p)
 https://e20b86263a38460ba3647b18fb150000.mediatailor.us-west-2.amazonaws.com/v1/master/6b8beeb9ed833d048c8c8155a25a28fe617c5474/hip_hop_bangers_plex/master.m3u8
-#EXTINF:-1 tvg-id="LoopHipHop.us" tvg-name="Loop Hip Hop" tvg-country="US" tvg-language="English" tvg-logo="https://static.12core.net/f6ec7f3aa3a5f36aa8fda7af47c56fdd.jpeg" group-title="Music",Loop Hip-Hop (West) (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="LoopHipHop.us" tvg-name="Loop Hip Hop" tvg-country="US" tvg-language="English" tvg-logo="https://static.12core.net/f6ec7f3aa3a5f36aa8fda7af47c56fdd.jpeg" group-title="Music",Loop Hip-Hop West (1080p) [Geo-blocked]
 https://e4d2547e0c8c492a883054acd48276be.mediatailor.us-west-2.amazonaws.com/v1/master/6b8beeb9ed833d048c8c8155a25a28fe617c5474/hip_hop_bangers_littlstar/master.m3u8
 #EXTINF:-1 tvg-id="LoopHottest.us" tvg-name="Loop Hottest" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/NY9dKoR.png" group-title="Music",Loop Hottest (1080p)
 https://loop-hottest-1.roku.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 tvg-id="LoopHottest.us" tvg-name="Loop Hottest" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/NY9dKoR.png" group-title="Music",Loop Hottest (West) (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="LoopHottest.us" tvg-name="Loop Hottest" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/NY9dKoR.png" group-title="Music",Loop Hottest West (1080p) [Geo-blocked]
 https://2e9a0ef101a14c2ebe97c713bc5340be.mediatailor.us-west-2.amazonaws.com/v1/master/6b8beeb9ed833d048c8c8155a25a28fe617c5474/hottest_of_the_hot_v2_littlstar/master.m3u8
-#EXTINF:-1 tvg-id="LoopLatin.us" tvg-name="Loop Latin" tvg-country="US" tvg-language="English" tvg-logo="https://static.12core.net/20b46f1a2777723aaa45db27e7389a93.jpeg" group-title="Music",Loop Latin (West) (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="LoopLatin.us" tvg-name="Loop Latin" tvg-country="US" tvg-language="English" tvg-logo="https://static.12core.net/20b46f1a2777723aaa45db27e7389a93.jpeg" group-title="Music",Loop Latin West (1080p) [Geo-blocked]
 https://c3b9df023def467086d10677827171f8.mediatailor.us-west-2.amazonaws.com/v1/master/6b8beeb9ed833d048c8c8155a25a28fe617c5474/latin_x_pop_littlstar/master.m3u8
 #EXTINF:-1 tvg-id="LoopParty.us" tvg-name="Loop Party" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/8JPEexX.png" group-title="Music",Loop Party (1080p)
 https://loop-party-1.roku.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 tvg-id="LoopParty.us" tvg-name="Loop_Party" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/8JPEexX.png" group-title="Music",Loop Party (West) (1080p)
+#EXTINF:-1 tvg-id="LoopParty.us" tvg-name="Loop_Party" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/8JPEexX.png" group-title="Music",Loop Party West (1080p)
 https://0b1ea79d9170498c91073ff8c460de18.mediatailor.us-west-2.amazonaws.com/v1/master/6b8beeb9ed833d048c8c8155a25a28fe617c5474/party_plex/master.m3u8
-#EXTINF:-1 tvg-id="LoopParty.us" tvg-name="Loop Party" tvg-country="US" tvg-language="English" tvg-logo="https://static.12core.net/2807d4ad6af0c5906229e9217fa631a2.jpeg" group-title="Music",Loop Party (West) (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="LoopParty.us" tvg-name="Loop Party" tvg-country="US" tvg-language="English" tvg-logo="https://static.12core.net/2807d4ad6af0c5906229e9217fa631a2.jpeg" group-title="Music",Loop Party West (1080p) [Geo-blocked]
 https://1d79349342334eb0bdeddd168b5c6e1a.mediatailor.us-west-2.amazonaws.com/v1/master/6b8beeb9ed833d048c8c8155a25a28fe617c5474/party_littlstar/master.m3u8
-#EXTINF:-1 tvg-id="LoopRB.us" tvg-name="Loop R&B" tvg-country="US" tvg-language="English" tvg-logo="https://static.12core.net/6edcf875ec3ba823acec994ffd051633.jpeg" group-title="Music",Loop R&B (West) (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="LoopRB.us" tvg-name="Loop R&B" tvg-country="US" tvg-language="English" tvg-logo="https://static.12core.net/6edcf875ec3ba823acec994ffd051633.jpeg" group-title="Music",Loop R&B West (1080p) [Geo-blocked]
 https://0cf4f660964046daa9e0b7b6467a4e84.mediatailor.us-west-2.amazonaws.com/v1/master/6b8beeb9ed833d048c8c8155a25a28fe617c5474/hot_rnb_littlstar/master.m3u8
-#EXTINF:-1 tvg-id="LoopSynapse.us" tvg-name="Loop Synapse" tvg-country="US" tvg-language="English" tvg-logo="https://static.12core.net/e21e0005af106ee7bebea46bb17b2e93.jpeg" group-title="Music",Loop Synapse (West) (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="LoopSynapse.us" tvg-name="Loop Synapse" tvg-country="US" tvg-language="English" tvg-logo="https://static.12core.net/e21e0005af106ee7bebea46bb17b2e93.jpeg" group-title="Music",Loop Synapse West (1080p) [Geo-blocked]
 https://2807722353b745629456a555257b16bc.mediatailor.us-west-2.amazonaws.com/v1/master/6b8beeb9ed833d048c8c8155a25a28fe617c5474/neural_focused_littlstar/master.m3u8
-#EXTINF:-1 tvg-id="LoopTexasTunes.us" tvg-name="Loop Texas Tunes" tvg-country="US" tvg-language="English" tvg-logo="https://static.12core.net/c7c4962a327ba3a25ae0dcf17a3d4e06.jpeg" group-title="Music",Loop Texas Tunes (West) (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="LoopTexasTunes.us" tvg-name="Loop Texas Tunes" tvg-country="US" tvg-language="English" tvg-logo="https://static.12core.net/c7c4962a327ba3a25ae0dcf17a3d4e06.jpeg" group-title="Music",Loop Texas Tunes West (1080p) [Geo-blocked]
 https://2fb88e730c2647d69629c6f90b0b98b9.mediatailor.us-west-2.amazonaws.com/v1/master/6b8beeb9ed833d048c8c8155a25a28fe617c5474/texas_sized_hits_littlstar/master.m3u8
-#EXTINF:-1 tvg-id="LoopTGIF.us" tvg-name="Loop TGIF" tvg-country="US" tvg-language="English" tvg-logo="https://static.12core.net/2487e997c51436f8502ac737144954a7.jpeg" group-title="Music",Loop TGIF (West) (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="LoopTGIF.us" tvg-name="Loop TGIF" tvg-country="US" tvg-language="English" tvg-logo="https://static.12core.net/2487e997c51436f8502ac737144954a7.jpeg" group-title="Music",Loop TGIF West (1080p) [Geo-blocked]
 https://480e67fe68b64c35ae48b77192cb1fdf.mediatailor.us-west-2.amazonaws.com/v1/master/6b8beeb9ed833d048c8c8155a25a28fe617c5474/friday_feels_littlstar/master.m3u8
-#EXTINF:-1 tvg-id="LoopThatsHot.us" tvg-name="Loop That's Hot" tvg-country="US" tvg-language="English" tvg-logo="https://static.12core.net/5e4e6c6989bea49734411e5e708f6089.jpeg" group-title="Music",Loop That's Hot (West) (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="LoopThatsHot.us" tvg-name="Loop That's Hot" tvg-country="US" tvg-language="English" tvg-logo="https://static.12core.net/5e4e6c6989bea49734411e5e708f6089.jpeg" group-title="Music",Loop That's Hot West (1080p) [Geo-blocked]
 https://dccd6216f2c9471399015e69d64818cd.mediatailor.us-west-2.amazonaws.com/v1/master/6b8beeb9ed833d048c8c8155a25a28fe617c5474/thats_hot_littlstar/master.m3u8
-#EXTINF:-1 tvg-id="LoopTrending.us" tvg-name="Loop Trending" tvg-country="US" tvg-language="English" tvg-logo="https://static.12core.net/0c789462f6e85086d20ccc04da342567.jpeg" group-title="Music",Loop Trending (West) (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="LoopTrending.us" tvg-name="Loop Trending" tvg-country="US" tvg-language="English" tvg-logo="https://static.12core.net/0c789462f6e85086d20ccc04da342567.jpeg" group-title="Music",Loop Trending West (1080p) [Geo-blocked]
 https://3d26c463850c48c788975a9aad86c508.mediatailor.us-west-2.amazonaws.com/v1/master/6b8beeb9ed833d048c8c8155a25a28fe617c5474/trending_littlstar/master.m3u8
-#EXTINF:-1 tvg-id="LoopUnwind.us" tvg-name="Loop Unwind" tvg-country="US" tvg-language="English" tvg-logo="https://static.12core.net/63d5db69985110f57bd35c4cd22ee74a.jpeg" group-title="Music",Loop Unwind (West) (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="LoopUnwind.us" tvg-name="Loop Unwind" tvg-country="US" tvg-language="English" tvg-logo="https://static.12core.net/63d5db69985110f57bd35c4cd22ee74a.jpeg" group-title="Music",Loop Unwind West (1080p) [Geo-blocked]
 https://8c455e94c5ff44d0ada529dffef58ae5.mediatailor.us-west-2.amazonaws.com/v1/master/6b8beeb9ed833d048c8c8155a25a28fe617c5474/unwind_littlstar/master.m3u8
-#EXTINF:-1 tvg-id="LoopYachtRock.us" tvg-name="Loop Yacht Rock" tvg-country="US" tvg-language="English" tvg-logo="https://static.12core.net/43a4136e6bc3e153f68bb2dd200a6635.jpeg" group-title="Music",Loop Yacht Rock (West) (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="LoopYachtRock.us" tvg-name="Loop Yacht Rock" tvg-country="US" tvg-language="English" tvg-logo="https://static.12core.net/43a4136e6bc3e153f68bb2dd200a6635.jpeg" group-title="Music",Loop Yacht Rock West (1080p) [Geo-blocked]
 https://90a0d12cbaff4b959ea24bb8a3560adf.mediatailor.us-west-2.amazonaws.com/v1/master/6b8beeb9ed833d048c8c8155a25a28fe617c5474/yacht_rock_littlstar/master.m3u8
 #EXTINF:-1 tvg-id="MTV.gr" tvg-name="M.TV" tvg-country="GR" tvg-language="" tvg-logo="https://i.imgur.com/dh22Dj8.png" group-title="Music",M.TV
 http://78.83.87.222:9999/play/a015/index.m3u8
@@ -355,12 +353,6 @@ http://rtmp.smartstream.video:1935/mhonemusic/mhonemusic/playlist.m3u8
 https://webcam.mosaiquefm.net:1936/mosatv/studio/playlist.m3u8
 #EXTINF:-1 tvg-id="MtunesPlus.in" tvg-name="Mtunes Plus" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/Rt7k6E3.png" group-title="Music",Mtunes Plus (576p) [Not 24/7]
 http://14.199.164.20:4001/play/a0p2/index.m3u8
-#EXTINF:-1 tvg-id="MTVBiggestPop.us" tvg-name="MTV Biggest Pop" tvg-country="US" tvg-language="English" tvg-logo="http://images.pluto.tv/channels/5d14fd1a252d35decbc4080c/colorLogoPNG.png" group-title="Music",MTV Biggest Pop (720p)
-http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS02/master.m3u8
-#EXTINF:-1 tvg-id="MTVBiggestPop.us" tvg-name="MTV Biggest Pop" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/NYwcwZY.png" group-title="Music",MTV Biggest Pop (720p)
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5e1509fb7809fd000949e39b/master.m3u8?advertisingId=8f35210d-be26-5e0d-8c57-d0f910026ee7&appName=rokuchannel&appVersion=1.0&deviceDNT=1&deviceId=8f35210d-be26-5e0d-8c57-d0f910026ee7&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel
-#EXTINF:-1 tvg-id="MTVClassicsPlus.us" tvg-name="MTV Classics+" tvg-country="CH;FR" tvg-language="French" tvg-logo="http://images.pluto.tv/channels/5ff5ec5500d4c70007341c7c/solidLogoPNG.png" group-title="Music",MTV Classics+ (720p)
-http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ff5ec5500d4c70007341c7c/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c8a1e60-e98a-11eb-a932-2f3c780ff9ff&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=de18fdd4-d30a-4263-8ecc-df902150744d
 #EXTINF:-1 tvg-id="MTVHitsEurope.us" tvg-name="MTV Hits Europe" tvg-country="EUR" tvg-language="" tvg-logo="https://i.imgur.com/hwaLKuJ.png" group-title="Music",MTV Hits Europe (576p)
 http://188.40.68.167/russia/mtv_hits/playlist.m3u8
 #EXTINF:-1 tvg-id="MTVHitsLatinoamerica.us" tvg-name="MTV Hits Latinoamérica" tvg-country="LATAM" tvg-language="" tvg-logo="https://i.imgur.com/hwaLKuJ.png" group-title="Music",MTV Hits Latinoamérica (576p)
@@ -461,12 +453,16 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5fab088b3279760007
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5caf325764025859afdd6c4d/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="PlutoTVMTVGermany.us" tvg-name="Pluto TV MTV (Germany)" tvg-country="US" tvg-language="" tvg-logo="http://images.pluto.tv/channels/5ca672f515a62078d2ec0ad2/colorLogoPNG.png" group-title="Music",Pluto TV MTV (Germany) (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5caf325764025859afdd6c4d/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5caf325764025859afdd6c4d&deviceLat=51.2993&deviceLon=9.4910&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=2&terminate=false&userId=
+#EXTINF:-1 tvg-id="PlutoTVMTVBiggestPop.us" tvg-name="Pluto TV MTV Biggest Pop" tvg-country="US" tvg-language="English" tvg-logo="" group-title="Music",Pluto TV MTV Biggest Pop (720p)
+http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS02/master.m3u8
 #EXTINF:-1 tvg-id="PlutoTVMTVClassic.us" tvg-name="Pluto TV MTV Classic" tvg-country="US" tvg-language="Spanish" tvg-logo="https://images.pluto.tv/channels/5f92b56a367e170007cd43f4/colorLogoPNG.png" group-title="Music",Pluto TV MTV Classic (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5de91b7ea86ee60009d89e75/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 #EXTINF:-1 tvg-id="PlutoTVMTVClassic.us" tvg-name="Pluto TV MTV Classic" tvg-country="CH;FR" tvg-language="French" tvg-logo="https://images.pluto.tv/channels/5f92b56a367e170007cd43f4/colorLogoPNG.png" group-title="Music",Pluto TV MTV Classic (480p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f92b56a367e170007cd43f4/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=48.8582&deviceLon=2.3387&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=FR&serverSideAds=false&sessionID=cc7dc550-6be3-11eb-9c02-0242ac110002&sid=cc7dc550-6be3-11eb-9c02-0242ac110002&userId=
 #EXTINF:-1 tvg-id="PlutoTVMTVClassic.us" tvg-name="Pluto TV MTV Classic" tvg-country="US" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/5f92b56a367e170007cd43f4/colorLogoPNG.png" group-title="Music",Pluto TV MTV Classic (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f92b56a367e170007cd43f4/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 tvg-id="PlutoTVMTVClassicsPlus.us" tvg-name="Pluto TV MTV Classics+" tvg-country="CH;FR" tvg-language="French" tvg-logo="" group-title="Music",Pluto TV MTV Classics+ (720p)
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ff5ec5500d4c70007341c7c/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c8a1e60-e98a-11eb-a932-2f3c780ff9ff&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=de18fdd4-d30a-4263-8ecc-df902150744d
 #EXTINF:-1 tvg-id="PlutoTVMTVLatino.us" tvg-name="Pluto TV MTV Latino" tvg-country="US" tvg-language="Spanish" tvg-logo="http://images.pluto.tv/channels/5cf96d351652631e36d4331f/colorLogoPNG.png" group-title="Music",Pluto TV MTV Latino (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5cf96d351652631e36d4331f/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5cf96d351652631e36d4331f&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=965&terminate=false&userId=
 #EXTINF:-1 tvg-id="PlutoTVMTVLoveMusic.us" tvg-name="Pluto TV MTV Love Music" tvg-country="US" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/600ae79fa46e17000794e84c/colorLogoPNG.png" group-title="Music",Pluto TV MTV Love Music (720p)
@@ -661,8 +657,6 @@ https://stingray-naturescape-1-ca.samsung.wurl.com/manifest/playlist.m3u8
 https://stirr.ott-channels.stingray.com/naturescape/master.m3u8
 #EXTINF:-1 tvg-id="StingrayNaturescapeAustralia.ca" tvg-name="Stingray Naturescape (Australia)" tvg-country="CA" tvg-language="" tvg-logo="https://i.imgur.com/lu8bFhZ.jpg" group-title="Music",Stingray Naturescape (Australia) (1080p)
 https://samsung-au.ott-channels.stingray.com/naturescape/master.m3u8
-#EXTINF:-1 tvg-id="StingrayPopAdultSTIRR.us" tvg-name="Stingray Pop Adult (STIRR)" tvg-country="US" tvg-language="English" tvg-logo="https://komonews.com/resources/media2/3x1/full/119/center/90/f7fe1378-d4a8-434e-8c1a-d7e001560404-small3x1_stirr_1219_epg_stingraypopadult_1920x1080.png?cb=eccbc87e4b5ce2fe28308fd9f2a7baf3" group-title="Music",Stingray Pop Adult (STIRR) (1080p)
-https://ott-linear-channels.stingray.com/hls/stirr/104.m3u8
 #EXTINF:-1 tvg-id="StingrayQello.ca" tvg-name="Stingray Qello" tvg-country="CA" tvg-language="" tvg-logo="https://www.samsung.com/us/smg/content/dam/s7/home/televisions-and-home-theater/tvs/tv-plus/us-channel-lineup/StingrayQello_190x190.png?raw=true" group-title="Music",Stingray Qello (1080p)
 https://samsung.ott-channels.stingray.com/qello/master.m3u8
 #EXTINF:-1 tvg-id="StingrayQelloConcerts.ca" tvg-name="Stingray Qello Concerts" tvg-country="CA" tvg-language="" tvg-logo="https://i.imgur.com/IVUgJPY.png" group-title="Music",Stingray Qello Concerts (1080p)
@@ -671,15 +665,17 @@ https://dai2.xumo.com/amagi_hls_data_xumo1212A-vizioqelloconcerts/CDN/playlist.m
 https://dai2.xumo.com/amagi_hls_data_xumo1212A-xumostingrayqello/CDN/master.m3u8
 #EXTINF:-1 tvg-id="StingrayQelloConcerts.ca" tvg-name="Stingray Qello Concerts" tvg-country="CA" tvg-language="English" tvg-logo="https://i.imgur.com/IVUgJPY.png" group-title="Music",Stingray Qello Concerts (1080p)
 https://stingray-qelloconcerts-2-de.samsung.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 tvg-id="StingrayRockAlternativeSTIRR.us" tvg-name="Stingray Rock Alternative (STIRR)" tvg-country="US" tvg-language="English" tvg-logo="https://komonews.com/resources/media2/3x1/full/119/center/90/ff902b0a-f978-495d-8b37-171eb5fee8a4-small3x1_STIRR_Logo_0720_Alternative_1920x1080_EPG.png?cb=c81e728d9d4c2f636f067f89cc14862c" group-title="Music",Stingray Rock Alternative (STIRR) (1080p)
-https://ott-linear-channels.stingray.com/hls/stirr/102.m3u8
 #EXTINF:-1 tvg-id="StingraySoulStorm.ca" tvg-name="Stingray Soul Storm" tvg-country="CA" tvg-language="" tvg-logo="https://od.lk/s/MF8yMzE5OTIyMjBf/Redbox_512x512.png" group-title="Music",Stingray Soul Storm (1080p)
 https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxstingraysoulstorm/CDN/playlist.m3u8
 #EXTINF:-1 tvg-id="StingraySoulStorm.ca" tvg-name="Stingray Soul Storm" tvg-country="CA" tvg-language="" tvg-logo="https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/Xumo_456x456.png?raw=true" group-title="Music",Stingray Soul Storm (1080p)
 https://dai2.xumo.com/amagi_hls_data_xumo1212A-xumostingraysoulstorm/CDN/master.m3u8
-#EXTINF:-1 tvg-id="StingrayTodaysLatinPopSTIRR.us" tvg-name="Stingray Today's Latin Pop (STIRR)" tvg-country="US" tvg-language="English" tvg-logo="https://komonews.com/resources/media2/3x1/full/119/center/90/b1d83dd9-b335-4871-89a1-b92cf2651b65-small3x1_STIRR_Logo_0720_StingrayLatinPop_1920x1080_EPG.png?cb=c81e728d9d4c2f636f067f89cc14862c" group-title="Music",Stingray Today's Latin Pop (STIRR) (1080p)
+#EXTINF:-1 tvg-id="STIRRStingrayPopAdult.us" tvg-name="STIRR Stingray Pop Adult" tvg-country="US" tvg-language="English" tvg-logo="https://komonews.com/resources/media2/3x1/full/119/center/90/f7fe1378-d4a8-434e-8c1a-d7e001560404-small3x1_stirr_1219_epg_stingraypopadult_1920x1080.png?cb=eccbc87e4b5ce2fe28308fd9f2a7baf3" group-title="Music",STIRR Stingray Pop Adult (1080p)
+https://ott-linear-channels.stingray.com/hls/stirr/104.m3u8
+#EXTINF:-1 tvg-id="STIRRStingrayRockAlternative.us" tvg-name="STIRR Stingray Rock Alternative" tvg-country="US" tvg-language="English" tvg-logo="https://komonews.com/resources/media2/3x1/full/119/center/90/ff902b0a-f978-495d-8b37-171eb5fee8a4-small3x1_STIRR_Logo_0720_Alternative_1920x1080_EPG.png?cb=c81e728d9d4c2f636f067f89cc14862c" group-title="Music",STIRR Stingray Rock Alternative (1080p)
+https://ott-linear-channels.stingray.com/hls/stirr/102.m3u8
+#EXTINF:-1 tvg-id="STIRRStingrayTodaysLatinPop.us" tvg-name="STIRR Stingray Today's Latin Pop" tvg-country="US" tvg-language="English" tvg-logo="https://komonews.com/resources/media2/3x1/full/119/center/90/b1d83dd9-b335-4871-89a1-b92cf2651b65-small3x1_STIRR_Logo_0720_StingrayLatinPop_1920x1080_EPG.png?cb=c81e728d9d4c2f636f067f89cc14862c" group-title="Music",STIRR Stingray Today's Latin Pop (1080p)
 https://ott-linear-channels.stingray.com/hls/stirr/190.m3u8
-#EXTINF:-1 tvg-id="StingrayUrbanBeatsSTIRR.us" tvg-name="Stingray Urban Beats (STIRR)" tvg-country="US" tvg-language="English" tvg-logo="https://komonews.com/resources/media2/3x1/full/119/center/90/d2056e60-df7d-4fac-8533-19503d5af78e-small3x1_STIRR_Logo_0720_HipHopRB_1920x1080_EPG.png?cb=c81e728d9d4c2f636f067f89cc14862c" group-title="Music",Stingray Urban Beats (STIRR) (1080p)
+#EXTINF:-1 tvg-id="STIRRStingrayUrbanBeats.us" tvg-name="STIRR Stingray Urban Beats" tvg-country="US" tvg-language="English" tvg-logo="https://komonews.com/resources/media2/3x1/full/119/center/90/d2056e60-df7d-4fac-8533-19503d5af78e-small3x1_STIRR_Logo_0720_HipHopRB_1920x1080_EPG.png?cb=c81e728d9d4c2f636f067f89cc14862c" group-title="Music",STIRR Stingray Urban Beats (1080p)
 https://ott-linear-channels.stingray.com/hls/stirr/133.m3u8
 #EXTINF:-1 tvg-id="StreetMusic4U.us" tvg-name="Street Music 4U" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/DVfEmq7.png" group-title="Music",Street Music 4U (720p)
 https://59d39900ebfb8.streamlock.net/streetmusic/streetmusic/playlist.m3u8
