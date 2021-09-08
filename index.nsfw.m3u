@@ -676,6 +676,8 @@ http://cdn-hls.globecast.tv/live/ramdisk/al_aoula_laayoune/hls_snrt/index.m3u8
 https://live-1.linuxway.info/aqsatv/live/tv/playlist.m3u8
 #EXTINF:-1 tvg-id="AlArabiya.ae" tvg-name="Al Arabiya" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/7OrfyOx.jpg" group-title="News",Al Arabiya (1080p)
 https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="AlArabiyaAlHadath.ae" tvg-name="Al Arabiya Al Hadath" tvg-country="AE" tvg-language="Arabic" tvg-logo="" group-title="",Al Arabiya Al Hadath (1080p) [Not 24/7]
+https://av.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlDafrahTV.ae" tvg-name="Al Dafrah TV" tvg-country="AE" tvg-language="Arabic" tvg-logo="https://aldafrah.ae/wp-content/uploads/2018/02/logo_2x-1.png" group-title="General",Al Dafrah TV (1080p)
 https://iptv-all.lanesh4d0w.codes/saudiarabia/aldafrah
 #EXTINF:-1 tvg-id="AlEkhbariya.sa" tvg-name="Al Ekhbariya" tvg-country="SA" tvg-language="Arabic" tvg-logo="https://i.imgur.com/NciF5rO.png" group-title="News",Al Ekhbariya (1080p) [Not 24/7]
@@ -883,8 +885,6 @@ https://cdn02.hta.dz/abr_htatv/TV7_ELMAARIFA/htatv/TV7_ELMAARIFA_720p/chunks.m3u
 https://cdn02.hta.dz/abr_htatv/TV8_EDHAKIRA/htatv/TV8_EDHAKIRA_720p/chunks.m3u8
 #EXTINF:-1 tvg-id="AlghadAlmushreq.ye" tvg-name="Alghad Almushreq" tvg-country="YE" tvg-language="Arabic" tvg-logo="https://www.alghadye.com/wp-content/uploads/2018/07/image1.png" group-title="News",Alghad Almushreq (576p)
 http://82.212.74.3:8000/live/7512.m3u8
-#EXTINF:-1 tvg-id="AlhayatTV.lb" tvg-name="Alhayat TV" tvg-country="LB" tvg-language="Arabic" tvg-logo="https://www.alhayat.tv/images/logo/main.34f5c635.png" group-title="General",Alhayat TV (720p)
-https://wowzaprod140-i.akamaihd.net/hls/live/750788/7552102e/playlist.m3u8
 #EXTINF:-1 tvg-id="AlhiwarTV.uk" tvg-name="Alhiwar TV" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/ooiJwD5.png" group-title="",Alhiwar TV (1080p)
 https://mn-nl.mncdn.com/alhiwar_live/smil:alhiwar.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlientoVision.us" tvg-name="Aliento Vision" tvg-country="US" tvg-language="Spanish" tvg-logo="https://i.imgur.com/0qwmBEm.png" group-title="Religious",Aliento Vision (720p)
@@ -1016,12 +1016,14 @@ https://live-anandtv.anandmedia.net/anandtvapp/anandtv/index.m3u8
 https://srv4.zcast.com.br/prelatura2020/prelatura2020/playlist.m3u8
 #EXTINF:-1 tvg-id="AnexionTV.cr" tvg-name="Anexión TV" tvg-country="CR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/PrOYyU1.png" group-title="",Anexión TV (360p)
 http://rtmp.info:8081/anexiontv/envivo/index.m3u8
-#EXTINF:-1 tvg-id="AnimaxJapan.jp" tvg-name="Animax Japan" tvg-country="JP" tvg-language="Japanese;Indonesian" tvg-logo="" group-title="Animation",Animax Japan (Indonesian Subs) [Geo-blocked]
+#EXTINF:-1 tvg-id="AnimaxJapan.jp" tvg-name="Animax Japan" tvg-country="JP" tvg-language="Japanese;English" tvg-logo="https://i.imgur.com/zpi6mQ3.png" group-title="Animation",Animax Japan (English Subs)
+https://feed.play.mv/live/10005200/isU48qPZqV/master.m3u8
+#EXTINF:-1 tvg-id="AnimaxJapan.jp" tvg-name="Animax Japan" tvg-country="JP" tvg-language="Japanese;Indonesian" tvg-logo="https://i.imgur.com/zpi6mQ3.png" group-title="Animation",Animax Japan (Indonesian Subs) [Geo-blocked]
 http://210.210.155.35/dr9445/h/h02/01.m3u8
-#EXTINF:-1 tvg-id="AnimaxJapan.jp" tvg-name="Animax Japan" tvg-country="JP" tvg-language="Japanese;Vietnamese" tvg-logo="" group-title="Animation",Animax Japan (Vietnamese Subs) (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="AnimaxJapan.jp" tvg-name="Animax Japan" tvg-country="JP" tvg-language="Japanese;Vietnamese" tvg-logo="https://i.imgur.com/zpi6mQ3.png" group-title="Animation",Animax Japan (Vietnamese Subs) (720p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
 https://livecdn.fptplay.net/hda3/animaxport_2000.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="AnimaxJapan.jp" tvg-name="Animax Japan" tvg-country="JP" tvg-language="Japanese;Vietnamese" tvg-logo="" group-title="Animation",Animax Japan (Vietnamese Subs) (720p)
+#EXTINF:-1 tvg-id="AnimaxJapan.jp" tvg-name="Animax Japan" tvg-country="JP" tvg-language="Japanese;Vietnamese" tvg-logo="https://i.imgur.com/zpi6mQ3.png" group-title="Animation",Animax Japan (Vietnamese Subs) (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
 https://livecdn.fptplay.net/hda3/animaxport_hls.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AnimeTV.br" tvg-name="AnimeTV" tvg-country="BR" tvg-language="Japanese" tvg-logo="" group-title="Animation",Anime TV (360p)
@@ -1320,6 +1322,9 @@ http://51.210.199.5/hls/stream.m3u8
 http://51.210.199.4/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AvangTV.us" tvg-name="Avang TV" tvg-country="IR" tvg-language="Persian" tvg-logo="https://www.lyngsat.com/logo/tv/aa/avang-tv-us.png" group-title="Music",Avang TV (1080p)
 http://appavang.flashmediacast.com:1935/Appavang/livestream/palylist.m3u8
+#EXTINF:-1 tvg-id="AVCHD.ar" tvg-name="AVC HD (Monte Caseros | Corrientes)" tvg-country="AR" tvg-language="Spanish" tvg-logo="" group-title="Local",AVC HD (Monte Caseros | Corrientes) (360p) [Not 24/7]
+#EXTVLCOPT:http-referrer=https://ssh101.com/
+https://tna5.bozztv.com/AVCHD/index.m3u8
 #EXTINF:-1 tvg-id="AvivamientoTV.co" tvg-name="Avivamiento TV" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/7YB94Hf.png" group-title="Religious",Avivamiento TV (720p)
 https://s1.abntelevision.com/avivamientoabr/stream/avivamientohd/avivamientohd/playlist.m3u8
 #EXTINF:-1 tvg-id="AVTKhyber.pk" tvg-name="AVT Khyber" tvg-country="PK" tvg-language="" tvg-logo="" group-title="",AVT Khyber (404p) [Not 24/7]
@@ -1663,6 +1668,8 @@ https://alchimie-big-names-3-it.samsung.wurl.com/manifest/playlist.m3u8
 https://alchimie-big-names-4-es.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="Bike.it" tvg-name="Bike" tvg-country="IT" tvg-language="" tvg-logo="https://i.imgur.com/wZh7aI8.png" group-title="",Bike (720p)
 https://backup.superstreaming.inaria.me/BikeSmartMobilityDTT/tracks-v2a1/playlist.m3u8
+#EXTINF:-1 tvg-id="BIPTV.fr" tvg-name="BIP TV" tvg-country="FR" tvg-language="" tvg-logo="" group-title="",BIP TV (480p) [Not 24/7]
+http://biptv.tv/live/biptvstream_orig/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-country="" tvg-language="" tvg-logo="" group-title="",Bitlis TV (720p) [Not 24/7]
 https://59cba4d34b678.streamlock.net/canlitv/bitlistv/playlist.m3u8
 #EXTINF:-1 tvg-id="BizTV.us" tvg-name="Biz TV" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/4pEmcFH.png" group-title="Lifestyle",Biz TV (576p)
@@ -2013,6 +2020,8 @@ https://playout4multirtmp.tulix.tv/live7/Stream1/playlist.m3u8
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=269
 #EXTINF:-1 tvg-id="CampinaSurTV.es" tvg-name="Campiña Sur TV" tvg-country="ES" tvg-language="" tvg-logo="https://i.imgur.com/87KGlQz.png" group-title="",Campiña Sur TV [Not 24/7]
 https://cdn01.yowi.tv/4131RI73I9/master.m3u8
+#EXTINF:-1 tvg-id="CampoAbiertoTV.cl" tvg-name="Campo Abierto TV" tvg-country="CL" tvg-language="Spanish" tvg-logo="http://www.rodeoenvivo.cl/portal/wp-content/uploads/2016/05/BANNER_CAMPO_ABIERTO_TV.png" group-title="",Campo Abierto TV (Huechuraba) (480p) [Not 24/7]
+http://v3.tustreaming.cl/campoabierto/live1/playlist.m3u8
 #EXTINF:-1 tvg-id="CampusTV.hn" tvg-name="Campus TV" tvg-country="HN" tvg-language="" tvg-logo="" group-title="",Campus TV (360p)
 http://st2.worldkast.com/8004/8004/playlist.m3u8
 #EXTINF:-1 tvg-id="CampusTVMagdeburg.de" tvg-name="Campus TV Magdeburg" tvg-country="DE" tvg-language="German" tvg-logo="" group-title="",Campus TV Magdeburg (1080p)
@@ -2180,6 +2189,8 @@ https://5ef74a4cbddfc.streamlock.net/CanalAntigua/myStream/chunklist_w152479200.
 https://live.canalantigua.tv/CanalAntigua/myStream/chunklist_w1288444071.m3u8
 #EXTINF:-1 tvg-id="CanalAntiguaGuatemala.gt" tvg-name="Canal Antigua Guatemala" tvg-country="GT" tvg-language="" tvg-logo="" group-title="",Canal Antigua Guatemala (1080p)
 https://5ef74a4cbddfc.streamlock.net/CanalAntigua/myStream/plalist.m3u8
+#EXTINF:-1 tvg-id="CanalC.co" tvg-name="Canal C (Santiago de Cali | Valle del Cauca)" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://cdn.colombia.com/canales/canal-c-2584.jpg" group-title="",Canal C (Santiago de Cali | Valle del Cauca) (720p) [Not 24/7]
+https://cloud2.streaminglivehd.com:1936/8104/8104/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalCapital.co" tvg-name="Canal Capital" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/Hlrdeds.png" group-title="General",Canal Capital (720p)
 https://mdstrm.com/live-stream-playlist/57d01d6c28b263eb73b59a5a.m3u8
 #EXTINF:-1 tvg-id="CanalCaracol.co" tvg-name="Canal Caracol" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/85/CaracolTelevisi%C3%B3n2019.png" group-title="General",Canal Caracol [Geo-locked]
@@ -2317,8 +2328,6 @@ https://bozztv.com/teleyupp/teleup-carstv/playlist.m3u8
 https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index.m3u8
 #EXTINF:-1 tvg-id="CartoonNetworkHindi.us" tvg-name="Cartoon Network Hindi" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://www.lyngsat.com/logo/tv/cc/cartoon_network_global.png" group-title="Kids",Cartoon Network Hindi (576p)
 http://103.153.39.34:8000/play/a04k/index.m3u8
-#EXTINF:-1 tvg-id="CartoonNetworkHindi.us" tvg-name="Cartoon Network Hindi" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://www.lyngsat.com/logo/tv/cc/cartoon_network_global.png" group-title="Kids",Cartoon Network Hindi (432p)
-http://70.39.83.58:8278/cartoonnetworkhindikdin/playlist.m3u8
 #EXTINF:-1 tvg-id="CartoonNetwork.us" tvg-name="Cartoon Network Latinoamérica" tvg-country="LATAM" tvg-language="Vietnamese" tvg-logo="https://www.lyngsat.com/logo/tv/cc/cartoon_network_global.png" group-title="Kids",Cartoon Network Latinoamérica
 http://209.91.213.10:8088/play/a00k
 #EXTINF:-1 tvg-id="CartoonNetwork.us" tvg-name="Cartoon Network Vietnam" tvg-country="VN" tvg-language="Vietnamese" tvg-logo="https://www.lyngsat.com/logo/tv/cc/cartoon_network_global.png" group-title="Kids",Cartoon Network Vietnam (720p)
@@ -2676,8 +2685,6 @@ https://usgeowall.sinclairstoryline.com/channel/37eb732888614810b512fdd82604244e
 http://185.105.4.236:1935/live/ngrp:livestream_all/live.m3u8
 #EXTINF:-1 tvg-id="ChauTV.lv" tvg-name="Chau TV" tvg-country="LV" tvg-language="Latvian" tvg-logo="https://i.imgur.com/W9RtBZN.jpg" group-title="",Chau TV
 https://video.chaula.tv/hls/live/high/playlist_high.m3u8
-#EXTINF:-1 tvg-id="ChavoTV.co" tvg-name="Chavo TV" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/El_Chavo_%28simple_logo%29.svg/800px-El_Chavo_%28simple_logo%29.svg.png" group-title="Series",Chavo TV (480p)
-https://videostreaming.cloudserverlatam.com/chavotv/chavotv/playlist.m3u8
 #EXTINF:-1 tvg-id="CheddarNews.us" tvg-name="Cheddar News" tvg-country="US" tvg-language="English" tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/607766d942e7e542aa73ddf2" group-title="News",Cheddar News (720p)
 http://stitcher.pluto.tv/stitch/hls/channel/5268abcd0ce20a8472000114/master.m3u8?appVersion=5.2.7&deviceDNT=web&deviceId=web24163643069&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=1&serverSideAds=false&sid=web24157571521
 #EXTINF:-1 tvg-id="CheddarNews.us" tvg-name="Cheddar News" tvg-country="US" tvg-language="English" tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/607766d942e7e542aa73ddf2" group-title="News",Cheddar News (1080p)
@@ -2975,6 +2982,8 @@ https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/cruise_tv/hls_video/inde
 http://media.smc-host.com:1935/csat.tv/smil:csat.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="CTNCourtFeed.us" tvg-name="CT-N Court Feed" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/He6Ugfn.jpg" group-title="Local",CT-N Court Feed (360p)
 http://video.ct-n.com/live/ctnSupreme/playlist_DVR.m3u8
+#EXTINF:-1 tvg-id="CTNLiveStream2.us" tvg-name="CT-N Live Stream 2" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/He6Ugfn.jpg" group-title="Local",CT-N Live Stream 2 (360p) [Not 24/7]
+http://video.ct-n.com/live/web2stream/playlist.m3u8
 #EXTINF:-1 tvg-id="CTNTVConneticut.us" tvg-name="CT-N TV Conneticut" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/pb0TFQt.jpg" group-title="Local",CT-N TV Conneticut (720p)
 http://video.ct-n.com/live/ctnstream/playlist_DVR.m3u8
 #EXTINF:-1 tvg-id="CTN.us" tvg-name="CTN" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/Bj37ZMY.png" group-title="Religious",CTN (480p)
@@ -3081,7 +3090,7 @@ http://103.199.161.254/Content/ddsports/Live/Channel(DDSPORTS)/index.m3u8
 #EXTINF:-1 tvg-id="DealornoDeal.ca" tvg-name="Deal or no Deal" tvg-country="CA" tvg-language="English" tvg-logo="https://i.imgur.com/soOgFFc.jpg" group-title="",Deal or no Deal (720p)
 https://endemol-dealornodeal-1-ca.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="DealorNoDeal.us" tvg-name="Deal or No Deal" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/SXWX2Wf.png" group-title="Series",Deal or No Deal (1080p)
-https://endemol-dealornodeal-1.plex.wurl.com/manifest/playlist.m3u8
+https://endemol-dealornodeal-1.roku.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="DealorNoDeal.us" tvg-name="Deal or No Deal" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/SXWX2Wf.png" group-title="Series",Deal or No Deal (720p)
 https://endemol-dealornodeal-1.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="KFAZCA2.us" tvg-name="Decades West (KFAZ-CA2)" tvg-country="US" tvg-language="English" tvg-logo="https://media-usba.mybtv.net/logos/36.4-Decades.png" group-title="Entertainment",Decades West (8.2 KFAZ-CA) (432p)
@@ -4075,8 +4084,6 @@ https://583548fa0d82b.streamlock.net/friesischerRundfunk-live/mp4:friesischerrun
 https://content.uplynk.com/channel/4b3fda1ff2c24556bc2c6034307d117d.m3u8
 #EXTINF:-1 tvg-id="Frikanalen.no" tvg-name="Frikanalen" tvg-country="NO" tvg-language="Norwegian Bokmål" tvg-logo="https://i.imgur.com/6pHnO2r.png" group-title="",Frikanalen (720p)
 https://frikanalen.no/stream/index.m3u8
-#EXTINF:-1 tvg-id="FrootTVEU.us" tvg-name="Froot TV (EU)" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/bRaihBR.png" group-title="Lifestyle",Froot TV (EU) (720p)
-https://outtv-froottv-1-eu.rakuten.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="FS1Salzburg.at" tvg-name="FS1 Salzburg" tvg-country="AT" tvg-language="German" tvg-logo="https://i.imgur.com/HSRpYUl.jpg" group-title="",FS1 Salzburg (720p) [Not 24/7]
 http://stream.fs1.tv:8080/hls/webstream.m3u8
 #EXTINF:-1 tvg-id="FTF.us" tvg-name="FTF" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/IRWahfD.png" group-title="",FTF (720p)
@@ -4165,8 +4172,6 @@ https://cloud.streamingconnect.tv:455/tbmadrid/tbmadrid.m3u8
 http://liveko24-manminglobal3.ktcdn.co.kr/liveko24/gcnko_high/chunklist.m3u8
 #EXTINF:-1 tvg-id="GDMTV.do" tvg-name="GDMTV" tvg-country="DO" tvg-language="" tvg-logo="https://i0.wp.com/www.gdm.do/wp-content/uploads/2020/01/Logo-GDM.png?w=696&ssl=1" group-title="",GDMTV (720p) [Not 24/7]
 https://ss2.domint.net:3200/gdm_str/gdmtv/playlist.m3u8
-#EXTINF:-1 tvg-id="GDNSLudhiana.in" tvg-name="GDNS Ludhiana" tvg-country="IN" tvg-language="" tvg-logo="" group-title="",GDNS Ludhiana (1080p)
-http://akalmultimedia.net:1935/gdnslive/gdns-live/chunklist.m3u8
 #EXTINF:-1 tvg-id="GEM24b.ir" tvg-name="GEM 24b" tvg-country="IR" tvg-language="Persian" tvg-logo="https://www.gemonline.tv/Assets/channels-box/24b.png" group-title="Music",GEM 24b (1080p) [Geo-blocked]
 #EXTVLCOPT:http-referrer=https://www.gemonline.tv/en-US/Live/Index?channelname=24b
 https://d2e40kvaojifd6.cloudfront.net/stream/24b/playlist.m3u8
@@ -4216,8 +4221,8 @@ http://kuzeykibris.tv/m3u8/tv_genc.m3u8
 https://jk3lz82elw79-hls-live.5centscdn.com/Geo/eae835e83c0494a376229f254f7d3392.sdp/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="GetTV.us" tvg-name="GetTV" tvg-country="US" tvg-language="English" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d6/GetTV_2016_logo.png" group-title="Entertainment",GetTV (480p)
 https://bozztv.com/teleyupp/teleup-gettv/playlist.m3u8
-#EXTINF:-1 tvg-id="GHTelevisionCanal10.do" tvg-name="GH Television Canal 10" tvg-country="DO" tvg-language="" tvg-logo="" group-title="",GH Television Canal 10 (720p)
-https://cloudflare.streamgato.us:3352/live/ghtelevisionhdlive.m3u8
+#EXTINF:-1 tvg-id="GFNTV.us" tvg-name="GFN TV" tvg-country="US" tvg-language="" tvg-logo="https://i.imgur.com/V5CTsI0.png" group-title="",GFN TV (720p) [Not 24/7]
+https://d3jxchypmk8fja.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/GFNTV-Plex/169.m3u8
 #EXTINF:-1 tvg-id="GiaLaiTV.vn" tvg-name="Gia Lai TV" tvg-country="VN" tvg-language="" tvg-logo="" group-title="",Gia Lai TV (486p)
 http://113.161.25.3:8134/hls/gialaitv/gialaitv.m3u8
 #EXTINF:-1 tvg-id="GigantFM.nl" tvg-name="Gigant FM" tvg-country="NL" tvg-language="" tvg-logo="https://i.imgur.com/7AC8etU.png" group-title="",Gigant FM (720p)
@@ -4608,6 +4613,8 @@ https://cm.hostlagarto.com:4445/Hmtv/hmtv.myStream/playlist.m3u8
 https://cdn01.yowi.tv/1H23S04G4M/master.m3u8
 #EXTINF:-1 tvg-id="HewadTV.af" tvg-name="Hewad TV" tvg-country="AF" tvg-language="" tvg-logo="https://i.imgur.com/RkcUtMK.jpg" group-title="",Hewad TV (576p)
 http://51.210.199.58/hls/stream.m3u8
+#EXTINF:-1 tvg-id="HiDosti.in" tvg-name="Hi Dosti" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/C7XN3JP.png" group-title="",Hi Dosti (576p) [Not 24/7]
+http://14.199.164.20:4001/play/a0rg/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-country="" tvg-language="" tvg-logo="" group-title="",Hi Music
 https://t2.tvmak.com/tv/himusic.m3u8
 #EXTINF:-1 tvg-id="HiYAH" tvg-name="Hi-YAH!" tvg-country="US" tvg-language="" tvg-logo="https://i.imgur.com/uMPu5HU.png" group-title="Entertainment",Hi-YAH! (720p)
@@ -4854,6 +4861,8 @@ https://59cba4d34b678.streamlock.net/canlitv/hunattv/playlist.m3u8
 https://waw2.artiyerelmedya.net/hunattv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="HungamaTV.in" tvg-name="Hungama TV" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/ctjMaOW.png" group-title="Kids",Hungama TV (576p)
 http://103.153.39.34:8000/play/a04l/index.m3u8
+#EXTINF:-1 tvg-id="HungamaTV.in" tvg-name="Hungama TV" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/ctjMaOW.png" group-title="Kids",Hungama TV (576p) [Not 24/7]
+http://70.39.83.58:8278/hungamahindikdin/playlist.m3u8
 #EXTINF:-1 tvg-id="Hungry.us" tvg-name="Hungry" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/MIUDYh0.png" group-title="Cooking",Hungry (432p)
 https://dai2.xumo.com/xumocdn/p=redbox&deviceid=&is_lat=&subp=RedboxdesktopWebWindows/amagi_hls_data_xumo1212A-redboxhungry/CDN/playlist.m3u8
 #EXTINF:-1 tvg-id="Hungry.us" tvg-name="Hungry" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/MIUDYh0.png" group-title="Cooking",Hungry (720p)
@@ -5169,6 +5178,9 @@ http://103.199.161.254/Content/jeevan/Live/Channel(Jeevan)/index.m3u8
 https://stream7.sehradar.de/jenatv/ngrp:livestream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="JENZ.nl" tvg-name="JENZ" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/R1UP2cj.png" group-title="Music",JENZ (1080p)
 https://ms7.mx-cd.net/tv/192-840604/Jenz_TV.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="JessTV.ca" tvg-name="Jess TV (Lethbridge)" tvg-country="CA" tvg-language="English" tvg-logo="" group-title="Local",Jess TV (Lethbridge) (720p) [Not 24/7]
+#EXTVLCOPT:http-referrer=https://ssh101.com/
+https://tna5.bozztv.com/jesstv/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-country="" tvg-language="" tvg-logo="" group-title="",Jesus Shelanu
 https://1247634592.rsc.cdn77.org/1247634592/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="JewelleryMaker.uk" tvg-name="Jewelery Maker" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/azSptPw.png" group-title="Lifestyle",Jewelery Maker (720p)
@@ -5587,6 +5599,8 @@ https://hiplayer.hibridcdn.net/t/kwmedia-kwtv1.m3u8
 https://hiplayer.hibridcdn.net/t/kwmedia-kwtv2.m3u8
 #EXTINF:-1 tvg-id="KTVAlMajlis.kw" tvg-name="KTV Al Majlis" tvg-country="KW" tvg-language="Arabic" tvg-logo="http://i4.yhk0.net/cha/kw/almajlis-95x41.gif" group-title="",KTV Al Majlis (1080p) [Not 24/7]
 https://hiplayer.hibridcdn.net/t/kwmedia-kwtvmajlis.m3u8
+#EXTINF:-1 tvg-id="KTVAlQurain.kw" tvg-name="KTV Al Qurain" tvg-country="KW" tvg-language="Arabic" tvg-logo="http://i5.satexpat.com/cha/kw/ktvQuran-95x88.gif" group-title="",KTV Al Qurain (1080p) [Not 24/7]
+https://hiplayer.hibridcdn.net/t/kwmedia-kwtvqurain.m3u8
 #EXTINF:-1 tvg-id="KTVArabe.kw" tvg-name="KTV Arabe" tvg-country="KW" tvg-language="Arabic" tvg-logo="http://content.osn.com/bob/745x419/KTA.jpg" group-title="",KTV Arabe (1080p) [Not 24/7]
 https://hiplayer.hibridcdn.net/t/kwmedia-kwtvarabi.m3u8
 #EXTINF:-1 tvg-id="KTVEthraa.kw" tvg-name="KTV Ethraa" tvg-country="KW" tvg-language="Arabic" tvg-logo="http://i5.satexpat.com/cha/kw/ktv_ethra_95x94.gif" group-title="",KTV Ethraa (1080p) [Not 24/7]
@@ -6068,8 +6082,6 @@ http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5d51ddf036
 http://bamus-eng-roku.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="LoveNatureEspanol.us" tvg-name="Love Nature Español" tvg-country="US" tvg-language="Spanish" tvg-logo="https://i.imgur.com/LXpqmgn.jpg" group-title="Outdoor",Love Nature Español (1080p)
 https://bamus-spa-roku.amagi.tv/hls/amagi_hls_data_bamusaAAA-roku-bam-spanish/CDN/playlist.m3u8
-#EXTINF:-1 tvg-id="Loveworld.uk" tvg-name="Loveworld" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/6orW2BN.png" group-title="Religious",Loveworld TV (1080p)
-https://cdn.lwuk.live/live/smil:lwukweb.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="LoveWorldUSA.us" tvg-name="LoveWorld USA" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/YnOZtNm.png" group-title="Religious",LoveWorld USA (1080p)
 https://loveworldusa-lh.akamaihd.net/i/lwusa2_1@514985/master.m3u8
 #EXTINF:-1 tvg-id="LRTLituanica.lt" tvg-name="LRT Lituanica" tvg-country="LT" tvg-language="Lithuanian" tvg-logo="" group-title="",LRT Lituanica (720p)
@@ -6480,6 +6492,8 @@ https://hlslive-akc-med1.media.mlb.com/ls01/mlbnetwork/NETWORK_LINEAR_1/master_w
 http://a.jsrdn.com/broadcast/80f6ba72c8/+0000/high/c.m3u8
 #EXTINF:-1 tvg-id="MMAJunkie.us" tvg-name="MMA Junkie" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/nSUiODh.jpg" group-title="Sports",MMA Junkie (720p)
 https://a.jsrdn.com/broadcast/80f6ba72c8/+0000/c.m3u8
+#EXTINF:-1 tvg-id="MMC.si" tvg-name="MMC" tvg-country="SI" tvg-language="Slovenian" tvg-logo="https://i.imgur.com/ogq22B7.png" group-title="",MMC (720p) [Not 24/7]
+https://29-rtvslo-tv-mmc-int.cdn.eurovisioncdn.net/playlist.m3u8
 #EXTINF:-1 tvg-id="MNCTV.id" tvg-name="MNCTV" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://i.postimg.cc/rw8620qS/20191026-003920.png" group-title="General",MNCTV (720p)
 https://vcdn2.rctiplus.id/live/eds/mnctv_fta/live_fta/mnctv_fta.m3u8
 #EXTINF:-1 tvg-id="Mnet.kr" tvg-name="Mnet" tvg-country="KR" tvg-language="Korean" tvg-logo="http://image.tving.com/upload/cms/caic/CAIC1900/C00579.png" group-title="",Mnet (576p) [Not 24/7]
@@ -6935,6 +6949,8 @@ https://ndtvprofitelemarchana.akamaized.net/hls/live/2003680/ndtvprofit/master.m
 https://live.neatv.gr:8888/hls/neatv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-country="" tvg-language="" tvg-logo="" group-title="",Nea TV
 https://live.neatv.gr:8888/hls/neatv_high/index.m3u8
+#EXTINF:-1 tvg-id="NeeCinema.in" tvg-name="Nee Cinema" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/vYme2fs.png" group-title="Movies",Nee Cinema (1080p) [Not 24/7]
+https://live.neestream.com/neestream_01/nee_cinema/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="NegahTV.us" tvg-name="Negah TV" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Entertainment",Negah TV (720p) [Not 24/7]
 https://iptv.negahtv.com/negahtv/playlist2/index.m3u8
 #EXTINF:-1 tvg-id="NegociosTV.es" tvg-name="Negocios TV" tvg-country="ES" tvg-language="" tvg-logo="" group-title="",Negocios TV (720p)
@@ -7432,8 +7448,6 @@ https://7.innovatestream.pe:19360/omega/omega.m3u8
 http://media6.smc-host.com:1935/omgchannel.net/omgtv/playlist.m3u8
 #EXTINF:-1 tvg-id="OMID.ir" tvg-name="OMID" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="",OMID (576p)
 https://sdm.telewebion.com/live/omid/playlist.m3u8
-#EXTINF:-1 tvg-id="OmidJavedan.us" tvg-name="Omid Javedan" tvg-country="US" tvg-language="" tvg-logo="https://i.imgur.com/G1tOSzq.png" group-title="",Omid Javedan (1080p)
-http://livestream.5centscdn.com/shaditv/23abe62a446fc05ce0a6c810f4045308.sdp/index.m3u8
 #EXTINF:-1 tvg-id="OmideIran.ir" tvg-name="Omide Iran" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Entertainment",Omide Iran (720p)
 http://51.210.199.38/hls/stream.m3u8
 #EXTINF:-1 tvg-id="OMLonRevry.us" tvg-name="OML on Revry" tvg-country="US" tvg-language="English" tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/5fc810e0f000c90dd9563252" group-title="Entertainment",OML on Revry (720p)
@@ -7998,6 +8012,8 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ed52a62fa750007
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f8ed52a62fa750007733239/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="PlutoTVAntiquesRoadshowUK.us" tvg-name="Pluto TV Antiques Roadshow UK" tvg-country="US" tvg-language="English" tvg-logo="http://images.pluto.tv/channels/5ce44810b421747ae467b7cd/colorLogoPNG.png" group-title="Series",Pluto TV Antiques Roadshow UK (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ce44810b421747ae467b7cd/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5ce44810b421747ae467b7cd&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=621&terminate=false&userId=
+#EXTINF:-1 tvg-id="PlutoTVAntiquesRoadshowUK.us" tvg-name="Pluto TV Antiques Roadshow UK" tvg-country="US" tvg-language="English" tvg-logo="http://images.pluto.tv/channels/5ce44810b421747ae467b7cd/colorLogoPNG.png" group-title="Series",Pluto TV Antiques Roadshow UK (720p) [Not 24/7]
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5ce44810b421747ae467b7cd/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="PlutoTVArchivosForenses.us" tvg-name="Pluto TV Archivos Forenses" tvg-country="US" tvg-language="Spanish" tvg-logo="https://images.pluto.tv/channels/5efb8c19b2678b000780d032/colorLogoPNG.png" group-title="Series",Pluto TV Archivos Forenses (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5efb8c19b2678b000780d032/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 #EXTINF:-1 tvg-id="PlutoTVAsPistasdeBlue.us" tvg-name="Pluto TV As Pistas de Blue" tvg-country="US" tvg-language="Spanish" tvg-logo="https://images.pluto.tv/channels/5f99aad4e82db50007fac4b2/colorLogoPNG.png" group-title="",Pluto TV As Pistas de Blue (720p)
@@ -8296,8 +8312,6 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5de58ef515635d0009
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f061242a7951e00075d7413/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5f061242a7951e00075d7413&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=172&terminate=false&userId=
 #EXTINF:-1 tvg-id="PlutoTVDeportes.us" tvg-name="Pluto TV Deportes" tvg-country="US" tvg-language="Spanish" tvg-logo="https://images.pluto.tv/channels/5dcde07af1c85b0009b18651/colorLogoPNG.png" group-title="Sports",Pluto TV Deportes (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcde07af1c85b0009b18651/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
-#EXTINF:-1 tvg-id="PlutoTVDoctorWhoClassic.us" tvg-name="Pluto TV Doctor Who Classic" tvg-country="US" tvg-language="English" tvg-logo="http://images.pluto.tv/channels/5ce4475cd43850831ca91ce7/colorLogoPNG.png" group-title="Classic",Pluto TV Doctor Who Classic (720p)
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ce4475cd43850831ca91ce7/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5ce4475cd43850831ca91ce7&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=532&terminate=false&userId=
 #EXTINF:-1 tvg-id="PlutoTVDocumentaries.us" tvg-name="Pluto TV Documentaries" tvg-country="US" tvg-language="English" tvg-logo="http://images.pluto.tv/channels/5b85a7582921777994caea63/colorLogoPNG.png" group-title="Documentary",Pluto TV Documentaries (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5b85a7582921777994caea63/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5b85a7582921777994caea63&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=91&terminate=false&userId=
 #EXTINF:-1 tvg-id="PlutoTVDocumentaries.us" tvg-name="Pluto TV Documentaries" tvg-country="US" tvg-language="German" tvg-logo="http://images.pluto.tv/channels/5b85a7582921777994caea63/colorLogoPNG.png" group-title="Documentary",Pluto TV Documentaries (720p)
@@ -8670,6 +8684,8 @@ http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5db0510962948d00096
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5cb0cae7a461406ffe3f5213/master.m3u8?advertisingId=&appName=web&appVersion=5.2.2-d60060c7283e0978cc63ba036956b5c1657f8eba&architecture=&buildVersion=&clientTime=&deviceDNT=0&deviceId=9daeec78-6a24-43e9-b800-df83d8e465a8&deviceLat=-35.1192&deviceLon=-60.5047&deviceMake=Chrome&deviceModel=Chrome&deviceType=web&deviceVersion=80.0.3987.149&includeExtendedEvents=false&serverSideAds=true&sid=e2177d24-366a-4c1c-b974-702fe1d6159a&userId=
 #EXTINF:-1 tvg-id="PlutoTVMovies.us" tvg-name="Pluto TV Movies" tvg-country="US" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/5ad8d3a31b95267e225e4e09/colorLogoPNG.png" group-title="Movies",Pluto TV Movies (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5c5c3b948002db3c3e0b262e/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=1&deviceId=5c5c3b948002db3c3e0b262e&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=eddfafe3-0584-11eb-82fe-0242ac110002&terminate=false&userId=
+#EXTINF:-1 tvg-id="PlutoTVMovies.us" tvg-name="Pluto TV Movies" tvg-country="DE" tvg-language="German" tvg-logo="https://images.pluto.tv/channels/5ad8d3a31b95267e225e4e09/colorLogoPNG.png" group-title="Movies",Pluto TV Movies (720p) [Not 24/7]
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5c5c3b948002db3c3e0b262e/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="PlutoTVMoviesEngland.us" tvg-name="Pluto TV Movies (England)" tvg-country="US" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/5ad8d3a31b95267e225e4e09/colorLogoPNG.png" group-title="Movies",Pluto TV Movies (England) (720p)
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ad8d3a31b95267e225e4e09/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5ad8d3a31b95267e225e4e09&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=50&terminate=false&userId=
 #EXTINF:-1 tvg-id="PlutoTVMoviesGermany.us" tvg-name="Pluto TV Movies (Germany)" tvg-country="US" tvg-language="" tvg-logo="https://images.pluto.tv/channels/5ad8d3a31b95267e225e4e09/colorLogoPNG.png" group-title="Movies",Pluto TV Movies (Germany) (720p)
@@ -8704,8 +8720,6 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5d14fd1a2
 http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS03/master.m3u8
 #EXTINF:-1 tvg-id="PlutoTVMTVBlockParty.us" tvg-name="Pluto TV MTV Block Party" tvg-country="US" tvg-language="English" tvg-logo="http://images.pluto.tv/channels/5d3609cd6a6c78d7672f2a81/colorLogoPNG.png" group-title="Series",Pluto TV MTV Block Party (720p) [Not 24/7]
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d3609cd6a6c78d7672f2a81/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d3609cd6a6c78d7672f2a81&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=868&terminate=false&userId=
-#EXTINF:-1 tvg-id="PlutoTVMTVBlockParty.us" tvg-name="Pluto TV MTV Block Party" tvg-country="US" tvg-language="English" tvg-logo="http://images.pluto.tv/channels/5d3609cd6a6c78d7672f2a81/colorLogoPNG.png" group-title="Series",Pluto TV MTV Block Party (720p)
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5d3609cd6a6c78d7672f2a81/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="PlutoTVMTVCatfish.us" tvg-name="Pluto TV MTV Catfish" tvg-country="US" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/5f1ab3c7778230000735cf41/colorLogoPNG.png" group-title="Series",Pluto TV MTV Catfish (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5db6a697d5f34a000934cd13/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=1&deviceId=5db6a697d5f34a000934cd13&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=f1438745-0586-11eb-82fe-0242ac110002&terminate=false&userId=
 #EXTINF:-1 tvg-id="PlutoTVMTVCatfishGermany.us" tvg-name="Pluto TV MTV Catfish (Germany)" tvg-country="US" tvg-language="" tvg-logo="" group-title="Series",Pluto TV MTV Catfish (Germany) (720p)
@@ -8830,6 +8844,8 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f4796368174910007
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f4796368174910007756454/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="PlutoTVNickJr.us" tvg-name="Pluto TV Nick Jr." tvg-country="US" tvg-language="English" tvg-logo="http://images.pluto.tv/channels/5ca6748a37b88b269472dad9/colorLogoPNG.png" group-title="Kids",Pluto TV Nick Jr. (720p)
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ca6748a37b88b269472dad9/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5ca6748a37b88b269472dad9&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=978&terminate=false&userId=
+#EXTINF:-1 tvg-id="PlutoTVNickJr.us" tvg-name="Pluto TV Nick Jr." tvg-country="US" tvg-language="English" tvg-logo="http://images.pluto.tv/channels/5ca6748a37b88b269472dad9/colorLogoPNG.png" group-title="Kids",Pluto TV Nick Jr. (720p) [Not 24/7]
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5ca6748a37b88b269472dad9/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="PlutoTVNickJr.us" tvg-name="Pluto TV Nick Jr." tvg-country="DE" tvg-language="German" tvg-logo="http://images.pluto.tv/channels/5ca6748a37b88b269472dad9/colorLogoPNG.png" group-title="Kids",Pluto TV Nick Jr. (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5ede45451dce190007ef9ff2/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="PlutoTVNickJrClub.us" tvg-name="Pluto TV Nick Jr. Club" tvg-country="US" tvg-language="Spanish" tvg-logo="https://images.pluto.tv/channels/5ddd7cb2cbb9010009b4fe32/colorLogoPNG.png" group-title="Kids",Pluto TV Nick Jr. Club (720p)
@@ -8944,6 +8960,8 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d93b4d71754e6a429
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8bf0b06d2d855ee15115e3/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8bf0b06d2d855ee15115e3&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=275&terminate=false&userId=
 #EXTINF:-1 tvg-id="PlutoTVReality.us" tvg-name="Pluto TV Reality" tvg-country="US" tvg-language="Spanish" tvg-logo="https://images.pluto.tv/channels/5dcde197f6591d0009839e04/colorLogoPNG.png" group-title="Series",Pluto TV Reality (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcde197f6591d0009839e04/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
+#EXTINF:-1 tvg-id="PlutoTVReality.us" tvg-name="Pluto TV Reality" tvg-country="US" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/5dcde197f6591d0009839e04/colorLogoPNG.png" group-title="Series",Pluto TV Reality (720p) [Not 24/7]
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5d8bf0b06d2d855ee15115e3/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="PlutoTVRescue911.us" tvg-name="Pluto TV Rescue 911" tvg-country="US" tvg-language="English" tvg-logo="http://images.pluto.tv/channels/5f21e831e9fe730007706acb/colorLogoPNG.png" group-title="Series",Pluto TV Rescue 911 (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f21e831e9fe730007706acb/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5f21e831e9fe730007706acb&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=277&terminate=false&userId=
 #EXTINF:-1 tvg-id="PlutoTVRetroDrama.us" tvg-name="Pluto TV Retro Drama" tvg-country="US" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/5dde47b63585b500099f74ec/colorLogoPNG.png" group-title="Classic",Pluto TV Retro Drama (720p)
@@ -9189,7 +9207,7 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5ebd0ff1e
 #EXTINF:-1 tvg-id="PlutoTVTurmadaMonica.us" tvg-name="Pluto TV Turma da Mônica" tvg-country="US" tvg-language="Spanish" tvg-logo="https://images.pluto.tv/channels/5f997e44949bc70007a6941e/colorLogoPNG.png" group-title="",Pluto TV Turma da Mônica (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f997e44949bc70007a6941e/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="PlutoTVTVLandDrama.us" tvg-name="Pluto TV TV Land Drama" tvg-country="US" tvg-language="English" tvg-logo="http://images.pluto.tv/channels/5d40bebc5e3d2750a2239d7e/colorLogoPNG.png" group-title="Movies",Pluto TV TV Land Drama (720p)
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d40bebc5e3d2750a2239d7e/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d40bebc5e3d2750a2239d7e&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=130&terminate=false&userId=
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5d40bebc5e3d2750a2239d7e/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="PlutoTVTVLandSitcoms.us" tvg-name="Pluto TV TV Land Sitcoms" tvg-country="US" tvg-language="English" tvg-logo="http://images.pluto.tv/channels/5c2d64ffbdf11b71587184b8/colorLogoPNG.png" group-title="",Pluto TV TV Land Sitcoms (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5c2d64ffbdf11b71587184b8/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5c2d64ffbdf11b71587184b8&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=455&terminate=false&userId=
 #EXTINF:-1 tvg-id="PlutoTVTween.us" tvg-name="Pluto TV Tween" tvg-country="US" tvg-language="English" tvg-logo="http://images.pluto.tv/channels/5db0ae5af8797b00095c0794/colorLogoPNG.png" group-title="Kids",Pluto TV Tween (720p)
@@ -9372,8 +9390,6 @@ https://5ee50688d7b5d.streamlock.net:444/live/pravasi/playlist.m3u8
 http://premium-channel.tv:88/live/kali.m3u8
 #EXTINF:-1 tvg-id="PressTV.ir" tvg-name="Press TV" tvg-country="IR" tvg-language="English" tvg-logo="https://i.imgur.com/TNQKahI.png" group-title="News",Press TV English (720p)
 https://live.presstv.ir/liveprs/smil:liveprs/playlist.m3u8
-#EXTINF:-1 tvg-id="PressTV.ir" tvg-name="Press TV" tvg-country="IR" tvg-language="English" tvg-logo="https://i.imgur.com/TNQKahI.png" group-title="News",Press TV French (720p)
-https://live1.presstv.ir/live/presstvfr/index.m3u8
 #EXTINF:-1 tvg-id="PrimaTivvu.it" tvg-name="Prima Tivvu" tvg-country="IT" tvg-language="" tvg-logo="https://i.imgur.com/WBYb7DV.jpg" group-title="",Prima Tivvu
 https://streamtech-entrypoint.com:5443/LiveApp/streams/608806443178813216408994.m3u8?token=null
 #EXTINF:-1 tvg-id="PrimaTV.ro" tvg-name="Prima TV" tvg-country="RO" tvg-language="Romanian" tvg-logo="https://i.imgur.com/oLuxC2P.png" group-title="General",Prima TV (404p)
@@ -9830,6 +9846,8 @@ https://rakuten-drama-12-fi.samsung.wurl.com/manifest/playlist.m3u8
 https://rakuten-drama-8-nl.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenDramaNorway.es" tvg-name="Rakuten Drama (Norway)" tvg-country="ES" tvg-language="" tvg-logo="" group-title="Movies",Rakuten Drama (Norway) (720p)
 https://rakuten-drama-11-no.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="RakutenDramaSweden.es" tvg-name="Rakuten Drama (Sweden)" tvg-country="ES" tvg-language="" tvg-logo="" group-title="Movies",Rakuten Drama (Sweden) (720p) [Not 24/7]
+https://rakuten-drama-9-se.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenFamilyDenmark.es" tvg-name="Rakuten Family (Denmark)" tvg-country="ES" tvg-language="" tvg-logo="" group-title="Family",Rakuten Family (Denmark) (720p)
 https://rakuten-family-10-dk.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenFamilyFinland.es" tvg-name="Rakuten Family (Finland)" tvg-country="ES" tvg-language="" tvg-logo="" group-title="Family",Rakuten Family (Finland) (720p)
@@ -10819,8 +10837,6 @@ https://sdm.telewebion.com/live/sepehr/playlist.m3u8
 http://stream.grupoabchn.com:1935/SERCANOHD/SERCANOLive.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ServeurTV.in" tvg-name="Serveur TV" tvg-country="IN" tvg-language="English" tvg-logo="" group-title="",Serveur TV (720p)
 https://a.jsrdn.com/broadcast/060753d37e/+0000/c.m3u8
-#EXTINF:-1 tvg-id="SescTV.br" tvg-name="Sesc TV" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://sesctv.org.br/wp-content/uploads/2018/06/SESCTV-ICON.png" group-title="Music",Sesc TV (1080p)
-https://slbps-ml-sambatech.akamaized.net/samba-live/2472/7424/8a00fe7cc36ac263b2c3e9324497d5ff/video/0c884f97-4264-446f-abcd-03aa46089a96_index.m3u8
 #EXTINF:-1 tvg-id="Seven.au" tvg-name="Seven" tvg-country="AU" tvg-language="English" tvg-logo="https://i.mjh.nz/.images/tv.101305020520.png" group-title="",Seven [Geo-blocked]
 https://i.mjh.nz/au/Sydney/tv.101305020520.m3u8
 #EXTINF:-1 tvg-id="SevillaFCTV.es" tvg-name="Sevilla FC TV" tvg-country="ES" tvg-language="" tvg-logo="https://i.imgur.com/yujGVbm.png" group-title="",Sevilla FC TV (360p)
@@ -11423,6 +11439,8 @@ https://dai.google.com/linear/hls/event/pRd-k6tZSiCRsw_f51Vcvg/master.m3u8
 https://dai.google.com/linear/hls/event/jH-4z3EkQO-fLYYgjX7d3g/master.m3u8
 #EXTINF:-1 tvg-id="STIRRCityPensacola.us" tvg-name="STIRR City Pensacola" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/7JgPJxx.png" group-title="Local",STIRR City Pensacola (720p)
 https://dai.google.com/linear/hls/event/CAU96LSyR_e7MSeK6UTmGQ/master.m3u8
+#EXTINF:-1 tvg-id="STIRRCityPittsburgh.us" tvg-name="STIRR City Pittsburgh" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/7JgPJxx.png" group-title="Local",STIRR City Pittsburgh (720p) [Not 24/7]
+https://dai.google.com/linear/hls/event/qJU_NkxXQoCbACvG5BWrXQ/master.m3u8
 #EXTINF:-1 tvg-id="STIRRCityPortland.us" tvg-name="STIRR City Portland" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/7JgPJxx.png" group-title="Local",STIRR City Portland (720p)
 https://dai.google.com/linear/hls/event/npdISdLWSIa1E_j7NCUDBg/master.m3u8
 #EXTINF:-1 tvg-id="STIRRCityProvidence.us" tvg-name="STIRR City Providence" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/7JgPJxx.png" group-title="Local",STIRR City Providence (720p)
@@ -11667,18 +11685,12 @@ http://us.bestvideostreaming.is/8821/index.m3u8
 https://kedoo-supertoonstv-1-gb.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="SupertoonsTV.uk" tvg-name="Supertoons TV" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/35BpWJh.jpg" group-title="Kids",Supertoons TV (720p)
 https://kedoo-supertoonstv-1-gb.samsung.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 tvg-id="SupertoonsTV.es" tvg-name="Supertoons TV" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://i.imgur.com/35BpWJh.jpg" group-title="Kids",Supertoons TV (720p)
-https://kedoo-supertoonstv-2-es.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="SupertoonsTV.fr" tvg-name="Supertoons TV" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/kUmPbel.jpg" group-title="Kids",Supertoons TV (720p)
 https://kedoo-supertoonstv-3-fr.samsung.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 tvg-id="SupertoonsTV.it" tvg-name="Supertoons TV" tvg-country="IT" tvg-language="Italian" tvg-logo="https://i.imgur.com/35BpWJh.jpg" group-title="Kids",Supertoons TV (720p)
-https://kedoo-supertoonstv-4-it.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="SupremeMasterTV.vn" tvg-name="Supreme Master TV" tvg-country="VN" tvg-language="Vietnamese;English" tvg-logo="" group-title="",Supreme Master TV (720p)
 https://lbs-us1.suprememastertv.com/720p.m3u8
 #EXTINF:-1 tvg-id="SuramTV.co" tvg-name="Suram TV" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/6d2fOjq.png" group-title="Local",Suram TV (1080p)
 https://5b3050bb1b2d8.streamlock.net/suramtv/suramtv/playlist.m3u8
-#EXTINF:-1 tvg-id="SurfNowTV.us" tvg-name="Surf Now TV" tvg-country="US" tvg-language="English" tvg-logo="https://www.samsung.com/us/smg/content/dam/s7/home/televisions-and-home-theater/tvs/tvplus/06232020/SURF_NOW_TV_190x190.png?raw=true" group-title="Sports",Surf Now TV (720p)
-https://1091-surfnowtv-1.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="Suria.sg" tvg-name="Suria" tvg-country="SG" tvg-language="Malay" tvg-logo="" group-title="",Suria [Geo-blocked]
 https://d11h6a6nhl9kj9.cloudfront.net/hls/clr4ctv_suria/master.m3u8
 #EXTINF:-1 tvg-id="SurTVIlo.pe" tvg-name="SurTV (Ilo)" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/surtvilo/picture?width=320&height=320" group-title="Local",SurTV (Ilo) (720p) [Not 24/7]
@@ -11739,6 +11751,8 @@ https://nodo01-cloud01.streaming-pro.com/tac12tv/hls/tac12_2.m3u8
 https://vod.tv7.fi/tv7-ee/_definst_/smil:tv7-ee.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TaevasTV7EST.fi" tvg-name="Taevas TV7 (EST)" tvg-country="FI" tvg-language="" tvg-logo="" group-title="",Taevas TV7 (EST) (720p)
 http://vod.tv7.fi:1935/tv7-ee/tv7-ee.stream_720p/playlist.m3u8
+#EXTINF:-1 tvg-id="TAGTV.ca" tvg-name="TAG TV" tvg-country="CA" tvg-language="Hindi" tvg-logo="https://i.imgur.com/4PA2adF.png" group-title="",TAG TV (1080p) [Not 24/7]
+http://cdn11.live247stream.com/tag/tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TAGTV.us" tvg-name="TAG TV" tvg-country="US" tvg-language="Hindi" tvg-logo="https://i.imgur.com/9vosZt4.jpg" group-title="News",TAG TV (1080p)
 https://cdn30.liveonlineservices.com/hls/tagtv.m3u8
 #EXTINF:-1 tvg-id="Tagesschau24.de" tvg-name="Tagesschau24" tvg-country="DE" tvg-language="German" tvg-logo="" group-title="",Tagesschau24 (720p)
@@ -11819,6 +11833,8 @@ https://catchup.yuppcdn.net/amazonv2/20/preview/tboclassic/master/master.m3u8
 http://tbs.hscdn.com/tbstvweb/tbstv/chunklist_w1331473189.m3u8
 #EXTINF:-1 tvg-id="TBS.kr" tvg-name="TBS" tvg-country="KR" tvg-language="Korean" tvg-logo="https://i.imgur.com/wqlTcbI.png" group-title="",TBS (720p)
 https://tbs.hscdn.com/tbstvweb/tbstv/playlist.m3u8
+#EXTINF:-1 tvg-id="TBS.jp" tvg-name="TBS" tvg-country="JP" tvg-language="Japanese" tvg-logo="" group-title="",TBS (540p) [Not 24/7]
+https://tbs.mov3.co/hls/tbs.m3u8
 #EXTINF:-1 tvg-id="TBSEast.us" tvg-name="TBS East" tvg-country="US" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/86/TBS_1987_logo.png" group-title="General",TBS East [Geo-blocked]
 https://tve-live-lln.warnermediacdn.com/hls/live/2023172/tbseast/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="TBSWest.us" tvg-name="TBS West" tvg-country="US" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/86/TBS_1987_logo.png" group-title="General",TBS West [Geo-blocked]
@@ -11927,6 +11943,8 @@ http://cdn.setar.aw:1935/Telearuba/smil:telearuba.smil/playlist.m3u8
 http://xapp510394368c1000199.f.l.z.lb.core-cdn.net/10096xtelebase/ios_500/master.m3u8
 #EXTINF:-1 tvg-id="Telebelluno.it" tvg-name="Telebelluno" tvg-country="IT" tvg-language="" tvg-logo="" group-title="",Telebelluno (400p)
 https://live.mariatvcdn.com/telebelluno/a3b80388da9801906adf885282e73bc3.sdp/mono.m3u8
+#EXTINF:-1 tvg-id="TeleBendicion.do" tvg-name="TeleBendicion" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/7v46dB1.png" group-title="",TeleBendicion (720p) [Not 24/7]
+http://ss8.domint.net:2124/tbt_str/telebendicion/playlist.m3u8
 #EXTINF:-1 tvg-id="TeleBielingue.ch" tvg-name="TeleBielingue" tvg-country="CH" tvg-language="German" tvg-logo="https://i.imgur.com/bPpWJj2.png" group-title="",TeleBielingue (720p)
 https://edge4.vedge.infomaniak.com/livecast/telebielinguech/manifest.m3u8
 #EXTINF:-1 tvg-id="TeleBoario.it" tvg-name="TeleBoario" tvg-country="IT" tvg-language="Italian" tvg-logo="" group-title="",TeleBoario (360p)
@@ -12115,8 +12133,6 @@ https://cloud.streamingconnect.tv:455/televen/televenweb.m3u8
 https://59d8c0cee6f3d.streamlock.net/televenezia/televenezia/playlist.m3u8
 #EXTINF:-1 tvg-id="TeleVideoAgrigento.it" tvg-name="TeleVideo Agrigento" tvg-country="IT" tvg-language="Italian" tvg-logo="https://i.imgur.com/crMQmn4.png" group-title="",TeleVideo Agrigento (480p)
 https://59d7d6f47d7fc.streamlock.net/tva/tva/playlist.m3u8
-#EXTINF:-1 tvg-id="TeleVigo.es" tvg-name="TeleVigo" tvg-country="ES" tvg-language="" tvg-logo="" group-title="",TeleVigo (720p)
-https://cloud.streamingconnect.tv:455/televigo/televigo.m3u8
 #EXTINF:-1 tvg-id="TelevisaNewsMexico.mx" tvg-name="Televisa News Mexico" tvg-country="MX" tvg-language="" tvg-logo="" group-title="News",Televisa News Mexico
 https://stnothds-lh.akamaihd.net/i/sslf0r0tvnus_1@109755/master.m3u8
 #EXTINF:-1 tvg-id="TelevisionCelestial.co" tvg-name="Television Celestial" tvg-country="CO" tvg-language="Spanish" tvg-logo="" group-title="",Television Celestial (720p)
@@ -12582,8 +12598,6 @@ https://www.livedoomovie.com/02_2sporthd4_720p/chunklist.m3u8
 #EXTINF:-1 tvg-id="TrueTennisHD.th" tvg-name="True Tennis HD" tvg-country="TH" tvg-language="Thai" tvg-logo="https://www.img09.xyz/assets/img/ch_logo/hd-tennis.png" group-title="Sports",True Tennis HD (720p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
 https://www.livedoomovie.com/02_TennisHD_720p/chunklist.m3u8
-#EXTINF:-1 tvg-id="Truly.uk" tvg-name="Truly" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/MWkm3no.png" group-title="",Truly (720p)
-https://barcroft-truly-1-gb.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="TruTVEast.us" tvg-name="TruTV East" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/e3KabTt.jpg" group-title="",TruTV East [Geo-blocked]
 https://tve-live-lln.warnermediacdn.com/hls/live/2023176/trueast/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="TruTVWest.us" tvg-name="TruTV West" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/e3KabTt.jpg" group-title="",TruTV West [Geo-blocked]
@@ -13004,8 +13018,6 @@ http://d2fxrfbiedz1tm.cloudfront.net/livepaxtv/smil:PC.smil/playlist.m3u8
 https://596639ebdd89b.streamlock.net/8124/8124/playlist.m3u8
 #EXTINF:-1 tvg-id="TVWAU.sk" tvg-name="TV WAU" tvg-country="SK" tvg-language="Slovak" tvg-logo="https://i.imgur.com/nRDWpNs.jpg" group-title="",TV WAU (540p) [Not 24/7]
 https://nn.geo.joj.sk/hls/wau-540.m3u8
-#EXTINF:-1 tvg-id="TVZimbo.ao" tvg-name="TV Zimbo" tvg-country="AO" tvg-language="Portuguese" tvg-logo="" group-title="",TV Zimbo (720p)
-https://iptv-all.lanesh4d0w.codes/angola/tv-zimbo
 #EXTINF:-1 tvg-id="TVGuberniya.ru" tvg-name="TV Губерния" tvg-country="RU" tvg-language="Russian" tvg-logo="" group-title="Local",TV Губерния (Воронеж) (720p)
 https://tvgubernia-htlive.cdn.ngenix.net/live/mp4:tv-gubernia-live/playlist.m3u8
 #EXTINF:-1 tvg-id="TV1.my" tvg-name="TV1" tvg-country="MY" tvg-language="Malay (macrolanguage)" tvg-logo="https://myklikstatic.secureswiftcontent.com/image/Logo-TV1-May21-JPG.jpg" group-title="",TV1 (720p)
@@ -13267,6 +13279,8 @@ https://d2ce82tpc3p734.cloudfront.net/v1/master/b1f4432f8f95be9e629d97baabfed15b
 https://duoak7vltfob0.cloudfront.net/v1/master/b1f4432f8f95be9e629d97baabfed15b8cacd1f8/TVNZ_2/master.m3u8
 #EXTINF:-1 tvg-id="TVNZDuke.nz" tvg-name="TVNZ Duke" tvg-country="NZ" tvg-language="English" tvg-logo="https://i.imgur.com/EVvp5nh.png" group-title="General",TVNZ Duke [Geo-blocked]
 https://dayqb844napyo.cloudfront.net/v1/master/b1f4432f8f95be9e629d97baabfed15b8cacd1f8/TVNZ_Duke/master.m3u8
+#EXTINF:-1 tvg-id="TVO.ca" tvg-name="TV Ontario CA" tvg-country="CA" tvg-language="English" tvg-logo="https://i.imgur.com/hpONhUM.png" group-title="Kids",TVO (720p) [Not 24/7]
+https://bozztv.com/teleyupp1/teleup-OMZsmYVUMp/playlist.m3u8
 #EXTINF:-1 tvg-id="TVO.be" tvg-name="TVO" tvg-country="BE" tvg-language="" tvg-logo="" group-title="",TVO (576p)
 https://media.mediahuisvideo.be/hls/account=tqIhfOEY3U0A/item=oIFtpshSvwcy/oIFtpshSvwcy.m3u8
 #EXTINF:-1 tvg-id="TVO.de" tvg-name="TVO" tvg-country="DE" tvg-language="German" tvg-logo="" group-title="",TVO (1080p) [Not 24/7]
@@ -13715,6 +13729,10 @@ https://d39v9xz8f7n8tk.cloudfront.net/hls/clr4ctv_vsnthm/master.m3u8
 http://95.216.167.183:5080/LiveApp/streams/443106610169904881506470.m3u8
 #EXTINF:-1 tvg-id="VatiLaoTV.vn" tvg-name="Vati Lao TV" tvg-country="VN" tvg-language="Vietnamese" tvg-logo="" group-title="",Vati Lao TV (720p)
 https://livefta.malimarcdn.com/ftaedge00/vatilaotv.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="VBS.ca" tvg-name="VBS" tvg-country="CA" tvg-language="Vietnamese" tvg-logo="https://i.imgur.com/IWpevBp.jpg" group-title="",VBS (480p) [Not 24/7]
+https://uni6rtmp.tulix.tv/vbstv/vbsabr.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="VBS.us" tvg-name="VBS Television Vietnamese TV (VBS)" tvg-country="US" tvg-language="Vietnamese" tvg-logo="https://i.imgur.com/IWpevBp.jpg" group-title="",VBS Television Vietnamese TV (VBS) (480p) [Not 24/7]
+http://uni6rtmp.tulix.tv:1935/vbstv/vbsabr.smil/chunklist_w530158239_b1228800.m3u8
 #EXTINF:-1 tvg-id="VCOnline.cl" tvg-name="VC Online" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://i.imgur.com/897eGEd.png" group-title="",VC Online (546p)
 https://593b04c4c5670.streamlock.net/8068/8068/playlist.m3u8
 #EXTINF:-1 tvg-id="VCTV.cz" tvg-name="VCTV" tvg-country="CZ" tvg-language="" tvg-logo="" group-title="",VCTV (576p)
@@ -13727,8 +13745,6 @@ http://ms2.mx-cd.net/tv/81-334271/VechtdalTV.smil/chunklist_b1894400_slNLD.m3u8
 https://ss6.domint.net:3012/tes_str/teleelsalvador/playlist.m3u8
 #EXTINF:-1 tvg-id="Velicham.in" tvg-name="Velicham" tvg-country="IN" tvg-language="Tamil" tvg-logo="https://i.imgur.com/YeR3mm9.png" group-title="Entertainment",Velicham (360p) [Not 24/7]
 https://rtmp.smartstream.video/velichamtv/velichamtv/playlist.m3u8
-#EXTINF:-1 tvg-id="VenezolanadeTelevision.ve" tvg-name="Venezolana de Televisión" tvg-country="VE" tvg-language="" tvg-logo="" group-title="",Venezolana de Televisión
-http://177.52.221.214:8000/play/a0cj/index.m3u8
 #EXTINF:-1 tvg-id="VENN.us" tvg-name="VENN" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/zVoX1fM.jpg" group-title="Entertainment",VENN (1080p)
 https://d80z5qf1qyhbf.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-country="" tvg-language="" tvg-logo="" group-title="",VENN
@@ -14035,7 +14051,7 @@ https://frontdoor.wcat-tv.org:8686/live/live.m3u8
 #EXTINF:-1 tvg-id="WCAT3.us" tvg-name="Winthrop Community Access TV (WCAT 3)" tvg-country="US" tvg-language="English" tvg-logo="https://frontdoor.wcat-tv.org/Cablecast/WebFiles/7385/wcatlogo.png" group-title="Local",Winthrop Community Access TV (WCAT 3) (480p)
 https://frontdoor.wcat-tv.org:8787/live/live.m3u8
 #EXTINF:-1 tvg-id="WipeoutXtra.us" tvg-name="Wipeout Xtra" tvg-country="US" tvg-language="English" tvg-logo="https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/WipeoutXtra_190x190.png?raw=true" group-title="Series",Wipeout Xtra (1080p)
-https://endemol-wipeoutxtra-1.plex.wurl.com/manifest/playlist.m3u8
+https://endemol-wipeoutxtra-1.roku.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="WipeoutXtra.us" tvg-name="Wipeout Xtra" tvg-country="US" tvg-language="English" tvg-logo="https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/WipeoutXtra_190x190.png?raw=true" group-title="Series",Wipeout Xtra (720p)
 https://endemol-wipeoutxtra-1.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="Wired.us" tvg-name="Wired" tvg-country="US" tvg-language="English" tvg-logo="https://od.lk/s/MF8yMzE5OTIyMjBf/Redbox_512x512.png" group-title="",Wired (720p)
@@ -15070,8 +15086,6 @@ https://sc.id-tv.kz/TuranTV.m3u8
 https://hls-myudm.cdnvideo.ru/myudm-live/myudm.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="Uzhastik.ru" tvg-name="Ужастик" tvg-country="INT" tvg-language="Russian" tvg-logo="" group-title="",Ужастик (304p)
 https://v2.catcast.tv/content/38896/index.m3u8
-#EXTINF:-1 tvg-id="UchalyTV.ru" tvg-name="Учалы ТВ" tvg-country="RU" tvg-language="" tvg-logo="" group-title="",Учалы ТВ (576p)
-http://live-uchalytv.cdnvideo.ru/uchalytv/uchalytv.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="FantastikaSciFi.ru" tvg-name="Фантастика Sci-Fi" tvg-country="INT" tvg-language="Russian" tvg-logo="" group-title="",Фантастика Sci-Fi (320p)
 https://v2.catcast.tv/content/38801/index.m3u8
 #EXTINF:-1 tvg-id="Futbol.ru" tvg-name="Футбол" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/g24DSFV.png" group-title="",Футбол (480p)
@@ -16183,6 +16197,8 @@ http://stream2.jlntv.cn/baishan1/sd/live.m3u8
 http://149.129.100.78/anhui.php?id=85
 #EXTINF:-1 tvg-id="JingCaiKaiFengPinDao.cn" tvg-name="睛彩开封频道" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",睛彩开封频道
 http://117.158.206.60:9080/kaifeng/kftv4.m3u8
+#EXTINF:-1 tvg-id="ShiJingShanDianShiTai.cn" tvg-name="石景山电视台" tvg-country="CN" tvg-language="" tvg-logo="" group-title="",石景山电视台 (1080p) [Not 24/7]
+http://live.sjsrm.com/bjsjs/sd/live.m3u8
 #EXTINF:-1 tvg-id="FuZhouShaoEr.cn" tvg-name="福州少儿" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="Kids",福州少儿 (1080p)
 http://live.zohi.tv/video/s10001-sepd-4/index.m3u8
 #EXTINF:-1 tvg-id="FuZhouYingShi.cn" tvg-name="福州影视" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",福州影视 (1080p)
