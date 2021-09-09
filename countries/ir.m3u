@@ -31,6 +31,8 @@ http://51.210.199.5/hls/stream.m3u8
 http://51.210.199.4/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AvangTV.us" tvg-country="IR" tvg-language="Persian" tvg-logo="https://www.lyngsat.com/logo/tv/aa/avang-tv-us.png" group-title="Music",Avang TV (1080p)
 http://appavang.flashmediacast.com:1935/Appavang/livestream/palylist.m3u8
+#EXTINF:-1 tvg-id="AXNEastAsia.us" tvg-country="ASIA" tvg-language="English" tvg-logo="https://www.img09.xyz/assets/img/ch_logo/hd-axn.png" group-title="Movies",AXN East Asia (1080p)
+https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/AXN-HD-1080p/playlist.m3u8
 #EXTINF:-1 tvg-id="AyenehTV.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="https://www.ayeneh.org/wp-content/uploads/2016/04/Ayeneh-TV-April-16-400x223.png" group-title="",Ayeneh TV (720p)
 https://livestream.5centscdn.com/cls040318/b0d2763968fd0bdd2dc0d44ba2abf9ce.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="AzarbayjanGharbi.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="",Azarbayjan Gharbi (576p)
@@ -53,7 +55,7 @@ https://www.bloomberg.com/media-manifest/streams/eu-event.m3u8
 https://sdm.telewebion.com/live/bushehr/playlist.m3u8
 #EXTINF:-1 tvg-id="CaltexTV.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Music",Caltex TV (720p)
 https://vid1.caltexmusic.com/hls/caltextv.m3u8
-#EXTINF:-1 tvg-id="CartoonNetwork.us" tvg-country="MENA" tvg-language="Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Cartoon_Network_Arabic_logo.png/693px-Cartoon_Network_Arabic_logo.png" group-title="Kids",Cartoon Network Arabic (1080p)
+#EXTINF:-1 tvg-id="CartoonNetworkArabic.us" tvg-country="MENA" tvg-language="Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Cartoon_Network_Arabic_logo.png/693px-Cartoon_Network_Arabic_logo.png" group-title="Kids",Cartoon Network Arabic (1080p)
 https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index.m3u8
 #EXTINF:-1 tvg-id="Channel1.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Legislative",Channel 1 (480p)
 https://2nbyjjx7y53k-hls-live.5centscdn.com/cls040317/0070c5b7ef083bdc8de09065c61a34d8.sdp/playlist.m3u8
@@ -77,6 +79,11 @@ http://cdn1.live.irib.ir:1935/epg-live/smil:fars/playlist.m3u8
 https://sdm.telewebion.com/live/fars/playlist.m3u8
 #EXTINF:-1 tvg-id="Film1.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Movies",Film 1 (720p)
 http://159.69.58.154/film1/film1tv.m3u8
+#EXTINF:-1 tvg-id="FoxMoviesAsia.us" tvg-country="ASIA" tvg-language="Thai" tvg-logo="https://i.imgur.com/vs51MBW.png" group-title="Movies",Fox Movies Asia (Thai) (720p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
+https://www.livedoomovie.com/02_FoxMoviesHD_720p/chunklist.m3u8
+#EXTINF:-1 tvg-id="FoxMoviesAsia.us" tvg-country="ASIA" tvg-language="Vietnamese" tvg-logo="https://i.imgur.com/vs51MBW.png" group-title="Movies",Fox Movies Asia (Vietnamese) (1080p)
+http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOXMOVIES-HD-1080p/playlist.m3u8
 #EXTINF:-1 tvg-id="GEM24b.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="https://www.gemonline.tv/Assets/channels-box/24b.png" group-title="Music",GEM 24b (1080p) [Geo-blocked]
 #EXTVLCOPT:http-referrer=https://www.gemonline.tv/en-US/Live/Index?channelname=24b
 https://d2e40kvaojifd6.cloudfront.net/stream/24b/playlist.m3u8
@@ -212,6 +219,8 @@ https://sdm.telewebion.com/live/mostanad/playlist.m3u8
 https://sdm.telewebion.com/live/namayesh/playlist.m3u8
 #EXTINF:-1 tvg-id="NASIM.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="",NASIM (720p)
 https://sdm.telewebion.com/live/nasim/playlist.m3u8
+#EXTINF:-1 tvg-id="NationalGeographicWildAsia.us" tvg-country="ASIA" tvg-language="" tvg-logo="https://static.epg.best/id/NatGeoWild.id.png" group-title="Documentary",National Geographic Wild Asia (720p)
+http://50.7.161.82:8278/streams/d/Natgeowild/playlist.m3u8
 #EXTINF:-1 tvg-id="NAVAHANG.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Music",NAVAHANG (720p)
 http://51.210.227.130/hls/stream.m3u8
 #EXTINF:-1 tvg-id="NegahTV.us" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Entertainment",Negah TV (720p) [Not 24/7]
