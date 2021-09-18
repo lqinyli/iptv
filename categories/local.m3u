@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/cosmote.gr.guide.xml,https://iptv-org.github.io/epg/guides/mi.tv.guide.xml,https://iptv-org.github.io/epg/guides/programacion-tv.elpais.com.guide.xml,https://iptv-org.github.io/epg/guides/tv.yandex.ru.guide.xml,https://iptv-org.github.io/epg/guides/tvtv.us.guide.xml"
+#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/cosmote.gr.guide.xml,https://iptv-org.github.io/epg/guides/mi.tv.guide.xml,https://iptv-org.github.io/epg/guides/programacion-tv.elpais.com.guide.xml,https://iptv-org.github.io/epg/guides/tv.yandex.ru.guide.xml,https://iptv-org.github.io/epg/guides/tvtv.ca.guide.xml,https://iptv-org.github.io/epg/guides/tvtv.us.guide.xml"
 #EXTINF:-1 tvg-id="KBMT.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/boVFg14.jpg" group-title="Local",12 News Beaumont TX (KBMT) (1080p)
 https://livevideo01.12newsnow.com/hls/live/2017379/newscasts/live.m3u8
 #EXTINF:-1 tvg-id="KEROTV.us" tvg-country="US" tvg-language="English" tvg-logo="https://scripps.com/wp-content/uploads/2019/01/local_media_23_abc.png" group-title="Local",23 ABC Bakersfield CA (KERO) (720p)
@@ -172,8 +172,6 @@ http://131.221.42.25:1935/streaming/canal2/playlist.m3u8
 https://canalmalaga-tv-live.flumotion.com/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalProvincial.ar" tvg-country="AR" tvg-language="Spanish" tvg-logo="" group-title="Local",Canal Provincial (San Miguel) (360p)
 http://www.trimi.com.ar/provincial/streaming/mystream.m3u8
-#EXTINF:-1 tvg-id="CanalZoom.be" tvg-country="BE" tvg-language="French" tvg-logo="https://i.imgur.com/uoSMNnr.png" group-title="Local",Canal Zoom (720p)
-http://streamer.canalc.be:1935/canalzoom/smil:SMIL-canalzoom-multi/playlist.m3u8
 #EXTINF:-1 tvg-id="Capital21.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/P1pHy3j.jpg" group-title="Local",Capital 21 [Not 24/7]
 https://video.cdmx.gob.mx/livestream/stream.m3u8
 #EXTINF:-1 tvg-id="CBCCalgary.ca" tvg-country="CA" tvg-language="English" tvg-logo="https://i.imgur.com/thAavMy.png" group-title="Local",CBC Calgary [Geo-blocked]
@@ -364,7 +362,7 @@ https://stream.swagit.com/live-edge/houstontx/smil:hd-16x9-2-a/playlist.m3u8
 https://stream.swagit.com/live-edge/houstontx/smil:hd-16x9-2-b/playlist.m3u8
 #EXTINF:-1 tvg-id="HuachoPerúTV.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/huachotvperu/picture?width=320&height=320" group-title="Local",Huacho Perú TV [Not 24/7]
 https://tv.siete.us/hchoperutv/hchoperutv/index.m3u8
-#EXTINF:-1 tvg-id="ImagenMulticast.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/KDZ50eC.jpg" group-title="Local",Imagen Multicast
+#EXTINF:-1 tvg-id="ImagenMulticast.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/KDZ50eC.jpg" group-title="Local",Imagen Multicast (480p)
 https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtube.com/channel/UClqo4ZAAZ01HQdCTlovCgkA/live
 #EXTINF:-1 tvg-id="XHCTTITDT.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://yt3.ggpht.com/ytc/AAUvwngCFclkx8_OjeImr3mO1BvDLtxIUkDcDL037PCAgw" group-title="Local",Imagen Multicast (XHCTTI-TDT) (432p) [Not 24/7]
 https://cdn87.theus6tv.tk/locals/SanDiego/xhctti-tdt2.m3u8
@@ -800,46 +798,6 @@ https://qlobbidev.s.llnwi.net/telesur3/hls/mollendo.m3u8
 https://qlobbidev.s.llnwi.net/telesur3/hls/moquegua.m3u8
 #EXTINF:-1 tvg-id="TelesurTacna.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/telesurexpresion/picture?width=320&height=320" group-title="Local",Telesur (Tacna) [Not 24/7]
 https://qlobbidev.s.llnwi.net/telesur3/hls/tacna.m3u8
-#EXTINF:-1 tvg-id="TelevisaAguascalientes.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/iVF17fh.png" group-title="Local",Televisa Aguascalientes
-https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtube.com/channel/UC5ZtV3bu3bjSuOLoA6oCFIg/live
-#EXTINF:-1 tvg-id="TelevisaCiudadJuarez.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/4vEFJxf.png" group-title="Local",Televisa Ciudad Juarez
-https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtube.com/channel/UCot4t8PVKz8TT5xVM8Eb00w/live
-#EXTINF:-1 tvg-id="TelevisaDelBajio" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/LkeCdc5.png" group-title="Local",Televisa Del Bajio
-https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtube.com/channel/UC-uYy4_jIvDoJ4wigEv1S5A/live
-#EXTINF:-1 tvg-id="TelevisaDelGolfo.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/35fsRTS.jpg" group-title="Local",Televisa Del Golfo
-https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtube.com/channel/UCQ08tNTPiBn44c975S81ftg/live
-#EXTINF:-1 tvg-id="TelevisaEstado.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/gyZCypH.png" group-title="Local",Televisa Estado
-https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtube.com/channel/UC9DH82HVSf4katwMeUpY80w
-#EXTINF:-1 tvg-id="TelevisaGuadalajara.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/Vp4B0BM.jpg" group-title="Local",Televisa Guadalajara
-https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtube.com/channel/UCRujF_YxVVFmTRWURQH-Cww/live
-#EXTINF:-1 tvg-id="TelevisaGuerrero.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/lOAnjFs.png" group-title="Local",Televisa Guerrero (480p)
-https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtube.com/channel/UCnxTRk2K1iNsQkgpWXxyj4w/live
-#EXTINF:-1 tvg-id="TelevisaLaguna.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/L4GDHQm.png" group-title="Local",Televisa Laguna
-https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtube.com/channel/UC_mwCcsKDJLSWjply5s0h8w/live
-#EXTINF:-1 tvg-id="TelevisaMexicali.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/NIEWc2s.jpg" group-title="Local",Televisa Mexicali
-https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtube.com/channel/UCcmuFsMIIIHO3LBqeBVfm8Q/live
-#EXTINF:-1 tvg-id="TelevisaMonterrey.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/ierlYM1.jpg" group-title="Local",Televisa Monterrey
-https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtube.com/channel/UCGDJLLphnP0zQQaE3kgo5Wg/live
-#EXTINF:-1 tvg-id="TelevisaMorelos.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/QiJoBVs.png" group-title="Local",Televisa Morelos
-https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtube.com/channel/UCcC9ykApQrgl4UxbKg2U4zw/live
-#EXTINF:-1 tvg-id="TelevisaNoreste.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/rHCKwYB.jpg" group-title="Local",Televisa Noreste (720p)
-https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtube.com/channel/UC752DYv5vPlTSMrvEjfZXcw/live
-#EXTINF:-1 tvg-id="TelevisaPiedrasNegras.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/fEtvxpz.jpg" group-title="Local",Televisa Piedras Negras
-https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtube.com/channel/UCxK8C1E8UZ5RipNXIBYEvTA/live
-#EXTINF:-1 tvg-id="TelevisaPuebla.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/2dqF5S8.jpg" group-title="Local",Televisa Puebla
-https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtube.com/channel/UC-HNztluSQSffhIWJTL-LUw/live
-#EXTINF:-1 tvg-id="TelevisaQueretaro.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/47c1AIS.png" group-title="Local",Televisa Queretaro
-https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtube.com/channel/UC9QNz6VS3gGz55dzxAQtgtA/live
-#EXTINF:-1 tvg-id="TelevisaSanLuisPotosí.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/oxt91dr.jpg" group-title="Local",Televisa San Luis Potosí (720p)
-https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtube.com/channel/UCaRuyaHshLdq462E9_pLzdA/live
-#EXTINF:-1 tvg-id="TelevisaSinaloa.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/nZ9HE94.png" group-title="Local",Televisa Sinaloa
-https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtube.com/channel/UCtm1LvYEIQ_NrfOUVJ08YhQ/live
-#EXTINF:-1 tvg-id="TelevisaSonora.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/3FjHKAC.jpg" group-title="Local",Televisa Sonora
-https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtube.com/channel/UCyzWMHGS7bs0sot6KZk5EZg/live
-#EXTINF:-1 tvg-id="TelevisaVeracruz.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/4hPbfbg.png" group-title="Local",Televisa Veracruz
-https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtube.com/channel/UC5EnLdE7ASjYzWt7wvT-QSg/live
-#EXTINF:-1 tvg-id="TelevisaZacatecas.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/vsbl0u6.png" group-title="Local",Televisa Zacatecas (720p)
-https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtube.com/channel/UCQb3i7gu9J8A4zzQU7j6C1Q/live
 #EXTINF:-1 tvg-id="TelevisionAranda.es" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://i.imgur.com/FwIIdKG.png" group-title="Local",Televisión Aranda (720p)
 https://cdn01.yowi.tv/BBBBBBBBBB/master.m3u8
 #EXTINF:-1 tvg-id="TelevisionTarapoto.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/televisiontarapoto/picture?width=320&height=320" group-title="Local",Televisión Tarapoto (720p)
