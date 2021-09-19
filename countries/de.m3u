@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/cosmote.gr.guide.xml,https://iptv-org.github.io/epg/guides/hd-plus.de.guide.xml,https://iptv-org.github.io/epg/guides/m.tv.sms.cz.guide.xml,https://iptv-org.github.io/epg/guides/tvtv.ca.guide.xml"
+#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/cosmote.gr.guide.xml,https://iptv-org.github.io/epg/guides/hd-plus.de.guide.xml"
 #EXTINF:-1 tvg-id="123TV.de" tvg-country="DE" tvg-language="" tvg-logo="" group-title="",1-2-3 TV (480p)
 http://123tv-mx1.flex-cdn.net/index.m3u8
 #EXTINF:-1 tvg-id="3sat.de" tvg-country="DE" tvg-language="German" tvg-logo="" group-title="",3sat [Geo-blocked]
@@ -88,10 +88,6 @@ https://dresden.iptv-playoutcenter.de/dresden/dresdenfernsehen.stream_1/playlist
 #EXTINF:-1 tvg-id="DW.de" tvg-country="DE;AT;BE;LI;LU;CH" tvg-language="German" tvg-logo="" group-title="News",DW (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s26/index.m3u8
-#EXTINF:-1 tvg-id="DWDeutsch.de" tvg-country="DE" tvg-language="German" tvg-logo="" group-title="News",DW Deutsch (1080p)
-https://dwamdstream106.akamaized.net/hls/live/2017965/dwstream106/index.m3u8
-#EXTINF:-1 tvg-id="DWDeutschPlus.de" tvg-country="DE" tvg-language="German" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/deutschewelle.png" group-title="News",DW Deutsch+ (1080p)
-https://dwamdstream105.akamaized.net/hls/live/2015531/dwstream105/index.m3u8
 #EXTINF:-1 tvg-id="Elbekanal.de" tvg-country="DE" tvg-language="" tvg-logo="" group-title="",Elbekanal (576p)
 http://58bd5b7a98e04.streamlock.net/medienasa-live/elbe_high/playlist.m3u8
 #EXTINF:-1 tvg-id="Elbekanal.de" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/IKslrJu.png" group-title="",Elbekanal (576p)
@@ -176,8 +172,6 @@ https://s.ok54.de/nahetv/webstream/playlist.m3u8
 https://ndrevent-lh.akamaihd.net/i/ndrevent_1@409066/master.m3u8
 #EXTINF:-1 tvg-id="NDREvent2.de" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/BuirhUR.png" group-title="",NDR Event 2 (720p)
 https://ndrevent-lh.akamaihd.net/i/ndrevent_2@429805/master.m3u8
-#EXTINF:-1 tvg-id="NDREvent3.de" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/BuirhUR.png" group-title="",NDR Event 3 (720p)
-https://ndrevent-lh.akamaihd.net/i/ndrevent_3@409068/master.m3u8
 #EXTINF:-1 tvg-id="NDRFernsehen.de" tvg-country="DE" tvg-language="German" tvg-logo="https://www.ndr.de/fernsehen/livestreamteaserbild110_v-contentxl.jpg" group-title="",NDR Fernsehen (720p) [Geo-blocked]
 https://ndrfs-lh.akamaihd.net/i/ndrfs_fs@430230/master.m3u8
 #EXTINF:-1 tvg-id="NDRHamburg.de" tvg-country="DE" tvg-language="German" tvg-logo="https://www.ndr.de/fernsehen/livestreamteaserbild100_v-contentxl.jpg" group-title="",NDR Hamburg (720p)

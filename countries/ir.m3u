@@ -15,8 +15,6 @@ https://sdm.telewebion.com/live/aflak/playlist.m3u8
 https://bozztv.com/1gbw5/tintv2/tintv2/playlist.m3u8
 #EXTINF:-1 tvg-id="AFTAB.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="",AFTAB (576p)
 https://sdm.telewebion.com/live/aftab/playlist.m3u8
-#EXTINF:-1 tvg-id="AlAlam.ir" tvg-country="IR" tvg-language="Arabic" tvg-logo="https://i.imgur.com/jY1u1zz.png" group-title="News",Al Alam (576p)
-https://live2.alalam.ir/alalam.m3u8
 #EXTINF:-1 tvg-id="AlKawtharTV.ir" tvg-country="IR" tvg-language="" tvg-logo="" group-title="",Al Kawthar TV (360p) [Not 24/7]
 http://178.252.143.156:1935/live/myStream/chunklist_w907760503.m3u8
 #EXTINF:-1 tvg-id="AlZahraTV.ir" tvg-country="IR" tvg-language="Arabic" tvg-logo="https://i.imgur.com/ffFbUmd.jpg" group-title="",Al Zahra TV (720p)
@@ -29,6 +27,8 @@ https://sdm.telewebion.com/live/amouzesh/playlist.m3u8
 http://51.210.199.5/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AVASeries.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Series",AVA Series (720p)
 http://51.210.199.4/hls/stream.m3u8
+#EXTINF:-1 tvg-id="AvangTV.us" tvg-country="IR" tvg-language="Persian" tvg-logo="https://www.lyngsat.com/logo/tv/aa/avang-tv-us.png" group-title="Music",Avang TV (1080p) [Not 24/7]
+http://appavang.flashmediacast.com:1935/Appavang/livestream/palylist.m3u8
 #EXTINF:-1 tvg-id="AXNEastAsia.us" tvg-country="ASIA" tvg-language="English" tvg-logo="https://www.img09.xyz/assets/img/ch_logo/hd-axn.png" group-title="Movies",AXN East Asia (1080p)
 https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/AXN-HD-1080p/playlist.m3u8
 #EXTINF:-1 tvg-id="AyenehTV.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="https://www.ayeneh.org/wp-content/uploads/2016/04/Ayeneh-TV-April-16-400x223.png" group-title="",Ayeneh TV (720p)
@@ -86,20 +86,12 @@ http://159.69.58.154/film1/film1tv.m3u8
 #EXTINF:-1 tvg-id="FoxMoviesAsia.us" tvg-country="ASIA" tvg-language="Thai" tvg-logo="https://i.imgur.com/vs51MBW.png" group-title="Movies",Fox Movies Asia (Thai) (720p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
 https://www.livedoomovie.com/02_FoxMoviesHD_720p/chunklist.m3u8
-#EXTINF:-1 tvg-id="FoxMoviesAsia.us" tvg-country="ASIA" tvg-language="Vietnamese" tvg-logo="https://i.imgur.com/vs51MBW.png" group-title="Movies",Fox Movies Asia (Vietnamese) (1080p)
-http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOXMOVIES-HD-1080p/playlist.m3u8
 #EXTINF:-1 tvg-id="GEM24b.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="https://www.gemonline.tv/Assets/channels-box/24b.png" group-title="Music",GEM 24b (1080p) [Geo-blocked]
 #EXTVLCOPT:http-referrer=https://www.gemonline.tv/en-US/Live/Index?channelname=24b
 https://d2e40kvaojifd6.cloudfront.net/stream/24b/playlist.m3u8
 #EXTINF:-1 tvg-id="GEMAcademy.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="https://www.gemonline.tv/Assets/channels-box/gemusa.png" group-title="Movies",GEM Academy (540p) [Geo-blocked]
 #EXTVLCOPT:http-referrer=https://www.gemonline.tv/en-US/Live/Index?channelname=gemusa
 https://d2e40kvaojifd6.cloudfront.net/stream/gem_usa/playlist.m3u8
-#EXTINF:-1 tvg-id="GEMArabia.ir" tvg-country="IR" tvg-language="Arabic" tvg-logo="https://www.gemonline.tv/Assets/channels-box/gem_arabia.png" group-title="Music",GEM Arabia (576p)
-http://216.66.42.47:7777/GemArabia_HD.m3u8
-#EXTINF:-1 tvg-id="GEMAZ.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="https://www.gemonline.tv/Assets/channels-box/gem_az.png" group-title="Music",GEM AZ (576p)
-http://216.66.42.47:7777/GemAZ_HD.m3u8
-#EXTINF:-1 tvg-id="GEMComedy.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="https://www.gemonline.tv/Assets/channels-box/gem_comedy.png" group-title="Movies",GEM Comedy (576p)
-http://216.66.42.47:7777/GemComedy_HD.m3u8
 #EXTINF:-1 tvg-id="GEMLatino.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="https://www.gemonline.net/Assets/channels-box/gem_latino.png?14" group-title="Music",GEM Latino (540p) [Geo-blocked]
 #EXTVLCOPT:http-referrer=https://www.gemonline.tv/en-US/Live/Index?channelname=gem_latino
 https://d2e40kvaojifd6.cloudfront.net/stream/gem_latino/playlist.m3u8
@@ -227,6 +219,8 @@ http://51.210.227.130/hls/stream.m3u8
 https://iptv.negahtv.com/negahtv/playlist2/index.m3u8
 #EXTINF:-1 tvg-id="Noor.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="",Noor (576p)
 https://sdm.telewebion.com/live/noor/playlist.m3u8
+#EXTINF:-1 tvg-id="Nour.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Religious",Nour (720p) [Not 24/7]
+https://cdn.videoevent.live:19360/elfaro4/elfaro4.m3u8
 #EXTINF:-1 tvg-id="OMID.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="",OMID (576p)
 https://sdm.telewebion.com/live/omid/playlist.m3u8
 #EXTINF:-1 tvg-id="OmideIran.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Entertainment",Omide Iran (720p) [Not 24/7]
