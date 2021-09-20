@@ -198,8 +198,6 @@ https://d3kr0d4mfjxpbv.cloudfront.net/p/SPAS.m3u8
 https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtube.com/channel/UCBgM-sKkB4ySrdiCsk0ikUA/live
 #EXTINF:-1 tvg-id="FonteTV.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/4lnSlOZ.png" group-title="Religious",Fonte TV (1080p) [Not 24/7]
 http://flash.softhost.com.br:1935/fonte/fontetv/live.m3u8
-#EXTINF:-1 tvg-id="GenesisTV.us" tvg-country="US" tvg-language="Spanish" tvg-logo="https://i2.wp.com/alfamedianetwork.com/wp-content/uploads/2018/08/genesistelevisionlogo.png" group-title="Religious",Genesis TV (720p)
-http://201.144.184.98:1935/genesis/smil:television.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="GodTVUK.uk" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="Religious",God TV UK (720p)
 https://zypelive-lh.akamaihd.net/i/default_1@745545/master.m3u8
 #EXTINF:-1 tvg-id="GodTV.uk" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/ZMYRG9h.jpg" group-title="Religious",God TV US (720p)
@@ -298,8 +296,8 @@ http://cdn12.henico.net:8080/live/gsctv/index.m3u8
 https://stream5.shidur.net/htvlive2/_definst_/smil:live2.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="HillsongChannel.us" tvg-country="US" tvg-language="English" tvg-logo="https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/TBN_Hillsong_360x360.png?raw=true" group-title="Religious",Hillsong Channel (1080p)
 https://api.new.livestream.com/accounts/27460990/events/8266909/live.m3u8
-#EXTINF:-1 tvg-id="HimlenTV7.se" tvg-country="SE" tvg-language="Swedish" tvg-logo="https://i.imgur.com/pW6pPFF.jpg" group-title="Religious",Himlen TV7 (360p)
-http://vod.tv7.fi:1935/tv7-se/_definst_/mp4:tv7-se.stream_360p/playlist.m3u8
+#EXTINF:-1 tvg-id="HimlenTV7.fi" tvg-country="SE" tvg-language="English;Swedish" tvg-logo="https://i.imgur.com/pW6pPFF.jpg" group-title="Religious",Himlen TV7 (720p)
+https://vod.tv7.fi/tv7-se/tv7-se.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="HollyWire.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/vcrDETL.png" group-title="Religious",Holly Wire (720p)
 https://hollywire.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="HopeChannelInternational.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/pLeCUEV.png" group-title="Religious",Hope Channel International (1080p)
@@ -318,8 +316,6 @@ http://138.68.138.119:8080/low/5a8993709ea19/index.m3u8
 http://51.210.199.7/hls/stream.m3u8
 #EXTINF:-1 tvg-id="IglesiaDelCamino.gt" tvg-country="GT" tvg-language="Spanish" tvg-logo="http://www.iglesiadelcamino.org/images/logo.png" group-title="Religious",Iglesia Del Camino (480p)
 http://streamingcontrol.com:1935/ectv/ectv/chunklist_w615405992.m3u8
-#EXTINF:-1 tvg-id="IIPCTV.ca" tvg-country="CA" tvg-language="English" tvg-logo="https://i.imgur.com/G7hGk8y.png" group-title="Religious",IIPC TV (480p)
-https://uni10rtmp.tulix.tv/iipctv/iipctv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ImamHusseinTV.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="https://i.imgur.com/FPfq4O5.png" group-title="Religious",Imam Hussein TV (720p)
 https://fa.imamhusseintv.com/live/ih1.m3u8
 #EXTINF:-1 tvg-id="ImamHusseinTV.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="https://i.imgur.com/FPfq4O5.png" group-title="Religious",Imam Hussein TV 1 (360p)
@@ -426,6 +422,16 @@ https://stream.live.novotempo.com/tv/smil:tvnuevotiempo.smil/playlist.m3u8
 https://d2fxrfbiedz1tm.cloudfront.net/livepaxtv/smil:PC.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="PayvandTV.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="http://nebula.wsimg.com/e903234fabf798439adab0207277eb7b?AccessKeyId=2686ECEA8341253D570E&disposition=0&alloworigin=1" group-title="Religious",Payvand TV (720p)
 https://uni6rtmp.tulix.tv/ucur1/Payvand/playlist.m3u8
+#EXTINF:-1 tvg-id="PeaceTVAlbanian.ae" tvg-country="AL" tvg-language="Albanian" tvg-logo="https://github.com/fawazahmed0/tiger/raw/master/peace/albanian.jpg" group-title="Religious",Peace TV Albanian (360p)
+http://82.114.67.178:8081/hls/PeaceTV.m3u8
+#EXTINF:-1 tvg-id="PeaceTVBangla.ae" tvg-country="BD;IN" tvg-language="Bengali" tvg-logo="https://github.com/fawazahmed0/tiger/raw/master/peace/bangla.jpg" group-title="Religious",Peace TV Bangla (1080p)
+http://199.223.252.162:8032/bangla_adaptive/index.m3u8
+#EXTINF:-1 tvg-id="PeaceTVChinese.ae" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://github.com/fawazahmed0/tiger/raw/master/peace/chinese.jpg" group-title="Religious",Peace TV Chinese (1080p)
+http://199.223.252.162:8032/chinese_adaptive/index.m3u8
+#EXTINF:-1 tvg-id="PeaceTVEnglish.ae" tvg-country="INT" tvg-language="English" tvg-logo="https://github.com/fawazahmed0/tiger/raw/master/peace/english.jpg" group-title="Religious",Peace TV English (1080p)
+http://199.223.252.162:8032/english_adaptive/index.m3u8
+#EXTINF:-1 tvg-id="PeaceTVUrdu.ae" tvg-country="PK;IN" tvg-language="Urdu" tvg-logo="https://github.com/fawazahmed0/tiger/raw/master/peace/urdu.jpg" group-title="Religious",Peace TV Urdu (1080p)
+http://199.223.252.162:8032/urdu_adaptive/index.m3u8
 #EXTINF:-1 tvg-id="PlutoTVFaithTV.us" tvg-country="US" tvg-language="English" tvg-logo="http://images.pluto.tv/channels/5c58a539fae3812612f33ca3/colorLogoPNG.png" group-title="Religious",Pluto TV Faith TV (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5c58a539fae3812612f33ca3/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5c58a539fae3812612f33ca3&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=643&terminate=false&userId=
 #EXTINF:-1 tvg-id="PlutoTVFaithTV.us" tvg-country="US" tvg-language="English" tvg-logo="http://images.pluto.tv/channels/5c58a539fae3812612f33ca3/colorLogoPNG.png" group-title="Religious",Pluto TV Faith TV (720p) [Not 24/7]
@@ -444,6 +450,14 @@ http://flash.softhost.com.br:1935/pucgoias/aovivo/live.m3u8
 https://qvmstream.tulix.tv/720p/720p/chunklist_w1600218747.m3u8
 #EXTINF:-1 tvg-id="QVTV.ca" tvg-country="CA" tvg-language="English" tvg-logo="https://i.imgur.com/X9LBFzK.jpg" group-title="Religious",QVTV (720p)
 https://qvmstream.tulix.tv/720p/720p/playlist.m3u8
+#EXTINF:-1 tvg-id="RadioTeleAmen.ht" tvg-country="HT" tvg-language="French;Creole" tvg-logo="https://i.imgur.com/dJvJGDg.jpg" group-title="Religious",Radio Tele Amen FM (360p) [Not 24/7]
+http://184.173.179.163:1935/daniel/daniel/playlist.m3u8
+#EXTINF:-1 tvg-id="RadioTélé4VEH.ht" tvg-country="HT" tvg-language="French;Creole" tvg-logo="https://i.imgur.com/1wuEyIF.jpg" group-title="Religious",Radio Télé 4VEH (720p) [Not 24/7]
+https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtube.com/channel/UClL_aynC_SESNLQEJHqO9MQ/live
+#EXTINF:-1 tvg-id="RadioTélé4VEH.ht" tvg-country="HT" tvg-language="French;Creole" tvg-logo="https://i.imgur.com/1wuEyIF.jpg" group-title="Religious",Radio Télé 4VEH (720p)
+https://uni01rtmp.tulix.tv/4vehtv/4vehtv-firetv/playlist.m3u8
+#EXTINF:-1 tvg-id="RadioTelePititManmanMari.ht" tvg-country="HT" tvg-language="French;Creole" tvg-logo="https://i.imgur.com/QaWwNvo.jpg" group-title="Religious",Radio Télé Pitit Manman Mari (720p) [Not 24/7]
+https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtube.com/channel/UCLeNHM8XDkZmd2rhV3ZG7Vg/live
 #EXTINF:-1 tvg-id="RedeBrasildeComunicacao.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="http://portal.rbc1.com.br/public/portal/img/layout/logorbc.png" group-title="Religious",Rede Brasil de Comunicação (540p) [Not 24/7]
 http://rbc.directradios.com:1935/rbc/rbc/live.m3u8
 #EXTINF:-1 tvg-id="RedeGospel.br" tvg-country="BR" tvg-language="" tvg-logo="https://i.imgur.com/yvxG9m5.png" group-title="Religious",Rede Gospel (1080p) [Not 24/7]
@@ -500,6 +514,10 @@ https://cdnlive.myspirit.tv/LS-ATL-43240-2/index.m3u8
 https://8noro432dm6g-hls-live.wmncdn.net/Sri/a5518065f47332dad6b509920c827474.sdp/index.m3u8
 #EXTINF:-1 tvg-id="SuboroTV.sy" tvg-country="SY" tvg-language="Arabic" tvg-logo="https://i.imgur.com/PrNVVOu.png" group-title="Religious",Suboro TV (576p) [Not 24/7]
 https://streaming.viewmedia.tv/viewsatstream12/viewsatstream12.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TaevasTV7.fi" tvg-country="EE" tvg-language="Finnish;Estonian" tvg-logo="https://i.imgur.com/pIYSEUN.jpg" group-title="Religious",Taevas TV7 (720p)
+https://vod.tv7.fi/tv7-ee/tv7-ee.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TaivasTV7.fi" tvg-country="FI" tvg-language="Finnish" tvg-logo="https://i.imgur.com/pIYSEUN.jpg" group-title="Religious",Taivas TV7 (720p)
+https://vod.tv7.fi/tv7-fi/tv7-fi.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Taroteame.es" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://i.imgur.com/OgEeQzl.jpg" group-title="Religious",Tarotéame (576p)
 http://93.93.67.117:1935/taroteame/tarot_web/playlist.m3u8
 #EXTINF:-1 tvg-id="TBNAsia.us" tvg-country="US" tvg-language="" tvg-logo="https://i.imgur.com/QyMAyrs.jpg" group-title="Religious",TBN Asia (360p) [Not 24/7]
@@ -540,8 +558,8 @@ https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtu
 https://edge2.uk.kab.tv/live/tvrus-rus-medium/playlist.m3u8
 #EXTINF:-1 tvg-id="Nadezhda.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://hopetv.ru/wp-content/themes/hope.ua/public/img/header-hopeLogo.png" group-title="Religious",Надежда (720p)
 https://live-tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8
-#EXTINF:-1 tvg-id="NebesaTV7.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://www.nebesatv7.com/wp-content/themes/tv7-theme/assets/img/logo_nebesa_short.png" group-title="Religious",Небеса ТВ7 (720p)
-http://vod.tv7.fi:1935/tv7-ru/_definst_/smil:tv7-ru.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="NebesaTV7.fi" tvg-country="RU" tvg-language="Russian" tvg-logo="https://www.nebesatv7.com/wp-content/themes/tv7-theme/assets/img/logo_nebesa_short.png" group-title="Religious",Небеса ТВ7 (720p)
+https://vod.tv7.fi/tv7-ru/tv7-ru.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Soyuz.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://tv-soyuz.ru/static/img/logo.png" group-title="Religious",Союз (576p)
 http://hls-tvsoyuz.cdnvideo.ru/tvsoyuz/soyuz/playlist.m3u8
 #EXTINF:-1 tvg-id="WeiXingDianShi.tw" tvg-country="TW" tvg-language="Chinese" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/weixin.png" group-title="Religious",唯心電視 (480p)

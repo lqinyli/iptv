@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/astro.com.my.guide.xml,https://iptv-org.github.io/epg/guides/cosmote.gr.guide.xml,https://iptv-org.github.io/epg/guides/digiturk.com.tr.guide.xml,https://iptv-org.github.io/epg/guides/guidatv.sky.it.guide.xml,https://iptv-org.github.io/epg/guides/m.tv.sms.cz.guide.xml,https://iptv-org.github.io/epg/guides/ontvtonight.com.guide.xml,https://iptv-org.github.io/epg/guides/tvtv.ca.guide.xml"
+#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/astro.com.my.guide.xml,https://iptv-org.github.io/epg/guides/cosmote.gr.guide.xml,https://iptv-org.github.io/epg/guides/digiturk.com.tr.guide.xml,https://iptv-org.github.io/epg/guides/guidatv.sky.it.guide.xml,https://iptv-org.github.io/epg/guides/m.tv.sms.cz.guide.xml,https://iptv-org.github.io/epg/guides/ontvtonight.com.guide.xml,https://iptv-org.github.io/epg/guides/telkussa.fi.guide.xml,https://iptv-org.github.io/epg/guides/tvtv.ca.guide.xml"
 #EXTINF:-1 tvg-id="AlJazeeraEnglish.qa" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/BB93NQP.png" group-title="News",Al Jazeera English (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s23/index.m3u8
@@ -39,6 +39,8 @@ https://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8
 https://v3.catcast.tv/content/38105/index.m3u8
 #EXTINF:-1 tvg-id="KinderTV.ua" tvg-country="INT" tvg-language="Ukrainian;Russian" tvg-logo="" group-title="Kids",Kinder TV (1080p) [Not 24/7]
 https://v2.catcast.tv/content/38144/index.m3u8
+#EXTINF:-1 tvg-id="PeaceTVEnglish.ae" tvg-country="INT" tvg-language="English" tvg-logo="https://github.com/fawazahmed0/tiger/raw/master/peace/english.jpg" group-title="Religious",Peace TV English (1080p)
+http://199.223.252.162:8032/english_adaptive/index.m3u8
 #EXTINF:-1 tvg-id="PortalFoxMixTV.ru" tvg-country="INT" tvg-language="Russian" tvg-logo="" group-title="",Portal FoxMix TV (288p)
 http://tv.portalfoxmix.club:1935/portalfoxmix/portalfoxmix/playlist.m3u8
 #EXTINF:-1 tvg-id="RedBullTV.at" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/7NeBmWX.jpg" group-title="Sports",Red Bull TV (1080p)
@@ -69,6 +71,12 @@ https://tv-trtworld.live.trt.com.tr/master.m3u8
 https://brics.bonus-tv.ru/cdn/brics/english/playlist.m3u8
 #EXTINF:-1 tvg-id="WorldFashionChannel.us" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/JyslMHb.jpg" group-title="Lifestyle",World Fashion Channel (1080p)
 https://wfcint.mediacdn.ru/cdn/wfcintweb/playlist.m3u8
+#EXTINF:-1 tvg-id="YLETeemaFem.fi" tvg-country="INT" tvg-language="Finnish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Yle_Teema_%26_Fem.svg/799px-Yle_Teema_%26_Fem.svg.png" group-title="",YLE Teema Fem (720p) [Not 24/7]
+https://yletvhdliveworld-lh.akamaihd.net/i/yleteemafemfiw_1@308915/master.m3u8
+#EXTINF:-1 tvg-id="YLETV1.fi" tvg-country="INT" tvg-language="Finnish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Yle_TV1_logo.svg/382px-Yle_TV1_logo.svg.png" group-title="",YLE TV 1 (720p) [Not 24/7]
+https://yletvhdliveworld-lh.akamaihd.net/i/yletv1hdworld_1@187592/master.m3u8
+#EXTINF:-1 tvg-id="YLETV2.fi" tvg-country="INT" tvg-language="Finnish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Yle_TV2_logo.svg/399px-Yle_TV2_logo.svg.png" group-title="",YLE TV 2 (720p) [Not 24/7]
+https://yletvhdliveworld-lh.akamaihd.net/i/yletv2hdworld_1@187593/master.m3u8
 #EXTINF:-1 tvg-id="Premera.ru" tvg-country="INT" tvg-language="Russian" tvg-logo="" group-title="Movies",Премьера (320p)
 https://v2.catcast.tv/content/39161/index.m3u8
 #EXTINF:-1 tvg-id="SSSRTV.ru" tvg-country="INT" tvg-language="Russian" tvg-logo="" group-title="",СССР ТВ (448p) [Not 24/7]

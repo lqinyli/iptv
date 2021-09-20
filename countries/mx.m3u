@@ -58,8 +58,6 @@ http://209.91.213.10:8088/play/a026
 http://209.91.213.10:8088/play/a02r
 #EXTINF:-1 tvg-id="France24Espanol.fr" tvg-country="ES;LATAM" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/France24.png" group-title="News",France 24 Español (576p)
 http://f24hls-i.akamaihd.net/hls/live/520845/F24_ES_HI_HLS/master.m3u8
-#EXTINF:-1 tvg-id="GenesisTV.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/hMtKE60.png" group-title="",Genesis TV (720p)
-http://201.144.184.98:1935/genesis/smil:television.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="HipodromodelasAmericas.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://www.hipodromo.com.mx/desktop/images/LOGO_HIPODROMO_bco.png" group-title="",Hipódromo de las Américas (480p)
 http://wms.tecnoxia.com:1935/8158/8158/playlist.m3u8
 #EXTINF:-1 tvg-id="Hispantv.ir" tvg-country="IR;ES;LATAM" tvg-language="Spanish" tvg-logo="https://en.wikipedia.org/wiki/File:HispanTv_logo.svg" group-title="News",HispanTV (480p)
@@ -80,6 +78,8 @@ http://51.222.85.85:81/hls/loco/index.m3u8
 https://1601580044.rsc.cdn77.org/live/_jcn_/amlst:Mariavision/master.m3u8
 #EXTINF:-1 tvg-id="MexiquenseTV.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/IjE1ORI.png" group-title="",Mexiquense TV (720p)
 https://5ca3e84a76d30.streamlock.net/mexiquense/videomexiquense/playlist.m3u8
+#EXTINF:-1 tvg-id="XHDTVTDT.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d4/Milenio_Television.png" group-title="",Milenio Televisión (XHDTV-TDT) (1080p) [Not 24/7]
+https://cdn87.theus6tv.tk/locals/SanDiego/xhdtv-tdt.m3u8
 #EXTINF:-1 tvg-id="MonteMaria.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/OzVUVoX.jpg" group-title="Religious",Monte Maria (720p)
 https://rbaca.livestreamingcdn.com/envivo3/smil:live.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Moovimex.us" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/mty0mgJ.jpg" group-title="Movies",Moovimex (720p)
@@ -140,6 +140,10 @@ https://cdnesmain.telesur.ultrabase.net/mbliveMain/360p/playlist.m3u8
 https://cdnesmain.telesur.ultrabase.net/mbliveMain/480p/playlist.m3u8
 #EXTINF:-1 tvg-id="teleSUR.ve" tvg-country="LATAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/x5Mdzwv.png" group-title="News",teleSUR (1080p)
 https://cdnesmain.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
+#EXTINF:-1 tvg-id="TelevisaGuadalajara.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/Vp4B0BM.jpg" group-title="Local",Televisa Guadalajara (720p) [Not 24/7]
+https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtube.com/channel/UCRujF_YxVVFmTRWURQH-Cww/live
+#EXTINF:-1 tvg-id="TelevisaGuerrero.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/lOAnjFs.png" group-title="Local",Televisa Guerrero (480p) [Not 24/7]
+https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtube.com/channel/UCnxTRk2K1iNsQkgpWXxyj4w/live
 #EXTINF:-1 tvg-id="TelevisaNewsMexico.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/KVc1hqI.png" group-title="News",Televisa News Mexico (720p) [Not 24/7]
 https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtube.com/channel/UCUsm-fannqOY02PNN67C0KA/live
 #EXTINF:-1 tvg-id="TelevisaSanLuisPotosí.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/oxt91dr.jpg" group-title="Local",Televisa San Luis Potosí (720p) [Not 24/7]
