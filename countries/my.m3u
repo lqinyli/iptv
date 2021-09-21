@@ -1,10 +1,10 @@
 #EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/astro.com.my.guide.xml,https://iptv-org.github.io/epg/guides/mncvision.id.guide.xml"
 #EXTINF:-1 tvg-id="8TV.my" tvg-country="MY" tvg-language="" tvg-logo="https://www.xtra.com.my/wp-content/themes/xtra_revamp/assets/img/tv8.png" group-title="",8TV (720p)
 http://50.7.161.82:8278/streams/d/TV8/playlist.m3u8
-#EXTINF:-1 tvg-id="AstroAwani.my" tvg-country="MY" tvg-language="Malay (macrolanguage)" tvg-logo="https://i.imgur.com/dLzgBUj.png" group-title="",Astro Awani [Not 24/7]
-http://50.7.161.82:8278/streams/d/Awani/playlist.m3u8
 #EXTINF:-1 tvg-id="AstroAwani.my" tvg-country="MY" tvg-language="Malay (macrolanguage)" tvg-logo="https://i.imgur.com/dLzgBUj.png" group-title="",Astro Awani (1080p)
 https://awanitv.akamaized.net/hls/live/2017836/LiveTV1/index.m3u8
+#EXTINF:-1 tvg-id="AstroAwani.my" tvg-country="MY" tvg-language="Malay (macrolanguage)" tvg-logo="https://i.imgur.com/dLzgBUj.png" group-title="",Astro Awani [Not 24/7]
+http://50.7.161.82:8278/streams/d/Awani/playlist.m3u8
 #EXTINF:-1 tvg-id="AstroCeria.my" tvg-country="MY" tvg-language="" tvg-logo="" group-title="",Astro Ceria (720p)
 http://50.7.161.82:8278/streams/d/Ceria/playlist.m3u8
 #EXTINF:-1 tvg-id="AstroCitra.my" tvg-country="MY" tvg-language="" tvg-logo="" group-title="",Astro Citra (720p) [Not 24/7]
@@ -48,8 +48,6 @@ http://51.210.199.33/hls/stream.m3u8
 http://50.7.161.82:8278/streams/d/Naura/playlist.m3u8
 #EXTINF:-1 tvg-id="NTV7.my" tvg-country="MY" tvg-language="" tvg-logo="https://www.xtra.com.my/wp-content/themes/xtra_revamp/assets/img/ntv7.png" group-title="",NTV 7 (720p)
 http://50.7.161.82:8278/streams/d/Rtmntv7/playlist.m3u8
-#EXTINF:-1 tvg-id="TVAlhijrah.my" tvg-country="MY" tvg-language="" tvg-logo="" group-title="",TV Alhijrah (480p) [Not 24/7]
-http://50.7.161.82:8278/streams/d/Alhijrah/playlist.m3u8
 #EXTINF:-1 tvg-id="TV1.my" tvg-country="MY" tvg-language="Malay (macrolanguage)" tvg-logo="https://myklikstatic.secureswiftcontent.com/image/Logo-TV1-May21-JPG.jpg" group-title="",TV1 (720p) [Not 24/7]
 http://50.7.161.82:8278/streams/d/TV1/playlist.m3u8
 #EXTINF:-1 tvg-id="TV2.my" tvg-country="MY" tvg-language="Malay (macrolanguage)" tvg-logo="https://tv2.rtm.gov.my/assets/img/TV2.png" group-title="",TV2 (720p) [Not 24/7]
@@ -58,6 +56,8 @@ http://50.7.161.82:8278/streams/d/TV2/playlist.m3u8
 http://50.7.161.82:8278/streams/d/TV3/playlist.m3u8
 #EXTINF:-1 tvg-id="TV9.my" tvg-country="MY" tvg-language="" tvg-logo="https://www.xtra.com.my/wp-content/themes/xtra_revamp/assets/img/tv9.png" group-title="",TV9 (720p)
 http://50.7.161.82:8278/streams/d/TV9/playlist.m3u8
+#EXTINF:-1 tvg-id="TVAlhijrah.my" tvg-country="MY" tvg-language="" tvg-logo="" group-title="",TV Alhijrah (480p) [Not 24/7]
+http://50.7.161.82:8278/streams/d/Alhijrah/playlist.m3u8
 #EXTINF:-1 tvg-id="TVBXingHe.hk" tvg-country="MY" tvg-language="" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/1/17/TVB_Xing_He_logo_2017.png/220px-TVB_Xing_He_logo_2017.png" group-title="",TVB Xing He 星河 (720p) [Not 24/7]
 http://50.7.161.82:8278/streams/d/Xinhe/playlist.m3u8
 #EXTINF:-1 tvg-id="TVIKIM.my" tvg-country="MY" tvg-language="Malay (macrolanguage)" tvg-logo="https://i.imgur.com/Z0dyJK7.jpg" group-title="",TVIKIM (720p) [Not 24/7]
