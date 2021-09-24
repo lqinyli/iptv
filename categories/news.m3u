@@ -199,7 +199,7 @@ https://dai.google.com/linear/hls/event/r4sa-f6GSN2XIvzKv5jVng/master.m3u8
 #EXTINF:-1 tvg-id="CGTNEspanol.cn" tvg-country="CN" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/800px-CGTN.svg.png" group-title="News",CGTN Español (576p)
 http://livees.cgtn.com/500e/prog_index.m3u8
 #EXTINF:-1 tvg-id="Channel2News.il" tvg-country="IL" tvg-language="Hebrew" tvg-logo="https://i.imgur.com/NmnXn2z.jpg" group-title="News",Channel 2 News (720p)
-http://keshethlslive-lh.akamaihd.net/i/c2n_1@195269/index_2200_av-p.m3u8
+https://keshethlslive-lh.akamaihd.net/i/c2n_1@195269/master.m3u8
 #EXTINF:-1 tvg-id="CheddarNews.us" tvg-country="US" tvg-language="English" tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/607766d942e7e542aa73ddf2" group-title="News",Cheddar News (1080p)
 https://cheddar-cheddar-3.roku.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="CNA.sg" tvg-country="SG" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/CNA_new_logo.svg/225px-CNA_new_logo.svg.png" group-title="News",CNA (1080p)
@@ -410,8 +410,8 @@ https://master.starmena-cloud.com/hls/hd.m3u8
 https://master.starmena-cloud.com/hls/libyas.m3u8
 #EXTINF:-1 tvg-id="LN24.be" tvg-country="BE" tvg-language="French" tvg-logo="https://i.imgur.com/bp1Qp0d.png" group-title="News",LN24 (1080p)
 https://live.cdn.ln24.be/out/v1/b191621c8b9a436cad37bb36a82d2e1c/index.m3u8
-#EXTINF:-1 tvg-id="M24TV.ma" tvg-country="MA" tvg-language="Arabic" tvg-logo="https://i.imgur.com/J7GdM3L.png" group-title="News",M24 TV (720p)
-http://79.137.106.241/live/smil:OutStream1.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="M24TV.ma" tvg-country="MA" tvg-language="Arabic" tvg-logo="https://i.imgur.com/J7GdM3L.png" group-title="News",M24 TV (720p) [Not 24/7]
+http://79.137.106.241/live/smil:OutStream1.smil/chunklist_w575132091_b4500000_sleng.m3u8
 #EXTINF:-1 tvg-id="MalabarNews.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/yJWfyfM.png" group-title="News",Malabar News (576p) [Not 24/7]
 http://cloud.logicwebs.in:1935/live/malabarnews/playlist.m3u8
 #EXTINF:-1 tvg-id="Malaimurasu.in" tvg-country="IN" tvg-language="Tamil" tvg-logo="https://i.imgur.com/uFiHtQX.png" group-title="News",Malaimurasu (480p) [Not 24/7]
@@ -486,6 +486,10 @@ http://14.199.164.20:4001/play/a0kp/index.m3u8
 https://news18assam-lh.akamaihd.net/i/n18assamne_1@526575/index_5_av-p.m3u8
 #EXTINF:-1 tvg-id="News18Assam.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="" group-title="News",News 18 Assam (360p) [Not 24/7]
 https://news18assam-lh.akamaihd.net/i/n18assamne_1@526575/index_4_av-p.m3u8?rebase=on&sd=10
+#EXTINF:-1 tvg-id="News18Bangla.in" tvg-country="IN" tvg-language="" tvg-logo="" group-title="News",News18 Bangla (360p) [Not 24/7]
+https://news18bangla-lh.akamaihd.net/i/n18bangla_1@2289/index_4_av-p.m3u8
+#EXTINF:-1 tvg-id="News18Bengali.in" tvg-country="IN" tvg-language="" tvg-logo="" group-title="News",News 18 Bengali (360p) [Not 24/7]
+https://news18bangla-lh.akamaihd.net/i/n18bangla_1@2289/index_4_av-p.m3u8?rebase=on&sd=10
 #EXTINF:-1 tvg-id="News18Chhattisgarh.in" tvg-country="IN" tvg-language="" tvg-logo="" group-title="News",News 18 Chhattisgarh (360p)
 https://news18mp-lh.akamaihd.net/i/n18mpcg_1@175737/index_4_av-p.m3u8?rebase=on&sd=10
 #EXTINF:-1 tvg-id="News18Gujarati.in" tvg-country="IN" tvg-language="" tvg-logo="" group-title="News",News 18 Gujarati (360p)
@@ -601,10 +605,14 @@ http://103.199.161.254/Content/reporter/Live/Channel(Reporter)/index.m3u8
 http://ott-cdn.ucom.am/s96/index.m3u8
 #EXTINF:-1 tvg-id="RTArabic.ru" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="" group-title="News",RT Arabic (1080p)
 https://rt-arb.gcdn.co/live/rtarab/playlist.m3u8
+#EXTINF:-1 tvg-id="RTenEspanol.ru" tvg-country="LATAM;ES" tvg-language="Spanish" tvg-logo="" group-title="News",RT en Español (1080p) [Not 24/7]
+https://rt-esp.gcdn.co/live/rtesp/playlist.m3u8
 #EXTINF:-1 tvg-id="RTFrance.ru" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/gVedXRh.png" group-title="News",RT France (1080p)
 https://rt-fra.gcdn.co/live/rtfrance/playlist.m3u8
 #EXTINF:-1 tvg-id="RTNews.ru" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/XYJEasM.png" group-title="News",RT News (1080p)
 https://strm.yandex.ru/kal/rt_hd/rt_hd0.m3u8
+#EXTINF:-1 tvg-id="RTNews.ru" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/tyXIHlj.png" group-title="News",RT News (1080p) [Not 24/7]
+https://rt-glb.gcdn.co/live/rtnews/playlist.m3u8
 #EXTINF:-1 tvg-id="RTUK.ru" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/zdTA0ha.png" group-title="News",RT UK (1080p)
 https://rt-uk.gcdn.co/live/rtuk/playlist.m3u8
 #EXTINF:-1 tvg-id="RTP3.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/64-393818101410.png" group-title="News",RTP3 (504p) [Not 24/7]
