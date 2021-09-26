@@ -296,8 +296,10 @@ https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtu
 https://stream.oursnetworktv.com/latin/encoder29/playlist.m3u8
 #EXTINF:-1 tvg-id="CosmoTV.es" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://www.cosmopolitantv.es/img/logorrss.png" group-title="",Cosmo TV (720p)
 http://91.126.141.201:1935/live/cosmoHD/playlist.m3u8
-#EXTINF:-1 tvg-id="CRTelevisionMoyobamba.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/crtvmoyobamba/picture?width=320&height=320" group-title="Local",CR Television (Moyobamba) (720p) [Not 24/7]
-https://live.obslivestream.com:1936/crtv/ngrp:crtv_all/playlist.m3u8
+#EXTINF:-1 tvg-id="CRTelevisionMoyobamba.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/crtvmoyobamba/picture?width=320&height=320" group-title="Local",CR Television (Moyobamba) [Not 24/7]
+https://live.obslivestream.com/crtvmux/index.m3u8
+#EXTINF:-1 tvg-id="CRTVyRadio.cr" tvg-country="CR" tvg-language="Spanish" tvg-logo="" group-title="Sports",CR-TV y Radio (360p)
+https://cp.sradiotv.com:1936/8034/8034/playlist.m3u8
 #EXTINF:-1 tvg-id="CreoTV.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/CanalCreoTv/picture?width=320&height=320" group-title="Local",CreoTV (Cajamarca) [Not 24/7]
 https://srv1.mediastreamperu.com:8081/creotv/index.m3u8
 #EXTINF:-1 tvg-id="CTNiChristianTelevisionNetworkInternational.pr" tvg-country="PR" tvg-language="Spanish" tvg-logo="http://directostv.teleame.com/wp-content/uploads/2018/07/CTNi.png" group-title="Religious",CTNi (Christian Television Network International) (480p)
@@ -398,8 +400,8 @@ http://201.144.184.98:1935/genesis/smil:television.smil/chunklist.m3u8
 http://201.144.184.98:1935/genesis/smil:television.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="GenialTV.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="http://www.chileiptv.cl/img/logos/file_1521688260.jpg" group-title="",Genial TV (720p) [Not 24/7]
 http://v3.tustreaming.cl/genialtv/live1/playlist.m3u8
-#EXTINF:-1 tvg-id="GeniosTVMoyobamba.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/geniostvmoyobamba/picture?width=320&height=320" group-title="Local",Genios TV (Moyobamba) (720p) [Not 24/7]
-https://live.obslivestream.com:1936/geniostv/ngrp:geniostv_all/playlist.m3u8?DVR=
+#EXTINF:-1 tvg-id="GeniosTVMoyobamba.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/geniostvmoyobamba/picture?width=320&height=320" group-title="Local",Genios TV (Moyobamba) [Not 24/7]
+https://live.obslivestream.com/geniostvmux/index.m3u8
 #EXTINF:-1 tvg-id="GloboTV.hn" tvg-country="HN" tvg-language="Spanish" tvg-logo="https://i.imgur.com/UG6Tq7a.png" group-title="",Globo TV (720p) [Not 24/7]
 https://panel.dattalive.com/8122/8122/playlist.m3u8
 #EXTINF:-1 tvg-id="GoldValleyTV.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/Goldvalleytvcasma/picture?width=320&height=320" group-title="Local",Gold Valley TV (Casma) [Not 24/7]
@@ -438,6 +440,8 @@ https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtu
 https://cdn87.theus6tv.tk/locals/SanDiego/xhctti-tdt2.m3u8
 #EXTINF:-1 tvg-id="ImagenRadio.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/SINYy29.png" group-title="",Imagen Radio (720p) [Not 24/7]
 https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtube.com/channel/UCB0BUmdBOrH9mYU2ebs1eWA/live
+#EXTINF:-1 tvg-id="ImagenTelevisionRioja.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/104338684346756/picture?width=320&height=320" group-title="Local",Imagen Televisión (Rioja) (720p)
+http://191.97.56.183:1935/imagentv/imagentv/playlist.m3u8
 #EXTINF:-1 tvg-id="XHCTTITDT.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Logo_Imagen_Televisi%C3%B3n_2016.png/800px-Logo_Imagen_Televisi%C3%B3n_2016.png" group-title="Local",Imagen TV (XHCTTI-TDT) (1080p) [Not 24/7]
 https://cdn87.theus6tv.tk/locals/SanDiego/xhctti-tdt.m3u8
 #EXTINF:-1 tvg-id="ImasTV.es" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://i.imgur.com/a9hgTmM.png" group-title="",Imás TV (1080p)
@@ -466,6 +470,9 @@ https://dc1.webstream.eu/hls/hls/jnetvhdstreaming_high/index.m3u8
 https://olympusamagi.amagi.tv/hls/amagi_hls_data_olympusat-juntos-roku/CDN/playlist.m3u8
 #EXTINF:-1 tvg-id="JuventudRenovadaenelEspirituSanto.us" tvg-country="US" tvg-language="Spanish" tvg-logo="https://i.imgur.com/9Brfh2M.png" group-title="Religious",Juventud Renovada en el Espiritu Santo (720p) [Not 24/7]
 http://teleredmcp.com:1935/jrestv/jrestv/playlist.m3u8
+#EXTINF:-1 tvg-id="KallpaTV.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/kallparadiotv/picture?width=320&height=320" group-title="Local",Kallpa TV (Chimbote) [Not 24/7]
+#EXTVLCOPT:http-referrer=https://ssh101.com/
+https://tna5.bozztv.com/canaltv/index.m3u8
 #EXTINF:-1 tvg-id="KanadeTV.cl" tvg-country="LATAM" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/KdeTelevision/picture?width=300&height=300" group-title="Animation",Kanade TV (720p) [Not 24/7]
 http://45.32.74.87:81/hls/kanadetv.m3u8
 #EXTINF:-1 tvg-id="Karibena.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/LaKaribena/picture?width=320&height=320" group-title="Music",Karibeña (720p) [Not 24/7]
@@ -482,8 +489,6 @@ https://cdnlive.shooowit.net/la7live/smil:channel1.smil/master.m3u8
 http://68.235.35.243:1935/lamegamundial/lamegamundial2/playlist.m3u8
 #EXTINF:-1 tvg-id="LAMIATV.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/77uVMGw.png" group-title="",LA MIA TV (720p)
 https://ss8.domint.net:3108/mia_str/lamiatv/playlist.m3u8
-#EXTINF:-1 tvg-id="LaRed.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="" group-title="General",La Red (720p)
-https://unlimited1-cl-movistar.dps.live/lared/lared.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="LaRiberena.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/lariberenapucallpa/picture?width=320&height=320" group-title="Local",La Ribereña (Pucallpa) [Not 24/7]
 https://inliveserver.com:1936/19020/19020/playlist.m3u8
 #EXTINF:-1 tvg-id="LaTeleTuya.ve" tvg-country="VE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/LaTeleTuya/picture?width=350&height=350" group-title="",La Tele Tuya (TLT) (480p) [Geo-blocked]
@@ -530,7 +535,7 @@ https://rtmp02.portalexpress.es/marinastereo/marinastereo/playlist.m3u8
 #EXTINF:-1 tvg-id="MasterTVTarapoto.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/169404973238869/picture?width=320&height=320" group-title="Local",Master TV (Tarapoto) (480p) [Not 24/7]
 https://tv.oyotunstream.com/master/master/playlist.m3u8
 #EXTINF:-1 tvg-id="MegaTVAQP.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/MTVAQP/picture?width=320&height=320" group-title="Local",Mega TV (Arequipa) (360p) [Not 24/7]
-https://cp.sradiotv.com:1936/Stream/Stream/playlist.m3u8
+https://media2.cdnlayer.biz:8081/8008/index.m3u8
 #EXTINF:-1 tvg-id="MegaTVJaen.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/megatvjaen/picture?width=320&height=320" group-title="Local",Mega TV (Jaen) [Not 24/7]
 https://rtmp02.portalexpress.es/megatv/megatv/playlist.m3u8
 #EXTINF:-1 tvg-id="MelodyChannelColombia.co" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://melodychannel.tv/wp-content/uploads/2021/01/cropped-logoMelody-2.png" group-title="Music",Melody Channel Colombia (720p)
@@ -593,6 +598,8 @@ https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.twitc
 https://stream.live.novotempo.com/tv/smil:tvnuevotiempo.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="OizmendiTelebista.es" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/oizmenditelebista/picture?width=320&height=320" group-title="",Oizmendi Telebista (404p) [Not 24/7]
 https://5940924978228.streamlock.net/8161/8161/master.m3u8
+#EXTINF:-1 tvg-id="OKTeVe.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/OKTelevision.pe/picture?width=320&height=320" group-title="Local",OK TeVe (Yurimaguas) (720p)
+https://stmv.panel.grupolimalive.com/wesdey3/wesdey3/playlist.m3u8
 #EXTINF:-1 tvg-id="OmegaTVYurimaguas.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/omegatvyurimaguas/picture?width=320&height=320" group-title="Local",Omega TV (Yurimaguas) [Not 24/7]
 https://7.innovatestream.pe:19360/omega/omega.m3u8
 #EXTINF:-1 tvg-id="OnceMexico.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/NAgRCyY.png" group-title="",Once Mexico (720p)
@@ -627,8 +634,8 @@ https://cm.hostlagarto.com:4445/phtv/Phtv.myStream/playlist.m3u8
 http://cdn.vms.grupoz.cl/lapintanatv/content/5a7c8e25e19d3e641aca9fb2/hls/playlist.m3u8
 #EXTINF:-1 tvg-id="PlanetaTVBagua.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/planeatvperu/picture?width=320&height=320" group-title="Local",Planeta TV Bagua (720p) [Not 24/7]
 https://stmv.panel.grupolimalive.com/planeatv/planeatv/playlist.m3u8
-#EXTINF:-1 tvg-id="PlanetaTVMoyobamba.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/PlanetaTeleInformativo/picture?width=320&height=320" group-title="Local",Planeta TV Moyobamba (720p) [Not 24/7]
-https://live.obslivestream.com:1936/planetatv/ngrp:planetatv_all/playlist.m3u8?DVR=
+#EXTINF:-1 tvg-id="PlanetaTVMoyobamba.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/PlanetaTeleInformativo/picture?width=320&height=320" group-title="Local",Planeta TV Moyobamba (720p)
+https://live.obslivestream.com/planetatvmux/index.m3u8
 #EXTINF:-1 tvg-id="PlutoTVAvidamodernadeRocko.us" tvg-country="US" tvg-language="Spanish" tvg-logo="https://images.pluto.tv/channels/5f6df6293a12e10007017396/colorLogoPNG.png" group-title="",Pluto TV A vida moderna de Rocko (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f6df6293a12e10007017396/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="PlutoTVAction.us" tvg-country="US" tvg-language="Spanish" tvg-logo="https://images.pluto.tv/channels/5f8ed1ff5c39700007e2204a/colorLogoPNG.png" group-title="Movies",Pluto TV Action (720p)
@@ -859,6 +866,8 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dd837642c6e930009
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5de802659167b10009e7deba/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 #EXTINF:-1 tvg-id="PlutoTVSpikeAventura.us" tvg-country="US" tvg-language="Spanish" tvg-logo="http://images.pluto.tv/channels/5d8d11baeb31c5a43b77bf59/colorLogoPNG.png" group-title="",Pluto TV Spike Aventura (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d11baeb31c5a43b77bf59/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8d11baeb31c5a43b77bf59&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=950&terminate=false&userId=
+#EXTINF:-1 tvg-id="PlutoTVTastemade.us" tvg-country="US" tvg-language="Spanish" tvg-logo="https://images.pluto.tv/channels/5fd1419a3b4f4b000773ba85/colorLogoPNG.png" group-title="Cooking",Pluto TV Tastemade (720p) [Not 24/7]
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fd1419a3b4f4b000773ba85/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="PlutoTVTeen.us" tvg-country="US" tvg-language="Spanish" tvg-logo="https://images.pluto.tv/channels/5dd6de52b9914200091f047a/colorLogoPNG.png" group-title="Kids",Pluto TV Teen (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dd6de52b9914200091f047a/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 #EXTINF:-1 tvg-id="PlutoTVTelefeClasico.us" tvg-country="US" tvg-language="Spanish" tvg-logo="https://images.pluto.tv/channels/5de91cf02fc07c0009910465/colorLogoPNG.png" group-title="",Pluto TV Telefe Clásico (480p)
@@ -946,6 +955,8 @@ https://cloudtv.provideo.es/live/marbellatv-livestream.m3u8
 https://tvmelilla-hls-rm-lw.flumotion.com/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioTropicalTarapoto.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://pbs.twimg.com/profile_images/1331243814548287489/RCVGVH6L_400x400.jpg" group-title="Local",Radio Tropical Tarapoto (480p) [Not 24/7]
 https://5ee0faac3bbae.streamlock.net/raditropical/raditropical/playlist.m3u8
+#EXTINF:-1 tvg-id="RadioTVBinacional.pe" tvg-country="BO;PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/BinacionaltvGo/picture?width=320&height=320" group-title="Local",Radio TV Binacional (Desaguadero) [Not 24/7]
+https://cp.sradiotv.com:1936/binacional/binacional/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioTVJuanjui.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/74HCPRODUCCIONES/picture?width=320&height=320" group-title="Local",Radio TV Juanjui [Not 24/7]
 https://rtmp02.portalexpress.es/radiotvjuanjui/radiotvjuanjui/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioUnoTacna.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/radiouno.pe/picture?width=320&height=320" group-title="Local",Radio Uno (Tacna) [Not 24/7]
@@ -954,8 +965,8 @@ https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtu
 https://rtmp02.portalexpress.es/xtrematv2/xtrematv2/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioZetaTV.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="http://ik.imagekit.io/ulangotv/image/upload/3788384_logo_radio_zeta.png" group-title="",Radio Zeta TV (480p)
 https://unlimited1-cl.dps.live/radioztv/radioztv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioTVOrienteYurimaguas.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/www.roriente.org/picture?width=320&height=320" group-title="Local",RadioTV Oriente (Yurimaguas) (360p) [Not 24/7]
-https://cp.sradiotv.com:1936/8034/8034/playlist.m3u8
+#EXTINF:-1 tvg-id="RadioTVOrienteYurimaguas.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/www.roriente.org/picture?width=320&height=320" group-title="Local",RadioTV Oriente (Yurimaguas) (1080p)
+https://stmv.panel.grupolimalive.com/orientetv/orientetv/playlist.m3u8
 #EXTINF:-1 tvg-id="RCGTV.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/1qrh5SC.png" group-title="",RCG TV (1080p)
 https://video1.getstreamhosting.com:1936/8172/8172/playlist.m3u8
 #EXTINF:-1 tvg-id="RCGTV2.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/NIlUdoZ.jpg" group-title="",RCG TV 2 (360p)
@@ -1230,6 +1241,8 @@ http://streamspub.manasat.com:1935/tvar/tvmanaar2/playlist.m3u8
 http://ss6.domint.net:2060/tvm_str/montanatv/master.m3u8
 #EXTINF:-1 tvg-id="TVNorteChiclayo.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/tvnorte7/picture?width=320&height=320" group-title="Local",TV Norte (Chiclayo) [Not 24/7]
 https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.dailymotion.com/TVNORTEHD
+#EXTINF:-1 tvg-id="TVPalmeras.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/Noticias.TvPalmeras/picture?width=320&height=320" group-title="General",TV Palmeras [Not 24/7]
+https://srv.panelcast.net/palmerastv/palmerastv/playlist.m3u8
 #EXTINF:-1 tvg-id="TVPeru.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://www.tvperu.gob.pe/sites/all/themes/stability/images/logo_TVPE_PLAY.png" group-title="General",TV Perú (720p)
 http://cdnh4.iblups.com/hls/irtp.m3u8
 #EXTINF:-1 tvg-id="TVPeruNoticias.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://www.tvperu.gob.pe/sites/all/themes/stability/images/logo_TVPE_NOTICIAS_PLAY.png" group-title="News",TV Perú Noticias [Not 24/7]
