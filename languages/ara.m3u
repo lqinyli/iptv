@@ -459,8 +459,6 @@ https://iptv.dc-team.com/query?url=https://www.youtube.com/channel/UCrvsAwtrxZ0q
 https://webcam.mosaiquefm.net:1936/mosatv/studio/playlist.m3u8
 #EXTINF:-1 tvg-id="MTA3.uk" tvg-country="UK" tvg-language="Arabic" tvg-logo="https://i.imgur.com/C5nT9yi.png" group-title="",MTA 3 (1080p)
 https://ooyalahd2-f.akamaihd.net/i/mtach7_delivery@348438/master.m3u8
-#EXTINF:-1 tvg-id="MusawaChannel.ps" tvg-country="PS" tvg-language="Arabic" tvg-logo="https://i.imgur.com/PEFW4Vy.png" group-title="General",MusawaChannel (404p)
-http://htvpalsat.mada.ps:8888/musawa/index.m3u8
 #EXTINF:-1 tvg-id="NabaaTV.lb" tvg-country="LB" tvg-language="Arabic" tvg-logo="https://nabaa.tv/wp-content/uploads/2018/07/nabaa-logo-66x116.png" group-title="News",Nabaa TV (720p)
 http://31.14.40.237:1935/live/Nabaa/playlist.m3u8
 #EXTINF:-1 tvg-id="NablusTV.ps" tvg-country="PS" tvg-language="Arabic" tvg-logo="" group-title="",Nablus TV (720p) [Not 24/7]
@@ -470,7 +468,7 @@ http://admdn2.cdn.mangomolo.com/nagtv/smil:nagtv.stream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="NationalGeographicAbuDhabi.ae" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/baXbWro.jpg" group-title="Outdoor",National Geographic Abu Dhabi (1080p)
 https://admdn2.cdn.mangomolo.com/nagtv/smil:nagtv.stream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Nessma.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://www.nessma.tv/images/logonessmamenu.png" group-title="",Nessma (720p) [Not 24/7]
-https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.dailymotion.com/video/x7lmd4f
+https://query-streamlink-us.herokuapp.com/iptv-query?streaming-ip=https://www.dailymotion.com/video/x7lmd4f
 #EXTINF:-1 tvg-id="Newvision.lb" tvg-country="LB" tvg-language="Arabic" tvg-logo="http://www.newvision.tv/wp-content/uploads/2020/05/Logo.jpg" group-title="News",Newvision (576p)
 https://master.starmena-cloud.com/hls/newv.m3u8
 #EXTINF:-1 tvg-id="NileTVCinema.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="http://www.niletc.tv/images/cinema/cinema.png" group-title="Movies",Nile TV Cinema (576p)
@@ -488,6 +486,9 @@ http://livestreaming5.onlinehorizons.net/hls-live/NTNNileFamily/_definst_/liveev
 #EXTINF:-1 tvg-id="NileTVLearning.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="http://www.niletc.tv/images/learning/learning.png" group-title="Education",Nile TV Learning (576p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
 http://livestreaming5.onlinehorizons.net/hls-live/Learning1/_definst_/liveevent/livestream.m3u8
+#EXTINF:-1 tvg-id="NileTVLife.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="http://www.niletc.tv/images/live/live.png" group-title="Lifestyle",Nile TV Life (576p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+http://livestreaming5.onlinehorizons.net/hls-live/NTNNileLife/_definst_/liveevent/livestream.m3u8
 #EXTINF:-1 tvg-id="NileTVSport.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="http://www.niletc.tv/images/sport/sport.png" group-title="Sports",Nile TV Sport (576p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
 http://livestreaming5.onlinehorizons.net/hls-live/NTNNileSport/_definst_/liveevent/livestream.m3u8
