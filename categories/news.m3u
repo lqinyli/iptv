@@ -151,6 +151,8 @@ http://203.176.130.123:8989/live/bayontv1_480k.stream/playlist.m3u8
 https://vs-cmaf-pushb-ww-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2_akamai_dash_live.mpd
 #EXTINF:-1 tvg-id="BBCNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/eNPIQ9f.png" group-title="News",BBC News (480p)
 http://www.filmon.com/vr-streams/27.high/playlist.m3u8
+#EXTINF:-1 tvg-id="BBCNews.uk" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/eNPIQ9f.png" group-title="News",BBC News (720p) [Not 24/7]
+http://1111296894.rsc.cdn77.org/LS-ATL-54548-6/index.m3u8
 #EXTINF:-1 tvg-id="BBCPersian.uk" tvg-country="IR" tvg-language="Persian" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/44/BBC_News_Persian_Logo.jpg" group-title="News",BBC Persian (720p)
 https://vs-cmaf-pushb-ww-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2_akamai_dash_live.mpd
 #EXTINF:-1 tvg-id="BBCWorldNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/Nx0BRdV.png" group-title="News",BBC World News (576p)
@@ -553,10 +555,6 @@ http://oneamericanews-roku-us.amagi.tv/playlist.m3u8
 https://oneamericanews-roku-us.amagi.tv/hls/amagi_hls_data_oneameric-oneamericanews/CDN/512x288_875600/index.m3u8
 #EXTINF:-1 tvg-id="OPTV.us" tvg-country="US" tvg-language="English" tvg-logo="https://media.localbtv.com/images/nycbtv/logos/optv.png" group-title="News",OPTV Borough of Oradell (NJ) (1080p) [Not 24/7]
 https://cdn87.theus6tv.tk/cable/optv.m3u8
-#EXTINF:-1 tvg-id="PalitraNews.ge" tvg-country="GE" tvg-language="Georgian" tvg-logo="https://i.imgur.com/9QVZGow.png" group-title="News",Palitra News (480p)
-https://live.palitranews.ge/hls/palitratv/index.m3u8
-#EXTINF:-1 tvg-id="PalitraNews.ge" tvg-country="GE" tvg-language="Georgian" tvg-logo="https://i.imgur.com/AqSRphj.png" group-title="News",Palitra News (480p)
-https://livestream.palitra.ge/hls/palitratv/index.m3u8
 #EXTINF:-1 tvg-id="PayvandTV.us" tvg-country="US" tvg-language="" tvg-logo="https://i.imgur.com/w3LaJja.png" group-title="News",Payvand TV (720p)
 http://uni6rtmp.tulix.tv:1935/ucur1/Payvand/playlist.m3u8
 #EXTINF:-1 tvg-id="PBO.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/PBOPeru/picture?width=320&height=320" group-title="News",PBO Digital (720p) [Not 24/7]
@@ -565,8 +563,8 @@ https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtu
 https://bozztv.com/teleyupp/teleup-pcnhd/playlist.m3u8
 #EXTINF:-1 tvg-id="PlutoTVBlackNewsChannel.us" tvg-country="US" tvg-language="English" tvg-logo="http://images.pluto.tv/channels/5f1efad04320070007dbb60b/colorLogoPNG.png" group-title="News",Pluto TV Black News Channel (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1efad04320070007dbb60b/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
-#EXTINF:-1 tvg-id="PlutoTVCheddar.us" tvg-country="US" tvg-language="English" tvg-logo="" group-title="News",Pluto TV Cheddar (720p)
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5ca1e02c08ee5378be82db47/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+#EXTINF:-1 tvg-id="PlutoTVCheddar.us" tvg-country="US" tvg-language="English" tvg-logo="" group-title="News",Pluto TV Cheddar (720p) [Not 24/7]
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5812afe1d0f0b8d55dde67fa/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5812afe1d0f0b8d55dde67fa&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=226&terminate=false&userId=
 #EXTINF:-1 tvg-id="PlutoTVCNN.us" tvg-country="US" tvg-language="News" tvg-logo="" group-title="News",Pluto TV CNN (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5421f71da6af422839419cb3/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5421f71da6af422839419cb3&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=209&terminate=false&userId=
 #EXTINF:-1 tvg-id="PlutoTVEuronews.us" tvg-country="US" tvg-language="Spanish" tvg-logo="http://images.pluto.tv/channels/60d3583ef310610007fb02b1/colorLogoPNG.png" group-title="News",Pluto TV Euronews (720p)
@@ -737,7 +735,7 @@ http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
 #EXTINF:-1 tvg-id="MongolynMedee.mn" tvg-country="MN" tvg-language="Mongolian" tvg-logo="http://www.mnb.mn/images/mini/mnews.png" group-title="News",Монголын Мэдээ (576p)
 http://103.14.38.107:1935/live/mn2.stream/chunklist.m3u8
 #EXTINF:-1 tvg-id="Pershiynezalezhniy.ua" tvg-country="UA" tvg-language="Ukrainian" tvg-logo="" group-title="News",Перший незалежний (1080p)
-http://app.live.112.events/hls-ua/112hd_hi/index.m3u8
+https://app.live.112.events/hls-ua/112hd_mid/index.m3u8
 #EXTINF:-1 tvg-id="Rossiya24.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/wu7O85f.png" group-title="News",Россия 24 (576p)
 http://radio-live-mg.rtr-vesti.ru/hls/russia_24/playlist.m3u8
 #EXTINF:-1 tvg-id="Rossiya24NNovgorod.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="" group-title="News",Россия 24 (Н.Новгород) (576p) [Not 24/7]
