@@ -1,18 +1,22 @@
 #EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/astro.com.my.guide.xml,https://iptv-org.github.io/epg/guides/cosmote.gr.guide.xml,https://iptv-org.github.io/epg/guides/mncvision.id.guide.xml"
-#EXTINF:-1 tvg-id="ARB24.az" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://i.imgur.com/wiIJMek.jpg" group-title="News",ARB 24 (1080p)
+#EXTINF:-1 tvg-id="ARB.az" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://arbtv.az/assets/uploads/sites/logo.png" group-title="General",ARB (576p)
+https://europe2.livetv.az/azerbaijan/arb/playlist.m3u8
+#EXTINF:-1 tvg-id="ARB24.az" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://arb24.az/assets/uploads/sites/logo_arb24.png" group-title="News",ARB 24 (1080p)
 http://85.132.81.184:8080/arb24/live1/index.m3u8
-#EXTINF:-1 tvg-id="ARBGunes.az" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://i.imgur.com/wiIJMek.jpg" group-title="Kids",ARB Günəş [Geo-blocked]
+#EXTINF:-1 tvg-id="ARBGunes.az" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://gunesh.arbtv.az/assets/uploads/sites/arb_gunesh.png" group-title="Kids",ARB Günəş [Geo-blocked]
 http://149.255.152.199/arbgunes.m3u8
-#EXTINF:-1 tvg-id="ARBKepez.az" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://i.imgur.com/b6i8byT.png" group-title="",ARB Kəpəz [Not 24/7]
-http://85.132.81.184:8080/arbkepez/live/index.m3u8
-#EXTINF:-1 tvg-id="ATV1.az" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://i.imgur.com/rDYSoRL.png" group-title="",ATV 1 (720p)
+#EXTINF:-1 tvg-id="AzStarTV.ca" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://www.azstartv.com/wp-content/uploads/2021/06/AzStarTV.png" group-title="General",Az Star TV (1080p)
+http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="AzTV.az" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="http://www.aztv.az/storage/settings/September2019/23bMtFJXZsjnUuC0AwiQ.png" group-title="General",Az TV (576p)
+http://streams.livetv.az/azerbaijan/aztv_stream2/playlist.m3u8
+#EXTINF:-1 tvg-id="AzadTV.az" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://i.imgur.com/rDYSoRL.png" group-title="General",Azad TV (ATV) (720p)
 http://85.132.81.184:8080/atv/index.m3u8
-#EXTINF:-1 tvg-id="ATV2.az" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://i.imgur.com/rDYSoRL.png" group-title="",ATV 2 (720p)
+#EXTINF:-1 tvg-id="AzadTVMinus2.az" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://i.imgur.com/rDYSoRL.png" group-title="General",Azad TV -2 (ATV) (720p)
 http://85.132.81.184:8080/atv-2/index.m3u8
-#EXTINF:-1 tvg-id="ATV4.az" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://i.imgur.com/rDYSoRL.png" group-title="",ATV 4 (720p)
+#EXTINF:-1 tvg-id="AzadTVMinus4.az" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://i.imgur.com/rDYSoRL.png" group-title="General",Azad TV -4 (ATV) (720p)
 http://85.132.81.184:8080/atv-4/index.m3u8
-#EXTINF:-1 tvg-id="AzNewsTV.az" tvg-country="AZ" tvg-language="" tvg-logo="" group-title="News",Az News TV (720p)
-https://swow1.socialsmart.tv/aznews/smil:aznews.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="AzerbaijanNewsTV.se" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://www.aznews.tv/wp-content/uploads/2019/04/headerlogo.fw_.png" group-title="News",Azerbaijan News TV (720p)
+https://edge1.socialsmart.tv/aznews/smil/playlist.m3u8
 #EXTINF:-1 tvg-id="BloombergTVEMEALiveEvent.us" tvg-country="EMEA" tvg-language="English" tvg-logo="http://cdn-profiles.tunein.com/s47135/images/logog.png" group-title="Business",Bloomberg TV EMEA Live Event (720p)
 https://www.bloomberg.com/media-manifest/streams/eu-event.m3u8
 #EXTINF:-1 tvg-id="BloombergTVEurope.us" tvg-country="EUR" tvg-language="English" tvg-logo="http://cdn-profiles.tunein.com/s47135/images/logog.png" group-title="Business",Bloomberg TV Europe (720p)
@@ -21,7 +25,7 @@ https://liveprodeuwest.akamaized.net/eu1/Channel-EUTVqvs-AWS-ireland-1/Source-EU
 https://bloomberg-bloombergtv-1-it.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="CartoonNetworkAsia.us" tvg-country="ASIA" tvg-language="English" tvg-logo="" group-title="Kids",Cartoon Network Asia (720p)
 http://198.16.106.62:8278/streams/d/Cn/playlist.m3u8
-#EXTINF:-1 tvg-id="CBC.az" tvg-country="AZ;TR;GE" tvg-language="Azerbaijani;Russian" tvg-logo="https://i.imgur.com/4VAiAnb.jpg" group-title="",CBC (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="CBC.az" tvg-country="AZ;TR;GE" tvg-language="Azerbaijani;Russian;English;Persian;Armenian" tvg-logo="http://cbc.az/assets/uploads/sites/Logo_fin.png" group-title="News",CBC (720p)
 http://cbctvlive.flashmediacast.com:1935/CBCTVLive/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="CNNInternationalEurope.us" tvg-country="EUR" tvg-language="English" tvg-logo="https://i.imgur.com/2BXCg0x.jpg" group-title="News",CNN International Europe (720p)
 https://cnn-cnninternational-1-eu.rakuten.wurl.com/manifest/playlist.m3u8
@@ -29,19 +33,34 @@ https://cnn-cnninternational-1-eu.rakuten.wurl.com/manifest/playlist.m3u8
 http://198.16.106.62:8278/streams/d/Disneyxd/playlist.m3u8
 #EXTINF:-1 tvg-id="DisneyJuniorAsia.us" tvg-country="ASIA" tvg-language="" tvg-logo="" group-title="Kids",Disney Junior Asia (720p)
 http://198.16.106.62:8278/streams/d/Disneyjr/playlist.m3u8
-#EXTINF:-1 tvg-id="ELTV.az" tvg-country="AZ" tvg-language="" tvg-logo="" group-title="",EL TV (432p) [Not 24/7]
+#EXTINF:-1 tvg-id="ELTV.az" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="http://eltv.az/wp-content/uploads/2021/01/alllogo.png" group-title="General",EL TV (432p)
 http://85.132.53.162:1935/live/eltv/playlist.m3u8
 #EXTINF:-1 tvg-id="FoxMoviesAsia.us" tvg-country="ASIA" tvg-language="Thai" tvg-logo="https://i.imgur.com/vs51MBW.png" group-title="Movies",Fox Movies Asia (Thai) (720p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
 https://www.livedoomovie.com/02_FoxMoviesHD_720p/chunklist.m3u8
+#EXTINF:-1 tvg-id="FTV.az" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://apim.livetv.az/images/original/ftvlogo.png" group-title="Movies",FTV (720p)
+https://str2.yodacdn.net/publive/ftv/video.m3u8
+#EXTINF:-1 tvg-id="GunAzTV.us" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://upload.wikimedia.org/wikipedia/az/a/a3/G%C3%BCnAz_TV.png" group-title="General",GünAz TV (720p)
+https://gtv.live-s.cdn.bitgravity.com/cdn-live/_definst_/gtv/live/feed03/playlist.m3u8
 #EXTINF:-1 tvg-id="GunAzTV.us" tvg-country="US;AZ" tvg-language="Azerbaijani" tvg-logo="https://i.imgur.com/0lJwdDH.jpg" group-title="General",GünAz TV (480p)
 http://gtv.live.cdn.bitgravity.com/gtv/live/feed03
-#EXTINF:-1 tvg-id="ITV.az" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://www.lyngsat-stream.com/logo/tv/ii/ictimai-tv-az.png" group-title="",İTV [Geo-blocked]
-#EXTVLCOPT:http-referrer=https://itv.az/
+#EXTINF:-1 tvg-id="IctimaiTV.az" tvg-country="AZ" tvg-language="Azerbaijani;Russian" tvg-logo="https://itv.az/assets/images/itv-logo.png" group-title="General",İctimai TV (720p)
 https://node19.connect.az:8086/ch1/ch1.hi.m3u8
+#EXTINF:-1 tvg-id="IdmanTV.az" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://i.imgur.com/cUs7TFd.png" group-title="Sports",İdman TV (576p)
+http://109.205.166.68/server124/idman_az/index.m3u8
+#EXTINF:-1 tvg-id="InterAz.az" tvg-country="AZ" tvg-language="Azerbaijani;Russian" tvg-logo="https://upload.wikimedia.org/wikipedia/az/thumb/3/3e/%C4%B0nterAz_loqosu.jpeg/600px-%C4%B0nterAz_loqosu.jpeg" group-title="General",İnterAz (1080p)
+http://yayin.netradyom.com:1935/live/interaz/playlist.m3u8
+#EXTINF:-1 tvg-id="KepezTV.az" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://upload.wikimedia.org/wikipedia/az/thumb/3/3e/K%C9%99p%C9%99z_TV_%282019-h.h.%29.png/504px-K%C9%99p%C9%99z_TV_%282019-h.h.%29.png" group-title="General",Kəpəz TV (540p)
+http://85.132.81.184:8080/arbkepez/live/index.m3u8
 #EXTINF:-1 tvg-id="MavTVEurope.us" tvg-country="EUR" tvg-language="English" tvg-logo="https://www.mavtv.com/assets/images/mavtv_logo.png" group-title="Sports",MavTV Europe (720p)
 https://mavtv-mavtvglobal-1-eu.rakuten.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 tvg-id="StarTV.az" tvg-country="AZ" tvg-language="" tvg-logo="" group-title="",Star TV (1080p) [Not 24/7]
-http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TV7.az" tvg-country="AZ" tvg-language="" tvg-logo="" group-title="",TV7 (540p) [Not 24/7]
-http://media.az-mediaserver.com:1935/7064/7064/playlist.m3u8
+#EXTINF:-1 tvg-id="MedeniyyetTV.az" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="http://medeniyyettv.az/storage/settings/September2019/RDRVyTmdeB1NvyNm4UnF.png" group-title="Culture",Mədəniyyət TV (576p)
+http://streams.livetv.az/azerbaijan/medeniyyet_stream2/playlist.m3u8
+#EXTINF:-1 tvg-id="MuganTV.az" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://i.imgur.com/HMT5vZA.png" group-title="General",Muğan TV (1080p)
+http://cdn10-mugantv.yayin.com.tr/mugantv/mugantv/playlist.m3u8
+#EXTINF:-1 tvg-id="NaxcivanTV.az" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://ntv.az/assets/images/logo.png" group-title="General",Naxçıvan TV (720p)
+http://canli.naxcivantv.az/media/20210930/index.m3u8
+#EXTINF:-1 tvg-id="QafqazTV.az" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://upload.wikimedia.org/wikipedia/az/thumb/6/69/Qafqaz_TV_%282017-h.h.%29.png/640px-Qafqaz_TV_%282017-h.h.%29.png" group-title="General",Qafqaz TV (720p)
+https://europe2.livetv.az/azerbaijan/qafqaztv/playlist.m3u8
+#EXTINF:-1 tvg-id="QblTV.az" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://i.imgur.com/degUDMf.png" group-title="General",Qəbələ TV (480p) [Not 24/7]
+https://qebele.tv/live/stream/index.m3u8

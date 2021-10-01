@@ -7,7 +7,7 @@ http://hz1.teleport.cc/HLS/HD.m3u8
 http://1music.hu/1music.m3u8
 #EXTINF:-1 tvg-id="4Kurd.fr" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Music",4 Kurd (720p)
 http://51.210.199.28/hls/stream.m3u8
-#EXTINF:-1 tvg-id="4TurkMusic.fr" tvg-country="FR;TK" tvg-language="Turkish" tvg-logo="" group-title="Music",4 Turk Music [Not 24/7]
+#EXTINF:-1 tvg-id="4TurkMusic.fr" tvg-country="FR;TR" tvg-language="Turkish" tvg-logo="" group-title="Music",4 Turk Music [Not 24/7]
 http://51.210.199.30/hls/stream.m3u8
 #EXTINF:-1 tvg-id="7SMusic.in" tvg-country="IN" tvg-language="Tamil" tvg-logo="https://i.imgur.com/P5EXpPy.jpg" group-title="Music",7S Music (576p)
 http://103.199.161.254/Content/7smusic/Live/Channel(7smusic)/index.m3u8
@@ -122,14 +122,14 @@ https://keshethlslive-lh.akamaihd.net/i/24live_1@195271/index_2200_av-b.m3u8
 #EXTINF:-1 tvg-id="CityMusicTV.be" tvg-country="BE" tvg-language="Dutch" tvg-logo="https://i.imgur.com/LJ4Hpdc.png" group-title="Music",City Music TV (720p)
 https://5592f056abba8.streamlock.net/citytv/citytv/playlist.m3u8
 #EXTINF:-1 tvg-id="CompanyTV.it" tvg-country="IT" tvg-language="Italian" tvg-logo="" group-title="Music",Company TV (720p)
-http://wma10.fluidstream.net/CompanyTV/_definst_/mp4:livestream_720p/playlist.m3u8
+http://wma10.fluidstream.net/CompanyTV/mp4:livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="ConectaTV.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/9TGQZzk.png" group-title="Music",Conecta TV (720p)
 http://204.12.211.210:1935/conectatv/conectatv/playlist.m3u8
 #EXTINF:-1 tvg-id="DanceStarTV.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/xLqyZQQ.png" group-title="Music",DanceStar TV (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
 https://vcndstv.teleosmedia.com/stream/dstv/dstv/playlist.m3u8
 #EXTINF:-1 tvg-id="DeeJayTV.it" tvg-country="IT" tvg-language="Italian" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/9/93/Logo_Deejay.svg/1024px-Logo_Deejay.svg.png" group-title="Music",DeeJay TV (360p)
-http://deejay_tv-lh.akamaihd.net/i/DeejayTv_1@129866/index_600_av-p.m3u8
+https://deejay_tv-lh.akamaihd.net/i/DeejayTv_1@129866/master.m3u8
 #EXTINF:-1 tvg-id="DeluxeLoungeHD.de" tvg-country="DE" tvg-language="German" tvg-logo="https://www.highview.com/fileadmin/Webdata/grafiken/highview/brands/lounge_deluxe_brand_logo_HD_neu.png" group-title="Music",Deluxe Lounge HD (720p)
 https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/manifest/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/91fcad1e-54b1-4702-9ec1-22a379525281/0.m3u8
 #EXTINF:-1 tvg-id="DesiChannel.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="" group-title="Music",Desi Channel (400p)
@@ -303,10 +303,6 @@ http://live.m2.tv/hls2/stream.m3u8
 #EXTINF:-1 tvg-id="M2.ua" tvg-country="UA" tvg-language="Ukrainian" tvg-logo="" group-title="Music",M2 (720p)
 http://live.m2.tv/hls3/stream.m3u8
 #EXTINF:-1 tvg-id="m2oTV.it" tvg-country="IT" tvg-language="Italian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Radio_m2o_-_Logo_2019.svg/936px-Radio_m2o_-_Logo_2019.svg.png" group-title="Music",m2o TV (360p)
-http://m2otv-lh.akamaihd.net/i/m2oTv_1@186074/index_600_av-p.m3u8
-#EXTINF:-1 tvg-id="m2oTV.it" tvg-country="IT" tvg-language="Italian" tvg-logo="https://raw.githubusercontent.com/geonsey/Free2ViewTV/master/images/logos/logo_m2o_1024x1024.png" group-title="Music",m2o TV (360p)
-https://m2otv-lh.akamaihd.net/i/m2oTv_1@186074/index_600_av-p.m3u8?rebase=on&sd=10
-#EXTINF:-1 tvg-id="M2O IT" tvg-country="IT" tvg-language="Italian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Radio_m2o_-_Logo_2019.svg/936px-Radio_m2o_-_Logo_2019.svg.png" group-title="Music",m2o TV (360p)
 https://m2otv-lh.akamaihd.net/i/m2oTv_1@186074/master.m3u8
 #EXTINF:-1 tvg-id="MadGreekz.gr" tvg-country="GR" tvg-language="" tvg-logo="" group-title="Music",Mad Greekζ (240p) [Not 24/7]
 http://live.streams.ovh:1935/foxtv/foxtv/playlist.m3u8
@@ -477,17 +473,13 @@ https://cloudflare.streamgato.us:3901/live/radio105live.m3u8
 #EXTINF:-1 tvg-id="RadioCapitalTV.it" tvg-country="IT" tvg-language="Italian" tvg-logo="https://i.imgur.com/0bv1gID.png" group-title="Music",Radio Capital TV (360p)
 http://capital-live-tv-01-hls.akamai.media.kataweb.it/i/CapitalTv_1@183098/master.m3u8
 #EXTINF:-1 tvg-id="RadioCapitalTV.it" tvg-country="IT" tvg-language="Italian" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/3/38/Radio_Capital_logo_%282020%29.svg/1280px-Radio_Capital_logo_%282020%29.svg.png" group-title="Music",Radio Capital TV (360p)
-http://capital_tv-lh.akamaihd.net/i/CapitalTv_1@183098/index_5_av-b.m3u8
+https://capital_tv-lh.akamaihd.net/i/CapitalTv_1@183098/master.m3u8
 #EXTINF:-1 tvg-id="RadioContact.be" tvg-country="BE" tvg-language="French" tvg-logo="https://i.ibb.co/4jfSTKz/contact.jpg" group-title="Music",Radio Contact (720p)
 https://contact-lh.akamaihd.net/i/CONTACT_1@321283/master.m3u8
 #EXTINF:-1 tvg-id="RadioItaliaTV.it" tvg-country="IT" tvg-language="Italian" tvg-logo="https://api.superguidatv.it/v1/channels/165/logo?width=120&theme=light" group-title="Music",Radio Italia TV (480p)
 https://radioitaliatv-lh.akamaihd.net/i/radioitaliatv_1@329645/master.m3u8
-#EXTINF:-1 tvg-id="RadioItaliaTV.it" tvg-country="IT" tvg-language="Italian" tvg-logo="https://i.imgur.com/bedxx0y.png" group-title="Music",Radio Italia TV (480p) [Not 24/7]
-http://radioitaliatv-lh.akamaihd.net/i/radioitaliatv_1@329645/index_720x480_av-p.m3u8
 #EXTINF:-1 tvg-id="RadioJavanTV.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="https://i.imgur.com/4XTyMST.jpg" group-title="Music",Radio Javan TV (720p) [Not 24/7]
 https://stream.rjtv.stream/live/smil:rjtv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioKissKissTV.it" tvg-country="IT" tvg-language="Italian" tvg-logo="https://i.imgur.com/18CuJ8X.png" group-title="Music",Radio Kiss Kiss TV (720p)
-https://59253971be783.streamlock.net/KissKissTV/KissKissTV.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioPiterPanTV.it" tvg-country="IT" tvg-language="Italian" tvg-logo="https://i.imgur.com/DfugVgy.png" group-title="Music",Radio Piter Pan TV (720p) [Not 24/7]
 https://58d921499d3d3.streamlock.net/RadioPiterpanTV/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioPROS.be" tvg-country="BE" tvg-language="Dutch" tvg-logo="https://i.imgur.com/RMjFeGE.png" group-title="Music",Radio PROS (720p) [Not 24/7]
@@ -501,7 +493,7 @@ https://5857499ee635b.streamlock.net/radiowesertv-live/mp4:livestreamTV/playlist
 #EXTINF:-1 tvg-id="RadioXtrema.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="" group-title="Music",Radio Xtrema [Not 24/7]
 https://rtmp02.portalexpress.es/xtrematv2/xtrematv2/playlist.m3u8
 #EXTINF:-1 tvg-id="RadionorbaTV.it" tvg-country="IT" tvg-language="Italian" tvg-logo="http://guidatv.sky.it/app/guidatv/images/epgimages/channels/home/25780_home.png" group-title="Music",Radionorba TV (404p)
-http://flash2.xdevel.com/norbatv/smil:norbatv.smil/chunklist_b864000_slita.m3u8
+http://flash2.xdevel.com/norbatv/smil:norbatv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RealTV.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="http://expressott.in/uploads/tv_image/real-tv.jpg" group-title="Music",Real TV (1080p) [Not 24/7]
 http://cloud.logicwebs.in:1935/realtv/realtv1/playlist.m3u8
 #EXTINF:-1 tvg-id="RelaxTV" tvg-country="IN" tvg-language="Tamil" tvg-logo="http://expressott.in/uploads/tv_image/relax-tv.png" group-title="Music",Relax TV (720p) [Not 24/7]
