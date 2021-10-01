@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/digiturk.com.tr.guide.xml,https://iptv-org.github.io/epg/guides/elcinema.com.guide.xml,https://iptv-org.github.io/epg/guides/m.tv.sms.cz.guide.xml,https://iptv-org.github.io/epg/guides/ontvtonight.com.guide.xml,https://iptv-org.github.io/epg/guides/tvprofil.com.guide.xml,https://iptv-org.github.io/epg/guides/tvtv.ca.guide.xml"
+#EXTINF:-1 tvg-id="2MMonde.ma" tvg-country="MA" tvg-language="Arabic;French" tvg-logo="https://i.imgur.com/CwwRn4b.png" group-title="General",2M Monde (360p)
+https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/2m_monde/hls_video_ts/2m_monde.m3u8
 #EXTINF:-1 tvg-id="3eeshAlAanTV.ae" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://www.3eeshalaan.net/wp-content/themes/alaan-child-3eesh/assets/img/logo.png" group-title="General",3eesh Al Aan TV (720p)
 https://streaming.3eeshalaan.net/AAAFinalFeed/AlAanFeed_live.m3u8
 #EXTINF:-1 tvg-id="ABNsat.iq" tvg-country="IQ" tvg-language="Arabic" tvg-logo="http://vidmgr.abnvideos.com/images/playlists/phpENpJQS.jpeg" group-title="Religious",ABNsat (720p)
@@ -69,8 +71,6 @@ http://cdn.catiacast.video/abr/78054972db7708422595bc96c6e024ac/playlist.m3u8
 http://cdn.catiacast.video/abr/8d2ffb0aba244e8d9101a9488a7daa05/playlist.m3u8
 #EXTINF:-1 tvg-id="AlIstiqamaTV.om" tvg-country="OM" tvg-language="Arabic" tvg-logo="https://i.imgur.com/H7D7dmK.png" group-title="Religious",Al Istiqama TV (576p)
 https://jmc-live.ercdn.net/alistiqama/alistiqama.m3u8
-#EXTINF:-1 tvg-id="AlIttihad.lb" tvg-country="LB" tvg-language="Arabic" tvg-logo="http://alittihad.tv/assets/images/logo.png" group-title="General",Al Ittihad (552p) [Not 24/7]
-https://live.alittihad.tv/ittihad/index.m3u8
 #EXTINF:-1 tvg-id="AlJazeeraArabic.qa" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/x9TQYI3.jpg" group-title="News",Al Jazeera Arabic (1080p)
 https://live-hls-web-aja.getaj.net/AJA/index.m3u8
 #EXTINF:-1 tvg-id="AlJazeeraArabic.qa" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/DBJTZaS.png" group-title="News",Al Jazeera Arabic (480p)
@@ -234,6 +234,8 @@ https://svs.itworkscdn.net/itwlive/itw3.smil/playlist.m3u8
 http://142.112.39.133:8080/catv.mp4
 #EXTINF:-1 tvg-id="CartoonNetworkArabic.us" tvg-country="MENA" tvg-language="Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Cartoon_Network_Arabic_logo.png/693px-Cartoon_Network_Arabic_logo.png" group-title="Kids",Cartoon Network Arabic (1080p)
 https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index.m3u8
+#EXTINF:-1 tvg-id="CBC.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="" group-title="",CBC (720p)
+https://iptv.dc-team.com/query?url=https://www.youtube.com/c/cbcstream/live
 #EXTINF:-1 tvg-id="CGTNArabic.cn" tvg-country="CN" tvg-language="Arabic" tvg-logo="https://ui.cgtn.com/static/resource/images/icon_new/live/live_AR.png" group-title="News",CGTN Arabic (720p)
 http://livear.cgtn.com/1000a/prog_index.m3u8
 #EXTINF:-1 tvg-id="Ch4Teen.kw" tvg-country="KW" tvg-language="Arabic" tvg-logo="https://i.imgur.com/JeG9K1y.png" group-title="Religious",Ch4Teen (480p) [Not 24/7]
@@ -278,8 +280,9 @@ https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8
 https://cdn02.hta.dz/abr_htatv/ECHOROUK_NEWS/playlist.m3u8
 #EXTINF:-1 tvg-id="ElDjazairiaOne.dz" tvg-country="DZ" tvg-language="Arabic" tvg-logo="https://i.imgur.com/OhTioAg.png" group-title="",El Djazairia One [Not 24/7]
 https://cdn02.hta.dz/abr_htatv/EL_DJAZAIRIA_TV/playlist.m3u8
-#EXTINF:-1 tvg-id="ElHiwarElTounsi.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://www.elhiwarettounsi.com/images/news/logo.png" group-title="General",El Hiwar El Tounsi (1080p) [Not 24/7]
-https://iptv.dc-team.com/query?url=https://www.dailymotion.com/video/k2IuM11CZakq4ZvrUkv
+#EXTINF:-1 tvg-id="ElHiwarElTounsi.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://www.elhiwarettounsi.com/images/news/logo.png" group-title="General",El Hiwar El Tounsi (400p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=TNAgexpl212C
+http://217.182.137.206/elhiwar.m3u8
 #EXTINF:-1 tvg-id="ElbesharaGTV.us" tvg-country="US;EG" tvg-language="Arabic" tvg-logo="https://i.imgur.com/wup8DKR.jpg" group-title="Religious",Elbeshara GTV (720p)
 http://media3.smc-host.com:1935/elbesharagtv.com/gtv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ElsharqTV.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="http://elsharq.tv/img/elsharq.png" group-title="General",Elsharq TV (1080p) [Not 24/7]
