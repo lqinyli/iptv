@@ -287,6 +287,8 @@ http://media3.smc-host.com:1935/elbesharagtv.com/gtv.smil/playlist.m3u8
 https://mn-nl.mncdn.com/elsharq_live/live/playlist.m3u8
 #EXTINF:-1 tvg-id="EnnaharTV.dz" tvg-country="DZ" tvg-language="Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Ennahar_TV.svg/330px-Ennahar_TV.svg.png" group-title="",Ennahar TV (360p)
 http://numidiatv-live.dzsecurity.net:8081/entv/EnnaharTV_SD/chunks.m3u8
+#EXTINF:-1 tvg-id="eXtraNews.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="https://extranews.tv/assets/images/Extranews_logo_R.png" group-title="News",eXtra News (720p) [Not 24/7]
+https://iptv.dc-team.com/query?url=https://www.youtube.com/channel/UC65F33K2cXk9hGDbOQYhTOw/live
 #EXTINF:-1 tvg-id="FadakTV.uk" tvg-country="UK" tvg-language="Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/13/FadakTV.png" group-title="Religious",Fadak TV (1080p)
 https://iptv.dc-team.com/query?url=https://www.youtube.com/c/ddrricky/live
 #EXTINF:-1 tvg-id="FadakTV.uk" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/P72KE0t.png" group-title="Religious",Fadak TV (1080p) [Not 24/7]
@@ -319,8 +321,6 @@ https://streaming.zaytonatube.com:8081/newhebron/newheb/playlist.m3u8
 https://streaming.zaytonatube.com:8081/Hekaya/hekayamix/playlist.m3u8
 #EXTINF:-1 tvg-id="HQMArabic.es" tvg-country="ES" tvg-language="Arabic" tvg-logo="https://hqm.es/wp-content/uploads/arabic-hqm-logo.png" group-title="Music",HQM Arabic (1080p)
 https://livelist01.yowi.tv/lista/39596c72840d27b213caf4e58c39599a6f2ed203/master.m3u8
-#EXTINF:-1 tvg-id="Huda.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="https://i.imgur.com/7dnjDgw.jpg" group-title="",Huda (720p)
-https://cdn.videoevent.live:19360/elfaro2/elfaro2.m3u8
 #EXTINF:-1 tvg-id="iFILMArabic.ir" tvg-country="IR" tvg-language="Arabic" tvg-logo="https://i.imgur.com/RPwKZUD.jpg" group-title="Movies",iFILM Arabic (720p)
 https://live.presstv.ir/ifilmlive/smil:ifilmar.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ImamHusseinTV2Arabic.iq" tvg-country="IQ" tvg-language="Arabic" tvg-logo="https://i.imgur.com/ocyh4DD.jpg" group-title="Religious",Imam Hussein TV 2 Arabic (720p)
@@ -645,8 +645,9 @@ https://linkastream.co/headless?url=https://ok.ru/live/2231907917430
 https://shls-wanasah-prod-dub.shahid.net/out/v1/c84ef3128e564b74a6a796e8b6287de6/index.m3u8
 #EXTINF:-1 tvg-id="WatanTV.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="http://www.watanegypt.tv/design/home/img/f-logo.png" group-title="General",Watan TV (1080p)
 http://51.15.246.58:8081/watantv_source2/live/playlist.m3u8
-#EXTINF:-1 tvg-id="Watania1.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://tunisietv.com/wp-content/uploads/2015/05/El_Wataniya_1_Logo.png" group-title="General",Watania 1 (720p)
-https://iptv.dc-team.com/query?url=https://www.youtube.com/c/WataniaReplay/live
+#EXTINF:-1 tvg-id="Watania1.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://tunisietv.com/wp-content/uploads/2015/05/El_Wataniya_1_Logo.png" group-title="General",Watania 1 (400p)
+#EXTVLCOPT:http-user-agent=TNAgexpl212C
+http://217.182.137.206/tunisie1.m3u8
 #EXTINF:-1 tvg-id="Watania2.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://tunisietv.com/wp-content/uploads/2015/05/Logo_Wataniya_2.png" group-title="General",Watania 2 (400p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=TNAgexpl212C
 http://217.182.137.206/tunisie2.m3u8

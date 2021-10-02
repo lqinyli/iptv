@@ -50,6 +50,8 @@ https://svs.itworkscdn.net/alwoustalive/alwoustatv.smil/playlist.m3u8
 https://www.elahmad.com/tv/m3u8/online_tv.m3u8?id=alfajertv
 #EXTINF:-1 tvg-id="AlfajerTV2.ps" tvg-country="PS" tvg-language="Arabic" tvg-logo="https://i.imgur.com/H8SaZXN.png" group-title="General",Alfajer TV 2 (720p)
 http://two.alfajertv.com:8081/AlfajertvHDTwo_web/web/playlist.m3u8
+#EXTINF:-1 tvg-id="AlvinChannelTV.az" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="http://www.alvinchannel.com/templates/Default/images/logo.png" group-title="General",Alvin Channel TV (480p) [Not 24/7]
+http://cdn10-alvinchannel.yayin.com.tr/alvinchannel/alvinchannel/playlist.m3u8
 #EXTINF:-1 tvg-id="AmgaTV.us" tvg-country="AM" tvg-language="Armenian;Russian;English" tvg-logo="https://i.imgur.com/3vQVwUV.jpg" group-title="General",Amga TV (720p) [Not 24/7]
 https://streamer1.connectto.com/AMGA_WEB_1202/playlist.m3u8
 #EXTINF:-1 tvg-id="AmmanTV.jo" tvg-country="JO" tvg-language="Arabic" tvg-logo="https://i.imgur.com/vkqYIO4.jpg" group-title="General",Amman TV (720p)
@@ -703,8 +705,9 @@ https://goliveafrica.media:9998/live/6049f726546e1/index.m3u8
 https://live.karwan.tv/karwan.tv/waar-tv/playlist.m3u8
 #EXTINF:-1 tvg-id="WatanTV.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="http://www.watanegypt.tv/design/home/img/f-logo.png" group-title="General",Watan TV (1080p)
 http://51.15.246.58:8081/watantv_source2/live/playlist.m3u8
-#EXTINF:-1 tvg-id="Watania1.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://tunisietv.com/wp-content/uploads/2015/05/El_Wataniya_1_Logo.png" group-title="General",Watania 1 (720p)
-https://iptv.dc-team.com/query?url=https://www.youtube.com/c/WataniaReplay/live
+#EXTINF:-1 tvg-id="Watania1.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://tunisietv.com/wp-content/uploads/2015/05/El_Wataniya_1_Logo.png" group-title="General",Watania 1 (400p)
+#EXTVLCOPT:http-user-agent=TNAgexpl212C
+http://217.182.137.206/tunisie1.m3u8
 #EXTINF:-1 tvg-id="Watania2.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://tunisietv.com/wp-content/uploads/2015/05/Logo_Wataniya_2.png" group-title="General",Watania 2 (400p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=TNAgexpl212C
 http://217.182.137.206/tunisie2.m3u8
