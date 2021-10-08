@@ -403,7 +403,7 @@ https://stream.swagit.com/live-edge/houstontx/smil:hd-16x9-2-a/playlist.m3u8
 #EXTINF:-1 tvg-id="HTV2HoustonTelevision.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/zvj1boM.jpg" group-title="Local",HTV 2 Houston Television (720p)
 https://stream.swagit.com/live-edge/houstontx/smil:hd-16x9-2-b/playlist.m3u8
 #EXTINF:-1 tvg-id="HuachoPerúTV.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/huachotvperu/picture?width=320&height=320" group-title="Local",Huacho Perú TV [Not 24/7]
-https://tv.siete.us/hchoperutv/hchoperutv/index.m3u8
+https://rtmp02.portalexpress.es/hchoperutv/hchoperutv/playlist.m3u8
 #EXTINF:-1 tvg-id="HuanucoenVivo.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/huanucoenvivo/picture?width=320&height=320" group-title="Local",Huánuco en Vivo [Not 24/7]
 https://cp.sradiotv.com:1936/8006/8006/playlist.m3u8
 #EXTINF:-1 tvg-id="ImagenMulticast.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/KDZ50eC.jpg" group-title="Local",Imagen Multicast (480p) [Not 24/7]
@@ -826,7 +826,7 @@ http://live.sgdf24.cdnvideo.ru/sgdf24/sgdf24.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="SheffieldLiveTV.uk" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/eUqnYU1.png" group-title="Local",Sheffield Live TV (360p) [Not 24/7]
 http://tv.sheffieldlive.org/hls/main.m3u8
 #EXTINF:-1 tvg-id="Sistema1.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/sistema1tv/picture?width=320&height=320" group-title="Local",Sistema 1 (Huaraz) (720p) [Not 24/7]
-https://tv.siete.us/sistema1/sistema1/index.m3u8
+https://rtmp02.portalexpress.es/sistema1tv/sistema1tv/playlist.m3u8
 #EXTINF:-1 tvg-id="SolStereoTV.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/solstereotvcasma/picture?width=320&height=320" group-title="Local",Sol Stereo TV (Casma) [Not 24/7]
 https://stmv.panel.grupolimalive.com/solstereotv/solstereotv/playlist.m3u8
 #EXTINF:-1 tvg-id="SolarTelevision.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/TELEVISIONSOLAR/picture?width=320&height=320" group-title="Local",Solar Televisión (Abancay) [Not 24/7]
@@ -994,8 +994,6 @@ https://dai.google.com/linear/hls/event/-V3XSvA2Sa6e8h7cnHXB8w/master.m3u8
 https://vps1.lnx.pe/sumactv-web/envivo/index.m3u8
 #EXTINF:-1 tvg-id="SuperCanalYurimaguas.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/supercanalyuri/picture?width=320&height=320" group-title="Local",Super Canal (Yurimaguas) [Not 24/7]
 https://7.innovatestream.pe:19360/supercanal/supercanal.m3u8
-#EXTINF:-1 tvg-id="SuramTV.co" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/6d2fOjq.png" group-title="Local",Suram TV (1080p)
-https://5b3050bb1b2d8.streamlock.net/suramtv/suramtv/playlist.m3u8
 #EXTINF:-1 tvg-id="SurTVIlo.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/surtvilo/picture?width=320&height=320" group-title="Local",SurTV (Ilo) (720p) [Not 24/7]
 https://stmv.panel.grupolimalive.com/surtv/surtv/playlist.m3u8
 #EXTINF:-1 tvg-id="TebeSud.fr" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/WCjP4Wk.jpg" group-title="Local",TébéSud (1080p)
@@ -1005,6 +1003,8 @@ https://mediastreamm.com:3126/live/tele2000live.m3u8
 #EXTINF:-1 tvg-id="Teleamiga.co" tvg-country="CO" tvg-language="Spanish" tvg-logo="" group-title="Local",Teleamiga (Bogotà | Cundinamarca) (480p)
 #EXTVLCOPT:http-referrer=https://player.instantvideocloud.net/
 https://liveingesta118.cdnmedia.tv/teleamigatvlive/smil:dvrlive.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TelefeRosario.ar" tvg-country="AR" tvg-language="Spanish" tvg-logo="" group-title="Local",Telefe Rosario (720p) [Not 24/7]
+http://telefewhitehls-lh.akamaihd.net/i/whitelist_hls@302302/master.m3u8
 #EXTINF:-1 tvg-id="TeleJunin.ar" tvg-country="AR" tvg-language="Spanish" tvg-logo="" group-title="Local",TeleJunín (576p) [Not 24/7]
 https://videostream.shockmedia.com.ar:1936/telejunin/telejunin/playlist.m3u8
 #EXTINF:-1 tvg-id="TelenordCorrientes.ar" tvg-country="AR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/byxXHzq.png" group-title="Local",Telenord Corrientes (720p) [Not 24/7]
@@ -1212,7 +1212,7 @@ https://cdn87.theus6tv.tk/locals/NewYorkCity/wxtv-dt1.m3u8
 #EXTINF:-1 tvg-id="KDTVTV.us" tvg-country="US" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f6/KDTV-14_logo.png" group-title="Local",Univision West (KDTV) (720p)
 https://cdn87.theus6tv.tk/locals/BayArea/kfsf-dt2.m3u8
 #EXTINF:-1 tvg-id="UranioTVYurimaguas.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/uraniotv/picture?width=320&height=320" group-title="Local",Uranio TV (Yurimaguas) (720p) [Not 24/7]
-https://tv.siete.us/uraniotv/uraniotv/index.m3u8
+https://rtmp02.portalexpress.es/uraniotv/uraniotv/playlist.m3u8
 #EXTINF:-1 tvg-id="isumatv.ca" tvg-country="CA" tvg-language="English;Inuktitut" tvg-logo="https://i.imgur.com/RR7ATr2.png" group-title="Local",Uvagut TV (720p)
 http://dee7mwgg9dzvl.cloudfront.net/hls/uvagut/playlist.m3u8
 #EXTINF:-1 tvg-id="VamisaTV.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/RadioVamisaTelevision/picture?width=320&height=320" group-title="Local",VamisaTV (Lima) [Not 24/7]
