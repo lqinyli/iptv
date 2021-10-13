@@ -11,6 +11,8 @@ http://eu2.tv4e.gr:554/live/smil:myStream.sdp.smil/playlist.m3u8
 https://stream.4fun.tv:8888/hls/4f_high/index.m3u8
 #EXTINF:-1 tvg-id="7LaRioja.es" tvg-country="ES" tvg-language="" tvg-logo="" group-title="",7 La Rioja (1080p) [Not 24/7]
 https://pc-la7delarioja-hls.flumotion.com/playlist.m3u8
+#EXTINF:-1 tvg-id="7Noticias.es" tvg-country="ES" tvg-language="" tvg-logo="" group-title="News",7 Noticias (1080p)
+https://amg01573-7nn-7nnono-ono-pcdj3.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="7kanal.kz" tvg-country="KZ" tvg-language="" tvg-logo="" group-title="",7 канал (432p) [Not 24/7]
 https://sc.id-tv.kz/7_kanal.m3u8
 #EXTINF:-1 tvg-id="8TV.my" tvg-country="MY" tvg-language="" tvg-logo="https://www.xtra.com.my/wp-content/themes/xtra_revamp/assets/img/tv8.png" group-title="",8TV (720p)
@@ -485,7 +487,7 @@ https://tv.city.bg/play/tshls/citytv/index.m3u8
 #EXTINF:-1 tvg-id="CJBceongjubangsongSBSQingZhou.kr" tvg-country="KR" tvg-language="" tvg-logo="https://www.cjb.co.kr/home/images/layout/f_logo.gif" group-title="",CJB청주방송 (SBS 淸州) (540p) [Not 24/7]
 http://1.222.207.80:1935/live/cjbtv/playlist.m3u8
 #EXTINF:-1 tvg-id="Clan.es" tvg-country="ES" tvg-language="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5d/Tve_clan.png" group-title="",Clan TVE (1080p) [Geo-blocked]
-https://rtvelivestream.akamaized.net/clan_bkp_dvr.m3u8
+https://rtvelivestreamv3.akamaized.net/clan/clan_main_dvr.m3u8
 #EXTINF:-1 tvg-id="ClassCNBC.it" tvg-country="IT" tvg-language="" tvg-logo="" group-title="Business",Class CNBC (576p)
 https://streamcdnb10-859c1818ed614cc5b0047439470927b0.msvdn.net/live/S76890577/tDoFkZD3T1Lw/playlist.m3u8
 #EXTINF:-1 tvg-id="CMMTV.es" tvg-country="ES" tvg-language="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdByrmGVNifOPE1W-LsD8oYtNGiRsIrrsMFw&usqp=CAU" group-title="",CMM TV (360p)
@@ -776,8 +778,6 @@ http://free.fullspeed.tv/query?url=https://www.youtube.com/channel/UCfJtBtmhnIyf
 https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxgotraveler/CDN/playlist.m3u8
 #EXTINF:-1 tvg-id="GoienaEus.es" tvg-country="ES" tvg-language="" tvg-logo="" group-title="",Goiena Eus (720p) [Not 24/7]
 https://zuzenean.goienamedia.eus:8443/goiena-telebista.m3u8
-#EXTINF:-1 tvg-id="GOL.es" tvg-country="ES" tvg-language="" tvg-logo="" group-title="",GOL (720p) [Geo-blocked]
-https://api.goltelevision.com/api/v1/stream/live/stream.m3u8
 #EXTINF:-1 tvg-id="Gold78.it" tvg-country="IT" tvg-language="" tvg-logo="" group-title="",Gold 78 (1080p)
 https://stream2.xdevel.com/video1s86-22/stream/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="GospelMovieTV.br" tvg-country="BR" tvg-language="" tvg-logo="https://i.imgur.com/XlNKtkD.jpg" group-title="Religious",Gospel Movie TV (720p)
@@ -1472,8 +1472,6 @@ https://58bd5b7a98e04.streamlock.net/medienasa-live/_definst_/mp4:ok-salzwedel_h
 http://58bd5b7a98e04.streamlock.net/medienasa-live/ok-salzwedel_high/playlist.m3u8
 #EXTINF:-1 tvg-id="OKStendal.de" tvg-country="DE" tvg-language="" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/okstendal.png" group-title="",OK Stendal (1080p)
 http://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:ok-stendal_high/playlist.m3u8
-#EXTINF:-1 tvg-id="OKSuedwestpfalz.de" tvg-country="DE" tvg-language="" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/oksuedwestpfalz.png" group-title="",OK Suedwestpfalz (720p)
-https://s.ok54.de/okswp/test/playlist.m3u8
 #EXTINF:-1 tvg-id="OKTrier.de" tvg-country="DE" tvg-language="" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/oktrier.png" group-title="",OK Trier (720p)
 https://s.ok54.de/ott/webstream/playlist.m3u8
 #EXTINF:-1 tvg-id="OKWeinstrasseNeustadt.de" tvg-country="DE" tvg-language="" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/okweinstrasse.png" group-title="",OK Weinstraße (Neustadt) (432p)
@@ -1671,6 +1669,8 @@ https://live3-radio-mediaset-it.akamaized.net/content/hls_h0_clr_vos/live/channe
 https://cdn.smartstream.video/smartstream-us/rplus/rplus/playlist.m3u8
 #EXTINF:-1 tvg-id="RaceCentralTV.au" tvg-country="AU" tvg-language="" tvg-logo="https://i.imgur.com/Ot9wh52.png" group-title="",Race Central TV (720p)
 https://nrpus.bozztv.com/36bay2/gusa-racecentral/index.m3u8
+#EXTINF:-1 tvg-id="Radio24.it" tvg-country="IT" tvg-language="" tvg-logo="" group-title="",Radio 24 (1080p) [Not 24/7]
+http://radio24-lh.akamaihd.net/i/radio24video_1@379914/master.m3u8
 #EXTINF:-1 tvg-id="Radio51TV.it" tvg-country="IT" tvg-language="" tvg-logo="" group-title="",Radio 51 TV (480p)
 http://178.32.140.155/canale51/canale51/playlist.m3u8
 #EXTINF:-1 tvg-id="Radio101.it" tvg-country="IT" tvg-language="" tvg-logo="https://www.105.net/images/logos/3/logo_colored.jpg" group-title="",Radio 101 (576p)
@@ -2246,7 +2246,7 @@ http://cm.hostlagarto.com:8081/Telecibao/Telecibao/playlist.m3u8
 #EXTINF:-1 tvg-id="Telecupole.it" tvg-country="IT" tvg-language="" tvg-logo="" group-title="",Telecupole (540p)
 https://live.livevideosolution.it/telecupole/dd6d85e5b7452f7b85a099509292b421.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="Tdp.es" tvg-country="ES" tvg-language="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Tve_teledeporte.png/800px-Tve_teledeporte.png" group-title="",Teledeporte (1080p) [Geo-blocked]
-https://rtvelivestream.akamaized.net/tdp_bkp_dvr.m3u8
+https://rtvelivestreamv3.akamaized.net/rtvesec/tdp_bkp_dvr.m3u8
 #EXTINF:-1 tvg-id="Telefriuli.it" tvg-country="IT" tvg-language="" tvg-logo="http://beyondprod.it/images/telefriuli_positivo.jpg" group-title="",Telefriuli (720p) [Not 24/7]
 https://streamtechglobal.akamaized.net/hls/live/2024685/telefriuli/Group01/playlist.m3u8
 #EXTINF:-1 tvg-id="TeleGenova.it" tvg-country="IT" tvg-language="" tvg-logo="" group-title="",TeleGenova (404p)
@@ -2716,7 +2716,7 @@ https://5983a4e15f07f.streamlock.net:8443/worocanal13pr/worocanal13pr/chunklist_
 #EXTINF:-1 tvg-id="WOSTV.nl" tvg-country="NL" tvg-language="" tvg-logo="https://i.imgur.com/UtOWySG.jpg" group-title="",WOS TV (1080p)
 https://ms2.mx-cd.net/dtv-11/99-660295/WOS.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="WOWTV.sv" tvg-country="SV" tvg-language="" tvg-logo="https://forounivers.com/uploads/monthly_2020_05/large.wowtv2020.png.4fa9c9f8cb5ec86eb2b81a45780bdc93.png" group-title="",WOW TV (720p) [Not 24/7]
-http://cdn.elsalvadordigital.com:1935/wowtv/wowtv/playlist.m3u8
+https://cdn.elsalvadordigital.com:1936/wowtv/smil:wowtv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-language="" tvg-logo="" group-title="",WTV Wettin
 http://62.113.210.250:1935/medienasa-live/ok-wettin_high/playlist.m3u8
 #EXTINF:-1 tvg-id="XITE.nl" tvg-country="NL" tvg-language="" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/xite.png" group-title="",XITE (720p)
