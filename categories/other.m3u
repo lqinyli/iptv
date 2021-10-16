@@ -1,6 +1,4 @@
 #EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/astro.com.my.guide.xml,https://iptv-org.github.io/epg/guides/comteco.com.bo.guide.xml,https://iptv-org.github.io/epg/guides/cosmote.gr.guide.xml,https://iptv-org.github.io/epg/guides/digiturk.com.tr.guide.xml,https://iptv-org.github.io/epg/guides/elcinema.com.guide.xml,https://iptv-org.github.io/epg/guides/guidatv.sky.it.guide.xml,https://iptv-org.github.io/epg/guides/hd-plus.de.guide.xml,https://iptv-org.github.io/epg/guides/m.tv.sms.cz.guide.xml,https://iptv-org.github.io/epg/guides/maxtv.hrvatskitelekom.hr.guide.xml,https://iptv-org.github.io/epg/guides/meo.pt.guide.xml,https://iptv-org.github.io/epg/guides/mi.tv.guide.xml,https://iptv-org.github.io/epg/guides/mncvision.id.guide.xml,https://iptv-org.github.io/epg/guides/ontvtonight.com.guide.xml,https://iptv-org.github.io/epg/guides/programacion-tv.elpais.com.guide.xml,https://iptv-org.github.io/epg/guides/programetv.ro.guide.xml,https://iptv-org.github.io/epg/guides/programme-tv.net.guide.xml,https://iptv-org.github.io/epg/guides/programtv.onet.pl.guide.xml,https://iptv-org.github.io/epg/guides/telkussa.fi.guide.xml,https://iptv-org.github.io/epg/guides/tv.yandex.ru.guide.xml,https://iptv-org.github.io/epg/guides/tvgid.ua.guide.xml,https://iptv-org.github.io/epg/guides/tvguide.com.guide.xml,https://iptv-org.github.io/epg/guides/tvprofil.com.guide.xml,https://iptv-org.github.io/epg/guides/tvtv.ca.guide.xml,https://iptv-org.github.io/epg/guides/tvtv.us.guide.xml"
-#EXTINF:-1 tvg-id="1Plus1Sport.ua" tvg-country="UA" tvg-language="Ukrainian" tvg-logo="" group-title="",1+1 Спорт (720p)
-https://live-k2301-kbp.1plus1.video/sport/smil:sport.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="123TV.de" tvg-country="DE" tvg-language="" tvg-logo="" group-title="",1-2-3 TV (480p)
 http://123tv-mx1.flex-cdn.net/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-language="" tvg-logo="" group-title="",1A Network
@@ -2159,6 +2157,8 @@ https://cdnlive.shooowit.net/la8burgoslive/smil:streamswitchingchannel.smil/play
 https://cdnlive.shooowit.net/la8leonlive/smil:streamswitchingchannel.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="La8Mediterraneo.es" tvg-country="ES" tvg-language="" tvg-logo="" group-title="",La 8 Mediterráneo (1080p) [Not 24/7]
 https://play.cdn.enetres.net/489DDF7FE98241D19D8970314BC9D3EF021/0226/playlist.m3u8
+#EXTINF:-1 tvg-id="La8Palencia.es" tvg-country="ES" tvg-language="" tvg-logo="" group-title="",La 8 Palencia (720p) [Not 24/7]
+https://cdnlive.shooowit.net/la8palencialive/smil:streamswitchingchannel.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="La8Salamanca.es" tvg-country="ES" tvg-language="" tvg-logo="" group-title="",La 8 Salamanca (720p)
 https://cdnlive.shooowit.net/la8salamancalive/smil:streamswitchingchannel.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="La8Segovia.es" tvg-country="ES" tvg-language="" tvg-logo="" group-title="",La 8 Segovia (720p)
@@ -2425,8 +2425,8 @@ https://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:mdf1_high/playlist.m3u8
 https://58bd5b7a98e04.streamlock.net/medienasa-live/_definst_/mp4:mdf1_high/playlist.m3u8
 #EXTINF:-1 tvg-id="MDL.fr" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/QjjVd1M.jpg" group-title="",MDL (720p)
 http://tv.mondeduloisir.fr:1935/tixtv/smil:web.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="MEDMUZIK.tr" tvg-country="TR" tvg-language="Kurdish" tvg-logo="" group-title="",Med Müzik TV (720p)
-http://137.74.205.201/medmuzik/MedStream/playlist.m3u8
+#EXTINF:-1 tvg-id="MEDMUZIK.tr" tvg-country="TR" tvg-language="Kurdish" tvg-logo="" group-title="",Med Müzik TV (480p) [Not 24/7]
+http://163.172.39.215:25461/live/line/C4@!a3a1@!w72A/29.m3u8
 #EXTINF:-1 tvg-id="MEDIAREGIONAL.ro" tvg-country="RO" tvg-language="" tvg-logo="" group-title="",MEDIA REGIONAL (576p)
 http://83.103.150.198:8080
 #EXTINF:-1 tvg-id="MediasetExtra.it" tvg-country="IT" tvg-language="Italian" tvg-logo="" group-title="",Mediaset Extra [Geo-blocked]
@@ -3480,8 +3480,6 @@ https://59d7d6f47d7fc.streamlock.net/visualradio/visualradio/playlist.m3u8
 https://stream.rjtv.stream/live/smil:rjtv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-language="" tvg-logo="" group-title="",Radio Javan TV
 https://stream.rjtv.tv/live/smil:rjtv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioLaSabrosura.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="" group-title="",Radio La Sabrosura (720p)
-https://5eff35271151c.streamlock.net:1936/8096/8096/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioLombardiaTV.it" tvg-country="IT" tvg-language="Italian" tvg-logo="http://www.nododigordio.org/assets/uploads/2018/10/RL_06-300x168.png" group-title="",Radio Lombardia TV (720p)
 https://flash7.xdevel.com/radiolombardiatv/radiolombardiatv/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioMaxima949FMSB.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://i.imgur.com/GQWiS9Q.png" group-title="",Radio Maxima 94.9 FM SB (720p) [Not 24/7]
@@ -4016,6 +4014,8 @@ http://145.239.37.125:20458/sabantv3/sabantv3/playlist.m3u8
 http://free.fullspeed.tv/query?url=https://www.twitch.tv/elbaladtv
 #EXTINF:-1 tvg-id="SadaTV.in" tvg-country="IN" tvg-language="" tvg-logo="" group-title="",Sada TV (720p)
 http://cdn12.henico.net:8080/live/sadatv/index.m3u8
+#EXTINF:-1 tvg-id="SafariTV.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/LOepeP3.jpg" group-title="",Safari TV (480p) [Not 24/7]
+https://j78dp346yq5r-hls-live.5centscdn.com/safari/live.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="SAHAND.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="",SAHAND (576p)
 https://sdm.telewebion.com/live/sahand/playlist.m3u8
 #EXTINF:-1 tvg-id="Sahar.ir" tvg-country="IR" tvg-language="" tvg-logo="" group-title="",Sahar (240p)
@@ -4449,8 +4449,6 @@ http://tbs.hscdn.com/tbstvweb/tbstv/chunklist_w1331473189.m3u8
 https://tbs.mov3.co/hls/tbs.m3u8
 #EXTINF:-1 tvg-id="TCS.sv" tvg-country="SV" tvg-language="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/34/Logotipo-tcs-sv.png" group-title="",TCS (720p)
 https://secure-video.tcsgo.com/tcshd/index.m3u8
-#EXTINF:-1 tvg-id="TDMInfoMacau.mo" tvg-country="MO" tvg-language="Chinese" tvg-logo="https://i.imgur.com/5FTCFRj.png" group-title="",TDM Info. Macau (720p)
-http://live4.tdm.com.mo/ch5/_definst_/info_ch5.live/playlist.m3u8
 #EXTINF:-1 tvg-id="TDMMacau.mo" tvg-country="MO" tvg-language="Chinese" tvg-logo="https://i.imgur.com/5FTCFRj.png" group-title="",TDM Macau (720p)
 http://live4.tdm.com.mo/ch1/_definst_/ch1.live/playlist.m3u8
 #EXTINF:-1 tvg-id="TDMMacauSatelite.mo" tvg-country="MO" tvg-language="Chinese" tvg-logo="https://i.imgur.com/59lAsao.png" group-title="",TDM Macau Satelite (720p)
@@ -5191,8 +5189,8 @@ http://50.7.161.82:8278/streams/d/Xinhe/playlist.m3u8
 http://116.199.5.51:8114/hls/Fsv_chan_hls_se_idx=12?Fsv_CMSID=&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Fsv_chan_hls_se_idx=12&Fsv_cid=0&Fsv_ctype=LIVES&Fsv_filetype=1&Fsv_otype=1&Fsv_rate_id=2&FvSeid=1&Pcontent_id=8114.m3u8&Provider_id=0
 #EXTINF:-1 tvg-id="TVBMingZhuTai.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",TVB明珠台 (576p)
 http://116.199.5.51:8114/00000000/hls/index.m3u8?Fsv_chan_hls_se_idx=12&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=1&Pcontent_id=.m3u8&Provider_id=
-#EXTINF:-1 tvg-id="TVBFeiCuiTai.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",TVB翡翠台
-http://116.199.5.51:8114/index.m3u8?Fsv_chan_hls_se_idx=188&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=1&Pcontent_id=.m3u8&Provider_id=
+#EXTINF:-1 tvg-id="TVBFeiCuiTai.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",TVB翡翠台 (576p)
+http://116.199.5.52:8114/00000000/index.m3u8?Fsv_CMSID=&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Fsv_chan_hls_se_idx=188&Fsv_cid=0&Fsv_ctype=LIVES&Fsv_ctype=LIVES&Fsv_filetype=1&Fsv_otype=1&Fsv_otype=1&Fsv_rate_id=0&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=
 #EXTINF:-1 tvg-id="TVCI.br" tvg-country="BR" tvg-language="" tvg-logo="" group-title="",TVCI (360p)
 http://flash8.crossdigital.com.br:1935/2306/2306/live.m3u8
 #EXTINF:-1 tvg-id="tvdx.si" tvg-country="SI" tvg-language="" tvg-logo="" group-title="",TVDX (486p) [Not 24/7]
@@ -5818,6 +5816,8 @@ http://ba5729d5.krasnafhg.ru/iptv/EAEWFFWBXPVVLY/915/index.m3u8
 https://s1.idata.uz/stch_temp6/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="NVKSaha.ru" tvg-country="RU" tvg-language="" tvg-logo="" group-title="",НВК Саха (1080p)
 http://live-saha.cdnvideo.ru/saha/saha/playlist.m3u8
+#EXTINF:-1 tvg-id="NizhniyNovgorod24.ru" tvg-country="RU" tvg-language="" tvg-logo="" group-title="",Нижний Новгород 24 (720p) [Not 24/7]
+https://live-vestinn.cdnvideo.ru/vestinn/nn24-khl/playlist.m3u8
 #EXTINF:-1 tvg-id="NikaTV.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://nikatv.ru/public/img/logo2.png" group-title="",Ника ТВ (576p) [Not 24/7]
 https://live-nikatv.cdnvideo.ru/nikatv/nikatv.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="NLOHD.ru" tvg-country="RU" tvg-language="" tvg-logo="" group-title="",НЛО HD (720p)
@@ -6332,6 +6332,8 @@ http://scgctvshow.sctv.com/hdlive/sctv4/index.m3u8
 http://scgctvshow.sctv.com/hdlive/sctv3/index.m3u8
 #EXTINF:-1 tvg-id="SiChuanIBaZhongZongHeTai.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",四川 Ⅰ 巴中综合台 [Not 24/7]
 http://30814.hlsplay.aodianyun.com/lms_30814/tv_channel_246.flv
+#EXTINF:-1 tvg-id="SiChuanIXingKongGouWuTai.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",四川 Ⅰ 星空购物台 (720p) [Not 24/7]
+http://scgctvshow.sctv.com/hdlive/sctv6/index.m3u8
 #EXTINF:-1 tvg-id="SiChuanILuZhouGongGong.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",四川 Ⅰ 泸州公共
 http://tvdrs.weblz.com.cn:8100/channellive/lztv2.flv
 #EXTINF:-1 tvg-id="SiChuanILuZhouKeJi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",四川 Ⅰ 泸州科技
