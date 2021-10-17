@@ -1,7 +1,7 @@
 #EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/al/tvprofil.com.epg.xml,https://iptv-org.github.io/epg/guides/ba/tvprofil.com.epg.xml,https://iptv-org.github.io/epg/guides/cz/m.tv.sms.cz.epg.xml,https://iptv-org.github.io/epg/guides/de/tvprofil.com.epg.xml,https://iptv-org.github.io/epg/guides/id/mncvision.id.epg.xml,https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml"
 #EXTINF:-1 tvg-id="4TurkMusic.fr" tvg-country="FR;TR" tvg-language="Turkish" tvg-logo="" group-title="Music",4 Turk Music [Not 24/7]
 http://51.210.199.30/hls/stream.m3u8
-#EXTINF:-1 tvg-id="24TV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/8FO41es.png" group-title="",24 TV (1080p)
+#EXTINF:-1 tvg-id="24TV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/8FO41es.png" user-agent="Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36" group-title="",24 TV (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
 https://mn-nl.mncdn.com/kanal24/smil:kanal24.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AALive.tr" tvg-country="TR" tvg-language="" tvg-logo="" group-title="",AA Live (720p)
@@ -102,7 +102,7 @@ https://ssl4.radyotvonline.com/e90tv/e90tvlive/playlist.m3u8
 https://dcunilive258-lh.akamaihd.net/i/dclive_1@126972/master.m3u8
 #EXTINF:-1 tvg-id="FinansTurkTV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.ibb.co/wBwmB1T/iY0osc7.png" group-title="",Finans Turk TV (360p)
 http://live.arkumedia.com:1935/finansturktv/finansturktv/playlist.m3u8
-#EXTINF:-1 tvg-id="FoxMoviesAsia.us" tvg-country="ASIA" tvg-language="Thai" tvg-logo="https://i.imgur.com/vs51MBW.png" group-title="Movies",Fox Movies Asia (Thai) (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="FoxMoviesAsia.us" tvg-country="ASIA" tvg-language="Thai" tvg-logo="https://i.imgur.com/vs51MBW.png" user-agent="Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36" group-title="Movies",Fox Movies Asia (Thai) (720p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
 https://www.livedoomovie.com/02_FoxMoviesHD_720p/chunklist.m3u8
 #EXTINF:-1 tvg-id="GaziantepOlayTv.tr" tvg-country="TR" tvg-language="" tvg-logo="" group-title="",Gaziantep Olay Tv (720p)
@@ -221,8 +221,6 @@ http://broadcasttr.com:1935/naturaltv/bant1/playlist.m3u8
 https://broadcasttr.com:446/naturaltv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="NTV.tr" tvg-country="TR" tvg-language="" tvg-logo="" group-title="",NTV (480p) [Not 24/7]
 http://163.172.39.215:25461/line/C4@!a3a1@!w72A/128
-#EXTINF:-1 tvg-id="NTVEurope.bd" tvg-country="EUR" tvg-language="Bengali;English" tvg-logo="https://europentv.ntvbd.com/sites/all/themes/sloth/logo.png" group-title="General",NTV Europe (720p)
-https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/ntvuk00332211.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="OgunTV.tr" tvg-country="TR" tvg-language="" tvg-logo="" group-title="",Ogün TV (360p)
 https://s01.vpis.io/ogun/ogun.m3u8
 #EXTINF:-1 tvg-id="OlayTurkTV.tr" tvg-country="TR" tvg-language="" tvg-logo="" group-title="",Olay Türk TV (720p)
@@ -233,6 +231,8 @@ http://waw1.artiyerelmedya.net:1935/olayturk/bant1/playlist.m3u8
 http://yayin.netradyom.com:1935/live/on4/playlist.m3u8
 #EXTINF:-1 tvg-id="OncuTV.tr" tvg-country="TR" tvg-language="" tvg-logo="https://i.imgur.com/TGPNYrD.jpg" group-title="",Öncü TV (720p) [Not 24/7]
 https://broadcasttr.com:446/oncurtv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="PetraTV.tr" tvg-country="TR" tvg-language="" tvg-logo="" group-title="",Petra TV (1080p) [Not 24/7]
+http://tt61.mine.nu/live/PetraTV/Fw99Gpq7Gq/6478.m3u8
 #EXTINF:-1 tvg-id="PowerTurk.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/9OPoXQG.png" group-title="",Power Turk (1080p)
 https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="PowerTV.tr" tvg-country="TR" tvg-language="" tvg-logo="https://i.imgur.com/291uOcR.png" group-title="",Power TV (1080p)
