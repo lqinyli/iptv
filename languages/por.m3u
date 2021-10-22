@@ -41,10 +41,6 @@ http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f357e91b18f0b00073583
 http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/609ae66b359b270007869ff1/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY
 #EXTINF:-1 tvg-id="DarkMatterTVBrazil.us" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/DarkMatterTV_218x218.png?raw=true" group-title="Series",Dark Matter TV Brazil (720p)
 https://darkmatter-por-samsungbrazil.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="DisneyChannelPortugal.es" tvg-country="PT" tvg-language="Portuguese;English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Disney_Channel_logo_%282014%29.svg/792px-Disney_Channel_logo_%282014%29.svg.png" group-title="Kids",Disney Channel Portugal
-http://185.236.229.21:9981/play/a056
-#EXTINF:-1 tvg-id="DisneyJuniorPortugal.es" tvg-country="PT" tvg-language="Portuguese;English" tvg-logo="" group-title="Kids",Disney Junior Portugal
-http://185.236.229.21:9981/play/a03q
 #EXTINF:-1 tvg-id="EuronewsPortugues.fr" tvg-country="INT" tvg-language="Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Euronews_2016_logo.svg/1000px-Euronews_2016_logo.svg.png" group-title="News",Euronews Português (720p)
 https://euronews-euronews-portugues-1-br.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="FailArmy.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://images.pluto.tv/channels/5f5141c1605ddf000748eb1b/colorLogoPNG.png" group-title="Comedy",FailArmy (720p)
@@ -209,6 +205,8 @@ https://d1gs793b1l6k9i.cloudfront.net/out/v1/a3aac39375df40a1a564635d7b41e90c/in
 https://api.new.livestream.com/accounts/10205943/events/3429501/live.m3u8
 #EXTINF:-1 tvg-id="TVPampa.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://www.livetvnews.com.br/wp-content/uploads/2019/03/Logo-RedeTV.png" group-title="General",Rede TV! Pampa (720p)
 https://59f1cbe63db89.streamlock.net:1443/tvpampa/tvpampa/playlist.m3u8
+#EXTINF:-1 tvg-id="RedeTV.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://www.livetvnews.com.br/wp-content/uploads/2019/03/Logo-RedeTV.png" group-title="General",Rede TV! SP (1080p) [Not 24/7]
+https://hls.brasilstream.com.br/live/redetv/redetv/playlist.m3u8
 #EXTINF:-1 tvg-id="RTP1.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/5-563718101410.png" group-title="General",RTP1 (480p)
 http://162.212.178.69:41042/bysid/608
 #EXTINF:-1 tvg-id="RTP2.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/3-363718101410.png" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)" group-title="General",RTP2 (504p) [Not 24/7]
@@ -253,8 +251,6 @@ http://live.impresa.pt/live/sicnot/sicnot.m3u8
 http://213.13.26.11:1935/live/sobrenaturaltv/livestream.m3u8
 #EXTINF:-1 tvg-id="SobrenaturalTV.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/VgzVZto.png" group-title="Religious",Sobrenatural TV (720p) [Not 24/7]
 http://livestreamcdn.net:1935/SobrenaturalTV/SobrenaturalTV/playlist.m3u8
-#EXTINF:-1 tvg-id="SportingTV.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://www.meo.pt/PublishingImages/canais/sporting-tv.png" group-title="Sports",Sporting TV
-http://185.236.229.21:9981/play/a03r
 #EXTINF:-1 tvg-id="STVNoticias.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="" group-title="News",STV Noticias (720p) [Not 24/7]
 http://dcunilive36-lh.akamaihd.net/i/dclive_1@668002/master.m3u8
 #EXTINF:-1 tvg-id="Tastemade.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://images.pluto.tv/channels/5fd1419a3b4f4b000773ba85/colorLogoPNG.png" group-title="Lifestyle",Tastemade (720p)
@@ -343,14 +339,6 @@ http://live.cdn.upx.com/7550/myStream.sdp/playlist.m3u8
 https://596639ebdd89b.streamlock.net/8124/8124/playlist.m3u8
 #EXTINF:-1 tvg-id="TVZimbo.ao" tvg-country="AO" tvg-language="Portuguese" tvg-logo="https://www.tvzimbo.ao/temas/tvzimbo/assets/img/logo-programacao.png" group-title="General",TV Zimbo (720p) [Not 24/7]
 https://iptv-all.lanesh4d0w.codes/angola/tv-zimbo
-#EXTINF:-1 tvg-id="TVCineAction.pt" tvg-country="PT" tvg-language="Portuguese;English" tvg-logo="" group-title="Movies",TVCine Action (1080p)
-http://185.236.229.21:9981/play/a04n
-#EXTINF:-1 tvg-id="TVCineEdition.pt" tvg-country="PT" tvg-language="Portuguese;English" tvg-logo="" group-title="Movies",TVCine Edition (1080p)
-http://185.236.229.21:9981/play/a061
-#EXTINF:-1 tvg-id="TVCineEmotion.pt" tvg-country="PT" tvg-language="Portuguese;English" tvg-logo="" group-title="Movies",TVCine Emotion (1080p)
-http://185.236.229.21:9981/play/a05z
-#EXTINF:-1 tvg-id="TVCineTop.pt" tvg-country="PT" tvg-language="Portuguese;English" tvg-logo="" group-title="Movies",TVCine Top (1080p)
-http://185.236.229.21:9981/play/a04w
 #EXTINF:-1 tvg-id="TVEBahia.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/TVE_Bahia_logo.svg/800px-TVE_Bahia_logo.svg.png" group-title="Local",TVE Bahia [Not 24/7]
 http://stream2.ba.gov.br/hls-live/livepkgr/_definst_/irdeb/pgm-1.m3u8
 #EXTINF:-1 tvg-id="TVI24.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/5/50/Tvi_24.png" group-title="News",TVI24 (480p)
