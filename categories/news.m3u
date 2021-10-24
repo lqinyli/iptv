@@ -195,6 +195,8 @@ http://edge1.cdn.bg:2006/fls/bonair.stream/playlist.m3u8
 http://edge15.cdn.bg:2006/fls/bonair.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal26.ar" tvg-country="AR;LATAM" tvg-language="Spanish" tvg-logo="http://1.bp.blogspot.com/-oaM5k7pbu3A/ULKcb6odA1I/AAAAAAAAXko/nmQ_WMr0c4k/s1600/canal26hd.png" group-title="News",Canal 26 (720p)
 http://200.115.193.177/live/26hd-720/playlist.m3u8
+#EXTINF:-1 tvg-id="CanalB.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://canalb.pe/assets/uploads/images/digital-tv-mundo-vivo.svg" group-title="News",CanalB [Not 24/7]
+http://free.fullspeed.tv/query?url=https://www.youtube.com/c/alfonsobaella/live
 #EXTINF:-1 tvg-id="CaspianNews.kz" tvg-country="KZ" tvg-language="" tvg-logo="" group-title="News",Caspian News (512p) [Not 24/7]
 https://sc.id-tv.kz/CaspianNews.m3u8
 #EXTINF:-1 tvg-id="CBC.az" tvg-country="AZ;TR;GE" tvg-language="Azerbaijani;Russian;English;Persian;Armenian" tvg-logo="http://cbc.az/assets/uploads/sites/Logo_fin.png" group-title="News",CBC (720p) [Not 24/7]
@@ -613,7 +615,7 @@ https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
 https://www.news24.jp/livestream/index.m3u8
 #EXTINF:-1 tvg-id="OneAmericaNewsNetwork.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/G6e7Hcl.png" group-title="News",OAN (1080p)
 http://oneamericanews-roku-us.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="OANEncore.us" tvg-country="" tvg-language="English" tvg-logo="https://i.imgur.com/9S4ZbPL.jpg" group-title="News",OAN Encore
+#EXTINF:-1 tvg-id="OANEncore.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/9S4ZbPL.jpg" group-title="News",OAN Encore
 https://oneamericanews-roku-us.amagi.tv/hls/amagi_hls_data_oneameric-oneamericanews/CDN/512x288_875600/index.m3u8
 #EXTINF:-1 tvg-id="OPTV.us" tvg-country="US" tvg-language="English" tvg-logo="https://media.localbtv.com/images/nycbtv/logos/optv.png" group-title="News",OPTV Borough of Oradell (NJ) (1080p) [Not 24/7]
 https://cdn87.theus6tv.tk/cable/optv.m3u8
@@ -625,8 +627,6 @@ https://livestream.palitra.ge/hls/palitratv/index.m3u8
 http://uni6rtmp.tulix.tv:1935/ucur1/Payvand/playlist.m3u8
 #EXTINF:-1 tvg-id="PBO.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/PBOPeru/picture?width=320&height=320" group-title="News",PBO Digital (720p) [Not 24/7]
 http://free.fullspeed.tv/query?url=https://www.youtube.com/channel/UCgR0st4ZLABi-LQcWNu3wnQ/live
-#EXTINF:-1 tvg-id="PCN.us" tvg-country="US" tvg-language="English" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/11044/s11044_h3_aa.png" group-title="News",Pennsylvania Cable Network (480p) [Not 24/7]
-https://bozztv.com/teleyupp/teleup-pcnhd/playlist.m3u8
 #EXTINF:-1 tvg-id="PlutoTVBlackNewsChannel.us" tvg-country="US" tvg-language="English" tvg-logo="http://images.pluto.tv/channels/5f1efad04320070007dbb60b/colorLogoPNG.png" group-title="News",Pluto TV Black News Channel (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f1efad04320070007dbb60b/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="PlutoTVCheddar.us" tvg-country="US" tvg-language="English" tvg-logo="" group-title="News",Pluto TV Cheddar (720p) [Not 24/7]
@@ -692,8 +692,8 @@ https://strm.yandex.ru/kal/rt_hd/rt_hd0.m3u8
 https://rt-glb.gcdn.co/live/rtnews/playlist.m3u8
 #EXTINF:-1 tvg-id="RTUK.ru" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/zdTA0ha.png" group-title="News",RT UK (1080p)
 https://rt-uk.gcdn.co/live/rtuk/playlist.m3u8
-#EXTINF:-1 tvg-id="RTP3.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/64-393818101410.png" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)" group-title="News",RTP3 (504p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTINF:-1 tvg-id="RTP3.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/64-393818101410.png" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0" group-title="News",RTP3 (504p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
 https://streaming-live.rtp.pt/livetvhlsDVR/rtpndvr.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RTVTotalYurimaguas.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/rtvtotal/picture?width=320&height=320" group-title="News",RTV Total (Yurimaguas) [Not 24/7]
 https://7.innovatestream.pe:19360/rtvtotal/rtvtotal.m3u8
