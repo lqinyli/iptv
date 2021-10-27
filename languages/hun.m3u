@@ -1,28 +1,48 @@
-#EXTM3U url-tvg=""
+#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/cz/m.tv.sms.cz.epg.xml,https://iptv-org.github.io/epg/guides/hu/tvprofil.com.epg.xml"
+#EXTINF:-1 tvg-id="1Mus.hu" tvg-country="HU" tvg-language="Hungarian" tvg-logo="https://i.imgur.com/PozF9MT.png" group-title="Music",1Mus (720p)
+http://hz1.teleport.cc/HLS/HD.m3u8
 #EXTINF:-1 tvg-id="1MusicChannelHungary.hu" tvg-country="HU" tvg-language="Hungarian" tvg-logo="" group-title="Music",1Music Channel Hungary (576p)
 http://1music.hu/1music.m3u8
+#EXTINF:-1 tvg-id="ApostolTV.hu" tvg-country="HU" tvg-language="Hungarian" tvg-logo="https://cdn-0.tvprofil.com/cdn/100x40/10/img/kanali-logo/Apostol_TV_HU_logo.png" group-title="",Apostol TV (576p) [Not 24/7]
+https://live.apostoltv.hu/online/smil:gazdagret.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="ATV.hu" tvg-country="HU" tvg-language="Hungarian" tvg-logo="https://i.imgur.com/ovtI4G4.png" group-title="",ATV (360p)
+https://stream.atv.hu/atvlive/atvstream_2_aac/playlist.m3u8
 #EXTINF:-1 tvg-id="BalatonTV.hu" tvg-country="HU" tvg-language="Hungarian" tvg-logo="https://i.imgur.com/xyG4O6F.jpg" group-title="",Balaton TV (432p)
 https://stream.iptvservice.eu/hls/balatontv.m3u8
 #EXTINF:-1 tvg-id="Bonum TV-HU" tvg-country="HU" tvg-language="Hungarian" tvg-logo="https://i.imgur.com/dpGX5SH.png" group-title="Religious",Bonum TV (360p)
 https://stream.y5.hu/stream/stream_bonum/stream.m3u8
-#EXTINF:-1 tvg-id="Budakalasz.hu" tvg-country="HU" tvg-language="Hungarian" tvg-logo="https://i.imgur.com/ftmeWq2.png" group-title="",Budakalasz (1080p)
-https://stream.streaming4u.hu/TVBudakalasz/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="CoolTV.hu" tvg-country="HU" tvg-language="Hungarian" tvg-logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/hu_cooltv.png" group-title="",Cool TV (720p) [Not 24/7]
+https://stream.y5.hu/stream/stream_cool/hls1/stream.m3u8
+#EXTINF:-1 tvg-id="DTV.hu" tvg-country="HU" tvg-language="Hungarian" tvg-logo="" group-title="",DTV (720p) [Not 24/7]
+http://cloudfront44.lexanetwork.com:1732/hlsrelay003/hls/livestream.sdp.m3u8
 #EXTINF:-1 tvg-id="EuronewsHungary.fr" tvg-country="HR" tvg-language="Hungarian" tvg-logo="https://i.postimg.cc/X7YYFZR2/euronews.png" group-title="News",Euronews Hungary (720p) [Not 24/7]
 http://free.fullspeed.tv/query?url=https://www.youtube.com/c/euronewsHungarian/live
+#EXTINF:-1 tvg-id="FilmPlus.hu" tvg-country="HU" tvg-language="Hungarian" tvg-logo="" group-title="",Film+ (720p) [Not 24/7]
+https://stream.y5.hu/stream/stream_filmp/hls1/stream.m3u8
 #EXTINF:-1 tvg-id="HTMusicChannel.hu" tvg-country="HU" tvg-language="Hungarian" tvg-logo="" group-title="Music",H!T Music Channel (480p)
 http://hitmusic.hu/hitmusic.m3u8
 #EXTINF:-1 tvg-id="HalomTV.hu" tvg-country="HU" tvg-language="Hungarian" tvg-logo="https://i.imgur.com/Qykeedm.png" group-title="",Halom TV (540p)
 http://stream.battanet.hu:8080/hls/livestream1/1_2/index.m3u8
 #EXTINF:-1 tvg-id="Hatoscsatorna.hu" tvg-country="HU" tvg-language="Hungarian" tvg-logo="https://i.imgur.com/64ygAE5.png" group-title="",Hatoscsatorna (360p)
 rtmp://lpmedia.hu:1935/Hatoscsatorna/livestream
-#EXTINF:-1 tvg-id="KomlosTV.hu" tvg-country="HU" tvg-language="Hungarian" tvg-logo="https://i.imgur.com/uGrWyVN.png" group-title="",Komlós TV (1080p)
-https://stream.streaming4u.hu/KomlosTV/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="HegyvidekTvBudapest.hu" tvg-country="HU" tvg-language="Hungarian" tvg-logo="" group-title="",Hegyvidek Tv Budapest (576p)
+http://tv.hegyvidek.hu/stream_mpeg.flv
+#EXTINF:-1 tvg-id="KecskemetiTV.hu" tvg-country="HU" tvg-language="Hungarian" tvg-logo="" group-title="",Kecskemeti TV [Not 24/7]
+http://rtmp1.40e.hu:8000/live/ktv.m3u8
 #EXTINF:-1 tvg-id="Loversenykozvetites.hu" tvg-country="HU" tvg-language="Hungarian" tvg-logo="https://i.imgur.com/Q9MWqpE.png" group-title="",Lóverseny közvetítés (420p)
 http://87.229.103.60:1935/liverelay/loverseny2.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="MUSICPlus.hu" tvg-country="HU" tvg-language="Hungarian" tvg-logo="https://i.imgur.com/yKJmkNk.png" group-title="Music",MUSIC + (720p) [Not 24/7]
+https://s02.diazol.hu:10192/hls/stream.m3u8
 #EXTINF:-1 tvg-id="OzdiVarosiTV.hu" tvg-country="HU" tvg-language="Hungarian" tvg-logo="https://i.imgur.com/xiSeTRL.jpg" group-title="",Ózdi Városi TV (720p) [Not 24/7]
 https://stream.unrealhosting.hu:7982/live.m3u8
 #EXTINF:-1 tvg-id="PannonRTV.hu" tvg-country="HU" tvg-language="Hungarian" tvg-logo="https://i.imgur.com/Dl9xtgo.png" group-title="",Pannon RTV (648p)
 https://stream.unrealhosting.hu:4102/live.m3u8
+#EXTINF:-1 tvg-id="RTLII.hu" tvg-country="HU" tvg-language="Hungarian" tvg-logo="" group-title="",RTL II (720p) [Not 24/7]
+https://stream.y5.hu/stream/stream_rtl2/hls1/stream.m3u8
+#EXTINF:-1 tvg-id="SorozatPlus.hu" tvg-country="HU" tvg-language="Hungarian" tvg-logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/hu_sorozat.png" group-title="",Sorozat+ (360p) [Not 24/7]
+https://stream.y5.hu/stream/stream_sorozatp/stream.m3u8
+#EXTINF:-1 tvg-id="TiszaTV.hu" tvg-country="HU" tvg-language="Hungarian" tvg-logo="" group-title="",Tisza TV (576p)
+https://www.tiszatv.hu/onlinetv/tiszatv_1.m3u8
 #EXTINF:-1 tvg-id="TV7Bekescsaba.hu" tvg-country="HU" tvg-language="Hungarian" tvg-logo="https://i.imgur.com/iTUoC1v.png" group-title="",TV7 Bekescsaba (360p)
 https://stream.y5.hu/stream/stream_bekescsaba/stream.m3u8
 #EXTINF:-1 tvg-id="VTVFuzesabony.hu" tvg-country="HU" tvg-language="Hungarian" tvg-logo="https://i.imgur.com/JCHEuWb.jpg" group-title="",VTV Füzesabony (720p) [Not 24/7]
