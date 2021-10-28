@@ -1,6 +1,8 @@
 #EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/ar/mi.tv.epg.xml,https://iptv-org.github.io/epg/guides/bo/comteco.com.bo.epg.xml,https://iptv-org.github.io/epg/guides/cl/mi.tv.epg.xml,https://iptv-org.github.io/epg/guides/co/mi.tv.epg.xml,https://iptv-org.github.io/epg/guides/cz/m.tv.sms.cz.epg.xml,https://iptv-org.github.io/epg/guides/es/programacion-tv.elpais.com.epg.xml,https://iptv-org.github.io/epg/guides/gt/mi.tv.epg.xml,https://iptv-org.github.io/epg/guides/hn/mi.tv.epg.xml,https://iptv-org.github.io/epg/guides/mx/mi.tv.epg.xml,https://iptv-org.github.io/epg/guides/pe/mi.tv.epg.xml,https://iptv-org.github.io/epg/guides/sv/mi.tv.epg.xml,https://iptv-org.github.io/epg/guides/us-az/tvtv.us.epg.xml,https://iptv-org.github.io/epg/guides/us-ca/tvtv.us.epg.xml,https://iptv-org.github.io/epg/guides/us/tvtv.us.epg.xml"
 #EXTINF:-1 tvg-id="K18JLD2.us" tvg-country="US" tvg-language="Spanish" tvg-logo="https://i.imgur.com/4ydVVIA.png" group-title="Religious",3ABN Latino (720p)
 https://moiptvhls-i.akamaihd.net/hls/live/652315/secure/master.m3u8
+#EXTINF:-1 tvg-id="K17JIDT4.us" tvg-country="US" tvg-language="Spanish" tvg-logo="https://i.imgur.com/4ydVVIA.png" group-title="Religious",3ABN Latino (480p) [Not 24/7]
+http://uni5rtmp.tulix.tv:1935/bettervida/bettervida/playlist.m3u8
 #EXTINF:-1 tvg-id="5RTv.ar" tvg-country="AR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/wCQJuaU.jpg" group-title="",5RTv (720p) [Not 24/7]
 https://api.new.livestream.com/accounts/22636012/events/8242619/live.m3u8
 #EXTINF:-1 tvg-id="5TV.ar" tvg-country="AR" tvg-language="Spanish" tvg-logo="https://i.imgur.com/kujnLsO.png" group-title="",5TV (Corrientes) (480p) [Not 24/7]
@@ -43,6 +45,8 @@ https://5940924978228.streamlock.net/8157/8157/master.m3u8
 http://k3.usastreams.com/CableLatino/88stereo/playlist.m3u8
 #EXTINF:-1 tvg-id="101TeleAntequera.es" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://i.imgur.com/ZhvkYeg.jpg" group-title="Music",101 Tele Antequera (1080p)
 https://limited38.todostreaming.es/live/101tv-AntequeraHD.m3u8
+#EXTINF:-1 tvg-id="101TVMalaga.es" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://i.imgur.com/CXHLhZD.png" group-title="News",101TV Malaga (1080p) [Not 24/7]
+https://limited38.todostreaming.es/live/101tv-web101tv.m3u8
 #EXTINF:-1 tvg-id="Plustdp.es" tvg-country="ES" tvg-language="Spanish" tvg-logo="" group-title="",+tdp [Geo-blocked]
 https://hlsliveamdgl1-lh.akamaihd.net/i/hlsdvrlive_1@39732/master.m3u8
 #EXTINF:-1 tvg-id="A24.ar" tvg-country="AR" tvg-language="Spanish" tvg-logo="https://cdn.mitvstatic.com/channels/ar_america-24_m.png" user-agent="iPhone" group-title="News",A24
@@ -552,8 +556,10 @@ https://etbvnogeo-lh.akamaihd.net/i/OCA1HD_1@748519/master.m3u8
 https://euronews-euronews-spanish-2-mx.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="EuronewsenEspanol.fr" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Euronews_2016_logo.svg/1000px-Euronews_2016_logo.svg.png" group-title="News",Euronews en Español (720p)
 https://rakuten-euronews-4-es.samsung.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 tvg-id="EWTNelCanalCatolico.us" tvg-country="ES;LATAM" tvg-language="Spanish" tvg-logo="https://cdn.mitvstatic.com/channels/cl_ewtn_m.png" group-title="Religious",EWTN el Canal Católico (1080p)
+#EXTINF:-1 tvg-id="EWTNelCanalCatolico.us" tvg-country="ES;HISPAM" tvg-language="Spanish" tvg-logo="https://cdn.mitvstatic.com/channels/cl_ewtn_m.png" group-title="Religious",EWTN el Canal Católico (1080p)
 https://live-fd164e1.rmbl.ws/slot-21/ngrp:ajdj-xq6n_all/playlist.m3u8
+#EXTINF:-1 tvg-id="EWTNelCanalCatolico.us" tvg-country="ES;LATAM" tvg-language="Spanish" tvg-logo="https://cdn.mitvstatic.com/channels/cl_ewtn_m.png" group-title="Religious",EWTN el Canal Católico (720p) [Not 24/7]
+https://cdn3.wowza.com/1/SmVrQmZCUXZhVDgz/b3J3MFJv/hls/live/playlist.m3u8
 #EXTINF:-1 tvg-id="ExitosaTV.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/Exitosanoticias/picture?width=320&height=320" group-title="News",Exitosa TV (720p)
 https://cu.onliv3.com/livevd1/user2.m3u8
 #EXTINF:-1 tvg-id="Expresion.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/telesurexpresion/picture?width=320&height=320" group-title="Local",Expresión (Tacna) [Not 24/7]
@@ -1710,6 +1716,8 @@ https://stmv.panel.grupolimalive.com/tptotv/tptotv/playlist.m3u8
 http://tracesportstars-samsunges.amagi.tv/hls/amagi_hls_data_samsunguk-tracesport-samsungspain/CDN/playlist.m3u8
 #EXTINF:-1 tvg-id="TransmediaTelevisionMorelia.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/kpffqTI.png" group-title="",Transmedia Televisión Morelia (500p) [Not 24/7]
 http://streamingcws20.com:1935/tmtv/videotmtv/playlist.m3u8
+#EXTINF:-1 tvg-id="TrebujenaTV.es" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://bopiweb.com/imagenes/2580/tomo.1.M-3503739-3.jpg" group-title="Local",Trebujena TV (360p) [Not 24/7]
+http://212.104.160.156:1935/live/trebujenatv2/master.m3u8
 #EXTINF:-1 tvg-id="TreceParaguay.py" tvg-country="PY" tvg-language="Spanish" tvg-logo="" group-title="",Trece Paraguay (720p)
 http://174.138.118.252/live/trece.m3u8
 #EXTINF:-1 tvg-id="TreceTV.es" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Trece.svg/320px-Trece.svg.png" group-title="",Trece TV (576p)
@@ -1798,6 +1806,8 @@ http://185.29.68.24/tvb.m3u8
 http://d2fxrfbiedz1tm.cloudfront.net/livepaxtv/smil:PC.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TVVision.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="" group-title="",TV Vision (720p) [Not 24/7]
 https://cloudflare.streamgato.us:3750/live/tvvisionlive.m3u8
+#EXTINF:-1 tvg-id="TVenLinea.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/TVenLineaCanalDigital/picture?width=320&height=320" group-title="Local",TVenLinea (Cuzco) [Not 24/7]
+https://s1.tvdatta.com:3883/live/tvenlinealive.m3u8
 #EXTINF:-1 tvg-id="TVGEuropa.es" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://pbs.twimg.com/media/D2lBaVIX0AISqxR.jpg" group-title="",TVG Europa (720p)
 https://europa-crtvg.flumotion.com/playlist.m3u8
 #EXTINF:-1 tvg-id="TVGEvento5.es" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/CRTVG/picture?width=320&height=320" group-title="Local",TVG Evento 5 (720p) [Not 24/7]
@@ -1844,7 +1854,7 @@ http://136.243.3.70:1935/TvUniversitaria/TvUniversitaria/playlist.m3u8
 https://tna5.bozztv.com/Cusco/index.m3u8
 #EXTINF:-1 tvg-id="UCI.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/uncanalinteligente/picture?width=320&height=320" group-title="General",UCI (1080p)
 http://170.79.102.223/UCI/index.m3u8
-#EXTINF:-1 tvg-id="UCL.uy" tvg-country="UY;LATAM" tvg-language="Spanish" tvg-logo="https://uclplay.com/wp-content/uploads/2020/04/logo-horizontal-white-1.png" group-title="",UCL TV (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="UCL.uy" tvg-country="UY;HISPAM" tvg-language="Spanish" tvg-logo="https://uclplay.com/wp-content/uploads/2020/04/logo-horizontal-white-1.png" group-title="",UCL TV (720p) [Not 24/7]
 https://livedelta.cdn.antel.net.uy/out/u/url_canalu_2.m3u8
 #EXTINF:-1 tvg-id="UCSG.ec" tvg-country="EC" tvg-language="Spanish" tvg-logo="https://i.imgur.com/otOhIe8.png" group-title="",UCSG (1080p) [Not 24/7]
 http://ecuastreamhd.com:1935/UCSGHQ/UCSGHQ/chunklist.m3u
@@ -1882,7 +1892,7 @@ https://rtmp02.portalexpress.es/uraniotv/uraniotv/playlist.m3u8
 https://video.produccionesmagicorp.com/redes/video.m3u8
 #EXTINF:-1 tvg-id="USMPTV.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/USMPTV/picture?width=320&height=320" group-title="Culture",USMPTV [Not 24/7]
 http://200.48.236.2:8080/live/stream.m3u8
-#EXTINF:-1 tvg-id="VallenatoInternacional.us" tvg-country="US;LATAM" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/valleinalradio/picture?width=320&height=320" group-title="Music",Vallenato Internacional (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="VallenatoInternacional.us" tvg-country="US;HISPAM" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/valleinalradio/picture?width=320&height=320" group-title="Music",Vallenato Internacional (720p) [Not 24/7]
 https://59a564764e2b6.streamlock.net/vallenato/Vallenato2/playlist.m3u8
 #EXTINF:-1 tvg-id="Vallevision.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="http://www.vallevision.com.do/images/vallevision.png" group-title="",Vallevision (720p) [Not 24/7]
 http://190.103.183.24:1935/Vallevision/ValleHD/playlist.m3u8
