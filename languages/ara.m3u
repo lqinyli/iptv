@@ -84,7 +84,7 @@ https://live-hls-web-ajd.getaj.net/AJD/index.m3u8
 https://live-hls-web-ajm.getaj.net/AJM/index.m3u8
 #EXTINF:-1 tvg-id="AlKassFive.qa" tvg-country="QA" tvg-language="Arabic" tvg-logo="" group-title="Sports",Al Kass Five (576p)
 https://www.elahmad.com/tv/m3u8/online_live_2_tv.m3u8?id=alkass5
-#EXTINF:-1 tvg-id="AlKassFour.qa" tvg-country="QA" tvg-language="Arabic" tvg-logo="" group-title="Sports",Al Kass Four
+#EXTINF:-1 tvg-id="AlKassFour.qa" tvg-country="QA" tvg-language="Arabic" tvg-logo="" group-title="Sports",Al Kass Four (480p)
 https://www.elahmad.com/tv/m3u8/online_live_2_tv.m3u8?id=alkass4
 #EXTINF:-1 tvg-id="AlKassOne.qa" tvg-country="QA" tvg-language="Arabic" tvg-logo="" group-title="Sports",Al Kass One (576p)
 https://www.elahmad.com/tv/m3u8/online_live_2_tv.m3u8?id=alkass1
@@ -330,6 +330,8 @@ https://cdn02.hta.dz/abr_htatv/EL_DJAZAIRIA_TV/playlist.m3u8
 https://cdn02.hta.dz/abr_htatv/EL_HEDDAF_TV/htatv/EL_HEDDAF_TV_720p/chunks.m3u8
 #EXTINF:-1 tvg-id="ElHiwarElTounsi.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://www.elhiwarettounsi.com/images/news/logo.png" group-title="General",El Hiwar El Tounsi (1080p) [Not 24/7]
 http://free.fullspeed.tv/query?url=https://www.dailymotion.com/video/k2IuM11CZakq4ZvrUkv
+#EXTINF:-1 tvg-id="ElMaqar.us" tvg-country="US" tvg-language="Arabic" tvg-logo="" group-title="Religious",El Maqar (1080p)
+rtmp://elmaqar.info:1935/icopts/elKarous
 #EXTINF:-1 tvg-id="ElbesharaGTV.us" tvg-country="US;EG" tvg-language="Arabic" tvg-logo="https://i.imgur.com/wup8DKR.jpg" group-title="Religious",Elbeshara GTV (720p)
 http://media3.smc-host.com:1935/elbesharagtv.com/gtv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ElsharqTV.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="http://elsharq.tv/img/elsharq.png" group-title="General",Elsharq TV (1080p) [Not 24/7]
@@ -530,9 +532,17 @@ https://admdn2.cdn.mangomolo.com/nagtv/smil:nagtv.stream.smil/playlist.m3u8
 http://50.7.161.82:8278/streams/d/Natgeowild/playlist.m3u8
 #EXTINF:-1 tvg-id="NBN.lb" tvg-country="LB" tvg-language="Arabic" tvg-logo="" group-title="",NBN (720p) [Not 24/7]
 https://nbntv.me:8443/nbntv/index.m3u8
+#EXTINF:-1 tvg-id="Newvision.lb" tvg-country="LB" tvg-language="Arabic" tvg-logo="http://www.newvision.tv/wp-content/uploads/2020/05/Logo.jpg" group-title="News",Newvision (576p) [Not 24/7]
+https://master.starmena-cloud.com/hls/newv.m3u8
+#EXTINF:-1 tvg-id="NileTVCinema.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="http://www.niletc.tv/images/cinema/cinema.png" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" group-title="Movies",Nile TV Cinema (576p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+http://livestreaming5.onlinehorizons.net/hls-live/NTNNileCinema/_definst_/liveevent/livestream.m3u8
 #EXTINF:-1 tvg-id="NileTVComedy.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="http://www.niletc.tv/images/comedy/comedy.png" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" group-title="Comedy",Nile TV Comedy (576p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
 http://livestreaming5.onlinehorizons.net/hls-live/NTNNileComedy/_definst_/liveevent/livestream.m3u8
+#EXTINF:-1 tvg-id="NileTVCulture.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="http://www.niletc.tv/images/culture/culture.png" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" group-title="Culture",Nile TV Culture (576p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+http://livestreaming5.onlinehorizons.net/hls-live/NTNNileCulture/_definst_/liveevent/livestream.m3u8
 #EXTINF:-1 tvg-id="NileTVFamily.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="http://www.niletc.tv/images/family/family.png" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" group-title="Family",Nile TV Family (576p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
 http://livestreaming5.onlinehorizons.net/hls-live/NTNNileFamily/_definst_/liveevent/livestream.m3u8
@@ -603,6 +613,8 @@ http://188.247.86.66/RadioFann/OnAirStudio1/playlist.m3u8
 http://188.247.86.66/MixFM/CityView1/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioYaqeenJordanControlStudio.jo" tvg-country="JO" tvg-language="Arabic" tvg-logo="" group-title="Religious",Radio Yaqeen Jordan: Control Studio [Not 24/7]
 http://188.247.86.66/MixFM/ControlStudio1/playlist.m3u8
+#EXTINF:-1 tvg-id="RadioYaqeenJordanStudio.jo" tvg-country="JO" tvg-language="Arabic" tvg-logo="" group-title="Religious",Radio Yaqeen Jordan: Studio (180p) [Not 24/7]
+http://188.247.86.66/MixFM/OnAirStudio1/playlist.m3u8
 #EXTINF:-1 tvg-id="RajeenTV.ps" tvg-country="PS" tvg-language="Arabic" tvg-logo="" group-title="",Rajeen TV (1080p) [Not 24/7]
 https://mn-nl.mncdn.com/palabroad/live/playlist.m3u8
 #EXTINF:-1 tvg-id="RojavaTV.sy" tvg-country="SY" tvg-language="Kurdish;Arabic" tvg-logo="" group-title="",Rojava TV (1080p) [Not 24/7]
