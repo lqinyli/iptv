@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/ao/dstv.com.epg.xml,https://iptv-org.github.io/epg/guides/ao/zap.co.ao.epg.xml,https://iptv-org.github.io/epg/guides/bg/vivacom.bg.epg.xml,https://iptv-org.github.io/epg/guides/ca-qc/tvtv.us.epg.xml,https://iptv-org.github.io/epg/guides/ca/tvtv.us.epg.xml,https://iptv-org.github.io/epg/guides/cz/m.tv.sms.cz.epg.xml,https://iptv-org.github.io/epg/guides/eg/elcinema.com.epg.xml,https://iptv-org.github.io/epg/guides/fr/programme-tv.net.epg.xml,https://iptv-org.github.io/epg/guides/pt/meo.pt.epg.xml,https://iptv-org.github.io/epg/guides/us/tvtv.us.epg.xml"
+#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/ao/dstv.com.epg.xml,https://iptv-org.github.io/epg/guides/ao/zap.co.ao.epg.xml,https://iptv-org.github.io/epg/guides/bg/vivacom.bg.epg.xml,https://iptv-org.github.io/epg/guides/ca-qc/tvtv.us.epg.xml,https://iptv-org.github.io/epg/guides/ca/tvtv.us.epg.xml,https://iptv-org.github.io/epg/guides/cz/m.tv.sms.cz.epg.xml,https://iptv-org.github.io/epg/guides/eg/elcinema.com.epg.xml,https://iptv-org.github.io/epg/guides/fr/orange.fr.epg.xml,https://iptv-org.github.io/epg/guides/fr/programme-tv.net.epg.xml,https://iptv-org.github.io/epg/guides/us/tvtv.us.epg.xml"
 #EXTINF:-1 tvg-id="2MMonde.ma" tvg-country="MA" tvg-language="Arabic;French" tvg-logo="https://i.imgur.com/CwwRn4b.png" group-title="General",2M Monde (360p)
 https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/2m_monde/hls_video_ts/2m_monde.m3u8
 #EXTINF:-1 tvg-id="2STV.sn" tvg-country="SN" tvg-language="Wolof;French" tvg-logo="https://i.imgur.com/3mbeewx.png" group-title="",2STV (720p) [Not 24/7]
@@ -8,7 +8,7 @@ https://moiptvhls-i.akamaihd.net/hls/live/652314/secure/master.m3u8
 #EXTINF:-1 tvg-id="3TV.bf" tvg-country="BF" tvg-language="French" tvg-logo="https://i.imgur.com/oYctB4J.png" group-title="",3TV (720p) [Not 24/7]
 https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.twitch.tv/3tvbf
 #EXTINF:-1 tvg-id="7ALimoges.fr" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/3AelRxI.png" group-title="Local",7ALimoges (1080p) [Not 24/7]
-http://free.fullspeed.tv/query?url=https://www.youtube.com/channel/UCdFv_ZWQ3Xk_NfRiaK-ryGg/live
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCdFv_ZWQ3Xk_NfRiaK-ryGg/live
 #EXTINF:-1 tvg-id="7TV.sn" tvg-country="SN" tvg-language="Wolof;French" tvg-logo="" group-title="",7TV (720p) [Not 24/7]
 https://iptv-all.lanesh4d0w.codes/senegal/7tv
 #EXTINF:-1 tvg-id="A2iMusic.sn" tvg-country="SN" tvg-language="Wolof;French" tvg-logo="https://i.imgur.com/tH7EZL4.jpg" group-title="Music",A2i Music (720p) [Not 24/7]
@@ -78,7 +78,7 @@ http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/600ad8f86e1eba00081
 #EXTINF:-1 tvg-id="ClubbingTV.fr" tvg-country="FR" tvg-language="French" tvg-logo="http://images.pluto.tv/channels/600ad8f86e1eba00081da3ce/solidLogoPNG.png" group-title="",Clubbing TV (720p)
 https://clubbingtv-rakuten.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Cnews.fr" tvg-country="FR" tvg-language="French" tvg-logo="https://i.postimg.cc/vT6GMpCV/cnews.png" group-title="News",Cnews (1080p) [Not 24/7]
-http://free.fullspeed.tv/query?url=https://www.dailymotion.com/video/x3b68jn
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/video/x3b68jn
 #EXTINF:-1 tvg-id="CongoPlanetTelevision.cd" tvg-country="CD" tvg-language="French" tvg-logo="https://i.imgur.com/KiyYqPK.jpg" group-title="General",Congo Planet Television (1080p)
 https://radio.congoplanet.com/Congo_Planet_TV.sdp/Congo_Planet_TV/playlist.m3u8
 #EXTINF:-1 tvg-id="CPACOttawa.ca" tvg-country="CA" tvg-language="English;French" tvg-logo="https://i.imgur.com/5ym6eJS.png" group-title="Legislative",CPAC (1080p)
@@ -130,9 +130,9 @@ http://edge9.iptvnetwork.net/live/france5/playlist.m3u8
 #EXTINF:-1 tvg-id="France24Francais.fr" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/61MSiq9.png" group-title="News",France 24 Français (1080p)
 https://static.france24.com/live/F24_FR_HI_HLS/live_tv.m3u8
 #EXTINF:-1 tvg-id="FranceInter.fr" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/PYqQyRv.png" group-title="General",France Inter (720p) [Not 24/7]
-http://free.fullspeed.tv/query?url=https://www.youtube.com/channel/UCJldRgT_D7Am-ErRHQZ90uw/live
-#EXTINF:-1 tvg-id="Franceinfo.fr" tvg-country="FR" tvg-language="French" tvg-logo="" group-title="News",Franceinfo (720p) [Not 24/7]
-http://free.fullspeed.tv/query?url=https://www.youtube.com/c/franceinfo/live
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCJldRgT_D7Am-ErRHQZ90uw/live
+#EXTINF:-1 tvg-id="Franceinfo.fr" tvg-country="FR" tvg-language="French" tvg-logo="https://proxymedia.woopic.com/api/v1/images/553%2Flogos%2Fv2%2Flogos%2Flivetv_franceinfo%2F20151026_092415%2FwebTVLogo%2Flogo_180x96.png" group-title="News",Franceinfo (720p) [Not 24/7]
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/franceinfo/live
 #EXTINF:-1 tvg-id="Francophonie.fr" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/lvrvwtm.png" group-title="",Francophonie (360p)
 http://mv2.tvfrancophonie.org/live/Stream1/playlist.m3u8
 #EXTINF:-1 tvg-id="Francophonie24.fr" tvg-country="FR" tvg-language="French" tvg-logo="https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/Francophonie24_275x275.png?raw=true" group-title="",Francophonie24 (1080p)
@@ -144,7 +144,7 @@ https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtu
 #EXTINF:-1 tvg-id="Gulli.fr" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/mMWq0Kn.png" group-title="Kids",Gulli (540p)
 https://d13anarbtxy8c5.cloudfront.net/6play/short/clr/gulli/sdindex.m3u8
 #EXTINF:-1 tvg-id="HaitiViralNews.ht" tvg-country="HT" tvg-language="French;Creole" tvg-logo="https://i.imgur.com/eaPFJJs.jpg" group-title="",Haiti Viral News (720p) [Not 24/7]
-http://free.fullspeed.tv/query?url=https://www.youtube.com/channel/UCcEY2-g-EEefxyYa1gtrk4g/live
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCcEY2-g-EEefxyYa1gtrk4g/live
 #EXTINF:-1 tvg-id="ICIMontreal.ca" tvg-country="CA" tvg-language="French" tvg-logo="https://i.imgur.com/i3xFNPE.png" group-title="General",ICI Montreal (720p) [Not 24/7]
 https://ici-i.akamaihd.net/hls/live/873426/ICI-Live-Stream/master.m3u8
 #EXTINF:-1 tvg-id="CBFT.ca" tvg-country="CA" tvg-language="French" tvg-logo="https://i.imgur.com/byTTNAi.png" group-title="General",Ici Radio-Canada Télé (720p)
@@ -174,7 +174,7 @@ https://iptv-all.lanesh4d0w.codes/senegal/label-tv
 #EXTINF:-1 tvg-id="LCI.fr" tvg-country="FR;BE;CH;LU" tvg-language="French" tvg-logo="https://i.imgur.com/6VzdKEa.png" group-title="News",LCI (720p)
 https://lci-hls-live-ssl.tf1.fr/lci/1/hls/live_2328.m3u8
 #EXTINF:-1 tvg-id="LCP.fr" tvg-country="FR" tvg-language="French" tvg-logo="https://i.postimg.cc/rwBVxjj2/lcp.png" group-title="Legislative",LCP (480p) [Not 24/7]
-http://free.fullspeed.tv/query?url=https://www.dailymotion.com/video/xji3qy
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/video/xji3qy
 #EXTINF:-1 tvg-id="LFMTV.ch" tvg-country="CH" tvg-language="French" tvg-logo="https://i.imgur.com/UE1E3uH.png" group-title="",LFM TV (1080p)
 https://edge4.vedge.infomaniak.com/livecast/ik:lfmmd/manifest.m3u8
 #EXTINF:-1 tvg-id="LN24.be" tvg-country="BE" tvg-language="French" tvg-logo="https://i.imgur.com/bp1Qp0d.png" group-title="News",LN24 (1080p)
@@ -352,7 +352,7 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f8ecfb9db6c180007
 #EXTINF:-1 tvg-id="PlutoTVYoga.us" tvg-country="CH;FR" tvg-language="French" tvg-logo="http://images.pluto.tv/channels/60803e541a829e0008e91641/solidLogoPNG.png" group-title="Sports",Pluto TV Yoga (720p)
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/60803e541a829e0008e91641/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=35fbb570-e986-11eb-a0af-c3b401f46211&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=ca55bef6-f2a6-488a-be5d-c7ba24d93cdd
 #EXTINF:-1 tvg-id="PublicSenat.fr" tvg-country="FR" tvg-language="French" tvg-logo="https://i.postimg.cc/rpqnBjbS/public-senat.png" group-title="Legislative",Public Sénat (480p) [Not 24/7]
-http://free.fullspeed.tv/query?url=https://www.dailymotion.com/video/xkxbzc
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/video/xkxbzc
 #EXTINF:-1 tvg-id="RadioContact.be" tvg-country="BE" tvg-language="French" tvg-logo="https://i.ibb.co/4jfSTKz/contact.jpg" group-title="Music",Radio Contact (720p)
 https://contact-lh.akamaihd.net/i/CONTACT_1@321283/master.m3u8
 #EXTINF:-1 tvg-id="RadioTélé4VEH.ht" tvg-country="HT" tvg-language="French;Creole" tvg-logo="https://i.imgur.com/1wuEyIF.jpg" group-title="Religious",Radio Télé 4VEH (720p)
@@ -360,15 +360,15 @@ https://uni01rtmp.tulix.tv/4vehtv/4vehtv-firetv/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioTeleAmen.ht" tvg-country="HT" tvg-language="French;Creole" tvg-logo="https://i.imgur.com/dJvJGDg.jpg" group-title="Religious",Radio Tele Amen FM (360p) [Not 24/7]
 http://184.173.179.163:1935/daniel/daniel/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioTéléEclair.ht" tvg-country="HT" tvg-language="French;Creole" tvg-logo="https://i.imgur.com/8ocCyo7.png" group-title="",Radio Télé Eclair (1080p) [Not 24/7]
-http://free.fullspeed.tv/query?url=https://www.youtube.com/channel/UCOvGbDh5biuOqjx6G3CdrQg/live
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCOvGbDh5biuOqjx6G3CdrQg/live
 #EXTINF:-1 tvg-id="RadioTelePititManmanMari.ht" tvg-country="HT" tvg-language="French;Creole" tvg-logo="https://i.imgur.com/QaWwNvo.jpg" group-title="Religious",Radio Télé Pitit Manman Mari (720p) [Not 24/7]
-http://free.fullspeed.tv/query?url=https://www.youtube.com/channel/UCLeNHM8XDkZmd2rhV3ZG7Vg/live
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCLeNHM8XDkZmd2rhV3ZG7Vg/live
 #EXTINF:-1 tvg-id="RadioTelePlanetCompas.ht" tvg-country="HT" tvg-language="French;Creole" tvg-logo="https://i.imgur.com/ddb4lsa.png" group-title="",Radio Tele Planet Compas (720p) [Not 24/7]
 https://5dcab9aed5331.streamlock.net/mrcompas1/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioTeleShalom.ht" tvg-country="HT" tvg-language="French;Creole" tvg-logo="https://i.imgur.com/MSgSKym.png" group-title="",Radio Tele Shalom (720p) [Not 24/7]
-http://free.fullspeed.tv/query?url=https://www.youtube.com/channel/UCBJ9zxns1hxblYZw4urBd_w/live
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCBJ9zxns1hxblYZw4urBd_w/live
 #EXTINF:-1 tvg-id="RTVC.ht" tvg-country="HT" tvg-language="French;Creole" tvg-logo="https://i.imgur.com/Jp38Rzf.png" group-title="",Radio Télévision Caraïbes (RTVC) (720p) [Not 24/7]
-http://free.fullspeed.tv/query?url=https://www.dailymotion.com/video/x81lgjh
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/video/x81lgjh
 #EXTINF:-1 tvg-id="RadioTélévisionHirondelle.ht" tvg-country="HT" tvg-language="French;Creole" tvg-logo="https://i.imgur.com/2gVnoSX.jpg" group-title="",Radio Télévision Hirondelle (480p) [Not 24/7]
 https://watch.haitilive.net/gethb/rtvh16/index.m3u8
 #EXTINF:-1 tvg-id="RFM.sn" tvg-country="SN" tvg-language="Wolof;French" tvg-logo="https://i.imgur.com/TN9SHFj.png" group-title="",RFM (720p) [Not 24/7]
@@ -406,7 +406,7 @@ https://5790d294af2dc.streamlock.net/8124/8124/chunklist.m3u8
 #EXTINF:-1 tvg-id="TeleSahel.ne" tvg-country="NE" tvg-language="French" tvg-logo="" group-title="",Télé Sahel (480p) [Not 24/7]
 https://iptv--iptv.repl.co/French/tele_sahel
 #EXTINF:-1 tvg-id="TeleMag.ca" tvg-country="CA" tvg-language="French" tvg-logo="https://i.imgur.com/i5Isrob.png" group-title="General",Télé-Mag Québec (1080p) [Not 24/7]
-http://free.fullspeed.tv/query?url=https://www.youtube.com/user/ctmq/live
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/user/ctmq/live
 #EXTINF:-1 tvg-id="CIVM.ca" tvg-country="CA" tvg-language="French" tvg-logo="https://i.imgur.com/0ZmcpEE.png" group-title="General",Télé-Québec (720p)
 https://bcovlive-a.akamaihd.net/575d86160eb143458d51f7ab187a4e68/us-east-1/6101674910001/playlist.m3u8
 #EXTINF:-1 tvg-id="TF1.fr" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/CJAbJfM.png" group-title="Entertainment",TF1 (720p)
@@ -434,13 +434,13 @@ http://tv7.hdr-tv.com:1935/live/tv7/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="TV7Colmar.fr" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/RuFISFk.png" group-title="Local",TV7 Colmar (576p)
 https://tv7.hdr-tv.com/live/tv7/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="TV8MontBlanc.fr" tvg-country="FR" tvg-language="French" tvg-logo="https://i.postimg.cc/BQf9sDGK/8.png" group-title="Local",TV8 Mont-Blanc (480p) [Not 24/7]
-http://free.fullspeed.tv/query?url=https://www.dailymotion.com/video/x71o73v
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/video/x71o73v
 #EXTINF:-1 tvg-id="TV78.fr" tvg-country="FR" tvg-language="French" tvg-logo="https://www.tv78.com/wp-content/uploads/2019/04/cropped-tv78_logo.png" group-title="Local",TV78 (720p)
 https://streamtv.cdn.dvmr.fr/TV78/ngrp:tv78.stream_all/master.m3u8
 #EXTINF:-1 tvg-id="TVMANAFR.pt" tvg-country="PT" tvg-language="French" tvg-logo="http://igrejamana.com/int/imagens/mana_logo_novo_lrg.png" group-title="Religious",TV MANA (FR) (484p)
 http://c2.manasat.com:1935/eglise-online/frances3/playlist.m3u8
 #EXTINF:-1 tvg-id="TVC9.ca" tvg-country="CA" tvg-language="French" tvg-logo="https://i.imgur.com/KLWdogU.png" group-title="Local",TVC9 (1080p) [Not 24/7]
-http://free.fullspeed.tv/query?url=https://www.youtube.com/channel/UC0JP0ek-HhcqisiEpsZiQZA/live
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UC0JP0ek-HhcqisiEpsZiQZA/live
 #EXTINF:-1 tvg-id="TVM3.ch" tvg-country="CH" tvg-language="French" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Logo_TVM3_2015.png/1200px-Logo_TVM3_2015.png" group-title="",TVM 3 (1080p)
 http://livevideo.infomaniak.com/streaming/livecast/tvm3/playlist.m3u8
 #EXTINF:-1 tvg-id="TVM3.ch" tvg-country="CH" tvg-language="French" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/tvm3.png" group-title="",TVM3 (1080p)
@@ -464,8 +464,8 @@ https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/vision4/hls_video/index.
 #EXTINF:-1 tvg-id="W9.fr" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/7FFFvCN.jpg" group-title="Entertainment",W9 (720p)
 http://flusonic-1.platinum-tv.com/W9/mono.m3u8?token=test
 #EXTINF:-1 tvg-id="WéoHautsdeFrance.fr" tvg-country="FR" tvg-language="French" tvg-logo="https://i.postimg.cc/FHjvmKYD/weo.png" group-title="Local",Wéo (Hauts-de-France) (480p) [Not 24/7]
-http://free.fullspeed.tv/query?url=https://www.dailymotion.com/video/x62islg
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/video/x62islg
 #EXTINF:-1 tvg-id="WéoPicardie.fr" tvg-country="FR" tvg-language="French" tvg-logo="https://i.postimg.cc/FHjvmKYD/weo.png" group-title="Local",Wéo (Picardie) (480p) [Not 24/7]
-http://free.fullspeed.tv/query?url=https://www.dailymotion.com/video/x63085w
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/video/x63085w
 #EXTINF:-1 tvg-id="WildsideTV.fr" tvg-country="FR" tvg-language="French" tvg-logo="https://i.postimg.cc/mZJXXMkp/wildside.png" group-title="Movies",Wildside TV (720p)
 https://versatile-wildsidetv-1-fr.samsung.wurl.tv/playlist.m3u8
