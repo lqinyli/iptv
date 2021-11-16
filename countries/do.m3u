@@ -1,6 +1,6 @@
 #EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/ar/mi.tv.epg.xml,https://iptv-org.github.io/epg/guides/bo/comteco.com.bo.epg.xml,https://iptv-org.github.io/epg/guides/es/programacion-tv.elpais.com.epg.xml"
 #EXTINF:-1 tvg-id="ASondeSalsa.pa" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/asondesalsa/picture?width=320&height=320" group-title="Music",A Son de Salsa (720p) [Not 24/7]
-https://stmv1.mipaneltv.com/asondesalsa/asondesalsa/playlist.m3u8
+https://stmv1.panelzcast.com/asondesalsa/asondesalsa/playlist.m3u8
 #EXTINF:-1 tvg-id="AgrotendenciaTV.cr" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/agrotendencia/picture?width=320&height=320" group-title="Outdoor",AgrotendenciaTV (480p)
 https://inliveserver.com:1936/15506/15506/playlist.m3u8
 #EXTINF:-1 tvg-id="AkíTV.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="" group-title="",AkíTV [Not 24/7]
@@ -11,11 +11,13 @@ https://ss6.domint.net:3028/ame_str/amecanal47/playlist.m3u8
 http://azxtv.com/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AXNLatinoamerica.us" tvg-country="HISPAM" tvg-language="English;Spanish" tvg-logo="https://www.img09.xyz/assets/img/ch_logo/hd-axn.png" group-title="Entertainment",AXN Latinoamérica (576p)
 http://209.91.213.10:8088/play/a011
+#EXTINF:-1 tvg-id="BoomerangLatinoamerica.us" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="" group-title="Kids",Boomerang Latinoamérica [Geo-blocked]
+http://45.5.8.78:8000/play/a00i
 #EXTINF:-1 tvg-id="Canal12.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://serenotv.com/wp-content/uploads/2020/10/Canal-12-telecanal-republica-dominicana-en-vivo.jpg" group-title="",Canal 12 (480p) [Not 24/7]
 https://cdn4.hostlagarto.com:8081/static/telecanal12/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal26.ar" tvg-country="AR;HISPAM" tvg-language="Spanish" tvg-logo="http://1.bp.blogspot.com/-oaM5k7pbu3A/ULKcb6odA1I/AAAAAAAAXko/nmQ_WMr0c4k/s1600/canal26hd.png" group-title="News",Canal 26 (720p)
 http://200.115.193.177/live/26hd-720/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal56.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="http://emisoradominicana.net/television/wp-content/uploads/2015/06/tv-recuerdos-56.jpg" group-title="",Canal 56 [Not 24/7]
+#EXTINF:-1 tvg-id="Canal56.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="http://emisoradominicana.net/television/wp-content/uploads/2015/06/tv-recuerdos-56.jpg" group-title="",Canal 56 (480p) [Not 24/7]
 https://cloudflare.streamgato.us:3549/live/canal56live.m3u8
 #EXTINF:-1 tvg-id="CanalAme47.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/qExHiPc.png" group-title="",Canal Amé 47 (720p)
 http://ss6.domint.net:2028/ame_str/amecanal47/master.m3u8
@@ -39,8 +41,12 @@ http://cm.hostlagarto.com:8081/Punaltv/punaltvHD.myStream/playlist.m3u8
 https://ss3.domint.net:3120/dv6_str/digitalvision/playlist.m3u8
 #EXTINF:-1 tvg-id="DWEspanol.de" tvg-country="ES;HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/A1xzjOI.png" group-title="News",DW Español (1080p)
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
+#EXTINF:-1 tvg-id="Ecovisión.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="" group-title="",Ecovisión (480p)
+https://vdo1.streamgato.us:3014/live/ecovisionlive.m3u8
 #EXTINF:-1 tvg-id="ElGarageTV.ar" tvg-country="HISPAM;ES" tvg-language="Spanish" tvg-logo="https://i.imgur.com/cd0hP5e.png" group-title="Auto",El Garage TV (480p) [Not 24/7]
 http://186.0.233.76:1935/Garage/smil:garage.smil/master.m3u8
+#EXTINF:-1 tvg-id="EnlaceTV.cr" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/enlacetv/picture?width=320&height=320" group-title="Religious",EnlaceTV (720p)
+https://v4.tustreaming.cl/enlacebpbtv/index.m3u8
 #EXTINF:-1 tvg-id="EWTNelCanalCatolico.us" tvg-country="ES;HISPAM" tvg-language="Spanish" tvg-logo="https://cdn.mitvstatic.com/channels/cl_ewtn_m.png" group-title="Religious",EWTN el Canal Católico (1080p)
 https://live-fd164e1.rmbl.ws/slot-21/ngrp:ajdj-xq6n_all/playlist.m3u8
 #EXTINF:-1 tvg-id="FoxSports2LatinAmerica.us" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://www.img09.xyz/assets/img/ch_logo/hd-foxsports2.png" group-title="Sports",Fox Sports 2 Latin America (1080p)
@@ -55,8 +61,8 @@ https://ss2.domint.net:3200/gdm_str/gdmtv/playlist.m3u8
 https://cloudflare.streamgato.us:3352/live/ghtelevisionhdlive.m3u8
 #EXTINF:-1 tvg-id="HermanasMirabalTV.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://emisoradominicana.net/television/wp-content/uploads/2015/06/hermanas-mirabal-tv.jpg" group-title="",Hermanas Mirabal TV (720p) [Not 24/7]
 https://cm.hostlagarto.com:4445/Hmtv/hmtv.myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="HilandoFino.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="http://www.hilandofinotv.com/wp-content/uploads/2017/04/cropped-logo-tv-3.png" group-title="",Hilando Fino (1080p) [Not 24/7]
-https://primary-out.iptv-global.net/HilandoFinoTV/ngrp:HilandoFinoTV_all/playlist.m3u8
+#EXTINF:-1 tvg-id="HilandoFino.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="http://www.hilandofinotv.com/wp-content/uploads/2017/04/cropped-logo-tv-3.png" group-title="",Hilando Fino (1080p) [Geo-blocked]
+http://45.5.8.78:8000/play/a069
 #EXTINF:-1 tvg-id="Hispantv.ir" tvg-country="IR;ES;HISPAM" tvg-language="Spanish" tvg-logo="https://en.wikipedia.org/wiki/File:HispanTv_logo.svg" group-title="News",HispanTV (480p)
 https://live1.presstv.ir/live/hispan.m3u8
 #EXTINF:-1 tvg-id="Hits360TV.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/Cx5V233.jpg" group-title="Music",Hits 360 TV (720p) [Not 24/7]
@@ -67,11 +73,13 @@ http://cm.hostlagarto.com:8081/Hmtv/hmtv.myStream/playlist.m3u8
 http://194.36.190.60:8080/hls/kanade.m3u8
 #EXTINF:-1 tvg-id="LAMIATV.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/77uVMGw.png" group-title="",LA MIA TV (720p)
 https://ss8.domint.net:3108/mia_str/lamiatv/playlist.m3u8
+#EXTINF:-1 tvg-id="LatinoKids.uy" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/LatinoKidsTvUruguay/picture?width=300&height=300" group-title="Entertainment",LatinoKids (540p)
+https://s14.ssl-stream.com:3335/live/latinokidsonlinelive.m3u8
 #EXTINF:-1 tvg-id="LocomotionTV.do" tvg-country="HISPAM;ES" tvg-language="Spanish" tvg-logo="https://i.imgur.com/auEJJvP.png" group-title="Animation",Locomotion TV (480p) [Not 24/7]
 http://51.222.85.85:81/hls/loco/index.m3u8
 #EXTINF:-1 tvg-id="LVM.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://images-na.ssl-images-amazon.com/images/I/814AENk%2BEaL.png" group-title="",LVM (480p)
 https://uni01rtmp.tulix.tv/playout2multi9/lavozdemaria.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="MagicKids.ar" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="" group-title="",Magic Kids [Not 24/7]
+#EXTINF:-1 tvg-id="MagicKids.ar" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="" group-title="",Magic Kids (240p) [Not 24/7]
 https://live.admefy.com/live/240/clean_peach_ef224.m3u8
 #EXTINF:-1 tvg-id="MegavisionCanal43.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://directostv.teleame.com/wp-content/uploads/2017/10/megavision.png" group-title="",Megavision Canal 43 (480p) [Not 24/7]
 http://stream3.prostudionetwork.com:1943/megavision/MV/playlist.m3u8
@@ -85,14 +93,12 @@ http://209.91.213.10:8088/play/a00z
 http://201.168.205.12:8000/play/a0ck/index.m3u8
 #EXTINF:-1 tvg-id="NuevoTiempo.br" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/exdDHml.png" group-title="Religious",Nuevo Tiempo (720p) [Not 24/7]
 https://stream.live.novotempo.com/tv/smil:tvnuevotiempo.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="ORBITTV.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="http://orbittv.net/images/orbit_logo4.png" group-title="",ORBIT TV (480p) [Not 24/7]
+#EXTINF:-1 tvg-id="ORBITTV.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="http://orbittv.net/images/orbit_logo4.png" group-title="",ORBIT TV (480p) [Geo-blocked]
 https://ss3.domint.net:3134/otv_str/orbittv/playlist.m3u8
 #EXTINF:-1 tvg-id="PH.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://3.bp.blogspot.com/-INH3BeYCloo/XWVcY2zOpUI/AAAAAAAAmxI/YRwbGEa3orQf7ltrcE2VTv20TPoqYSiygCLcBGAs/s320/PHTV.png" group-title="",PH (720p) [Not 24/7]
 https://cm.hostlagarto.com:4445/phtv/Phtv.myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="PHTVCanal34.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://dominicanchannels.com/wp-content/uploads/2014/10/PHTV-300x194.jpg" group-title="",PHTV Canal 34 (720p) [Not 24/7]
 https://cm.hostlagarto.com:4445/phtv/Phtv.myStream/chunks.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="HISPAM" tvg-language="Spanish;English" tvg-logo="" group-title="Animation",Project Boom
-http://45.32.74.87:81/hls/projectboom.m3u8
 #EXTINF:-1 tvg-id="PuntaCanaTV.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://pbs.twimg.com/profile_images/735482998372630529/bEgiPOU1_400x400.jpg" group-title="",Punta Cana TV (720p) [Not 24/7]
 https://cdn4.hostlagarto.com:8081/static/puntacanatv/playlist.m3u8
 #EXTINF:-1 tvg-id="Radio105full.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://ru0-cdn.onlineradiobox.com/img/l/2/94192.v2.png" group-title="Music",Radio105 full (720p) [Not 24/7]
@@ -107,10 +113,20 @@ http://tv.romanatv42.com/hls/live.m3u8
 https://rt-esp.gcdn.co/live/rtesp/playlist.m3u8
 #EXTINF:-1 tvg-id="SanIsidroTV.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://sanisidrotv.com/wp-content/uploads/2020/10/logo-san-isidro-tv-png-1-300x221.png" group-title="",San Isidro TV (720p) [Not 24/7]
 https://cdn4.hostlagarto.com:8081/static/sanisidrotv/playlist.m3u8
+#EXTINF:-1 tvg-id="SEOTV.bo" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/Seo.Tv.sat/picture?width=300&height=300" group-title="General",SEO TV (720p)
+https://seo.tv.bo/tv/seo.m3u8
+#EXTINF:-1 tvg-id="SEOTVNovelas.bo" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/Seo.Tv.sat/picture?width=300&height=300" group-title="Series",SEO TV Novelas (540p)
+https://seo.tv.bo/tv/nvls.m3u8
 #EXTINF:-1 tvg-id="SiTV.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="http://sitv.com.do/imgs/sitv.png" group-title="",SiTV (720p)
 http://190.122.104.221/Player/sitv.m3u8
+#EXTINF:-1 tvg-id="SoloStandUp.cl" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/solostanduptv/picture?width=300&height=300" group-title="Comedy",SoloStandUp (480p)
+https://paneltv.online:1936/8116/8116/playlist.m3u8
 #EXTINF:-1 tvg-id="SuperCanal33.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="" group-title="",Super Canal 33 (480p)
 http://190.122.96.186:8888/http/005
+#EXTINF:-1 tvg-id="SuperTV55Santiago.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://3.bp.blogspot.com/-WO2ZKryfWoU/Wr1pO5clk_I/AAAAAAAAdJk/QYRg8_bp4OgmIWI55Y4m6i5o8RiWfCHWwCLcBGAs/s200/SuperTV55.jpg" group-title="",Super TV 55 (Santiago) (720p) [Not 24/7]
+http://ss8.domint.net:2128/stv_str/tv55/playlist.m3u8
+#EXTINF:-1 tvg-id="SuperTV55Santiago.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/aJcpxHL.jpg" group-title="",Super TV 55 (Santiago) (720p) [Not 24/7]
+https://ss8.domint.net:3128/stv_str/tv55/master.m3u8
 #EXTINF:-1 tvg-id="TastemadeenEspanol.us" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/8s6aRwv.png" group-title="Cooking",Tastemade en Español (1080p)
 https://tastemade-es8intl-roku.amagi.tv/hls/amagi_hls_data_tastemade-tastemade-es8intl-roku/CDN/playlist.m3u8
 #EXTINF:-1 tvg-id="TDNMedios.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRhNXeL2j6nDfgnmZxLlnMTAMne2l7IZ7boVIGUPL8h0VaFCFV2" group-title="",TDN Medios (360p) [Not 24/7]
@@ -121,6 +137,8 @@ http://ss8.domint.net:2124/tbt_str/telebendicion/playlist.m3u8
 http://cm.hostlagarto.com:8081/Telecanal-28/telecanal.myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="TeleCibao.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0XRxX9IhpJdBoV0UZNy1vSZAI-YRkewjeA1Jbp7VUIUFgGRpM" group-title="",TeleCibao (720p) [Not 24/7]
 http://cm.hostlagarto.com:8081/Telecibao/Telecibao/playlist.m3u8
+#EXTINF:-1 tvg-id="Teleclásicos.pa" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/109037038122033/picture?width=320&height=320" group-title="",Teleclásicos (320p)
+https://tvdatta.com:3484/stream/play.m3u8
 #EXTINF:-1 tvg-id="TelefuturoCanal23.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/0Bbj2lh.jpg" group-title="",Telefuturo Canal 23 (720p) [Not 24/7]
 http://ss8.domint.net:2118/tf_str/futu/master.m3u8
 #EXTINF:-1 tvg-id="Teleimpacto.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="" group-title="",Teleimpacto (720p) [Not 24/7]
@@ -141,13 +159,15 @@ https://cdnesmain.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
 https://ss3.domint.net:3124/tls_str/telesur/playlist.m3u8
 #EXTINF:-1 tvg-id="Teleunion.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://3.bp.blogspot.com/-1P8ozDYekaw/XbBkLrf0Q4I/AAAAAAAAodQ/5qTLYC9km6YVHW8E1WoELvFneAUm1U7bwCPcBGAYYCw/s200/Teleunion%2B%25281%2529.png" group-title="",Teleunion (480p) [Not 24/7]
 http://server3.prostudionetwork.com:1945/teleunion/TU/playlist.m3u8
+#EXTINF:-1 tvg-id="TVÉxitos.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="" group-title="",TV Éxitos (720p)
+https://vdo1.streamgato.us:3359/live/tvexitoslive.m3u8
 #EXTINF:-1 tvg-id="TVMontanaCanal10.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/2Sgckg3.jpg" group-title="",TV Montaña Canal 10 (720p) [Not 24/7]
 http://ss6.domint.net:2060/tvm_str/montanatv/master.m3u8
 #EXTINF:-1 tvg-id="TVPlata.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://1.bp.blogspot.com/-33hgi3XzfLk/XaTZchnPFzI/AAAAAAAAoXM/_4Dev7Cb_II0S6JPEDyqOShzfmInR42vACLcBGAsYHQ/s200/tvplata.png" group-title="",TV Plata (1080p) [Not 24/7]
 https://ss6.domint.net:3104/tvp_str/tvplata/playlist.m3u8
 #EXTINF:-1 tvg-id="TVGAmerica.es" tvg-country="HISPAM;ES" tvg-language="Galician" tvg-logo="https://i.imgur.com/1Z6svKc.jpg" group-title="General",TVG América (720p)
 https://america-crtvg.flumotion.com/playlist.m3u8
-#EXTINF:-1 tvg-id="TVS.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="http://dominicanchannels.com/wp-content/uploads/2016/06/tvs.jpg" group-title="",TVS (540p) [Not 24/7]
+#EXTINF:-1 tvg-id="TVS.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="http://dominicanchannels.com/wp-content/uploads/2016/06/tvs.jpg" group-title="",TVS (540p) [Geo-blocked]
 http://cm.hostlagarto.com:8081/Tvstv/TvstvHD.myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="UCL.uy" tvg-country="UY;HISPAM" tvg-language="Spanish" tvg-logo="https://uclplay.com/wp-content/uploads/2020/04/logo-horizontal-white-1.png" group-title="",UCL TV (720p) [Not 24/7]
 https://livedelta.cdn.antel.net.uy/out/u/url_canalu_2.m3u8
@@ -161,6 +181,8 @@ https://streaming.telecablecentral.com.do/Vallevision/ValleHD/playlist.m3u8
 https://ss6.domint.net:3012/tes_str/teleelsalvador/playlist.m3u8
 #EXTINF:-1 tvg-id="VivaCanal5.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="" group-title="",Viva Canal 5 (720p) [Not 24/7]
 https://iptv-all.lanesh4d0w.repl.co/dominicanrepublic/viva-canal-5
+#EXTINF:-1 tvg-id="VPItv.ve" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/vpitv/picture?width=320&height=320" group-title="News",VPItv (720p)
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/vpitv
 #EXTINF:-1 tvg-id="Zol106.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://2.bp.blogspot.com/-OlrTJEjmmAI/Wr1YlnuxLOI/AAAAAAAAdIU/vTw_1pzwsTUbHwz_4zPiZwnbaeHDwiYAwCLcBGAs/s200/Zol%2B106.png" group-title="",Zol106 (720p)
 https://ss3.domint.net:3108/zol_str/vzol/playlist.m3u8
 #EXTINF:-1 tvg-id="ZTV.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://z101digital.com/wp-content/themes/z-101-digital/imgs/podcasts/audios-destacados.jpg" group-title="",ZTV (480p) [Not 24/7]
