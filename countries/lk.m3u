@@ -1,8 +1,10 @@
 #EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/id/mncvision.id.epg.xml"
-#EXTINF:-1 tvg-id="AndPictures.in" tvg-country="SAS" tvg-language="Pashto" tvg-logo="https://static.epg.best/in/AndPictures.in.png" group-title="Movies",&Pictures (576p) [Geo-blocked]
-https://f8e7y4c6.ssl.hwcdn.net/andpicssd/playlist.m3u8
+#EXTINF:-1 tvg-id="AndPictures.in" tvg-country="SAS" tvg-language="Pashto" tvg-logo="https://static.epg.best/in/AndPictures.in.png" group-title="Movies",&Pictures (720p) [Geo-blocked]
+https://sneh-z5api.herokuapp.com/?c=0-9-tvpictureshd
 #EXTINF:-1 tvg-id="AndPriveHD.in" tvg-country="SAS" tvg-language="Pashto" tvg-logo="https://static.epg.best/in/AndPrive.in.png" group-title="Movies",&privé HD (720p) [Geo-blocked]
-https://f8e7y4c6.ssl.hwcdn.net/andprivehd/index.m3u8
+https://sneh-z5api.herokuapp.com/?c=0-9-privéhd
+#EXTINF:-1 tvg-id="AndTVHD.in" tvg-country="SAS" tvg-language="Pashto" tvg-logo="https://static.epg.best/in/AndTV.in.png" group-title="Movies",&TV HD (720p) [Geo-blocked]
+https://sneh-z5api.herokuapp.com/?c=0-9-tvhd_0
 #EXTINF:-1 tvg-id="athavantv.com" tvg-country="LK" tvg-language="Sinhala" tvg-logo="https://i.imgur.com/U4RQ4pT.png" group-title="",Athavan TV (720p) [Not 24/7]
 http://45.77.66.224:1935/athavantv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="AXNEastAsia.us" tvg-country="ASIA" tvg-language="English" tvg-logo="https://www.img09.xyz/assets/img/ch_logo/hd-axn.png" group-title="Movies",AXN East Asia (1080p) [Geo-blocked]

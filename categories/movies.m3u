@@ -4,11 +4,13 @@ https://d15690s323oesy.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d2
 #EXTINF:-1 tvg-id="43kanal.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="" group-title="Movies",43 канал (720p)
 http://sochinskayatrk.ru/hdtv/hls/43Channel_hd/playlist.m3u8
 #EXTINF:-1 tvg-id="AndFlix.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://static.epg.best/in/AndFlix.in.png" group-title="Movies",&Flix (720p) [Geo-blocked]
-https://f8e7y4c6.ssl.hwcdn.net/andflixhd/index.m3u8
-#EXTINF:-1 tvg-id="AndPictures.in" tvg-country="SAS" tvg-language="Pashto" tvg-logo="https://static.epg.best/in/AndPictures.in.png" group-title="Movies",&Pictures (576p) [Geo-blocked]
-https://f8e7y4c6.ssl.hwcdn.net/andpicssd/playlist.m3u8
+https://sneh-z5api.herokuapp.com/?c=0-9-channel_2105335046
+#EXTINF:-1 tvg-id="AndPictures.in" tvg-country="SAS" tvg-language="Pashto" tvg-logo="https://static.epg.best/in/AndPictures.in.png" group-title="Movies",&Pictures (720p) [Geo-blocked]
+https://sneh-z5api.herokuapp.com/?c=0-9-tvpictureshd
 #EXTINF:-1 tvg-id="AndPriveHD.in" tvg-country="SAS" tvg-language="Pashto" tvg-logo="https://static.epg.best/in/AndPrive.in.png" group-title="Movies",&privé HD (720p) [Geo-blocked]
-https://f8e7y4c6.ssl.hwcdn.net/andprivehd/index.m3u8
+https://sneh-z5api.herokuapp.com/?c=0-9-privéhd
+#EXTINF:-1 tvg-id="AndTVHD.in" tvg-country="SAS" tvg-language="Pashto" tvg-logo="https://static.epg.best/in/AndTV.in.png" group-title="Movies",&TV HD (720p) [Geo-blocked]
+https://sneh-z5api.herokuapp.com/?c=0-9-tvhd_0
 #EXTINF:-1 tvg-id="ActionMaxEast.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/Snba5W2.jpg" group-title="Movies",ActionMax East (360p) [Geo-blocked]
 http://31.220.41.88:8081/live/us-cinemaxaction.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="AfrolandTV.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/RAJsPmP.png" group-title="Movies",Afroland TV (720p)
@@ -419,6 +421,8 @@ http://cdn.tvmatic.net/shot.m3u8
 http://51.210.199.3/hls/stream.m3u8
 #EXTINF:-1 tvg-id="SL2.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="https://i.imgur.com/BVuUx5R.jpg" group-title="Movies",SL 2 (720p)
 http://51.210.199.2/hls/stream.m3u8
+#EXTINF:-1 tvg-id="StarCinema.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="" group-title="Movies",Star Cinema (576p)
+http://c0.cdn.trinity-tv.net/stream/nh9u54a7sfnc2hwzxr2zwykwkqm43bgyyzsm68ybbbnjei8kytwcgs3zm5gnw5c6efa5gr3fadzqe686w8gj2eaehrj89wvujvqza3kez78dtknwbbmnqf79yygmqqg7e9pnc3i3bpywjkiqrwke94yf.m3u8
 #EXTINF:-1 tvg-id="STIRRFilmRiseFreeMovies.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/X7U7ikq.png" group-title="Movies",STIRR FilmRise Free Movies (720p) [Not 24/7]
 https://dai.google.com/linear/hls/event/Va1QEor0SWO_x_SQNyaF0w/master.m3u8
 #EXTINF:-1 tvg-id="STIRRGravitasMovies.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/H2hD4vT.png" group-title="Movies",STIRR Gravitas Movies (720p)
@@ -465,6 +469,8 @@ https://rpn1.bozztv.com/36bay2/gusa-TVSFilmNoir/index.m3u8
 http://185.105.4.245:1935/livesp/uthradam/playlist.m3u8
 #EXTINF:-1 tvg-id="UtsavGold.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/FYym7gH.png" group-title="Movies",Utsav Gold (720p) [Geo-blocked]
 http://208.115.215.42/Utsav_Gold_HD/index.m3u8
+#EXTINF:-1 tvg-id="VictorValleyMovies.us" tvg-country="US" tvg-language="English" tvg-logo="https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/VictorValleyMovies_229x229.png?raw=true" group-title="Movies",Victor Valley Movies (1080p) [Not 24/7]
+https://2-fss-1.streamhoster.com/pl_122/201794-1414514-1/playlist.m3u8
 #EXTINF:-1 tvg-id="WarnerTV.us" tvg-country="US" tvg-language="English" tvg-logo="http://static.epg.best/fr/WarnerTV.fr.png" group-title="Movies",Warner TV (720p)
 http://203.154.243.89:11205
 #EXTINF:-1 tvg-id="WarnerTV.us" tvg-country="TH" tvg-language="Thai" tvg-logo="http://static.epg.best/fr/WarnerTV.fr.png" user-agent="Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36" group-title="Movies",Warner TV (720p) [Not 24/7]
@@ -490,8 +496,12 @@ https://dai2.xumo.com/amagi_hls_data_xumo1212A-rokuxumowesterns/CDN/playlist.m3u
 http://119.81.82.28/encoded/yuppthirai_800/playlist.m3u8
 #EXTINF:-1 tvg-id="ZeeAction.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/BvAXCNf.png" group-title="Movies",Zee Action (576p) [Geo-blocked]
 https://f8e7y4c6.ssl.hwcdn.net/action/playlist.m3u8
-#EXTINF:-1 tvg-id="ZeeBanglaCinema.in" tvg-country="IN" tvg-language="Bangla" tvg-logo="https://i.imgur.com/QFqJax5.png" group-title="Movies",Zee Bangla Cinema (576p) [Geo-blocked]
-https://f8e7y4c6.ssl.hwcdn.net/zbanglacnm/playlist.m3u8
+#EXTINF:-1 tvg-id="ZeeBangla.in" tvg-country="IN" tvg-language="Bangla" tvg-logo="http://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/USKY2MD6.png" group-title="Movies",Zee Bangla (720p) [Geo-blocked]
+https://sneh-z5api.herokuapp.com/?c=0-9-zeebangla
+#EXTINF:-1 tvg-id="ZeeBanglaCinema.in" tvg-country="IN" tvg-language="Bangla" tvg-logo="https://i.imgur.com/QFqJax5.png" group-title="Movies",Zee Bangla Cinema (720p) [Geo-blocked]
+https://sneh-z5api.herokuapp.com/?c=0-9-zeebanglacinema
+#EXTINF:-1 tvg-id="ZeeBollywood.in" tvg-country="IN" tvg-language="Bangla" tvg-logo="http://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/gq8mpPvf.png" group-title="Movies",Zee Bollywood (720p) [Geo-blocked]
+https://sneh-z5api.herokuapp.com/?c=0-9-zeeclassic
 #EXTINF:-1 tvg-id="ZeeMundo.in" tvg-country="IN" tvg-language="Spanish" tvg-logo="https://zeemundo.com/wp-content/uploads/2018/06/logo-120.png" group-title="Movies",Zee Mundo (720p) [Geo-blocked]
 https://f8e7y4c6.ssl.hwcdn.net/mundohd/playlist.m3u8
 #EXTINF:-1 tvg-id="Domkino.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="" group-title="Movies",Дом кино (1080p)
