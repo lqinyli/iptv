@@ -619,8 +619,6 @@ https://tvdatta.com:3602/stream/play.m3u8
 https://svs.itworkscdn.net/itwlive/itw3.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="BenTre.vn" tvg-country="VN" tvg-language="Vietnamese" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTFGIGk4MpV-7eFJWaeVPefzFSx8joT2yJJ76FmIkBntiQBBmov" group-title="",Bến Tre (720p)
 http://113.163.94.245/hls-live/livepkgr/_definst_/liveevent/thbt.m3u8
-#EXTINF:-1 tvg-id="BENGUTURKTV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="" group-title="",BENGÜTÜRK TV (720p)
-https://tv.ensonhaber.com/tv/tr/benguturk/index.m3u8
 #EXTINF:-1 tvg-id="BeratTV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="" group-title="",Berat TV (720p) [Not 24/7]
 http://cdn-berattv.yayin.com.tr/berattv/berattv/playlist.m3u8
 #EXTINF:-1 tvg-id="BeritaRTM.my" tvg-country="MY" tvg-language="Malay" tvg-logo="https://myklikstatic.secureswiftcontent.com/image/Berita-NEW-PlayerLogo.jpg" group-title="",Berita RTM (1080p)
@@ -712,6 +710,8 @@ https://sport.livedoomovie.com/02_BTSPORTHD_1_720p/chunklist.m3u8
 https://sport.livedoomovie.com/02_BTSPORTHD_2_720p/chunklist.m3u8
 #EXTINF:-1 tvg-id="BTK.bg" tvg-country="BG" tvg-language="Bulgarian" tvg-logo="https://i.imgur.com/5Sl6bKi.png" group-title="",BTK (576p)
 http://hls.cdn.bg:2007/fls/vtv/playlist.m3u8
+#EXTINF:-1 tvg-id="BTV.sk" tvg-country="SK" tvg-language="Slovak" tvg-logo="https://i.imgur.com/hgdR9cp.png" group-title="",BTV (720p) [Not 24/7]
+rtmp://s1.media-planet.sk:80/live/bardejov1
 #EXTINF:-1 tvg-id="BucovinaTV.ro" tvg-country="RO" tvg-language="Romanian" tvg-logo="https://i.imgur.com/7QHdiTO.png" group-title="",Bucovina TV (480p)
 http://46.4.14.12:9999/btvsvlive/playlist.m3u8
 #EXTINF:-1 tvg-id="Budakalasz.hu" tvg-country="HU" tvg-language="Hungarian" tvg-logo="https://i.imgur.com/ftmeWq2.png" group-title="",Budakalasz (1080p) [Not 24/7]
@@ -1842,7 +1842,7 @@ http://51.210.199.12/hls/stream.m3u8
 https://a.jsrdn.com/broadcast/d5b48/+0000/high/c.m3u8
 #EXTINF:-1 tvg-id="HorizonArmenian.us" tvg-country="AM" tvg-language="Armenian" tvg-logo="https://i.imgur.com/GVUIJiD.png" group-title="",Horizon Armenian (1080p)
 http://5.254.76.34:17070/C441/index.m3u8?token=kdsdkwy453wrRq29IIIo
-#EXTINF:-1 tvg-id="HornCableTV.so" tvg-country="SO" tvg-language="Somali" tvg-logo="https://i.imgur.com/71UKcdB.png" group-title="",Horn Cable TV [Not 24/7]
+#EXTINF:-1 tvg-id="HornCableTV.so" tvg-country="SO" tvg-language="Somali" tvg-logo="https://i.imgur.com/71UKcdB.png" group-title="",Horn Cable TV (720p) [Not 24/7]
 http://cdn.mediavisionuae.com:1935/live/hctvlive.stream/chunklist.m3u8
 #EXTINF:-1 tvg-id="HorrorMachine.us" tvg-country="US" tvg-language="English" tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/605d16ea10396351a3042dd3" group-title="",Horror Machine (720p)
 https://linear-82.frequency.stream/dist/localnow/82/hls/master/playlist.m3u8
@@ -3148,6 +3148,8 @@ https://live2.canaloncelive.tv/livepkgr3/cepro/playlist.m3u8
 https://broadcasttr.com:446/oncurtv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="OndaCadiz.es" tvg-country="ES" tvg-language="Spanish" tvg-logo="" group-title="",Onda Cádiz (480p)
 https://adc-hls.flumotion.com/playlist.m3u8
+#EXTINF:-1 tvg-id="OndaNovaraTV.it" tvg-country="IT" tvg-language="Italian" tvg-logo="" group-title="",Onda Novara TV (720p) [Not 24/7]
+https://585b674743bbb.streamlock.net/9006/9006/master.m3u8
 #EXTINF:-1 tvg-id="OndaMezquita7TV.es" tvg-country="ES" tvg-language="Spanish" tvg-logo="" group-title="",OndaMezquita 7 TV (720p) [Not 24/7]
 https://cloud.streamingconnect.tv:455/mezquita/mezquita.m3u8
 #EXTINF:-1 tvg-id="ONE.mt" tvg-country="MT" tvg-language="Maltese" tvg-logo="https://www.one.com.mt/assets/img/design/logos/menu_one_grey.png" group-title="",One (720p)
@@ -5117,7 +5119,7 @@ https://broadcasttr.com:446/tv52/bant1/playlist.m3u8
 https://live.fm100.gr/hls/tv100/index.m3u8
 #EXTINF:-1 tvg-id="TV1000ActionHD.ru_okkotv" tvg-country="" tvg-language="" tvg-logo="" group-title="",TV1000 Action HD
 https://okkotv-live.cdnvideo.ru/channel/TV1000_Action_HD.m3u8
-#EXTINF:-1 tvg-id="TV1000HD.ru_okkotv" tvg-country="" tvg-language="" tvg-logo="" group-title="",TV1000 HD
+#EXTINF:-1 tvg-id="TV1000HD.ru_okkotv" tvg-country="" tvg-language="" tvg-logo="" group-title="",TV1000 HD (1080p)
 https://okkotv-live.cdnvideo.ru/channel/TV1000_HD.m3u8
 #EXTINF:-1 tvg-id="TV1000Kino.ru_okkotv" tvg-country="" tvg-language="" tvg-logo="" group-title="",TV1000 Kino
 https://okkotv-live.cdnvideo.ru/channel/TV1000_Rus_Kino_HD.m3u8
@@ -5425,6 +5427,8 @@ https://unlimited1-cl.dps.live/tvr/tvr.smil/playlist.m3u8
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRINasional)/index.m3u8
 #EXTINF:-1 tvg-id="TVRI4.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="http://images2.useetv.com/logo_tvri_big1.png" group-title="",TVRI 4 (480p)
 http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRI4)/index.m3u8
+#EXTINF:-1 tvg-id="TVRI.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="http://images2.useetv.com/logo_tvri_big1.png" group-title="",TVRI* (480p) [Not 24/7]
+http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIdki)/index.m3u8
 #EXTINF:-1 tvg-id="TVRS.it" tvg-country="IT" tvg-language="Italian" tvg-logo="https://cdn.firstonetv.eu/images/logos/it/TVRS.png" group-title="",TVRS (576p) [Not 24/7]
 http://wms.shared.streamshow.it:1935/tvrs/tvrs/live.m3u8
 #EXTINF:-1 tvg-id="TVS.us" tvg-country="US" tvg-language="English" tvg-logo="https://paraguaype.com/wp-content/uploads/2016/07/tvs-encarnacion-televisora-del-sur-en-vivo-online.jpg" group-title="",TVS (720p)
@@ -6099,6 +6103,8 @@ http://91.194.79.46:8081/stream2/channel2/playlist.m3u8
 http://95.67.127.156/hls/pershij-dlovij_ua_hi/index.m3u8
 #EXTINF:-1 tvg-id="PervyykanalHD.ru_okkotv" tvg-country="" tvg-language="" tvg-logo="" group-title="",Первый канал HD
 https://okkotv-live.cdnvideo.ru/channel/Pervii_Kanal_OTT_HD.m3u8
+#EXTINF:-1 tvg-id="Pervyykrymskiy.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="http://1tvcrimea.ru/assets/images/live_1tvcrimea.png" group-title="",Первый крымский (540p) [Not 24/7]
+http://mrlive.1tvcrimea.ru:8080/1tvcrimea.m3u8
 #EXTINF:-1 tvg-id="PervyyPskovskiy.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="" group-title="",Первый Псковский (540p)
 http://194.190.78.91/pskov/rewind-10800.m3u8
 #EXTINF:-1 tvg-id="Pervyyrespublikanskiy.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="" group-title="",Первый республиканский (720p)
@@ -6708,8 +6714,6 @@ http://stream2.ahrtv.cn/xnxw/sd/live.m3u8
 http://stream2.ahrtv.cn/lygb/sd/live.m3u8
 #EXTINF:-1 tvg-id="AnHuiZongYiTiYu.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="http://www.tvyan.com/uploads/dianshi/ahzy.jpg" group-title="",安徽综艺体育 (480p) [Not 24/7]
 http://149.129.100.78/anhui.php?id=73
-#EXTINF:-1 tvg-id="WanMeiYouXi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",完美游戏 (1080p)
-http://183.207.248.71/cntv/live1/wmyx/wmyx
 #EXTINF:-1 tvg-id="YiXingXinWen.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",宜兴新闻 (720p)
 http://live-dft-hls-yf.jstv.com/live/yixing_xw/online.m3u8
 #EXTINF:-1 tvg-id="YiXingDianShiZiSha.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",宜兴电视紫砂 (720p)
@@ -7454,6 +7458,8 @@ http://111.63.117.13:6060/030000001000/G_CETV-2/G_CETV-2.m3u8
 http://s2.streamnet.ro:8035/stream.flv
 #EXTINF:-1 tvg-id="ZhiYe.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",置业 (576p)
 http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221227037/index.m3u8
+#EXTINF:-1 tvg-id="MeiGuoZhongWenDianShi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="https://ss0.baidu.com/-Po3dSag_xI4khGko9WTAnF6hhy/baike/pic/item/4034970a304e251f46b43584a786c9177f3e530f.jpg" group-title="",美国中文电视 (406p) [Not 24/7]
+https://jpts.sinovision.net/livestream.m3u8
 #EXTINF:-1 tvg-id="MeiGuoYaMeiWeiShi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",美国亚美卫视 (720p) [Not 24/7]
 https://dcunilive30-lh.akamaihd.net/i/dclive_1@535522/master.m3u8
 #EXTINF:-1 tvg-id="MeiGuoGouGouChongWu.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",美国狗狗宠物 (720p)
@@ -7690,8 +7696,6 @@ http://www.alibabapictures.com/movies/10/mayunduihua.mp4
 http://117.156.28.119/270000001111/1110000146/index.m3u8
 #EXTINF:-1 tvg-id="GaoQingDianYing.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",高清电影 (1080p)
 http://39.134.19.76/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226463/index.m3u8
-#EXTINF:-1 tvg-id="HeBiXinWenZongHe.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="http://www.tvyan.com/uploads/dianshi/hebi.jpg" group-title="",鹤壁新闻综合 (480p)
-http://pili-live-hls.hebitv.com/hebi/hebi.m3u8
 #EXTINF:-1 tvg-id="HeFengZongHe.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",鹤峰综合 [Geo-blocked]
 http://hefeng.live.tempsource.cjyun.org/videotmp/s10100-hftv.m3u8
 #EXTINF:-1 tvg-id="LuQuanYiTao.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",鹿泉一套 (576p) [Not 24/7]
