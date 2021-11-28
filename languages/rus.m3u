@@ -38,6 +38,10 @@ https://streamer1.connectto.com/ARTN_mobile/index.m3u8
 http://live.atameken.cdnvideo.ru/atameken/atameken.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="AtamekenBusiness.kz" tvg-country="KZ" tvg-language="Kazakh;Russian" tvg-logo="https://avatars.mds.yandex.net/get-tv-channel-logos/30303/2a000001662eb7cce159eda2661b206fb448/z" group-title="Business",Atameken Business (720p) [Not 24/7]
 http://live-atameken.cdnvideo.ru/atameken/atameken.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="BackusTV.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/YTcmkfW.png" group-title="Movies",Backus TV (1080p)
+http://stream.backustv.ru/live/btv/index.m3u8
+#EXTINF:-1 tvg-id="BackusTVStrashnoe.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/GGX4vDW.png" group-title="Movies",Backus TV Страшное (1080p)
+http://stream.backustv.ru/live/btv2/index.m3u8
 #EXTINF:-1 tvg-id="BaltiTV.md" tvg-country="MD" tvg-language="Russian" tvg-logo="" group-title="",Bălţi TV (1080p) [Geo-blocked]
 http://77.89.199.174:8000/play/1024/index.m3u8
 #EXTINF:-1 tvg-id="BollywoodHD.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://ocdn.eu/ptv2-images-transforms/1/MU_kr5sb2dvLW1pZ3JhdGVkL2JvbGx5d29vZC1oZC5qcGeSlQJkAMLDlQIAKMLD" group-title="Movies",Bollywood HD [Not 24/7]
@@ -433,16 +437,12 @@ https://vod.tv7.fi/tv7-ru/tv7-ru.smil/playlist.m3u8
 https://live-vestinn.cdnvideo.ru/vestinn/nn24-khl/playlist.m3u8
 #EXTINF:-1 tvg-id="NikaTV.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://nikatv.ru/public/img/logo2.png" group-title="",Ника ТВ (576p) [Not 24/7]
 https://live-nikatv.cdnvideo.ru/nikatv/nikatv.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="NLOHD.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="" group-title="",НЛО HD (720p)
-http://spacetv.in/stream/DIPK8H19CP8/344.m3u8
 #EXTINF:-1 tvg-id="Novoeradio.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="" group-title="Music",Новое радио (1080p)
 https://hls-video01.cdnvideo.ru/video01/smil:video01.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="NovoeTV.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="" group-title="",Новое ТВ (576p)
 http://serv25.vintera.tv:8081/novoetv/nov_tv/playlist.m3u8
 #EXTINF:-1 tvg-id="NovorossiyaTV.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="" group-title="",Новороссия ТВ (720p)
 http://ott.inmart.tv:8081/19/index.m3u8
-#EXTINF:-1 tvg-id="Novyy.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="" group-title="",Новый (720p)
-http://spacetv.in/stream/DVB2D6AE8CU/157.m3u8
 #EXTINF:-1 tvg-id="Novyymir.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="" group-title="",Новый мир (406p) [Not 24/7]
 http://stream.studio360.tv/nw/nw_576p/playlist.m3u8
 #EXTINF:-1 tvg-id="Noyabrsk24.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="" group-title="Local",Ноябрьск 24 (1080p) [Geo-blocked]
@@ -612,12 +612,11 @@ https://strm.yandex.ru/kal/start/start0.m3u8
 http://212.98.171.116/HLS/ctvby/playlist.m3u8
 #EXTINF:-1 tvg-id="StranaFM.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="" group-title="Music",Страна FM (720p) [Not 24/7]
 http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="StrashnoeHD.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="" group-title="",Страшное HD (720p)
-http://spacetv.in/stream/DIPK8H19CP8/226.m3u8
 #EXTINF:-1 tvg-id="STRK.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="" group-title="Movies",СТРК (720p) [Not 24/7]
 http://sochinskayatrk.ru/hdtv/hls/strc_hd/playlist.m3u8
-#EXTINF:-1 tvg-id="STS.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/pJNWVAz.png" group-title="",СТС (720p)
-http://spacetv.in/stream/DVB2D6AE8CU/138.m3u8
+#EXTINF:-1 tvg-id="STS.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/pJNWVAz.png" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148" group-title="",СТС (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s52/04.m3u8
 #EXTINF:-1 tvg-id="TaktRenTVKursk.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="" group-title="",Такт/Рен ТВ (Курск) (294p) [Not 24/7]
 http://109.194.62.29:8080
 #EXTINF:-1 tvg-id="Tatarstan24.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="http://www.zelenodolsk.ru/share/images/base/7/170_157352.jpg" group-title="Local",Татарстан24 (720p)
