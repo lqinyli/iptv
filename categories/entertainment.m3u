@@ -64,6 +64,8 @@ http://103.199.160.85/Content/captain/Live/Channel(Captain)/index.m3u8
 http://39.134.115.163:8080/PLTV/88888910/224/3221225634/index.m3u8
 #EXTINF:-1 tvg-id="Circle.us" tvg-country="US" tvg-language="English" tvg-logo="https://web.opendrive.com/api/v1/download/file.json/MF8yMjY2MjYwMTlf?inline=1" group-title="Entertainment",Circle (1080p)
 https://circle-roku.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="ClassicRerunsTV.us" tvg-country="US" tvg-language="English" tvg-logo="https://classicreruns.com/wp-content/uploads/2021/01/CRTV-1024x1024-logo-nobkg-e1629529582672.png" group-title="Entertainment",Classic Reruns TV (720p)
+https://dai.google.com/linear/hls/event/wnQPvAN9QBODw9hP-H0rZA/master.m3u8
 #EXTINF:-1 tvg-id="ColosalTV.bd" tvg-country="BD" tvg-language="Bengali" tvg-logo="https://i.imgur.com/4kxxSCq.png" group-title="Entertainment",Colosal TV (720p) [Not 24/7]
 https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/colosal.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="Comet.us" tvg-country="US" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/53/Comet_TV_Logo.png" group-title="Entertainment",Comet (720p)
@@ -76,8 +78,6 @@ http://flusonic-4.platinum-tv.com/D17/tracks-v1a1/mono.m3u8?token=test
 https://cwseedlive.cwtv.com/ingest/playlist.m3u8
 #EXTINF:-1 tvg-id="Dabangg.in" tvg-country="IN" tvg-language="Bhojpuri" tvg-logo="https://i.imgur.com/hpizqP6.png" group-title="Entertainment",Dabangg (576p) [Not 24/7]
 http://14.199.164.20:4001/play/a0nb/index.m3u8
-#EXTINF:-1 tvg-id="DarshanaTV.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://www.tvchannelpricelist.com/wp-content/uploads/channels-logo-300/darshana-tv-channel-logo-300x300.jpg" group-title="Entertainment",Darshana TV (576p)
-https://streaming37.worldbbtv.com/hls/darshana.m3u8
 #EXTINF:-1 tvg-id="DDBangla.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="" group-title="Entertainment",DD Bangla (576p) [Geo-blocked]
 https://sneh-z5api.herokuapp.com/?c=0-9-ddbangla
 #EXTINF:-1 tvg-id="DDMalayalam.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/9HfMVKs.jpg" group-title="Entertainment",DD Malayalam (576p)
@@ -134,8 +134,10 @@ http://103.199.161.254/Content/flowers/Live/Channel(Flowers)/index.m3u8
 http://14.199.164.20:4001/play/a0qx/index.m3u8
 #EXTINF:-1 tvg-id="Funoon.kw" tvg-country="KW" tvg-language="Arabic" tvg-logo="" group-title="Entertainment",Funoon (360p)
 https://gulfsat.cdn.easybroadcast.fr/live/FunoonHd_abr/playlist.m3u8
-#EXTINF:-1 tvg-id="GameShowNetworkEast.us" tvg-country="US" tvg-language="English" tvg-logo="https://raw.githubusercontent.com/geonsey/Free2ViewTV/master/images/logos/GameShowCentral_203x203.png" group-title="Entertainment",Game Show Network East (1080p)
+#EXTINF:-1 tvg-id="GameShowCentralEast.us" tvg-country="US" tvg-language="English" tvg-logo="https://raw.githubusercontent.com/geonsey/Free2ViewTV/master/images/logos/GameShowCentral_203x203.png" group-title="Entertainment",Game Show Central East (1080p)
 https://gsn-gameshowchannnel-1.vizio.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="GameShowNetworkEast.us" tvg-country="US" tvg-language="English" tvg-logo="https://raw.githubusercontent.com/geonsey/Free2ViewTV/master/images/logos/GameShowCentral_203x203.png" group-title="Entertainment",Game Show Network East (720p) [Not 24/7]
+http://n1.klowdtv.net/live2/gsn_720p/chunks.m3u8
 #EXTINF:-1 tvg-id="Gametoon.us" tvg-country="US" tvg-language="English" tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/602dcef57b79a227b5568d84" group-title="Entertainment",Gametoon (1080p)
 https://gametoon-localnow.cinedigm.com/playlist.m3u8
 #EXTINF:-1 tvg-id="GEMNature.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="https://www.gemonline.tv/Assets/channels-box/gem_nature.png" group-title="Entertainment",GEM Nature (540p) [Geo-blocked]
@@ -367,7 +369,7 @@ https://stream-us-east-1.getpublica.com/playlist.m3u8?app_bundle=com.plexapp.des
 #EXTINF:-1 tvg-id="TBD.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/Fbzbq1y.png" group-title="Entertainment",TBD. (720p)
 https://content.uplynk.com/channel/1831163f97674328ad9f4b4814ed39c5.m3u8
 #EXTINF:-1 tvg-id="TF1.fr" tvg-country="FR" tvg-language="French" tvg-logo="https://i.imgur.com/CJAbJfM.png" group-title="Entertainment",TF1 (720p)
-http://edge9.iptvnetwork.net/live/TF1/playlist.m3u8
+http://flusonic-4.platinum-tv.com/TF1/index.m3u8?token=test
 #EXTINF:-1 tvg-id="TheLoveDestination.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/eXBQfaP.png" group-title="Entertainment",The Love Destination (720p)
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=43
 #EXTINF:-1 tvg-id="TimeLineAustralia.us" tvg-country="AU" tvg-language="English" tvg-logo="https://i.imgur.com/J8qVUjM.png" group-title="Entertainment",Time Line Australia (720p)
