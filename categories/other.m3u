@@ -1786,6 +1786,8 @@ http://live.streams.ovh:1935/hightv/hightv/playlist.m3u8
 https://linear-120.frequency.stream/dist/localnow/120/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="HilandoFino.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="http://www.hilandofinotv.com/wp-content/uploads/2017/04/cropped-logo-tv-3.png" group-title="",Hilando Fino (1080p) [Geo-blocked]
 http://45.5.8.78:8000/play/a069
+#EXTINF:-1 tvg-id="HilandoFino.it" tvg-country="IT" tvg-language="Italian" tvg-logo="" group-title="",Hilando Fino (720p) [Not 24/7]
+http://4k-server-mia.2cdn.eu/HilandoFinoTV/ngrp:HilandoFinoTV_all/playlist.m3u8
 #EXTINF:-1 tvg-id="HiperTV.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://lh3.googleusercontent.com/-Jzepv48lTKg/Xm-zbST5B9I/AAAAAAAAw9c/j5ZlS99NHzghrTZ7O-RHN8wIXHEkMRutgCK8BGAsYHg/s0/2020-03-16.png" group-title="",HiperTV (720p)
 https://inliveserver.com:1936/11010/11010/playlist.m3u8
 #EXTINF:-1 tvg-id="HipodromodelasAmericas.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://www.hipodromo.com.mx/desktop/images/LOGO_HIPODROMO_bco.png" group-title="",Hipodromo de las Americas (720p) [Not 24/7]
@@ -1916,8 +1918,6 @@ https://sdm.telewebion.com/live/ilam/playlist.m3u8
 https://str81.creacast.com/iltv/high/playlist.m3u8
 #EXTINF:-1 tvg-id="ImagenRadio.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/SINYy29.png" group-title="",Imagen Radio (720p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCB0BUmdBOrH9mYU2ebs1eWA/live
-#EXTINF:-1 tvg-id="Imagentv.mx" tvg-country="MX" tvg-language="Spanish" tvg-logo="https://i.imgur.com/mRGetOJ.png" group-title="",Imagen TV (720p)
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/video/x82z4if
 #EXTINF:-1 tvg-id="ImanTV.af" tvg-country="AF" tvg-language="Pashto" tvg-logo="" group-title="",Iman TV (480p) [Not 24/7]
 https://59d39900ebfb8.streamlock.net/imantv/imantv/playlist.m3u8
 #EXTINF:-1 tvg-id="ImasTV.es" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://i.imgur.com/a9hgTmM.png" group-title="",Imás TV (1080p) [Not 24/7]
@@ -4071,10 +4071,16 @@ https://tvlive.rtsh.dev/live/rtsh_24_ott/playlist.m3u8
 http://79.106.48.2:4578/live/rtsh_24_mob/playlist.m3u8
 #EXTINF:-1 tvg-id="RTSHAgro.al" tvg-country="AL" tvg-language="Albanian" tvg-logo="https://i.imgur.com/Vh5MgY8.png" group-title="",RTSH Agro (480p)
 https://tvlive.rtsh.dev/live/rtsh_agro_ott/playlist.m3u8
+#EXTINF:-1 tvg-id="RTSHFemije.al" tvg-country="AL" tvg-language="Albanian" tvg-logo="https://i.imgur.com/K7uClaf.png" group-title="",RTSH Femijë (480p) [Not 24/7]
+https://tvlive.rtsh.dev/live/rtsh_femije_ott/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-language="" tvg-logo="" group-title="",RTSH Film
 http://79.106.48.2:4578/live/rtsh_film_mob_p1/playlist.m3u8
+#EXTINF:-1 tvg-id="RTSHFilm.al" tvg-country="AL" tvg-language="Albanian" tvg-logo="https://i.imgur.com/CB2zett.png" group-title="",RTSH Film (406p) [Not 24/7]
+https://tvlive.rtsh.dev/live/rtsh_film_ott/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-language="" tvg-logo="" group-title="",RTSH Gjirokastra
 http://79.106.48.2:4578/live/rtsh_gjirokastra_mob_p1/playlist.m3u8
+#EXTINF:-1 tvg-id="RTSHGjirokastra.al" tvg-country="AL" tvg-language="Albanian" tvg-logo="https://i.imgur.com/lXq6WsR.png" group-title="",RTSH Gjirokastra (480p) [Not 24/7]
+https://tvlive.rtsh.dev/live/rtsh_gjirokastra_ott/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-language="" tvg-logo="" group-title="",RTSH Kids
 http://79.106.48.2:4578/live/rtsh_femije_mob_p1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-language="" tvg-logo="" group-title="",RTSH Korça
@@ -4083,16 +4089,28 @@ http://79.106.48.2:4578/live/rtsh_korca_mob_p1/playlist.m3u8
 https://tvlive.rtsh.dev/live/rtsh_korca_ott/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-language="" tvg-logo="" group-title="",RTSH Kukesi
 http://79.106.48.2:4578/live/rtsh_kukesi_mob_p1/playlist.m3u8
+#EXTINF:-1 tvg-id="RTSHKukesi.al" tvg-country="AL" tvg-language="Albanian" tvg-logo="https://i.imgur.com/gNhoDAX.png" group-title="",RTSH Kukësi (360p) [Not 24/7]
+https://tvlive.rtsh.dev/live/rtsh_kukesi_ott_p2/playlist.m3u8
+#EXTINF:-1 tvg-id="RTSHKuvend.al" tvg-country="AL" tvg-language="Albanian" tvg-logo="https://i.imgur.com/k83keY8.png" group-title="",RTSH Kuvend (480p) [Not 24/7]
+https://tvlive.rtsh.dev/live/rtsh_kuvendi_ott/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-language="" tvg-logo="" group-title="",RTSH Muzike
 http://79.106.48.2:4578/live/rtsh_muzike_mob_p1/playlist.m3u8
+#EXTINF:-1 tvg-id="RTSHMuzike.al" tvg-country="AL" tvg-language="Albanian" tvg-logo="https://i.imgur.com/AXXlIgR.png" group-title="",RTSH Muzike (406p) [Not 24/7]
+https://tvlive.rtsh.dev/live/rtsh_muzike_mob/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-language="" tvg-logo="" group-title="",RTSH Plus
 http://79.106.48.2:4578/live/rtsh_plus_mob_p1/playlist.m3u8
+#EXTINF:-1 tvg-id="RTSHPlus.al" tvg-country="AL" tvg-language="Albanian" tvg-logo="https://i.imgur.com/UiDzIUN.png" group-title="",RTSH Plus (480p) [Not 24/7]
+https://tvlive.rtsh.dev/live/rtsh_plus_ott/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-language="" tvg-logo="" group-title="",RTSH Sat
 http://79.106.48.2:4578/live/rtsh_sat_mob_p1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-language="" tvg-logo="" group-title="",RTSH Shkodra
 http://79.106.48.2:4578/live/rtsh_shkodra_mob_p1/playlist.m3u8
+#EXTINF:-1 tvg-id="RTSHShkolle.al" tvg-country="AL" tvg-language="Albanian" tvg-logo="https://i.imgur.com/e8KhDGp.png" group-title="",RTSH Shkollë (360p) [Not 24/7]
+https://tvlive.rtsh.dev/live/rtsh_shkolle_ott/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-language="" tvg-logo="" group-title="",RTSH Shqip
 http://79.106.48.2:4578/live/rtsh_shqip_mob_p1/playlist.m3u8
+#EXTINF:-1 tvg-id="RTSHShqip.al" tvg-country="AL" tvg-language="Albanian" tvg-logo="https://i.imgur.com/IBpZiuO.png" group-title="",RTSH Shqip (406p) [Not 24/7]
+https://tvlive.rtsh.dev/live/rtsh_shqip_ott/playlist.m3u8
 #EXTINF:-1 tvg-id="RTSHSport.al" tvg-country="AL" tvg-language="Albanian" tvg-logo="https://i.imgur.com/rCTH2iP.png" group-title="",RTSH Sport (406p) [Not 24/7]
 https://tvlive.rtsh.dev/live/rtsh_sport_ott11/playlist.m3u8
 #EXTINF:-1 tvg-id="RTTRTrento.it" tvg-country="IT" tvg-language="Italian" tvg-logo="https://i.imgur.com/9houwTS.png" group-title="",RTTR Trento (404p)
@@ -4365,8 +4383,6 @@ http://112.25.48.68/live/program/live/hxjchd/4000000/mnf.m3u8
 http://112.25.48.68/live/program/live/fztd/1300000/mnf.m3u8
 #EXTINF:-1 tvg-id="SiTVYouXiFengYun.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",SiTV游戏风云 (1080p)
 http://112.25.48.68/live/program/live/yxfyhd/4000000/mnf.m3u8
-#EXTINF:-1 tvg-id="SiTVShengHuoShiShang.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",SiTV生活时尚 (1080p)
-http://112.25.48.68/live/program/live/shsshd/4000000/mnf.m3u8
 #EXTINF:-1 tvg-id="SiTVDuShiJuChang.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",SiTV都市剧场 (1080p)
 http://112.25.48.68/live/program/live/dsjchd/4000000/mnf.m3u8
 #EXTINF:-1 tvg-id="SiTVMeiLiZuQiu.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",SiTV魅力足球 (1080p) [Not 24/7]
@@ -4654,6 +4670,10 @@ https://livefta.malimarcdn.com/ftaedge00/teatv2.sdp/playlist.m3u8
 https://livefta.malimarcdn.com/ftaedge00/teatv2.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="TEF.es" tvg-country="ES" tvg-language="Spanish" tvg-logo="" group-title="",TEF (432p) [Not 24/7]
 https://cdn01.yowi.tv/36MLCJRAR2/master.m3u8
+#EXTINF:-1 tvg-id="TeinsTV.de" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/KJie1k5.png" group-title="",Teins TV (1080p) [Not 24/7]
+http://live1.markenfunk.com/t1/live/chunklist.m3u8
+#EXTINF:-1 tvg-id="TeinsTV.at" tvg-country="AT" tvg-language="German" tvg-logo="https://i.imgur.com/KJie1k5.png" group-title="",Teins TV (1080p) [Not 24/7]
+https://live1.markenfunk.com/t1/live/playlist.m3u8
 #EXTINF:-1 tvg-id="Tele1.ch" tvg-country="CH" tvg-language="German" tvg-logo="https://icanlive.tv/pictures/tele1.jpg" group-title="",Tele 1 (1080p)
 https://cdnapisec.kaltura.com/p/1719221/sp/171922100/playManifest/entryId/1_xias5bqq/format/applehttp/protocol/https/a.m3u8
 #EXTINF:-1 tvg-id="Tele1.sv" tvg-country="SV" tvg-language="Spanish" tvg-logo="https://www.tele1.sv/wp-content/uploads/2019/06/TELE1_FINAL_BLUE-1-149x84.png" group-title="",Tele1 (1080p) [Not 24/7]
@@ -4662,8 +4682,6 @@ http://streamingcws40.com:1935/canaluno/videocanaluno/playlist.m3u8
 http://uk4.streamingpulse.com:1935/TeleabruzzoTV/TeleabruzzoTV/playlist.m3u8
 #EXTINF:-1 tvg-id="TCH.ht" tvg-country="HT" tvg-language="French;Creole" tvg-logo="https://i.imgur.com/6LZVA4x.png" group-title="",Télé Conscience Haïtienne (TCH) (480p) [Not 24/7]
 http://tvlakay.haitilive.net/website/tchhaiti/player/mono.m3u8
-#EXTINF:-1 tvg-id="TeleCulturelleMedias.ca" tvg-country="CA" tvg-language="French" tvg-logo="https://i.imgur.com/oRigj9q.jpg" group-title="",Télé Culturelle Médias (720p)
-https://5790d294af2dc.streamlock.net/8150/8150/playlist.m3u8
 #EXTINF:-1 tvg-id="TeleLiguriaSud.it" tvg-country="IT" tvg-language="Italian" tvg-logo="" group-title="",Tele Liguria Sud (224p) [Not 24/7]
 https://live.teleliguriasud.it/hls/tls/index.m3u8
 #EXTINF:-1 tvg-id="TeleLouange.ht" tvg-country="HT" tvg-language="French;Creole" tvg-logo="https://i.imgur.com/vZmlq9N.jpg" group-title="",Tele Louange (720p)
@@ -6248,10 +6266,6 @@ http://stream0.tv41.ru/live.m3u8
 http://stream.smntv.cn/smtv2/playlist.m3u8
 #EXTINF:-1 tvg-id="SanMingXinWenZongHe.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",三明新闻综合 (1080p) [Not 24/7]
 http://stream.smntv.cn/smtv1/playlist.m3u8
-#EXTINF:-1 tvg-id="ShangHaiICSWaiYu.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",上海 ICS外语 (1080p)
-http://112.25.48.68/live/program/live/wypdhd/4000000/mnf.m3u8
-#EXTINF:-1 tvg-id="ShangHaiDongFangYingShi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",上海东方影视 (1080p)
-http://112.25.48.68/live/program/live/dsjpdhd/4000000/mnf.m3u8
 #EXTINF:-1 tvg-id="ShangHaiWeiShi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",上海卫视 (1080p)
 http://183.207.248.71/cntv/live1/HD-2500k-1080P-dongfangstv/HD-2500k-1080P-dongfangstv
 #EXTINF:-1 tvg-id="ShangHaiWaiTanMoYan.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",上海外滩魔眼
@@ -6264,8 +6278,6 @@ http://112.25.48.68/live/program/live/dycjhd/4000000/mnf.m3u8
 http://39.134.115.163:8080/PLTV/88888910/224/3221225654/index.m3u8
 #EXTINF:-1 tvg-id="ShangHaiZheYiKeMoDuYan.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",上海这一刻魔都眼 (720p)
 http://bililive.kksmg.com/hls/sdi80/playlist.m3u8
-#EXTINF:-1 tvg-id="ShangHaiDuShi.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",上海都市 (1080p)
-http://112.25.48.68/live/program/live/ylpdhd/4000000/mnf.m3u8
 #EXTINF:-1 tvg-id="ShangHaiJinShanDianShiTai.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",上海金山电视台 (270p)
 http://live.mudu.tv/watch/4zbn2f.m3u8
 #EXTINF:-1 tvg-id="ShangYu1XinWenZongHe.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",上虞1新闻综合 (576p)
@@ -6714,8 +6726,6 @@ http://stream2.jlntv.cn/jlyb/sd/live.m3u8
 http://kaixianlive.cbg.cn:10345/1.m3u8
 #EXTINF:-1 tvg-id="YiTanChunQiu.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",弈坛春秋 (576p)
 http://223.110.245.139/PLTV/4/224/3221227031/index.m3u8
-#EXTINF:-1 tvg-id="ZhangJiaKouYiTao.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",张家口一套 (720p)
-http://nlive.zjkgdcs.com:8091/live/xwzhpd.m3u8
 #EXTINF:-1 tvg-id="ZhangJiaGangXinWenZongHe.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",张家港新闻综合 (720p)
 http://3gvod.zjgonline.com.cn:1935/live/xinwenzonghe2/playlist.m3u8
 #EXTINF:-1 tvg-id="ZhangJiaGangSheHuiShengHuo.cn" tvg-country="CN" tvg-language="Chinese" tvg-logo="" group-title="",张家港社会生活 (720p)
