@@ -49,7 +49,7 @@ https://edge3.vedge.infomaniak.com/livecast/ik:canalalpha/playlist.m3u8
 https://chemnitz.iptv-playoutcenter.de/chemnitz/chemnitzfernsehen.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="ComedyCentralEast.us" tvg-country="US" tvg-language="German" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/60/Comedy_central.png" group-title="Comedy",Comedy Central East (720p) [Not 24/7]
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d4947590ba40f75dc29c26b/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d4947590ba40f75dc29c26b&deviceLat=51.2993&deviceLon=9.4910&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=400&terminate=false&userId=
-#EXTINF:-1 tvg-id="Couleur3.ch" tvg-country="CH" tvg-language="German" tvg-logo="https://i.imgur.com/9fAlB8K.png" group-title="",Couleur 3 (720p)
+#EXTINF:-1 tvg-id="Couleur3.ch" tvg-country="CH" tvg-language="German" tvg-logo="https://i.imgur.com/9fAlB8K.png" group-title="",Couleur 3 (900p)
 https://rtsc3video-lh.akamaihd.net/i/rtsc3video_ww@513975/master.m3u8
 #EXTINF:-1 tvg-id="DasErste.de" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/7wABSuo.png" group-title="",Das Erste (720p)
 https://derste247liveint.akamaized.net/hls/live/662735/daserste_int/master.m3u8
@@ -103,8 +103,8 @@ http://mediaspar-live.hls.adaptive.level3.net/ses/mediaspar/stream1/streamPlayli
 https://live2.telvi.de/hls/hauptstadttv_hd720.m3u8
 #EXTINF:-1 tvg-id="HealthTV.de" tvg-country="DE" tvg-language="German" tvg-logo="" group-title="",Health TV (720p)
 http://62.67.13.53:1935/HealthTV/ghtv_live_master.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="HitradioO3.at" tvg-country="AT" tvg-language="German" tvg-logo="https://i.imgur.com/pb4Iqno.png" group-title="",Hitradio Ö3 (720p) [Not 24/7]
-https://studiocam-oe3.mdn.ors.at/out/u/studiocam_oe3/q6a/manifest_1.m3u8
+#EXTINF:-1 tvg-id="HitradioO3.at" tvg-country="AT" tvg-language="German" tvg-logo="https://i.imgur.com/pb4Iqno.png" group-title="",Hitradio Ö3 (360p)
+http://185.85.28.19/oe3sd/orf.sdp/master.m3u8
 #EXTINF:-1 tvg-id="HSE.de" tvg-country="DE" tvg-language="German" tvg-logo="https://cdn.hd-plus.de/senderlogos/bright-cropped/24483-2.png" group-title="",HSE (1080p)
 https://hse24.akamaized.net/hls/live/2006663/hse24/playlist.m3u8
 #EXTINF:-1 tvg-id="HSE24Extra.de" tvg-country="DE" tvg-language="German" tvg-logo="" group-title="",HSE24 Extra (1080p)
@@ -149,7 +149,7 @@ https://muenchentv.iptv-playoutcenter.de/muenchentv/muenchentv.stream_1/playlist
 https://5856e1a25f71a.streamlock.net/easycast7-live/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="MyTVplus.de" tvg-country="DE" tvg-language="German" tvg-logo="http://www.mytvplus.de/arbeitsdaten/png/LOGO%20MyTVplus%2002.png" group-title="",MyTVplus (Dresden) (576p)
 https://mytvplus.iptv-playoutcenter.de/mytvplus/mytvplus.stream_1/playlist.m3u8
-#EXTINF:-1 tvg-id="ntvEvent.de" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/9FPXcFY.jpg" group-title="",n-tv Event (360p)
+#EXTINF:-1 tvg-id="ntvEvent.de" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/9FPXcFY.jpg" group-title="",n-tv Event (540p)
 https://ntvlivehls-lh.akamaihd.net/i/ntvlivehls_event1_1@409295/master.m3u8
 #EXTINF:-1 tvg-id="naheTV.de" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/XINB3Zf.png" group-title="",naheTV (720p)
 https://s.ok54.de/nahetv/webstream/playlist.m3u8
@@ -159,14 +159,20 @@ https://ndrevent-lh.akamaihd.net/i/ndrevent_1@409066/master.m3u8
 https://ndrevent-lh.akamaihd.net/i/ndrevent_2@429805/master.m3u8
 #EXTINF:-1 tvg-id="NDREvent3.de" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/BuirhUR.png" group-title="",NDR Event 3 (720p) [Geo-blocked]
 https://ndrevent-lh.akamaihd.net/i/ndrevent_3@409068/master.m3u8
-#EXTINF:-1 tvg-id="NDRHamburg.de" tvg-country="DE" tvg-language="German" tvg-logo="https://www.ndr.de/fernsehen/livestreamteaserbild100_v-contentxl.jpg" group-title="",NDR Hamburg (720p)
-https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master.m3u8
+#EXTINF:-1 tvg-id="NDRFernsehen.de" tvg-country="DE" tvg-language="German" tvg-logo="https://www.ndr.de/fernsehen/livestreamteaserbild110_v-contentxl.jpg" group-title="",NDR Fernsehen (720p) [Geo-blocked]
+https://ndrfs-lh.akamaihd.net/i/ndrfs_fs@430230/master.m3u8
+#EXTINF:-1 tvg-id="NDRHamburg.de" tvg-country="DE" tvg-language="German" tvg-logo="https://www.ndr.de/fernsehen/livestreamteaserbild100_v-contentxl.jpg" group-title="",NDR Hamburg (720p) [Geo-blocked]
+https://ndrfs-lh.akamaihd.net/i/ndrfs_hh@430231/master.m3u8
+#EXTINF:-1 tvg-id="NDRInternational.de" tvg-country="DE" tvg-language="German" tvg-logo="https://www.ndr.de/fernsehen/livestreamteaserbild108_v-contentxl.jpg" group-title="",NDR International (720p) [Geo-blocked]
+https://ndrfs-lh.akamaihd.net/i/ndrfs_int@430236/master.m3u8
 #EXTINF:-1 tvg-id="NDRMecklenburgVorpommern.de" tvg-country="DE" tvg-language="German" tvg-logo="https://www.ndr.de/fernsehen/livestreamteaserbild102_v-contentxl.jpg" group-title="",NDR Mecklenburg-Vorpommern (720p) [Geo-blocked]
 https://ndrfs-lh.akamaihd.net/i/ndrfs_mv@430232/master.m3u8
 #EXTINF:-1 tvg-id="NDRNiedersachsen.de" tvg-country="DE" tvg-language="German" tvg-logo="https://www.ndr.de/fernsehen/livestreamteaserbild104_v-contentxl.jpg" group-title="",NDR Niedersachsen (720p)
 https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master.m3u8
-#EXTINF:-1 tvg-id="NDRSchleswigHolstein.de" tvg-country="DE" tvg-language="German" tvg-logo="https://www.ndr.de/fernsehen/livestreamteaserbild106_v-contentxl.jpg" group-title="",NDR Schleswig-Holstein (720p) [Geo-blocked]
-https://ndrfs-lh.akamaihd.net/i/ndrfs_sh@430234/master.m3u8
+#EXTINF:-1 tvg-id="NDRSchleswigHolstein.de" tvg-country="DE" tvg-language="German" tvg-logo="https://www.ndr.de/fernsehen/livestreamteaserbild106_v-contentxl.jpg" group-title="",NDR Schleswig-Holstein (720p)
+https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master.m3u8
+#EXTINF:-1 tvg-id="NDRWeltweiter.de" tvg-country="DE" tvg-language="German" tvg-logo="https://www.ndr.de/fernsehen/livestreamteaserbild108_v-contentxl.jpg" group-title="",NDR Weltweiter (720p) [Geo-blocked]
+https://ndrfs-lh.akamaihd.net/i/ndrfs_ww@430235/master.m3u8
 #EXTINF:-1 tvg-id="NiederbayernTV.de" tvg-country="DE" tvg-language="German" tvg-logo="" group-title="",Niederbayern TV (1080p) [Not 24/7]
 https://stream03.stream.welocal.world/stream/nla/ngrp:nla.stream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="NiederbayernTVPassau.de" tvg-country="DE" tvg-language="German" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/niederbayerntv.png" group-title="",Niederbayern TV Passau (1080p) [Not 24/7]
@@ -195,7 +201,7 @@ http://58bd5b7a98e04.streamlock.net/medienasa-live/ok-dessau_high/playlist.m3u8
 https://d1lv1lpzlrjn3y.cloudfront.net/play/hls/flensburgtv/index.m3u8
 #EXTINF:-1 tvg-id="OKGiessen.de" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/XsmPI4N.jpg" group-title="",OK Gießen (360p) [Not 24/7]
 https://s.ok54.de/mok-gi/mok-gi/playlist.m3u8
-#EXTINF:-1 tvg-id="OKKaiserslautern.de" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/SzGXrjb.png" group-title="",OK Kaiserslautern (360p) [Not 24/7]
+#EXTINF:-1 tvg-id="OKKaiserslautern.de" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/SzGXrjb.png" group-title="",OK Kaiserslautern (720p) [Not 24/7]
 https://s.ok54.de/abr_okkl/webstream/playlist.m3u8
 #EXTINF:-1 tvg-id="OKKassel.de" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/XsmPI4N.jpg" group-title="",OK Kassel (720p) [Not 24/7]
 https://s.ok54.de/mok-ks/kassel/playlist.m3u8
@@ -245,7 +251,7 @@ http://streaming.bitonlive.net:8080/hls/ottofmtv/index.m3u8
 http://p3-6.mov.at:1935/live/weekstream/master.m3u8
 #EXTINF:-1 tvg-id="Parlamentsfernsehen1.de" tvg-country="DE" tvg-language="German" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/parlamentsfernsehen.png" group-title="",Parlamentsfernsehen 1 (1080p)
 https://cldf-hlsgw.r53.cdn.tv1.eu/1000153copo/hk1.m3u8
-#EXTINF:-1 tvg-id="Parlamentsfernsehen2.de" tvg-country="DE" tvg-language="German" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/parlamentsfernsehen.png" group-title="",Parlamentsfernsehen 2 (270p)
+#EXTINF:-1 tvg-id="Parlamentsfernsehen2.de" tvg-country="DE" tvg-language="German" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/parlamentsfernsehen.png" group-title="",Parlamentsfernsehen 2 (1080p)
 https://cldf-hlsgw.r53.cdn.tv1.eu/1000153copo/hk2.m3u8
 #EXTINF:-1 tvg-id="PearlTV.de" tvg-country="DE" tvg-language="German" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/pearltv.png" group-title="",Pearl TV [Not 24/7]
 http://enstyle-live.hls.adaptive.level3.net/ses/enstyle/stream1/streamPlaylist.m3u8
@@ -253,7 +259,7 @@ http://enstyle-live.hls.adaptive.level3.net/ses/enstyle/stream1/streamPlaylist.m
 https://zdf-hls-19.akamaized.net/hls/live/2016502/de/high/master.m3u8
 #EXTINF:-1 tvg-id="PlutoTVAutoMotorSport.us" tvg-country="US" tvg-language="German" tvg-logo="https://images.pluto.tv/channels/5f760c3d41aa2d0007bfde19/colorLogoPNG.png" group-title="Sports",Pluto TV Auto Motor Sport (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f760c3d41aa2d0007bfde19/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
-#EXTINF:-1 tvg-id="PlutoTVBeybladeBurstNick.us" tvg-country="US" tvg-language="German" tvg-logo="https://images.pluto.tv/channels/5e8b551ddcd25500072c4dad/colorLogoPNG.png" group-title="Kids",Pluto TV Beyblade Burst Nick (480p)
+#EXTINF:-1 tvg-id="PlutoTVBeybladeBurstNick.us" tvg-country="US" tvg-language="German" tvg-logo="https://images.pluto.tv/channels/5e8b551ddcd25500072c4dad/colorLogoPNG.png" group-title="Kids",Pluto TV Beyblade Burst Nick (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e8b551ddcd25500072c4dad/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=1&deviceId=5e8b551ddcd25500072c4dad&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=a38b88ed-0712-11eb-8b9f-0242ac110002&terminate=false&userId=
 #EXTINF:-1 tvg-id="PlutoTVChefkoch.us" tvg-country="DE" tvg-language="German" tvg-logo="https://images.pluto.tv/channels/5e8c4c3f141f350007936f7d/colorLogoPNG.png" group-title="",Pluto TV Chefkoch (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5e8c4c3f141f350007936f7d/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
@@ -269,7 +275,7 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5e8b580a233dc90007
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5dc02ece31f6050009de4b39/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="PlutoTVMovies.us" tvg-country="DE" tvg-language="German" tvg-logo="https://images.pluto.tv/channels/5ad8d3a31b95267e225e4e09/colorLogoPNG.png" group-title="Movies",Pluto TV Movies (720p) [Not 24/7]
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5c5c3b948002db3c3e0b262e/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
-#EXTINF:-1 tvg-id="PlutoTVMoviesCH.us" tvg-country="DE" tvg-language="German" tvg-logo="https://images.pluto.tv/channels/5dc2bdfec6cdc10009975e20/colorLogoPNG.png" group-title="Movies",Pluto TV Movies CH (360p)
+#EXTINF:-1 tvg-id="PlutoTVMoviesCH.us" tvg-country="DE" tvg-language="German" tvg-logo="https://images.pluto.tv/channels/5dc2bdfec6cdc10009975e20/colorLogoPNG.png" group-title="Movies",Pluto TV Movies CH (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5dc2bdfec6cdc10009975e20/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="PlutoTVN24Doku.us" tvg-country="DE" tvg-language="German" tvg-logo="https://images.pluto.tv/channels/60080e8a4bf36000076a81b1/colorLogoPNG.png" group-title="Documentary",Pluto TV N24 Doku (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60080e8a4bf36000076a81b1/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
@@ -470,7 +476,7 @@ http://58bd5b7a98e04.streamlock.net/medienasa-live/tvhalle_high/playlist.m3u8
 #EXTINF:-1 tvg-id="TVIngolstadt.de" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/lrLaILx.png" group-title="",TV Ingolstadt (1080p) [Not 24/7]
 https://stream01.stream.welocal.world/stream/tvi/ngrp:tvi.stream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="TVMainfranken.de" tvg-country="DE" tvg-language="German" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/tvmainfranken.png" group-title="",TV Mainfranken (1080p) [Not 24/7]
-https://stream01.stream.welocal.world/stream/tvm/ngrp:tvm.stream_all/playlist.m3u8
+https://tvtouringw.iptv-playoutcenter.de/tvtouringw/tvtouringw.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="TVMittelrhein.de" tvg-country="DE" tvg-language="German" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/tvmittelrhein.png" group-title="",TV Mittelrhein (404p) [Not 24/7]
 https://sdn-global-live-http-cache.3qsdn.com/2979/amlst:5714-sbr/playlist.m3u8
 #EXTINF:-1 tvg-id="TVOberfranken.de" tvg-country="DE" tvg-language="German" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/tvo.png" group-title="",TV Oberfranken (1080p) [Not 24/7]

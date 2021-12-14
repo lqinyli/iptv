@@ -143,9 +143,8 @@ https://a.files.bbci.co.uk/media/live/manifesto/audio_video/webcast/dash/uk/full
 https://a.files.bbci.co.uk/media/live/manifesto/audio_video/webcast/dash/uk/full/ak/uhd_stream_04.mpd
 #EXTINF:-1 tvg-id="BBCUHDTrial5.uk" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="",BBC UHD Trial 5 (2160p) [Geo-blocked]
 https://a.files.bbci.co.uk/media/live/manifesto/audio_video/webcast/dash/uk/full/ak/uhd_stream_05.mpd
-#EXTINF:-1 tvg-id="BBCWorldNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/Nx0BRdV.png" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148" group-title="News",BBC World News (480p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
-http://ott-cdn.ucom.am/s24/index.m3u8
+#EXTINF:-1 tvg-id="BBCWorldNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/Nx0BRdV.png" group-title="News",BBC World News (576p)
+http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
 #EXTINF:-1 tvg-id="BeanoTV.uk" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/XvBi1Ou.png" group-title="",Beano TV (720p) [Not 24/7]
 https://beanostudios-beanotv-1-gb.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="BloombergTVEMEALiveEvent.us" tvg-country="EMEA" tvg-language="English" tvg-logo="http://cdn-profiles.tunein.com/s47135/images/logog.png" group-title="Business",Bloomberg TV EMEA Live Event (720p)
@@ -154,9 +153,9 @@ https://www.bloomberg.com/media-manifest/streams/eu-event.m3u8
 https://liveprodeuwest.akamaized.net/eu1/Channel-EUTVqvs-AWS-ireland-1/Source-EUTVqvs-1000-1_live.m3u8
 #EXTINF:-1 tvg-id="BoxHits.uk" tvg-country="UK" tvg-language="English" tvg-logo="https://tvepg.eu/img/united_kingdom/logo/box_hits.png" group-title="Music",Box Hits (576p)
 https://csm-e-boxplus.tls1.yospace.com/csm/extlive/boxplus01,boxhits-alldev.m3u8?yo.up=http://boxtv-origin-elb.cds1.yospace.com/uploads/boxhits/
-#EXTINF:-1 tvg-id="BritAsiaLiveUSEastern.uk" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/BPS22GM.png" group-title="",Brit Asia Live (US Eastern) (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="BritAsiaLiveUSEastern.uk" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/BPS22GM.png" group-title="",Brit Asia Live (US Eastern) (360p) [Not 24/7]
 https://a.jsrdn.com/broadcast/22693_4rGhgrBU/-0500/c.m3u8
-#EXTINF:-1 tvg-id="BritAsiaLiveUSPacific.uk" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/BPS22GM.png" group-title="",Brit Asia Live (US Pacific) (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="BritAsiaLiveUSPacific.uk" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/BPS22GM.png" group-title="",Brit Asia Live (US Pacific) (360p) [Not 24/7]
 https://a.jsrdn.com/broadcast/22693_4rGhgrBU/-0800/c.m3u8
 #EXTINF:-1 tvg-id="BritishMuslimTV.uk" tvg-country="UK" tvg-language="English" tvg-logo="http://www.britishmuslim.tv/images/BMTV_Identity.svg" group-title="Religious",British Muslim TV (576p)
 https://api.visionip.tv/live/ASHTTP/visiontvuk-international-britishmuslimtv-hsslive-25f-16x9-MB/playlist.m3u8
@@ -174,6 +173,8 @@ https://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:cbbc_hd/t=
 https://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:cbeebies_hd/mobile_wifi_main_sd_abr_v2_akamai_hls_live_http.m3u8
 #EXTINF:-1 tvg-id="CBeebiesHD.uk" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="",CBeebies HD (720p) [Geo-blocked]
 https://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:cbeebies_hd/t=3840/v=pv14/b=5070016/main.m3u8
+#EXTINF:-1 tvg-id="ChannelFight.us" tvg-country="UK" tvg-language="English" tvg-logo="https://od.lk/s/MF8yMzA3OTUzMjNf/ChannelFight_490x490.png" group-title="Sports",Channel Fight (720p) [Not 24/7]
+https://live.serverside.ai/hls/7dc5907c-6d6e-45ef-a24f-e28353aa8e98/master.m3u8?api-key=4a09ede0-52da-4cd9-aa82-3b36d8dfa59b&channel_name=Channel+Fight&channel_partner=Channel+Fight&consent=&content_genre=MMA&content_id=a2e646e0_20210305163052_D0CF72b&gdpr=1&ip=194.35.233.10&mute=false&t=2021-03-05T16:30:52.000&ua=Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/88.0.4324.150+Safari/537.36+OPR/74.0.3911.160&vid=a2e646e0_20210305163052_D0CF72b
 #EXTINF:-1 tvg-id="ChannelS.uk" tvg-country="UK;IE;BD" tvg-language="Bengali" tvg-logo="https://i.imgur.com/TjVJT22.png" group-title="Local",Channel S (720p) [Not 24/7]
 https://a.jsrdn.com/r-373576a3/publish/22679_24MrQma9TX/index.m3u8
 #EXTINF:-1 tvg-id="ChannelSUSEastern.uk" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/hJxFLvF.png" group-title="",Channel S (US Eastern) (720p)
@@ -218,9 +219,7 @@ https://failarmy-international-gb.samsung.wurl.com/manifest/playlist.m3u8
 https://filmzie-filmzie-1-gb.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="ForTheFans.us" tvg-country="UK" tvg-language="English" tvg-logo="https://od.lk/s/MF8yMzA3OTUzMzNf/FTF_720x720.png" group-title="Sports",For The Fans (720p) [Not 24/7]
 https://live.serverside.ai/hls/0f7f0c30-e13d-41b6-9e15-9a9de7ef979f/master.m3u8?api-key=4c19fe78-8ce2-4f88-9a39-f202dc24236f&channel_name=For+The+Fans&channel_partner=For+The+Fans&consent=&content_genre=Sport&content_id=cf1e9700_20210305160000_D0CF72b&gdpr=1&ip=194.35.233.10&mute=false&t=2021-03-05T16:00:00.000&ua=Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/88.0.4324.150+Safari/537.36+OPR/74.0.3911.160&vid=cf1e9700_20210305160000_D0CF72b
-#EXTINF:-1 tvg-id="FreeSports.uk" tvg-country="UK" tvg-language="English" tvg-logo="https://images.stv.tv/player/master/595831-freesports.jpg" group-title="Sports",FreeSports (1080p) [Not 24/7]
-https://csm-e-stv.tls1.yospace.com/csm/live/203444271.m3u8
-#EXTINF:-1 tvg-id="FTFForthefans.uk" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/Db8nWyW.png" group-title="",FTF For the fans (720p)
+#EXTINF:-1 tvg-id="FTFForthefans.uk" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/Db8nWyW.png" group-title="",FTF For the fans (540p)
 https://elevensports-uk.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="GarshomTV.uk" tvg-country="UK" tvg-language="Malayalam" tvg-logo="" group-title="",Garshom TV (360p) [Not 24/7]
 http://og2qd3aal7an-hls-live.5centscdn.com/garshomtv/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
@@ -298,6 +297,8 @@ https://j78dpa3edq5r-hls-live.5centscdn.com/abr/0864028584026e6ad9cdf922473177a4
 https://mavtv-mavtvglobal-1-eu.rakuten.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="MavTVUK.us" tvg-country="UK" tvg-language="English" tvg-logo="https://www.mavtv.com/assets/images/mavtv_logo.png" group-title="Sports",MavTV UK (720p) [Not 24/7]
 https://mavtv-mavtvglobal-1-gb.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="MMATV.fr" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/MYoNHMg.png" group-title="",MMA TV (720p) [Not 24/7]
+https://alchimie-mmatv-1-gb.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="MoonBug.uk" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="",MoonBug (1080p) [Not 24/7]
 https://moonbug-rokuus.amagi.tv/hls/amagi_hls_data_moonbugAA-moonbug-roku-us/CDN/playlist.m3u8
 #EXTINF:-1 tvg-id="MoonbugKids.uk" tvg-country="UK" tvg-language="English" tvg-logo="https://www.samsung.com/us/smg/content/dam/s7/home/televisions-and-home-theater/tvs/tv-plus/all-channels/07212020/circle_190x190.png?raw=true" group-title="Kids",Moonbug Kids (1080p)
@@ -330,6 +331,8 @@ http://212.224.98.213:2200/EX/Nick_Jr_Too-uk/index.m3u8?token=
 https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/ntvuk00332211.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="Pac12Insider.us" tvg-country="UK" tvg-language="English" tvg-logo="https://od.lk/s/MF8yMzA3OTUzMjdf/PAC12_720x720.png" group-title="Sports",Pac12 Insider (720p)
 https://pac12-sportstribal.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="PeopleareAwesome.us" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/msHBlDz.png" group-title="Entertainment",People are Awesome (720p) [Not 24/7]
+https://jukin-peopleareawesome-2-gb.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="PlanetKnowledge.uk" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/U8GADbT.jpg" group-title="",Planet Knowledge (720p) [Not 24/7]
 https://vod365-planet-knowledge-1-gb.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="PlayersTV.us" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/31L4TjP.png" group-title="Sports",Players TV (1080p)
@@ -380,8 +383,6 @@ https://vs-hls-pushb-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:s4cpbs/mob
 https://api.new.livestream.com/accounts/6986636/events/5362122/live.m3u8
 #EXTINF:-1 tvg-id="SheffieldLiveTV.uk" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/eUqnYU1.png" group-title="Local",Sheffield Live TV (360p) [Not 24/7]
 http://tv.sheffieldlive.org/hls/main.m3u8
-#EXTINF:-1 tvg-id="SKITV.us" tvg-country="UK" tvg-language="English" tvg-logo="https://od.lk/s/MF8yMzA3OTUzMjlf/SkiTV_400x400.png" group-title="Sports",SKI TV (1080p) [Not 24/7]
-https://d2xeo83q8fcni6.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/SkiTV-SportsTribal/193.m3u8
 #EXTINF:-1 tvg-id="SkiTV.uk" tvg-country="UK" tvg-language="English" tvg-logo="https://content.weyyak.com/af0ecf95-8dc9-443d-9b4f-bc01eab7bd30/poster-image" group-title="Sports",Ski TV (1080p) [Not 24/7]
 https://d2xeo83q8fcni6.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/SkiTV-Zee/193.m3u8
 #EXTINF:-1 tvg-id="SkyNews.uk" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/WvNd8yg.png" group-title="News",Sky News (720p) [Geo-blocked]
@@ -390,7 +391,7 @@ http://skydvn-sn-mobile-prod.skydvn.com/skynews/1404/latest.m3u8
 https://sofytv-samsunguk.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="SparkTv.uk" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/vTGknv3.png" group-title="",Spark Tv (720p)
 https://sparktv-samsunguk.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="Spike.uk" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="",Spike (480p)
+#EXTINF:-1 tvg-id="Spike.uk" tvg-country="UK" tvg-language="English" tvg-logo="" group-title="",Spike (404p)
 https://viacomitalytest-lh.akamaihd.net/i/sbshdlive_1@829515/master.m3u8
 #EXTINF:-1 tvg-id="SportsTonight.uk" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/Nh4LyPv.png" group-title="Sports",Sports Tonight (576p)
 http://sports.ashttp9.visionip.tv/live/visiontvuk-sports-sportstonightlive-hsslive-25f-4x3-SD/chunklist.m3u8
@@ -422,6 +423,8 @@ https://cdn-shop-lc-01.akamaized.net/Content/HLS_HLS/Live/channel(TJCOTT)/index.
 https://toongoggles-toongoggles-3-gb.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="Truly.uk" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/MWkm3no.png" group-title="",Truly (720p) [Not 24/7]
 https://barcroft-truly-1-gb.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="Unearth.fr" tvg-country="UK" tvg-language="English" tvg-logo="https://i.imgur.com/bMqTNs1.jpg" group-title="",Unearth (720p) [Not 24/7]
+https://alchimie-unearth-2-gb.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="V2BEAT.uk" tvg-country="UK" tvg-language="English" tvg-logo="https://graph.facebook.com/vtwobeat/picture?width=320&height=320" group-title="Music",V2BEAT (720p) [Not 24/7]
 https://abr.de1se01.v2beat.live/playlist.m3u8
 #EXTINF:-1 tvg-id="WeatherSpyEurope.us" tvg-country="EUR" tvg-language="English" tvg-logo="https://i.imgur.com/SAZF1cq.jpg" group-title="Weather",WeatherSpy Europe (720p) [Not 24/7]
