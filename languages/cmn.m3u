@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/bs/rev.bs.epg.xml,https://iptv-org.github.io/epg/guides/cn/tv.cctv.com.epg.xml"
+#EXTM3U x-tvg-url=""
 #EXTINF:-1 tvg-id="CCTV1.cn" tvg-country="CN" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/6/65/CCTV-1_Logo.png" group-title="General",CCTV-1综合 (1080p)
 http://39.134.115.163:8080/PLTV/88888910/224/3221225618/index.m3u8
 #EXTINF:-1 tvg-id="CCTV2.cn" tvg-country="CN" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/3/34/CCTV-2_Logo.svg/800px-CCTV-2_Logo.svg.png" group-title="",CCTV-2财经 (1080p)
@@ -25,10 +25,10 @@ http://39.135.138.59:18890/PLTV/88888910/224/3221225628/index.m3u8
 http://39.134.66.66/PLTV/88888888/224/3221225669/index.m3u8
 #EXTINF:-1 tvg-id="CCTV13.cn" tvg-country="CN" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/0/0b/CCTV-13_Logo.png" group-title="News",CCTV-13新闻 (1080p)
 http://39.134.115.163:8080/PLTV/88888910/224/3221225638/index.m3u8
+#EXTINF:-1 tvg-id="CHCGaoQingDianYing.cn" tvg-country="CN" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://i.imgur.com/GjGiNIA.jpg" group-title="Movies",CHC高清电影 [Not 24/7]
+http://ivi.bupt.edu.cn/hls/chchd.m3u8
 #EXTINF:-1 tvg-id="GOODTVCH1ZongHeTai.tw" tvg-country="TW" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://app.streamingfast.net/uploads/channel/1_file.jpg" group-title="Religious",GOOD TV CH1 綜合台 (720p)
 https://live.streamingfast.net/osmflivech1.m3u8
-#EXTINF:-1 tvg-id="GOODTVCH2ZhenLiTai.tw" tvg-country="TW" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://app.streamingfast.net/uploads/channel/2_file.jpg" group-title="Religious",GOOD TV CH2 真理台 (720p)
-https://live.streamingfast.net/osmflivech2.m3u8
 #EXTINF:-1 tvg-id="GOODTVCH3ZhenQingBuLuoGeDuanBan.tw" tvg-country="TW" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://app.streamingfast.net/uploads/channel/3_file.jpg" group-title="Religious",GOOD TV CH3 真情部落格 短版 (720p)
 https://live.streamingfast.net/osmflivech3.m3u8
 #EXTINF:-1 tvg-id="GOODTVCH5GongXiangGuanDianDuanBan.tw" tvg-country="TW" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://app.streamingfast.net/uploads/channel/5_file.jpg" group-title="Religious",GOOD TV CH5 共享觀點 短版 (720p)
@@ -63,10 +63,6 @@ https://live.streamingfast.net/osmflivech21.m3u8
 https://live.streamingfast.net/osmflivech22.m3u8
 #EXTINF:-1 tvg-id="GOODTVCH23KongZhongZhuRiXueShengHuo.tw" tvg-country="TW" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://app.streamingfast.net/uploads/channel/23_file.jpg" group-title="Religious",GOOD TV CH23 空中主日學 生活 (720p)
 https://live.streamingfast.net/osmflivech23.m3u8
-#EXTINF:-1 tvg-id="GOODTVCH26KongZhongZhuRiXueChaJing.tw" tvg-country="TW" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://app.streamingfast.net/uploads/channel/26_file.jpg" group-title="Religious",GOOD TV CH26 空中主日學 查經 (720p)
-https://live.streamingfast.net/osmflivech26.m3u8
-#EXTINF:-1 tvg-id="GOODTVCH27KongZhongShengJingXueYuan.tw" tvg-country="TW" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://app.streamingfast.net/uploads/channel/27_file.jpg" group-title="Religious",GOOD TV CH27 空中聖經學院 (720p)
-https://live.streamingfast.net/osmflivech27.m3u8
 #EXTINF:-1 tvg-id="GOODTVCH28XianDaiShiGe.tw" tvg-country="TW" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://app.streamingfast.net/uploads/channel/28_file.jpg" group-title="Religious",GOOD TV CH28 現代詩歌 (720p)
 https://live.streamingfast.net/osmflivech28.m3u8
 #EXTINF:-1 tvg-id="GOODTVCH29JingDianYinLeHe.tw" tvg-country="TW" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://app.streamingfast.net/uploads/channel/29_file.jpg" group-title="Religious",GOOD TV CH29 經典音樂河 (720p)
@@ -101,5 +97,9 @@ https://live.streamingfast.net/osmflivech50.m3u8
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCoo-jAsJgM8z09ddlhcBlSA/live
 #EXTINF:-1 tvg-id="YiDianShiXinWenTai.tw" tvg-country="TW" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://store-images.s-microsoft.com/image/apps.14454.9007199266706361.be7aa2de-7429-4e34-b9a4-eca9a55157c1.3eb6a511-ff23-46aa-bf3a-b8b7e7e5c808?mode=scale&q=90&h=270&w=270&background=%23FFFFFF" group-title="News",壹電視新聞台 (1080p)
 http://stream.nexttv.com.tw/n001/hd/live.m3u8
-#EXTINF:-1 tvg-id="XiangGangWeiShi.hk" tvg-country="HK" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://i.imgur.com/wnQPn2d.jpg" group-title="",香港衛視 (576p) [Not 24/7]
-http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
+#EXTINF:-1 tvg-id="XingKongWeiShi.hk" tvg-country="HK" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/8/8d/Xing_Kong_Wei_Shi.jpg/250px-Xing_Kong_Wei_Shi.jpg" group-title="General",星空衛視 [Not 24/7]
+rtmp://58.200.131.2:1935/livetv/startv
+#EXTINF:-1 tvg-id="MinShiXinWenTai.tw" tvg-country="TW" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://i.imgur.com/6jbjVNy.png" group-title="News",民視新聞台 (720p) [Not 24/7]
+https://6.mms.vlog.xuite.net/hls/ftvtv/index.m3u8
+#EXTINF:-1 tvg-id="MaiShiWang.cn" tvg-country="CN" tvg-language="Chinese;Mandarin Chinese" tvg-logo="https://i.imgur.com/S14txRh.jpg" group-title="",迈视网 [Not 24/7]
+http://xinl.live.maxtv.cn/live/zb/playlist.m3u8

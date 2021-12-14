@@ -1,9 +1,9 @@
-#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml"
-#EXTINF:-1 tvg-id="AndPictures.in" tvg-country="SAS" tvg-language="Pashto" tvg-logo="https://static.epg.best/in/AndPictures.in.png" group-title="Movies",&Pictures (720p) [Geo-blocked]
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml,https://iptv-org.github.io/epg/guides/hk-zh/nowplayer.now.com.epg.xml,https://iptv-org.github.io/epg/guides/id/mncvision.id.epg.xml,https://iptv-org.github.io/epg/guides/in/dishtv.in.epg.xml,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml,https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml"
+#EXTINF:-1 tvg-id="AndPictures.in" tvg-country="SAS" tvg-language="Pashto" tvg-logo="https://static.epg.best/in/AndPictures.in.png" group-title="Movies",&Pictures (720p) [Not 24/7]
 https://sneh-z5api.herokuapp.com/?c=0-9-tvpictureshd
-#EXTINF:-1 tvg-id="AndPriveHD.in" tvg-country="SAS" tvg-language="Pashto" tvg-logo="https://static.epg.best/in/AndPrive.in.png" group-title="Movies",&privé HD (720p) [Geo-blocked]
+#EXTINF:-1 tvg-id="AndPriveHD.in" tvg-country="SAS" tvg-language="Pashto" tvg-logo="https://static.epg.best/in/AndPrive.in.png" group-title="Movies",&privé HD (720p) [Not 24/7]
 https://sneh-z5api.herokuapp.com/?c=0-9-privéhd
-#EXTINF:-1 tvg-id="AndTVHD.in" tvg-country="SAS" tvg-language="Pashto" tvg-logo="https://static.epg.best/in/AndTV.in.png" group-title="Movies",&TV HD (720p) [Geo-blocked]
+#EXTINF:-1 tvg-id="AndTVHD.in" tvg-country="SAS" tvg-language="Pashto" tvg-logo="https://static.epg.best/in/AndTV.in.png" group-title="Movies",&TV HD (720p) [Not 24/7]
 https://sneh-z5api.herokuapp.com/?c=0-9-tvhd_0
 #EXTINF:-1 tvg-id="AXNEastAsia.us" tvg-country="ASIA" tvg-language="English" tvg-logo="https://www.img09.xyz/assets/img/ch_logo/hd-axn.png" group-title="Movies",AXN East Asia (1080p) [Geo-blocked]
 https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/AXN-HD-1080p/playlist.m3u8
@@ -14,11 +14,11 @@ https://www.bloomberg.com/media-manifest/streams/asia-event.m3u8
 #EXTINF:-1 tvg-id="FoxMoviesAsia.us" tvg-country="ASIA" tvg-language="Thai" tvg-logo="https://i.imgur.com/vs51MBW.png" user-agent="Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36" group-title="Movies",Fox Movies Asia (Thai) (720p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
 https://www.livedoomovie.com/02_FoxMoviesHD_720p/chunklist.m3u8
-#EXTINF:-1 tvg-id="FoxMoviesAsia.us" tvg-country="ASIA" tvg-language="Vietnamese" tvg-logo="https://i.imgur.com/vs51MBW.png" group-title="Movies",Fox Movies Asia (Vietnamese) (1080p) [Geo-blocked]
-http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOXMOVIES-HD-1080p/playlist.m3u8
 #EXTINF:-1 tvg-id="NationalGeographicWildAsia.us" tvg-country="ASIA" tvg-language="Arabic" tvg-logo="https://static.epg.best/id/NatGeoWild.id.png" group-title="Documentary",National Geographic Wild Asia (720p) [Not 24/7]
 http://50.7.161.82:8278/streams/d/Natgeowild/playlist.m3u8
+#EXTINF:-1 tvg-id="StarSports.hk" tvg-country="SAS" tvg-language="English" tvg-logo="https://photo.sofun.tw/2013/11/STAR-SPORTS-LOGO.jpg" group-title="Sports",Star Sports [Not 24/7]
+rtmp://ivi.bupt.edu.cn:1935/livetv/starsports
 #EXTINF:-1 tvg-id="Thrill.hk" tvg-country="SAS" tvg-language="English" tvg-logo="http://console.celestialtiger.com/images/upload/1f6e441382a388940977fd9e165178c42fe0c193.png" group-title="Movies",Thrill (480p) [Geo-blocked]
 http://45.126.83.51/qwr9ew/s/s34/index.m3u8
-#EXTINF:-1 tvg-id="VTV.mv" tvg-country="MV" tvg-language="Dhivehi" tvg-logo="" group-title="",VTV (720p)
+#EXTINF:-1 tvg-id="VTV.mv" tvg-country="MV" tvg-language="Dhivehi" tvg-logo="" group-title="",VTV (1080p)
 http://vtvstreaming.myvnc.com:1935/vtvlive/vmedia/chunklist.m3u8

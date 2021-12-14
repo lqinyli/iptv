@@ -1,4 +1,21 @@
-#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/in/dishtv.in.epg.xml"
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/in/dishtv.in.epg.xml"
+#EXTINF:-1 tvg-id="ACV.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/FNBkLUA.jpg" group-title="",ACV [Not 24/7]
+https://acv.asianetmobiletvplus.com/webstreams/8f8e72769cb3e3a6e27c220e1e3887b8.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="ACVJukebox.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/tYPn1lW.png" user-agent="AsianetMobileTVPlus" group-title="Music",ACV JukeBox (404p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=AsianetMobileTVPlus
+http://cdn.asianetmobiletvplus.com/channels/acvjukebox_awannbgiynqynhufohawnvbmlgglfpuc/playlist.m3u8
+#EXTINF:-1 tvg-id="ACVNews.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/fP0g1np.jpg" user-agent="AsianetMobileTVPlus" group-title="News",ACV News (404p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=AsianetMobileTVPlus
+http://cdn.asianetmobiletvplus.com/channels/acvnews_3e85eb4c12bd2110d3f495676205d50a/playlist.m3u8
+#EXTINF:-1 tvg-id="ACVPlus.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/DjtPQeg.jpg" user-agent="AsianetMobileTVPlus" group-title="",ACV Plus (404p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=AsianetMobileTVPlus
+http://cdn.asianetmobiletvplus.com/channels/acvplus_ef22daf97d61acb4bf52376c4105ad02/playlist.m3u8
+#EXTINF:-1 tvg-id="ACVUtsav.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/LLN585Y.png" user-agent="AsianetMobileTVPlus" group-title="",ACV Utsav (404p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=AsianetMobileTVPlus
+http://cdn.asianetmobiletvplus.com/channels/acvutsav_021c9292219a98f899a7b74f0f34baa7/playlist.m3u8
+#EXTINF:-1 tvg-id="ADNGold.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/UzPPjoH.jpg" user-agent="AsianetMobileTVPlus" group-title="",ADN Gold (404p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=AsianetMobileTVPlus
+http://cdn.asianetmobiletvplus.com/channels/adngold_dibbcspwxywdcuwawgrvurjwitwbiksl/playlist.m3u8
 #EXTINF:-1 tvg-id="AmritaTV.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/xxWaGyn.jpg" group-title="Entertainment",Amrita TV (576p)
 http://103.199.161.254/Content/amrita/Live/Channel(Amrita)/index.m3u8
 #EXTINF:-1 tvg-id="AnandTV.uk" tvg-country="UK" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/QMPfzzt.png" group-title="General",Anand TV (720p)
@@ -7,11 +24,13 @@ https://live-anandtv.anandmedia.net/anandtvapp/anandtv/index.m3u8
 http://14.199.164.20:4001/play/a0k6/index.m3u8
 #EXTINF:-1 tvg-id="AsianetNews.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/89LBgkl.png" group-title="News",Asianet News (576p)
 http://103.199.161.254/Content/asianetnews/Live/Channel(Asianetnews)/index.m3u8
+#EXTINF:-1 tvg-id="DarshanaTV.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://www.tvchannelpricelist.com/wp-content/uploads/channels-logo-300/darshana-tv-channel-logo-300x300.jpg" group-title="Entertainment",Darshana TV (576p) [Not 24/7]
+https://streaming37.worldbbtv.com/hls/darshana.m3u8
 #EXTINF:-1 tvg-id="DDMalayalam.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/9HfMVKs.jpg" group-title="Entertainment",DD Malayalam (576p)
 http://103.199.161.254/Content/ddmalayalam/Live/Channel(DDMalayalam)/index.m3u8
 #EXTINF:-1 tvg-id="DreamTV.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/VdcG0i6.png" group-title="Entertainment",Dream TV (720p) [Not 24/7]
 https://cloudflare-cdn301.ottpro.in/dream_media/reedeem/playlist.m3u8
-#EXTINF:-1 tvg-id="DreamzTV.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/yXHmKtT.png" group-title="Entertainment",Dreamz TV (768p) [Not 24/7]
+#EXTINF:-1 tvg-id="DreamzTV.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/yXHmKtT.png" group-title="Entertainment",Dreamz TV (576p) [Not 24/7]
 http://198.144.149.82:8080/NOTV/DREAMHD/index.m3u8?token=GTR
 #EXTINF:-1 tvg-id="FlowersTV.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="http://www.flowerstv.in/wp-content/uploads/2017/12/Flowers-Logo-alpha-1.png" group-title="Entertainment",Flowers TV (576p)
 http://103.199.161.254/Content/flowers/Live/Channel(Flowers)/index.m3u8
@@ -21,9 +40,11 @@ http://og2qd3aal7an-hls-live.5centscdn.com/garshomtv/d0dbe915091d400bd8ee7f27f07
 http://103.199.161.254/Content/jaihind/Live/Channel(Jaihind)/index.m3u8
 #EXTINF:-1 tvg-id="JanamTV.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/LWUpmDm.png" group-title="News",Janam TV (720p)
 https://vidcdn.vidgyor.com/janamtv-origin/liveabr/playlist.m3u8
+#EXTINF:-1 tvg-id="JanapriyamTV.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/rbn6YSb.png" group-title="Entertainment",Janapriyam TV [Not 24/7]
+https://jio.instream.ml/jio.php?c=Janapriyam_News&e=.m3u8&q=400
 #EXTINF:-1 tvg-id="JeevanTV.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/PYs1W1Y.png" group-title="",Jeevan TV (576p)
 http://103.199.161.254/Content/jeevan/Live/Channel(Jeevan)/index.m3u8
-#EXTINF:-1 tvg-id="KairaliArabia.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/dp6BvWJ.png" group-title="Entertainment",Kairali Arabia (576p) [Not 24/7]
+#EXTINF:-1 tvg-id="KairaliArabia.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/dp6BvWJ.png" group-title="Entertainment",Kairali Arabia (480p) [Not 24/7]
 https://idvd.multitvsolution.com/idvo/kairaliarabia_540p/index.m3u8
 #EXTINF:-1 tvg-id="KairaliNews.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/hXsVrIh.jpg" group-title="News",Kairali News (576p)
 http://103.199.161.254/Content/people/Live/Channel(People)/index.m3u8
@@ -31,7 +52,7 @@ http://103.199.161.254/Content/people/Live/Channel(People)/index.m3u8
 http://103.199.161.254/Content/kairali/Live/Channel(Kairali)/index.m3u8
 #EXTINF:-1 tvg-id="KairaliWe.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/Z626hKz.jpg" group-title="Entertainment",Kairali We (576p)
 http://103.199.161.254/Content/we/Live/Channel(We)/index.m3u8
-#EXTINF:-1 tvg-id="KannurOne.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/hytRL90.png" group-title="",Kannur One (1024p) [Not 24/7]
+#EXTINF:-1 tvg-id="KannurOne.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/hytRL90.png" group-title="",Kannur One (720p) [Not 24/7]
 https://bnwdplewrp3a-hls-live.wmncdn.net/kannur1/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="KannurVision.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/Zo6TFvK.png" group-title="",Kannur Vision (360p) [Not 24/7]
 https://stream.ufworldind.in/live/kvision/playlist.m3u8
@@ -41,10 +62,12 @@ http://103.199.161.254/Content/kappa/Live/Channel(Kappa)/index.m3u8
 https://live.wmncdn.net/kaumuditv1/live.stream/index.m3u8
 #EXTINF:-1 tvg-id="KCLTV.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/bkp9dIm.png" group-title="Entertainment",KCL TV (720p) [Not 24/7]
 http://kcltv.livebox.co.in/kclhls/live.m3u8
-#EXTINF:-1 tvg-id="KCV.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/9YD8u4H.png" group-title="Entertainment",KCV (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="KCV.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/9YD8u4H.png" group-title="Entertainment",KCV (576p) [Not 24/7]
 http://198.144.149.82:8080/NOTV/KCVTV/index.m3u8?token=GTR
-#EXTINF:-1 tvg-id="KCVMovies.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/NY94lnZ.png" group-title="Movies",KCV Movies (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="KCVMovies.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/NY94lnZ.png" group-title="Movies",KCV Movies (576p) [Not 24/7]
 http://198.144.149.82:8080/NOTV/KCVMOVIE/index.m3u8?token=GTR
+#EXTINF:-1 tvg-id="Kentv.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/OnYOCmw.jpg" group-title="",Ken TV (360p) [Not 24/7]
+https://stream.ufworldind.in/kentvlive/smil:kentv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="KeralaVision.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/0XF3nLw.png" group-title="Entertainment",Kerala Vision (576p) [Not 24/7]
 http://14.199.164.20:4001/play/a0ni/index.m3u8
 #EXTINF:-1 tvg-id="KeralaVisionNews.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://nettv4u.com/uploads/23-07-2020/kerala-vision.png" group-title="News",Kerala Vision News (720p) [Not 24/7]
@@ -55,10 +78,8 @@ https://932y4x26ljv8-hls-live.5centscdn.com/victers/tv.stream/playlist.m3u8
 https://app.m4stream.live/mfourmalayalamhls/live.m3u8
 #EXTINF:-1 tvg-id="Magnavision.uk" tvg-country="UK" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/yRdGchJ.jpg" group-title="Entertainment",Magna Vision (1080p) [Not 24/7]
 https://j78dpa3edq5r-hls-live.5centscdn.com/abr/0864028584026e6ad9cdf922473177a4/playlist.m3u8
-#EXTINF:-1 tvg-id="MalabarNews.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/yJWfyfM.png" group-title="News",Malabar News (576p) [Not 24/7]
+#EXTINF:-1 tvg-id="MalabarNews.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/yJWfyfM.png" group-title="News",Malabar News (720p) [Not 24/7]
 http://cloud.logicwebs.in:1935/live/malabarnews/playlist.m3u8
-#EXTINF:-1 tvg-id="MalppuramChannel.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/X2aZBiz.png" group-title="News",Malappuram Channel (720p) [Not 24/7]
-http://103.78.18.137:1935/live/mlpchannel/chunklist.m3u8
 #EXTINF:-1 tvg-id="Mangalam.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/V5nQl9m.png" group-title="News",Mangalam (576p) [Not 24/7]
 http://103.199.160.85/Content/mangalam/Live/Channel(Mangalam)/index.m3u8
 #EXTINF:-1 tvg-id="ManoramaNews.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/QWHbIYt.png" group-title="News",Manorama News (576p)
@@ -75,7 +96,7 @@ http://103.199.161.254/Content/mediaone/Live/Channel(MediaOne)/index.m3u8
 http://cloud.logicwebs.in:1935/msign/msignmedia/playlist.m3u8
 #EXTINF:-1 tvg-id="Naaptol.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://pbs.twimg.com/profile_images/897059156556783616/BUbUxAuW.jpg" group-title="",Naaptol (576p) [Not 24/7]
 http://14.199.164.20:4001/play/a0n1/index.m3u8
-#EXTINF:-1 tvg-id="NeeCinema.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/vYme2fs.png" group-title="Movies",Nee Cinema (1080p) [Not 24/7]
+#EXTINF:-1 tvg-id="NeeCinema.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/vYme2fs.png" group-title="Movies",Nee Cinema (576p) [Not 24/7]
 https://live.neestream.com/neestream_01/nee_cinema/playlist.m3u8
 #EXTINF:-1 tvg-id="OneTv.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/ssMOeaj.png" group-title="Entertainment",One TV (720p)
 http://137.59.86.218:1935/live/onetv/playlist.m3u8
@@ -89,6 +110,9 @@ https://bk7l298nyx53-hls-live.5centscdn.com/realnews/e7dee419f91aa9e65939d3677fb
 http://cloud.logicwebs.in:1935/realtv/realtv1/playlist.m3u8
 #EXTINF:-1 tvg-id="ReporterTV.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/a80vdrp.jpg" group-title="News",Reporter TV (576p)
 http://103.199.161.254/Content/reporter/Live/Channel(Reporter)/index.m3u8
+#EXTINF:-1 tvg-id="Rosebowl.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/LBQSALM.png" user-agent="AsianetMobileTVPlus" group-title="Music",Rosebowl (404p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=AsianetMobileTVPlus
+http://cdn.asianetmobiletvplus.com/channels/rosebowl_7eb4dc1f3240c8eb776d41b95bd1d197/playlist.m3u8
 #EXTINF:-1 tvg-id="SafariTV.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/LOepeP3.jpg" group-title="",Safari TV (480p) [Not 24/7]
 https://j78dp346yq5r-hls-live.5centscdn.com/safari/live.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="ShekinahTV.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/6hTshsG.png" group-title="",Shekinah TV (1080p) [Not 24/7]
@@ -97,6 +121,8 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel
 https://indo51.gcdn.co/MALYLAM-SuryaMusic/index.m3u8
 #EXTINF:-1 tvg-id="SuryaTV.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/ENrptYg.png" group-title="Entertainment",Surya TV (720p) [Not 24/7]
 https://indo51.gcdn.co/MALYLAM-SuryaHD/index.m3u8
+#EXTINF:-1 tvg-id="TimeTV.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/K5rlUey.png" group-title="News",Time TV (360p) [Not 24/7]
+https://cloudflare-cdn301.ottpro.in/live/timetv/playlist.m3u8
 #EXTINF:-1 tvg-id="TimeVisionNews.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/YSQVbIm.png" group-title="News",Time Vision News (720p) [Not 24/7]
 http://cloud.logicwebs.in:1935/timevision/timevision/playlist.m3u8
 #EXTINF:-1 tvg-id="TwentyFourNews.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/eS2fVDh.png" group-title="News",Twenty Four News (576p) [Not 24/7]
@@ -105,5 +131,5 @@ http://103.199.160.85/Content/24news/Live/Channel(24news)/index.m3u8
 https://cdn.logicwebs.in/hls/ublhdkey.m3u8
 #EXTINF:-1 tvg-id="UthradamMovies.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/KdsS0g5.png" group-title="Movies",Uthradam Movies (576p) [Not 24/7]
 http://185.105.4.245:1935/livesp/uthradam/playlist.m3u8
-#EXTINF:-1 tvg-id="ZeeKeralamHD.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/mM0KQj7.png" group-title="",Zee Keralam HD (720p) [Geo-blocked]
+#EXTINF:-1 tvg-id="ZeeKeralamHD.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/mM0KQj7.png" group-title="",Zee Keralam HD (720p) [Not 24/7]
 https://f8e7y4c6.ssl.hwcdn.net/zkeralamhd/index.m3u8

@@ -1,10 +1,16 @@
-#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/uk/ontvtonight.com.epg.xml"
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/uk/ontvtonight.com.epg.xml"
 #EXTINF:-1 tvg-id="92News.pk" tvg-country="PK" tvg-language="Urdu" tvg-logo="https://i.imgur.com/OifwcrE.png" group-title="News",92 News (720p) [Not 24/7]
 https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtube.com/channel/UCsgC5cbz3DE2Shh34gNKiog/live
 #EXTINF:-1 tvg-id="92NewsUK.pk" tvg-country="PK" tvg-language="Urdu" tvg-logo="https://i.imgur.com/SzaGz3D.jpg" group-title="Local",92 News UK (576p)
 https://securecontributions.sechls01.visionip.tv/live/securecontributions-securecontributions-92_news-hsslive-25f-16x9-SD/chunklist.m3u8
-#EXTINF:-1 tvg-id="AVTKhyber.pk" tvg-country="PK" tvg-language="Urdu" tvg-logo="https://i.imgur.com/uh8HAPY.jpg" group-title="",AVT Khyber (414p) [Not 24/7]
-https://dcunilive38-lh.akamaihd.net/i/dclive_1@692670/master.m3u8
+#EXTINF:-1 tvg-id="ARYDigital.pk" tvg-country="PK" tvg-language="Urdu" tvg-logo="https://i.imgur.com/TVP7g03.png" group-title="",ARY Digital (1080p) [Not 24/7]
+#EXTVLCOPT:http-referrer=https://live.arydigital.tv/
+https://6zklx4wryw9b-hls-live.5centscdn.com/arydigital/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="ARYNews.pk" tvg-country="PK" tvg-language="Urdu" tvg-logo="https://i.imgur.com/R4KtTbJ.jpg" group-title="News",ARY News (720p) [Not 24/7]
+#EXTVLCOPT:http-referrer=https://live.arynews.tv/
+https://6zklx4wryw9b-hls-live.5centscdn.com/arynewsweb/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="AVTKhyber.pk" tvg-country="PK" tvg-language="Urdu" tvg-logo="https://i.imgur.com/uh8HAPY.jpg" group-title="",AVT Khyber (404p) [Not 24/7]
+https://dcunilive38-lh.akamaihd.net/i/dclive_1@692670/index_150_av-p.m3u8
 #EXTINF:-1 tvg-id="DunyaNews.pk" tvg-country="PK" tvg-language="Urdu" tvg-logo="" group-title="News",Dunya News (360p) [Not 24/7]
 http://imob.dunyanews.tv/live/_definst_/dunyalive_1/chunklist_w1239250459.m3u8
 #EXTINF:-1 tvg-id="EawazTV.ca" tvg-country="CA" tvg-language="Urdu" tvg-logo="https://i.imgur.com/vB4yzen.png" group-title="",Eawaz TV (720p) [Not 24/7]
@@ -19,11 +25,11 @@ https://cdn61.liveonlineservices.com/hls/humraaz.m3u8
 https://live.imamhossaintv.com/live/ih4.m3u8
 #EXTINF:-1 tvg-id="Kay2TV.pk" tvg-country="PK" tvg-language="Urdu" tvg-logo="https://i.imgur.com/Hw94SaM.jpg" group-title="",Kay2 TV (404p) [Not 24/7]
 https://dcunilive36-lh.akamaihd.net/i/dclive_1@662109/index_150_av-p.m3u8
-#EXTINF:-1 tvg-id="KhyberMiddleEastTV.pk" tvg-country="PK" tvg-language="Urdu" tvg-logo="https://i.imgur.com/mqFWpXX.png" group-title="",Khyber Middle East TV (414p) [Not 24/7]
+#EXTINF:-1 tvg-id="KhyberMiddleEastTV.pk" tvg-country="PK" tvg-language="Urdu" tvg-logo="https://i.imgur.com/mqFWpXX.png" group-title="",Khyber Middle East TV (720p) [Not 24/7]
 https://dcunilive83-lh.akamaihd.net/i/dclive_1@16122/master.m3u8
-#EXTINF:-1 tvg-id="KhyberNewsTV.pk" tvg-country="PK" tvg-language="Urdu" tvg-logo="https://i.imgur.com/NL1cqS2.png" group-title="News",Khyber News TV (414p) [Not 24/7]
+#EXTINF:-1 tvg-id="KhyberNewsTV.pk" tvg-country="PK" tvg-language="Urdu" tvg-logo="https://i.imgur.com/NL1cqS2.png" group-title="News",Khyber News TV (404p) [Not 24/7]
 https://dcunilive38-lh.akamaihd.net/i/dclive_1@692677/master.m3u8
-#EXTINF:-1 tvg-id="MadaniChannelUrdu.pk" tvg-country="PK" tvg-language="Urdu" tvg-logo="https://madanichannel.tv/img/madani-channel-logo.png" group-title="Religious",Madani Channel Urdu (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="MadaniChannelUrdu.pk" tvg-country="PK" tvg-language="Urdu" tvg-logo="https://madanichannel.tv/img/madani-channel-logo.png" group-title="Religious",Madani Channel Urdu (1080p) [Not 24/7]
 https://madnitv.vdn.dstreamone.net/madnitvurdu/madniurduabr/playlist.m3u8
 #EXTINF:-1 tvg-id="MTA1Urdu.uk" tvg-country="UK" tvg-language="Urdu" tvg-logo="https://i.imgur.com/b3nn216.png" group-title="",MTA 1 Urdu (1080p)
 https://ooyalahd2-f.akamaihd.net/i/mtaurdu_delivery@350117/master.m3u8
@@ -39,5 +45,5 @@ https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtu
 https://live.ptv.com.pk/live/ptvworld/playlist.m3u8
 #EXTINF:-1 tvg-id="SuchTV.pk" tvg-country="PK" tvg-language="Urdu" tvg-logo="https://i.imgur.com/WlxWJm1.png" group-title="News",Such TV (720p) [Not 24/7]
 https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.dailymotion.com/video/x72hrde
-#EXTINF:-1 tvg-id="ZindagiTV.pk" tvg-country="PK" tvg-language="Urdu" tvg-logo="https://i.imgur.com/RtHeRwp.png" group-title="",Zindagi TV (576p) [Not 24/7]
+#EXTINF:-1 tvg-id="ZindagiTV.pk" tvg-country="PK" tvg-language="Urdu" tvg-logo="https://i.imgur.com/RtHeRwp.png" group-title="",Zindagi TV (360p) [Not 24/7]
 https://5ad386ff92705.streamlock.net/live_transcoder/ngrp:zindagitv.stream_all/chunklist.m3u8

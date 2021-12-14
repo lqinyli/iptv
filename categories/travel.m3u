@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/br/mi.tv.epg.xml,https://iptv-org.github.io/epg/guides/cz/m.tv.sms.cz.epg.xml,https://iptv-org.github.io/epg/guides/ru/tv.yandex.ru.epg.xml"
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/br/mi.tv.epg.xml,https://iptv-org.github.io/epg/guides/cz/m.tv.sms.cz.epg.xml,https://iptv-org.github.io/epg/guides/ru/tv.yandex.ru.epg.xml"
 #EXTINF:-1 tvg-id="BamBarBiaTV.ua" tvg-country="UA" tvg-language="Ukrainian" tvg-logo="https://i.imgur.com/LIk85IA.png" group-title="Travel",BamBarBia TV (1080p) [Not 24/7]
 https://cdn1.live-tv.od.ua:8083/bbb/bbbtv-abr/playlist.m3u8
 #EXTINF:-1 tvg-id="FunRoads.us" tvg-country="US" tvg-language="English" tvg-logo="https://funroads.tv/wp-content/uploads/fun-roads-header-horizontal-1.png" group-title="Travel",Fun Roads (720p)
@@ -9,10 +9,10 @@ https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxgotraveler/CDN/playlist.m3u
 http://82.212.74.100:8000/live/hls/8131.m3u8
 #EXTINF:-1 tvg-id="Journy.us" tvg-country="US" tvg-language="English" tvg-logo="https://web.opendrive.com/api/v1/download/file.json/MF8yMjg5MzMxNjNf?inline=1" group-title="Travel",Journy (1080p)
 http://d3lzjtrf5mvf3p.cloudfront.net/playlist.m3u8
-#EXTINF:-1 tvg-id="Journy.us" tvg-country="US" tvg-language="English" tvg-logo="https://provider-static.plex.tv/epg/images/ott_channels/logos/journy.png" group-title="Travel",Journy (1080p)
-https://vcnplex.teleosmedia.com/linear/ovation/journy/playlist.m3u8?did=62274240-07e7-5d94-8dc8-ef68cf19e175&dnt=0&pid=5f5132df62fe160040f26bc2&ptoken=PLbo_Jw_s1xgoB_1Srgg
 #EXTINF:-1 tvg-id="LocalNowDiscover.us" tvg-country="US" tvg-language="English" tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/60481e10fa33524246049ac3" group-title="Travel",Local Now Discover (720p)
 https://linear-145.frequency.stream/dist/localnow/145/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="PlutoTVAdventureTV" tvg-country="US" tvg-language="English" tvg-logo="http://images.pluto.tv/channels/5938876b78d8d9c074c3c657/colorLogoPNG.png" group-title="Travel",Pluto TV Adventure TV (720p) [Not 24/7]
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5938876b78d8d9c074c3c657/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="PlutoTVTravel.us" tvg-country="US" tvg-language="English" tvg-logo="http://images.pluto.tv/channels/59c01b1953680139c6ae9d4d/colorLogoPNG.png" group-title="Travel",Pluto TV Travel (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/59c01b1953680139c6ae9d4d/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="RadioRutasdelPerú.es" tvg-country="ES;PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/1121106071333048/picture?width=320&height=320" group-title="Travel",Radio Rutas del Perú (360p) [Not 24/7]
@@ -23,8 +23,16 @@ http://ott-cdn.ucom.am/s80/index.m3u8
 #EXTINF:-1 tvg-id="RTGHD.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/NymtU1E.png" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148" group-title="Travel",RTG HD (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s63/index.m3u8
+#EXTINF:-1 tvg-id="STIRRTravel.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/SAfy1us.png" group-title="Travel",STIRR Travel (720p) [Not 24/7]
+https://dai.google.com/linear/hls/event/0ZXyCbn9TYmrrAzcDfoU1w/master.m3u8
+#EXTINF:-1 tvg-id="TravelChannel.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/9C2e563.png" group-title="Travel",Travel Channel [Not 24/7]
+https://cdn1.mobiletv.bg/T5/travel_channel/travel_channel_794613_850k.m3u8
 #EXTINF:-1 tvg-id="TravelGuideTV.ua" tvg-country="UA" tvg-language="Ukrainian;Russian" tvg-logo="" group-title="Travel",Travel Guide TV (720p)
-https://cdn10.live-tv.od.ua:8083/leonovtv/test1/playlist.m3u8
+https://cdn10.live-tv.od.ua:8083/leonovtv/test-abr/playlist.m3u8
+#EXTINF:-1 tvg-id="TravelXP.in" tvg-country="IN" tvg-language="English" tvg-logo="https://i.imgur.com/6V48LwT.jpg" group-title="Travel",Travel XP (720p) [Not 24/7]
+https://travelxp-travelxp-1-gb.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-id="TravelingoTV.xk" tvg-country="XK" tvg-language="Albanian" tvg-logo="https://i.imgur.com/PS0j4ic.png" group-title="Travel",Travelingo TV (1080p) [Not 24/7]
+https://dracarys.gjirafa.com/live/ZvTsY6MH7RPPvXuUDjRjcEYkK7yryigW/ytkytq480/index.m3u8
 #EXTINF:-1 tvg-id="TunisieImmobilierTV.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://i.imgur.com/cZM2t0P.png" group-title="Travel",Tunisie Immobilier TV (720p) [Not 24/7]
 https://5ac31d8a4c9af.streamlock.net/tunimmob/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="TVParanaTurismo.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/3lxkJxb.png" group-title="Travel",TV Paraná Turismo (720p) [Not 24/7]

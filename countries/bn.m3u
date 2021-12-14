@@ -1,16 +1,18 @@
-#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml"
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/hk-en/nowplayer.now.com.epg.xml,https://iptv-org.github.io/epg/guides/hk-zh/nowplayer.now.com.epg.xml,https://iptv-org.github.io/epg/guides/id/mncvision.id.epg.xml,https://iptv-org.github.io/epg/guides/in/dishtv.in.epg.xml,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml,https://iptv-org.github.io/epg/guides/th/tv.trueid.net.epg.xml"
 #EXTINF:-1 tvg-id="AXNEastAsia.us" tvg-country="ASIA" tvg-language="English" tvg-logo="https://www.img09.xyz/assets/img/ch_logo/hd-axn.png" group-title="Movies",AXN East Asia (1080p) [Geo-blocked]
 https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/AXN-HD-1080p/playlist.m3u8
 #EXTINF:-1 tvg-id="BloombergTVAsia.us" tvg-country="APAC" tvg-language="English" tvg-logo="http://cdn-profiles.tunein.com/s47135/images/logog.png" group-title="Business",Bloomberg TV Asia (720p)
 https://liveprodapnortheast.global.ssl.fastly.net/ap1/Channel-APTVqvs-AWS-tokyo-1/Source-APTVqvs-1000-1_live.m3u8
 #EXTINF:-1 tvg-id="BloombergTVAsiaLiveEvent.us" tvg-country="APAC" tvg-language="English" tvg-logo="http://cdn-profiles.tunein.com/s47135/images/logog.png" group-title="Business",Bloomberg TV Asia Live Event (720p)
 https://www.bloomberg.com/media-manifest/streams/asia-event.m3u8
-#EXTINF:-1 tvg-id="CelestialMovies.hk" tvg-country="HK;SG;MY;ID;TW;BN;BD" tvg-language="Chinese" tvg-logo="https://astrocontent.s3.amazonaws.com/Images/ChannelLogo/Pos/322_300.png" group-title="Movies",Celestial Movies (480p) [Geo-blocked]
+#EXTINF:-1 tvg-id="CelestialMovies.hk" tvg-country="HK;SG;MY;ID;TW;BN;BD" tvg-language="Chinese" tvg-logo="https://astrocontent.s3.amazonaws.com/Images/ChannelLogo/Pos/322_300.png" group-title="Movies",Celestial Movies (480p) [Not 24/7]
 http://210.210.155.35/qwr9ew/s/s33/index.m3u8
 #EXTINF:-1 tvg-id="FoxMoviesAsia.us" tvg-country="ASIA" tvg-language="Thai" tvg-logo="https://i.imgur.com/vs51MBW.png" user-agent="Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36" group-title="Movies",Fox Movies Asia (Thai) (720p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/76.0.3809.25 Safari/537.36
 https://www.livedoomovie.com/02_FoxMoviesHD_720p/chunklist.m3u8
-#EXTINF:-1 tvg-id="FoxMoviesAsia.us" tvg-country="ASIA" tvg-language="Vietnamese" tvg-logo="https://i.imgur.com/vs51MBW.png" group-title="Movies",Fox Movies Asia (Vietnamese) (1080p) [Geo-blocked]
-http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/FOXMOVIES-HD-1080p/playlist.m3u8
 #EXTINF:-1 tvg-id="NationalGeographicWildAsia.us" tvg-country="ASIA" tvg-language="Arabic" tvg-logo="https://static.epg.best/id/NatGeoWild.id.png" group-title="Documentary",National Geographic Wild Asia (720p) [Not 24/7]
 http://50.7.161.82:8278/streams/d/Natgeowild/playlist.m3u8
+#EXTINF:-1 tvg-id="RTBGo.bn" tvg-country="BN" tvg-language="Malay;English" tvg-logo="https://rtb-images.glueapi.io/300x0/live/GoLiveNew.png" group-title="",RTB Go (720p) [Not 24/7]
+https://d19j8udk9agj55.cloudfront.net/smil:rtbgo/playlist.m3u8
+#EXTINF:-1 tvg-id="RTBSukmaindera.bn" tvg-country="BN" tvg-language="Malay;English" tvg-logo="https://i.imgur.com/wRzyzPA.png" group-title="",RTB Sukmaindera (720p) [Not 24/7]
+https://d19j8udk9agj55.cloudfront.net/smil:rtb1/playlist.m3u8
