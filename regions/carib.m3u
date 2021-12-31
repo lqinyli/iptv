@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/bs/rev.bs.epg.xml,https://iptv-org.github.io/epg/guides/co/gatotv.com.epg.xml,https://iptv-org.github.io/epg/guides/co/siba.com.co.epg.xml,https://iptv-org.github.io/epg/guides/do/gatotv.com.epg.xml,https://iptv-org.github.io/epg/guides/es/programacion-tv.elpais.com.epg.xml,https://iptv-org.github.io/epg/guides/us-az/tvtv.us.epg.xml"
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ar/mi.tv.epg.xml,https://iptv-org.github.io/epg/guides/bs/rev.bs.epg.xml,https://iptv-org.github.io/epg/guides/co/gatotv.com.epg.xml,https://iptv-org.github.io/epg/guides/co/siba.com.co.epg.xml,https://iptv-org.github.io/epg/guides/do/gatotv.com.epg.xml,https://iptv-org.github.io/epg/guides/es/programacion-tv.elpais.com.epg.xml,https://iptv-org.github.io/epg/guides/us-az/tvtv.us.epg.xml"
 #EXTINF:-1 tvg-id="K17JIDT4.us" tvg-country="US;HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/4ydVVIA.png" group-title="Religious",3ABN Latino (480p)
 http://uni5rtmp.tulix.tv:1935/bettervida/bettervida/playlist.m3u8
 #EXTINF:-1 tvg-id="K18JLD2.us" tvg-country="US;HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/4ydVVIA.png" group-title="Religious",3ABN Latino (720p) [Not 24/7]
@@ -121,6 +121,9 @@ http://190.103.183.24:1935/live/MicroHD/playlist.m3u8
 https://5790d294af2dc.streamlock.net/8286/8286/playlist.m3u8
 #EXTINF:-1 tvg-id="NETALKOLETV.ht" tvg-country="HT" tvg-language="French" tvg-logo="https://i.imgur.com/OJbRkQ6.jpg" group-title="",NETALKOLE TV (720p) [Not 24/7]
 https://watch.haitilive.net/stream/netalkole/public/tv/index.m3u8
+#EXTINF:-1 tvg-id="NosIslaTV.aw" tvg-country="AW" tvg-language="Dutch;Papiamento" tvg-logo="https://i.imgur.com/Gf95oov.png" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36" group-title="General",Nos Isla TV (720p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+https://backend-server-dot-telearuba-app.appspot.com/media/livestream23/playlist.m3u8
 #EXTINF:-1 tvg-id="NosPais.cw" tvg-country="CW" tvg-language="English" tvg-logo="https://i.imgur.com/jmYvx2s.jpg" group-title="",Nos Pais (720p) [Not 24/7]
 http://558bd16067b67.streamlock.net/nos_pais_24_7/smil:livestream.stream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="NotiUnoPuertoRico.pr" tvg-country="PR" tvg-language="Spanish" tvg-logo="" group-title="",Noti Uno Puerto Rico (854p) [Not 24/7]
@@ -183,7 +186,7 @@ https://paneltv.online:1936/8116/8116/playlist.m3u8
 http://190.122.96.186:8888/http/005
 #EXTINF:-1 tvg-id="SuperTV55Santiago.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://3.bp.blogspot.com/-WO2ZKryfWoU/Wr1pO5clk_I/AAAAAAAAdJk/QYRg8_bp4OgmIWI55Y4m6i5o8RiWfCHWwCLcBGAs/s200/SuperTV55.jpg" group-title="",Super TV 55 (Santiago) (720p) [Not 24/7]
 http://ss8.domint.net:2128/stv_str/tv55/playlist.m3u8
-#EXTINF:-1 tvg-id="TangoTV.us" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/tangotvchannel/picture?width=320&height=320" group-title="Entertainment",TangoTV (1080p) [Not 24/7]
+#EXTINF:-1 tvg-id="TangoTV.us" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/tangotvchannel/picture?width=320&height=320" group-title="Entertainment",TangoTV (320p) [Not 24/7]
 https://panel.streamingtv-mediacp.online:1936/8066/8066/playlist.m3u8
 #EXTINF:-1 tvg-id="TastemadeenEspanol.us" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/8s6aRwv.png" group-title="Cooking",Tastemade en Español (1080p)
 https://tastemade-es8intl-roku.amagi.tv/playlist.m3u8
