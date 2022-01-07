@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/br/mi.tv.epg.xml,https://iptv-org.github.io/epg/guides/cz/m.tv.sms.cz.epg.xml,https://iptv-org.github.io/epg/guides/us-hi/tvtv.us.epg.xml,https://iptv-org.github.io/epg/guides/us-ne/tvtv.us.epg.xml,https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml,https://iptv-org.github.io/epg/guides/us/tvguide.com.epg.xml,https://iptv-org.github.io/epg/guides/us/tvtv.us.epg.xml"
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/br/mi.tv.epg.xml,https://iptv-org.github.io/epg/guides/cz/m.tv.sms.cz.epg.xml,https://iptv-org.github.io/epg/guides/us-hi/tvtv.us.epg.xml,https://iptv-org.github.io/epg/guides/us-ky/tvtv.us.epg.xml,https://iptv-org.github.io/epg/guides/us-ne/tvtv.us.epg.xml,https://iptv-org.github.io/epg/guides/us-tx/tvtv.us.epg.xml,https://iptv-org.github.io/epg/guides/us-wa/tvtv.us.epg.xml,https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml,https://iptv-org.github.io/epg/guides/us/tvguide.com.epg.xml,https://iptv-org.github.io/epg/guides/us/tvtv.us.epg.xml"
 #EXTINF:-1 tvg-id="BeachTVCSULB.us" tvg-country="US" tvg-language="English" tvg-logo="http://www.cla.csulb.edu/departments/polisci/wp-content/uploads/2016/01/Beach-TV-Logo-300x169.jpg" group-title="Education",Beach TV CSULB (720p) [Not 24/7]
 http://stream04.amp.csulb.edu:1935/Beach_TV/smil:BeachTV.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="BumblebeeTVNowYouKnow.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/78K3L8J.png" group-title="Education",Bumblebee TV Now You Know (720p)
@@ -26,8 +26,18 @@ http://50.7.74.29:8080/hls/j00034/index.m3u8
 #EXTINF:-1 tvg-id="NileTVLearning.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="http://www.niletc.tv/images/learning/learning.png" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" group-title="Education",Nile TV Learning (576p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
 http://livestreaming5.onlinehorizons.net/hls-live/Learning1/_definst_/liveevent/livestream.m3u8
+#EXTINF:-1 tvg-id="WLVTTV" tvg-country="US" tvg-language="English" tvg-logo="https://i.ibb.co/2KqyGjL/PBS-logo.png" group-title="Education;Local",PBS 39 Allentown PA (WLVT) (720p)
+https://forerunnerrtmp.livestreamingcdn.com/output18/output18.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="WPPT.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.ibb.co/2KqyGjL/PBS-logo.png" group-title="Education;Local",PBS 39 Extra Philadelphia PA (WPPT) (480p)
+https://forerunnerrtmp.livestreamingcdn.com/output18-2/output18-2.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="KLCSDT3.us" tvg-country="US" tvg-language="English" tvg-logo="https://media-usba.mybtv.net/logos/22.2-Create.png" group-title="Education",PBS Create Los Angeles CA (KLCS-DT3) (720p) [Geo-blocked]
+https://d1mxoeplf1ak5a.cloudfront.net/index.m3u8
+#EXTINF:-1 tvg-id="KERATV.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.ibb.co/2KqyGjL/PBS-logo.png" group-title="Education;Local",PBS Dallas TX (KERA) (1080p) [Geo-blocked]
+https://kera-flash.streamguys1.com/live/eventStream/playlist.m3u8
 #EXTINF:-1 tvg-id="KHET.us" tvg-country="US" tvg-language="English" tvg-logo="https://d1qbemlbhjecig.cloudfront.net/prod/filer_public/pbs-digital-studios-bento-live-pbs/icons/1fcc0dd46e_PBS_favicon.png" group-title="Education;Local",PBS Honolulu HI (KHET) (1080p) [Not 24/7]
 https://khetdt.lls.pbs.org/out/v1/7ec7903413294b72bb64f83963d8ea9b/index.m3u8
+#EXTINF:-1 tvg-id="WKMJTV.us" tvg-country="US" tvg-language="English" tvg-logo="https://image.pbs.org/stations/wkle-color-single-brand-logo-yJUbW1W.png" group-title="Education;Local",PBS KET Louisville KY (WKMJ-TV) (720p)
+https://2-fss-1.streamhoster.com/pl_134/amlst:200914-1282960/playlist.m3u8
 #EXTINF:-1 tvg-id="PBSKidsAKST.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/ambc9le.png" group-title="Education;Kids",PBS Kids Alaska (1080p)
 https://livestream.pbskids.org/out/v1/2963202df0c142c69b5254a546473308/akst.m3u8
 #EXTINF:-1 tvg-id="PBSKidsEST.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/ambc9le.png" group-title="Education;Kids",PBS Kids Eastern/Central (1080p)
@@ -40,6 +50,8 @@ https://livestream.pbskids.org/out/v1/00a3b9014fa54c40bee6ca68a104a8a4/mst.m3u8
 https://livestream.pbskids.org/out/v1/c707b9310f2848de849b336f9914adbc/pst.m3u8
 #EXTINF:-1 tvg-id="KUONTV.us" tvg-country="US" tvg-language="English" tvg-logo="https://d1qbemlbhjecig.cloudfront.net/prod/filer_public/pbs-digital-studios-bento-live-pbs/icons/1fcc0dd46e_PBS_favicon.png" group-title="Education;Local",PBS Lincoln NE (KUON) (1080p) [Geo-blocked]
 https://kuondt.lls.pbs.org/out/v1/91d8b5ffc5c1453c8a621508a07749a6/index.m3u8
+#EXTINF:-1 tvg-id="MPT.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/kt0R7ua.jpg" group-title="Education;Local",PBS MPT Baltimore MD (WMPB) (1088p)
+https://2-fss-2.streamhoster.com/pl_138/amlst:201814-1291584/playlist.m3u8
 #EXTINF:-1 tvg-id="PBSEast.us" tvg-country="US" tvg-language="English" tvg-logo="https://d1qbemlbhjecig.cloudfront.net/prod/filer_public/pbs-digital-studios-bento-live-pbs/icons/1fcc0dd46e_PBS_favicon.png" group-title="Education",PBS National East (1080p) [Geo-blocked]
 https://pbs.lls.cdn.pbs.org/est/index.m3u8
 #EXTINF:-1 tvg-id="PBSWest.us" tvg-country="US" tvg-language="English" tvg-logo="https://d1qbemlbhjecig.cloudfront.net/prod/filer_public/pbs-digital-studios-bento-live-pbs/icons/1fcc0dd46e_PBS_favicon.png" group-title="Education",PBS National West (1080p) [Geo-blocked]
@@ -48,6 +60,12 @@ https://pbs.lls.cdn.pbs.org/pst/index.m3u8
 https://wnjtdt.lls.pbs.org/out/v1/e62efd8d4f92403996425fc389df0ffd/index.m3u8
 #EXTINF:-1 tvg-id="WNETTV.us" tvg-country="US" tvg-language="English" tvg-logo="https://d1qbemlbhjecig.cloudfront.net/prod/filer_public/pbs-digital-studios-bento-live-pbs/icons/1fcc0dd46e_PBS_favicon.png" group-title="Education;Local",PBS New York NY (WNET) (1080p) [Not 24/7]
 https://wnetdt.lls.pbs.org/out/v1/0456457548354b88b32fc437e4e7ee01/index.m3u8
+#EXTINF:-1 tvg-id="KCTSTV.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.ibb.co/2KqyGjL/PBS-logo.png" group-title="Education;Local",PBS Seattle WA (KCTS-TV1) (720p)
+http://encodercdn1.frontline.ca/bespin/output/PBS_Seattle_720p/playlist.m3u8
+#EXTINF:-1 tvg-id="KSPSTV.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.ibb.co/2KqyGjL/PBS-logo.png" group-title="Education;Local",PBS Spokane WA (KSPS-TV1) (720p)
+http://encodercdn1.frontline.ca/encoder183/output/PBS_Spokane_720p/playlist.m3u8
+#EXTINF:-1 tvg-id="WorldChannel.us" tvg-country="US" tvg-language="English" tvg-logo="https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/PBSWorld_972x972.png?raw=true" group-title="Education",PBS World Channel (480p)
+https://cs.ebmcdn.net/eastbay-live-hs-1/apt/mp4:apt-world/playlist.m3u8
 #EXTINF:-1 tvg-id="PlatziTV.es" tvg-country="HISPAM;ES" tvg-language="Spanish" tvg-logo="https://platform-static.cdn.mdstrm.com/player/logo/s-live-5b9076d18ef7b22560354649.png?184" group-title="Education",Platzi TV (1080p)
 https://mdstrm.com/live-stream-playlist/5b9076d18ef7b22560354649.m3u8
 #EXTINF:-1 tvg-id="RedApple21FairfaxCountyPublicSchools.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/ICcQUCH.png" group-title="Education",Red Apple 21 (Fairfax County Public Schools) (480p) [Not 24/7]
