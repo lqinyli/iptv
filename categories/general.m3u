@@ -3,9 +3,6 @@
 https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/2m_monde/hls_video_ts/2m_monde.m3u8
 #EXTINF:-1 tvg-id="5kanal.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/tWULJqX.png" group-title="General",5 канал (480p)
 https://okkotv-live.cdnvideo.ru/channel/5_OTT.m3u8
-#EXTINF:-1 tvg-id="5TV.am" tvg-country="AM" tvg-language="Armenian" tvg-logo="https://i.imgur.com/yigw9dr.png" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148" group-title="General",5-րդ ալիք (480p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
-http://ott-cdn.ucom.am/s6/index.m3u8
 #EXTINF:-1 tvg-id="12TVParma.it" tvg-country="IT" tvg-language="Italian" tvg-logo="https://www.12tvparma.it/static/img/12tvparma.png" group-title="General",12 TV Parma (540p) [Not 24/7]
 https://5929b138b139d.streamlock.net/12TVParma/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="360deg.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://gl.weburg.net/00/tv/channels/1/491/bigposter/7459394.png" group-title="General",360° (720p)
@@ -87,6 +84,9 @@ http://cdn-hls.globecast.tv/live/ramdisk/assadissa/hls_snrt/index.m3u8
 https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnbd-8-org.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="ATNBanglaUK.bd" tvg-country="UK" tvg-language="Bengali" tvg-logo="http://atnbanglauk.tv/wp-content/uploads/2015/04/sized1.png" group-title="General",ATN Bangla UK (576p)
 https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnbanglauk-off.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="ATV.am" tvg-country="AM" tvg-language="Armenian" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/9/9c/Atvnew.png" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148" group-title="General",ATV (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s8/index.m3u8
 #EXTINF:-1 tvg-id="ATV.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/ATV.pe/picture?width=320&height=320" group-title="General",ATV (480p) [Not 24/7]
 https://d2tr4gdfol9ja.cloudfront.net/atv/smil:atv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ATVTavaTV.am" tvg-country="AM" tvg-language="Armenian" tvg-logo="https://i.imgur.com/cndJCRU.png" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148" group-title="General",ATV Թավա TV (480p)
@@ -145,7 +145,7 @@ http://50.7.74.29:8880/hlsok/j00050/index.m3u8
 http://50.7.74.29:8880/hls/j00051/index.m3u8
 #EXTINF:-1 tvg-id="BTVWorld.bd" tvg-country="BD" tvg-language="Bengali" tvg-logo="https://i.imgur.com/1Chamk9.png" group-title="General",BTV World (720p) [Not 24/7]
 https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/btvbd-office-sg.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="C31Melbourne.au" tvg-country="AU" tvg-language="English" tvg-logo="https://i.imgur.com/Ge1EutY.png" group-title="General",C31 Melbourne (480p)
+#EXTINF:-1 tvg-id="C31Melbourne.au" tvg-country="AU" tvg-language="English" tvg-logo="https://i.imgur.com/Ge1EutY.png" group-title="General",C31 Melbourne (360p)
 https://d1k6kax80wecy5.cloudfront.net/RLnAKY/index.m3u8
 #EXTINF:-1 tvg-id="Canal1.co" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/CZtUb4D.png" group-title="General",Canal 1 (432p)
 #EXTVLCOPT:http-referrer=https://ssh101.com/
@@ -164,8 +164,6 @@ https://tna5.bozztv.com/LiveCH05/index.m3u8
 https://tna5.bozztv.com/LiveCH08/index.m3u8
 #EXTINF:-1 tvg-id="CanalInstitucionalTV.co" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://cdn.colombia.com/canales/canal-institucional-tv-2599.jpg" group-title="General",Canal Institucional TV (1080p)
 https://streaming.rtvc.gov.co/TV_CanalInstitucional_live/smil:live.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="CanalMacau.mo" tvg-country="MO" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/0eGv67Q.png" group-title="General",Canal Macau (720p)
-http://live4.tdm.com.mo/ch2/_definst_/ch2.live/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalRCN.co" tvg-country="CO" tvg-language="Spanish" tvg-logo="" group-title="General",Canal RCN (432p) [Not 24/7]
 #EXTVLCOPT:http-referrer=https://ssh101.com/
 https://tna5.bozztv.com/LiveCH04/index.m3u8
@@ -317,7 +315,7 @@ http://41.216.229.205:8080/live/livestream/index.m3u8
 https://au7live.tooliserver.com/live/149009_0.m3u8?session=
 #EXTINF:-1 tvg-id="MBC1USA.ae" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/eKBXOKd.png" group-title="General",MBC 1 USA (1080p)
 https://shls-mbc1-usa-prod.shahid.net/out/v1/1b559e832c3f40f996c1984245b3b24b/index.m3u8
-#EXTINF:-1 tvg-id="MBC2.ae" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/GLltP2T.png" group-title="General",MBC 2 (1080p)
+#EXTINF:-1 tvg-id="MBC2.ae" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/GLltP2T.png" group-title="General",MBC 2 (576p)
 http://93.184.1.247/MBC2/index.m3u8
 #EXTINF:-1 tvg-id="MBC4.ae" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/pfF61uH.png" group-title="General",MBC 4 (1080p) [Geo-blocked]
 https://au7live.tooliserver.com/live/149012_0.m3u8?session=
@@ -341,11 +339,11 @@ https://shls-masr2-prod-dub.shahid.net/out/v1/f683685242b549f48ea8a5171e3e993a/i
 https://shls-mbcpersia-prod-dub.shahid.net/out/v1/bdc7cd0d990e4c54808632a52c396946/index.m3u8
 #EXTINF:-1 tvg-id="MillenniumTVUSA.us" tvg-country="US" tvg-language="English" tvg-logo="https://millenniumtv.org/wp-content/uploads/2021/06/Icon-512.png" group-title="General",Millennium TV USA (1080p) [Not 24/7]
 https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/millenniumtv-odr-up2.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="MKKWebTV.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/TDEDNLK.png" group-title="General",MKK Web TV (1080p) [Not 24/7]
+#EXTINF:-1 tvg-id="MKKWebTV.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/TDEDNLK.png" group-title="General",MKK Web TV (480p) [Not 24/7]
 https://video01.logicahost.com.br/mkkwebtv/mkkwebtv/playlist.m3u8
 #EXTINF:-1 tvg-id="MNCTV.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://i.postimg.cc/rw8620qS/20191026-003920.png" group-title="General",MNCTV (720p)
 https://vcdn2.rctiplus.id/live/eds/mnctv_fta/live_fta/mnctv_fta.m3u8
-#EXTINF:-1 tvg-id="MuganTV.az" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://i.imgur.com/HMT5vZA.png" group-title="General",Muğan TV (360p) [Not 24/7]
+#EXTINF:-1 tvg-id="MuganTV.az" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://i.imgur.com/HMT5vZA.png" group-title="General",Muğan TV (1080p) [Not 24/7]
 http://cdn10-mugantv.yayin.com.tr/mugantv/mugantv/playlist.m3u8
 #EXTINF:-1 tvg-id="MusawaChannel.ps" tvg-country="PS" tvg-language="Arabic" tvg-logo="https://i.imgur.com/PEFW4Vy.png" group-title="General",MusawaChannel (404p) [Not 24/7]
 http://htvpalsat.mada.ps:8888/musawa/index.m3u8
@@ -418,7 +416,7 @@ http://vcp1.myplaytv.com:1935/promar/promar/playlist.m3u8
 https://europe2.livetv.az/azerbaijan/qafqaztv/playlist.m3u8
 #EXTINF:-1 tvg-id="QatarTV.qa" tvg-country="QA" tvg-language="Arabic" tvg-logo="http://www.qtv.qa/assets/images/logos/qtv.png" group-title="General",Qatar TV (360p)
 https://qatartv.akamaized.net/hls/live/2026573/qtv1/master.m3u8
-#EXTINF:-1 tvg-id="QatarTV2.qa" tvg-country="QA" tvg-language="Arabic" tvg-logo="http://www.qtv.qa/assets/images/logos/qtvTwo2.png" group-title="General",Qatar TV 2 (720p)
+#EXTINF:-1 tvg-id="QatarTV2.qa" tvg-country="QA" tvg-language="Arabic" tvg-logo="http://www.qtv.qa/assets/images/logos/qtvTwo2.png" group-title="General",Qatar TV 2 (576p)
 https://qatartv.akamaized.net/hls/live/2026574/qtv2/master.m3u8
 #EXTINF:-1 tvg-id="QblTV.az" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://i.imgur.com/degUDMf.png" group-title="General",Qəbələ TV (480p) [Not 24/7]
 https://qebele.tv/live/stream/index.m3u8
@@ -594,7 +592,7 @@ https://brics.bonus-tv.ru/cdn/brics/russian/playlist.m3u8
 https://srv5.zcast.com.br/tvcarioca/tvcarioca/playlist.m3u8
 #EXTINF:-1 tvg-id="TVCosmos.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://tvcosmos.pe/includes/iso-cosmos.png" group-title="General",TV Cosmos (720p) [Not 24/7]
 https://5790d294af2dc.streamlock.net/8134/8134/playlist.m3u8
-#EXTINF:-1 tvg-id="TVDestak.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/W1LutVP.png" group-title="General",TV Destak (320p)
+#EXTINF:-1 tvg-id="TVDestak.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/W1LutVP.png" group-title="General",TV Destak (360p)
 http://tv02.logicahost.com.br:1935/pascoal/pascoal/live.m3u8
 #EXTINF:-1 tvg-id="TVDiariodoSertao.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/uBntXf1.png" group-title="General",TV Diário do Sertão (720p)
 http://painelvj.com.br:1935/pdsertaotv/pdsertaotv.sdp/playlist.m3u8
@@ -664,9 +662,9 @@ https://mn-nl.mncdn.com/tvrtgmures_new/smil:tvrtgmures_new.smil/index.m3u8
 https://mn-nl.mncdn.com/tvrtimisoara_new/smil:tvrtimisoara_new.smil/index.m3u8
 #EXTINF:-1 tvg-id="TVRINasional.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/320px-TVRILogo2019.svg.png" group-title="General",TVRI Nasional (720p)
 http://118.97.50.107/Content/HLS/Live/Channel(TVRINASIONAL)/index.m3u8
-#EXTINF:-1 tvg-id="TVSSelectNetwork.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/pXOyNEy.png" group-title="General",TVS Select Network (1080p)
+#EXTINF:-1 tvg-id="TVSSelectNetwork.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/pXOyNEy.png" group-title="General",TVS Select Network (720p)
 https://rpn1.bozztv.com/36bay2/gusa-tvsselect/index.m3u8
-#EXTINF:-1 tvg-id="TVSTelevisionNetwork.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/pXOyNEy.png" group-title="General",TVS Television Network (720p)
+#EXTINF:-1 tvg-id="TVSTelevisionNetwork.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/pXOyNEy.png" group-title="General",TVS Television Network (360p)
 https://rpn1.bozztv.com/36bay2/gusa-tvstn/index.m3u8
 #EXTINF:-1 tvg-id="UCI.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/uncanalinteligente/picture?width=320&height=320" group-title="General",UCI (720p) [Not 24/7]
 https://mediastreamm.com:3449/live/mlecaroslive.m3u8
