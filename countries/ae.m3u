@@ -21,8 +21,9 @@ https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
 https://av.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlDafrahTV.ae" tvg-country="AE" tvg-language="Arabic" tvg-logo="https://aldafrah.ae/wp-content/uploads/2018/02/logo_2x-1.png" group-title="General",Al Dafrah TV (1080p) [Not 24/7]
 https://iptv-all.lanesh4d0w.repl.co/saudiarabia/aldafrah
-#EXTINF:-1 tvg-id="AlJazeeraArabic.qa" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/x9TQYI3.jpg" group-title="News",Al Jazeera Arabic (1080p)
-https://live-hls-web-aja.getaj.net/AJA/index.m3u8
+#EXTINF:-1 tvg-id="AlJazeeraArabic.qa" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/DBJTZaS.png" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148" group-title="News",Al Jazeera Arabic (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s69/index.m3u8
 #EXTINF:-1 tvg-id="AlJazeeraDocumentary.qa" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/El2hhYb.png" group-title="Documentary",Al Jazeera Documentary (270p) [Geo-blocked]
 https://live-hls-web-ajd.getaj.net/AJD/index.m3u8
 #EXTINF:-1 tvg-id="AlJazeeraEnglish.qa" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/BB93NQP.png" group-title="News",Al Jazeera English (1080p)
@@ -41,10 +42,10 @@ https://ikomg1.s.llnwi.net/alyaumtv/playlist.m3u8
 https://alaraby.cdn.octivid.com/alaraby/smil:alaraby.stream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlhiwarTV.uk" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/ooiJwD5.png" group-title="",Alhiwar TV (1080p) [Not 24/7]
 https://mn-nl.mncdn.com/alhiwar_live/smil:alhiwar.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="Asharq.ae" tvg-country="AE" tvg-language="Arabic" tvg-logo="" group-title="",Asharq (1080p)
+https://bcovlive-a.akamaihd.net/0b75ef0a49e24704a4ca023d3a82c2df/ap-south-1/6203311941001/playlist.m3u8
 #EXTINF:-1 tvg-id="BBCArabic.uk" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/oFGPG9Y.png" group-title="News",BBC Arabic (720p)
 https://vs-cmaf-pushb-ww-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2_akamai_dash_live_http.mpd
-#EXTINF:-1 tvg-id="BBCNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/united-kingdom/bbc-news-uk.png" group-title="News",BBC News (480p)
-http://www.filmon.com/vr-streams/27.high/playlist.m3u8
 #EXTINF:-1 tvg-id="BBCWorldNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/Nx0BRdV.png" group-title="News",BBC World News (576p)
 http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
 #EXTINF:-1 tvg-id="BeeMovies.ae" tvg-country="AE" tvg-language="Arabic" tvg-logo="" group-title="",Bee Movies (1080p) [Not 24/7]
@@ -73,7 +74,7 @@ https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/index
 https://dmitwlvvll.cdn.mangomolo.com/dubaisportshd5/smil:dubaisportshd5.smil/index.m3u8
 #EXTINF:-1 tvg-id="DubaiTV.ae" tvg-country="AE" tvg-language="Arabic" tvg-logo="https://i.imgur.com/dWueFIE.png" group-title="General",Dubai TV (1080p)
 https://dmisxthvll.cdn.mgmlcdn.com/dubaitvht/smil:dubaitv.stream.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="DubaiZaman.ae" tvg-country="AE" tvg-language="Arabic" tvg-logo="https://i.imgur.com/F5U9qpf.png" group-title="Classic",Dubai Zaman (400p) [Not 24/7]
+#EXTINF:-1 tvg-id="DubaiZaman.ae" tvg-country="AE" tvg-language="Arabic" tvg-logo="https://i.imgur.com/F5U9qpf.png" group-title="Classic",Dubai Zaman (1080p) [Not 24/7]
 https://dmiffthvll.cdn.mangomolo.com/dubaizaman/smil:dubaizaman.stream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="DWArabic.de" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/A1xzjOI.png" group-title="News",DW Arabic (1080p)
 https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8
@@ -167,11 +168,11 @@ https://tv-trtarabi.live.trt.com.tr/master.m3u8
 https://tv-trtworld.live.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="Wanasah.ae" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/GmgibYW.jpg" group-title="Music",Wanasah (1080p)
 https://shls-wanasah-prod-dub.shahid.net/out/v1/c84ef3128e564b74a6a796e8b6287de6/index.m3u8
-#EXTINF:-1 tvg-id="WeyyakAction.ae" tvg-country="AE" tvg-language="Arabic" tvg-logo="https://content.weyyak.com/207c8580-318d-ea11-831d-02d662556796/poster-image" group-title="",Weyyak Action (720p)
+#EXTINF:-1 tvg-id="WeyyakAction.ae" tvg-country="AE" tvg-language="Arabic" tvg-logo="https://content.weyyak.com/207c8580-318d-ea11-831d-02d662556796/poster-image" group-title="",Weyyak Action (1080p)
 https://weyyak-live.akamaized.net/weyyak_action/index.m3u8
 #EXTINF:-1 tvg-id="WeyyakDrama.ae" tvg-country="AE" tvg-language="Arabic" tvg-logo="https://content.weyyak.com/d995517f-bc87-ea11-831d-02d662556796/poster-image" group-title="Movies",Weyyak Drama (720p)
 https://weyyak-live.akamaized.net/weyyak_drama/index.m3u8
-#EXTINF:-1 tvg-id="WeyyakMix.ae" tvg-country="AE" tvg-language="Arabic" tvg-logo="https://content.weyyak.com/bc777336-328d-ea11-831d-02d662556796/poster-image" group-title="",Weyyak Mix (1080p)
+#EXTINF:-1 tvg-id="WeyyakMix.ae" tvg-country="AE" tvg-language="Arabic" tvg-logo="https://content.weyyak.com/bc777336-328d-ea11-831d-02d662556796/poster-image" group-title="",Weyyak Mix (720p)
 https://weyyak-live.akamaized.net/weyyak_mix/index.m3u8
 #EXTINF:-1 tvg-id="WeyyakNawaem.ae" tvg-country="AE" tvg-language="Arabic" tvg-logo="https://content.weyyak.com/d867c2e9-328d-ea11-831d-02d662556796/poster-image" group-title="",Weyyak Nawaem (720p)
 https://weyyak-live.akamaized.net/weyyak_nawaem/index.m3u8

@@ -27,8 +27,9 @@ http://africatv.live.net.sa:1935/live/africatv2/playlist.m3u8
 http://africatv.live.net.sa:1935/live/africatv3/playlist.m3u8
 #EXTINF:-1 tvg-id="AlArabiya.ae" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/7OrfyOx.jpg" group-title="News",Al Arabiya (1080p)
 https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="AlJazeeraArabic.qa" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/x9TQYI3.jpg" group-title="News",Al Jazeera Arabic (1080p)
-https://live-hls-web-aja.getaj.net/AJA/index.m3u8
+#EXTINF:-1 tvg-id="AlJazeeraArabic.qa" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/DBJTZaS.png" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148" group-title="News",Al Jazeera Arabic (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s69/index.m3u8
 #EXTINF:-1 tvg-id="AlJazeeraDocumentary.qa" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/El2hhYb.png" group-title="Documentary",Al Jazeera Documentary (270p) [Geo-blocked]
 https://live-hls-web-ajd.getaj.net/AJD/index.m3u8
 #EXTINF:-1 tvg-id="AlJazeeraEnglish.qa" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/BB93NQP.png" group-title="News",Al Jazeera English (1080p)
@@ -47,8 +48,6 @@ https://1219373429.rsc.cdn77.org/live/stream-1/chunklist.m3u8
 https://edge9.vedge.infomaniak.com/livecast/ik:bb24/manifest.m3u8
 #EXTINF:-1 tvg-id="BBCArabic.uk" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/oFGPG9Y.png" group-title="News",BBC Arabic (720p)
 https://vs-cmaf-pushb-ww-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2_akamai_dash_live_http.mpd
-#EXTINF:-1 tvg-id="BBCNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/united-kingdom/bbc-news-uk.png" group-title="News",BBC News (480p)
-http://www.filmon.com/vr-streams/27.high/playlist.m3u8
 #EXTINF:-1 tvg-id="BBCWorldNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/Nx0BRdV.png" group-title="News",BBC World News (576p)
 http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
 #EXTINF:-1 tvg-id="BloombergTVEMEALiveEvent.us" tvg-country="EMEA" tvg-language="English" tvg-logo="http://cdn-profiles.tunein.com/s47135/images/logog.png" group-title="Business",Bloomberg TV EMEA Live Event (720p)
@@ -63,7 +62,7 @@ https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 #EXTINF:-1 tvg-id="EmmanuelTV.ng" tvg-country="NG" tvg-language="English" tvg-logo="https://i.imgur.com/pjoBzRS.jpg" group-title="",Emmanuel TV (1080p) [Not 24/7]
 https://api.new.livestream.com/accounts/23202872/events/7200883/live.m3u8
-#EXTINF:-1 tvg-id="Etélé.bj" tvg-country="BJ" tvg-language="French" tvg-logo="https://i.imgur.com/0LBbnSM.jpg" group-title="",Etélé (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="Etélé.bj" tvg-country="BJ" tvg-language="French" tvg-logo="https://i.imgur.com/0LBbnSM.jpg" group-title="",Etélé (360p) [Not 24/7]
 https://livetvsteam.com:1936/etelebenin/etelebenin/playlist.m3u8
 #EXTINF:-1 tvg-id="EuronewsEnglish.fr" tvg-country="INT" tvg-language="English" tvg-logo="https://i.postimg.cc/X7YYFZR2/euronews.png" group-title="News",Euronews English (720p)
 https://d1mpprlbe8tn2j.cloudfront.net/v1/master/7b67fbda7ab859400a821e9aa0deda20ab7ca3d2/euronewsLive/87O7AhxRUdeeIVqf/ewnsabren_eng.m3u8
