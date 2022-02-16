@@ -17,7 +17,7 @@ https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtu
 http://85.238.112.40:8810/hls_sec/239.33.16.32-.m3u8
 #EXTINF:-1 tvg-id="101TVMalaga.es" tvg-country="ES" tvg-language="Spanish" tvg-logo="https://i.imgur.com/CXHLhZD.png" group-title="News",101TV Malaga (1080p) [Not 24/7]
 https://limited38.todostreaming.es/live/101tv-web101tv.m3u8
-#EXTINF:-1 tvg-id="A24.ar" tvg-country="AR" tvg-language="Spanish" tvg-logo="https://cdn.mitvstatic.com/channels/ar_america-24_m.png" user-agent="iPhone" group-title="News",A24 (540p)
+#EXTINF:-1 tvg-id="A24.ar" tvg-country="AR" tvg-language="Spanish" tvg-logo="https://cdn.mitvstatic.com/channels/ar_america-24_m.png" user-agent="iPhone" group-title="News",A24 (360p)
 #EXTVLCOPT:http-user-agent=iPhone
 https://g1.vxral-hor.transport.edge-access.net/a15/ngrp:a24-100056_all/a24-100056.m3u8
 #EXTINF:-1 tvg-id="AajTak.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/x1Y2P21.png" group-title="News",Aaj Tak (360p) [Geo-blocked]
@@ -65,8 +65,9 @@ https://mbningestworld-i.akamaihd.net/hls/live/586122/worldsafe/master.m3u8
 https://mbningestworld-i.akamaihd.net/hls/live/644021/iraqworldsafe/master.m3u8
 #EXTINF:-1 tvg-id="AlIraqiyaNews.iq" tvg-country="IQ" tvg-language="Arabic" tvg-logo="https://imn.iq/wp-content/uploads/2018/03/Logo.jpg" group-title="News",Al Iraqiya News (720p) [Not 24/7]
 https://cdn.catiacast.video/abr/78054972db7708422595bc96c6e024ac/playlist.m3u8
-#EXTINF:-1 tvg-id="AlJazeeraArabic.qa" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/x9TQYI3.jpg" group-title="News",Al Jazeera Arabic (1080p)
-https://live-hls-web-aja.getaj.net/AJA/index.m3u8
+#EXTINF:-1 tvg-id="AlJazeeraArabic.qa" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/DBJTZaS.png" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148" group-title="News",Al Jazeera Arabic (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s69/index.m3u8
 #EXTINF:-1 tvg-id="AlJazeeraBalkans.qa" tvg-country="BA;HR;MK;ME;RS;SI" tvg-language="Bosnian;Serbian;Croatian;Montenegrin" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Al_Jazeera_Balkans.png/220px-Al_Jazeera_Balkans.png" group-title="News",Al Jazeera Balkans (1080p)
 https://live-hls-web-ajb.getaj.net/AJB/index.m3u8
 #EXTINF:-1 tvg-id="AlJazeeraEnglish.qa" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/BB93NQP.png" group-title="News",Al Jazeera English (1080p)
@@ -87,7 +88,7 @@ https://gulfsat.cdn.easybroadcast.fr/live/Al-Sabah_abr/playlist.m3u8
 http://ns8.indexforce.com:1935/alsharqiyalive/mystream/playlist.m3u8
 #EXTINF:-1 tvg-id="AlYaumTV.ae" tvg-country="AE" tvg-language="Arabic" tvg-logo="https://alyaumtv.net/wp-content/uploads/2019/04/alyaom-1-1_small2.png" group-title="News",Al Yaum TV (720p)
 https://ikomg1.s.llnwi.net/alyaumtv/playlist.m3u8
-#EXTINF:-1 tvg-id="AlEtejah.iq" tvg-country="IQ" tvg-language="Arabic" tvg-logo="https://i.imgur.com/jFKKRjP.png" group-title="News",Al-Etejah (576p) [Not 24/7]
+#EXTINF:-1 tvg-id="AlEtejah.iq" tvg-country="IQ" tvg-language="Arabic" tvg-logo="https://i.imgur.com/jFKKRjP.png" group-title="News",Al-Etejah (360p) [Not 24/7]
 https://streaming.aletejahtv.iq:1937/etejah-live/smil:etejah.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlarabyTV.uk" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/LNI1HNi.png" group-title="News",Alaraby TV (1080p)
 https://alaraby.cdn.octivid.com/alaraby/smil:alaraby.stream.smil/playlist.m3u8
@@ -131,7 +132,7 @@ https://d2tr4gdfol9ja.cloudfront.net/atv/smil:atv-mas.smil/playlist.m3u8
 https://austchannel-live.akamaized.net/hls/live/2002729/austchannel-news/master.m3u8
 #EXTINF:-1 tvg-id="AvenuesKhabar.np" tvg-country="NP" tvg-language="Nepali" tvg-logo="https://i.imgur.com/GDetViR.jpg" group-title="News",Avenues Khabar (720p) [Not 24/7]
 https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.youtube.com/channel/UCMDzPE_7fcZSRJgpwIVor_A/live
-#EXTINF:-1 tvg-id="AzerbaijanNewsTV.se" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://www.aznews.tv/wp-content/uploads/2019/04/headerlogo.fw_.png" group-title="News",Azerbaijan News TV (360p) [Not 24/7]
+#EXTINF:-1 tvg-id="AzerbaijanNewsTV.se" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://www.aznews.tv/wp-content/uploads/2019/04/headerlogo.fw_.png" group-title="News",Azerbaijan News TV (720p) [Not 24/7]
 https://edge1.socialsmart.tv/aznews/smil/playlist.m3u8
 #EXTINF:-1 tvg-id="B1.ro" tvg-country="RO" tvg-language="Romanian" tvg-logo="https://i.imgur.com/VQqgkzw.jpg" group-title="News",B1 (272p) [Not 24/7]
 https://stream.adunity.com/b1/b1.m3u8
@@ -150,7 +151,7 @@ https://vs-cmaf-pushb-ww-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_persi
 http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
 #EXTINF:-1 tvg-id="BeritaSatu.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://m3u-editor.com/storage/channel-logos/07cd9d90-3cc5-11ea-9aa8-0b5bd3ba261d/92697/14040323.png" group-title="News",BeritaSatu (720p)
 https://b1news.beritasatumedia.com/Beritasatu/B1News_manifest.m3u8
-#EXTINF:-1 tvg-id="BeritaSatuEnglish.id" tvg-country="ID" tvg-language="English" tvg-logo="https://m3u-editor.com/storage/channel-logos/07cd9d90-3cc5-11ea-9aa8-0b5bd3ba261d/92697/14040323.png" group-title="News",BeritaSatu English (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="BeritaSatuEnglish.id" tvg-country="ID" tvg-language="English" tvg-logo="https://m3u-editor.com/storage/channel-logos/07cd9d90-3cc5-11ea-9aa8-0b5bd3ba261d/92697/14040323.png" group-title="News",BeritaSatu English (540p) [Not 24/7]
 http://edge.linknetott.swiftserve.com/live/BsNew/amlst:bsenglish/playlist.m3u8
 #EXTINF:-1 tvg-id="BeritaSatuWorld.id" tvg-country="ID" tvg-language="Indonesian;English" tvg-logo="https://i.imgur.com/GIGcX5K.png" group-title="News",BeritaSatu World (540p) [Not 24/7]
 http://edge.linknetott.swiftserve.com/live/BsNew/amlst:bsnew/playlist.m3u8
@@ -214,7 +215,7 @@ http://livear.cgtn.com/1000a/prog_index.m3u8
 https://dai.google.com/linear/hls/event/r4sa-f6GSN2XIvzKv5jVng/master.m3u8
 #EXTINF:-1 tvg-id="CGTNEspanol.cn" tvg-country="CN" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/800px-CGTN.svg.png" group-title="News",CGTN Español (576p)
 https://livees.cgtn.com/1000e/prog_index.m3u8
-#EXTINF:-1 tvg-id="Channel2News.il" tvg-country="IL" tvg-language="Hebrew" tvg-logo="https://i.imgur.com/NmnXn2z.jpg" group-title="News",Channel 2 News (432p)
+#EXTINF:-1 tvg-id="Channel2News.il" tvg-country="IL" tvg-language="Hebrew" tvg-logo="https://i.imgur.com/NmnXn2z.jpg" group-title="News",Channel 2 News (360p)
 https://keshethlslive-lh.akamaihd.net/i/c2n_1@195269/master.m3u8
 #EXTINF:-1 tvg-id="Channel24.bd" tvg-country="BD" tvg-language="Bengali" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Channel24logo.svg/400px-Channel24logo.svg.png" group-title="News",Channel 24 (1080p)
 https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/channel24-sg-e8e.stream/playlist.m3u8
@@ -285,7 +286,7 @@ http://ert-live-bcbs15228.siliconweb.com/media/ert_news/ert_news.m3u8
 https://estrellanews-plex.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ETVAndhraPradesh.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/FfiMH8z.jpg" group-title="News",ETV Andhra Pradesh (480p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCSbwShxZsBiqqWwtUidmS6g/live
-#EXTINF:-1 tvg-id="ETVTelangana.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/lQBs2Cs.jpg" group-title="News",ETV Telangana (480p) [Not 24/7]
+#EXTINF:-1 tvg-id="ETVTelangana.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="https://i.imgur.com/lQBs2Cs.jpg" group-title="News",ETV Telangana (720p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UC6ickpgDIsltU_-8CbZaksQ/live
 #EXTINF:-1 tvg-id="EuronewsAlbania.fr" tvg-country="AL" tvg-language="Albanian" tvg-logo="https://i.imgur.com/hTBah1z.jpg" group-title="News",Euronews Albania (1080p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UChR-A__NS_C5kHDWj3PeAhw/live
@@ -307,8 +308,6 @@ https://rakuten-euronews-3-it.samsung.wurl.com/manifest/playlist.m3u8
 https://rakuten-euronews-8-pt.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="Euronewsporusski.fr" tvg-country="RU" tvg-language="Russian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Euronews_2016_logo.svg/1000px-Euronews_2016_logo.svg.png" group-title="News",Euronews по-русски (720p)
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCFzJjgVicCtFxJ5B0P_ei8A/live
-#EXTINF:-1 tvg-id="ExitosaTV.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/Exitosanoticias/picture?width=320&height=320" group-title="News",Exitosa TV (720p)
-https://cu.onliv3.com/livevd1/user2.m3u8
 #EXTINF:-1 tvg-id="ExpressNewsPakistan.pk" tvg-country="PK" tvg-language="English" tvg-logo="" group-title="News",Express News Pakistan (720p) [Not 24/7]
 https://5ab29cc78f681.streamlock.net/expressdigital1/livestream/master.m3u8
 #EXTINF:-1 tvg-id="ExpressenTV.se" tvg-country="SE" tvg-language="Swedish" tvg-logo="https://i.imgur.com/Kt88QxS.png" group-title="News",Expressen TV (720p) [Not 24/7]
@@ -391,7 +390,7 @@ https://ign-plex.amagi.tv/hls/amagi_hls_data_ignAAAAAA-ign-plexA/CDN/playlist.m3
 https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/independent-8-org.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="IndiaNews.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="http://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/IB1ycQJs.png" group-title="News",India News (480p)
 https://m-c036-j2apps.s.llnwi.net/hls/0442.IndiaNews.in.m3u8
-#EXTINF:-1 tvg-id="IndiaToday.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="http://akm-img-a-in.tosshub.com/sites/all/themes/itg/logo.png" group-title="News",India Today (360p) [Not 24/7]
+#EXTINF:-1 tvg-id="IndiaToday.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="http://akm-img-a-in.tosshub.com/sites/all/themes/itg/logo.png" group-title="News",India Today (234p) [Not 24/7]
 https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8
 #EXTINF:-1 tvg-id="iNews.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://m3u-editor.com/storage/channel-logos/07cd9d90-3cc5-11ea-9aa8-0b5bd3ba261d/92697/14040337.png" group-title="News",iNews (720p)
 https://vcdn2.rctiplus.id/live/eds/inews_fta/live_fta/inews_fta.m3u8
@@ -423,9 +422,9 @@ http://103.199.161.254/Content/people/Live/Channel(People)/index.m3u8
 http://103.199.160.85/Content/kalaignarseithikal/Live/Channel(KalaignarSeithikal)/index.m3u8
 #EXTINF:-1 tvg-id="KanakNews.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="http://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/4ZNf4dH3.png" group-title="News",Kanak News (720p) [Not 24/7]
 https://live.kanaknews.com:4443/live/stream/playlist.m3u8
-#EXTINF:-1 tvg-id="KCCI.us" tvg-country="US" tvg-language="English" tvg-logo="" group-title="News",KCCI-TV News Des Moines IA (720p)
+#EXTINF:-1 tvg-id="KCCI.us" tvg-country="US" tvg-language="English" tvg-logo="" group-title="News",KCCI-TV News Des Moines IA (576p)
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Cloudfront-KCCI.m3u8
-#EXTINF:-1 tvg-id="KCRA.us" tvg-country="US" tvg-language="English" tvg-logo="" group-title="News",KCRA-TV News Sacramento CA (216p) [Not 24/7]
+#EXTINF:-1 tvg-id="KCRA.us" tvg-country="US" tvg-language="English" tvg-logo="" group-title="News",KCRA-TV News Sacramento CA (576p) [Not 24/7]
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Cloudfront-KCRA.m3u8
 #EXTINF:-1 tvg-id="KeralaVisionNews.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://nettv4u.com/uploads/23-07-2020/kerala-vision.png" group-title="News",Kerala Vision News (720p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCtSeMwydGw6mDSZaIUaJ5bw/live
@@ -435,13 +434,13 @@ https://api.abcotvs.com/v3/kfsn/m3u8/url?id=432725&key=yuemix
 https://content.uplynk.com/channel/ext/4413701bf5a1488db55b767f8ae9d4fa/kgo_24x7_news.m3u8
 #EXTINF:-1 tvg-id="KHBS.us" tvg-country="US" tvg-language="English" tvg-logo="https://cdn.tvpassport.com/image/station/100x100/abc.png" group-title="News",KHBS-TV News Fort Smith AR (720p)
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Cloudfront-KHBS.m3u8
-#EXTINF:-1 tvg-id="KhyberNewsTV.pk" tvg-country="PK" tvg-language="Urdu" tvg-logo="https://i.imgur.com/NL1cqS2.png" group-title="News",Khyber News TV (404p) [Not 24/7]
+#EXTINF:-1 tvg-id="KhyberNewsTV.ae" tvg-country="AE" tvg-language="Pashto" tvg-logo="" group-title="News",Khyber News TV (404p) [Not 24/7]
 https://dcunilive38-lh.akamaihd.net/i/dclive_1@692677/master.m3u8
 #EXTINF:-1 tvg-id="KOAT.us" tvg-country="US" tvg-language="English" tvg-logo="" group-title="News",KOAT-TV News Albuquerque NM (720p)
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Cloudfront-KOAT.m3u8
 #EXTINF:-1 tvg-id="KompasTV.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_106.png" group-title="News",Kompas TV [Geo-blocked]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.vidio.com/live/874-kompas-tv
-#EXTINF:-1 tvg-id="KSBW.us" tvg-country="US" tvg-language="English" tvg-logo="https://cdn.tvpassport.com/image/station/100x100/nbc.png" group-title="News",KSBW-TV News Salinas CA (576p)
+#EXTINF:-1 tvg-id="KSBW.us" tvg-country="US" tvg-language="English" tvg-logo="https://cdn.tvpassport.com/image/station/100x100/nbc.png" group-title="News",KSBW-TV News Salinas CA (720p)
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Cloudfront-KSBW.m3u8
 #EXTINF:-1 tvg-id="KTNNews.ke" tvg-country="KE" tvg-language="English" tvg-logo="https://kenyatv.tech/wp-content/uploads/2020/11/unnamed.jpg" group-title="News",KTN News (720p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/user/standardgroupkenya/live
@@ -491,13 +490,13 @@ http://5f72f3a9b06b7.streamlock.net/live/smil:medi1ar.smil/playlist.m3u8
 http://streaming1.medi1tv.com/live/smil:medi1tv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="MediaOne.in" tvg-country="IN" tvg-language="Malayalam" tvg-logo="https://i.imgur.com/tQvdxWo.jpg" group-title="News",Media One (576p)
 http://103.199.161.254/Content/mediaone/Live/Channel(MediaOne)/index.m3u8
-#EXTINF:-1 tvg-id="Meganoticias.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="" group-title="News",Meganoticias (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="Meganoticias.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="" group-title="News",Meganoticias (1080p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCkccyEbqhhM3uKOI6Shm-4Q/live
 #EXTINF:-1 tvg-id="MekameleenTV.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="https://i.imgur.com/K0MQiNB.png" group-title="News",Mekameleen TV (1080p)
 https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Meteonews.ch" tvg-country="CH" tvg-language="German" tvg-logo="https://i.imgur.com/YtYhbJD.png" group-title="News",Meteonews (1080p)
 https://streaming.meteonews.net/hls/stream.m3u8
-#EXTINF:-1 tvg-id="MetroTV.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://m3u-editor.com/storage/channel-logos/07cd9d90-3cc5-11ea-9aa8-0b5bd3ba261d/92697/14040416.png" group-title="News",Metro TV (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="MetroTV.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://m3u-editor.com/storage/channel-logos/07cd9d90-3cc5-11ea-9aa8-0b5bd3ba261d/92697/14040416.png" group-title="News",Metro TV (240p) [Not 24/7]
 http://edge.metrotvnews.com:1935/live-edge/smil:metro.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="MihanTV.us" tvg-country="US" tvg-language="Persian" tvg-logo="https://i.imgur.com/E6zzyqZ.jpg" group-title="News",Mihan TV (720p) [Not 24/7]
 http://iptv.mihantv.com/live/playlist.m3u8
@@ -531,9 +530,9 @@ http://nbcnews2.akamaized.net/hls/live/723426-b/NBCNewsPlaymaker24x7Linear99a3a8
 https://nbcnews-lh.akamaihd.net/i/nbc_live11@183427/master.m3u8
 #EXTINF:-1 tvg-id="NBCNewsNowEvent2.us" tvg-country="US" tvg-language="English" tvg-logo="https://raw.githubusercontent.com/geonsey/Free2ViewTV/master/images/logos/NBCNewsNow.png" group-title="News",NBC News Now Event 2 (720p)
 https://nbcnews-lh.akamaihd.net/i/nbc_live12@187393/master.m3u8
-#EXTINF:-1 tvg-id="NBCNewsNowEvent3.us" tvg-country="US" tvg-language="English" tvg-logo="https://raw.githubusercontent.com/geonsey/Free2ViewTV/master/images/logos/NBCNewsNow.png" group-title="News",NBC News Now Event 3 (360p)
+#EXTINF:-1 tvg-id="NBCNewsNowEvent3.us" tvg-country="US" tvg-language="English" tvg-logo="https://raw.githubusercontent.com/geonsey/Free2ViewTV/master/images/logos/NBCNewsNow.png" group-title="News",NBC News Now Event 3 (460p)
 https://nbcnews-lh.akamaihd.net/i/nbc_live13@187394/master.m3u8
-#EXTINF:-1 tvg-id="NBCNewsNowEvent4.us" tvg-country="US" tvg-language="English" tvg-logo="https://raw.githubusercontent.com/geonsey/Free2ViewTV/master/images/logos/NBCNewsNow.png" group-title="News",NBC News Now Event 4 (720p)
+#EXTINF:-1 tvg-id="NBCNewsNowEvent4.us" tvg-country="US" tvg-language="English" tvg-logo="https://raw.githubusercontent.com/geonsey/Free2ViewTV/master/images/logos/NBCNewsNow.png" group-title="News",NBC News Now Event 4 (360p)
 https://nbcnews-lh.akamaihd.net/i/nbc_live14@187395/master.m3u8
 #EXTINF:-1 tvg-id="NDTV24X7.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/NDTV_24x7.png" group-title="News",NDTV 24X7 (480p) [Not 24/7]
 https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8
@@ -569,7 +568,7 @@ https://news18tamil-lh.akamaihd.net/i/n18tamil_1@526595/index_4_av-p.m3u8?rebase
 https://news18urdu-lh.akamaihd.net/i/n18urdu_1@373059/index_4_av-p.m3u8?rebase=on&sd=10
 #EXTINF:-1 tvg-id="News18Uttarakhand.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="" group-title="News",News 18 Uttarakhand (360p)
 https://news18up-lh.akamaihd.net/i/n18upuk_1@175735/index_4_av-p.m3u8?rebase=on&sd=10
-#EXTINF:-1 tvg-id="News24.bd" tvg-country="BD" tvg-language="Bengali" tvg-logo="https://www.news24bd.tv/assets/desktop/images/logos/logo.png" group-title="News",News 24 (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="News24.bd" tvg-country="BD" tvg-language="Bengali" tvg-logo="https://www.news24bd.tv/assets/desktop/images/logos/logo.png" group-title="News",News 24 (1080p) [Not 24/7]
 https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/news24local.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="News24.in" tvg-country="IN" tvg-language="Hindi" tvg-logo="http://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/wmsT3xGI.png" group-title="News",News 24 (480p) [Not 24/7]
 https://vidcdn.vidgyor.com/news24-origin/liveabr/news24-origin/live1/playlist.m3u8
@@ -647,7 +646,7 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5eb1b17aa
 http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/60cb6df2b2ad610008cd5bea/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY
 #EXTINF:-1 tvg-id="PlutoTVCheddar.us" tvg-country="US" tvg-language="English" tvg-logo="" group-title="News",Pluto TV Cheddar (720p) [Not 24/7]
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5812afe1d0f0b8d55dde67fa/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5812afe1d0f0b8d55dde67fa&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=226&terminate=false&userId=
-#EXTINF:-1 tvg-id="PlutoTVCNN.us" tvg-country="US" tvg-language="English" tvg-logo="" group-title="News",Pluto TV CNN (720p)
+#EXTINF:-1 tvg-id="PlutoTVCNN.us" tvg-country="US" tvg-language="English" tvg-logo="" group-title="News",Pluto TV CNN (360p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5421f71da6af422839419cb3/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5421f71da6af422839419cb3&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=209&terminate=false&userId=
 #EXTINF:-1 tvg-id="PlutoTVEuronews.us" tvg-country="US" tvg-language="Spanish" tvg-logo="http://images.pluto.tv/channels/60d3583ef310610007fb02b1/colorLogoPNG.png" group-title="News",Pluto TV Euronews (720p) [Not 24/7]
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60d3583ef310610007fb02b1/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&serverSideAds=false&studio_id=viacom&tags=ROKU_CONTENT_TAGS
@@ -657,9 +656,9 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5df97894467dfa0009
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5268abcd0ce20a8472000114/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5268abcd0ce20a8472000114&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=202&terminate=false&userId=
 #EXTINF:-1 tvg-id="PlutoTVRecordNews.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://images.pluto.tv/channels/6102e04e9ab1db0007a980a1/colorLogoPNG.png" group-title="News",Pluto TV Record News (720p)
 http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6102e04e9ab1db0007a980a1/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY
-#EXTINF:-1 tvg-id="PlutoTVTelefeNoticias.us" tvg-country="US" tvg-language="Spanish" tvg-logo="https://images.pluto.tv/channels/5f523aa5523ae000074745ec/colorLogoPNG.png" group-title="News",Pluto TV Telefe Noticias (480p) [Not 24/7]
+#EXTINF:-1 tvg-id="PlutoTVTelefeNoticias.us" tvg-country="US" tvg-language="Spanish" tvg-logo="https://images.pluto.tv/channels/5f523aa5523ae000074745ec/colorLogoPNG.png" group-title="News",Pluto TV Telefe Noticias (720p) [Not 24/7]
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f523aa5523ae000074745ec/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
-#EXTINF:-1 tvg-id="PlutoTVTheFirst.us" tvg-country="US" tvg-language="English" tvg-logo="" group-title="News",Pluto TV The First (240p)
+#EXTINF:-1 tvg-id="PlutoTVTheFirst.us" tvg-country="US" tvg-language="English" tvg-logo="" group-title="News",Pluto TV The First (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d486acc34ceb37d3c458a64/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d486acc34ceb37d3c458a64&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=244&terminate=false&userId=
 #EXTINF:-1 tvg-id="PolimerNews.in" tvg-country="IN" tvg-language="Tamil" tvg-logo="https://india.mom-rsf.org/typo3temp/_processed_/d/c/csm_16526-1592_import_d84315ad22.png" group-title="News",Polimer News (720p) [Geo-blocked]
 https://versewsa.pc.cdn.bitgravity.com/versewsa/live/polimernews.smil/chunklist_b1800000.m3u8
@@ -693,9 +692,8 @@ http://103.199.161.254/Content/reporter/Live/Channel(Reporter)/index.m3u8
 http://38.131.11.9:1080/play/a0d8
 #EXTINF:-1 tvg-id="RSelvaTV.pe" tvg-country="PE" tvg-language="Spanish" tvg-logo="https://radioselvatv.pe/wp-content/uploads/2020/12/favicon.png" group-title="News",RSelvaTV (Tarapoto) (720p) [Not 24/7]
 https://live.obslivestream.com/selvatvmux/index.m3u8
-#EXTINF:-1 tvg-id="RTAmerica.ru" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/tyXIHlj.png" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148" group-title="News",RT America (480p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
-http://ott-cdn.ucom.am/s96/index.m3u8
+#EXTINF:-1 tvg-id="RTAmerica.ru" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/tyXIHlj.png" group-title="News",RT America (1080p) [Not 24/7]
+https://rt-usa.gcdn.co/live/rtusa/playlist.m3u8
 #EXTINF:-1 tvg-id="RTArabic.ru" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://content.osn.com/logo/channel/cropped/RUS.png" group-title="News",RT Arabic (1080p)
 https://rt-arb.gcdn.co/live/rtarab/playlist.m3u8
 #EXTINF:-1 tvg-id="RTenEspanol.ru" tvg-country="HISPAM;ES" tvg-language="Spanish" tvg-logo="" group-title="News",RT en Español (1080p) [Not 24/7]
@@ -743,8 +741,6 @@ http://dcunilive36-lh.akamaihd.net/i/dclive_1@668002/master.m3u8
 https://cdn20.liveonlineservices.com/hls/subrang.m3u8
 #EXTINF:-1 tvg-id="SuchTV.pk" tvg-country="PK" tvg-language="Urdu" tvg-logo="https://i.imgur.com/WlxWJm1.png" group-title="News",Such TV (720p) [Not 24/7]
 https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.dailymotion.com/video/x72hrde
-#EXTINF:-1 tvg-id="SuhailTV.ye" tvg-country="YE" tvg-language="Arabic" tvg-logo="" group-title="News",Suhail TV (576p)
-http://82.212.74.98:8000/live/hls/7726.m3u8
 #EXTINF:-1 tvg-id="SunNews.in" tvg-country="IN" tvg-language="Tamil" tvg-logo="https://i.imgur.com/mQWpBdv.png" group-title="News",Sun News (1080p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/watch?v=_fR9xWEOa7Q
 #EXTINF:-1 tvg-id="SyrianNewsChannel.sy" tvg-country="SY" tvg-language="Arabic" tvg-logo="https://i.imgur.com/6KUtkKz.png" group-title="News",Syrian News Channel (360p) [Not 24/7]
