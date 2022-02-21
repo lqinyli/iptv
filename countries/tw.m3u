@@ -1,8 +1,8 @@
 #EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ch/tv.blue.ch.epg.xml,https://iptv-org.github.io/epg/guides/gr/cosmote.gr.epg.xml,https://iptv-org.github.io/epg/guides/it/guidatv.sky.it.epg.xml,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml,https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml,https://iptv-org.github.io/epg/guides/uk/ontvtonight.com.epg.xml"
 #EXTINF:-1 tvg-id="BBCNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/united-kingdom/bbc-news-uk.png" group-title="News",BBC News HD (720p) [Geo-blocked]
 https://cdnuk001.broadcastcdn.net/KUK-BBCNEWSHD/index.m3u8
-#EXTINF:-1 tvg-id="BBCWorldNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/Nx0BRdV.png" group-title="News",BBC World News (576p)
-http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
+#EXTINF:-1 tvg-id="BBCWorldNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/Nx0BRdV.png" group-title="News",BBC World News (480p)
+http://ott-cdn.ucom.am/s24/index.m3u8
 #EXTINF:-1 tvg-id="BloombergTVAsia.us" tvg-country="APAC;OCE;SAS" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Bloomberg_Television_logo.svg/300px-Bloomberg_Television_logo.svg.png" group-title="Business",Bloomberg TV Asia (720p)
 https://liveprodapnortheast.global.ssl.fastly.net/ap1/Channel-APTVqvs-AWS-tokyo-1/Source-APTVqvs-1000-1_live.m3u8
 #EXTINF:-1 tvg-id="BloombergTVAsiaLiveEvent.us" tvg-country="APAC" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Bloomberg_Television_logo.svg/300px-Bloomberg_Television_logo.svg.png" group-title="Business",Bloomberg TV Asia Live Event (720p)
@@ -31,6 +31,8 @@ https://live.streamingfast.net/osmflivech9.m3u8
 https://live.streamingfast.net/osmflivech10.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="TW" tvg-language="" tvg-logo="" group-title="Undefined",GOOD TV CH12 維他命施 (720p)
 https://live.streamingfast.net/osmflivech12.m3u8
+#EXTINF:-1 tvg-id="" tvg-country="TW" tvg-language="" tvg-logo="" group-title="Undefined",GOOD TV CH13 健康新煮流 短版 (720p)
+https://live.streamingfast.net/osmflivech13.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="TW" tvg-language="" tvg-logo="" group-title="Undefined",GOOD TV CH14 真情部落格 (720p) [Not 24/7]
 https://live.streamingfast.net/osmflivech14.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="TW" tvg-language="" tvg-logo="" group-title="Undefined",GOOD TV CH15 真情之夜 (720p)
@@ -107,18 +109,16 @@ https://tv-trtworld.live.trt.com.tr/master.m3u8
 http://seb.sason.top/sc/tvbsxw_fhd.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="TW" tvg-language="" tvg-logo="" group-title="Undefined",三立新聞 (1080p) [Geo-blocked]
 http://seb.sason.top/sc/sllive_fhd.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="TW" tvg-language="" tvg-logo="" group-title="Undefined",中天新聞 (1080p) [Not 24/7]
-http://seb.sason.top/sc/ztxw_fhd.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="TW" tvg-language="" tvg-logo="" group-title="Undefined",中視新聞 (1080p) [Geo-blocked]
 http://seb.sason.top/sc/zsxw_fhd.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="TW" tvg-language="" tvg-logo="" group-title="Undefined",原住民電視 (720p)
 http://streamipcf.akamaized.net/live/_definst_/live_720/key_b1500.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="TW" tvg-language="" tvg-logo="" group-title="Undefined",台視新聞 (1080p) [Not 24/7]
-http://seb.sason.top/sc/tsxw_fhd.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="TW" tvg-language="" tvg-logo="" group-title="Undefined",唯心電視 (480p)
 http://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="TW" tvg-language="" tvg-logo="" group-title="Undefined",壹電視新聞台 (1080p)
 http://stream.nexttv.com.tw/n001/hd/live.m3u8
+#EXTINF:-1 tvg-id="" tvg-country="TW" tvg-language="" tvg-logo="" group-title="Undefined",大愛1 (720p)
+https://pulltv1.wanfudaluye.com/live/tv1.m3u8
 #EXTINF:-1 tvg-id="DaAi2.tw" tvg-country="TW" tvg-language="Chinese" tvg-logo="https://www.cns.net.tw/web/upload/20141017171303RmzVY9Z.png" group-title="General",大愛2 (720p)
 https://pulltv2.wanfudaluye.com/live/tv2.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="TW" tvg-language="" tvg-logo="" group-title="Undefined",大立電視 (720p)
@@ -153,3 +153,5 @@ https://lylive-videorent.cdn.hinet.net/out/u/live/gop4/ly/ly-Live5/hls-cl-tv/ind
 https://lylive-videorent.cdn.hinet.net/out/u/live/gop4/ly/ly-Live2/hls-cl-tv/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="TW" tvg-language="" tvg-logo="" group-title="Undefined",立法院IVOD直播院會 (450p)
 https://lylive-videorent.cdn.hinet.net/out/u/live/gop4/ly/ly-Live1/hls-cl-tv/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-country="TW" tvg-language="" tvg-logo="" group-title="Undefined",華藏衛視 (1080p) [Not 24/7]
+http://118.163.88.61:1935/hwazanlivetv/live.stream/playlist.m3u8
