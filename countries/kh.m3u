@@ -1,43 +1,37 @@
-#EXTM3U x-tvg-url=""
-#EXTINF:-1 tvg-id="AlJazeeraEnglish.qa" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/BB93NQP.png" group-title="News",Al Jazeera English (1080p)
-https://live-hls-web-aje.getaj.net/AJE/index.m3u8
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ch/tv.blue.ch.epg.xml,https://iptv-org.github.io/epg/guides/gr/cosmote.gr.epg.xml,https://iptv-org.github.io/epg/guides/it/guidatv.sky.it.epg.xml,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml,https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml,https://iptv-org.github.io/epg/guides/uk/ontvtonight.com.epg.xml"
 #EXTINF:-1 tvg-id="BayonTV.kh" tvg-country="KH" tvg-language="Khmer" tvg-logo="https://i.imgur.com/2jbulL2.jpg" group-title="News",Bayon TV (360p) [Not 24/7]
-http://203.176.130.123:8989/live/bayontv_480k.stream/playlist.m3u8
+http://203.176.130.123:8989/live/bayontv1_480k.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="BBCNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/united-kingdom/bbc-news-uk.png" group-title="News",BBC News HD (720p) [Geo-blocked]
+https://cdnuk001.broadcastcdn.net/KUK-BBCNEWSHD/index.m3u8
 #EXTINF:-1 tvg-id="BBCWorldNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/Nx0BRdV.png" group-title="News",BBC World News (576p)
 http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
-#EXTINF:-1 tvg-id="BloombergTVAsia.us" tvg-country="APAC" tvg-language="English" tvg-logo="http://cdn-profiles.tunein.com/s47135/images/logog.png" group-title="Business",Bloomberg TV Asia (720p)
+#EXTINF:-1 tvg-id="BloombergTVAsia.us" tvg-country="APAC;OCE;SAS" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Bloomberg_Television_logo.svg/300px-Bloomberg_Television_logo.svg.png" group-title="Business",Bloomberg TV Asia (720p)
 https://liveprodapnortheast.global.ssl.fastly.net/ap1/Channel-APTVqvs-AWS-tokyo-1/Source-APTVqvs-1000-1_live.m3u8
-#EXTINF:-1 tvg-id="BloombergTVAsiaLiveEvent.us" tvg-country="APAC" tvg-language="English" tvg-logo="http://cdn-profiles.tunein.com/s47135/images/logog.png" group-title="Business",Bloomberg TV Asia Live Event (720p)
+#EXTINF:-1 tvg-id="BloombergTVAsiaLiveEvent.us" tvg-country="APAC" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Bloomberg_Television_logo.svg/300px-Bloomberg_Television_logo.svg.png" group-title="Business",Bloomberg TV Asia Live Event (720p)
 https://www.bloomberg.com/media-manifest/streams/asia-event.m3u8
 #EXTINF:-1 tvg-id="DWEnglish.de" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/xnv0Pgm.jpg" group-title="News",DW English (1080p)
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
-#EXTINF:-1 tvg-id="EuronewsEnglish.fr" tvg-country="INT" tvg-language="English" tvg-logo="https://i.postimg.cc/X7YYFZR2/euronews.png" group-title="News",Euronews English (720p)
-https://d1mpprlbe8tn2j.cloudfront.net/v1/master/7b67fbda7ab859400a821e9aa0deda20ab7ca3d2/euronewsLive/87O7AhxRUdeeIVqf/ewnsabren_eng.m3u8
 #EXTINF:-1 tvg-id="France24English.fr" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/France24.png" group-title="News",France 24 English (1080p)
 http://f24hls-i.akamaihd.net/hls/live/221147/F24_EN_HI_HLS/master.m3u8
-#EXTINF:-1 tvg-id="FreshNews.kh" tvg-country="KH" tvg-language="Khmer" tvg-logo="" group-title="News",Fresh News (720p)
+#EXTINF:-1 tvg-id="FreshNews.kh" tvg-country="KH" tvg-language="Khmer" tvg-logo="https://www.lyngsat.com/logo/tv/ff/fresh-news-kh.png" group-title="News",Fresh News (720p)
 http://167.99.65.12:1935/live/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="FreshNewsTV.kh" tvg-country="KH" tvg-language="Khmer" tvg-logo="https://i.imgur.com/6p0TK7e.png" group-title="News",Fresh News TV (720p)
 http://167.99.65.12:1935/live/ngrp:myStream_all/playlist.m3u8
-#EXTINF:-1 tvg-id="MetalTV.ru" tvg-country="INT" tvg-language="Catalan;Arabic;Pashto;English;Albanian;Armenian;Portuguese;Spanish;German;Dutch;Swedish;Azerbaijani;Bosnian;Bengali;French;Bulgarian;Malay;Dzongkha;Norwegian;Belarusian;Chinese;Greek;Czech;Danish;Estonian;Tigrinya;Amharic;Finnish;Faroese;Georgian;Greenlandic;Croatian;Hungarian;Indonesian;Irish;Hebrew;Hindi;Persian;Icelandic;Italian;Japanese;Kirghiz;Khmer;Korean;Kazakh;Lao;Sinhala;Lithuanian;Latvian;Romanian;Serbian;Macedonian;Burmese;Mongolian;Maltese;Dhivehi;Nepali;Polish;Russian;Kinyarwanda;Slovenian;Slovak;Somali;Thai;Tajik;Turkmen;Turkish;Swahili;Ukrainian;Uzbek;Vietnamese;Bislama;Samoan;Afrikaans" tvg-logo="" group-title="Music",Metal TV (720p) [Not 24/7]
-https://v2.catcast.tv/content/33816/index.m3u8
-#EXTINF:-1 tvg-id="PNN.kh" tvg-country="KH" tvg-language="Khmer" tvg-logo="https://i.imgur.com/1xZmAvQ.jpg" group-title="",PNN (360p) [Not 24/7]
+#EXTINF:-1 tvg-id="PNN.kh" tvg-country="KH" tvg-language="Khmer" tvg-logo="https://i.imgur.com/1xZmAvQ.jpg" group-title="Undefined",PNN (360p) [Not 24/7]
 http://203.176.130.123:8989/live/pnn_480k.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="RedBullTV.at" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/7NeBmWX.jpg" group-title="Sports",Red Bull TV (1080p)
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 #EXTINF:-1 tvg-id="RTDocumentary.ru" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/XJGki3v.png" group-title="Documentary",RT Documentary (1080p)
 https://rt-rtd.gcdn.co/live/rtdoc/playlist.m3u8
-#EXTINF:-1 tvg-id="RTNews.ru" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/tyXIHlj.png" group-title="News",RT News (1080p) [Not 24/7]
-https://rt-glb.gcdn.co/live/rtnews/playlist.m3u8
-#EXTINF:-1 tvg-id="SEATV.kh" tvg-country="KH" tvg-language="Khmer" tvg-logo="" group-title="",SEA TV (360p) [Not 24/7]
+#EXTINF:-1 tvg-id="RTNews.ru" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/tyXIHlj.png" group-title="News",RT News (1080p) [Timeout]
+https://strm.yandex.ru/kal/rt_hd/rt_hd0.m3u8
+#EXTINF:-1 tvg-id="SEATV.kh" tvg-country="KH" tvg-language="Khmer" tvg-logo="https://www.lyngsat.com/logo/tv/ss/sea_tv_kh.png" group-title="Undefined",SEA TV (360p) [Not 24/7]
 http://203.176.130.123:8989/live/seatv_480k.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="TRTWorld.tr" tvg-country="INT" tvg-language="English" tvg-logo="https://i.ibb.co/phw4pjP/mjTjJ1N.png" group-title="News",TRT World (720p) [Not 24/7]
 https://tv-trtworld.live.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TV9.kh" tvg-country="KH" tvg-language="Khmer" tvg-logo="https://i.imgur.com/KGbDcg1.jpg" group-title="",TV9 (360p) [Not 24/7]
+#EXTINF:-1 tvg-id="TV9.kh" tvg-country="KH" tvg-language="Khmer" tvg-logo="https://i.imgur.com/KGbDcg1.jpg" group-title="Undefined",TV9 (360p) [Not 24/7]
 http://203.176.130.123:8989/live/ctv9_480k.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="TVK.kh" tvg-country="KH" tvg-language="Khmer" tvg-logo="" group-title="",TVK (360p) [Not 24/7]
+#EXTINF:-1 tvg-id="TVK.kh" tvg-country="KH" tvg-language="Khmer" tvg-logo="https://www.lyngsat.com/logo/tv/tt/tvk_kh.png" group-title="Undefined",TVK (360p) [Not 24/7]
 http://203.176.130.123:8989/live/tvk_480k.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="TVKCamboya.kh" tvg-country="KH" tvg-language="Khmer" tvg-logo="" group-title="",TVK Camboya (720p)
+#EXTINF:-1 tvg-id="TVKCamboya.kh" tvg-country="KH" tvg-language="Khmer" tvg-logo="" group-title="Undefined",TVK Camboya (720p)
 https://livefta.malimarcdn.com/tvkedge/tvk2.stream/master.m3u8
-#EXTINF:-1 tvg-id="WorldFashionChannel.ru" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/JyslMHb.jpg" group-title="Lifestyle",World Fashion Channel (1080p)
-https://wfcint.mediacdn.ru/cdn/wfcintweb/playlist.m3u8

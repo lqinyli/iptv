@@ -1,86 +1,73 @@
-#EXTM3U x-tvg-url=""
-#EXTINF:-1 tvg-id="AlJazeeraEnglish.qa" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/BB93NQP.png" group-title="News",Al Jazeera English (1080p)
-https://live-hls-web-aje.getaj.net/AJE/index.m3u8
-#EXTINF:-1 tvg-id="antennevorarlberg.at" tvg-country="AT" tvg-language="German" tvg-logo="https://i.imgur.com/cnMTcPw.png" group-title="Music",Antenne Vorarlberg (720p) [Not 24/7]
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ch/tv.blue.ch.epg.xml,https://iptv-org.github.io/epg/guides/de/hd-plus.de.epg.xml,https://iptv-org.github.io/epg/guides/dk/allente.se.epg.xml,https://iptv-org.github.io/epg/guides/fr/chaines-tv.orange.fr.epg.xml,https://iptv-org.github.io/epg/guides/gr/cosmote.gr.epg.xml,https://iptv-org.github.io/epg/guides/it/guidatv.sky.it.epg.xml,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml,https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml,https://iptv-org.github.io/epg/guides/uk/ontvtonight.com.epg.xml"
+#EXTINF:-1 tvg-id="" tvg-country="AT" tvg-language="" tvg-logo="" group-title="Undefined",Antenne Vorarlberg (720p) [Not 24/7]
 https://5857db5306b83.streamlock.net/antennevorarlberg-live/mp4:livestream/playlist.m3u8
+#EXTINF:-1 tvg-id="BBCNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/united-kingdom/bbc-news-uk.png" group-title="News",BBC News HD (720p) [Geo-blocked]
+https://cdnuk001.broadcastcdn.net/KUK-BBCNEWSHD/index.m3u8
 #EXTINF:-1 tvg-id="BBCWorldNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/Nx0BRdV.png" group-title="News",BBC World News (576p)
 http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
-#EXTINF:-1 tvg-id="BloombergTVEMEALiveEvent.us" tvg-country="EMEA" tvg-language="English" tvg-logo="http://cdn-profiles.tunein.com/s47135/images/logog.png" group-title="Business",Bloomberg TV EMEA Live Event (720p)
+#EXTINF:-1 tvg-id="BloombergTVEMEALiveEvent.us" tvg-country="EMEA" tvg-language="English" tvg-logo="https://rndcdn.dstv.com/dstvcms/2018/01/16/Bloomberg_new_4-3_light_background_001_xlrg.png" group-title="Business",Bloomberg TV EMEA Live Event (720p)
 https://www.bloomberg.com/media-manifest/streams/eu-event.m3u8
-#EXTINF:-1 tvg-id="BloombergTVEurope.us" tvg-country="EUR" tvg-language="English" tvg-logo="http://cdn-profiles.tunein.com/s47135/images/logog.png" group-title="Business",Bloomberg TV Europe (720p)
-https://liveprodeuwest.akamaized.net/eu1/Channel-EUTVqvs-AWS-ireland-1/Source-EUTVqvs-1000-1_live.m3u8
+#EXTINF:-1 tvg-id="BloombergTVEurope.us" tvg-country="EUR" tvg-language="English" tvg-logo="https://rndcdn.dstv.com/dstvcms/2018/01/16/Bloomberg_new_4-3_light_background_001_xlrg.png" group-title="Business",Bloomberg TV Europe UHD (2160p)
+https://bloomberg-bloombergtv-1-it.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="CNNInternationalEurope.us" tvg-country="EUR" tvg-language="English" tvg-logo="https://i.imgur.com/2BXCg0x.jpg" group-title="News",CNN International Europe (720p)
 https://cnn-cnninternational-1-eu.rakuten.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 tvg-id="DorfTV.at" tvg-country="AT" tvg-language="German" tvg-logo="https://i.imgur.com/SK9IQ1Z.png" group-title="",Dorf TV (576p)
+#EXTINF:-1 tvg-id="DorfTV.at" tvg-country="AT" tvg-language="German" tvg-logo="https://i.imgur.com/SK9IQ1Z.png" group-title="Undefined",Dorf TV (576p)
 https://stream.openplayout.org/hls/dorftv/live.m3u8
-#EXTINF:-1 tvg-id="DW.de" tvg-country="DE;AT;BE;LI;LU;CH" tvg-language="German" tvg-logo="" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148" group-title="News",DW (480p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+#EXTINF:-1 tvg-id="DW.de" tvg-country="AT;BE;CH;DE;LI;LU" tvg-language="German" tvg-logo="" group-title="News",DW (480p)
 http://ott-cdn.ucom.am/s26/index.m3u8
 #EXTINF:-1 tvg-id="DWEnglish.de" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/xnv0Pgm.jpg" group-title="News",DW English (1080p)
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
-#EXTINF:-1 tvg-id="eoTV.de" tvg-country="DE;AT;CH" tvg-language="German" tvg-logo="https://i.imgur.com/oitJsZU.png" group-title="",eo TV (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="eoTV.de" tvg-country="AT;CH;DE" tvg-language="German" tvg-logo="https://i.imgur.com/oitJsZU.png" group-title="Undefined",eo TV (1080p) [Geo-blocked]
 https://5856e1a25f71a.streamlock.net/easycast9-live/mp4:livestreamhd5/playlist.m3u8
-#EXTINF:-1 tvg-id="EuronewsEnglish.fr" tvg-country="INT" tvg-language="English" tvg-logo="https://i.postimg.cc/X7YYFZR2/euronews.png" group-title="News",Euronews English (720p)
-https://d1mpprlbe8tn2j.cloudfront.net/v1/master/7b67fbda7ab859400a821e9aa0deda20ab7ca3d2/euronewsLive/87O7AhxRUdeeIVqf/ewnsabren_eng.m3u8
 #EXTINF:-1 tvg-id="France24English.fr" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/France24.png" group-title="News",France 24 English (1080p)
 http://f24hls-i.akamaihd.net/hls/live/221147/F24_EN_HI_HLS/master.m3u8
-#EXTINF:-1 tvg-id="FS1Salzburg.at" tvg-country="AT" tvg-language="German" tvg-logo="https://i.imgur.com/HSRpYUl.jpg" group-title="",FS1 Salzburg (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="FS1Salzburg.at" tvg-country="AT" tvg-language="German" tvg-logo="https://i.imgur.com/HSRpYUl.jpg" group-title="Undefined",FS1 Salzburg (720p) [Not 24/7]
 http://stream.fs1.tv:8080/hls/webstream.m3u8
-#EXTINF:-1 tvg-id="HitradioO3.at" tvg-country="AT" tvg-language="German" tvg-logo="https://i.imgur.com/pb4Iqno.png" group-title="",Hitradio Ö3 (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="GoTV.at" tvg-country="AT" tvg-language="German" tvg-logo="https://ocdn.eu/ptv2-images-transforms/1/dhqkrZsb2dvLW1pZ3JhdGVkL2dvdHYucG5nkpUCZADCw5UCACjCww" group-title="Undefined",GoTV (576p) [Timeout]
+https://nstream17.gotv.at:1443/live/gotvlive/manifest.mpd
+#EXTINF:-1 tvg-id="HitradioO3.at" tvg-country="AT" tvg-language="German" tvg-logo="https://i.imgur.com/pb4Iqno.png" group-title="Undefined",Hitradio Ö3 (720p) [Not 24/7]
 https://studiocam-oe3.mdn.ors.at/out/u/studiocam_oe3/q6a/manifest_1.m3u8
-#EXTINF:-1 tvg-id="KTV.at" tvg-country="AT" tvg-language="German" tvg-logo="https://i.imgur.com/OyOPRtq.png" group-title="",K-TV (720p)
-https://d1pz8zear993v8.cloudfront.net/hlsme/kathtv.m3u8
-#EXTINF:-1 tvg-id="KroneTV.at" tvg-country="AT" tvg-language="German" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/kronetv.png" group-title="",Krone.TV (360p)
+#EXTINF:-1 tvg-id="KroneTV.at" tvg-country="AT" tvg-language="German" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/kronetv.png" group-title="Undefined",Krone.TV (360p)
 https://kronetv.mdn.ors.at/out/u/kronetv-nodrm.m3u8
 #EXTINF:-1 tvg-id="Kronehit.at" tvg-country="AT" tvg-language="German" tvg-logo="" group-title="Music",Kronehit (1080p)
 https://bitcdn-kronehit.bitmovin.com/v2/hls/playlist.m3u8
-#EXTINF:-1 tvg-id="M4.at" tvg-country="AT" tvg-language="German" tvg-logo="https://i.imgur.com/xmfgBrg.png" group-title="",M4 (1090p) [Not 24/7]
+#EXTINF:-1 tvg-id="M4.at" tvg-country="AT" tvg-language="German" tvg-logo="https://i.imgur.com/xmfgBrg.png" group-title="Undefined",M4 (1090p) [Not 24/7]
 https://5a32c05065c79.streamlock.net/live/stream/playlist.m3u8
 #EXTINF:-1 tvg-id="MavTVSelect.us" tvg-country="EUR" tvg-language="English" tvg-logo="https://i.imgur.com/KMGUuAX.png" group-title="Sports",MavTV Select (720p)
 https://mavtv-mavtvglobal-1-eu.rakuten.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 tvg-id="MetalTV.ru" tvg-country="INT" tvg-language="Catalan;Arabic;Pashto;English;Albanian;Armenian;Portuguese;Spanish;German;Dutch;Swedish;Azerbaijani;Bosnian;Bengali;French;Bulgarian;Malay;Dzongkha;Norwegian;Belarusian;Chinese;Greek;Czech;Danish;Estonian;Tigrinya;Amharic;Finnish;Faroese;Georgian;Greenlandic;Croatian;Hungarian;Indonesian;Irish;Hebrew;Hindi;Persian;Icelandic;Italian;Japanese;Kirghiz;Khmer;Korean;Kazakh;Lao;Sinhala;Lithuanian;Latvian;Romanian;Serbian;Macedonian;Burmese;Mongolian;Maltese;Dhivehi;Nepali;Polish;Russian;Kinyarwanda;Slovenian;Slovak;Somali;Thai;Tajik;Turkmen;Turkish;Swahili;Ukrainian;Uzbek;Vietnamese;Bislama;Samoan;Afrikaans" tvg-logo="" group-title="Music",Metal TV (720p) [Not 24/7]
-https://v2.catcast.tv/content/33816/index.m3u8
 #EXTINF:-1 tvg-id="NTVEurope.bd" tvg-country="EUR" tvg-language="Bengali;English" tvg-logo="https://europentv.ntvbd.com/sites/all/themes/sloth/logo.png" group-title="General",NTV Europe (720p) [Not 24/7]
 https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/ntvuk00332211.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="oe24TV.at" tvg-country="AT" tvg-language="German" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/oe24tv.png" group-title="",oe24 TV (1080p)
+#EXTINF:-1 tvg-id="" tvg-country="AT" tvg-language="" tvg-logo="" group-title="Undefined",oe24 TV (1080p)
 https://varoe24live.sf.apa.at/oe24-live1/oe24.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ORF1.at" tvg-country="AT" tvg-language="German" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/ORF1_logo.svg/1280px-ORF1_logo.svg.png" group-title="General",ORF 1 (720p) [Geo-blocked]
 https://orf1.mdn.ors.at/out/u/orf1/qxb/manifest.m3u8
-#EXTINF:-1 tvg-id="ORF2.at" tvg-country="AT" tvg-language="German" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/ORF2_logo_n.svg/1280px-ORF2_logo_n.svg.png" group-title="",ORF 2 (540p) [Geo-blocked]
-https://orf2.mdn.ors.at/out/u/orf2/qxb/manifest.m3u8
-#EXTINF:-1 tvg-id="ORF3.at" tvg-country="AT" tvg-language="German" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/40/ORF_III_Logo.png" group-title="",ORF 3 (720p) [Geo-blocked]
+#EXTINF:-1 tvg-id="ORF3.at" tvg-country="AT" tvg-language="German" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/40/ORF_III_Logo.png" group-title="Undefined",ORF 3 (720p) [Geo-blocked]
 https://orf3.mdn.ors.at/out/u/orf3/qxb/manifest.m3u8
 #EXTINF:-1 tvg-id="ORFSportPlus.at" tvg-country="AT" tvg-language="German" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/ORF_Sport%2B.svg/1200px-ORF_Sport%2B.svg.png" group-title="Sports",ORF Sport+ (540p) [Geo-blocked]
 https://orfs.mdn.ors.at/out/u/orfs/qxb/manifest.m3u8
-#EXTINF:-1 tvg-id="P3tv.at" tvg-country="AT" tvg-language="German" tvg-logo="https://i.imgur.com/C6Hp5Pb.jpg" group-title="",P3tv (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="P3tv.at" tvg-country="AT" tvg-language="German" tvg-logo="https://i.imgur.com/C6Hp5Pb.jpg" group-title="Undefined",P3tv (720p) [Not 24/7]
 http://p3-6.mov.at:1935/live/weekstream/master.m3u8
-#EXTINF:-1 tvg-id="PremiumChannel.at" tvg-country="AT" tvg-language="German" tvg-logo="https://i.imgur.com/XLeth50.jpg" group-title="",Premium Channel [Not 24/7]
-http://premium-channel.tv:88/live/kali.m3u8
-#EXTINF:-1 tvg-id="R9.at" tvg-country="AT" tvg-language="German" tvg-logo="https://i.imgur.com/Wu6SMvb.png" group-title="",R9 (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="R9.at" tvg-country="AT" tvg-language="German" tvg-logo="https://i.imgur.com/Wu6SMvb.png" group-title="Undefined",R9 (720p) [Not 24/7]
 https://ms01.w24.at/R9/smil:liveeventR9.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RedBullTV.at" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/7NeBmWX.jpg" group-title="Sports",Red Bull TV (1080p)
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 #EXTINF:-1 tvg-id="RTDocumentary.ru" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/XJGki3v.png" group-title="Documentary",RT Documentary (1080p)
 https://rt-rtd.gcdn.co/live/rtdoc/playlist.m3u8
-#EXTINF:-1 tvg-id="RTNews.ru" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/tyXIHlj.png" group-title="News",RT News (1080p) [Not 24/7]
-https://rt-glb.gcdn.co/live/rtnews/playlist.m3u8
-#EXTINF:-1 tvg-id="RTV.at" tvg-country="AT" tvg-language="German" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/rtvat.png" group-title="",RTV (1080p)
+#EXTINF:-1 tvg-id="RTNews.ru" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/tyXIHlj.png" group-title="News",RT News (1080p) [Timeout]
+https://strm.yandex.ru/kal/rt_hd/rt_hd0.m3u8
+#EXTINF:-1 tvg-id="RTV.at" tvg-country="AT" tvg-language="German" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/rtvat.png" group-title="Undefined",RTV (1080p)
 http://iptv.rtv-ooe.at/stream.m3u8
-#EXTINF:-1 tvg-id="SchauTV.at" tvg-country="AT" tvg-language="German" tvg-logo="https://image.schautv.at/images/cfs_616w/3123676/schautv_homepagebanner_twitter.png" group-title="",SchauTV (720p)
+#EXTINF:-1 tvg-id="SchauTV.at" tvg-country="AT" tvg-language="German" tvg-logo="https://image.schautv.at/images/cfs_616w/3123676/schautv_homepagebanner_twitter.png" group-title="Undefined",SchauTV (720p)
 https://schautv.mdn.ors.at/out/u/schautv-nodrm.m3u8
 #EXTINF:-1 tvg-id="SwamijiTV.at" tvg-country="AT" tvg-language="English" tvg-logo="https://i.imgur.com/ygkBFYT.jpg" group-title="Outdoor",Swamiji TV (720p) [Not 24/7]
 https://stream.swamiji.tv/YogaIPTV/smil:YogaStream.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TeinsTV.at" tvg-country="AT" tvg-language="German" tvg-logo="https://i.imgur.com/KJie1k5.png" group-title="",Teins TV (1080p) [Not 24/7]
+#EXTINF:-1 tvg-id="TeinsTV.at" tvg-country="AT" tvg-language="German" tvg-logo="https://i.imgur.com/KJie1k5.png" group-title="Undefined",Teins TV (1080p) [Not 24/7]
 https://live1.markenfunk.com/t1/live/playlist.m3u8
-#EXTINF:-1 tvg-id="TirolTV.at" tvg-country="AT" tvg-language="German" tvg-logo="https://i.imgur.com/0jHWmjL.png" group-title="",Tirol TV (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="TirolTV.at" tvg-country="AT" tvg-language="German" tvg-logo="https://i.imgur.com/0jHWmjL.png" group-title="Undefined",Tirol TV (720p) [Not 24/7]
 https://streaming14.huberwebmedia.at/LiveApp/streams/livestream.m3u8
 #EXTINF:-1 tvg-id="TRTWorld.tr" tvg-country="INT" tvg-language="English" tvg-logo="https://i.ibb.co/phw4pjP/mjTjJ1N.png" group-title="News",TRT World (720p) [Not 24/7]
 https://tv-trtworld.live.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="UpperaBalkan.at" tvg-country="AT" tvg-language="German" tvg-logo="https://i.imgur.com/4fAkcCd.jpg" group-title="",Uppera Balkan (720p) [Geo-blocked]
+#EXTINF:-1 tvg-id="UpperaBalkan.at" tvg-country="AT" tvg-language="German" tvg-logo="https://i.imgur.com/4fAkcCd.jpg" group-title="Undefined",Uppera Balkan (720p) [Geo-blocked]
 http://89.187.168.245:8080/live/sUPPERchannel2/index.m3u8
-#EXTINF:-1 tvg-id="UPPERACommunityTV.at" tvg-country="AT" tvg-language="German" tvg-logo="https://i.imgur.com/4fAkcCd.jpg" group-title="",UPPERA Community TV [Geo-blocked]
-http://89.187.168.245:8080/live/sUPPERchannel/index.m3u8
-#EXTINF:-1 tvg-id="W24.at" tvg-country="AT" tvg-language="German" tvg-logo="https://i.imgur.com/J25y9ah.png" group-title="",W24 (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="W24.at" tvg-country="AT" tvg-language="German" tvg-logo="https://i.imgur.com/J25y9ah.png" group-title="Undefined",W24 (720p) [Not 24/7]
 https://ms01.w24.at/W24/smil:liveevent.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="WorldFashionChannel.ru" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/JyslMHb.jpg" group-title="Lifestyle",World Fashion Channel (1080p)
-https://wfcint.mediacdn.ru/cdn/wfcintweb/playlist.m3u8
