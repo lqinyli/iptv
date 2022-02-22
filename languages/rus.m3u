@@ -19,8 +19,9 @@ https://okkotv-live.cdnvideo.ru/channel/Sony_Turbo.m3u8
 https://okkotv-live.cdnvideo.ru/channel/Sony_ET.m3u8
 #EXTINF:-1 tvg-id="SciFiRussia.us" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/5ezLSwB.png" group-title="Science",.sci-fi Russia (480p) [Geo-blocked]
 https://okkotv-live.cdnvideo.ru/channel/Sony_SciFi.m3u8
-#EXTINF:-1 tvg-id="A1.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/lXlwfyw.png" group-title="Series",A1 (720p) [Geo-blocked]
-https://okkotv-live.cdnvideo.ru/channel/A1_HD.m3u8
+#EXTINF:-1 tvg-id="A1.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/lXlwfyw.png" group-title="Series" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",A1 (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s45/index.m3u8
 #EXTINF:-1 tvg-id="A2.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/GwQgT6X.png" group-title="Series",A2 (1080p) [Geo-blocked]
 https://okkotv-live.cdnvideo.ru/channel/A2_HD.m3u8
 #EXTINF:-1 tvg-id="AmediaHit.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://avatars.mds.yandex.net/get-tv-channel-logos/69315/2a0000016653697bea0c072bf5c5bc1c11ec/260x160" group-title="Movies",Amedia Hit (1080p) [Geo-blocked]
@@ -84,6 +85,8 @@ https://node19.connect.az:8086/ch1/ch1.hi.m3u8
 http://yayin.netradyom.com:1935/live/interaz/playlist.m3u8
 #EXTINF:-1 tvg-id="JimJamRossiya.uk" tvg-country="RU" tvg-language="Russian" tvg-logo="https://avatars.mds.yandex.net/get-tv-channel-logos/70787/2a0000016a8c5ad959476a67bab7ba71792c/160x120" group-title="Kids",JimJam Россия (576p) [Not 24/7]
 http://188.40.68.167/russia/jimjam/playlist.m3u8
+#EXTINF:-1 tvg-id="Leomax24.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/qU9ohQu.png" group-title="Shop",Leomax 24 (1080p)
+https://tvshops.bonus-tv.ru/cdn/shop24/playlist.m3u8
 #EXTINF:-1 tvg-id="LeomaxPlus.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/yC863EY.png" group-title="Shop",Leomax Plus (576p)
 https://tvshops.bonus-tv.ru/cdn/discount/playlist.m3u8
 #EXTINF:-1 tvg-id="Luxury.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://iptvx.one/icn/luxury.png" group-title="Shop",Luxury (1080p)
@@ -199,6 +202,8 @@ http://xstream.afontovo.ru/afontovo_ya.m3u8
 http://onlinetv.ktrk.kg:1935/live/myStream6/playlist.m3u8
 #EXTINF:-1 tvg-id="Bashkortostan24.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/V35c8pb.png" group-title="Undefined",Башкортостан 24 (1080p) [Geo-blocked]
 https://strm.yandex.ru/kal/bashkortostan24/bashkortostan240.m3u8
+#EXTINF:-1 tvg-id="Belarus3.by" tvg-country="BY" tvg-language="Russian" tvg-logo="https://upload.wikimedia.org/wikipedia/ru/6/69/Belarus_3.jpg" group-title="News",Беларусь 3 (1080p) [Not 24/7]
+https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus3.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Belarus4.by" tvg-country="BY" tvg-language="Russian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/59/Belarus_4.png" group-title="General",Беларусь 4 (576p) [Timeout]
 http://95.46.208.8:26258/belarus4
 #EXTINF:-1 tvg-id="Belgorod24.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/1bpNLQo.png" group-title="Undefined",Белгород 24 (1080p)

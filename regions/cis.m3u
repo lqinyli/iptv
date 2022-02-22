@@ -33,8 +33,9 @@ https://okkotv-live.cdnvideo.ru/channel/Sony_Turbo.m3u8
 https://okkotv-live.cdnvideo.ru/channel/Sony_ET.m3u8
 #EXTINF:-1 tvg-id="SciFiRussia.us" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/5ezLSwB.png" group-title="Science",.sci-fi Russia (480p) [Geo-blocked]
 https://okkotv-live.cdnvideo.ru/channel/Sony_SciFi.m3u8
-#EXTINF:-1 tvg-id="A1.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/lXlwfyw.png" group-title="Series",A1 (720p) [Geo-blocked]
-https://okkotv-live.cdnvideo.ru/channel/A1_HD.m3u8
+#EXTINF:-1 tvg-id="A1.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/lXlwfyw.png" group-title="Series" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",A1 (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s45/index.m3u8
 #EXTINF:-1 tvg-id="A2.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/GwQgT6X.png" group-title="Series",A2 (1080p) [Geo-blocked]
 https://okkotv-live.cdnvideo.ru/channel/A2_HD.m3u8
 #EXTINF:-1 tvg-id="AcasaTV.md" tvg-country="MD" tvg-language="Romanian" tvg-logo="https://i.imgur.com/k1bTMPT.png" group-title="Undefined",Acasa TV (576p)
@@ -186,6 +187,8 @@ http://yayin.netradyom.com:1935/live/interaz/playlist.m3u8
 http://188.40.68.167/russia/jimjam/playlist.m3u8
 #EXTINF:-1 tvg-id="KepezTV.az" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://upload.wikimedia.org/wikipedia/az/thumb/3/3e/K%C9%99p%C9%99z_TV_%282019-h.h.%29.png/504px-K%C9%99p%C9%99z_TV_%282019-h.h.%29.png" group-title="General",Kəpəz TV (540p) [Not 24/7]
 http://streams.livetv.az/arbkepez/live/playlist.m3u8
+#EXTINF:-1 tvg-id="Leomax24.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/qU9ohQu.png" group-title="Shop",Leomax 24 (1080p)
+https://tvshops.bonus-tv.ru/cdn/shop24/playlist.m3u8
 #EXTINF:-1 tvg-id="LeomaxPlus.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/yC863EY.png" group-title="Shop",Leomax Plus (576p)
 https://tvshops.bonus-tv.ru/cdn/discount/playlist.m3u8
 #EXTINF:-1 tvg-id="Luxury.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://iptvx.one/icn/luxury.png" group-title="Shop",Luxury (1080p)
@@ -331,6 +334,8 @@ http://xstream.afontovo.ru/afontovo_ya.m3u8
 http://onlinetv.ktrk.kg:1935/live/myStream6/playlist.m3u8
 #EXTINF:-1 tvg-id="Bashkortostan24.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/V35c8pb.png" group-title="Undefined",Башкортостан 24 (1080p) [Geo-blocked]
 https://strm.yandex.ru/kal/bashkortostan24/bashkortostan240.m3u8
+#EXTINF:-1 tvg-id="Belarus3.by" tvg-country="BY" tvg-language="Russian" tvg-logo="https://upload.wikimedia.org/wikipedia/ru/6/69/Belarus_3.jpg" group-title="News",Беларусь 3 (1080p) [Not 24/7]
+https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus3.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Belarus4.by" tvg-country="BY" tvg-language="Russian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/59/Belarus_4.png" group-title="General",Беларусь 4 (576p) [Timeout]
 http://95.46.208.8:26258/belarus4
 #EXTINF:-1 tvg-id="Belarus24.by" tvg-country="BY" tvg-language="Belarusian" tvg-logo="https://resizer.mail.ru/p/c3c06eec-6613-5514-91ec-b20923cdbd84/AQACWrxNebO0hItmKwDaej2ry4kAMudX6qjoQkOx_7QLCDly1v7ftHI7GZuK0lSB_-8lsAmRc_DBFCjDbWWlP2tYTUE.png" group-title="Undefined",Беларусь 24 (1080p)
@@ -445,8 +450,6 @@ http://188.40.68.167/russia/disney/playlist.m3u8
 http://91.185.3.218:4000/play/604
 #EXTINF:-1 tvg-id="" tvg-country="RU" tvg-language="" tvg-logo="" group-title="Undefined",Кинозал (VHS 90s) (720p) [Not 24/7]
 https://v2.catcast.tv/content/37925/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="RU" tvg-language="" tvg-logo="" group-title="Undefined",Кинокомедия (360p) [Not 24/7]
-https://sc.id-tv.kz/Kinokomediya_hd.m3u8
 #EXTINF:-1 tvg-id="Kinomiks.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://cdn.red-media.ru/wp-content/uploads/2019/12/kinomiks(1).png" group-title="Movies",Киномикс (1080p) [Not 24/7]
 https://sc.id-tv.kz/Kinomix_hd.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="RU" tvg-language="" tvg-logo="" group-title="Undefined",Кинопремьера (1080p) [Not 24/7]

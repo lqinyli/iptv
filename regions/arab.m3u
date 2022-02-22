@@ -57,8 +57,6 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/algha
 http://media.islamexplained.com:1935/live/_definst_mp4:ahme.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="SA" tvg-language="" tvg-logo="" group-title="Undefined",AL HOKAIR Group TV (576p)
 http://82.212.74.3:8000/live/7513.m3u8
-#EXTINF:-1 tvg-id="AlHurra.iq" tvg-country="IQ" tvg-language="Arabic" tvg-logo="https://i.imgur.com/8EmVL2d.jpg" group-title="News",Al Hurra (486p) [Not 24/7]
-https://mbnhls-lh.akamaihd.net/i/MBN_1@118619/master.m3u8
 #EXTINF:-1 tvg-id="AlIraqiyaAl3ama.iq" tvg-country="IQ" tvg-language="Arabic" tvg-logo="https://imn.iq/wp-content/uploads/2018/03/Logo.jpg" group-title="General",Al Iraqiya Al 3ama (720p) [Not 24/7]
 https://cdn.catiacast.video/abr/8d2ffb0aba244e8d9101a9488a7daa05/playlist.m3u8
 #EXTINF:-1 tvg-id="AlIraqiyaNews.iq" tvg-country="IQ" tvg-language="Arabic" tvg-logo="https://imn.iq/wp-content/uploads/2018/03/Logo.jpg" group-title="News",Al Iraqiya News (720p) [Not 24/7]
@@ -76,8 +74,9 @@ http://ott-cdn.ucom.am/s69/index.m3u8
 https://live-hls-web-aja.getaj.net/AJA/index.m3u8
 #EXTINF:-1 tvg-id="AlJazeeraBalkans.qa" tvg-country="QA" tvg-language="Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/9f/Al_Jazeera_Balkans.png" group-title="News",Al Jazeera Balkans (1080p)
 https://live-hls-web-ajb.getaj.net/AJB/index.m3u8
-#EXTINF:-1 tvg-id="AlJazeeraDocumentary.qa" tvg-country="QA" tvg-language="Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e6/Al_Jazeera_Doc.png" group-title="News",Al Jazeera Documentary (270p) [Geo-blocked]
-https://live-hls-web-ajd.getaj.net/AJD/index.m3u8
+#EXTINF:-1 tvg-id="AlJazeeraDocumentary.qa" tvg-country="QA" tvg-language="Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e6/Al_Jazeera_Doc.png" group-title="News",Al Jazeera Documentary (576p) [Not 24/7]
+#EXTVLCOPT:http-referrer=http://azrotv.com/
+http://teledunet.com:8080/live/azrotv/azrotv2021/10040.m3u8
 #EXTINF:-1 tvg-id="AlJazeeraEnglish.qa" tvg-country="QA" tvg-language="English" tvg-logo="https://rndcdn.dstv.com/dstvcms/2016/06/14/DStvNowApp_AlJazeera_new4-4logo_001_xlrg.png" group-title="News",Al Jazeera English (1080p)
 https://live-hls-web-aje.getaj.net/AJE/index.m3u8
 #EXTINF:-1 tvg-id="AlJazeeraMubasher.qa" tvg-country="QA" tvg-language="Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/90/Al_Jazeera_Mubasher_logo.png" group-title="News",Al Jazeera Mubasher (1080p)
@@ -120,6 +119,8 @@ https://svs.itworkscdn.net/alrayyanlive/alrayyan.smil/playlist.m3u8
 https://svs.itworkscdn.net/alrayyanqadeemlive/alrayyanqadeem.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlSabah.kw" tvg-country="KW" tvg-language="Arabic" tvg-logo="https://i.imgur.com/kKPppEz.png" group-title="News",Al Sabah (360p) [Not 24/7]
 https://gulfsat.cdn.easybroadcast.fr/live/Al-Sabah_abr/playlist.m3u8
+#EXTINF:-1 tvg-id="AlSharqiya.iq" tvg-country="IQ" tvg-language="Arabic" tvg-logo="" group-title="General",Al Sharqiya (1080p) [Not 24/7]
+http://ns8.indexforce.com:1935/home/mystream/playlist.m3u8
 #EXTINF:-1 tvg-id="AlSharqiyaMinKabla.ae" tvg-country="AE" tvg-language="Arabic" tvg-logo="https://i.imgur.com/6Er1lh6.png" group-title="General",Al Sharqiya Min Kabla (1080p)
 https://svs.itworkscdn.net/kablatvlive/kabtv1.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlSharqiyaNews.iq" tvg-country="IQ" tvg-language="Arabic" tvg-logo="https://i.imgur.com/qNi4rwG.jpg" group-title="News",Al Sharqiya News (1080p)
@@ -142,6 +143,8 @@ https://shls-rotana-alresalah-prod-dub.shahid.net/out/v1/936b89606b5e48db8ca28ca
 https://gulfsat.cdn.easybroadcast.fr/abr_live/Al-Shahed/playlist.m3u8
 #EXTINF:-1 tvg-id="AlarabyTV.uk" tvg-country="ARAB;MAGHREB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/LNI1HNi.png" group-title="News",Alaraby TV (1080p)
 https://alaraby.cdn.octivid.com/alaraby/smil:alaraby.stream.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="AlerthAlnabawi.ye" tvg-country="YE" tvg-language="Arabic" tvg-logo="https://www.lyngsat.com/logo/tv/aa/alerth-alnabawi-channel-jo.png" group-title="Religious",Alerth Alnabawi (576p) [Not 24/7]
+http://82.212.74.2:8000/live/7307.m3u8
 #EXTINF:-1 tvg-id="AlgerieTV3.dz" tvg-country="DZ" tvg-language="Arabic" tvg-logo="https://i.imgur.com/J6VmBuw.png" group-title="Undefined",Algérie TV3 [Geo-blocked]
 https://cdn02.hta.dz/abr_htatv/A3_HD/playlist.m3u8
 #EXTINF:-1 tvg-id="AlgerieTV4.dz" tvg-country="DZ" tvg-language="Arabic" tvg-logo="https://i.imgur.com/n8httHt.png" group-title="Undefined",Algérie TV4 [Geo-blocked]
@@ -309,6 +312,10 @@ http://two.alfajertv.com:8081/AlfajertvHDTwo_web/web/playlist.m3u8
 https://static.france24.com/live/F24_AR_HI_HLS/live_tv.m3u8
 #EXTINF:-1 tvg-id="Funoon.kw" tvg-country="KW" tvg-language="Arabic" tvg-logo="" group-title="Entertainment",Funoon (360p)
 https://gulfsat.cdn.easybroadcast.fr/live/FunoonHd_abr/playlist.m3u8
+#EXTINF:-1 tvg-id="FutureTV.lb" tvg-country="LB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/OaqEpwe.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",Future TV (576p) [Not 24/7]
+#EXTVLCOPT:http-referrer=http://azrotv.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+http://teledunet.com:8080/live/azrotv/azrotv2021/10007.m3u8
 #EXTINF:-1 tvg-id="HalabTodayTV.sy" tvg-country="SY" tvg-language="Arabic" tvg-logo="https://halabtodaytv.net/wp-content/uploads/2020/12/%D8%AD%D9%84%D8%A8-%D8%A7%D9%84%D9%8A%D9%88%D9%85-170-01.png" group-title="News",Halab Today TV (480p) [Not 24/7]
 http://streaming.tootvs.com:1935/8010/8010/playlist.m3u8
 #EXTINF:-1 tvg-id="HawasTV.ae" tvg-country="AE" tvg-language="Arabic" tvg-logo="https://i.imgur.com/rVYdkth.jpg" group-title="General",Hawas TV (480p)
@@ -343,6 +350,8 @@ http://streaming.toutech.net:1935/live/mp4:jawharafm.sdp/playlist.m3u8
 https://streaming.toutech.net/live/jtv/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="JO" tvg-language="" tvg-logo="" group-title="Undefined",Jordan TV (1080p)
 https://jrtv-live.ercdn.net/jordanhd/jordanhd.m3u8
+#EXTINF:-1 tvg-id="KaifTV.sa" tvg-country="SA" tvg-language="Arabic" tvg-logo="https://i.imgur.com/q2qHUKF.png" group-title="Religious",Kaif TV (576p) [Not 24/7]
+http://82.212.74.2:8000/live/hls/7311.m3u8
 #EXTINF:-1 tvg-id="KalsanTV.so" tvg-country="SO" tvg-language="Somali" tvg-logo="https://www.saabtv.com/wp-content/uploads/2018/02/SaabTV_191x180transparent.png" group-title="Undefined",Kalsan TV (360p)
 https://ap02.iqplay.tv:8082/iqb8002/s03btv/chunks.m3u8
 #EXTINF:-1 tvg-id="KirkukTV.iq" tvg-country="IQ" tvg-language="Arabic" tvg-logo="https://www.lyngsat.com/logo/tv/kk/kirkuk-tv-iq.png" group-title="Undefined",Kirkuk TV (576p) [Not 24/7]
@@ -463,6 +472,8 @@ http://31.14.40.237:1935/live/Nabaa/playlist.m3u8
 http://htvmada.mada.ps:8888/nabluslive/index.m3u8
 #EXTINF:-1 tvg-id="NBN.lb" tvg-country="LB" tvg-language="Arabic" tvg-logo="https://www.lyngsat.com/logo/tv/nn/nbn_lb.png" group-title="Undefined",NBN (720p) [Not 24/7]
 https://nbntv.me:8443/nbntv/index.m3u8
+#EXTINF:-1 tvg-id="NetTV.iq" tvg-country="IQ" tvg-language="Kurdish" tvg-logo="https://i.imgur.com/CKY1SD8.png" group-title="Undefined",Net TV (480p) [Not 24/7]
+https://live.karwan.tv/karwan.tv/net-tv/playlist.m3u8
 #EXTINF:-1 tvg-id="NileTVCinema.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="https://i.imgur.com/XAYcgQb.png" group-title="Movies" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",Nile TV Cinema (576p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
 http://livestreaming5.onlinehorizons.net/hls-live/NTNNileCinema/_definst_/liveevent/livestream.m3u8
@@ -501,6 +512,10 @@ http://media6.smc-host.com:1935/omgchannel.net/omgtv/playlist.m3u8
 http://media6.smc-host.com:1935/omgchannel.net/omgseries/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="LB" tvg-language="" tvg-logo="" group-title="Undefined",OTV (720p) [Not 24/7]
 http://62.182.82.104/OTV/index.m3u8?token=test
+#EXTINF:-1 tvg-id="" tvg-country="LB" tvg-language="" tvg-logo="" group-title="Undefined" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",OTV (720p) [Not 24/7]
+#EXTVLCOPT:http-referrer=http://azrotv.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+http://teledunet.com:8080/live/azrotv/azrotv2021/10015.m3u8
 #EXTINF:-1 tvg-id="PalestineMubasher.ps" tvg-country="PS" tvg-language="Arabic" tvg-logo="https://i.imgur.com/bYz6HUG.png" group-title="General",Palestine Mubasher (404p)
 http://htvpalsat.mada.ps:8888/PBCLive/index.m3u8
 #EXTINF:-1 tvg-id="PalestineSatelliteChannel.ps" tvg-country="PS" tvg-language="Arabic" tvg-logo="https://i.imgur.com/KcSgZg0.jpg" group-title="General",Palestine Satellite Channel (404p)
