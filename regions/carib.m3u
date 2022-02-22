@@ -27,6 +27,8 @@ http://50.30.37.36:1935/live/smil:MyStream.smil/playlist.m3u8
 https://584097344c1f0.streamlock.net/48/smil:48.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="CubaVision.cu" tvg-country="CU" tvg-language="Spanish" tvg-logo="https://www.tvcubana.icrt.cu/images/logos-canales/logo-mascara/cubavision.jpg" group-title="Undefined",CubaVision [Timeout]
 http://177.52.221.214:8000/play/a0dc/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-country="CU" tvg-language="" tvg-logo="" group-title="Undefined",CubaVision Internacional (480p) [Not 24/7]
+http://190.122.96.187:8888/http/010
 #EXTINF:-1 tvg-id="" tvg-country="CU" tvg-language="" tvg-logo="" group-title="Undefined",CubaVision Internacional [Timeout]
 http://177.52.221.214:8000/play/a0dy/index.m3u8
 #EXTINF:-1 tvg-id="DANTV.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="" group-title="Undefined",DAN TV (720p) [Not 24/7]
@@ -71,7 +73,8 @@ http://190.103.183.24:1935/live/MicroHD/playlist.m3u8
 https://5790d294af2dc.streamlock.net/8286/8286/playlist.m3u8
 #EXTINF:-1 tvg-id="NETALKOLETV.ht" tvg-country="HT" tvg-language="French" tvg-logo="https://i.imgur.com/OJbRkQ6.jpg" group-title="Undefined",NETALKOLE TV (720p) [Not 24/7]
 https://watch.haitilive.net/stream/netalkole/public/tv/index.m3u8
-#EXTINF:-1 tvg-id="NosIslaTV.aw" tvg-country="AW" tvg-language="Dutch;Papiamento" tvg-logo="https://i.imgur.com/Gf95oov.png" group-title="General",Nos Isla TV (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="NosIslaTV.aw" tvg-country="AW" tvg-language="Dutch;Papiamento" tvg-logo="https://i.imgur.com/Gf95oov.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36",Nos Isla TV (720p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
 https://backend-server-dot-telearuba-app.appspot.com/media/livestream23/playlist.m3u8
 #EXTINF:-1 tvg-id="NotiUnoPuertoRico.pr" tvg-country="PR" tvg-language="Spanish" tvg-logo="" group-title="Undefined",Noti Uno Puerto Rico (854p) [Not 24/7]
 https://59514edd5dd8e.streamlock.net/unoradio/unoradio1/playlist.m3u8
@@ -101,8 +104,12 @@ http://190.103.183.24:1935/ReadyTV/ReadyHD/playlist.m3u8
 https://ss2.domint.net:3202/rnn_str/canal27/playlist.m3u8
 #EXTINF:-1 tvg-id="RomanaTVCanal42.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/rv3jShy.jpg" group-title="Undefined",Romana TV Canal 42 (410p) [Geo-blocked]
 http://tv.romanatv42.com/hls/live.m3u8
+#EXTINF:-1 tvg-id="SanIsidroTV.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://sanisidrotv.com/wp-content/uploads/2020/10/logo-san-isidro-tv-png-1-300x221.png" group-title="Undefined",San Isidro TV (360p) [Not 24/7]
+https://cdn4.hostlagarto.com:8081/static/sanisidrotv/playlist.m3u8
 #EXTINF:-1 tvg-id="SiTV.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/P7dhngY.jpg" group-title="Undefined",SiTV (720p)
 http://190.122.104.221/Player/sitv.m3u8
+#EXTINF:-1 tvg-id="SportsMax.jm" tvg-country="JM" tvg-language="English" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/49559/s49559_h3_aa.png" group-title="Undefined",SportsMax (720p) [Timeout]
+http://cdn.tvmatic.net/sport.m3u8
 #EXTINF:-1 tvg-id="SuperCanal33.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="" group-title="Undefined",Super Canal 33 (480p)
 http://190.122.96.186:8888/http/005
 #EXTINF:-1 tvg-id="" tvg-country="DO" tvg-language="" tvg-logo="" group-title="Undefined",Super TV 55 (Santiago) (720p) [Not 24/7]
@@ -137,8 +144,6 @@ http://cm.hostlagarto.com:8081/Telemilenio/Telemilenio.myStream/playlist.m3u8
 https://wkaqlive-lh.akamaihd.net/i/PR_STREAM1@311877/master.m3u8
 #EXTINF:-1 tvg-id="Telenord8.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://1.bp.blogspot.com/-H6WpFuwnBw8/Xb8tpN3x27I/AAAAAAAAowE/i8xCRlptBkEGIn9nxcfdajE2ieOQ07GGQCLcBGAsYHQ/s200/Telenord.jpg" group-title="Undefined",Telenord 8 (1080p) [Not 24/7]
 http://newyorkstream.ddns.net:1935/telenord8/telenord8/playlist.m3u8
-#EXTINF:-1 tvg-id="Telenord12.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/iE1xhA5.png" group-title="Undefined",Telenord 12 (720p) [Not 24/7]
-http://newyorkstream.ddns.net:1935/telenord12/telenord12/playlist.m3u8
 #EXTINF:-1 tvg-id="TelenordCanal10.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="" group-title="Undefined",Telenord Canal 10 (1080p) [Not 24/7]
 http://newyorkstream.ddns.net:1935/telenord10/telenord10/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="DO" tvg-language="" tvg-logo="" group-title="Undefined",Telesistema 11 [Timeout]
@@ -151,6 +156,8 @@ http://server3.prostudionetwork.com:1945/teleunion/TU/playlist.m3u8
 http://daruttarbiyah.srfms.com:1935/daruttarbiyah/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="TheParliamentaryChannel.bs" tvg-country="BS" tvg-language="English" tvg-logo="https://i.imgur.com/35oFiNg.jpg" group-title="Legislative",The Parliamentary Channel (720p) [Not 24/7]
 https://cloud.streamcomedia.com/parliamentarychannel/smil:parliamentarychannel_streams.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TMA.gp" tvg-country="GP" tvg-language="French" tvg-logo="https://i.imgur.com/fQUzBsz.png" group-title="Music",TMA (1080p) [Timeout]
+http://hls.tmacaraibes.com/live/index.m3u8
 #EXTINF:-1 tvg-id="TVDirect13.cw" tvg-country="CW" tvg-language="Dutch" tvg-logo="" group-title="Undefined",TV Direct 13 (720p) [Not 24/7]
 https://edge1.tvdirect13.com/live/smil:mystream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="DO" tvg-language="" tvg-logo="" group-title="Undefined",TV Éxitos (720p) [Not 24/7]
