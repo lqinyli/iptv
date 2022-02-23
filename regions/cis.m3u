@@ -35,8 +35,9 @@ https://okkotv-live.cdnvideo.ru/channel/Sony_ET.m3u8
 https://okkotv-live.cdnvideo.ru/channel/Sony_SciFi.m3u8
 #EXTINF:-1 tvg-id="A1.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/lXlwfyw.png" group-title="Series",A1 (720p) [Geo-blocked]
 https://okkotv-live.cdnvideo.ru/channel/A1_HD.m3u8
-#EXTINF:-1 tvg-id="A2.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/GwQgT6X.png" group-title="Series",A2 (1080p) [Geo-blocked]
-https://okkotv-live.cdnvideo.ru/channel/A2_HD.m3u8
+#EXTINF:-1 tvg-id="A2.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/GwQgT6X.png" group-title="Series" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",A2 (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s33/index.m3u8
 #EXTINF:-1 tvg-id="AcasaTV.md" tvg-country="MD" tvg-language="Romanian" tvg-logo="https://i.imgur.com/k1bTMPT.png" group-title="Undefined",Acasa TV (576p)
 http://hls.protv.md/acasatv/acasatv.m3u8
 #EXTINF:-1 tvg-id="AlvinChannelTV.az" tvg-country="AZ" tvg-language="Azerbaijani" tvg-logo="https://i.imgur.com/fIdmD1d.png" group-title="General",Alvin Channel TV (360p) [Not 24/7]
@@ -114,8 +115,6 @@ http://stream.backustv.ru/live/btv/index.m3u8
 http://stream.backustv.ru/live/btv2/index.m3u8
 #EXTINF:-1 tvg-id="BaltiTV.md" tvg-country="MD" tvg-language="Russian" tvg-logo="https://btv.md/wp-content/uploads/2018/11/BTV.png" group-title="Undefined",Bălţi TV (1080p) [Geo-blocked]
 http://77.89.199.174:8000/play/1024/index.m3u8
-#EXTINF:-1 tvg-id="Belarus24.by" tvg-country="BY" tvg-language="Belarusian" tvg-logo="https://resizer.mail.ru/p/c3c06eec-6613-5514-91ec-b20923cdbd84/AQACWrxNebO0hItmKwDaej2ry4kAMudX6qjoQkOx_7QLCDly1v7ftHI7GZuK0lSB_-8lsAmRc_DBFCjDbWWlP2tYTUE.png" group-title="Undefined",Belarus 24 (720p)
-http://serv30.vintera.tv:8081/belarus24/belarus24/playlist.m3u8
 #EXTINF:-1 tvg-id="BollywoodHD.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://ocdn.eu/ptv2-images-transforms/1/MU_kr5sb2dvLW1pZ3JhdGVkL2JvbGx5d29vZC1oZC5qcGeSlQJkAMLDlQIAKMLD" group-title="Movies",Bollywood HD (1080p) [Not 24/7]
 https://sc.id-tv.kz/bollywood_hd.m3u8
 #EXTINF:-1 tvg-id="BridgeTV.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/L71iY9t.png" group-title="Music" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Bridge TV (480p) [Timeout]
@@ -164,8 +163,6 @@ https://sc.id-tv.kz/Gakku.m3u8
 http://stream2.hardlife.tv:8134/hls-live/hlsGS/_definst_/liveevent/gs.m3u8
 #EXTINF:-1 tvg-id="GravityFouls.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/S1h8qPm.png" group-title="Kids",Gravity Fouls (480p) [Not 24/7]
 https://v3.catcast.tv/content/38105/index.m3u8
-#EXTINF:-1 tvg-id="GunAzTV.us" tvg-country="AZ;US" tvg-language="Azerbaijani" tvg-logo="https://i.imgur.com/0lJwdDH.jpg" group-title="General",GünAz TV (720p) [Not 24/7]
-http://gtv.live.cdn.bitgravity.com/gtv/live/feed03
 #EXTINF:-1 tvg-id="" tvg-country="RU" tvg-language="" tvg-logo="" group-title="Undefined",HD life (1080p) [Not 24/7]
 http://37.193.6.155:34040/udp/239.1.9.2:1234
 #EXTINF:-1 tvg-id="HDMedia.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://iptvx.one/icn/hd-media.png" group-title="Entertainment",HD Медиа (720p) [Geo-blocked]
@@ -216,8 +213,9 @@ http://live.noroc.tv/hls/noroctv_chisinau.m3u8
 http://livebeta.publika.md/LIVE/P/6810.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="AZ" tvg-language="" tvg-logo="" group-title="Undefined",Qəbələ TV (480p) [Not 24/7]
 https://qebele.tv/live/stream/index.m3u8
-#EXTINF:-1 tvg-id="RTDoc.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/C6fylkt.png" group-title="Documentary",RT Documentary Russian (1080p) [Not 24/7]
-https://strm.yandex.ru/kal/rtd_hd/rtd_hd0.m3u8
+#EXTINF:-1 tvg-id="RTDoc.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/C6fylkt.png" group-title="Documentary" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",RT Documentary Russian (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s93/index.m3u8
 #EXTINF:-1 tvg-id="RTGTV.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/x3IE7sE.png" group-title="Travel" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",RTG (480p) [Timeout]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s80/index.m3u8
@@ -313,8 +311,6 @@ http://serv25.vintera.tv:8081/test/aris/playlist.m3u8
 http://ott-cdn.ucom.am/s68/index.m3u8
 #EXTINF:-1 tvg-id="Arhyz24.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/LOGO_ARKHYZ24.tif/lossy-page1-1200px-LOGO_ARKHYZ24.tif.jpg" group-title="Undefined",Архыз 24 (720p) [Geo-blocked]
 https://strm.yandex.ru/kal/arhyz24/arhyz240.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="KZ" tvg-language="" tvg-logo="" group-title="Undefined",Астана (576p) [Not 24/7]
-https://sc.id-tv.kz/Astana.m3u8
 #EXTINF:-1 tvg-id="Astrahan24.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/0dnL7n7.jpeg" group-title="Undefined",Астрахань 24 (720p) [Geo-blocked]
 https://strm.yandex.ru/kal/astrahan24/astrahan240.m3u8
 #EXTINF:-1 tvg-id="AstrahanRuSport.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://sport.astrakhan.ru/image/logo-astrakhan-sport.png" group-title="Sports",Астрахань.Ru Sport (720p)
@@ -327,10 +323,10 @@ http://xstream.afontovo.ru/afontovo_ya.m3u8
 http://onlinetv.ktrk.kg:1935/live/myStream6/playlist.m3u8
 #EXTINF:-1 tvg-id="Bashkortostan24.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/V35c8pb.png" group-title="Undefined",Башкортостан 24 (1080p) [Geo-blocked]
 https://strm.yandex.ru/kal/bashkortostan24/bashkortostan240.m3u8
-#EXTINF:-1 tvg-id="Belarus3.by" tvg-country="BY" tvg-language="Russian" tvg-logo="https://upload.wikimedia.org/wikipedia/ru/6/69/Belarus_3.jpg" group-title="News",Беларусь 3 (1080p) [Not 24/7]
-https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus3.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Belarus4.by" tvg-country="BY" tvg-language="Russian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/59/Belarus_4.png" group-title="General",Беларусь 4 (576p) [Timeout]
 http://95.46.208.8:26258/belarus4
+#EXTINF:-1 tvg-id="Belarus24.by" tvg-country="BY" tvg-language="Belarusian" tvg-logo="https://resizer.mail.ru/p/c3c06eec-6613-5514-91ec-b20923cdbd84/AQACWrxNebO0hItmKwDaej2ry4kAMudX6qjoQkOx_7QLCDly1v7ftHI7GZuK0lSB_-8lsAmRc_DBFCjDbWWlP2tYTUE.png" group-title="Undefined",Беларусь 24 (1080p)
+https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Belgorod24.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/1bpNLQo.png" group-title="Undefined",Белгород 24 (1080p)
 http://belnovosti.cdn.easyhoster.ru:8080/stream.m3u8
 #EXTINF:-1 tvg-id="BelRos.ru" tvg-country="BY;RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/Emss0Lk.png" group-title="Undefined",БелРос (576p)
@@ -363,6 +359,8 @@ http://91.185.3.218:4000/play/607
 http://193.107.128.8:8552/play/a007
 #EXTINF:-1 tvg-id="" tvg-country="RU" tvg-language="" tvg-logo="" group-title="Undefined",ВТВ Плюс (Херсон) (576p)
 http://iptv.rubintele.com:8552/play/a007
+#EXTINF:-1 tvg-id="GlassRU.ua" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/YhRpb2Y.png" group-title="Religious",Гласс (RU) (576p) [Not 24/7]
+https://glas.org.ua/hls/glassru.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="RU" tvg-language="" tvg-logo="" group-title="Undefined",Городской телеканал (Ярославль) (576p)
 http://www.gtk.tv/hls/gtyar.m3u8
 #EXTINF:-1 tvg-id="Guberniya33.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/svJXsxD.png" group-title="General",Губерния 33 (Владимир) (360p)
@@ -381,6 +379,8 @@ https://okkotv-live.cdnvideo.ru/channel/Dikaya_Rybalka_HD.m3u8
 https://okkotv-live.cdnvideo.ru/channel/Dikiy.m3u8
 #EXTINF:-1 tvg-id="Dozhd.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://avatars.mds.yandex.net/get-tv-channel-logos/28884/2a0000017b735a0205a0c9947555ae175d64/340x200" group-title="Undefined",Дождь (1080p) [Geo-blocked]
 https://strm.yandex.ru/kal/tvrain/tvrain0.m3u8
+#EXTINF:-1 tvg-id="Doktor.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/GfKGMAX.png" group-title="",Доктор (720p) [Not 24/7]
+http://88b9da48.kazmazpaz.ru/iptv/D7M94NBVB5DLFS/512/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="RU" tvg-language="" tvg-logo="" group-title="Undefined",Дом кино (576p)
 http://91.185.3.218:4000/play/606
 #EXTINF:-1 tvg-id="DomKinoPremium.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://www.domkino-premium.tv/im/logo3d.png" group-title="Movies",Дом Кино Премиум (1080p) [Not 24/7]
@@ -505,8 +505,8 @@ http://212.77.128.179:8089/www_mezhdunet/mezhdunet/playlist.m3u8
 http://live.trkmillet.ru/millet/index.m3u8
 #EXTINF:-1 tvg-id="Ministerstvoidey.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://xn--b1aebclacktlowlcmd.xn--p1ai/wp-content/themes/blog/img/logo.png" group-title="Undefined",Министерство идей (720p)
 http://live-minidey.cdnvideo.ru/minidey/minidey.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="Mir24.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/m3qA9cS.png" group-title="News",Мир 24 (1080p)
-http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
+#EXTINF:-1 tvg-id="Mir24.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/m3qA9cS.png" group-title="News",Мир 24 (576p) [Not 24/7]
+https://sc.id-tv.kz/Mir24.m3u8
 #EXTINF:-1 tvg-id="Mir.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/%D0%9C%D0%B8%D1%80_%D0%A2%D0%92_logo.svg/400px-%D0%9C%D0%B8%D1%80_%D0%A2%D0%92_logo.svg.png" group-title="General",Мир (480p) [Geo-blocked]
 https://okkotv-live.cdnvideo.ru/channel/Mir_OTT.m3u8
 #EXTINF:-1 tvg-id="MirPlus2.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/CrFWXTD.png" group-title="General",Мир +2 (540p) [Not 24/7]
@@ -531,6 +531,8 @@ http://93.78.206.172:8080/stream5/stream.m3u8
 https://live-mordovia24.cdnvideo.ru/mordovia24/streamtr/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="RU" tvg-language="" tvg-logo="" group-title="Undefined",Морской (720p) [Not 24/7]
 http://88b9da48.kazmazpaz.ru/iptv/D7M94NBVB5DLFS/742/index.m3u8
+#EXTINF:-1 tvg-id="Moskva24.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/BOry400.png" group-title="Undefined",Москва 24 (576p) [Not 24/7]
+https://radio-live-mg.rtr-vesti.ru/hls/moscow_24/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="RU" tvg-language="" tvg-logo="" group-title="Undefined",Моя планета (576p) [Not 24/7]
 http://cdnmg.secure.live.rtr-vesti.ru/live/smil:mplan.smil/master.m3u8
 #EXTINF:-1 tvg-id="MTV.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/ll4uTv5.png" group-title="Undefined",МТВ (Волгоград) (720p) [Not 24/7]
