@@ -23,6 +23,8 @@ http://azxtv.com/hls/stream.m3u8
 https://unlimited6-cl.dps.live/atv/atv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ARABTV.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="" group-title="Culture",ARABTV (720p)
 https://livefocamundo.com:8081/arabtv/playlist.m3u8
+#EXTINF:-1 tvg-id="AricaTV.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="" group-title="Undefined",Arica TV (480p) [Not 24/7]
+https://5eff35271151c.streamlock.net:1936/8002/8002/playlist.m3u8
 #EXTINF:-1 tvg-id="AtacamaTVCopiapo.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="" group-title="Undefined",Atacama TV (Copiapó) (720p) [Not 24/7]
 https://v2.tustreaming.cl/atacamatv/index.m3u8
 #EXTINF:-1 tvg-id="AutonomaTV.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="" group-title="Undefined",Autonoma TV (720p) [Not 24/7]
@@ -31,14 +33,13 @@ https://5eff35271151c.streamlock.net:1936/8144/8144/playlist.m3u8
 https://v2.tustreaming.cl/aysentv/playlist.m3u8
 #EXTINF:-1 tvg-id="BBCNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/united-kingdom/bbc-news-uk.png" group-title="News",BBC News (540p) [Geo-blocked]
 https://vs-hls-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_sd_abr_v2.m3u8
-#EXTINF:-1 tvg-id="BBCWorldNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/Nx0BRdV.png" group-title="News",BBC World News (576p)
-http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
+#EXTINF:-1 tvg-id="BBCWorldNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/Nx0BRdV.png" group-title="News" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",BBC World News (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s24/index.m3u8
 #EXTINF:-1 tvg-id="BoomerangLatinoamerica.us" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="" group-title="Kids",Boomerang Latinoamérica [Geo-blocked]
 http://45.5.8.78:8000/play/a00i
 #EXTINF:-1 tvg-id="BuinSomosTodos.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="" group-title="Undefined",Buin Somos Todos (720p) [Not 24/7]
 https://bst.buin.cl/0.m3u8
-#EXTINF:-1 tvg-id="CampusTVTalca.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="" group-title="Undefined",Campus TV (Talca) (720p) [Not 24/7]
-https://pantera1-100gb-cl-movistar.dps.live/campustv/campustv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal2SanAntonio.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="" group-title="Undefined",Canal 2 (San Antonio) (720p) [Not 24/7]
 https://unlimited1-us.dps.live/canal2/canal2.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal9BioBioTelevision.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://i.imgur.com/UnWMRrT.png" group-title="Undefined",Canal 9 Bío Bío Televisión (1080p) [Not 24/7]
@@ -47,8 +48,8 @@ https://unlimited1-us.dps.live/c9/c9.smil/playlist.m3u8
 http://canal13-m3u.chorroaeboy.repl.co
 #EXTINF:-1 tvg-id="Canal21.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://lh3.googleusercontent.com/-zdameN8RkN4/Wn9k02_XleI/AAAAAAAAgwU/o7QWyXJUMuUIqbZ7vPAZ7eOHYmFLIBDNwCK8BGAs/s265/2018-02-10.png" group-title="Undefined",Canal 21 (720p) [Not 24/7]
 http://edge1.cl.grupoz.cl/canal21tv/live/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal26.ar" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/RN5wbXm.png" group-title="News",Canal 26 (720p)
-http://200.115.193.177/live/26hd-720/playlist.m3u8
+#EXTINF:-1 tvg-id="Canal26.ar" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/RN5wbXm.png" group-title="News",Canal 26 (180p)
+http://live-edge02.telecentro.net.ar/live/c26.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal33.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://www.canal33.cl/assets/images/logo.png" group-title="Undefined",Canal 33 (720p) [Geo-blocked]
 https://5eae379fb77bb.streamlock.net/eduardo555/eduardo555/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal57Melipilla.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="" group-title="Undefined",Canal 57 Melipilla (720p)
@@ -73,8 +74,6 @@ https://unlimited1-us.dps.live/carolinatv/carolinatv.smil/playlist.m3u8
 http://209.91.213.10:8088/play/a00k
 #EXTINF:-1 tvg-id="CEACTVSantiago.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="" group-title="Undefined",CEAC TV (Santiago) (480p)
 https://hd.chileservidores.cl:1936/ceactv/ceactv/playlist.m3u8
-#EXTINF:-1 tvg-id="CHICMagazine.cl" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/OeSarUd.jpg" group-title="Lifestyle",CHIC Magazine (480p) [Not 24/7]
-https://paneltv.online:1936/8056/8056/playlist.m3u8
 #EXTINF:-1 tvg-id="ChileVision.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://i.imgur.com/GAsSUqn.png" group-title="General",ChileVisión (720p) [Geo-blocked]
 http://chv-m3u.chorroaeboy.repl.co
 #EXTINF:-1 tvg-id="" tvg-country="CL" tvg-language="" tvg-logo="" group-title="Undefined",CHV Noticias (720p) [Not 24/7]
@@ -103,8 +102,6 @@ https://stmv.panel.mivideo.pro/ekiztv/ekiztv/playlist.m3u8
 http://186.0.233.76:1935/Garage/smil:garage.smil/master.m3u8
 #EXTINF:-1 tvg-id="ElionCanalDigital.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="" group-title="Undefined",Elion Canal Digital (Chillan) (288p) [Not 24/7]
 https://paneltv.online:1936/8154/8154/playlist.m3u8
-#EXTINF:-1 tvg-id="EnerGeek.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/EnerGeek.chile/picture?width=300&height=300" group-title="Entertainment",EnerGeek (720p) [Not 24/7]
-https://stmv1.voxhdnet.com/energeek/energeek/playlist.m3u8
 #EXTINF:-1 tvg-id="EJTV.cr" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/ejtvla/picture?width=320&height=320" group-title="Religious",Enlace Juvenil (EJTV) (288p) [Not 24/7]
 https://api.new.livestream.com/accounts/ejtvla/events/2294538/live.m3u8
 #EXTINF:-1 tvg-id="EnlaceTV.cr" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/enlacetv/picture?width=320&height=320" group-title="Religious",EnlaceTV (720p) [Not 24/7]
@@ -225,8 +222,8 @@ https://rt-esp.gcdn.co/live/rtesp/playlist.m3u8
 https://strm.yandex.ru/kal/rt_hd/rt_hd0.m3u8
 #EXTINF:-1 tvg-id="RuidosFM.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://i.imgur.com/IvSqpx0.jpg" group-title="Music",Ruidos FM (720p)
 https://593b04c4c5670.streamlock.net/8038/8038/playlist.m3u8
-#EXTINF:-1 tvg-id="SantaMariaTelevision.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="" group-title="Undefined",Santa María Televisión (720p) [Not 24/7]
-https://pantera1-100gb-cl-movistar.dps.live/smtv/smtv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="SellodeRaza.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://i.imgur.com/GbALFNA.png" group-title="Undefined",Sello de Raza (720p) [Not 24/7]
+https://v2.tustreaming.cl/mastermedia/playlist.m3u8
 #EXTINF:-1 tvg-id="SEOTV.bo" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/Seo.Tv.sat/picture?width=300&height=300" group-title="General",SEO TV (720p) [Not 24/7]
 https://panel.seo.tv.bo:3645/live/franzleonel0live.m3u8
 #EXTINF:-1 tvg-id="SEOTVNovelas.bo" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/Seo.Tv.sat/picture?width=300&height=300" group-title="Series",SEO TV Novelas (540p) [Not 24/7]
@@ -261,8 +258,6 @@ https://unlimited1-us.dps.live/tv5/tv5.smil/playlist.m3u8
 https://593b04c4c5670.streamlock.net/8014/8014/playlist.m3u8
 #EXTINF:-1 tvg-id="TVCosta.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://image.winudf.com/v2/image1/dHYuY29zdGEzX2ljb25fMTU3MTA1MDcwOV8wODA/icon.png?w=170&fakeurl=1" group-title="Undefined",TV Costa (720p) [Not 24/7]
 http://cdn.streamingmedia.cl:1935/live/canalcosta/playlist.m3u8
-#EXTINF:-1 tvg-id="TVCostaSanAntonio.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="" group-title="Undefined",TV Costa (San Antonio) (720p) [Not 24/7]
-https://hd.chileservidores.cl:1936/tvcosta1/tvcosta1/playlist.m3u8
 #EXTINF:-1 tvg-id="TVOsorno.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="" group-title="Undefined",TV Osorno (480p) [Not 24/7]
 https://hd.chileservidores.cl:1936/osorno2/live/playlist.m3u8
 #EXTINF:-1 tvg-id="TVPeruInternacional.pe" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://www.tvperu.gob.pe/sites/all/themes/stability/images/logo_TVPE_PLAY.png" group-title="General",TV Perú Internacional (460p) [Not 24/7]
@@ -295,6 +290,8 @@ http://unlimited1-cl.dps.live/ucvtv2/ucvtv2.smil/playlist.m3u8
 http://cl.origin.grupoz.cl/uestv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="UMAGTVTelevision.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://www.novasur.cl/sites/default/files/web_umag_tv.png" group-title="Undefined",UMAGTV Televisión (Punta Arenas) (720p) [Timeout]
 http://edge1.cl.grupoz.cl/tser5/live/playlist.m3u8
+#EXTINF:-1 tvg-id="UnidadEvangelicaTV.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="" group-title="Religious",Unidad Evangelica TV (720p) [Not 24/7]
+https://v2.tustreaming.cl/unidadevangelica/index.m3u8
 #EXTINF:-1 tvg-id="UATV.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://uatv.cl/wp-content/uploads/2016/01/marcauatv_2.png" group-title="Undefined",Universidad Autónoma Temuco (UATV) (1080p) [Not 24/7]
 https://unlimited1-us.dps.live/uatv/uatv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="VallenatoInternacional.us" tvg-country="HISPAM;US" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/valleinalradio/picture?width=320&height=320" group-title="Music",Vallenato Internacional (720p) [Not 24/7]

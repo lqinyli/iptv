@@ -19,8 +19,9 @@ https://video.misistemareseller.com/atvhonduras/atvhonduras/playlist.m3u8
 https://stmv1.zcastbr.com/azatvhd/azatvhd/playlist.m3u8
 #EXTINF:-1 tvg-id="BBCNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/united-kingdom/bbc-news-uk.png" group-title="News",BBC News (540p) [Geo-blocked]
 https://vs-hls-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_sd_abr_v2.m3u8
-#EXTINF:-1 tvg-id="BBCWorldNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/Nx0BRdV.png" group-title="News",BBC World News (576p)
-http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
+#EXTINF:-1 tvg-id="BBCWorldNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/Nx0BRdV.png" group-title="News" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",BBC World News (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s24/index.m3u8
 #EXTINF:-1 tvg-id="BoomerangLatinoamerica.us" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="" group-title="Kids",Boomerang Latinoamérica [Geo-blocked]
 http://45.5.8.78:8000/play/a00i
 #EXTINF:-1 tvg-id="CampusTV.hn" tvg-country="HN" tvg-language="Spanish" tvg-logo="https://i.imgur.com/k3RMzls.png" group-title="Undefined",Campus TV (360p) [Not 24/7]
@@ -31,10 +32,8 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/vid
 https://ott.streann.com/loadbalancer/services/public/channels/5ba026492cdc1a7124d02fb7/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal9.hn" tvg-country="HN" tvg-language="Spanish" tvg-logo="" group-title="Undefined",Canal 9 TeleDanlí (720p) [Not 24/7]
 https://cloud2.streaminglivehd.com:1936/8224/8224/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal11.hn" tvg-country="HN" tvg-language="Spanish" tvg-logo="https://canal11.hn/wp-content/themes/streamit/assets/images/logo.png" group-title="Undefined",Canal 11 (720p)
-https://mdstrm.com/live-stream-playlist/603d4e1fb042ce07c5c8f911.m3u8
-#EXTINF:-1 tvg-id="Canal26.ar" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/RN5wbXm.png" group-title="News",Canal 26 (720p)
-http://200.115.193.177/live/26hd-720/playlist.m3u8
+#EXTINF:-1 tvg-id="Canal26.ar" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/RN5wbXm.png" group-title="News",Canal 26 (180p)
+http://live-edge02.telecentro.net.ar/live/c26.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalUnodeChuloteca.hn" tvg-country="HN" tvg-language="Spanish" tvg-logo="" group-title="Undefined",Canal Uno de Chuloteca (720p) [Not 24/7]
 https://tvdatta.com:3392/live/portaldelsurhnlive.m3u8
 #EXTINF:-1 tvg-id="CartoonNetworkLatinAmerica.us" tvg-country="LATAM" tvg-language="English" tvg-logo="https://comteco.com.bo/img/upload/canales/Y1NVpq.png" group-title="Undefined",Cartoon Network Latin America [Timeout]
@@ -45,8 +44,6 @@ https://stmv1.zcastbr.com/catavision/catavision/playlist.m3u8
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://dai.ly/x836wjl
 #EXTINF:-1 tvg-id="CeibavisionCanal36.hn" tvg-country="HN" tvg-language="Spanish" tvg-logo="" group-title="Undefined",Ceibavisión Canal 36 (1080p) [Not 24/7]
 http://190.11.224.235:1935/CANAL36/myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="CHICMagazine.cl" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/OeSarUd.jpg" group-title="Lifestyle",CHIC Magazine (480p) [Not 24/7]
-https://paneltv.online:1936/8056/8056/playlist.m3u8
 #EXTINF:-1 tvg-id="CholusatSur36.hn" tvg-country="HN" tvg-language="Spanish" tvg-logo="https://i.imgur.com/qRHwhND.png" group-title="Undefined",Cholusat Sur 36 (214p) [Not 24/7]
 http://audiotvserver.net:1935/livemedia/cholusat/playlist.m3u8
 #EXTINF:-1 tvg-id="CholutecaTV.hn" tvg-country="HN" tvg-language="Spanish" tvg-logo="" group-title="Religious",Choluteca TV (1080p)
@@ -111,6 +108,8 @@ http://209.91.213.10:8088/play/a00z
 http://201.168.205.12:8000/play/a0ck/index.m3u8
 #EXTINF:-1 tvg-id="NuevoTiempo.br" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/exdDHml.png" group-title="Religious",Nuevo Tiempo (720p) [Not 24/7]
 https://stream.live.novotempo.com/tv/smil:tvnuevotiempo.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="OmegaTv.hn" tvg-country="HN" tvg-language="Spanish" tvg-logo="" group-title="Undefined",Omega Tv (288p) [Not 24/7]
+https://5caf24a595d94.streamlock.net:1937/8142/8142/playlist.m3u8
 #EXTINF:-1 tvg-id="PlatziTV.es" tvg-country="ES;HISPAM" tvg-language="Spanish" tvg-logo="https://platform-static.cdn.mdstrm.com/player/logo/s-live-5b9076d18ef7b22560354649.png?184" group-title="Education",Platzi TV (1080p)
 https://mdstrm.com/live-stream-playlist/5b9076d18ef7b22560354649.m3u8
 #EXTINF:-1 tvg-id="QhuboTV.hn" tvg-country="HN" tvg-language="Spanish" tvg-logo="https://www.lyngsat.com/logo/tv/qq/qhubo-tv-hn.png" group-title="Undefined",Q'hubo TV (410p) [Not 24/7]

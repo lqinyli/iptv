@@ -43,8 +43,9 @@ https://sdm.telewebion.com/live/baran/playlist.m3u8
 https://vs-hls-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_sd_abr_v2.m3u8
 #EXTINF:-1 tvg-id="BBCPersian.uk" tvg-country="IR" tvg-language="Persian" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/44/BBC_News_Persian_Logo.jpg" group-title="News",BBC Persian (720p)
 https://vs-cmaf-pushb-ww-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2_akamai_dash_live.mpd
-#EXTINF:-1 tvg-id="BBCWorldNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/Nx0BRdV.png" group-title="News",BBC World News (576p)
-http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
+#EXTINF:-1 tvg-id="BBCWorldNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/Nx0BRdV.png" group-title="News" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",BBC World News (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s24/index.m3u8
 #EXTINF:-1 tvg-id="BeitolAbbasTV.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Religious",BeitolAbbas TV (720p) [Not 24/7]
 http://live.beitolabbas.tv/live/beitolabbastv.m3u8
 #EXTINF:-1 tvg-id="BloombergTVEMEALiveEvent.us" tvg-country="EMEA" tvg-language="English" tvg-logo="https://rndcdn.dstv.com/dstvcms/2018/01/16/Bloomberg_new_4-3_light_background_001_xlrg.png" group-title="Business",Bloomberg TV EMEA Live Event (720p)
@@ -79,6 +80,8 @@ http://f24hls-i.akamaihd.net/hls/live/221147/F24_EN_HI_HLS/master.m3u8
 http://216.66.42.47:7777/GemArabia_HD.m3u8
 #EXTINF:-1 tvg-id="GEMAZ.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="https://www.gemonline.tv/Assets/channels-box/gem_az.png" group-title="Music",GEM AZ (576p) [Not 24/7]
 http://216.66.42.47:7777/GemAZ_HD.m3u8
+#EXTINF:-1 tvg-id="GEMComedy.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="https://www.gemonline.tv/Assets/channels-box/gem_comedy.png" group-title="Movies",GEM Comedy (576p) [Not 24/7]
+http://216.66.42.47:7777/GemComedy_HD.m3u8
 #EXTINF:-1 tvg-id="GEMDrama.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="https://www.gemonline.tv/Assets/channels-box/gemdrama.png" group-title="Movies",GEM Drama (360p) [Timeout]
 http://65.21.196.79/gem_drama/master.m3u8
 #EXTINF:-1 tvg-id="GEMFit.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="https://www.gemonline.net/Assets/channels-box/gem_fit.png?14" group-title="Sports",GEM Fit (360p) [Timeout]
@@ -193,8 +196,6 @@ https://sdw.telewebion.com/live/nasim/playlist.m3u8
 https://sdm.telewebion.com/live/nasim/playlist.m3u8
 #EXTINF:-1 tvg-id="NAVAHANG.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Music",NAVAHANG (720p)
 http://51.210.227.130/hls/stream.m3u8
-#EXTINF:-1 tvg-id="NegahTV.us" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Entertainment",Negah TV (720p) [Not 24/7]
-https://iptv.negahtv.com/negahtv/playlist2/index.m3u8
 #EXTINF:-1 tvg-id="Noor.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Undefined",Noor (576p)
 https://sdm.telewebion.com/live/noor/playlist.m3u8
 #EXTINF:-1 tvg-id="Nour.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Religious",Nour (720p) [Not 24/7]
@@ -269,8 +270,6 @@ https://sdm.telewebion.com/live/qazvin/playlist.m3u8
 https://sdm.telewebion.com/live/quran/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="IR" tvg-language="" tvg-logo="" group-title="Undefined",QURAN (576p)
 https://sdw.telewebion.com/live/quran/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="IR" tvg-language="" tvg-logo="" group-title="Undefined",Radio Farda (576p) [Not 24/7]
-https://rfe-lh.akamaihd.net/i/rfe_tvmc1@383622/master.m3u8
 #EXTINF:-1 tvg-id="RangarangTV.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="https://i.imgur.com/s5yF9aU.jpg" group-title="Undefined",Rangarang TV (720p) [Not 24/7]
 https://iptv.rangarang.us/live/playlist.m3u8
 #EXTINF:-1 tvg-id="RedBullTV.at" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/7NeBmWX.jpg" group-title="Sports",Red Bull TV (1080p)
@@ -300,9 +299,9 @@ https://sdm.telewebion.com/live/sepehr/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="IR" tvg-language="" tvg-logo="" group-title="Undefined",SEPEHR (576p)
 https://sdw.telewebion.com/live/sepehr/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="IR" tvg-language="" tvg-logo="" group-title="Undefined",SHOMA (576p)
-https://sdw.telewebion.com/live/shoma/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="IR" tvg-language="" tvg-logo="" group-title="Undefined",SHOMA (576p)
 https://sdm.telewebion.com/live/shoma/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-country="IR" tvg-language="" tvg-logo="" group-title="Undefined",SHOMA (576p)
+https://sdw.telewebion.com/live/shoma/playlist.m3u8
 #EXTINF:-1 tvg-id="SL1.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="https://i.imgur.com/n9cuM2W.jpg" group-title="Movies",SL 1 (720p)
 http://51.210.199.3/hls/stream.m3u8
 #EXTINF:-1 tvg-id="SL2.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="https://i.imgur.com/BVuUx5R.jpg" group-title="Movies",SL 2 (720p)
@@ -329,12 +328,14 @@ https://tv-trtworld.live.trt.com.tr/master.m3u8
 https://sdw.telewebion.com/live/tv1/playlist.m3u8
 #EXTINF:-1 tvg-id="TV2.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Undefined",TV2 (576p)
 https://sdm.telewebion.com/live/tv2/playlist.m3u8
-#EXTINF:-1 tvg-id="TV3.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Undefined",TV3 (480p) [Not 24/7]
-https://sdm.telewebion.com/live/tv3/playlist.m3u8
+#EXTINF:-1 tvg-id="TV3.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Undefined",TV3 (360p) [Not 24/7]
+https://sdw.telewebion.com/live/tv3/playlist.m3u8
 #EXTINF:-1 tvg-id="TV4.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Undefined",TV4 (576p)
 https://sdm.telewebion.com/live/tv4/playlist.m3u8
 #EXTINF:-1 tvg-id="TV5.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Undefined",TV5 (576p)
 https://sdm.telewebion.com/live/tehran/playlist.m3u8
+#EXTINF:-1 tvg-id="Valiasr.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Religious",Valiasr (480p) [Offline]
+https://ir13.livekadeh.com/hls2/valiasr.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="IR" tvg-language="" tvg-logo="" group-title="Undefined",Varzesh (1080p)
 http://cdn1.live.irib.ir:1935/channel-live/smil:varzesh/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="IR" tvg-language="" tvg-logo="" group-title="Undefined",VARZESH (1080p)
