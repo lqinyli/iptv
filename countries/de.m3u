@@ -29,9 +29,8 @@ http://176.10.117.18:8000/play/a002/index.m3u8
 http://badentv-stream2.siebnich.info/rtplive/btv.stream/live.m3u8
 #EXTINF:-1 tvg-id="BBCNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/united-kingdom/bbc-news-uk.png" group-title="News",BBC News (540p) [Geo-blocked]
 https://vs-hls-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_sd_abr_v2.m3u8
-#EXTINF:-1 tvg-id="BBCWorldNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/Nx0BRdV.png" group-title="News" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",BBC World News (480p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
-http://ott-cdn.ucom.am/s24/index.m3u8
+#EXTINF:-1 tvg-id="BBCWorldNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/Nx0BRdV.png" group-title="News",BBC World News (576p)
+http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
 #EXTINF:-1 tvg-id="BibelTV.de" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/0OoMMbd.png" group-title="Undefined",Bibel TV (720p)
 https://bibint01.iptv-playoutcenter.de/bibint01/bibint01.stream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="BibelTVImpuls.de" tvg-country="DE" tvg-language="German" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/bibeltv.png" group-title="Undefined",Bibel TV Impuls (720p)
@@ -60,8 +59,6 @@ http://62.113.210.250/medienasa-live/ok-wernigerode_high/hasbahca.m3u8
 http://62.113.210.250/medienasa-live/ok-wernigerode_high/chunklist_w937425968.m3u8
 #EXTINF:-1 tvg-id="PlutoTVCats247.de" tvg-country="DE;US" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/5db044d7846b170009215ef0/colorLogoPNG.png" group-title="Series",Cats 24/7 (DE) (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5db6a56ce10f0b0009e64037/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=1&deviceId=5db6a56ce10f0b0009e64037&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=4f8f5d53-0580-11eb-8b9f-0242ac110002&terminate=false&userId=
-#EXTINF:-1 tvg-id="ChemnitzFernsehen.de" tvg-country="DE" tvg-language="German" tvg-logo="" group-title="Undefined",Chemnitz Fernsehen (1080p)
-https://chemnitz.iptv-playoutcenter.de/chemnitz/chemnitzfernsehen.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="DE" tvg-language="" tvg-logo="" group-title="Undefined",CIRA TV (720p) [Not 24/7]
 http://176.10.117.18:8000/play/a00f/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="DE" tvg-language="" tvg-logo="" group-title="Undefined",ÇİRA TV (480p) [Not 24/7]
@@ -137,6 +134,8 @@ https://d1pz8zear993v8.cloudfront.net/hlsme/kathtv.m3u8
 https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master.m3u8
 #EXTINF:-1 tvg-id="KulturMD.de" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/io7cJ1Z.png" group-title="Undefined",KulturMD (1080p)
 http://58bd5b7a98e04.streamlock.net/medienasa-live/kulturmd_high/playlist.m3u8
+#EXTINF:-1 tvg-id="KWTVWildau.de" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/882I3h8.png" group-title="Undefined",KW TV Wildau (720p) [Not 24/7]
+https://58af0c57eaf3e.streamlock.net/easycast11-live/mp4:livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="Lausitzwelle.de" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/GNMaGZE.png" group-title="Undefined",Lausitzwelle (Fernsehen) (1080p)
 https://5856e1a25f71a.streamlock.net/easycast9-live/mp4:livestreamhd10/playlist.m3u8
 #EXTINF:-1 tvg-id="LeipzigFernsehen.de" tvg-country="DE" tvg-language="German" tvg-logo="" group-title="Undefined",Leipzig Fernsehen (1080p)
@@ -148,7 +147,7 @@ https://mavtv-mavtvglobal-1-eu.rakuten.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="MDF1.de" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/SEeqryT.png" group-title="Undefined",MDF.1 (1080p)
 http://58bd5b7a98e04.streamlock.net/medienasa-live/mdf1_high/playlist.m3u8
 #EXTINF:-1 tvg-id="MotorvisionTV.de" tvg-country="DE" tvg-language="German" tvg-logo="https://www.zap.co.ao/media/cache/movie_thumb/uploads/ao/channels/55802c752581d.png" group-title="Undefined",Motorvision TV (720p)
-http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/60817e1aa6997500072d0d6d/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=35fc51b0-e986-11eb-a0af-c3b401f46211&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=ede55dfe-45a7-4aa8-a283-7b8008be8d2e
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=535
 #EXTINF:-1 tvg-id="MunchenTV.de" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/67z7iRh.jpg" group-title="Undefined",München TV (1080p) [Not 24/7]
 https://muenchentv.iptv-playoutcenter.de/muenchentv/muenchentv.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="Muxxtv.de" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/QUOxNbF.png" group-title="Undefined",Muxx.tv (1080p) [Not 24/7]
@@ -337,8 +336,6 @@ https://tastemade-de-samsung.amagi.tv/playlist.m3u8
 http://live1.markenfunk.com/t1/live/chunklist.m3u8
 #EXTINF:-1 tvg-id="teltOwkanal.de" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/05UB2YT.png" group-title="Undefined",teltOwkanal (1080p)
 https://5856e1a25f71a.streamlock.net/easycast8-live/mp4:livestreamhd8/playlist.m3u8
-#EXTINF:-1 tvg-id="TesasTV.de" tvg-country="DE" tvg-language="German" tvg-logo="https://i.imgur.com/xEGCX1f.png" group-title="Undefined",Tesas TV (720p) [Not 24/7]
-https://jola.live:16200/tesastv.m3u8
 #EXTINF:-1 tvg-id="TideTV.de" tvg-country="DE" tvg-language="German" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/tidetv.png" group-title="Undefined",Tide TV (1080p) [Not 24/7]
 https://5889e7d0d6e28.streamlock.net/tide-live/smil:livestream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TRTWorld.tr" tvg-country="INT" tvg-language="English" tvg-logo="https://i.ibb.co/phw4pjP/mjTjJ1N.png" group-title="News",TRT World (720p) [Not 24/7]

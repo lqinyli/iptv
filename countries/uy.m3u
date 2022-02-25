@@ -11,13 +11,12 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel
 http://azxtv.com/hls/stream.m3u8
 #EXTINF:-1 tvg-id="BBCNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/united-kingdom/bbc-news-uk.png" group-title="News",BBC News (540p) [Geo-blocked]
 https://vs-hls-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_sd_abr_v2.m3u8
-#EXTINF:-1 tvg-id="BBCWorldNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/Nx0BRdV.png" group-title="News" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",BBC World News (480p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
-http://ott-cdn.ucom.am/s24/index.m3u8
+#EXTINF:-1 tvg-id="BBCWorldNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/Nx0BRdV.png" group-title="News",BBC World News (576p)
+http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
 #EXTINF:-1 tvg-id="BoomerangLatinoamerica.us" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="" group-title="Kids",Boomerang Latinoamérica [Geo-blocked]
 http://45.5.8.78:8000/play/a00i
-#EXTINF:-1 tvg-id="Canal26.ar" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/RN5wbXm.png" group-title="News",Canal 26 (180p)
-http://live-edge02.telecentro.net.ar/live/c26.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="Canal26.ar" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/RN5wbXm.png" group-title="News",Canal 26 (720p)
+http://200.115.193.177/live/26hd-720/playlist.m3u8
 #EXTINF:-1 tvg-id="CartoonNetworkLatinAmerica.us" tvg-country="LATAM" tvg-language="English" tvg-logo="https://comteco.com.bo/img/upload/canales/Y1NVpq.png" group-title="Undefined",Cartoon Network Latin America [Timeout]
 http://209.91.213.10:8088/play/a00k
 #EXTINF:-1 tvg-id="CharruaTV.uy" tvg-country="UY" tvg-language="Spanish" tvg-logo="" group-title="Undefined",Charrúa Televisión (720p) [Not 24/7]
@@ -58,8 +57,8 @@ http://209.91.213.10:8088/play/a00z
 http://201.168.205.12:8000/play/a0ck/index.m3u8
 #EXTINF:-1 tvg-id="NuevoTiempo.br" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/exdDHml.png" group-title="Religious",Nuevo Tiempo (720p) [Not 24/7]
 https://stream.live.novotempo.com/tv/smil:tvnuevotiempo.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="OvacionTV.pe" tvg-country="PE;UY" tvg-language="Spanish" tvg-logo="https://ovacion.pe/sites/default/files/logo-ovacion.png" group-title="Sports",Ovación TV (720p) [Not 24/7]
-https://5c3fb01839654.streamlock.net:1963/iptvovacion1/liveovacion1tv/playlist.m3u8
+#EXTINF:-1 tvg-id="OvacionTV.pe" tvg-country="PE;UY" tvg-language="Spanish" tvg-logo="https://ovacion.pe/sites/default/files/logo-ovacion.png" group-title="Sports",Ovacion TV (720p) [Not 24/7]
+http://cdn2.ujjina.com:1935/iptvovacion1/liveovacion1tv/playlist.m3u8
 #EXTINF:-1 tvg-id="PlatziTV.es" tvg-country="ES;HISPAM" tvg-language="Spanish" tvg-logo="https://platform-static.cdn.mdstrm.com/player/logo/s-live-5b9076d18ef7b22560354649.png?184" group-title="Education",Platzi TV (1080p)
 https://mdstrm.com/live-stream-playlist/5b9076d18ef7b22560354649.m3u8
 #EXTINF:-1 tvg-id="RedBullTV.at" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/7NeBmWX.jpg" group-title="Sports",Red Bull TV (1080p)
@@ -68,8 +67,6 @@ https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 http://v4.tustreaming.cl/restaurandovidastv/index.m3u8
 #EXTINF:-1 tvg-id="RTDocumentary.ru" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/XJGki3v.png" group-title="Documentary",RT Documentary (1080p)
 https://rt-rtd.gcdn.co/live/rtdoc/playlist.m3u8
-#EXTINF:-1 tvg-id="RTenEspanol.ru" tvg-country="ES;HISPAM" tvg-language="Spanish" tvg-logo="" group-title="News",RT en Español (1080p) [Not 24/7]
-https://rt-esp.gcdn.co/live/rtesp/playlist.m3u8
 #EXTINF:-1 tvg-id="RTNews.ru" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/tyXIHlj.png" group-title="News",RT News (1080p) [Timeout]
 https://strm.yandex.ru/kal/rt_hd/rt_hd0.m3u8
 #EXTINF:-1 tvg-id="SEOTV.bo" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/Seo.Tv.sat/picture?width=300&height=300" group-title="General",SEO TV (720p) [Not 24/7]

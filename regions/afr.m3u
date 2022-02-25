@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/bf/canalplus-afrique.com.epg.xml,https://iptv-org.github.io/epg/guides/bf/dstv.com.epg.xml,https://iptv-org.github.io/epg/guides/bi/dstv.com.epg.xml,https://iptv-org.github.io/epg/guides/ch/tv.blue.ch.epg.xml,https://iptv-org.github.io/epg/guides/eg-ar/elcinema.com.epg.xml,https://iptv-org.github.io/epg/guides/et/dstv.com.epg.xml,https://iptv-org.github.io/epg/guides/fr/chaines-tv.orange.fr.epg.xml,https://iptv-org.github.io/epg/guides/ke/dstv.com.epg.xml,https://iptv-org.github.io/epg/guides/mw/dstv.com.epg.xml,https://iptv-org.github.io/epg/guides/mz/dstv.com.epg.xml,https://iptv-org.github.io/epg/guides/ug/dstv.com.epg.xml,https://iptv-org.github.io/epg/guides/za/dstv.com.epg.xml"
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/bf/canalplus-afrique.com.epg.xml,https://iptv-org.github.io/epg/guides/bf/dstv.com.epg.xml,https://iptv-org.github.io/epg/guides/bi/dstv.com.epg.xml,https://iptv-org.github.io/epg/guides/ch/tv.blue.ch.epg.xml,https://iptv-org.github.io/epg/guides/eg-ar/elcinema.com.epg.xml,https://iptv-org.github.io/epg/guides/fr/chaines-tv.orange.fr.epg.xml,https://iptv-org.github.io/epg/guides/ke/dstv.com.epg.xml,https://iptv-org.github.io/epg/guides/mw/dstv.com.epg.xml,https://iptv-org.github.io/epg/guides/mz/dstv.com.epg.xml,https://iptv-org.github.io/epg/guides/ug/dstv.com.epg.xml,https://iptv-org.github.io/epg/guides/za/dstv.com.epg.xml"
 #EXTINF:-1 tvg-id="2MMonde.ma" tvg-country="MA" tvg-language="Arabic;French" tvg-logo="https://i.imgur.com/CwwRn4b.png" group-title="General",2M Monde (360p) [Geo-blocked]
 https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/2m_monde/hls_video_ts_hy217612tge1f21j83/2m_monde.m3u8
 #EXTINF:-1 tvg-id="2STV.sn" tvg-country="SN" tvg-language="French;Wolof" tvg-logo="https://i.imgur.com/3mbeewx.png" group-title="Undefined",2STV (720p) [Not 24/7]
@@ -89,6 +89,8 @@ https://cdn02.hta.dz/abr_htatv/Beur_TV/htatv/Beur_TV_720p/chunks.m3u8
 http://51.254.199.122:8080/bossbrothersTV/index.m3u8
 #EXTINF:-1 tvg-id="CanalAlgerie.dz" tvg-country="DZ" tvg-language="Arabic" tvg-logo="https://i.imgur.com/FPmDhNH.png" group-title="Undefined",Canal Algérie [Geo-blocked]
 https://cdn02.hta.dz/abr_htatv/CANAL_ALGERIE/playlist.m3u8
+#EXTINF:-1 tvg-id="CanalAtlasFight.ma" tvg-country="MA" tvg-language="Arabic" tvg-logo="https://i.imgur.com/VQUrMjE.png" group-title="General",Canal Atlas Fight (616p) [Offline]
+https://edge.vedge.infomaniak.com/livecast/ik:atlasfight/manifest.m3u8
 #EXTINF:-1 tvg-id="CBC.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="https://media.elcinema.com/tvguide/1198_1.png" group-title="Undefined",CBC (720p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/cbcstream/live
 #EXTINF:-1 tvg-id="CitizenTV.ke" tvg-country="KE" tvg-language="English" tvg-logo="https://kenyatv.tech/wp-content/uploads/2021/05/Webp.net-resizeimage.png" group-title="General",Citizen TV (1080p) [Not 24/7]
@@ -117,9 +119,8 @@ https://cdn02.hta.dz/abr_htatv/EL_FADJR_TV_DZ/playlist.m3u8
 https://cdn02.hta.dz/abr_htatv/EL_HAYAT_TV_ALGERIE/playlist.m3u8
 #EXTINF:-1 tvg-id="ElHeddafTV.fr" tvg-country="DZ" tvg-language="Arabic" tvg-logo="https://i.imgur.com/qd1sCE8.png" group-title="Undefined",El Heddaf TV [Geo-blocked]
 https://cdn02.hta.dz/abr_htatv/EL_HEDDAF_TV/htatv/EL_HEDDAF_TV_720p/chunks.m3u8
-#EXTINF:-1 tvg-id="ElHiwarElTounsi.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://www.elhiwarettounsi.com/images/news/logo.png" group-title="General" user-agent="TNAgexpl212C",El Hiwar El Tounsi (400p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=TNAgexpl212C
-http://217.182.137.206/elhiwar.m3u8
+#EXTINF:-1 tvg-id="ElHiwarElTounsi.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://www.elhiwarettounsi.com/images/news/logo.png" group-title="General",El Hiwar El Tounsi (1080p) [Not 24/7]
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/video/k2IuM11CZakq4ZvrUkv
 #EXTINF:-1 tvg-id="ElbesharaGTV.us" tvg-country="EG;US" tvg-language="Arabic" tvg-logo="https://i.imgur.com/wup8DKR.jpg" group-title="Religious",Elbeshara GTV (1080p) [Not 24/7]
 http://media3.smc-host.com:1935/elbesharagtv.com/gtv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ElsharqTV.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="https://i.imgur.com/2Txbh2D.png" group-title="General",Elsharq TV (1080p) [Not 24/7]
@@ -150,8 +151,6 @@ https://streaming.toutech.net/live/jtv/index.m3u8
 https://5f4db0f94b000.streamlock.net/k24/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="KalsanTV.so" tvg-country="SO" tvg-language="Somali" tvg-logo="https://www.saabtv.com/wp-content/uploads/2018/02/SaabTV_191x180transparent.png" group-title="Undefined",Kalsan TV (360p)
 https://ap02.iqplay.tv:8082/iqb8002/s03btv/chunks.m3u8
-#EXTINF:-1 tvg-id="KamemeTV.ke" tvg-country="KE" tvg-language="English" tvg-logo="https://kenyatv.tech/wp-content/uploads/2020/11/ke-kameme-tv-1383.jpg" group-title="General",Kameme TV (720p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://dai.ly/x6ol8sj
 #EXTINF:-1 tvg-id="KBC.ke" tvg-country="KE" tvg-language="English" tvg-logo="https://kenyatv.tech/wp-content/uploads/2021/04/KBC-1.jpg" group-title="General",KBC (720p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://dai.ly/x74211t
 #EXTINF:-1 tvg-id="KC2.rw" tvg-country="RW" tvg-language="Kinyarwanda" tvg-logo="https://i.imgur.com/13N8UX5.jpg" group-title="Undefined",KC2 (720p) [Not 24/7]
@@ -160,10 +159,6 @@ http://197.243.19.131:1935/kc2/kc2/chunklist.m3u8
 https://5d658d7e9f562.streamlock.net/koogi.tv/koogi.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="KTNNews.ke" tvg-country="KE" tvg-language="English" tvg-logo="https://kenyatv.tech/wp-content/uploads/2020/11/unnamed.jpg" group-title="News",KTN News (720p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/user/standardgroupkenya/live
-#EXTINF:-1 tvg-id="KultuTV.bj" tvg-country="BJ" tvg-language="French" tvg-logo="https://i.imgur.com/8ytvChX.png" group-title="Music",Kultu TV (720p) [Not 24/7]
-https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.dailymotion.com/video/x82zdni
-#EXTINF:-1 tvg-id="LagosTelevision.ng" tvg-country="NG" tvg-language="English" tvg-logo="https://i.imgur.com/rjLxSfx.png" group-title="Undefined",Lagos Television (360p) [Not 24/7]
-http://185.105.4.193:1935/ltv/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="LibyaAlAhrarTV.ly" tvg-country="LY" tvg-language="Arabic" tvg-logo="https://pbs.twimg.com/profile_images/953959542928412673/wYWx5MRY.jpg" group-title="News",Libya Al Ahrar TV (720p) [Not 24/7]
 https://video.zidivo.com/live983/GrtjM_FNGC/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="LY" tvg-language="" tvg-logo="" group-title="Undefined",Libya Channel (576p) [Not 24/7]
@@ -196,8 +191,6 @@ https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/playlist.m3u8
 https://webcam.mosaiquefm.net:1936/mosatv/studio/playlist.m3u8
 #EXTINF:-1 tvg-id="MyTVChannel.cm" tvg-country="CM" tvg-language="French" tvg-logo="https://i.imgur.com/BuKv5Vj.png" group-title="Undefined",My TV Channel (720p) [Not 24/7]
 http://connectiktv.ddns.net:5000/mytvchannel/@mytvchannel/playlist.m3u8
-#EXTINF:-1 tvg-id="NBSTV.ug" tvg-country="UG" tvg-language="English" tvg-logo="https://rndcdn.dstv.com/dstvcms/2018/07/03/NBS_logo_4-3_001_xlrg.png" group-title="Undefined",NBS TV (480p) [Not 24/7]
-https://vse-cdn1-readymedia.rea.cdn.moderntv.eu/readymedia/stream/NBSTV/5-20-hls/live.m3u8
 #EXTINF:-1 tvg-id="NileTVCinema.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="https://i.imgur.com/XAYcgQb.png" group-title="Movies" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",Nile TV Cinema (576p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
 http://livestreaming5.onlinehorizons.net/hls-live/NTNNileCinema/_definst_/liveevent/livestream.m3u8
@@ -220,6 +213,8 @@ http://media6.smc-host.com:1935/omgchannel.net/omgtv/playlist.m3u8
 http://media6.smc-host.com:1935/omgchannel.net/omgseries/playlist.m3u8
 #EXTINF:-1 tvg-id="ORTM1.ml" tvg-country="ML" tvg-language="French" tvg-logo="https://service.canal-overseas.com/image-api/v1/image/c359516e1fc5ccff7f81c45d65a1c9e0" group-title="Undefined",ORTM1 (576p) [Not 24/7]
 http://51.210.1.13:18000/ortm/hls/playlist.m3u8
+#EXTINF:-1 tvg-id="PlayTV.cm" tvg-country="CM" tvg-language="French" tvg-logo="https://i.imgur.com/mvgRAZw.jpg" group-title="Music",Play TV (720p) [Not 24/7]
+http://connectiktv.ddns.net:5000/playtv/@playtv/playlist.m3u8
 #EXTINF:-1 tvg-id="QTV.gm" tvg-country="GM" tvg-language="English;Mandinka;Wolof" tvg-logo="https://i.imgur.com/K5tzOq2.png" group-title="Undefined",QTV Gambia (720p) [Not 24/7]
 https://player.qtv.gm/hls/live.stream.m3u8
 #EXTINF:-1 tvg-id="QuranTV.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="" group-title="Undefined",Quran TV (576p) [Timeout]
@@ -252,8 +247,6 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel
 https://api.new.livestream.com/accounts/27130247/events/8196478/live.m3u8
 #EXTINF:-1 tvg-id="TenTV.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="https://content.weyyak.com/8ff99681-4dd8-4e97-aa18-de4a866ef0fd/poster-image" group-title="Undefined",Ten TV (720p) [Not 24/7]
 https://weyyak-live.akamaized.net/weyyak_ten_tv/index.m3u8
-#EXTINF:-1 tvg-id="TFM.sn" tvg-country="SN" tvg-language="French;Wolof" tvg-logo="https://i.imgur.com/tT3YSNF.png" group-title="Undefined",TFM (720p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/video/x7wcr45
 #EXTINF:-1 tvg-id="TheKingdomSat.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="https://i.imgur.com/6xa14aQ.png" group-title="Religious",The Kingdom Sat (576p)
 https://bcovlive-a.akamaihd.net/87f7c114719b4646b7c4263c26515cf3/eu-central-1/6008340466001/profile_0/chunklist.m3u8
 #EXTINF:-1 tvg-id="TunisieImmobilierTV.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://i.imgur.com/cZM2t0P.png" group-title="Travel",Tunisie Immobilier TV (720p) [Not 24/7]

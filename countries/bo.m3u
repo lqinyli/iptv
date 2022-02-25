@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ar/mi.tv.epg.xml,https://iptv-org.github.io/epg/guides/bo/comteco.com.bo.epg.xml,https://iptv-org.github.io/epg/guides/ch/tv.blue.ch.epg.xml,https://iptv-org.github.io/epg/guides/cl/mi.tv.epg.xml,https://iptv-org.github.io/epg/guides/es/programacion-tv.elpais.com.epg.xml,https://iptv-org.github.io/epg/guides/gr/cosmote.gr.epg.xml,https://iptv-org.github.io/epg/guides/it/guidatv.sky.it.epg.xml,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml,https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml,https://iptv-org.github.io/epg/guides/uk/ontvtonight.com.epg.xml"
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ar/mi.tv.epg.xml,https://iptv-org.github.io/epg/guides/bo/comteco.com.bo.epg.xml,https://iptv-org.github.io/epg/guides/ch/tv.blue.ch.epg.xml,https://iptv-org.github.io/epg/guides/es/programacion-tv.elpais.com.epg.xml,https://iptv-org.github.io/epg/guides/gr/cosmote.gr.epg.xml,https://iptv-org.github.io/epg/guides/it/guidatv.sky.it.epg.xml,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml,https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml,https://iptv-org.github.io/epg/guides/uk/ontvtonight.com.epg.xml"
 #EXTINF:-1 tvg-id="K17JIDT4.us" tvg-country="HISPAM;US" tvg-language="Spanish" tvg-logo="https://i.imgur.com/4ydVVIA.png" group-title="Religious",3ABN Latino (480p)
 http://uni5rtmp.tulix.tv:1935/bettervida/bettervida/playlist.m3u8
 #EXTINF:-1 tvg-id="K18JLD2.us" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/4ydVVIA.png" group-title="Religious",3ABN Latino (720p) [Not 24/7]
@@ -13,9 +13,8 @@ http://azxtv.com/hls/stream.m3u8
 http://186.121.206.197/live/daniel/index.m3u8
 #EXTINF:-1 tvg-id="BBCNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/united-kingdom/bbc-news-uk.png" group-title="News",BBC News (540p) [Geo-blocked]
 https://vs-hls-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_sd_abr_v2.m3u8
-#EXTINF:-1 tvg-id="BBCWorldNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/Nx0BRdV.png" group-title="News" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",BBC World News (480p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
-http://ott-cdn.ucom.am/s24/index.m3u8
+#EXTINF:-1 tvg-id="BBCWorldNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/Nx0BRdV.png" group-title="News",BBC World News (576p)
+http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
 #EXTINF:-1 tvg-id="BoliviaRadioTV.bo" tvg-country="BO" tvg-language="Spanish" tvg-logo="" group-title="Undefined",Bolivia Radio TV (720p) [Not 24/7]
 https://play.amelbasoluciones.co:3546/live/boliviaradiotvlive.m3u8
 #EXTINF:-1 tvg-id="BoliviaTV72.bo" tvg-country="BO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/1zTLGdj.jpg" group-title="General",Bolivia TV 7.2 (480p)
@@ -24,8 +23,8 @@ https://video1.getstreamhosting.com:1936/8224/8224/playlist.m3u8
 http://boliviatv1.srfms.com:5735/live/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="BoomerangLatinoamerica.us" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="" group-title="Kids",Boomerang Latinoamérica [Geo-blocked]
 http://45.5.8.78:8000/play/a00i
-#EXTINF:-1 tvg-id="Canal26.ar" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/RN5wbXm.png" group-title="News",Canal 26 (180p)
-http://live-edge02.telecentro.net.ar/live/c26.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="Canal26.ar" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/RN5wbXm.png" group-title="News",Canal 26 (720p)
+http://200.115.193.177/live/26hd-720/playlist.m3u8
 #EXTINF:-1 tvg-id="CVC.bo" tvg-country="BO" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/320429538167628/picture?width=300&height=300" group-title="Undefined",Canal Vírgen de Copacabana (CVC) (818p) [Timeout]
 https://cp.sradiotv.com:1936/8058/8058/playlist.m3u8
 #EXTINF:-1 tvg-id="CartoonNetworkLatinAmerica.us" tvg-country="LATAM" tvg-language="English" tvg-logo="https://comteco.com.bo/img/upload/canales/Y1NVpq.png" group-title="Undefined",Cartoon Network Latin America [Timeout]
@@ -84,12 +83,8 @@ https://inliveserver.com:1936/8158/8158/playlist.m3u8
 http://v4.tustreaming.cl/restaurandovidastv/index.m3u8
 #EXTINF:-1 tvg-id="RTDocumentary.ru" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/XJGki3v.png" group-title="Documentary",RT Documentary (1080p)
 https://rt-rtd.gcdn.co/live/rtdoc/playlist.m3u8
-#EXTINF:-1 tvg-id="RTenEspanol.ru" tvg-country="ES;HISPAM" tvg-language="Spanish" tvg-logo="" group-title="News",RT en Español (1080p) [Not 24/7]
-https://rt-esp.gcdn.co/live/rtesp/playlist.m3u8
 #EXTINF:-1 tvg-id="RTNews.ru" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/tyXIHlj.png" group-title="News",RT News (1080p) [Timeout]
 https://strm.yandex.ru/kal/rt_hd/rt_hd0.m3u8
-#EXTINF:-1 tvg-id="RTP.bo" tvg-country="BO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/eTDc0wd.jpg" group-title="Undefined",RTP (720p) [Not 24/7]
-http://136.243.3.70:1935/RtpBolivia/RtpBolivia/playlist.m3u8
 #EXTINF:-1 tvg-id="SEOTV.bo" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/Seo.Tv.sat/picture?width=300&height=300" group-title="General",SEO TV (720p) [Not 24/7]
 https://panel.seo.tv.bo:3645/live/franzleonel0live.m3u8
 #EXTINF:-1 tvg-id="SEOTVKids.bo" tvg-country="BO" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/Seo.Tv.sat/picture?width=300&height=300" group-title="Kids",SEO TV Kids (360p) [Not 24/7]
@@ -110,8 +105,6 @@ https://master.tucableip.com/live/tvlatinamontero/playlist.m3u8
 http://cdnh4.iblups.com/hls/irtp.m3u8
 #EXTINF:-1 tvg-id="TVGAmerica.es" tvg-country="ES;HISPAM" tvg-language="Galician" tvg-logo="https://i.imgur.com/1Z6svKc.jpg" group-title="General",TVG América (720p)
 https://america-crtvg.flumotion.com/playlist.m3u8
-#EXTINF:-1 tvg-id="TVU.bo" tvg-country="BO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/YdiF5k6.png" group-title="Undefined",TVU (276p) [Not 24/7]
-http://136.243.3.70:1935/TvUniversitaria/TvUniversitaria/playlist.m3u8
 #EXTINF:-1 tvg-id="VallenatoInternacional.us" tvg-country="HISPAM;US" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/valleinalradio/picture?width=320&height=320" group-title="Music",Vallenato Internacional (720p) [Not 24/7]
 https://59a564764e2b6.streamlock.net/vallenato/Vallenato2/playlist.m3u8
 #EXTINF:-1 tvg-id="VPItv.ve" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/vpitv/picture?width=320&height=320" group-title="News",VPItv (480p) [Not 24/7]
