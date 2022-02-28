@@ -25,8 +25,9 @@ http://dminnvll.cdn.mangomolo.com/dubaione/smil:dubaione.stream.smil/playlist.m3
 https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8
 #EXTINF:-1 tvg-id="DWEnglish.de" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/xnv0Pgm.jpg" group-title="News",DW English (1080p)
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
-#EXTINF:-1 tvg-id="ElHiwarElTounsi.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://www.elhiwarettounsi.com/images/news/logo.png" group-title="General",El Hiwar El Tounsi (1080p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/video/k2IuM11CZakq4ZvrUkv
+#EXTINF:-1 tvg-id="ElHiwarElTounsi.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://www.elhiwarettounsi.com/images/news/logo.png" group-title="General" user-agent="TNAgexpl212C",El Hiwar El Tounsi (400p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=TNAgexpl212C
+http://217.182.137.206/elhiwar.m3u8
 #EXTINF:-1 tvg-id="France24Arabic.fr" tvg-country="ARAB;MAGHREB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/61MSiq9.png" group-title="News",France 24 Arabic (1080p)
 https://static.france24.com/live/F24_AR_HI_HLS/live_tv.m3u8
 #EXTINF:-1 tvg-id="France24English.fr" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/France24.png" group-title="News",France 24 English (1080p)
@@ -87,6 +88,5 @@ https://5ac31d8a4c9af.streamlock.net/tunimmob/myStream/playlist.m3u8
 http://streaming.tunisna.tv:1935/live/tunisna/playlist.m3u8
 #EXTINF:-1 tvg-id="Wanasah.ae" tvg-country="ARAB;MAGHREB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/GmgibYW.jpg" group-title="Music",Wanasah (1080p)
 https://shls-wanasah-prod-dub.shahid.net/out/v1/c84ef3128e564b74a6a796e8b6287de6/index.m3u8
-#EXTINF:-1 tvg-id="Watania2.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://tunisietv.com/wp-content/uploads/2015/05/Logo_Wataniya_2.png" group-title="General" user-agent="TNAgexpl212C",Watania 2 (400p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=TNAgexpl212C
-http://217.182.137.206/tunisie2.m3u8
+#EXTINF:-1 tvg-id="Watania2.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://tunisietv.com/wp-content/uploads/2015/05/Logo_Wataniya_2.png" group-title="General",Watania 2 (480p) [Not 24/7]
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/Watania2Replay/live

@@ -38,9 +38,9 @@ https://sdw.telewebion.com/live/aflak/playlist.m3u8
 #EXTINF:-1 tvg-id="AFNTV.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Entertainment",AFN TV (720p) [Not 24/7]
 https://bozztv.com/1gbw5/tintv2/tintv2/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="IR" tvg-language="" tvg-logo="" group-title="Undefined",AFTAB (576p)
-https://sdw.telewebion.com/live/aftab/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="IR" tvg-language="" tvg-logo="" group-title="Undefined",AFTAB (576p)
 https://sdm.telewebion.com/live/aftab/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-country="IR" tvg-language="" tvg-logo="" group-title="Undefined",AFTAB (576p)
+https://sdw.telewebion.com/live/aftab/playlist.m3u8
 #EXTINF:-1 tvg-id="AfyonTurkTV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.ibb.co/tXbD8Sz/8A1HOMZ.png" group-title="Undefined",Afyon Türk TV (720p)
 https://5be5d840359c6.streamlock.net/afyonturktv/afyonturktv/playlist.m3u8
 #EXTINF:-1 tvg-id="AghapyTV.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="https://www.lyngsat.com/logo/tv/aa/aghapy_tv.png" group-title="Religious",Aghapy TV (1080p) [Not 24/7]
@@ -77,12 +77,10 @@ https://live-1.linuxway.info/aqsatv/live/tv/playlist.m3u8
 https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="AE" tvg-language="" tvg-logo="" group-title="Undefined",Al Arabiya (1080p)
 https://shls-alarabiya-prod-dub.shahid.net/out/v1/f5f319206ed740f9a831f2097c2ead23/index.m3u8
-#EXTINF:-1 tvg-id="AlArabiyaAlHadath.ae" tvg-country="AE" tvg-language="Arabic" tvg-logo="https://i.imgur.com/rLR5q2x.png" group-title="News",Al Arabiya Al Hadath (1080p) [Not 24/7]
-https://av.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlEkhbariya.sa" tvg-country="SA" tvg-language="Arabic" tvg-logo="https://i.imgur.com/NciF5rO.png" group-title="News",Al Ekhbariya (1080p)
-http://www.elahmad.com/tv/m3u8/online_live_6_tv.m3u8?id=saudi_thikrayat
-#EXTINF:-1 tvg-id="AlGhad.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="https://www.alghad.tv/wp-content/uploads/2018/10/AlGhad_2x-2-1.png" group-title="Undefined",Al Ghad (720p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/alghadtv/live
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/ekhbariyatv/live
+#EXTINF:-1 tvg-id="AlArabiyaAlHadath.ae" tvg-country="AE" tvg-language="Arabic" tvg-logo="https://i.imgur.com/rLR5q2x.png" group-title="News",Al Hadath TV (1080p)
+https://shls-hadath-prod-dub.shahid.net/out/v1/0e1a306399c346faac4226aa0858f99b/index.m3u8
 #EXTINF:-1 tvg-id="AlHayatTV.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="https://i.imgur.com/9HocMyE.jpg" group-title="Religious",Al Hayat TV (720p)
 http://media.islamexplained.com:1935/live/_definst_mp4:ahme.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="SA" tvg-language="" tvg-logo="" group-title="Undefined",AL HOKAIR Group TV (576p)
@@ -104,8 +102,9 @@ http://ott-cdn.ucom.am/s69/index.m3u8
 https://live-hls-web-aja.getaj.net/AJA/index.m3u8
 #EXTINF:-1 tvg-id="AlJazeeraBalkans.qa" tvg-country="QA" tvg-language="Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/9f/Al_Jazeera_Balkans.png" group-title="News",Al Jazeera Balkans (1080p)
 https://live-hls-web-ajb.getaj.net/AJB/index.m3u8
-#EXTINF:-1 tvg-id="AlJazeeraDocumentary.qa" tvg-country="QA" tvg-language="Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e6/Al_Jazeera_Doc.png" group-title="News",Al Jazeera Documentary (270p) [Geo-blocked]
-https://live-hls-web-ajd.getaj.net/AJD/index.m3u8
+#EXTINF:-1 tvg-id="AlJazeeraDocumentary.qa" tvg-country="QA" tvg-language="Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e6/Al_Jazeera_Doc.png" group-title="News",Al Jazeera Documentary (576p) [Not 24/7]
+#EXTVLCOPT:http-referrer=http://azrotv.com/
+http://teledunet.com:8080/live/azrotv/azrotv2021/10040.m3u8
 #EXTINF:-1 tvg-id="AlJazeeraEnglish.qa" tvg-country="QA" tvg-language="English" tvg-logo="https://rndcdn.dstv.com/dstvcms/2016/06/14/DStvNowApp_AlJazeera_new4-4logo_001_xlrg.png" group-title="News",Al Jazeera English (1080p)
 https://live-hls-web-aje.getaj.net/AJE/index.m3u8
 #EXTINF:-1 tvg-id="AlJazeeraMubasher.qa" tvg-country="QA" tvg-language="Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/90/Al_Jazeera_Mubasher_logo.png" group-title="News",Al Jazeera Mubasher (1080p)
@@ -214,8 +213,6 @@ https://master.starmena-cloud.com/hls/yemenshabab.m3u8
 https://ammantv.c.s73cdn.net/23153d43-375a-472a-bc5f-9827582b5d22/elemental/live/master.m3u8
 #EXTINF:-1 tvg-id="AMOOZESH.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Undefined",AMOOZESH (576p)
 https://sdm.telewebion.com/live/amouzesh/playlist.m3u8
-#EXTINF:-1 tvg-id="AmozhgaryTV.iq" tvg-country="IQ" tvg-language="Arabic" tvg-logo="https://www.lyngsat.com/logo/tv/aa/amozhgary-tv-iq.png" group-title="Undefined",Amozhgary TV (1080p)
-https://media.streambrothers.com:1936/8248/8248/playlist.m3u8
 #EXTINF:-1 tvg-id="AppleAflam.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="" group-title="Undefined",Apple Aflam (576p) [Timeout]
 http://213.162.202.5:4000/play/a09p/index.m3u8
 #EXTINF:-1 tvg-id="AppleAlwan.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="" group-title="Undefined",Apple Alwan (576p) [Timeout]
@@ -263,7 +260,7 @@ http://51.210.199.4/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AyenehTV.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="https://www.ayeneh.org/wp-content/uploads/2016/04/Ayeneh-TV-April-16-400x223.png" group-title="Undefined",Ayeneh TV (720p) [Not 24/7]
 https://livestream.5centscdn.com/cls040318/b0d2763968fd0bdd2dc0d44ba2abf9ce.sdp/index.m3u8
 #EXTINF:-1 tvg-id="AzarbayjanGharbi.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Undefined",Azarbayjan Gharbi (576p)
-https://sdm.telewebion.com/live/azarbayjangharbi/playlist.m3u8
+https://sdw.telewebion.com/live/azarbayjangharbi/playlist.m3u8
 #EXTINF:-1 tvg-id="BabylonTV.iq" tvg-country="IQ" tvg-language="Arabic" tvg-logo="https://www.lyngsat.com/logo/tv/bb/babylon_tv_iq.png" group-title="Undefined",Babylon TV (720p) [Offline]
 https://iqlivestream.com/live/babylontv.flv
 #EXTINF:-1 tvg-id="BahiaTV.dz" tvg-country="DZ" tvg-language="Arabic" tvg-logo="https://i.imgur.com/oBRXuH2.png" group-title="Undefined",Bahia TV [Geo-blocked]
@@ -309,7 +306,7 @@ https://waw2.artiyerelmedya.net/astv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="BursaTV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/9gta3PU.png" group-title="Undefined",Bursa TV (720p) [Not 24/7]
 https://cdn-bursatv.yayin.com.tr/bursatv/bursatv/playlist.m3u8
 #EXTINF:-1 tvg-id="Bushehr.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Undefined",Bushehr (576p) [Not 24/7]
-https://sdm.telewebion.com/live/bushehr/playlist.m3u8
+https://sdw.telewebion.com/live/bushehr/playlist.m3u8
 #EXTINF:-1 tvg-id="CaltexTV.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Music",Caltex TV (720p) [Not 24/7]
 https://vid1.caltexmusic.com/hls/caltextv.m3u8
 #EXTINF:-1 tvg-id="CanTV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.ibb.co/qdBr2fH/kgwc6oT.jpg" group-title="Undefined",Can TV (720p) [Not 24/7]
@@ -318,14 +315,14 @@ http://163.172.39.215:25461/live/line/C4@!a3a1@!w72A/105.m3u8
 http://176.10.117.18:8000/play/a004/index.m3u8
 #EXTINF:-1 tvg-id="CanalAlgerie.dz" tvg-country="DZ" tvg-language="Arabic" tvg-logo="https://i.imgur.com/FPmDhNH.png" group-title="Undefined",Canal Algérie [Geo-blocked]
 https://cdn02.hta.dz/abr_htatv/CANAL_ALGERIE/playlist.m3u8
+#EXTINF:-1 tvg-id="CanalAtlasFight.ma" tvg-country="MA" tvg-language="Arabic" tvg-logo="https://i.imgur.com/VQUrMjE.png" group-title="General",Canal Atlas Fight (616p) [Offline]
+https://edge.vedge.infomaniak.com/livecast/ik:atlasfight/manifest.m3u8
 #EXTINF:-1 tvg-id="CartoonNetworkArabic.us" tvg-country="MENA;MIDEAST" tvg-language="Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Cartoon_Network_Arabic_logo.png/693px-Cartoon_Network_Arabic_logo.png" group-title="Kids",Cartoon Network Arabic (1080p)
 https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index.m3u8
 #EXTINF:-1 tvg-id="CayTV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.ibb.co/80d40Qb/e2K5ixJ.png" group-title="Undefined",Cay TV (720p) [Not 24/7]
 http://stream2.taksimbilisim.com:1935/caytv/bant1/CAYTV.m3u8
 #EXTINF:-1 tvg-id="CBC.az" tvg-country="AZ;GE;TR" tvg-language="Armenian;Azerbaijani;English;Persian;Russian" tvg-logo="https://i.imgur.com/wVT0dwO.png" group-title="News",CBC (720p) [Not 24/7]
 http://cbctvlive.flashmediacast.com:1935/CBCTVLive/livestream/playlist.m3u8
-#EXTINF:-1 tvg-id="CBC.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="https://media.elcinema.com/tvguide/1198_1.png" group-title="Undefined",CBC (720p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/cbcstream/live
 #EXTINF:-1 tvg-id="CekmekoyTV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/sjAGFWu.png" group-title="Undefined",Cekmeköy TV (1080p)
 https://cdn-cekmekoybeltv.yayin.com.tr/cekmekoybeltv/cekmekoybeltv/playlist.m3u8
 #EXTINF:-1 tvg-id="CemTV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://izmottvsc23.tvplus.com.tr:33207/CPS/images/universal/film/poster/20140406/001300/001300000008479048/646fea6f-1ac6-4ce1-9975-de445f45d28b.png" group-title="Undefined",Cem TV (576p) [Not 24/7]
@@ -418,8 +415,9 @@ https://cdn02.hta.dz/abr_htatv/EL_FADJR_TV_DZ/playlist.m3u8
 https://cdn02.hta.dz/abr_htatv/EL_HAYAT_TV_ALGERIE/playlist.m3u8
 #EXTINF:-1 tvg-id="ElHeddafTV.fr" tvg-country="DZ" tvg-language="Arabic" tvg-logo="https://i.imgur.com/qd1sCE8.png" group-title="Undefined",El Heddaf TV [Geo-blocked]
 https://cdn02.hta.dz/abr_htatv/EL_HEDDAF_TV/htatv/EL_HEDDAF_TV_720p/chunks.m3u8
-#EXTINF:-1 tvg-id="ElHiwarElTounsi.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://www.elhiwarettounsi.com/images/news/logo.png" group-title="General",El Hiwar El Tounsi (1080p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/video/k2IuM11CZakq4ZvrUkv
+#EXTINF:-1 tvg-id="ElHiwarElTounsi.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://www.elhiwarettounsi.com/images/news/logo.png" group-title="General" user-agent="TNAgexpl212C",El Hiwar El Tounsi (400p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=TNAgexpl212C
+http://217.182.137.206/elhiwar.m3u8
 #EXTINF:-1 tvg-id="ElbesharaGTV.us" tvg-country="EG;US" tvg-language="Arabic" tvg-logo="https://i.imgur.com/wup8DKR.jpg" group-title="Religious",Elbeshara GTV (1080p) [Not 24/7]
 http://media3.smc-host.com:1935/elbesharagtv.com/gtv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ElmasTV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="" group-title="Undefined",Elmas TV (720p) [Not 24/7]
@@ -441,11 +439,9 @@ http://win20.yayin.com.tr/ertsahtv/ertsahtv/playlist.m3u8
 #EXTINF:-1 tvg-id="ErzurumWebTV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="" group-title="Undefined",Erzurum Web TV (720p)
 https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/playlist.m3u8
 #EXTINF:-1 tvg-id="ESFAHAN.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Undefined",ESFAHAN (576p)
-https://sdw.telewebion.com/live/esfahan/playlist.m3u8
-#EXTINF:-1 tvg-id="ESHRAGH.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Undefined",ESHRAGH (576p) [Timeout]
-https://sdm.telewebion.com/live/eshragh/playlist.m3u8
-#EXTINF:-1 tvg-id="ETVManisa.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.ibb.co/QKXtdkz/sOd3INg.png" group-title="Undefined",ETV Manisa (1080p) [Not 24/7]
-https://broadcasttr.com:446/manisaetv/bant1/playlist.m3u8
+https://sdm.telewebion.com/live/esfahan/playlist.m3u8
+#EXTINF:-1 tvg-id="ESHRAGH.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Undefined",ESHRAGH (576p)
+https://sdw.telewebion.com/live/eshragh/playlist.m3u8
 #EXTINF:-1 tvg-id="Euro90Channel.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://www.lyngsat.com/logo/tv/ee/euro-90-tr.png" group-title="Undefined",Euro 90 Channel (1080p) [Not 24/7]
 https://ssl4.radyotvonline.com/e90tv/e90tvlive/playlist.m3u8
 #EXTINF:-1 tvg-id="EXPO2020.ae" tvg-country="AE" tvg-language="Arabic" tvg-logo="" group-title="Undefined",EXPO 2020 (1080p)
@@ -455,7 +451,7 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel
 #EXTINF:-1 tvg-id="FajerTV.jo" tvg-country="JO" tvg-language="Arabic" tvg-logo="" group-title="Undefined",Fajer TV (720p)
 http://two.alfajertv.com:8081/AlfajertvHDTwo_web/web/playlist.m3u8
 #EXTINF:-1 tvg-id="FARS.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Undefined",FARS (576p)
-https://sdw.telewebion.com/live/fars/playlist.m3u8
+https://sdm.telewebion.com/live/fars/playlist.m3u8
 #EXTINF:-1 tvg-id="FenerbahceTVFBTV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="" group-title="Undefined",Fenerbahçe TV (FBTV) (480p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/video/x21oo10
 #EXTINF:-1 tvg-id="FinansTurkTV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.ibb.co/wBwmB1T/iY0osc7.png" group-title="Undefined",Finans Turk TV (720p)
@@ -500,8 +496,6 @@ http://yerelmedya.tv:1935/grt/_definst_/bant1/playlist.m3u8
 https://owifavo5.rocketcdn.com/gstv/gstv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="GunesTVKibris.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="" group-title="Undefined",Güneş TV Kibris (720p) [Not 24/7]
 http://kuzeykibris.tv/m3u8/tv_gunes.m3u8
-#EXTINF:-1 tvg-id="GuneydoguTV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/JT5pp3Y.png" group-title="Undefined",Guneydoğu TV (720p) [Not 24/7]
-http://stream2.taksimbilisim.com:1935/gtv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="Haber61TV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/RhPIYKu.jpg" group-title="Undefined",Haber61 TV (720p) [Not 24/7]
 https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="TR" tvg-language="" tvg-logo="" group-title="Undefined",Haber61 TV (720p) [Not 24/7]
@@ -517,7 +511,7 @@ https://live1.panet.co.il/edge_abr/halaTV/playlist.m3u8
 #EXTINF:-1 tvg-id="HalabTodayTV.sy" tvg-country="SY" tvg-language="Arabic" tvg-logo="https://halabtodaytv.net/wp-content/uploads/2020/12/%D8%AD%D9%84%D8%A8-%D8%A7%D9%84%D9%8A%D9%88%D9%85-170-01.png" group-title="News",Halab Today TV (480p) [Not 24/7]
 http://streaming.tootvs.com:1935/8010/8010/playlist.m3u8
 #EXTINF:-1 tvg-id="HAMEDAN.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Undefined",HAMEDAN (576p)
-https://sdw.telewebion.com/live/sina/playlist.m3u8
+https://sdm.telewebion.com/live/sina/playlist.m3u8
 #EXTINF:-1 tvg-id="HAMOON.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Undefined",HAMOON (576p) [Timeout]
 https://sdm.telewebion.com/live/hamoon/playlist.m3u8
 #EXTINF:-1 tvg-id="HastiTV.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Undefined",Hasti TV (1080p) [Not 24/7]
@@ -536,8 +530,8 @@ https://live.presstv.ir/live/smil:live.smil/playlist.m3u8
 http://51.210.199.12/hls/stream.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="EG" tvg-language="" tvg-logo="" group-title="Undefined",Huda (720p) [Timeout]
 https://cdn.videoevent.live:19360/elfaro2/elfaro2.m3u8
-#EXTINF:-1 tvg-id="HunatTV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="" group-title="Undefined",Hunat TV (480p) [Not 24/7]
-https://59cba4d34b678.streamlock.net/canlitv/hunattv/playlist.m3u8
+#EXTINF:-1 tvg-id="HunatTV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="" group-title="Undefined",Hunat TV (480p) [Geo-blocked]
+https://waw2.artiyerelmedya.net/hunattv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="IBBTV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/aXxAz84.png" group-title="Undefined",IBB TV (1080p)
 http://wowza.istweb.tv:1935/webtv/webtv_wowza1/playlist.m3u8
 #EXTINF:-1 tvg-id="IcelTV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/CGwImKv.png" group-title="Undefined",Icel TV (720p) [Not 24/7]
@@ -555,7 +549,7 @@ https://live1.presstv.ir/live/ifilm2.m3u8
 #EXTINF:-1 tvg-id="IFMTV.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://www.ifm.tn/images/logo.png" group-title="Music",IFM TV (720p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/RadioIfmTunisia/live
 #EXTINF:-1 tvg-id="ILAM.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Undefined",ILAM (576p)
-https://sdm.telewebion.com/live/ilam/playlist.m3u8
+https://sdw.telewebion.com/live/ilam/playlist.m3u8
 #EXTINF:-1 tvg-id="ImamHusseinTV1Farsi.iq" tvg-country="IQ" tvg-language="Persian" tvg-logo="https://ihttps://www.dijlah.tv/templates/default-2/images/dlogo.png.imgur.com/ocyh4DD.jpg" group-title="Religious",Imam Hussein TV 1 Farsi (360p)
 https://live.imamhossaintv.com/live/ih1.m3u8
 #EXTINF:-1 tvg-id="ImamHusseinTV2Arabic.iq" tvg-country="IQ" tvg-language="Arabic" tvg-logo="https://i.imgur.com/ocyh4DD.jpg" group-title="Religious",Imam Hussein TV 2 Arabic (360p)
@@ -593,7 +587,7 @@ https://dacastmmd.mmdlive.lldns.net/dacastmmd/f05d55e42dc746c8bd36edafbace7cc1/p
 #EXTINF:-1 tvg-id="ITN.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Entertainment",ITN (720p) [Not 24/7]
 http://51.210.199.31/hls/stream.m3u8
 #EXTINF:-1 tvg-id="JAHANBIN.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Undefined",JAHANBIN (576p)
-https://sdm.telewebion.com/live/jahanbin/playlist.m3u8
+https://sdw.telewebion.com/live/jahanbin/playlist.m3u8
 #EXTINF:-1 tvg-id="JamahiriaTV.ly" tvg-country="LY" tvg-language="Arabic" tvg-logo="https://www.ljbctv.tv/logo.png" group-title="News",Jamahiria TV (480p) [Not 24/7]
 https://master.starmena-cloud.com/hls/jam.m3u8
 #EXTINF:-1 tvg-id="JawharaFM.jo" tvg-country="JO" tvg-language="Arabic" tvg-logo="https://www.jawharafm.net/ar/static/fr/image/png/logo-jfm.png" group-title="Music",Jawhara FM (720p) [Not 24/7]
@@ -642,8 +636,6 @@ http://212.174.58.161/hls-live/livepkgr/_definst_/liveevent/kanalb.m3u8
 http://163.172.39.215:25461/live/line/C4@!a3a1@!w72A/66.m3u8
 #EXTINF:-1 tvg-id="KanalFirat.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/QhfTGyS.jpg" group-title="Undefined",Kanal Firat (720p) [Not 24/7]
 https://waw2.artiyerelmedya.net/kanalfirat/bant1/playlist.m3u8
-#EXTINF:-1 tvg-id="KanalUrfa.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/lACpflT.png" group-title="Undefined",Kanal Urfa (576p) [Not 24/7]
-https://broadcasttr.com:446/kanalurfa/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="KanalV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://izmottvsc23.tvplus.com.tr:33207/CPS/images/universal/film/poster/fileEntity/20170221/001300/001300000002742527/d3cdff38-e389-49f1-a54c-63f9bf4194aa.png" group-title="Undefined",Kanal V (720p) [Not 24/7]
 http://yerelmedya.tv:1935/kanalv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="KanalZ.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/elAlSno.png" group-title="Undefined",Kanal Z (720p) [Geo-blocked]
@@ -663,9 +655,7 @@ https://sdm.telewebion.com/live/khorasanrazavi/playlist.m3u8
 #EXTINF:-1 tvg-id="KHSHOMALI.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Undefined",KH.SHOMALI (576p) [Not 24/7]
 https://sdm.telewebion.com/live/atrak/playlist.m3u8
 #EXTINF:-1 tvg-id="KHALIJEFARS.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Undefined",KHALIJEFARS (576p) [Not 24/7]
-https://sdw.telewebion.com/live/khalijefars/playlist.m3u8
-#EXTINF:-1 tvg-id="KhaterehTV.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Movies",Khatereh TV (368p) [Geo-blocked]
-https://5caf24a595d94.streamlock.net:1937/8130/8130/playlist.m3u8
+https://sdm.telewebion.com/live/khalijefars/playlist.m3u8
 #EXTINF:-1 tvg-id="KHOOZESTAN.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Undefined",KHOOZESTAN (576p) [Timeout]
 https://sdm.telewebion.com/live/khoozestan/playlist.m3u8
 #EXTINF:-1 tvg-id="KirkukTV.iq" tvg-country="IQ" tvg-language="Arabic" tvg-logo="https://www.lyngsat.com/logo/tv/kk/kirkuk-tv-iq.png" group-title="Undefined",Kirkuk TV (576p) [Not 24/7]
@@ -818,8 +808,6 @@ http://51.210.227.130/hls/stream.m3u8
 https://nbntv.me:8443/nbntv/index.m3u8
 #EXTINF:-1 tvg-id="NegahTV.us" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Entertainment",Negah TV (720p) [Not 24/7]
 https://iptv.negahtv.com/negahtv/playlist2/index.m3u8
-#EXTINF:-1 tvg-id="NetTV.iq" tvg-country="IQ" tvg-language="Kurdish" tvg-logo="https://i.imgur.com/CKY1SD8.png" group-title="Undefined",Net TV (480p) [Not 24/7]
-https://live.karwan.tv/karwan.tv/net-tv/playlist.m3u8
 #EXTINF:-1 tvg-id="NileTVCinema.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="https://i.imgur.com/XAYcgQb.png" group-title="Movies" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",Nile TV Cinema (576p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
 http://livestreaming5.onlinehorizons.net/hls-live/NTNNileCinema/_definst_/liveevent/livestream.m3u8
@@ -870,12 +858,10 @@ https://partwo.cdn.mangomolo.com/omlive/smil:omlive.stream.smil/playlist.m3u8
 https://partne.cdn.mangomolo.com/omsport/smil:omsport.stream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="OmanTV.om" tvg-country="OM" tvg-language="Arabic" tvg-logo="https://i.imgur.com/C7kfubs.png" group-title="General",Oman TV (1080p)
 https://partne.cdn.mangomolo.com/omantv/smil:omantv.stream.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="OmgChannelTV.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="https://i.imgur.com/eIHm7an.png" group-title="Undefined",Omg Channel TV (720p) [Not 24/7]
-http://media6.smc-host.com:1935/omgchannel.net/omgtv/playlist.m3u8
 #EXTINF:-1 tvg-id="OmgSeriesTV.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="https://i.imgur.com/RyzQHLH.png" group-title="Undefined",Omg Series TV (720p) [Not 24/7]
 http://media6.smc-host.com:1935/omgchannel.net/omgseries/playlist.m3u8
-#EXTINF:-1 tvg-id="OMID.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Undefined",OMID (576p) [Timeout]
-https://sdm.telewebion.com/live/omid/playlist.m3u8
+#EXTINF:-1 tvg-id="OMID.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Undefined",OMID (576p)
+https://sdw.telewebion.com/live/omid/playlist.m3u8
 #EXTINF:-1 tvg-id="OmideIran.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Entertainment",Omide Iran (720p) [Not 24/7]
 http://51.210.199.38/hls/stream.m3u8
 #EXTINF:-1 tvg-id="On4TV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.ibb.co/TtbYRZD/i3ua14I.jpg" group-title="Undefined",On4 TV (1080p) [Not 24/7]
@@ -946,8 +932,8 @@ http://51.210.199.59/hls/stream.m3u8
 https://hls.pmchd.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PMCRoyale.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="https://i.imgur.com/srVaOna.png" group-title="Music",PMC Royale (720p) [Not 24/7]
 http://51.210.199.29/hls/stream.m3u8
-#EXTINF:-1 tvg-id="POUYA.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Undefined",POUYA (720p)
-https://sdm.telewebion.com/live/pooya/playlist.m3u8
+#EXTINF:-1 tvg-id="POUYA.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Undefined",POUYA (720p) [Timeout]
+https://sdw.telewebion.com/live/pooya/playlist.m3u8
 #EXTINF:-1 tvg-id="PowerTurk.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/9OPoXQG.png" group-title="Undefined",Power Turk (1080p) [Not 24/7]
 https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="PowerTV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/291uOcR.png" group-title="Undefined",Power TV (1080p)
@@ -1037,7 +1023,7 @@ http://145.239.37.125:20458/sabantv3/sabantv3/playlist.m3u8
 #EXTINF:-1 tvg-id="SadaElbalad.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="https://elbaladtv.net/wp-content/uploads/2020/02/Sada-Logo-190.webp" group-title="Undefined",Sada Elbalad (720p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.twitch.tv/elbaladtv
 #EXTINF:-1 tvg-id="SAHAND.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Undefined",SAHAND (576p)
-https://sdw.telewebion.com/live/sahand/playlist.m3u8
+https://sdm.telewebion.com/live/sahand/playlist.m3u8
 #EXTINF:-1 tvg-id="Sahar.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Undefined",Sahar (480p)
 http://cdnlive.irib.ir/live-channels/smil:sahar3/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="IR" tvg-language="" tvg-logo="" group-title="Undefined",SAHAR KURDI (576p) [Not 24/7]
@@ -1070,8 +1056,6 @@ https://svs.itworkscdn.net/sat7parslive/sat7pars.smil/playlist_dvr.m3u8
 https://svs.itworkscdn.net/sat7turklive/sat7turk.smil/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="SatrancTV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="" group-title="Undefined",Satranç TV (480p) [Not 24/7]
 http://139.162.182.79/live/test/index.m3u8
-#EXTINF:-1 tvg-id="SawtElMada.lb" tvg-country="LB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/Kk6PSMx.png" group-title="Undefined",Sawt El Mada (460p) [Not 24/7]
-https://svs.itworkscdn.net/madalive/mada/playlist.m3u8
 #EXTINF:-1 tvg-id="SemerkandTV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/WD0JaKP.png" group-title="Undefined",Semerkand TV (720p) [Not 24/7]
 https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="SEMNAN.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Undefined",SEMNAN (576p) [Timeout]
@@ -1086,14 +1070,16 @@ https://sdw.telewebion.com/live/sepehr/playlist.m3u8
 https://streaming.zaytonatube.com:8081/ShababFM/shabab/index.m3u8
 #EXTINF:-1 tvg-id="Sharjah2.ae" tvg-country="AE" tvg-language="Arabic" tvg-logo="https://i.imgur.com/ob1GhbC.jpg" group-title="Religious",Sharjah 2 (1080p)
 https://svs.itworkscdn.net/smc2live/smc2tv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="SharjahRadioQuran.ae" tvg-country="AE" tvg-language="Arabic" tvg-logo="" group-title="Religious",Sharjah Radio Quran (1080p) [Not 24/7]
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://youtube.com/channel/UCn8lMRYDANs_1yAL3iuw7_g/live
 #EXTINF:-1 tvg-id="" tvg-country="AE" tvg-language="" tvg-logo="" group-title="Undefined",Sharjah Sports TV (1080p)
 https://svs.itworkscdn.net/smc4sportslive/smc4.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="SharjahTV.ae" tvg-country="AE" tvg-language="Arabic" tvg-logo="https://i.imgur.com/FAp0RtO.png" group-title="Religious",Sharjah TV (1080p)
 https://svs.itworkscdn.net/smc1live/smc1.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="IR" tvg-language="" tvg-logo="" group-title="Undefined",SHOMA (576p)
-https://sdm.telewebion.com/live/shoma/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="IR" tvg-language="" tvg-logo="" group-title="Undefined",SHOMA (576p)
 https://sdw.telewebion.com/live/shoma/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-country="IR" tvg-language="" tvg-logo="" group-title="Undefined",SHOMA (576p)
+https://sdm.telewebion.com/live/shoma/playlist.m3u8
 #EXTINF:-1 tvg-id="ShowTV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.ibb.co/q0jrHyZ/show.png" group-title="Undefined",Show TV (720p) [Not 24/7]
 https://tv.ensonhaber.com/tv/tr/showtv/index.m3u8
 #EXTINF:-1 tvg-id="Sigma.cy" tvg-country="CY" tvg-language="Greek" tvg-logo="" group-title="Undefined",Sigma (576p) [Not 24/7]
@@ -1122,8 +1108,6 @@ http://163.172.39.215:25461/live/line/C4@!a3a1@!w72A/24.m3u8
 https://tr.socialsmart.tv/suntv/bant1/chunks.m3u8
 #EXTINF:-1 tvg-id="SyriaTV.sy" tvg-country="SY" tvg-language="Arabic" tvg-logo="https://i.imgur.com/rKTE8Qw.png" group-title="General",Syria TV (1080p) [Not 24/7]
 https://svs.itworkscdn.net/syriatvlive/syriatv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="SyrianNewsChannel.sy" tvg-country="SY" tvg-language="Arabic" tvg-logo="https://i.imgur.com/6KUtkKz.png" group-title="News",Syrian News Channel (360p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCjmUU7Zy3BYHGSyUdRFuFIg/live
 #EXTINF:-1 tvg-id="T2TV.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="https://i.imgur.com/BwyQR6n.png" group-title="Music",T2 TV (720p) [Not 24/7]
 http://208.113.204.104:8123/live/tapesh-live-stream/index.m3u8
 #EXTINF:-1 tvg-id="TahaTV.lb" tvg-country="LB" tvg-language="Arabic" tvg-logo="https://tahatv.com/images/menue%20bar/77_46.png" group-title="Kids",Taha TV (360p) [Not 24/7]
@@ -1171,6 +1155,8 @@ https://59cba4d34b678.streamlock.net/canlitv/topraktv/playlist.m3u8
 https://59cba4d34b678.streamlock.net/canlitv/torbatv/playlist.m3u8
 #EXTINF:-1 tvg-id="TowheedTV.ae" tvg-country="AE;IR" tvg-language="Persian" tvg-logo="https://i.imgur.com/nsxrqta.jpg" group-title="Religious",Towheed TV (720p) [Not 24/7]
 http://51.210.199.1/hls/stream.m3u8
+#EXTINF:-1 tvg-id="ToyorAlJannah.jo" tvg-country="JO" tvg-language="Arabic" tvg-logo="https://i.postimg.cc/bNTHzP5g/toyor-al-janah.png" group-title="Kids",Toyor Al-Jannah (720p) [Not 24/7]
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/user/toyorlive/live
 #EXTINF:-1 tvg-id="TR24TV.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="" group-title="Undefined",TR24 TV (720p) [Not 24/7]
 https://tv.ensonhaber.com/tv/tr/24tv/index.m3u8
 #EXTINF:-1 tvg-id="TRT1.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/OoONVyI.png" group-title="Undefined",TRT 1 (720p) [Geo-blocked]
@@ -1194,11 +1180,11 @@ https://sdm.telewebion.com/live/tv2/playlist.m3u8
 #EXTINF:-1 tvg-id="TV3.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Undefined",TV3 (480p) [Not 24/7]
 https://sdm.telewebion.com/live/tv3/playlist.m3u8
 #EXTINF:-1 tvg-id="TV4.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Undefined",TV4 (576p)
-https://sdm.telewebion.com/live/tv4/playlist.m3u8
+https://sdw.telewebion.com/live/tv4/playlist.m3u8
 #EXTINF:-1 tvg-id="TV4.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/gnkPxVV.png" group-title="Undefined",TV4 (720p)
 https://turkmedya-live.ercdn.net/tv4/tv4_720p.m3u8
 #EXTINF:-1 tvg-id="TV5.ir" tvg-country="IR" tvg-language="Persian" tvg-logo="" group-title="Undefined",TV5 (576p)
-https://sdm.telewebion.com/live/tehran/playlist.m3u8
+https://sdw.telewebion.com/live/tehran/playlist.m3u8
 #EXTINF:-1 tvg-id="TV7Elmaarifa.dz" tvg-country="DZ" tvg-language="Arabic" tvg-logo="https://i.imgur.com/dYlAfFZ.png" group-title="Undefined",TV7 Elmaarifa [Geo-blocked]
 https://cdn02.hta.dz/abr_htatv/TV7_ELMAARIFA/playlist.m3u8
 #EXTINF:-1 tvg-id="TV8.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/DKNwiDm.png" group-title="Undefined",TV 8 (480p) [Not 24/7]
@@ -1213,8 +1199,8 @@ http://stream.taksimbilisim.com:1935/tv41/bant1/playlist.m3u8
 http://stream.taksimbilisim.com:1935/tv52/smil:tv52.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="TR" tvg-language="" tvg-logo="" group-title="Undefined",tv100 (720p) [Not 24/7]
 https://livex458745.livestreamlive.xyz/tv100.m3u8
-#EXTINF:-1 tvg-id="TVDen.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="https://i.imgur.com/PFWOkNh.png" group-title="Undefined",TV Den (576p) [Not 24/7]
-http://canli.tvden.com.tr/hls/live.m3u8
+#EXTINF:-1 tvg-id="" tvg-country="TR" tvg-language="" tvg-logo="" group-title="Undefined",tv100 (1080p) [Not 24/7]
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/watch?v=8jEXHzMTR7s
 #EXTINF:-1 tvg-id="TVEm.tr" tvg-country="TR" tvg-language="Turkish" tvg-logo="" group-title="Undefined",TV Em (486p)
 http://cdn-tvem.yayin.com.tr/TVEM/TVEM/playlist.m3u8
 #EXTINF:-1 tvg-id="TVSeventeen.lb" tvg-country="LB" tvg-language="Arabic" tvg-logo="https://www.tvseventeen.com/img/logo.png" group-title="News",TV Seventeen (720p)
@@ -1251,9 +1237,8 @@ http://yayin3.canlitv.com:1935/live/vuslattv/HasBahCa.m3u8
 https://live.karwan.tv/karwan.tv/waar-tv/playlist.m3u8
 #EXTINF:-1 tvg-id="WatanTV.eg" tvg-country="EG" tvg-language="Arabic" tvg-logo="https://watanegypt.tv/wp-content/uploads/2021/10/Logo2020-1-1.png" group-title="General",Watan TV (1080p)
 https://cdg8.edge.technocdn.com/watantv/live/playlist.m3u8
-#EXTINF:-1 tvg-id="Watania2.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://tunisietv.com/wp-content/uploads/2015/05/Logo_Wataniya_2.png" group-title="General" user-agent="TNAgexpl212C",Watania 2 (400p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=TNAgexpl212C
-http://217.182.137.206/tunisie2.m3u8
+#EXTINF:-1 tvg-id="Watania2.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://tunisietv.com/wp-content/uploads/2015/05/Logo_Wataniya_2.png" group-title="General",Watania 2 (480p) [Not 24/7]
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/Watania2Replay/live
 #EXTINF:-1 tvg-id="WatarTV.ps" tvg-country="PS" tvg-language="Arabic" tvg-logo="" group-title="Undefined",Watar TV (720p) [Not 24/7]
 http://htvint.mada.ps:8889/orient/index.m3u8
 #EXTINF:-1 tvg-id="WattanTV.ps" tvg-country="PS" tvg-language="Arabic" tvg-logo="" group-title="Undefined",Wattan TV (720p) [Not 24/7]
