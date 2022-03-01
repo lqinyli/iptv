@@ -1,6 +1,4 @@
 #EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ch/tv.blue.ch.epg.xml,https://iptv-org.github.io/epg/guides/de/hd-plus.de.epg.xml,https://iptv-org.github.io/epg/guides/dk/allente.se.epg.xml,https://iptv-org.github.io/epg/guides/gr/cosmote.gr.epg.xml,https://iptv-org.github.io/epg/guides/it/guidatv.sky.it.epg.xml,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml,https://iptv-org.github.io/epg/guides/se/allente.se.epg.xml,https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml,https://iptv-org.github.io/epg/guides/uk/ontvtonight.com.epg.xml"
-#EXTINF:-1 tvg-id="" tvg-country="AT" tvg-language="" tvg-logo="" group-title="Undefined",Antenne Vorarlberg (720p) [Not 24/7]
-https://5857db5306b83.streamlock.net/antennevorarlberg-live/mp4:livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="BBCNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/united-kingdom/bbc-news-uk.png" group-title="News",BBC News (540p) [Geo-blocked]
 https://vs-hls-push-uk-live.akamaized.net/x=3/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_sd_abr_v2.m3u8
 #EXTINF:-1 tvg-id="BBCWorldNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/Nx0BRdV.png" group-title="News",BBC World News (576p)
@@ -24,7 +22,7 @@ https://5856e1a25f71a.streamlock.net/easycast9-live/mp4:livestreamhd5/playlist.m
 http://f24hls-i.akamaihd.net/hls/live/221147/F24_EN_HI_HLS/master.m3u8
 #EXTINF:-1 tvg-id="FS1Salzburg.at" tvg-country="AT" tvg-language="German" tvg-logo="https://i.imgur.com/HSRpYUl.jpg" group-title="Undefined",FS1 Salzburg (720p) [Not 24/7]
 http://stream.fs1.tv:8080/hls/webstream.m3u8
-#EXTINF:-1 tvg-id="GoTV.at" tvg-country="AT" tvg-language="German" tvg-logo="https://ocdn.eu/ptv2-images-transforms/1/dhqkrZsb2dvLW1pZ3JhdGVkL2dvdHYucG5nkpUCZADCw5UCACjCww" group-title="Undefined",GoTV (576p) [Timeout]
+#EXTINF:-1 tvg-id="GoTV.at" tvg-country="AT" tvg-language="German" tvg-logo="https://ocdn.eu/ptv2-images-transforms/1/dhqkrZsb2dvLW1pZ3JhdGVkL2dvdHYucG5nkpUCZADCw5UCACjCww" group-title="Undefined",GoTV (576p)
 https://nstream17.gotv.at:1443/live/gotvlive/manifest.mpd
 #EXTINF:-1 tvg-id="HitradioO3.at" tvg-country="AT" tvg-language="German" tvg-logo="https://i.imgur.com/pb4Iqno.png" group-title="Undefined",Hitradio Ö3 (720p) [Not 24/7]
 https://studiocam-oe3.mdn.ors.at/out/u/studiocam_oe3/q6a/manifest_1.m3u8
@@ -42,6 +40,8 @@ https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeF
 https://varoe24live.sf.apa.at/oe24-live1/oe24.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ORF1.at" tvg-country="AT" tvg-language="German" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/ORF1_logo.svg/1280px-ORF1_logo.svg.png" group-title="General",ORF 1 (720p) [Geo-blocked]
 https://orf1.mdn.ors.at/out/u/orf1/qxb/manifest.m3u8
+#EXTINF:-1 tvg-id="ORF2.at" tvg-country="AT" tvg-language="German" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/ORF2_logo_n.svg/1280px-ORF2_logo_n.svg.png" group-title="Undefined",ORF 2 (540p) [Geo-blocked]
+https://orf2.mdn.ors.at/out/u/orf2/qxb/manifest.m3u8
 #EXTINF:-1 tvg-id="ORF3.at" tvg-country="AT" tvg-language="German" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/40/ORF_III_Logo.png" group-title="Undefined",ORF 3 (720p) [Geo-blocked]
 https://orf3.mdn.ors.at/out/u/orf3/qxb/manifest.m3u8
 #EXTINF:-1 tvg-id="ORFSportPlus.at" tvg-country="AT" tvg-language="German" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/ORF_Sport%2B.svg/1200px-ORF_Sport%2B.svg.png" group-title="Sports",ORF Sport+ (540p) [Geo-blocked]
@@ -54,7 +54,7 @@ https://ms01.w24.at/R9/smil:liveeventR9.smil/playlist.m3u8
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 #EXTINF:-1 tvg-id="RTDocumentary.ru" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/XJGki3v.png" group-title="Documentary",RT Documentary (1080p)
 https://rt-rtd.gcdn.co/live/rtdoc/playlist.m3u8
-#EXTINF:-1 tvg-id="RTNews.ru" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/tyXIHlj.png" group-title="News",RT News (1080p) [Timeout]
+#EXTINF:-1 tvg-id="RTNews.ru" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/tyXIHlj.png" group-title="News",RT News (1080p)
 https://strm.yandex.ru/kal/rt_hd/rt_hd0.m3u8
 #EXTINF:-1 tvg-id="RTV.at" tvg-country="AT" tvg-language="German" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/rtvat.png" group-title="Undefined",RTV (1080p)
 http://iptv.rtv-ooe.at/stream.m3u8
