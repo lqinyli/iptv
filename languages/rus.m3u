@@ -221,6 +221,8 @@ http://cdn-01.bonus-tv.ru:8080/vmesterf/index.m3u8
 https://strm.yandex.ru/kal/volgograd1/volgograd10.m3u8
 #EXTINF:-1 tvg-id="Vremya.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://avatars.mds.yandex.net/get-tv-channel-logos/69315/2a000001760a065ea1993452925ecf9814b5/184x140" group-title="Undefined",Время (576p)
 http://91.185.3.218:4000/play/607
+#EXTINF:-1 tvg-id="GlassRU.ua" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/YhRpb2Y.png" group-title="Religious",Гласс (RU) (576p) [Not 24/7]
+https://glas.org.ua/hls/glassru.m3u8
 #EXTINF:-1 tvg-id="Guberniya33.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/svJXsxD.png" group-title="General",Губерния 33 (Владимир) (360p)
 https://live-trc33.cdnvideo.ru/trc33/trc33.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="Dagestan.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://rgvktv.ru/templates/gk_gamenews_new/images/footer-logo.png" group-title="Undefined",Дагестан (1080p)
@@ -270,8 +272,6 @@ http://91.185.3.218:4000/play/604
 https://sc.id-tv.kz/Kinomix_hd.m3u8
 #EXTINF:-1 tvg-id="Kinosvidanie.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://cdn.red-media.ru/wp-content/uploads/2019/12/kinosvidanie(1).png" group-title="Movies",Киносвидание (1080p) [Not 24/7]
 https://sc.id-tv.kz/Kinosvidanie_hd.m3u8
-#EXTINF:-1 tvg-id="Kinohit.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://cdn.red-media.ru/wp-content/uploads/2019/12/kinohit(1).png" group-title="Movies",Кинохит (404p) [Not 24/7]
-https://sc.id-tv.kz/Kinohit_hd.m3u8
 #EXTINF:-1 tvg-id="KlassikaKino.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/vr7HAXh.jpeg" group-title="Movies",Классика Кино (720p) [Geo-blocked]
 https://strm.yandex.ru/kal/kinoclassic/kinoclassic0.m3u8
 #EXTINF:-1 tvg-id="Komediynoe.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://avatars.mds.yandex.net/get-tv-channel-logos/30303/2a0000016929eb3477b344281e4cc3d0850b/170x100" group-title="Undefined",Комедийное (540p)
@@ -334,6 +334,10 @@ http://ott-cdn.ucom.am/s98/index.m3u8
 http://95.46.208.8:26259/nashe
 #EXTINF:-1 tvg-id="NebesaTV7.fi" tvg-country="RU" tvg-language="Russian" tvg-logo="https://www.nebesatv7.com/wp-content/themes/tv7-theme/assets/img/logo_nebesa_short.png" group-title="Religious",Небеса ТВ7 (720p)
 https://vod.tv7.fi/tv7-ru/tv7-ru.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="NizhniyNovgorod24.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://vestinn.ru/upload/iblock/542/5jzom1t5r5z3jmp81hjex55mxdm3a7pi/Nizhniy-Novgorod-24-290kh47-mm-72-dpi-_1_.webp" group-title="Undefined",Нижний Новгород 24 (720p) [Not 24/7]
+https://live-vestinn.cdnvideo.ru/vestinn/nn24-khl/playlist.m3u8
+#EXTINF:-1 tvg-id="NikaTV.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://nikatv.ru/public/img/logo2.png" group-title="Undefined",Ника ТВ (576p) [Not 24/7]
+https://live-nikatv.cdnvideo.ru/nikatv/nikatv.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="NovorossiyaTV.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e1/Novorussia-tv.png" group-title="Undefined",Новороссия ТВ (720p)
 http://ott.inmart.tv:8081/19/index.m3u8
 #EXTINF:-1 tvg-id="Novyymir.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/jiU4LHy.png" group-title="Undefined",Новый мир (406p) [Not 24/7]
@@ -414,9 +418,8 @@ https://n1.slavmir.tv/live/slavmir/playlist.m3u8
 https://gtrkchita.ru:8081/hls/r1-chita_360p.m3u8
 #EXTINF:-1 tvg-id="Rossiya1HD.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/BNd83AQ.png" group-title="General",Россия 1 HD (720p) [Not 24/7]
 https://a3569458063-s26881.cdn.ngenix.net/hls/russia_hd/playlist_4.m3u8
-#EXTINF:-1 tvg-id="Rossiya24.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/wu7O85f.png" group-title="News" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Россия 24 (480p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
-http://ott-cdn.ucom.am/s21/index.m3u8
+#EXTINF:-1 tvg-id="Rossiya24.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/wu7O85f.png" group-title="News",Россия 24 (480p) [Geo-blocked]
+https://okkotv-live.cdnvideo.ru/channel/Russia24.m3u8
 #EXTINF:-1 tvg-id="Rossiya24Chita.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/wu7O85f.png" group-title="News",Россия 24 (Чита) (576p)
 https://gtrkchita.ru:8081/hls/r24-chita_576p.m3u8
 #EXTINF:-1 tvg-id="RossiyaK.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/jzhrYJq.png" group-title="Culture",Россия К (480p) [Geo-blocked]
