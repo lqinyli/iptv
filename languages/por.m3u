@@ -80,7 +80,7 @@ https://stream.live.novotempo.com/tv/smil:tvnovotempo.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="PeruChannel.br" tvg-country="BR;PE" tvg-language="Portuguese;Spanish" tvg-logo="https://i.imgur.com/01KEiEp.png" group-title="General",Perú Channel (720p) [Not 24/7]
 https://stmv1.duvoxtv.com.br/novelaplz/novelaplz/playlist.m3u8
 #EXTINF:-1 tvg-id="PlutoTVNickJrClub.us" tvg-country="US" tvg-language="Portuguese" tvg-logo="https://images.pluto.tv/channels/5f121460b73ac6000719fbaf/colorLogoPNG.png" group-title="Kids",Pluto TV Nick Jr. Club (720p)
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f121460b73ac6000719fbaf/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ddd7cb2cbb9010009b4fe32/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 #EXTINF:-1 tvg-id="PortoCanal.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/ba/Logo_Porto_Canal.jpg" group-title="General",Porto Canal (360p) [Not 24/7]
 https://streamer-a01.videos.sapo.pt/live/portocanal/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioClubeTV.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/2TO0u6Z.png" group-title="General",Radio Clube TV (720p) [Not 24/7]
@@ -103,8 +103,6 @@ https://playpluspoa-lh.akamaihd.net/i/pp_poa@377864/index_720_av-p.m3u8
 https://playplusspo-lh.akamaihd.net/i/pp_sp@350176/index_720_av-p.m3u8
 #EXTINF:-1 tvg-id="RedeBrasil.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/thumb/3/39/Logotipo_da_Rede_Brasil_de_Televis%C3%A3o.png/300px-Logotipo_da_Rede_Brasil_de_Televis%C3%A3o.png" group-title="General",Rede Brasil (480p) [Not 24/7]
 https://59f2354c05961.streamlock.net:1443/rbtv/rbtv/playlist.m3u8
-#EXTINF:-1 tvg-id="RedeBrasildeComunicacao.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/iiJufN2.png" group-title="Religious",Rede Brasil de Comunicação (720p) [Not 24/7]
-http://rbc.directradios.com:1935/rbc/rbc/live.m3u8
 #EXTINF:-1 tvg-id="RedeCNTCuritiba.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/79365P2.png" group-title="Undefined",Rede CNT (Curitiba) (180p) [Not 24/7]
 https://dd8umsy8yf96u.cloudfront.net/live/cnt-curitiba.m3u8
 #EXTINF:-1 tvg-id="RedeCNTSaoPaulo.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/Og627cb.png" group-title="Undefined",Rede CNT (São Paulo) (360p) [Not 24/7]
@@ -131,8 +129,9 @@ https://59f1cbe63db89.streamlock.net:1443/redetvro/_definst_/redetvro/playlist.m
 https://59f1cbe63db89.streamlock.net:1443/redetvro/redetvro/playlist.m3u8
 #EXTINF:-1 tvg-id="RetroCartoon.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/cyfu3qP.png" group-title="Classic",Retrô Cartoon (480p) [Not 24/7]
 https://stmv1.srvif.com/retrotv/retrotv/playlist.m3u8
-#EXTINF:-1 tvg-id="RTP1.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/5-563718101410.png" group-title="General",RTP1 (480p)
-http://162.212.178.69:41042/bysid/608
+#EXTINF:-1 tvg-id="RTP1.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/5-563718101410.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",RTP1 (720p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
+https://streaming-live.rtp.pt/liverepeater/rtpClean1HD.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RTP3.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/64-393818101410.png" group-title="News" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",RTP3 (720p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
 https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8
@@ -148,6 +147,9 @@ https://streaming-live.rtp.pt/liverepeater/smil:rtpi.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RTPMadeira.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/107-443519141305.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)",RTP Madeira (504p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 https://streaming-live.rtp.pt/liverepeater/smil:rtpmadeira.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="RTPMemoria.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/80-584819141705.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",RTP Memória (360p) [Not 24/7]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
+https://streaming-live.rtp.pt/liverepeater/smil:rtpmem.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RuntimeBrazil.us" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/Runtime_120x120.png?raw=true" group-title="Movies",Runtime (Brazil) (1080p) [Geo-blocked]
 https://runtimebrazil-samsungbrazil.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="SantaCeciliaTV.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/KxYsq1d.png" group-title="Education",Santa Cecilia TV (288p) [Not 24/7]
@@ -194,7 +196,7 @@ https://streaming.almg.gov.br/live/tvalmg.m3u8
 #EXTINF:-1 tvg-id="TVAparecida.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/1e/Logotipo_da_TV_Aparecida.png" group-title="Religious",TV Aparecida (1080p) [Not 24/7]
 https://cdn.jmvstream.com/w/LVW-9716/LVW9716_HbtQtezcaw/playlist.m3u8
 #EXTINF:-1 tvg-id="TVBirigui.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/VqIzaFz.png" group-title="General",TV Birigui (320p)
-http://tv02.logicahost.com.br:1935/tvdigitalbirigui/tvdigitalbirigui/live.m3u8
+https://59f2354c05961.streamlock.net:1443/tvdigitalbirigui/tvdigitalbirigui/playlist.m3u8
 #EXTINF:-1 tvg-id="TVBNO.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://www.tvbno.com.br/images/LOGOTIPO-BNO-1.png" group-title="Music",TV BNO (270p) [Not 24/7]
 http://tv02.logicahost.com.br:1935/bonner/bonner/live.m3u8
 #EXTINF:-1 tvg-id="TVBrasil.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://cdn.mitvstatic.com/channels/br_tv-brasil_m.png" group-title="Undefined",TV Brasil
@@ -287,5 +289,3 @@ https://edge-go-01.eduplay.rnp.br/media/ocp(r(iRGrcw)t(AAAAAAAAAAA)p(d(Dxg)k(Qdk
 http://unitvaovivo.ufrgs.br:8080/live.ogg
 #EXTINF:-1 tvg-id="UPFTV.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://www.upf.br/Assets/img/logo.png" group-title="Undefined",UPFTV
 https://edge-df-01.eduplay.rnp.br/media/ocp(r(iRGrcw)t(AAAAAAAAAAA)p(d(Dxg)k(Qdk)m(Zpw89V7JSRj33uzTBmvflA)n(a(3LDBWxJLACwHVOavx5cO4BC5lA2ZDpPC)s(HrY)'a(12ztgSdgu3rQqz6xH52ZjVZa)s(Pm8)))s(t(aTo)b(PTsuEXhXAScNjp6w9ssG70foQQQiZk9_8m0vsjgLJ_yzxGPuj8i57PEDMMA4cmTNsKda2B5oX-EEErouZ1HFyvnyAaUn8qvlMJtsMkooySBOlQbVM33PgsYPQdea2BUvej3szg6oEmxOu__mykl-Ud831Jp-clI-5BB-JDM)'t(S2o)b(WaBWYarWoWCInKe38WSze3Q_-kAUqZ79MZQ)))/live_768_index.m3u8
-#EXTINF:-1 tvg-id="Yeeaah.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/TxdOyKS.png" group-title="General",Yeeaah! (720p) [Not 24/7]
-https://srv3.zcast.com.br/yeeaah/yeeaah/playlist.m3u8
