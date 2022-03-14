@@ -31,8 +31,6 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.dailymotion.com/vid
 https://static.france24.com/live/F24_AR_HI_HLS/live_tv.m3u8
 #EXTINF:-1 tvg-id="France24English.fr" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/France24.png" group-title="News",France 24 English (1080p)
 http://f24hls-i.akamaihd.net/hls/live/221147/F24_EN_HI_HLS/master.m3u8
-#EXTINF:-1 tvg-id="IFMTV.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://www.ifm.tn/images/logo.png" group-title="Music",IFM TV (720p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/RadioIfmTunisia/live
 #EXTINF:-1 tvg-id="JawharaTV.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://i.postimg.cc/xT9fsvYQ/jawhara-fm-tv.jpg" group-title="Music",JAWHARA TV (720p) [Not 24/7]
 https://streaming.toutech.net/live/jtv/index.m3u8
 #EXTINF:-1 tvg-id="MBC.ae" tvg-country="ARAB;MAGHREB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/eKBXOKd.png" group-title="General",MBC 1 KSA (1080p) [Geo-blocked]
@@ -69,12 +67,16 @@ http://199.223.252.162:8032/english_adaptive/index.m3u8
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 #EXTINF:-1 tvg-id="RTNews.ru" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/tyXIHlj.png" group-title="News",RT News (1080p)
 https://strm.yandex.ru/kal/rt_hd/rt_hd0.m3u8
+#EXTINF:-1 tvg-id="SahelTV.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://saheltv.tn/wp-content/uploads/2018/03/saheltv_logox2.png" group-title="Undefined",Sahel TV (720p) [Not 24/7]
+http://142.44.214.231:1935/saheltv/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="SkyNewsArabia.uk" tvg-country="ARAB;MAGHREB" tvg-language="Arabic" tvg-logo="https://i.imgur.com/kF7TvcH.png" group-title="News",Sky News Arabia (Portrait) (1280p) [Not 24/7]
 https://stream.skynewsarabia.com/vertical/vertical.m3u8
 #EXTINF:-1 tvg-id="TRTArabi.tr" tvg-country="ARAB;MAGHREB" tvg-language="Arabic" tvg-logo="https://i.ibb.co/HTzkq9P/iJIHMq9.png" group-title="News",TRT Arabi (720p) [Not 24/7]
 https://tv-trtarabi.live.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRTWorld.tr" tvg-country="INT" tvg-language="English" tvg-logo="https://i.ibb.co/phw4pjP/mjTjJ1N.png" group-title="News",TRT World (720p) [Not 24/7]
 https://tv-trtworld.live.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TunisieImmobilierTV.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://i.imgur.com/cZM2t0P.png" group-title="Travel",Tunisie Immobilier TV (720p) [Not 24/7]
+https://5ac31d8a4c9af.streamlock.net/tunimmob/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="TunisnaTV.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://www.lyngsat.com/logo/tv/tt/tunisna-tv-tn.png" group-title="Undefined",Tunisna TV
 http://streaming.tunisna.tv:1935/live/tunisna/playlist.m3u8
 #EXTINF:-1 tvg-id="UNWebTV.us" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/lPyJhBN.png" group-title="News",UN Web TV (540p)
@@ -83,6 +85,5 @@ https://cdnapi.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_gb6tjml
 https://shls-wanasah-prod-dub.shahid.net/out/v1/c84ef3128e564b74a6a796e8b6287de6/index.m3u8
 #EXTINF:-1 tvg-id="Watania1.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://tunisietv.com/wp-content/uploads/2015/05/El_Wataniya_1_Logo.png" group-title="General",Watania 1 (720p) [Not 24/7]
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/WataniaReplay/live
-#EXTINF:-1 tvg-id="Watania2.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://tunisietv.com/wp-content/uploads/2015/05/Logo_Wataniya_2.png" group-title="General" user-agent="TNAgexpl212C",Watania 2 (400p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=TNAgexpl212C
-http://217.182.137.206/tunisie2.m3u8
+#EXTINF:-1 tvg-id="Watania2.tn" tvg-country="TN" tvg-language="Arabic" tvg-logo="https://tunisietv.com/wp-content/uploads/2015/05/Logo_Wataniya_2.png" group-title="General",Watania 2 (480p) [Not 24/7]
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/Watania2Replay/live
