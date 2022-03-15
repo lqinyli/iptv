@@ -1,6 +1,4 @@
 #EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/bs/rev.bs.epg.xml,https://iptv-org.github.io/epg/guides/cu/tvcubana.icrt.cu.epg.xml,https://iptv-org.github.io/epg/guides/do/gatotv.com.epg.xml"
-#EXTINF:-1 tvg-id="" tvg-country="DO" tvg-language="" tvg-logo="" group-title="Undefined",AkíTV (720p) [Not 24/7]
-https://cm.hostlagarto.com:4445/Akitv/Akitv.myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="ArubaTV.aw" tvg-country="AW" tvg-language="English" tvg-logo="https://i.imgur.com/9fWY09U.png" group-title="General",Aruba.TV (1080p) [Not 24/7]
 https://ed1ov.live.opencaster.com/GzyysAAvEhht/index.m3u8
 #EXTINF:-1 tvg-id="BonceTV.cw" tvg-country="CW" tvg-language="Dutch" tvg-logo="" group-title="Undefined",Bonce TV (480p) [Not 24/7]
@@ -41,6 +39,8 @@ http://cm.hostlagarto.com:8081/Punaltv/punaltvHD.myStream/playlist.m3u8
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://livestream.com/accounts/27456795/events/8268514/player
 #EXTINF:-1 tvg-id="DigitalVision.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="" group-title="Undefined",Digital Vision (720p) [Not 24/7]
 https://ss3.domint.net:3120/dv6_str/digitalvision/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-country="DO" tvg-language="" tvg-logo="" group-title="Undefined",Ecovisión (480p) [Not 24/7]
+https://vdo1.streamgato.us:3014/live/ecovisionlive.m3u8
 #EXTINF:-1 tvg-id="EsperanceTV.mq" tvg-country="MQ" tvg-language="French" tvg-logo="https://i.imgur.com/wnz50vR.png" group-title="Religious",Espérance TV (720p) [Not 24/7]
 https://hcinteram.mmdlive.lldns.net/hcinteram/5fb30e8b271544039e79f93d4d496b25/manifest.m3u8
 #EXTINF:-1 tvg-id="FuegoTV.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/GhncyJW.png" group-title="Undefined",Fuego TV (720p) [Not 24/7]
@@ -71,8 +71,6 @@ http://stream3.prostudionetwork.com:1943/megavision/MV/playlist.m3u8
 http://190.103.183.24:1935/live/MicroHD/playlist.m3u8
 #EXTINF:-1 tvg-id="MisionELTV.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://2.bp.blogspot.com/-OiAyNltHK1c/XoR4TuBHe4I/AAAAAAAAszg/d3NIH9pHptsJ75DDyIGuGjq9cVO-of7kgCLcBGAsYHQ/s200/misioneltvlogo.png" group-title="Undefined",Mision ELTV (480p) [Not 24/7]
 https://5790d294af2dc.streamlock.net/8286/8286/playlist.m3u8
-#EXTINF:-1 tvg-id="NETALKOLETV.ht" tvg-country="HT" tvg-language="French" tvg-logo="https://i.imgur.com/OJbRkQ6.jpg" group-title="Undefined",NETALKOLE TV (720p) [Not 24/7]
-https://watch.haitilive.net/stream/netalkole/public/tv/index.m3u8
 #EXTINF:-1 tvg-id="NosIslaTV.aw" tvg-country="AW" tvg-language="Dutch;Papiamento" tvg-logo="https://i.imgur.com/Gf95oov.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36",Nos Isla TV (720p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
 https://backend-server-dot-telearuba-app.appspot.com/media/livestream23/playlist.m3u8
@@ -129,7 +127,7 @@ http://ss8.domint.net:2124/tbt_str/telebendicion/playlist.m3u8
 #EXTINF:-1 tvg-id="Telecanal28.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/wYklHWy.png" group-title="Undefined",Telecanal 28 (360p) [Geo-blocked]
 http://cm.hostlagarto.com:8081/Telecanal-28/telecanal.myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="TeleCibao.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0XRxX9IhpJdBoV0UZNy1vSZAI-YRkewjeA1Jbp7VUIUFgGRpM" group-title="Undefined",TeleCibao (720p) [Not 24/7]
-https://cm.hostlagarto.com:4445/Telecibao/Telecibao/playlist.m3u8
+http://cm.hostlagarto.com:8081/Telecibao/Telecibao/playlist.m3u8
 #EXTINF:-1 tvg-id="TeleCuracao.cw" tvg-country="CW" tvg-language="English" tvg-logo="https://i.imgur.com/9D9G4co.png" group-title="Undefined",TeleCuraçao (720p)
 http://ott.streann.com:8080/loadbalancer/services/public/channels/5ed71e232cdc24a3d08cd6de/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="DO" tvg-language="" tvg-logo="" group-title="Undefined",Telefuturo Canal 23 (720p) [Not 24/7]

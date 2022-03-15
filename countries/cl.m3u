@@ -1,6 +1,4 @@
 #EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/al/ipko.com.epg.xml,https://iptv-org.github.io/epg/guides/ar/mi.tv.epg.xml,https://iptv-org.github.io/epg/guides/bo/comteco.com.bo.epg.xml,https://iptv-org.github.io/epg/guides/ch/tv.blue.ch.epg.xml,https://iptv-org.github.io/epg/guides/cl/gatotv.com.epg.xml,https://iptv-org.github.io/epg/guides/cl/mi.tv.epg.xml,https://iptv-org.github.io/epg/guides/es/programacion-tv.elpais.com.epg.xml,https://iptv-org.github.io/epg/guides/gr/cosmote.gr.epg.xml,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml,https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml,https://iptv-org.github.io/epg/guides/uk/ontvtonight.com.epg.xml"
-#EXTINF:-1 tvg-id="K17JIDT4.us" tvg-country="HISPAM;US" tvg-language="Spanish" tvg-logo="https://i.imgur.com/4ydVVIA.png" group-title="Religious",3ABN Latino (480p)
-http://uni5rtmp.tulix.tv:1935/bettervida/bettervida/playlist.m3u8
 #EXTINF:-1 tvg-id="K18JLD2.us" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://i.imgur.com/4ydVVIA.png" group-title="Religious",3ABN Latino (720p) [Not 24/7]
 https://moiptvhls-i.akamaihd.net/hls/live/652315/secure/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="CL" tvg-language="" tvg-logo="" group-title="Undefined",24 Horas (720p) [Not 24/7]
@@ -23,6 +21,8 @@ https://livefocamundo.com:8081/arabtv/playlist.m3u8
 https://5eff35271151c.streamlock.net:1936/8002/8002/playlist.m3u8
 #EXTINF:-1 tvg-id="AtacamaTVCopiapo.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="" group-title="Undefined",Atacama TV (Copiapó) (720p) [Not 24/7]
 https://v2.tustreaming.cl/atacamatv/index.m3u8
+#EXTINF:-1 tvg-id="AutonomaTV.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="" group-title="Undefined",Autonoma TV (720p) [Not 24/7]
+https://5eff35271151c.streamlock.net:1936/8144/8144/playlist.m3u8
 #EXTINF:-1 tvg-id="AysenTV.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="" group-title="Undefined",Aysén TV (720p) [Not 24/7]
 https://v2.tustreaming.cl/aysentv/playlist.m3u8
 #EXTINF:-1 tvg-id="BajoCeroTVCorporacionEva.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="" group-title="Undefined",Bajo Cero TV (Corporación Eva) (656p)
@@ -77,8 +77,6 @@ http://209.91.213.10:8088/play/a00k
 https://hd.chileservidores.cl:1936/ceactv/ceactv/playlist.m3u8
 #EXTINF:-1 tvg-id="ChileVision.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://i.imgur.com/GAsSUqn.png" group-title="General",ChileVisión (720p) [Geo-blocked]
 http://chv-m3u.chorroaeboy.repl.co
-#EXTINF:-1 tvg-id="" tvg-country="CL" tvg-language="" tvg-logo="" group-title="Undefined",CHV Noticias (720p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCRsUoZYC1ULUspipMRnMhwg/live
 #EXTINF:-1 tvg-id="ClickTVCoronel.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="" group-title="Undefined",Click TV (Coronel) (720p)
 http://v2.tustreaming.cl/clicktv/playlist.m3u8
 #EXTINF:-1 tvg-id="CloudserverKids90.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="" group-title="Undefined",Cloudserver Kids90 (480p)
@@ -195,8 +193,8 @@ https://5eff35271151c.streamlock.net:1936/8056/8056/playlist.m3u8
 https://5eff35271151c.streamlock.net:1936/8032/8032/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioUniem.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="" group-title="Religious",Radio Uniem (480p) [Not 24/7]
 https://5eff35271151c.streamlock.net:1936/8110/8110/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioZetaTV.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://radiozeta.cl/images/logo.png" group-title="Undefined",Radio Zeta TV (480p)
-https://unlimited1-cl.dps.live/radioztv/radioztv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="RadioZetaTV.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="https://radiozeta.cl/images/logo.png" group-title="Undefined",Radio Zeta TV (240p) [Not 24/7]
+https://unlimited1-us.dps.live/radioztv/radioztv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RCKTV.cl" tvg-country="CL" tvg-language="Spanish" tvg-logo="" group-title="Music",RCK TV (720p)
 https://mediacpstreamchile.com:1936/ricardoaravena/ricardoaravena/playlist.m3u8
 #EXTINF:-1 tvg-id="RedBullTV.at" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/7NeBmWX.jpg" group-title="Sports",Red Bull TV (1080p)
