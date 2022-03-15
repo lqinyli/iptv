@@ -5,8 +5,6 @@ http://uni5rtmp.tulix.tv:1935/bettervida/bettervida/playlist.m3u8
 https://moiptvhls-i.akamaihd.net/hls/live/652315/secure/master.m3u8
 #EXTINF:-1 tvg-id="AgrotendenciaTV.cr" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/agrotendencia/picture?width=320&height=320" group-title="Outdoor",AgrotendenciaTV (480p) [Not 24/7]
 https://inliveserver.com:1936/15506/15506/playlist.m3u8
-#EXTINF:-1 tvg-id="AmericaSports.ar" tvg-country="HISPAM" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/AmericaSports/picture?width=320&height=320" group-title="Sports",América Sports (720p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCnx743KuO_16sCMIbEg7Y7Q/live
 #EXTINF:-1 tvg-id="Amordiscos.co" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://amordiscostv.com/wp-content/uploads/2021/02/thumbnail_Logo-Amordiscos-600x600-alpha-150x150.png" group-title="Music",Amordiscos (480p)
 https://5b464b69d264e.streamlock.net/Channels_live/ngrp:amordiscos_all/playlist.m3u8
 #EXTINF:-1 tvg-id="AvivamientoTV.co" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/7YB94Hf.png" group-title="Religious",Avivamiento TV (1080p) [Not 24/7]
@@ -32,8 +30,9 @@ http://200.115.193.177/live/26hd-720/playlist.m3u8
 https://cloud2.streaminglivehd.com:1936/8104/8104/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalCapital.co" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/Hlrdeds.png" group-title="General",Canal Capital (720p) [Not 24/7]
 https://mdstrm.com/live-stream-playlist/57d01d6c28b263eb73b59a5a.m3u8
-#EXTINF:-1 tvg-id="CanalCaracol.co" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/85/CaracolTelevisi%C3%B3n2019.png" group-title="General",Canal Caracol (720p) [Geo-blocked]
-https://mdstrm.com/live-stream-playlist/574463697b9817cf0886fc17.m3u8
+#EXTINF:-1 tvg-id="CanalCaracol.co" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/85/CaracolTelevisi%C3%B3n2019.png" group-title="General",Canal Caracol (432p)
+#EXTVLCOPT:http-referrer=https://ssh101.com/
+https://tna5.bozztv.com/LiveCH005/index.m3u8
 #EXTINF:-1 tvg-id="CanalCaracolHD2.co" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/85/CaracolTelevisi%C3%B3n2019.png" group-title="General",Canal Caracol HD2 (432p) [Not 24/7]
 #EXTVLCOPT:http-referrer=https://ssh101.com/
 https://tna5.bozztv.com/LiveCH008/index.m3u8
@@ -44,12 +43,8 @@ https://streaming.rtvc.gov.co/TV_CanalInstitucional_live/smil:live.smil/playlist
 #EXTINF:-1 tvg-id="CanalRCN.co" tvg-country="CO" tvg-language="Spanish" tvg-logo="" group-title="General",Canal RCN (432p) [Not 24/7]
 #EXTVLCOPT:http-referrer=https://ssh101.com/
 https://tna5.bozztv.com/LiveCH004/index.m3u8
-#EXTINF:-1 tvg-id="CanalRCNNovelas.co" tvg-country="CO" tvg-language="Spanish" tvg-logo="" group-title="Entertainment",Canal RCN Novelas (480p) [Not 24/7]
-http://38.131.11.9:1080/play/a037
 #EXTINF:-1 tvg-id="CanalSonTV.co" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://canalsontv.co/wp-content/uploads/2021/05/SON-TV-logo-jpg.jpg" group-title="Music",Canal Son TV (720p) [Not 24/7]
 https://server12.videostreaming.net:3628/stream/play.m3u8
-#EXTINF:-1 tvg-id="CanalVisionDorada.co" tvg-country="CO" tvg-language="Spanish" tvg-logo="" group-title="Undefined",Canal Visión Dorada (720p) [Not 24/7]
-https://movil.ejeserver.com/live/visiondorada.m3u8
 #EXTINF:-1 tvg-id="CartoonNetworkLatinAmerica.us" tvg-country="HISPAM" tvg-language="English" tvg-logo="https://comteco.com.bo/img/upload/canales/Y1NVpq.png" group-title="Undefined",Cartoon Network Latin America
 http://209.91.213.10:8088/play/a00k
 #EXTINF:-1 tvg-id="" tvg-country="CO" tvg-language="" tvg-logo="" group-title="Undefined",Cinema+ (720p)
@@ -124,8 +119,6 @@ https://liveingesta118.cdnmedia.tv/teleantioquialive/smil:dvrlive2.smil/playlist
 #EXTINF:-1 tvg-id="Teleantioquia.co" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://cdn.mitvstatic.com/channels/co_teleantioquia-hd_m.png" group-title="General",Teleantioquia (360p) [Not 24/7]
 #EXTVLCOPT:http-referrer=https://player.instantvideocloud.net/
 https://liveingesta118.cdnmedia.tv/teleantioquialive/smil:dvrlive.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Telecafe.co" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/telecafe-mediano.png" group-title="Undefined",Telecafé
-http://38.131.11.9:1080/play/a0ct
 #EXTINF:-1 tvg-id="Teleislas.co" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/4xNgb8H.png" group-title="General",Teleislas (486p) [Not 24/7]
 https://5ab772334c39c.streamlock.net/live-teleislas/teleislas/playlist.m3u8
 #EXTINF:-1 tvg-id="Telemedellin.co" tvg-country="CO" tvg-language="Spanish" tvg-logo="https://cdn.mitvstatic.com/channels/co_telemedellin-hd_m.png" group-title="General",Telemedellin (720p) [Not 24/7]
