@@ -5,6 +5,9 @@ http://eu2.tv4e.gr:554/live/smil:myStream.sdp.smil/playlist.m3u8
 https://s1.cystream.net/live/34100/playlist.m3u8
 #EXTINF:-1 tvg-id="AcheloosTV.gr" tvg-country="GR" tvg-language="Greek" tvg-logo="" group-title="Undefined",Acheloos TV (576p) [Not 24/7]
 http://srv.viiideo.gr:1935/axeloos/live/playlist.m3u8
+#EXTINF:-1 tvg-id="AigaioTV.gr" tvg-country="GR" tvg-language="Greek" tvg-logo="https://www.cosmote.gr/portal/image/journal/article?img_id=56014248&t=1544180256224" group-title="Undefined",Aigaio TV (360p) [Not 24/7]
+#EXTVLCOPT:http-referrer=https://ssh101.com/
+https://tna5.bozztv.com/aigaiotv1/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="GR" tvg-language="" tvg-logo="" group-title="Undefined",Alert (576p) [Not 24/7]
 https://itv.streams.ovh/ALEERT/ALEERT/playlist.m3u8
 #EXTINF:-1 tvg-id="AlfaDramas.gr" tvg-country="GR" tvg-language="Greek" tvg-logo="https://i.imgur.com/39l3uRU.jpg" group-title="Movies",Alfa Dramas (226p) [Not 24/7]
@@ -120,11 +123,11 @@ http://176.9.123.140:1935/mesogeiostv/stream/master.m3u8
 #EXTINF:-1 tvg-id="MGRTV.gr" tvg-country="GR" tvg-language="Greek" tvg-logo="https://i.imgur.com/zPyXLZs.jpg" group-title="Undefined",MGR TV (1080p) [Not 24/7]
 https://vod.streams.ovh:3876/stream/play.m3u8
 #EXTINF:-1 tvg-id="NeaTV.gr" tvg-country="GR" tvg-language="Greek" tvg-logo="https://www.cosmote.gr/portal/image/journal/article?img_id=56014344&t=1544180306377" group-title="Undefined",Nea TV (720p)
-https://live.neatv.gr:8888/hls/neatv.m3u8
+https://live.neatv.gr:8888/hls/neatv_high/index.m3u8
 #EXTINF:-1 tvg-id="NetmaxTV.gr" tvg-country="GR" tvg-language="Greek" tvg-logo="https://i.imgur.com/Wad6CD4.png" group-title="Undefined",Netmax TV (720p) [Not 24/7]
 http://live.netmaxtv.com:8080/live/live/playlist.m3u8
-#EXTINF:-1 tvg-id="NG.gr" tvg-country="GR" tvg-language="Greek" tvg-logo="https://i.imgur.com/pK2p5ey.png" group-title="Music",NG (720p)
-https://live.streams.ovh/NGradio/NGradio/playlist.m3u8
+#EXTINF:-1 tvg-id="NG.gr" tvg-country="GR" tvg-language="Greek" tvg-logo="https://i.imgur.com/pK2p5ey.png" group-title="Music",NG (614p)
+http://live.streams.ovh:1935/NGradio/NGradio/playlist.m3u8
 #EXTINF:-1 tvg-id="NotioiTV.gr" tvg-country="GR" tvg-language="Greek" tvg-logo="https://i.imgur.com/dW1bcD2.jpg" group-title="Undefined",Notioi TV (720p)
 https://live.streams.ovh/YourStreaming/YourStreaming/playlist.m3u8
 #EXTINF:-1 tvg-id="NRG91.gr" tvg-country="GR" tvg-language="Greek" tvg-logo="https://i.imgur.com/1Zl1OJ5.png" group-title="Undefined",NRG 91 (720p) [Not 24/7]
@@ -177,6 +180,8 @@ https://til.pp.ua:3424/live/superblive.m3u8
 http://wpso.com:1936/hls/music1.m3u8
 #EXTINF:-1 tvg-id="TRTWorld.tr" tvg-country="INT" tvg-language="English" tvg-logo="https://i.ibb.co/phw4pjP/mjTjJ1N.png" group-title="News",TRT World (720p) [Not 24/7]
 https://tv-trtworld.live.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TV100.gr" tvg-country="GR" tvg-language="Greek" tvg-logo="" group-title="Undefined",TV 100 (576p) [Not 24/7]
+https://live.fm100.gr/hls/tv100/index.m3u8
 #EXTINF:-1 tvg-id="TVCreta.gr" tvg-country="GR" tvg-language="Greek" tvg-logo="https://i.imgur.com/dUH5Mfw.jpg" group-title="Undefined",TV Creta (540p) [Not 24/7]
 https://live.streams.ovh/tvcreta/tvcreta/chunklist.m3u8
 #EXTINF:-1 tvg-id="TVFilopoli.gr" tvg-country="GR" tvg-language="Greek" tvg-logo="https://i.imgur.com/GdgekUL.png" group-title="Undefined",TV Filopoli (360p) [Not 24/7]
