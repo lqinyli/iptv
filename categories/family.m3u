@@ -31,7 +31,9 @@ http://c0.cdn.trinity-tv.net/stream/zfmjgma9zn46fa797ez9fgkw7msh9mj4tppspg23gey6
 https://dai2.xumo.com/amagi_hls_data_xumo1212A-petcollective/CDN/master.m3u8
 #EXTINF:-1 tvg-id="TVSFamilyChannel.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/iuQyJ7f.jpg" group-title="Family",TVS Family Channel (360p)
 https://rpn1.bozztv.com/36bay2/gusa-TVSFamilyChannel/index.m3u8
-#EXTINF:-1 tvg-id="STS.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/pJNWVAz.png" group-title="Family",СТС (576p) [Not 24/7]
-https://sc.id-tv.kz/STS.m3u8
-#EXTINF:-1 tvg-id="STSLove.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/MfNHR0L.png" group-title="Family",СТС Love (480p) [Geo-blocked]
-https://okkotv-live.cdnvideo.ru/channel/CTC_Love_OTT_2.m3u8
+#EXTINF:-1 tvg-id="STS.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/pJNWVAz.png" group-title="Family" user-agent="Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.84 Safari/537.36 CrKey/1.21a.76178",СТС (540p) [Geo-blocked]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.84 Safari/537.36 CrKey/1.21a.76178
+https://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8
+#EXTINF:-1 tvg-id="STSLove.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/MfNHR0L.png" group-title="Family" user-agent="Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.84 Safari/537.36 CrKey/1.21a.76178",СТС (540p) [Geo-blocked]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.84 Safari/537.36 CrKey/1.21a.76178
+https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8
