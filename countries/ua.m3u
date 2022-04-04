@@ -71,6 +71,8 @@ http://live.m2.tv/hls3/stream.m3u8
 https://mavtv-mavtvglobal-1-eu.rakuten.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="UA" tvg-language="" tvg-logo="" group-title="Undefined",Micto (360p)
 http://93.78.206.172:8080/stream3/stream.m3u8
+#EXTINF:-1 tvg-id="MostVideoTV.ua" tvg-country="RU;UA" tvg-language="Ukrainian" tvg-logo="" group-title="Undefined",MostVideo.TV (720p) [Not 24/7]
+http://w4.mostvideo.tv/tv/ch1.m3u8
 #EXTINF:-1 tvg-id="NTVEurope.bd" tvg-country="EUR" tvg-language="Bengali;English" tvg-logo="https://europentv.ntvbd.com/sites/all/themes/sloth/logo.png" group-title="General",NTV Europe (720p) [Not 24/7]
 https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/ntvuk00332211.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="EuronewsEnglish.fr" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/8t9mdg9.png" group-title="News",Pluto TV Euronews (720p) [Not 24/7]
@@ -146,10 +148,12 @@ http://nadiya.home-net.com.ua/mob/mystream.m3u8
 https://xx001.vivat.live/t-0301.0f6f.d/sd/00047/2m/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="UA" tvg-language="" tvg-logo="" group-title="Undefined",НТК (1080p) [Not 24/7]
 https://stream.ntktv.ua/s/ntk/ntk.m3u8
-#EXTINF:-1 tvg-id="NTN.ua" tvg-country="RU;UA" tvg-language="Ukrainian" tvg-logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/ntn.png" group-title="Undefined",НТН (576p) [Not 24/7]
-https://edge3.iptv.macc.com.ua/img/ntn_3/index.m3u8
+#EXTINF:-1 tvg-id="NTN.ua" tvg-country="RU;UA" tvg-language="Ukrainian" tvg-logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/ntn.png" group-title="Undefined",НТН (576p)
+https://edge2.iptv.macc.com.ua/img/ntn_3/index.m3u8
 #EXTINF:-1 tvg-id="ObshchestvennoeNezavisimoeTelevidenie.ua" tvg-country="RU;UA" tvg-language="Russian" tvg-logo="https://i.imgur.com/NvhLjXU.jpg" group-title="Undefined",Общественное Независимое Телевидение (576p)
 http://85.238.112.40:8810/hls_sec/239.33.75.33-.m3u8
+#EXTINF:-1 tvg-id="Odessa.ua" tvg-country="RU;UA" tvg-language="Ukrainian" tvg-logo="https://mediacast.tv/wp-content/uploads/2018/03/pershui-dilovyi.png" group-title="Undefined",Одесса (576p) [Geo-blocked]
+https://cdn1.live-tv.od.ua:8083/riood/riood/playlist.m3u8
 #EXTINF:-1 tvg-id="OrbitaTV.ua" tvg-country="RU;UA" tvg-language="Ukrainian" tvg-logo="" group-title="Undefined",Орбіта ТВ (360p) [Not 24/7]
 http://ftp.orbita.dn.ua/hls/orbita.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="UA" tvg-language="" tvg-logo="" group-title="Undefined",ОТВ (Днепр) (576p)
@@ -180,15 +184,8 @@ http://pravdatytkievshina.cdn-02.cosmonova.net.ua/hls/pravdatytkievshina_ua.m3u8
 http://pravdatytkievshina.cdn-02.cosmonova.net.ua/hls/pravdatytkievshina_ua_hi/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="UA" tvg-language="" tvg-logo="" group-title="Undefined",ПравдаТУТ (720p)
 http://pravdatytkievshina.cdn-02.cosmonova.net.ua/hls/pravdatytkievshina_ua_mid/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="UA" tvg-language="" tvg-logo="" group-title="Undefined" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0",Прямий (576p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
-http://prm.cdn-02.cosmonova.net.ua/hls/prm_ua.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="UA" tvg-language="" tvg-logo="" group-title="Undefined",Прямий (576p)
-http://prm.cdn-02.cosmonova.net.ua/hls/prm_ua_hi/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="UA" tvg-language="" tvg-logo="" group-title="Undefined",Прямий (576p)
 http://prm.cdn-02.cosmonova.net.ua/hls/prm_ua_mid/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="UA" tvg-language="" tvg-logo="" group-title="Undefined",Прямий (576p)
-http://prm.cdn-02.cosmonova.net.ua/hls/prm_ua_low/index.m3u8
 #EXTINF:-1 tvg-id="RadioLyuks.ua" tvg-country="RU;UA" tvg-language="Ukrainian" tvg-logo="https://i.i.ua/radio/logo/1/161.jpg" group-title="Undefined",Радио Люкс (1080p)
 https://stream1.luxnet.ua/luxstudio/smil:luxstudio.stream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Reporter.ua" tvg-country="RU;UA" tvg-language="Ukrainian" tvg-logo="" group-title="Undefined",Репортер (720p) [Not 24/7]
