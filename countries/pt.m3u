@@ -1,4 +1,10 @@
 #EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ao/guide.dstv.com.epg.xml,https://iptv-org.github.io/epg/guides/br/mi.tv.epg.xml,https://iptv-org.github.io/epg/guides/ch/tv.blue.ch.epg.xml,https://iptv-org.github.io/epg/guides/dk/allente.se.epg.xml,https://iptv-org.github.io/epg/guides/fr/chaines-tv.orange.fr.epg.xml,https://iptv-org.github.io/epg/guides/gr/cosmote.gr.epg.xml,https://iptv-org.github.io/epg/guides/it/guidatv.sky.it.epg.xml,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml,https://iptv-org.github.io/epg/guides/pt/meo.pt.epg.xml,https://iptv-org.github.io/epg/guides/se/allente.se.epg.xml,https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml,https://iptv-org.github.io/epg/guides/uk/bt.com.epg.xml"
+#EXTINF:-1 tvg-id="AlJazeeraDocumentary.qa" tvg-country="ARAB;EUR" tvg-language="Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e6/Al_Jazeera_Doc.png" group-title="News",Al Jazeera Documentary (270p) [Geo-blocked]
+https://live-hls-web-ajd.getaj.net/AJD/index.m3u8
+#EXTINF:-1 tvg-id="AlJazeeraEnglish.qa" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera_eng.svg/400px-Aljazeera_eng.svg.png" group-title="News",Al Jazeera English (1080p)
+https://live-hls-web-aje.getaj.net/AJE/index.m3u8
+#EXTINF:-1 tvg-id="AlJazeeraMubasher.qa" tvg-country="INT" tvg-language="Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/90/Al_Jazeera_Mubasher_logo.png" group-title="News",Al Jazeera Mubasher (1080p)
+https://live-hls-web-ajm.getaj.net/AJM/index.m3u8
 #EXTINF:-1 tvg-id="BabyTVEurope.uk" tvg-country="EUR" tvg-language="English;German" tvg-logo="https://i.imgur.com/z5E8vLR.png" group-title="Kids",Baby TV (480p)
 http://okkotv-live.cdnvideo.ru/channel/BabyTV.m3u8
 #EXTINF:-1 tvg-id="BBCNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/united-kingdom/bbc-news-uk.png" group-title="News",BBC News HD (720p) [Geo-blocked]
@@ -92,8 +98,6 @@ https://smart-tv.livedoomovie.com:4431/02_SPORTTV_4_720p/chunklist.m3u8
 http://dcunilive36-lh.akamaihd.net/i/dclive_1@668002/master.m3u8
 #EXTINF:-1 tvg-id="TRTWorld.tr" tvg-country="INT" tvg-language="English" tvg-logo="https://i.ibb.co/phw4pjP/mjTjJ1N.png" group-title="News",TRT World (720p) [Not 24/7]
 https://tv-trtworld.live.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TVFatima.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/hCFVc5S.jpg" group-title="Religious",TV Fátima (1080p)
-http://213.13.26.11:1935/live/santuario.stream/livestream.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="PT" tvg-language="" tvg-logo="" group-title="Undefined",TV Maná 1 (320p) [Not 24/7]
 http://195.22.11.11:1935/tvmana/tvmana1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="PT" tvg-language="" tvg-logo="" group-title="Undefined",TV Maná 2 (576p) [Not 24/7]
@@ -108,6 +112,10 @@ http://c2.manasat.com:1935/eglise-online/frances3/playlist.m3u8
 http://c2.manasat.com:1935/tserkov-online/russo3/playlist.m3u8
 #EXTINF:-1 tvg-id="TVManaCordoba.pt" tvg-country="PT" tvg-language="Spanish" tvg-logo="https://i.imgur.com/c4DSG2J.png" group-title="Religious",TV Maná Córdoba (576p) [Not 24/7]
 http://csvl03.manasat.com:1935/tvar/tvmanaar2/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-country="PT" tvg-language="" tvg-logo="" group-title="Undefined",TV MANA MAPUTO (526p) [Not 24/7]
+http://streamspub.manasat.com:1935/tvmz/tvmz2/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-country="PT" tvg-language="" tvg-logo="" group-title="Undefined",TV MANA MAPUTO (576p) [Not 24/7]
+http://csvl03.manasat.com:1935/tvmz/tvmz3/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="PT" tvg-language="" tvg-logo="" group-title="Undefined",TV MANA-1 PORTUGAL (1080p) [Not 24/7]
 http://csvl04.manasat.com:1935/tvmana/tvmana3/playlist.m3u8
 #EXTINF:-1 tvg-id="TVI.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://www.meo.pt/PublishingImages/canais/tvi.png" group-title="General",TVI (480p)
