@@ -52,6 +52,9 @@ http://live.streams.ovh:1935/cannali/cannali/playlist.m3u8
 http://176.9.123.140:1935/channel9/channel9/playlist.m3u8
 #EXTINF:-1 tvg-id="Choice.gr" tvg-country="GR" tvg-language="Greek" tvg-logo="https://i.imgur.com/6Yr0Axp.png" group-title="Undefined",Choice (956p) [Not 24/7]
 https://vod.streams.ovh:3528/stream/play.m3u8
+#EXTINF:-1 tvg-id="CNBCEurope.uk" tvg-country="EUR" tvg-language="English" tvg-logo="https://i.imgur.com/B6sfpDa.png" group-title="Business" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",CNBC Europe (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s65/index.m3u8
 #EXTINF:-1 tvg-id="CNNInternationalEurope.us" tvg-country="EUR" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/CNN_International_logo.svg/300px-CNN_International_logo.svg.png" group-title="News",CNN International Germany (720p)
 https://cnn-cnninternational-1-de.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="CorfuTV.gr" tvg-country="GR" tvg-language="Greek" tvg-logo="https://i.imgur.com/G7LHkTE.jpg" group-title="Undefined",Corfu TV (576p) [Not 24/7]
@@ -118,7 +121,7 @@ http://wpso.com:1936/hls/kidshd.m3u8
 http://flashcloud.mediacdn.com/live/kontratv/.m3u8
 #EXTINF:-1 tvg-id="KPHTHTV.gr" tvg-country="GR" tvg-language="Greek" tvg-logo="" group-title="Undefined",KPHTH TV (720p) [Not 24/7]
 http://live.cretetv.gr:1935/cretetv/myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="MTV.gr" tvg-country="GR" tvg-language="Greek" tvg-logo="https://i.imgur.com/dh22Dj8.png" group-title="Music",M.TV
+#EXTINF:-1 tvg-id="" tvg-country="GR" tvg-language="" tvg-logo="" group-title="Undefined",M.TV
 http://78.83.87.222:9999/play/a015/index.m3u8
 #EXTINF:-1 tvg-id="MagicTV.gr" tvg-country="GR" tvg-language="Greek" tvg-logo="https://i.imgur.com/QZQhg6C.png" group-title="Music",Magic TV (480p)
 https://itv.streams.ovh/magictv/magictv/playlist.m3u8
@@ -126,8 +129,6 @@ https://itv.streams.ovh/magictv/magictv/playlist.m3u8
 http://maroussiotika.dynu.com:8000/greektv/FZlHCCdBHL1/359142
 #EXTINF:-1 tvg-id="MavTVSelect.us" tvg-country="EUR" tvg-language="English" tvg-logo="https://i.imgur.com/KMGUuAX.png" group-title="Sports",MavTV Select (720p)
 https://mavtv-mavtvglobal-1-eu.rakuten.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 tvg-id="MegaTV.gr" tvg-country="GR" tvg-language="Greek" tvg-logo="https://www.cosmote.gr/portal/image/journal/article?img_id=81491231&t=1582037451997" group-title="Undefined",Mega TV
-https://streamcdnb7-c98db5952cb54b358365984178fb898a.msvdn.net/live/S86713049/gonOwuUacAxM/playlist.m3u8
 #EXTINF:-1 tvg-id="MesogeiosTV.gr" tvg-country="GR" tvg-language="Greek" tvg-logo="https://i.imgur.com/OnB6n3C.jpg" group-title="Undefined",Mesogeios TV (432p)
 http://176.9.123.140:1935/mesogeiostv/stream/master.m3u8
 #EXTINF:-1 tvg-id="MGRTV.gr" tvg-country="GR" tvg-language="Greek" tvg-logo="https://i.imgur.com/zPyXLZs.jpg" group-title="Undefined",MGR TV (1080p) [Not 24/7]
@@ -136,8 +137,8 @@ https://vod.streams.ovh:3876/stream/play.m3u8
 https://live.neatv.gr:8888/hls/neatv.m3u8
 #EXTINF:-1 tvg-id="NetmaxTV.gr" tvg-country="GR" tvg-language="Greek" tvg-logo="https://i.imgur.com/Wad6CD4.png" group-title="Undefined",Netmax TV (720p) [Not 24/7]
 http://live.netmaxtv.com:8080/live/live/playlist.m3u8
-#EXTINF:-1 tvg-id="NG.gr" tvg-country="GR" tvg-language="Greek" tvg-logo="https://i.imgur.com/pK2p5ey.png" group-title="Music",NG (614p)
-http://live.streams.ovh:1935/NGradio/NGradio/playlist.m3u8
+#EXTINF:-1 tvg-id="NG.gr" tvg-country="GR" tvg-language="Greek" tvg-logo="https://i.imgur.com/pK2p5ey.png" group-title="Music",NG (720p)
+https://live.streams.ovh/NGradio/NGradio/playlist.m3u8
 #EXTINF:-1 tvg-id="NotioiTV.gr" tvg-country="GR" tvg-language="Greek" tvg-logo="https://i.imgur.com/dW1bcD2.jpg" group-title="Undefined",Notioi TV (720p)
 https://live.streams.ovh/YourStreaming/YourStreaming/playlist.m3u8
 #EXTINF:-1 tvg-id="NRG91.gr" tvg-country="GR" tvg-language="Greek" tvg-logo="https://i.imgur.com/1Zl1OJ5.png" group-title="Undefined",NRG 91 (720p) [Not 24/7]
@@ -218,6 +219,8 @@ https://streamer-cache.grnet.gr/parliament/hls/webtv3.m3u8
 https://streamer-cache.grnet.gr/parliament/parltv.sdp/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="GR" tvg-language="" tvg-logo="" group-title="Undefined",Βουλή Τηλεόραση (540p)
 https://streamer-cache.grnet.gr/parliament/hls/webtv.m3u8
+#EXTINF:-1 tvg-id="EgnatiaTileorasi.gr" tvg-country="GR" tvg-language="Greek" tvg-logo="https://i.imgur.com/XQyysct.jpg" group-title="Undefined",Εγνατία Τηλεόραση (576p)
+https://video.streams.ovh:1936/egnatiatv/egnatiatv/index.m3u8
 #EXTINF:-1 tvg-id="Ekklisia.gr" tvg-country="GR" tvg-language="Greek" tvg-logo="https://i.imgur.com/nxoHQqz.png" group-title="Undefined",Εκκλησία (1080p)
 https://liveopen.siliconweb.com/openTvLive/openEcclessia/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="GR" tvg-language="" tvg-logo="" group-title="Undefined",Ηλέκτρα TV (1080p) [Not 24/7]
