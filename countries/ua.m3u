@@ -4,9 +4,9 @@ http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel
 #EXTINF:-1 tvg-id="1Plus1Sport.ua" tvg-country="RU;UA" tvg-language="Ukrainian" tvg-logo="https://i.imgur.com/VpBVorp.png" group-title="Undefined",1+1 Спорт (720p) [Not 24/7]
 https://live-k2301-kbp.1plus1.video/sport/smil:sport.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="UA" tvg-language="" tvg-logo="" group-title="Undefined",4 канал (720p)
-http://95.67.106.10/hls/nta_ua_low/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="UA" tvg-language="" tvg-logo="" group-title="Undefined",4 канал (720p)
 http://95.67.106.10/hls/nta_ua_hi/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-country="UA" tvg-language="" tvg-logo="" group-title="Undefined",4 канал (720p)
+http://95.67.106.10/hls/nta_ua_low/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="UA" tvg-language="" tvg-logo="" group-title="Undefined",4 канал (720p)
 http://95.67.106.10/hls/nta_ua_mid/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="UA" tvg-language="" tvg-logo="" group-title="Undefined",4 канал (1080p)
@@ -42,10 +42,6 @@ https://bloomberg-bloombergtv-1-it.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="CNBCEurope.uk" tvg-country="EUR" tvg-language="English" tvg-logo="https://i.imgur.com/B6sfpDa.png" group-title="Business" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",CNBC Europe (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s65/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="UA" tvg-language="" tvg-logo="" group-title="Undefined",CNL Европа (216p)
-http://hls-live-media.cdn01.net/default/stream_10429_3.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="UA" tvg-language="" tvg-logo="" group-title="Undefined",CNL Европа (216p)
-http://live-mobile.cdn01.net/hls-live/202E1F/default/mobile/stream_10429_3.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="UA" tvg-language="" tvg-logo="" group-title="Undefined",CNL Европа (360p)
 http://hls-live-media.cdn01.net/default/stream_10429_1.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="UA" tvg-language="" tvg-logo="" group-title="Undefined",CNL Европа (360p)
@@ -141,6 +137,8 @@ http://176.110.1.30:1935/live/donbasonline/playlist.m3u8
 https://cdn1.live-tv.od.ua:8083/dumska/dumska-abr/playlist.m3u8
 #EXTINF:-1 tvg-id="IzmailTV.ua" tvg-country="RU;UA" tvg-language="Ukrainian" tvg-logo="https://i.imgur.com/mpMjj7o.png" group-title="Undefined",Измаил ТВ (576p) [Not 24/7]
 https://cdn10.live-tv.od.ua:8083/izod/izod-abr/playlist.m3u8
+#EXTINF:-1 tvg-id="IRT.ua" tvg-country="UA" tvg-language="Ukrainian" tvg-logo="" group-title="Undefined",ИРТ (Днепр) (576p) [Not 24/7]
+http://91.193.128.233:1935/live/irt.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="Inshiy.ua" tvg-country="RU;UA" tvg-language="Ukrainian" tvg-logo="" group-title="Undefined",Інший (720p)
 https://cdn1.live-tv.od.ua:8083/ktkod/ktkod/playlist.m3u8
 #EXTINF:-1 tvg-id="K1.ua" tvg-country="RU;UA" tvg-language="Ukrainian" tvg-logo="https://i.imgur.com/zkGPS5w.jpg" group-title="Undefined",К1 (576p)
@@ -165,6 +163,8 @@ http://85.238.112.40:8810/hls_sec/239.33.75.33-.m3u8
 https://cdn1.live-tv.od.ua:8083/riood/riood-abr/playlist.m3u8
 #EXTINF:-1 tvg-id="OrbitaTV.ua" tvg-country="RU;UA" tvg-language="Ukrainian" tvg-logo="" group-title="Undefined",Орбіта ТВ (360p) [Not 24/7]
 http://ftp.orbita.dn.ua/hls/orbita.m3u8
+#EXTINF:-1 tvg-id="" tvg-country="UA" tvg-language="" tvg-logo="" group-title="Undefined",ОТВ (Днепр) (576p)
+http://91.193.128.233:1935/live/otv.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="PervyygorodskoyKrivoyRog.ua" tvg-country="UA" tvg-language="Ukrainian" tvg-logo="https://i.imgur.com/lkstYbK.png" group-title="Undefined",Первый городской (Кривой Рог) (720p) [Not 24/7]
 https://cdn1.live-tv.od.ua:8083/1tvkr/1tvkr-abr/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="UA" tvg-language="" tvg-logo="" group-title="Undefined",Первый Городской (Кривой Рог) (720p) [Not 24/7]
