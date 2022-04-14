@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/be/telenettv.be.epg.xml,https://iptv-org.github.io/epg/guides/ch/tv.blue.ch.epg.xml,https://iptv-org.github.io/epg/guides/dk/allente.se.epg.xml,https://iptv-org.github.io/epg/guides/fr/chaines-tv.orange.fr.epg.xml,https://iptv-org.github.io/epg/guides/gr/cosmote.gr.epg.xml,https://iptv-org.github.io/epg/guides/it/guidatv.sky.it.epg.xml,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml,https://iptv-org.github.io/epg/guides/nl/delta.nl.epg.xml,https://iptv-org.github.io/epg/guides/nl/ziggogo.tv.epg.xml,https://iptv-org.github.io/epg/guides/se/allente.se.epg.xml,https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml,https://iptv-org.github.io/epg/guides/uk/bt.com.epg.xml"
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/be/telenettv.be.epg.xml,https://iptv-org.github.io/epg/guides/ch/tv.blue.ch.epg.xml,https://iptv-org.github.io/epg/guides/dk/allente.se.epg.xml,https://iptv-org.github.io/epg/guides/fr/chaines-tv.orange.fr.epg.xml,https://iptv-org.github.io/epg/guides/gr/cosmote.gr.epg.xml,https://iptv-org.github.io/epg/guides/it/guidatv.sky.it.epg.xml,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml,https://iptv-org.github.io/epg/guides/nl/delta.nl.epg.xml,https://iptv-org.github.io/epg/guides/nl/ziggogo.tv.epg.xml,https://iptv-org.github.io/epg/guides/se/allente.se.epg.xml,https://iptv-org.github.io/epg/guides/uk/bt.com.epg.xml"
 #EXTINF:-1 tvg-id="AlJazeeraDocumentary.qa" tvg-country="ARAB;EUR" tvg-language="Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e6/Al_Jazeera_Doc.png" group-title="News",Al Jazeera Documentary (270p) [Geo-blocked]
 https://live-hls-web-ajd.getaj.net/AJD/index.m3u8
 #EXTINF:-1 tvg-id="AlJazeeraEnglish.qa" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Aljazeera_eng.svg/512px-Aljazeera_eng.svg.png" group-title="News",Al Jazeera English (1080p)
@@ -46,6 +46,8 @@ http://593aed234297b.streamlock.net:1935/gotvsjoerd/gotvsjoerd/playlist.m3u8
 http://59132e529e3d1.streamlock.net/Groningen1/Groningen1/playlist.m3u8
 #EXTINF:-1 tvg-id="HK13TV.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="" group-title="Undefined",HK13 TV (1080p) [Not 24/7]
 http://mtxstr001.matrixdata.nl/live/hk13/playlist.m3u8
+#EXTINF:-1 tvg-id="IdeaalTV.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/HojvMxK.png" group-title="Undefined",Ideaal TV (480p) [Not 24/7]
+https://ms2.mx-cd.net/dtv-09/236-2051366/Ideaal_TV.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="InsightTV.nl" tvg-country="NL" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/5f06bc60e236570007793f31/colorLogoPNG.png" group-title="Sports",Insight TV (1080p)
 https://insighttv-vizio.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="InsightPlus.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="" group-title="Undefined",Insight+ (720p)
@@ -130,8 +132,6 @@ https://stream.radio350.nl/hls/radio350.m3u8
 https://radioaalsmeer.nl:4443/live/tv.m3u8
 #EXTINF:-1 tvg-id="RadioRN7.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="" group-title="Undefined",Radio RN7 (576p) [Geo-blocked]
 http://streaming.rn7.nl/rn7tv/live_576/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioVOSFM.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="" group-title="Undefined",Radio VOS FM (720p) [Not 24/7]
-http://593aed234297b.streamlock.net:1935/henrymeeuws/henrymeeuws/playlist.m3u8
 #EXTINF:-1 tvg-id="RedBullTV.at" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/7NeBmWX.jpg" group-title="Sports",Red Bull TV (1080p)
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 #EXTINF:-1 tvg-id="Regio8TV.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="" group-title="Undefined",Regio8 TV (1080p)
@@ -168,6 +168,8 @@ https://media.rtvnoord.nl/live/rtvnoord/tv/index.m3u8
 https://media.rtvnoord.nl/live/rtvnoord/extra/index.m3u8
 #EXTINF:-1 tvg-id="RTVNoordoostFriesland.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/xC9hOVK.png" group-title="Undefined",RTV Noordoost Friesland (720p) [Not 24/7]
 http://cdn15.streampartner.nl:1935/rtvnof2/live/playlist.m3u8
+#EXTINF:-1 tvg-id="RTVSlingeland.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="" group-title="Undefined",RTV Slingeland (1080p) [Not 24/7]
+https://ms7.mx-cd.net/dtv-10/105-475831/RTV_Slingeland.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RTVUtrecht.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/5cVkPR3.png" group-title="Undefined",RTV Utrecht (1080p)
 https://d18rwjdhpr8dcw.cloudfront.net/live/rtvutrecht/rtvutrecht/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="NL" tvg-language="" tvg-logo="" group-title="Undefined",rtvutrecht (1080p)
@@ -186,8 +188,6 @@ https://videostream.siris.nl/hls/playoutweb/index.m3u8
 http://cdn22.streampartner.nl/streektv/streektv/playlist.m3u8
 #EXTINF:-1 tvg-id="TommyTeleshopping.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/cNgwmz3.jpg" group-title="Shop",Tommy Teleshopping (480p)
 http://ms7.mx-cd.net/tv/71-1356094/Tommy_Teleshopping.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TRTWorld.tr" tvg-country="INT" tvg-language="English" tvg-logo="https://i.ibb.co/phw4pjP/mjTjJ1N.png" group-title="News",TRT World (720p) [Not 24/7]
-https://tv-trtworld.live.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TVEllef.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/4kURvuH.png" group-title="Undefined",TV Ellef (540p) [Not 24/7]
 https://58e4d59f4ba2c.streamlock.net/tvellef/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="TVValkenburg.nl" tvg-country="NL" tvg-language="Dutch" tvg-logo="https://i.imgur.com/bpqkkX7.jpg" group-title="Undefined",TV Valkenburg (720p) [Not 24/7]

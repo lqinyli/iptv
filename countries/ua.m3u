@@ -1,14 +1,14 @@
-#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ch/tv.blue.ch.epg.xml,https://iptv-org.github.io/epg/guides/cz/m.tv.sms.cz.epg.xml,https://iptv-org.github.io/epg/guides/dk/allente.se.epg.xml,https://iptv-org.github.io/epg/guides/fr/chaines-tv.orange.fr.epg.xml,https://iptv-org.github.io/epg/guides/gr/cosmote.gr.epg.xml,https://iptv-org.github.io/epg/guides/it/guidatv.sky.it.epg.xml,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml,https://iptv-org.github.io/epg/guides/se/allente.se.epg.xml,https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml,https://iptv-org.github.io/epg/guides/ua/tvgid.ua.epg.xml,https://iptv-org.github.io/epg/guides/uk/bt.com.epg.xml"
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ch/tv.blue.ch.epg.xml,https://iptv-org.github.io/epg/guides/cz/m.tv.sms.cz.epg.xml,https://iptv-org.github.io/epg/guides/dk/allente.se.epg.xml,https://iptv-org.github.io/epg/guides/fr/chaines-tv.orange.fr.epg.xml,https://iptv-org.github.io/epg/guides/gr/cosmote.gr.epg.xml,https://iptv-org.github.io/epg/guides/it/guidatv.sky.it.epg.xml,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml,https://iptv-org.github.io/epg/guides/se/allente.se.epg.xml,https://iptv-org.github.io/epg/guides/ua/tvgid.ua.epg.xml,https://iptv-org.github.io/epg/guides/uk/bt.com.epg.xml"
 #EXTINF:-1 tvg-id="1Plus1.ua" tvg-country="RU;UA" tvg-language="Ukrainian" tvg-logo="https://www.lyngsat.com/logo/tv/num/1_plus_1_ua.png" group-title="Undefined",1+1 (1080p)
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCVEaAWKfv7fE1c-ZuBs7TKQ/live
 #EXTINF:-1 tvg-id="1Plus1Sport.ua" tvg-country="RU;UA" tvg-language="Ukrainian" tvg-logo="https://i.imgur.com/VpBVorp.png" group-title="Undefined",1+1 Спорт (720p) [Not 24/7]
 https://live-k2301-kbp.1plus1.video/sport/smil:sport.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="UA" tvg-language="" tvg-logo="" group-title="Undefined",4 канал (720p)
-http://95.67.106.10/hls/nta_ua_low/index.m3u8
+http://95.67.106.10/hls/nta_ua_mid/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="UA" tvg-language="" tvg-logo="" group-title="Undefined",4 канал (720p)
 http://95.67.106.10/hls/nta_ua_hi/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="UA" tvg-language="" tvg-logo="" group-title="Undefined",4 канал (720p)
-http://95.67.106.10/hls/nta_ua_mid/index.m3u8
+http://95.67.106.10/hls/nta_ua_low/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="UA" tvg-language="" tvg-logo="" group-title="Undefined",4 канал (1080p)
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCQdSS9GSBbtSqW3oNB39KTw/live
 #EXTINF:-1 tvg-id="7kanal.ua" tvg-country="RU;UA" tvg-language="Ukrainian" tvg-logo="https://i.imgur.com/nJvGdoj.jpg" group-title="Undefined",7 канал (720p)
@@ -42,6 +42,10 @@ https://bloomberg-bloombergtv-1-it.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-id="CNBCEurope.uk" tvg-country="EUR" tvg-language="English" tvg-logo="https://i.imgur.com/B6sfpDa.png" group-title="Business" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",CNBC Europe (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s65/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-country="UA" tvg-language="" tvg-logo="" group-title="Undefined",CNL Европа (216p)
+http://hls-live-media.cdn01.net/default/stream_10429_3.m3u8
+#EXTINF:-1 tvg-id="" tvg-country="UA" tvg-language="" tvg-logo="" group-title="Undefined",CNL Европа (216p)
+http://live-mobile.cdn01.net/hls-live/202E1F/default/mobile/stream_10429_3.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="UA" tvg-language="" tvg-logo="" group-title="Undefined",CNL Европа (360p)
 http://hls-live-media.cdn01.net/default/stream_10429_1.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="UA" tvg-language="" tvg-logo="" group-title="Undefined",CNL Европа (360p)
@@ -100,8 +104,6 @@ https://open-cdn.lanet.tv/play/skrypin.m3u8
 https://95-213-224-183.livesports24.online/sport1ua.m3u8
 #EXTINF:-1 tvg-id="TravelGuideTV.ua" tvg-country="RU;UA" tvg-language="Russian;Ukrainian" tvg-logo="https://i.imgur.com/Ga1jBEe.jpeg" group-title="Travel",Travel Guide TV (720p)
 https://cdn10.live-tv.od.ua:8083/leonovtv/test1/playlist.m3u8
-#EXTINF:-1 tvg-id="TRTWorld.tr" tvg-country="INT" tvg-language="English" tvg-logo="https://i.ibb.co/phw4pjP/mjTjJ1N.png" group-title="News",TRT World (720p) [Not 24/7]
-https://tv-trtworld.live.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TV5.ua" tvg-country="RU;UA" tvg-language="Russian;Ukrainian" tvg-logo="https://i.imgur.com/ixKcTad.png" group-title="Undefined",TV5 (Запорожье) (360p)
 https://hls.cdn.ua/tv5.zp.ua_live/mp4:tv5/playlist.m3u8
 #EXTINF:-1 tvg-id="UAOdesa.ua" tvg-country="UA" tvg-language="Ukrainian" tvg-logo="" group-title="Undefined",UA: Одеса (384p) [Not 24/7]
@@ -143,8 +145,6 @@ http://91.193.128.233:1935/live/irt.stream/playlist.m3u8
 https://cdn1.live-tv.od.ua:8083/ktkod/ktkod/playlist.m3u8
 #EXTINF:-1 tvg-id="K1.ua" tvg-country="RU;UA" tvg-language="Ukrainian" tvg-logo="https://i.imgur.com/zkGPS5w.jpg" group-title="Undefined",К1 (576p)
 http://edge3.iptv.macc.com.ua/life/k1.m3u8
-#EXTINF:-1 tvg-id="Krug.ua" tvg-country="RU;UA" tvg-language="Ukrainian" tvg-logo="" group-title="Undefined",Круг (576p) [Not 24/7]
-https://cdn1.live-tv.od.ua:8083/krugod/krugod-abr/playlist.m3u8
 #EXTINF:-1 tvg-id="LanetTV.ua" tvg-country="RU;UA" tvg-language="Ukrainian" tvg-logo="" group-title="Undefined",Ланет.TV (486p)
 http://kiev1-cdn.lanet.tv/live/1008.m3u8
 #EXTINF:-1 tvg-id="MistoPlus.ua" tvg-country="RU;UA" tvg-language="Ukrainian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Misto_%2B.png/150px-Misto_%2B.png" group-title="General",Мисто плюс (480p)
@@ -218,8 +218,6 @@ https://cdn10.live-tv.od.ua:8083/riood/tisod504/playlist.m3u8
 https://cdn1.live-tv.od.ua:8083/3tvod/3tvod-abr/playlist.m3u8
 #EXTINF:-1 tvg-id="TRKAleks.ua" tvg-country="RU;UA" tvg-language="Ukrainian" tvg-logo="" group-title="Undefined",ТРК Алекс (576p)
 http://46.46.112.223/live/livestream1.m3u8
-#EXTINF:-1 tvg-id="TRKKrug.ua" tvg-country="RU;UA" tvg-language="Ukrainian" tvg-logo="" group-title="Undefined",ТРК Круг (576p) [Not 24/7]
-https://cdn1.live-tv.od.ua:8083/krugod/krugod/playlist.m3u8
 #EXTINF:-1 tvg-id="TRKReporter.ua" tvg-country="RU;UA" tvg-language="Ukrainian" tvg-logo="" group-title="Undefined",ТРК Репортер (480p) [Not 24/7]
 https://cdn1.live-tv.od.ua:8083/31chod/31chod-sub/playlist.m3u8
 #EXTINF:-1 tvg-id="Ukraina24.ua" tvg-country="RU;UA" tvg-language="Ukrainian" tvg-logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/ukraine24.png" group-title="Undefined",Україна 24 (1080p)
