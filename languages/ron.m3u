@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/cz/m.tv.sms.cz.epg.xml,https://iptv-org.github.io/epg/guides/ro/programetv.ro.epg.xml,https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml,https://iptv-org.github.io/epg/guides/us/tvtv.us.epg.xml"
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/cz/m.tv.sms.cz.epg.xml,https://iptv-org.github.io/epg/guides/ro/programetv.ro.epg.xml,https://iptv-org.github.io/epg/guides/tr/digiturk.com.tr.epg.xml,https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml"
 #EXTINF:-1 tvg-id="A7TV.ro" tvg-country="RO" tvg-language="Romanian" tvg-logo="https://i.imgur.com/RmFg8BN.png" group-title="General",A7TV (720p) [Not 24/7]
 https://play.streamkit.tv/content/channel/aseventv/live/aseventv.player.m3u8
 #EXTINF:-1 tvg-id="AcasaTV.md" tvg-country="MD" tvg-language="Romanian" tvg-logo="https://i.imgur.com/k1bTMPT.png" group-title="Undefined",Acasa TV (576p)
@@ -23,16 +23,20 @@ https://canalregional.md/tv/live/canalregional.m3u8
 http://89.149.30.158:1935/CorneaTV/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="CredoTV.ro" tvg-country="RO" tvg-language="Romanian" tvg-logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/credo.png" group-title="Undefined",Credo TV (720p) [Not 24/7]
 http://cdn.credonet.tv:1935/ctv/smil:livecredo.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="DaVinci.de" tvg-country="DE" tvg-language="Bulgarian;English;Hungarian;Polish;Romanian;Russian;Turkish;Ukrainian" tvg-logo="https://mts.rs/oec/images/tv_channels/518ef8a1e68e742b275b0605330bd3d2.jpg" group-title="Undefined",Da Vinci
+http://sc.id-tv.kz/DaVinci_38_39.m3u8
 #EXTINF:-1 tvg-id="Drochia.md" tvg-country="MD" tvg-language="Romanian" tvg-logo="" group-title="Undefined",Drochia (1080p) [Not 24/7]
 https://hls.drochia.tv/tv/web.m3u8
+#EXTINF:-1 tvg-id="EbS.be" tvg-country="BE" tvg-language="Bulgarian;Croatian;Czech;Danish;Dutch;English;Estonian;Finnish;French;German;Greek;Hungarian;Irish;Italian;Latvian;Lithuanian;Maltese;Polish;Portuguese;Romanian;Slovak;Slovenian;Spanish;Swedish;Ukrainian" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/ebs.png" group-title="Undefined",EbS Live (Europe by Satellite) (1080p)
+https://euc-live.fl.freecaster.net/live/eucom/ebs.m3u8
+#EXTINF:-1 tvg-id="EbSPlus.be" tvg-country="BE" tvg-language="Albanian;Bosnian;Bulgarian;Croatian;Czech;Danish;Dutch;English;Estonian;Finnish;French;German;Greek;Hungarian;Irish;Italian;Latvian;Lithuanian;Macedonian;Maltese;Polish;Portuguese;Romanian;Serbian;Slovak;Slovenian;Spanish;Swedish" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/ebs.png" group-title="Undefined",EbS+ Live (Europe by Satellite) (1080p)
+https://euc-live.fl.freecaster.net/live/eucom/ebsp.m3u8
 #EXTINF:-1 tvg-id="ElitaTV.md" tvg-country="MD" tvg-language="Romanian" tvg-logo="https://i.imgur.com/Z27Eyqv.jpg" group-title="Undefined",Elita TV (576p)
 http://46.55.111.242:8080/Rezina.m3u8
 #EXTINF:-1 tvg-id="EstTVNeamt.ro" tvg-country="RO" tvg-language="Romanian" tvg-logo="https://i.ibb.co/kQJ10r8/est-tv-ro.png" group-title="Undefined",Est TV (Neamt) (576p) [Not 24/7]
 http://89.38.8.130:39435
 #EXTINF:-1 tvg-id="IntermediaTV.ro" tvg-country="RO" tvg-language="Romanian" tvg-logo="https://i.imgur.com/jo5fei5.png" group-title="Undefined",Intermedia TV (576p)
 http://46.4.14.12:9999/intermedia1/playlist.m3u8
-#EXTINF:-1 tvg-id="KanalD.ro" tvg-country="RO" tvg-language="Romanian" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a6/Kanal_D_Romania.png" group-title="General",Kanal D (384p) [Not 24/7]
-https://stream1.kanald.ro/iphone/live.m3u8
 #EXTINF:-1 tvg-id="KissTV.ro" tvg-country="RO" tvg-language="Romanian" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c4/Kiss_TV_%282014-present%29.png" group-title="Music",Kiss TV (576p) [Not 24/7]
 https://fms-https1.mediadirect.ro/live3/_definst_/kiss.smil/playlist.m3u8?publisher=83
 #EXTINF:-1 tvg-id="LightChannel.ro" tvg-country="RO" tvg-language="Romanian" tvg-logo="https://i.imgur.com/qskVMhF.png" group-title="Undefined",Light Channel (480p) [Not 24/7]
@@ -48,15 +52,15 @@ https://rtmp.digitalbroadcast.ro/moozhits/moozhits.m3u8
 #EXTINF:-1 tvg-id="MoozRo.ro" tvg-country="RO" tvg-language="Romanian" tvg-logo="https://mooz.tv/site/img/mooz-ro1.png" group-title="Music",MoozRo (576p)
 #EXTVLCOPT:http-referrer=https://mooz.tv/
 https://rtmp.digitalbroadcast.ro/moozro/moozro.m3u8
-#EXTINF:-1 tvg-id="NasulTV.ro" tvg-country="RO" tvg-language="Romanian" tvg-logo="https://static.cinemagia.ro/img/tv_station/nasul-tv.jpg" group-title="Undefined",Naşul TV (720p) [Not 24/7]
-https://5ab29cc78f681.streamlock.net/NasulTV/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="NorocTV.md" tvg-country="MD" tvg-language="Romanian" tvg-logo="https://i.imgur.com/39qL2Ht.png" group-title="Undefined",Noroc TV (576p)
 http://live.noroc.tv/hls/noroctv_chisinau.m3u8
 #EXTINF:-1 tvg-id="NovaTVBrasov.ro" tvg-country="RO" tvg-language="Romanian" tvg-logo="https://i.imgur.com/DYO1tVZ.png" group-title="Undefined",Nova TV Brasov (576p) [Not 24/7]
 http://novapress.ro:1935/live/nova/playlist.m3u8
+#EXTINF:-1 tvg-id="AutoMotorundSport.de" tvg-country="DE" tvg-language="Bulgarian;Czech;German;Hungarian;Romanian" tvg-logo="https://i.imgur.com/SbCaP6F.png" group-title="Undefined",Pluto TV Auto Motor Sport (720p)
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f760c3d41aa2d0007bfde19/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=1&deviceId=5f760c3d41aa2d0007bfde19&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=c676a4b5-65d2-474a-b477-c04f8b88e727&terminate=false&userId=
 #EXTINF:-1 tvg-id="PrimaTV.ro" tvg-country="RO" tvg-language="Romanian" tvg-logo="https://i.imgur.com/oLuxC2P.png" group-title="General",Prima TV (404p) [Not 24/7]
 https://stream1.1616.ro:1945/prima/livestream/playlist.m3u8?wowzatokenhash=hOdIznDoakApEuQ8FaFI3yrJuBMZHqCB7B3cWTmRWsc=
-#EXTINF:-1 tvg-id="ProTV.ro" tvg-country="RO" tvg-language="Romanian" tvg-logo="https://static.cinemagia.ro/img/tv_station/pro-tv.jpg" group-title="Undefined",Pro TV (1080p)
+#EXTINF:-1 tvg-id="ProTV.ro" tvg-country="RO" tvg-language="English;Romanian" tvg-logo="https://static.cinemagia.ro/img/tv_station/pro-tv.jpg" group-title="Undefined",Pro TV (1080p)
 https://cmero-ott-live.ssl.cdn.cra.cz/channels/cme-ro-voyo-news/playlist.m3u8?offsetSeconds=0&url=0
 #EXTINF:-1 tvg-id="PublikaTV.md" tvg-country="MD" tvg-language="Romanian" tvg-logo="https://i.imgur.com/Hquii9k.jpg" group-title="News",Publika TV (720p)
 http://livebeta.publika.md/LIVE/P/6810.m3u8
@@ -64,7 +68,7 @@ http://livebeta.publika.md/LIVE/P/6810.m3u8
 https://live.realitatea.net/livertmp/plus/playlist.m3u8
 #EXTINF:-1 tvg-id="RockTV.ro" tvg-country="RO" tvg-language="Romanian" tvg-logo="https://i.imgur.com/F69gAWa.png" group-title="Music",Rock TV (480p)
 https://fms-https1.mediadirect.ro/live3/_definst_/rocktv.smil/master.m3u8
-#EXTINF:-1 tvg-id="SperantaTV.ro" tvg-country="RO" tvg-language="Romanian" tvg-logo="" group-title="Undefined",Speranta TV (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="SperantaTV.ro" tvg-country="RO" tvg-language="Romanian" tvg-logo="https://static.cinemagia.ro/img/tv_station/speranta-tv.jpg" group-title="Undefined",Speranta TV (720p) [Not 24/7]
 http://play.streamkit.tv/content/channel/sperantatv/live/sperantatv.player.m3u8
 #EXTINF:-1 tvg-id="TVSE.ro" tvg-country="RO" tvg-language="Romanian" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/9c/TV_Sud_Est_%282017%29.png" group-title="Undefined",TV SE (576p) [Not 24/7]
 http://89.38.8.130:39419
@@ -84,7 +88,7 @@ https://mn-nl.mncdn.com/tvrcraiova_new/smil:tvrcraiova_new.smil/index.m3u8
 https://mn-nl.mncdn.com/tvriasi_new/smil:tvriasi_new.smil/index.m3u8
 #EXTINF:-1 tvg-id="TVRInternational.ro" tvg-country="RO" tvg-language="Romanian" tvg-logo="https://i.imgur.com/AlW8jyl.png" group-title="General",TVR International (720p) [Not 24/7]
 https://mn-nl.mncdn.com/tvri_test/smil:tvri_test.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TVRMoldova.ro" tvg-country="MD" tvg-language="Romanian" tvg-logo="https://static.cinemagia.ro/img/tv_station/tvr-moldova.jpg" group-title="General",TVR Moldova (720p) [Geo-blocked]
+#EXTINF:-1 tvg-id="TVRMoldova.md" tvg-country="MD" tvg-language="Romanian" tvg-logo="https://static.cinemagia.ro/img/tv_station/tvr-moldova.jpg" group-title="General",TVR Moldova (720p) [Geo-blocked]
 https://mn-nl.mncdn.com/tvrmoldova_new/smil:tvrmoldova_new.smil/index.m3u8
 #EXTINF:-1 tvg-id="TVRTarguMures.ro" tvg-country="RO" tvg-language="Romanian" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/94/TVR_T%C3%AErgu_Mure%C8%99_%282008%29.png" group-title="General",TVR Târgu Mureș (720p) [Geo-blocked]
 https://mn-nl.mncdn.com/tvrtgmures_new/smil:tvrtgmures_new.smil/index.m3u8

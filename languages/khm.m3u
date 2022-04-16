@@ -1,10 +1,15 @@
-#EXTM3U x-tvg-url=""
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml,https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml"
 #EXTINF:-1 tvg-id="BayonTV.kh" tvg-country="KH" tvg-language="Khmer" tvg-logo="https://i.imgur.com/2jbulL2.jpg" group-title="News",Bayon TV (360p) [Not 24/7]
 http://203.176.130.123:8989/live/bayontv1_480k.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="CinemaxAsia.us" tvg-country="US" tvg-language="Chinese;English;Indonesian;Khmer;Thai;Vietnamese" tvg-logo="https://static.epg.best/ph/Cinemax.ph.png" group-title="Movies" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",Cinemax Asia (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+https://livecdn.fptplay.net/hda1/cinemax_hls.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="FreshNews.kh" tvg-country="KH" tvg-language="Khmer" tvg-logo="https://www.lyngsat.com/logo/tv/ff/fresh-news-kh.png" group-title="News",Fresh News (720p)
 http://167.99.65.12:1935/live/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="FreshNewsTV.kh" tvg-country="KH" tvg-language="Khmer" tvg-logo="https://i.imgur.com/6p0TK7e.png" group-title="News",Fresh News TV (720p)
 http://167.99.65.12:1935/live/ngrp:myStream_all/playlist.m3u8
+#EXTINF:-1 tvg-id="HBOAsia.us" tvg-country="US" tvg-language="Chinese;English;Indonesian;Khmer;Thai;Vietnamese" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch115_160_115" group-title="Undefined",HBO Asia
+https://vips-livecdn.fptplay.net/hda1/hbo_vhls.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="PNN.kh" tvg-country="KH" tvg-language="Khmer" tvg-logo="https://i.imgur.com/1xZmAvQ.jpg" group-title="Undefined",PNN (360p) [Not 24/7]
 http://203.176.130.123:8989/live/pnn_480k.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="SEATV.kh" tvg-country="KH" tvg-language="Khmer" tvg-logo="https://www.lyngsat.com/logo/tv/ss/sea_tv_kh.png" group-title="Undefined",SEATV (1080p)

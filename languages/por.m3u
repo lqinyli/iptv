@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ao/guide.dstv.com.epg.xml,https://iptv-org.github.io/epg/guides/br/mi.tv.epg.xml,https://iptv-org.github.io/epg/guides/pt/meo.pt.epg.xml,https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml"
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ao/guide.dstv.com.epg.xml,https://iptv-org.github.io/epg/guides/br/mi.tv.epg.xml,https://iptv-org.github.io/epg/guides/gr/cosmote.gr.epg.xml,https://iptv-org.github.io/epg/guides/pt/meo.pt.epg.xml,https://iptv-org.github.io/epg/guides/us/directv.com.epg.xml,https://iptv-org.github.io/epg/guides/us/tvtv.us.epg.xml"
 #EXTINF:-1 tvg-id="1001Noites.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/xbkYDeg.png" group-title="Shop",1001 Noites (720p) [Not 24/7]
 https://cdn.jmvstream.com/w/LVW-8155/ngrp:LVW8155_41E1ciuCvO_all/playlist.m3u8
 #EXTINF:-1 tvg-id="AgroBrasilTV.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://www.costadosol.tv.br/site/wp-content/uploads/2017/12/agro-brasil.png" group-title="Outdoor",AgroBrasil TV (720p) [Not 24/7]
@@ -8,6 +8,8 @@ http://45.162.230.234:1935/agrobrasiltv/agrobrasiltv/playlist.m3u8
 https://evpp.mm.uol.com.br/geob_band/agromais/playlist.m3u8
 #EXTINF:-1 tvg-id="AllSports.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/wULpnYR.png" group-title="Sports",All Sports (720p)
 https://5cf4a2c2512a2.streamlock.net/dgrau/dgrau/playlist.m3u8
+#EXTINF:-1 tvg-id="BabyTVEurope.uk" tvg-country="EUR" tvg-language="Arabic;Dutch;English;French;German;Greek;Hebrew;Italian;Polish;Portuguese;Russian;Spanish;Turkish" tvg-logo="https://i.imgur.com/z5E8vLR.png" group-title="Kids",Baby TV (480p)
+http://okkotv-live.cdnvideo.ru/channel/BabyTV.m3u8
 #EXTINF:-1 tvg-id="BabyFirst.us" tvg-country="US" tvg-language="Arabic;Chinese;English;French;German;Hebrew;Hungarian;Japanese;Korean;Polish;Portuguese;Romanian;Russian;Spanish;Turkish" tvg-logo="https://images.pluto.tv/channels/5f4fb4cf605ddf000748e16f/colorLogoPNG.png" group-title="Kids",BabyFirst TV (1080p)
 https://babyfirst.akamaized.net/hls/live/2028842/bftvusaott/playlist.m3u8
 #EXTINF:-1 tvg-id="Band.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://imgur.com/HnL2uBA.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",Band (1080p) [Geo-blocked]
@@ -33,8 +35,6 @@ https://5b33b873179a2.streamlock.net:1443/mastertv/livestream/playlist.m3u8
 https://medias.sgr.globo.com/hls/vCBNRJ/vCBNRJ.m3u8
 #EXTINF:-1 tvg-id="CBNSaoPaulo.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/FZwHq8k.png" group-title="News",CBN São Paulo (720p)
 https://medias.sgr.globo.com/hls/vCBNSP/vCBNSP.m3u8
-#EXTINF:-1 tvg-id="CNNBrasil.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/CNN_Brasil.svg/512px-CNN_Brasil.svg.png" group-title="News",CNN Brasil (1080p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCvdwhh_fDyWccR42-rReZLw/live
 #EXTINF:-1 tvg-id="COMBrasil.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/c8ztQnF.png" group-title="General",COM Brasil (720p) [Not 24/7]
 https://596639ebdd89b.streamlock.net/8032/8032/playlist.m3u8
 #EXTINF:-1 tvg-id="CulturaPara.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/5jPEI5c.png" group-title="General",Cultura Pará (480p) [Not 24/7]
@@ -43,6 +43,10 @@ http://str.portalcultura.com.br/funtelpa/tv_funtelpa/live.m3u8
 http://wowza4.catve.com.br:1935/live/livestream/media.m3u8
 #EXTINF:-1 tvg-id="DarkMatterTVBrazil.us" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/DarkMatterTV_218x218.png?raw=true" group-title="Series",Dark Matter TV Brazil (720p)
 https://darkmatter-por-samsungbrazil.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="EbS.be" tvg-country="BE" tvg-language="Bulgarian;Croatian;Czech;Danish;Dutch;English;Estonian;Finnish;French;German;Greek;Hungarian;Irish;Italian;Latvian;Lithuanian;Maltese;Polish;Portuguese;Romanian;Slovak;Slovenian;Spanish;Swedish;Ukrainian" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/ebs.png" group-title="Undefined",EbS Live (Europe by Satellite) (1080p)
+https://euc-live.fl.freecaster.net/live/eucom/ebs.m3u8
+#EXTINF:-1 tvg-id="EbSPlus.be" tvg-country="BE" tvg-language="Albanian;Bosnian;Bulgarian;Croatian;Czech;Danish;Dutch;English;Estonian;Finnish;French;German;Greek;Hungarian;Irish;Italian;Latvian;Lithuanian;Macedonian;Maltese;Polish;Portuguese;Romanian;Serbian;Slovak;Slovenian;Spanish;Swedish" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/ebs.png" group-title="Undefined",EbS+ Live (Europe by Satellite) (1080p)
+https://euc-live.fl.freecaster.net/live/eucom/ebsp.m3u8
 #EXTINF:-1 tvg-id="FonteTV.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/4lnSlOZ.png" group-title="Religious",Fonte TV (1080p) [Not 24/7]
 http://flash.softhost.com.br:1935/fonte/fontetv/live.m3u8
 #EXTINF:-1 tvg-id="Futura.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Canal_Futura.png/300px-Canal_Futura.png" group-title="Education",Futura (540p) [Not 24/7]
@@ -57,8 +61,6 @@ http://195.22.11.11:1935/igronline/igronline2/playlist.m3u8
 https://58a4464faef53.streamlock.net/impd/ngrp:impd_all/playlist.m3u8
 #EXTINF:-1 tvg-id="ISTV.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/6/63/Logo-istv.png" group-title="General",ISTV (1080p) [Not 24/7]
 https://cdn.jmvstream.com/w/LVW-9883/LVW9883_lFcfKysrHF/chunklist.m3u8
-#EXTINF:-1 tvg-id="ITV.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i1.wp.com/itu.tv.br/wp-content/uploads/2020/03/cropped-favicon.png" group-title="Undefined",ITV (480p) [Not 24/7]
-http://tv02.logicahost.com.br:1935/itutv/itutv/live.m3u8
 #EXTINF:-1 tvg-id="JovemPanNews.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Jovem_Pan_logo_2018.svg/512px-Jovem_Pan_logo_2018.svg.png" group-title="News",Jovem Pan News (1080p) [Not 24/7]
 https://d6yfbj4xxtrod.cloudfront.net/out/v1/7836eb391ec24452b149f3dc6df15bbd/index.m3u8
 #EXTINF:-1 tvg-id="KuriakosCine.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/CZViCwB.jpg" group-title="Movies",Kuriakos Cine (1080p) [Not 24/7]
@@ -71,6 +73,8 @@ http://c2.manasat.com:1935/kmusic/kmusic3/master.m3u8
 http://195.22.11.11:1935/ktv/ktv1/master.m3u8
 #EXTINF:-1 tvg-id="MKKWebTV.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/TDEDNLK.png" group-title="General",MKK Web TV (720p) [Not 24/7]
 https://video01.logicahost.com.br/mkkwebtv/mkkwebtv/playlist.m3u8
+#EXTINF:-1 tvg-id="MotorvisionTV.de" tvg-country="DE" tvg-language="Bulgarian;English;French;German;Portuguese" tvg-logo="https://www.zap.co.ao/media/cache/movie_thumb/uploads/ao/channels/55802c752581d.png" group-title="Undefined",Motorvision TV (720p)
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/60817e1aa6997500072d0d6d/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=35fc51b0-e986-11eb-a0af-c3b401f46211&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=ede55dfe-45a7-4aa8-a283-7b8008be8d2e
 #EXTINF:-1 tvg-id="MyTimemovienetworkBrazil.us" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://od.lk/s/MF8yMjU5ODE1MzJf/MyTime_260x260.png" group-title="Movies",MyTime movie network Brazil (720p)
 https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="NovaEraTV.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/IK3F9Uq.png" group-title="Undefined",Nova Era TV (1080p) [Not 24/7]
@@ -129,8 +133,6 @@ http://tv02.logicahost.com.br:1935/rederc/rederc/live.m3u8
 https://cdn.jmvstream.com/w/LVW-10024/ngrp:LVW10024_H3QLdAY6kx_all/playlist.m3u8
 #EXTINF:-1 tvg-id="TVPampa.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://www.livetvnews.com.br/wp-content/uploads/2019/03/Logo-RedeTV.png" group-title="General",Rede TV! Pampa (720p) [Not 24/7]
 https://59f1cbe63db89.streamlock.net:1443/tvpampa/tvpampa/playlist.m3u8
-#EXTINF:-1 tvg-id="RedeVida.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Rede_Vida_logo.png/267px-Rede_Vida_logo.png" group-title="Religious",Rede Vida (720p) [Not 24/7]
-https://cvd1.cds.ebtcvd.net/live-redevida/smil:redevida.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RedeTV.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://www.livetvnews.com.br/wp-content/uploads/2019/03/Logo-RedeTV.png" group-title="General",RedeTV! Tocantins (720p) [Not 24/7]
 https://59f1cbe63db89.streamlock.net:1443/redetvro/_definst_/redetvro/playlist.m3u8
 #EXTINF:-1 tvg-id="RedeTVTocantins.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/8fGmJWA.png" group-title="General",RedeTV! Tocantins (720p) [Not 24/7]
@@ -139,15 +141,12 @@ https://59f1cbe63db89.streamlock.net:1443/redetvro/redetvro/playlist.m3u8
 https://stmv1.srvif.com/retrotv/retrotv/playlist.m3u8
 #EXTINF:-1 tvg-id="RTP1.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/5-563718101410.png" group-title="General",RTP1 (480p)
 http://162.212.178.69:41042/bysid/608
-#EXTINF:-1 tvg-id="RTP2.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/3-363718101410.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",RTP2 (504p) [Not 24/7]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
-https://streaming-live.rtp.pt/liverepeater/smil:rtp2.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RTP3.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/64-393818101410.png" group-title="News" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",RTP3 (720p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
 https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="RTPAcores.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/106-563419141305.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",RTP Açores (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="RTPAcores.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/106-563419141305.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",RTP Açores (504p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
-https://streaming-live.rtp.pt/liverepeater/smil:rtpacoresHD.smil/playlist.m3u8
+https://streaming-live.rtp.pt/liverepeater/smil:rtpacores.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RTPAfrica.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://cdn-images.rtp.pt/common/img/channels/logos/color/horizontal/27-363219141305.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0",RTP África (504p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
 https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8
@@ -181,11 +180,13 @@ https://smart-tv.livedoomovie.com:4431/02_SPORTTV_2_720p/chunklist.m3u8
 #EXTINF:-1 tvg-id="SportTV3.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://www.meo.pt/PublishingImages/canais/sport-tv3.png" group-title="Sports" user-agent="Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/96.0.3809.25 Safari/537.36",Sport TV 3 (720p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/96.0.3809.25 Safari/537.36
 https://smart-tv.livedoomovie.com:4431/02_SPORTTV_3_720p/chunklist.m3u8
-#EXTINF:-1 tvg-id="SportTV4.pt" tvg-country="PT" tvg-language="Portuguese" tvg-logo="https://www.meo.pt/PublishingImages/canais/sport-tv4.png" group-title="Sports" user-agent="Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/96.0.3809.25 Safari/537.36",Sport TV 4 (576p)
+#EXTINF:-1 tvg-id="SportTV4.pt" tvg-country="PT" tvg-language="English;Portuguese" tvg-logo="https://www.meo.pt/PublishingImages/canais/sport-tv4.png" group-title="Sports" user-agent="Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/96.0.3809.25 Safari/537.36",Sport TV 4 (576p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 Macintosh; Intel Mac OS X 10_14_5 AppleWebKit/537.36 KHTML, like Gecko Chrome/96.0.3809.25 Safari/537.36
 https://smart-tv.livedoomovie.com:4431/02_SPORTTV_4_720p/chunklist.m3u8
 #EXTINF:-1 tvg-id="TastemadeBrazil.us" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://images.pluto.tv/channels/5fd1419a3b4f4b000773ba85/colorLogoPNG.png" group-title="Cooking",Tastemade Brasil (1080p)
 https://tastemade-pt16intl-samsungbrazil.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TBSWest.us" tvg-country="US" tvg-language="English;Portuguese;Spanish" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/TBS_Network-logo.svg/512px-TBS_Network-logo.svg.png" group-title="General",TBS West (720p) [Geo-blocked]
+https://tve-live-lln.warnermediacdn.com/hls/live/2023174/tbswest/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="TerraViva.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/hBaG4Ce.png" group-title="Outdoor",Terra Viva (720p) [Not 24/7]
 http://evpp.mm.uol.com.br:1935/band_live/terraviva/playlist.m3u8
 #EXTINF:-1 tvg-id="TNTSports2Brasil.us" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/d/dc/Logotipo_TNT_Sports.png" group-title="Sports",TNT Sports 2 Brasil (720p) [Not 24/7]
@@ -196,6 +197,8 @@ https://glxlmn026c.singularcdn.net.br/playout_03/playlist.m3u8
 https://glxlmn026c.singularcdn.net.br/playout_04/playlist.m3u8
 #EXTINF:-1 tvg-id="TNTSports5Brasil.us" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/d/dc/Logotipo_TNT_Sports.png" group-title="Sports",TNT Sports 5 Brasil (720p) [Not 24/7]
 https://glxlmn026c.singularcdn.net.br/playout_05/playlist.m3u8
+#EXTINF:-1 tvg-id="TNTWest.us" tvg-country="US" tvg-language="English;Portuguese;Spanish" tvg-logo="https://i.imgur.com/xvL9KPI.png" group-title="General",TNT West (720p) [Geo-blocked]
+https://tve-live-lln.warnermediacdn.com/hls/live/2023170/tntwest/slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 tvg-id="TVAberta.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/1pZUGb4.png" group-title="General",TV Aberta (1080p) [Not 24/7]
 https://cdn-canalpaulo.ciclano.io:1443/canalpaulo/canalpaulo/playlist.m3u8
 #EXTINF:-1 tvg-id="TVALMG.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://www.almg.gov.br/export/sites/default/biblioteca/imagens/logo_facebook.png" group-title="Legislative",TV ALMG (720p)
@@ -220,8 +223,6 @@ http://tv02.logicahost.com.br:1935/tvcapital/tvcapital/live.m3u8
 https://srv5.zcast.com.br/tvcarioca/tvcarioca/playlist.m3u8
 #EXTINF:-1 tvg-id="TVCidadeCanal9.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/mbw27tW.png" group-title="Undefined",TV Cidade Canal 9 (720p) [Not 24/7]
 https://59f1cbe63db89.streamlock.net:1443/tvcidade/tvcidade/playlist.m3u8
-#EXTINF:-1 tvg-id="TVCidadedePetropolis.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/jaaGxnd.png" group-title="Undefined",TV Cidade de Petrópolis (1080p) [Not 24/7]
-https://video01.kshost.com.br:4443/inside2133/inside2133/playlist.m3u8
 #EXTINF:-1 tvg-id="TVCinec.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/bEoN2tt.png" group-title="Undefined",TV Cinec (240p) [Not 24/7]
 http://tv01.logicahost.com.br:1935/tvcinec/tvcinec/live.m3u8
 #EXTINF:-1 tvg-id="TVDestak.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/W1LutVP.png" group-title="General",TV Destak (360p)
@@ -244,18 +245,14 @@ https://59f2354c05961.streamlock.net:1443/tvguara/_definst_/tvguara/chunklist.m3
 http://tv.tvalphanet.com.br:1935/tvinterlagos/tvinterlagos/playlist.m3u8
 #EXTINF:-1 tvg-id="TVMackenzie.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/TV_Mackenzie_logo.svg/512px-TV_Mackenzie_logo.svg.png" group-title="Education",TV Mackenzie (480p) [Not 24/7]
 https://player.internetaovivo.com:8443/live_tvmackenzieabr/tvmackenzieabr/playlist.m3u8
-#EXTINF:-1 tvg-id="TVMAX.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/2Pg0baJ.png" group-title="Undefined",TV MAX (720p) [Not 24/7]
-https://59f1cbe63db89.streamlock.net:1443/tvmax/tvmax/playlist.m3u8
 #EXTINF:-1 tvg-id="TVMetropole.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/thumb/9/92/Logotipo_da_TV_Metr%C3%B3pole.png/300px-Logotipo_da_TV_Metr%C3%B3pole.png" group-title="General",TV Metropole (720p) [Not 24/7]
 https://cdn-fundacao-2110.ciclano.io:1443/fundacao-2110/fundacao-2110/playlist.m3u8
 #EXTINF:-1 tvg-id="TVMon.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/j7EJvHr.png" group-title="Undefined",TV Mon (720p)
 https://srv1.zcast.com.br/tvmon/tvmon/playlist.m3u8
-#EXTINF:-1 tvg-id="TVPaiEterno.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://www.paieterno.com.br/wp-content/uploads/2019/05/cropped-logo-portal-01-192x192.png" group-title="Religious",TV Pai Eterno (480p) [Not 24/7]
+#EXTINF:-1 tvg-id="TVPaiEterno.br" tvg-country="BR" tvg-language="English;Portuguese" tvg-logo="https://www.paieterno.com.br/wp-content/uploads/2019/05/cropped-logo-portal-01-192x192.png" group-title="Religious",TV Pai Eterno (480p) [Not 24/7]
 https://59f1cbe63db89.streamlock.net:1443/teste01/teste01/playlist.m3u8
 #EXTINF:-1 tvg-id="TVPantanalMS.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/0FOmktl.png" group-title="Undefined",TV Pantanal MS (720p) [Not 24/7]
 https://5e837408ea907.streamlock.net:1936/tvpantanalms/tvpantanalms/playlist.m3u8
-#EXTINF:-1 tvg-id="TVParanaTurismo.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/3lxkJxb.png" group-title="Travel",TV Paraná Turismo (720p) [Not 24/7]
-http://200.189.113.201/hls/tve.m3u8
 #EXTINF:-1 tvg-id="TVPocos.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://tvpocos.com.br/wp-content/uploads/2017/04/logo_branca_125.png" group-title="Undefined",TV Poços (192p) [Not 24/7]
 http://rtmp.cdn.upx.net.br/00084/myStream.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="TVSantaCruz.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://www.tvsantacruzcr.net/img/logotvsc.png" group-title="Undefined",TV Santa Cruz (720p) [Not 24/7]

@@ -1,16 +1,25 @@
-#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/id-en/mncvision.id.epg.xml,https://iptv-org.github.io/epg/guides/id/transvision.co.id.epg.xml,https://iptv-org.github.io/epg/guides/id/vidio.com.epg.xml"
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/cn/tv.cctv.com.epg.xml,https://iptv-org.github.io/epg/guides/id-en/mncvision.id.epg.xml,https://iptv-org.github.io/epg/guides/id/transvision.co.id.epg.xml,https://iptv-org.github.io/epg/guides/id/vidio.com.epg.xml,https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml,https://iptv-org.github.io/epg/guides/ph/clickthecity.com.epg.xml"
 #EXTINF:-1 tvg-id="ANTV.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_115.png" group-title="Undefined",ANTV (720p) [Geo-blocked]
 http://210.210.155.35/qwr9ew/s/s07/index1.m3u8
+#EXTINF:-1 tvg-id="AXNEastAsia.us" tvg-country="ID;TH" tvg-language="English;Indonesian;Malay;Thai;Vietnamese" tvg-logo="https://www.img09.xyz/assets/img/ch_logo/hd-axn.png" group-title="Movies",AXN East Asia (Vietnamese) (1080p) [Geo-blocked]
+https://htv-drm-live-cdn.fptplay.net/CDN-FPT02/AXN-HD-1080p/playlist.m3u8
 #EXTINF:-1 tvg-id="BeritaSatu.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://m3u-editor.com/storage/channel-logos/07cd9d90-3cc5-11ea-9aa8-0b5bd3ba261d/92697/14040323.png" group-title="News",BeritaSatu (720p)
 https://b1news.beritasatumedia.com/Beritasatu/B1News_manifest.m3u8
 #EXTINF:-1 tvg-id="BeritaSatuWorld.id" tvg-country="ID" tvg-language="English;Indonesian" tvg-logo="https://i.imgur.com/GIGcX5K.png" group-title="News",BeritaSatu World (720p) [Not 24/7]
 https://b1world.beritasatumedia.com/Beritasatu/B1World_manifest.m3u8
+#EXTINF:-1 tvg-id="CCTV15.cn" tvg-country="CN" tvg-language="Chinese;Indonesian" tvg-logo="https://www.lyngsat.com/logo/tv/cc/cctv-15-cn.png" group-title="Music",CCTV-15音乐 (720p)
+http://116.199.5.52:8114/00000000/index.m3u8?Fsv_CMSID=&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Fsv_chan_hls_se_idx=54&Fsv_cid=0&Fsv_ctype=LIVES&Fsv_ctype=LIVES&Fsv_filetype=1&Fsv_otype=1&Fsv_otype=1&Fsv_rate_id=0&FvSeid=5abd1660af1babb4&Pcontent_id=&Provider_id=
+#EXTINF:-1 tvg-id="CinemaxAsia.us" tvg-country="US" tvg-language="Chinese;English;Indonesian;Khmer;Thai;Vietnamese" tvg-logo="https://static.epg.best/ph/Cinemax.ph.png" group-title="Movies" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",Cinemax Asia (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+https://livecdn.fptplay.net/hda1/cinemax_hls.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="CNBCIndonesia.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://upload.wikimedia.org/wikipedia/en/3/35/CNBC_Indonesia.png" group-title="Business",CNBC Indonesia (720p)
 https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8
 #EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/CNN_Indonesia.svg/512px-CNN_Indonesia.svg.png" group-title="News",CNN Indonesia (720p)
 https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="GTV.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://i.postimg.cc/HsqNM8Hc/globaltv.png" group-title="General",GTV (720p)
 https://gtv-linier.rctiplus.id/live/eds/GTV2021/live_fta/index.m3u8
+#EXTINF:-1 tvg-id="HBOAsia.us" tvg-country="US" tvg-language="Chinese;English;Indonesian;Khmer;Thai;Vietnamese" tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch115_160_115" group-title="Undefined",HBO Asia
+https://vips-livecdn.fptplay.net/hda1/hbo_vhls.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="Hits.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://i.imgur.com/CRjWd5n.png" group-title="Undefined",Hits (720p) [Not 24/7]
 https://liveanevia.mncnow.id/live/eds/HITS/sa_dash_vmx/HITS.mpd
 #EXTINF:-1 tvg-id="HitsMovies.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://movies.hitstv.com/img/hits-movies-logo.png" group-title="Movies",Hits Movies (720p) [Not 24/7]
@@ -21,7 +30,7 @@ https://inews-linier.rctiplus.id/live/eds/INEWS_2021/live_fta/index.m3u8
 https://cdn-telkomsel-01.akamaized.net/Content/HLS/Live/channel(dc9040ad-a4e1-4d08-883c-a65542b69602)/index.m3u8
 #EXTINF:-1 tvg-id="MetroTV.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://m3u-editor.com/storage/channel-logos/07cd9d90-3cc5-11ea-9aa8-0b5bd3ba261d/92697/14040416.png" group-title="News",Metro TV (360p) [Not 24/7]
 http://edge.metrotvnews.com:1935/live-edge/smil:metro.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="MNCTV.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://i.postimg.cc/rw8620qS/20191026-003920.png" group-title="General",MNCTV (720p)
+#EXTINF:-1 tvg-id="MNCTV.id" tvg-country="ID" tvg-language="English;Indonesian" tvg-logo="https://i.postimg.cc/rw8620qS/20191026-003920.png" group-title="General",MNCTV (720p)
 https://mnctv-linier.rctiplus.id/live/eds/MNCTV_2021/live_fta/index.m3u8
 #EXTINF:-1 tvg-id="OneTV.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://onetvasia.com/sites/onetvasia.com/files/logo-small_0.png" group-title="Undefined",One TV (720p) [Not 24/7]
 https://liveanevia.mncnow.id/live/eds/SetOne/sa_dash_vmx/SetOne.mpd
@@ -48,25 +57,25 @@ http://118.97.50.107/Content/HLS/Live/Channel(TVRIBALI)/index.m3u8
 #EXTINF:-1 tvg-id="TVRIBangkaBelitung.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png" group-title="Undefined",TVRI Bangka Belitung (480p)
 http://118.97.50.107/Content/HLS/Live/Channel(TVRIBABEL)/index.m3u8
 #EXTINF:-1 tvg-id="TVRIBengkulu.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png" group-title="Undefined",TVRI Bengkulu (480p)
-http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIBengkulu)/index.m3u8
+http://118.97.50.107/Content/HLS/Live/Channel(TVRIBENGKULU)/index.m3u8
 #EXTINF:-1 tvg-id="TVRIDKIJakarta.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png" group-title="Undefined",TVRI DKI Jakarta (720p) [Not 24/7]
 http://118.97.50.107/Content/HLS/Live/Channel(TVRIDKI)/index.m3u8
 #EXTINF:-1 tvg-id="TVRIGorontalo.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png" group-title="Undefined",TVRI Gorontalo (480p)
 http://118.97.50.107/Content/HLS/Live/Channel(TVRIGORONTALO)/index.m3u8
 #EXTINF:-1 tvg-id="TVRIJambi.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png" group-title="Undefined",TVRI Jambi (720p) [Not 24/7]
 http://118.97.50.107/Content/HLS/Live/Channel(TVRIJAMBI)/index.m3u8
-#EXTINF:-1 tvg-id="TVRIJawaBarat.id" tvg-country="ID" tvg-language="Indonesian;Javanese;Sundanese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png" group-title="Undefined",TVRI Jawa Barat (480p)
+#EXTINF:-1 tvg-id="TVRIJawaBarat.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png" group-title="Undefined",TVRI Jawa Barat (480p)
 http://118.97.50.107/Content/HLS/Live/Channel(TVRIJABARBANDUNG)/index.m3u8
-#EXTINF:-1 tvg-id="TVRIJawaTengah.id" tvg-country="ID" tvg-language="Indonesian;Javanese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png" group-title="Undefined",TVRI Jawa Tengah (720p)
+#EXTINF:-1 tvg-id="TVRIJawaTengah.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png" group-title="Undefined",TVRI Jawa Tengah (720p)
 http://118.97.50.107/Content/HLS/Live/Channel(TVRIJATENGSEMARANG)/index.m3u8
 #EXTINF:-1 tvg-id="TVRIJawaTimur.id" tvg-country="ID" tvg-language="Indonesian;Javanese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png" group-title="Undefined",TVRI Jawa Timur (720p)
 http://118.97.50.107/Content/HLS/Live/Channel(TVRIJATIMSURABAYA)/index.m3u8
 #EXTINF:-1 tvg-id="TVRIKalimantanBarat.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png" group-title="Undefined",TVRI Kalimantan Barat (480p)
-http://wpc.d1627.nucdn.net/80D1627/o-tvri/Content/HLS/Live/Channel(TVRIKALBAR)/index.m3u8
+http://118.97.50.107/Content/HLS/Live/Channel(TVRIKALBAR)/index.m3u8
 #EXTINF:-1 tvg-id="TVRIKalimantanSelatan.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png" group-title="Undefined",TVRI Kalimantan Selatan (720p)
 http://118.97.50.107/Content/HLS/Live/Channel(TVRIKALSELBANJARMSN)/index.m3u8
 #EXTINF:-1 tvg-id="TVRIKalimantanTengah.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png" group-title="Undefined",TVRI Kalimantan Tengah (480p)
-http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIKalteng)/index.m3u8
+http://118.97.50.107/Content/HLS/Live/Channel(TVRIKALTENG)/index.m3u8
 #EXTINF:-1 tvg-id="TVRIKalimantanTimur.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png" group-title="Undefined",TVRI Kalimantan Timur (720p)
 http://118.97.50.107/Content/HLS/Live/Channel(TVRIKALTIMSAMARINDA)/index.m3u8
 #EXTINF:-1 tvg-id="TVRILampung.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png" group-title="Undefined",TVRI Lampung (720p)
@@ -76,11 +85,11 @@ http://118.97.50.107/Content/HLS/Live/Channel(TVRIMALUKUAMBON)/index.m3u8
 #EXTINF:-1 tvg-id="TVRINasional.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png" group-title="General",TVRI Nasional (720p)
 http://118.97.50.107/Content/HLS/Live/Channel(TVRINASIONAL)/index.m3u8
 #EXTINF:-1 tvg-id="TVRINusaTenggaraBarat.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png" group-title="Undefined",TVRI Nusa Tenggara Barat (720p)
-http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRINtbmataram)/index.m3u8
+http://wpc.d1627.nucdn.net/80D1627/o-tvri/Content/HLS/Live/Channel(TVRINTBMATARAM)/index.m3u8
 #EXTINF:-1 tvg-id="TVRINusaTenggaraTimur.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png" group-title="Undefined",TVRI Nusa Tenggara Timur (480p)
 http://118.97.50.107/Content/HLS/Live/Channel(TVRINTTKUPANG)/index.m3u8
 #EXTINF:-1 tvg-id="TVRIPapua.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png" group-title="Undefined",TVRI Papua (480p)
-http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRIPapua)/index.m3u8
+http://wpc.d1627.nucdn.net/80D1627/o-tvri/Content/HLS/Live/Channel(TVRIPAPUA)/index.m3u8
 #EXTINF:-1 tvg-id="TVRIRiau.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png" group-title="Undefined",TVRI Riau (720p) [Not 24/7]
 http://118.97.50.107/Content/HLS/Live/Channel(TVRIriau)/index.m3u8
 #EXTINF:-1 tvg-id="TVRISportHD.id" tvg-country="ID" tvg-language="English;Indonesian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png" group-title="Sports",TVRI Sport HD (720p)
@@ -101,7 +110,5 @@ http://118.97.50.107/Content/HLS/Live/Channel(TVRISUMBARPADANG)/index.m3u8
 http://118.97.50.107/Content/HLS/Live/Channel(TVRISUMSEL)/index.m3u8
 #EXTINF:-1 tvg-id="TVRISumateraUtara.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png" group-title="Undefined",TVRI Sumatera Utara (480p)
 http://118.97.50.107/Content/HLS/Live/Channel(TVRISUMUTMEDAN)/index.m3u8
-#EXTINF:-1 tvg-id="TVRIWorld.id" tvg-country="ID" tvg-language="Indonesian;Javanese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png" group-title="Undefined",TVRI World (720p)
-http://118.97.50.107/Content/HLS/Live/Channel(TVRI3)/index.m3u8
-#EXTINF:-1 tvg-id="TVRIYogyakarta.id" tvg-country="ID" tvg-language="Indonesian;Javanese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png" group-title="Undefined",TVRI Yogyakarta (720p)
+#EXTINF:-1 tvg-id="TVRIYogyakarta.id" tvg-country="ID" tvg-language="Indonesian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png" group-title="Undefined",TVRI Yogyakarta (720p)
 http://118.97.50.107/Content/HLS/Live/Channel(TVRIYOGYAKARTA)/index.m3u8

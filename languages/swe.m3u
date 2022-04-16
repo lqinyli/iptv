@@ -1,10 +1,14 @@
-#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/dk/allente.se.epg.xml,https://iptv-org.github.io/epg/guides/se/tv.nu.epg.xml"
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/dk/allente.se.epg.xml,https://iptv-org.github.io/epg/guides/rs/mts.rs.epg.xml,https://iptv-org.github.io/epg/guides/se/tv.nu.epg.xml"
 #EXTINF:-1 tvg-id="AftonbladetTV.se" tvg-country="SE" tvg-language="Swedish" tvg-logo="https://i.imgur.com/LsAz0UW.jpg" group-title="Undefined",Aftonbladet TV (144p)
 https://aftonbladetlive-lh.akamaihd.net/i/livestream01_1@182509/master.m3u8
 #EXTINF:-1 tvg-id="ATG.se" tvg-country="SE" tvg-language="Swedish" tvg-logo="https://i.imgur.com/5CdW62M.png" group-title="Sports",ATG (432p)
 https://httpcache0-00688-cacheliveedge0.dna.qbrick.com/00688-cacheliveedge0/out/u/atg_sdi_1_free.m3u8
 #EXTINF:-1 tvg-id="DiTV.se" tvg-country="SE" tvg-language="Swedish" tvg-logo="https://i.imgur.com/zApTDWn.png" group-title="News",Di TV (720p)
 https://httpcache0-03837-cachelive2.dna.qbrick.com/03837-cachelive2/smil:03837_tx4_720p/playlist.m3u8
+#EXTINF:-1 tvg-id="EbS.be" tvg-country="BE" tvg-language="Bulgarian;Croatian;Czech;Danish;Dutch;English;Estonian;Finnish;French;German;Greek;Hungarian;Irish;Italian;Latvian;Lithuanian;Maltese;Polish;Portuguese;Romanian;Slovak;Slovenian;Spanish;Swedish;Ukrainian" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/ebs.png" group-title="Undefined",EbS Live (Europe by Satellite) (1080p)
+https://euc-live.fl.freecaster.net/live/eucom/ebs.m3u8
+#EXTINF:-1 tvg-id="EbSPlus.be" tvg-country="BE" tvg-language="Albanian;Bosnian;Bulgarian;Croatian;Czech;Danish;Dutch;English;Estonian;Finnish;French;German;Greek;Hungarian;Irish;Italian;Latvian;Lithuanian;Macedonian;Maltese;Polish;Portuguese;Romanian;Serbian;Slovak;Slovenian;Spanish;Swedish" tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/ebs.png" group-title="Undefined",EbS+ Live (Europe by Satellite) (1080p)
+https://euc-live.fl.freecaster.net/live/eucom/ebsp.m3u8
 #EXTINF:-1 tvg-id="ExpressenTV.se" tvg-country="SE" tvg-language="Swedish" tvg-logo="https://i.imgur.com/Kt88QxS.png" group-title="News",Expressen TV (720p)
 https://httpcache0-03837-cachelive2.dna.qbrick.com/03837-cachelive2/smil:03837_tx2_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="HimlenTV7.fi" tvg-country="FI" tvg-language="English;Swedish" tvg-logo="https://i.imgur.com/pW6pPFF.jpg" group-title="Religious",Himlen TV7 (720p)
@@ -13,6 +17,8 @@ https://vod.tv7.fi/tv7-se/smil:tv7-se.smil/playlist.m3u8
 https://cdn-kanal10.crossnet.net/kanal10/ngrp:kanal10asia_all/chunklist_w522739009_b2128000.m3u8
 #EXTINF:-1 tvg-id="OppnaKanalen.se" tvg-country="SE" tvg-language="Swedish" tvg-logo="https://i.imgur.com/O1wCZTZ.jpg" group-title="Undefined",Oppna Kanalen (540p)
 https://edg03-prd-se-ixn.solidtango.com/edge/_451iw2h_/451iw2h/playlist.m3u8
+#EXTINF:-1 tvg-id="RTV1.rs" tvg-country="RS" tvg-language="Serbian;Swedish" tvg-logo="https://static.rtv.rs/assets/repository/2017/img/header/logo-rtv_sr_ci.png" group-title="Undefined",RTV 1 (576p) [Not 24/7]
+mmsh://212.200.255.151/rtv1
 #EXTINF:-1 tvg-id="TV4.se" tvg-country="SE" tvg-language="Swedish" tvg-logo="https://i.imgur.com/mvwiSqt.png" group-title="Undefined",TV4 (720p)
 https://csm-e-tv4se-eb.tls1.yospace.com/csm/live/142791716.m3u8
 #EXTINF:-1 tvg-id="TV4Nyheterna.se" tvg-country="SE" tvg-language="Swedish" tvg-logo="https://i.imgur.com/psAAPIE.jpg" group-title="Undefined",TV4Nyheterna (720p)
