@@ -26,6 +26,8 @@ https://evpp.mm.uol.com.br/geob_band/bandnewstv/playlist.m3u8
 https://cdnuk001.broadcastcdn.net/KUK-BBCNEWSHD/index.m3u8
 #EXTINF:-1 tvg-id="BBCWorldNews.uk" tvg-country="INT" tvg-language="English" tvg-logo="https://i.imgur.com/Nx0BRdV.png" group-title="News",BBC World News (576p)
 http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-country="BR" tvg-language="" tvg-logo="" group-title="Undefined",BM&C [Not 24/7]
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCoja0MNI4SIvXqJR3szbSfw/live
 #EXTINF:-1 tvg-id="Canal25Jundiai.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/9SjoGWj.png" group-title="Undefined",Canal 25 Jundiaí (404p) [Not 24/7]
 https://stream01.msolutionbrasil.com.br/hls/canal25/live.m3u8
 #EXTINF:-1 tvg-id="CanalSaude.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/MXhHP6U.png" group-title="Undefined",Canal Saúde (360p) [Not 24/7]
@@ -58,8 +60,6 @@ https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 http://flash.softhost.com.br:1935/fonte/fontetv/live.m3u8
 #EXTINF:-1 tvg-id="France24English.fr" tvg-country="INT" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/France24.png" group-title="News",France 24 English (1080p)
 http://f24hls-i.akamaihd.net/hls/live/221147/F24_EN_HI_HLS/master.m3u8
-#EXTINF:-1 tvg-id="Futura.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Canal_Futura.png/300px-Canal_Futura.png" group-title="Education",Futura (540p) [Not 24/7]
-https://tv.unisc.br/hls/test.m3u8
 #EXTINF:-1 tvg-id="GhostTV.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/ZVO8GVI.png" group-title="Movies",Ghost TV (712p) [Not 24/7]
 https://stmv.video.expressolider.com.br/ghostv/ghostv/playlist.m3u8
 #EXTINF:-1 tvg-id="GospelMovieTV.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://ipgo.xyz/tv/gmovies/imagens/logo_gospelf_site.png" group-title="Religious",Gospel Movie TV (360p)
@@ -132,10 +132,10 @@ http://streaming03.zas.media:1935/redemaoamiga/redemaoamiga/live.m3u8
 https://v4-slbps-sambavideos.akamaized.net/live/3282,8114,ec4b5a296d97fa99bf990662f5b4f8e1;base64np;Mc8VDxqNjXKCAf8!/amlst:Mc_tFgfGiHOdQXPB/chunklist_.m3u8
 #EXTINF:-1 tvg-id="RedeRC.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/nc95BPy.png" group-title="Undefined",Rede RC (720p) [Not 24/7]
 http://tv02.logicahost.com.br:1935/rederc/rederc/live.m3u8
+#EXTINF:-1 tvg-id="RedeSeculo21.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/vvrCWVo.jpg" group-title="Religious",Rede Século 21 (1080p) [Not 24/7]
+https://cdn.jmvstream.com/w/LVW-10024/ngrp:LVW10024_H3QLdAY6kx_all/playlist.m3u8
 #EXTINF:-1 tvg-id="TVPampa.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://www.livetvnews.com.br/wp-content/uploads/2019/03/Logo-RedeTV.png" group-title="General",Rede TV! Pampa (720p) [Not 24/7]
 https://59f1cbe63db89.streamlock.net:1443/tvpampa/tvpampa/playlist.m3u8
-#EXTINF:-1 tvg-id="RedeVida.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Rede_Vida_logo.png/267px-Rede_Vida_logo.png" group-title="Religious",Rede Vida (720p) [Not 24/7]
-https://cvd1.cds.ebtcvd.net/live-redevida/smil:redevida.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RedeTV.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://www.livetvnews.com.br/wp-content/uploads/2019/03/Logo-RedeTV.png" group-title="General",RedeTV! Tocantins (720p) [Not 24/7]
 https://59f1cbe63db89.streamlock.net:1443/redetvro/_definst_/redetvro/playlist.m3u8
 #EXTINF:-1 tvg-id="RedeTVTocantins.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/8fGmJWA.png" group-title="General",RedeTV! Tocantins (720p) [Not 24/7]
@@ -229,6 +229,8 @@ https://cdn-fundacao-2110.ciclano.io:1443/fundacao-2110/fundacao-2110/playlist.m
 https://srv1.zcast.com.br/tvmon/tvmon/playlist.m3u8
 #EXTINF:-1 tvg-id="TVPaiEterno.br" tvg-country="BR" tvg-language="English;Portuguese" tvg-logo="https://www.paieterno.com.br/wp-content/uploads/2019/05/cropped-logo-portal-01-192x192.png" group-title="Religious",TV Pai Eterno (480p) [Not 24/7]
 https://59f1cbe63db89.streamlock.net:1443/teste01/teste01/playlist.m3u8
+#EXTINF:-1 tvg-id="TVPantanalMS.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/0FOmktl.png" group-title="Undefined",TV Pantanal MS (720p) [Not 24/7]
+https://5e837408ea907.streamlock.net:1936/tvpantanalms/tvpantanalms/playlist.m3u8
 #EXTINF:-1 tvg-id="TVParanaTurismo.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/3lxkJxb.png" group-title="Travel",TV Paraná Turismo (720p) [Not 24/7]
 http://200.189.113.201/hls/tve.m3u8
 #EXTINF:-1 tvg-id="TVPocos.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://tvpocos.com.br/wp-content/uploads/2017/04/logo_branca_125.png" group-title="Undefined",TV Poços (192p) [Not 24/7]
@@ -239,8 +241,6 @@ https://rtmp.info/tvsantacruz/envivo/playlist.m3u8
 http://streaming03.zas.media:1935/tvsol/tvsol/playlist.m3u8
 #EXTINF:-1 tvg-id="TVTerceiroAnjo.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/eHibp1L.png" group-title="Religious",TV Terceiro Anjo (360p) [Not 24/7]
 https://streamer1.streamhost.org/salive/GMI3anjoh/livestream.m3u8
-#EXTINF:-1 tvg-id="TVThathi.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://tv.thathi.com.br/wp-content/uploads/2021/02/tv-thathi-150x150.png" group-title="General",TV Thathi (720p) [Not 24/7]
-https://cdn-grupo-10049.ciclano.io:1443/grupo-10049/grupo-10049/playlist.m3u8
 #EXTINF:-1 tvg-id="TVUFG.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://i.imgur.com/Yp3dbJo.png" group-title="Education",TV UFG (720p) [Not 24/7]
 http://flash.softhost.com.br:1935/ufg/tvufgweb/playlist.m3u8
 #EXTINF:-1 tvg-id="TVUFOP.br" tvg-country="BR" tvg-language="Portuguese" tvg-logo="https://www.upf.br/Assets/img/logo.png" group-title="Science",TV UFOP
