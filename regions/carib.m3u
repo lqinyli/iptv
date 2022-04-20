@@ -1,6 +1,8 @@
 #EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/bs/rev.bs.epg.xml,https://iptv-org.github.io/epg/guides/cu/tvcubana.icrt.cu.epg.xml,https://iptv-org.github.io/epg/guides/do/gatotv.com.epg.xml"
 #EXTINF:-1 tvg-id="ArubaTV.aw" tvg-country="AW" tvg-language="English" tvg-logo="https://i.imgur.com/9fWY09U.png" group-title="General",Aruba.TV (1080p) [Not 24/7]
 https://ed1ov.live.opencaster.com/GzyysAAvEhht/index.m3u8
+#EXTINF:-1 tvg-id="BonceTV.cw" tvg-country="CW" tvg-language="Dutch" tvg-logo="" group-title="Undefined",Bonce TV (480p) [Not 24/7]
+https://seswa.bonce.tv/hls/bonceswa.m3u8
 #EXTINF:-1 tvg-id="Canal12.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://serenotv.com/wp-content/uploads/2020/10/Canal-12-telecanal-republica-dominicana-en-vivo.jpg" group-title="Undefined",Canal 12 (720p) [Not 24/7]
 https://cdn4.hostlagarto.com:8081/static/telecanal12/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalEducativo.cu" tvg-country="CU" tvg-language="Spanish" tvg-logo="https://www.tvcubana.icrt.cu/images/logos-canales/logo-mascara/ce.jpg" group-title="Undefined",Canal Educativo
@@ -19,8 +21,6 @@ https://cdn4.hostlagarto.com:8081/static/Chinolatv/playlist.m3u8
 https://live.teledom.info:3713/live/cinevisionlive.m3u8
 #EXTINF:-1 tvg-id="ColorVisionCanal9.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="" group-title="Undefined",Color Vision Canal 9
 http://177.52.221.214:8000/play/a0c0/index.m3u8
-#EXTINF:-1 tvg-id="ComunionTV.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/BNtmf7o.png" group-title="Undefined",Comunion TV (720p) [Not 24/7]
-http://50.30.37.36:1935/live/smil:MyStream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ConectateTV.pr" tvg-country="PR" tvg-language="Spanish" tvg-logo="https://graph.facebook.com/conectatetvpr/picture?width=320&height=320" group-title="Undefined",Conéctate TV (ACS Network) (480p) [Not 24/7]
 https://play.amelbasoluciones.co:3257/live/acsnetworklive.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="PR" tvg-language="" tvg-logo="" group-title="Undefined",CTNi (Christian Television Network International) (480p) [Not 24/7]
@@ -31,8 +31,6 @@ http://177.52.221.214:8000/play/a0dc/index.m3u8
 http://177.52.221.214:8000/play/a0dy/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="CU" tvg-language="" tvg-logo="" group-title="Undefined",CubaVision Internacional (480p) [Not 24/7]
 http://190.122.96.187:8888/http/010
-#EXTINF:-1 tvg-id="DANTV.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="" group-title="Undefined",DAN TV (720p) [Not 24/7]
-http://cm.hostlagarto.com:8081/Punaltv/punaltvHD.myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="Digital15.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://imagenes.gatotv.com/logos/canales/oscuros/15_republica_dominicana-mediano.png" group-title="Undefined",Digital 15 (1080p)
 http://free.fullspeed.tv/iptv-query?streaming-ip=https://livestream.com/accounts/27456795/events/8268514/player
 #EXTINF:-1 tvg-id="DigitalVision.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="" group-title="Undefined",Digital Vision (720p) [Not 24/7]
@@ -71,13 +69,9 @@ http://stream3.prostudionetwork.com:1943/megavision/MV/playlist.m3u8
 http://190.103.183.24:1935/live/MicroHD/playlist.m3u8
 #EXTINF:-1 tvg-id="MisionELTV.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://2.bp.blogspot.com/-OiAyNltHK1c/XoR4TuBHe4I/AAAAAAAAszg/d3NIH9pHptsJ75DDyIGuGjq9cVO-of7kgCLcBGAsYHQ/s200/misioneltvlogo.png" group-title="Undefined",Mision ELTV (480p) [Not 24/7]
 https://5790d294af2dc.streamlock.net/8286/8286/playlist.m3u8
-#EXTINF:-1 tvg-id="NETALKOLETV.ht" tvg-country="HT" tvg-language="French" tvg-logo="https://i.imgur.com/OJbRkQ6.jpg" group-title="Undefined",NETALKOLE TV (720p) [Not 24/7]
-https://watch.haitilive.net/stream/netalkole/public/tv/index.m3u8
 #EXTINF:-1 tvg-id="NosIslaTV.aw" tvg-country="AW" tvg-language="Dutch;Papiamento" tvg-logo="https://i.imgur.com/Gf95oov.png" group-title="General" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36",Nos Isla TV (720p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
 https://backend-server-dot-telearuba-app.appspot.com/media/livestream23/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-country="PR" tvg-language="" tvg-logo="" group-title="Undefined",Noti Uno Puerto Rico (854p) [Not 24/7]
-https://59514edd5dd8e.streamlock.net/unoradio/unoradio1/playlist.m3u8
 #EXTINF:-1 tvg-id="ORBITTV.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/viNYkXc.png" group-title="Undefined",ORBIT TV (480p) [Geo-blocked]
 https://ss3.domint.net:3134/otv_str/orbittv/playlist.m3u8
 #EXTINF:-1 tvg-id="PH.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://3.bp.blogspot.com/-INH3BeYCloo/XWVcY2zOpUI/AAAAAAAAmxI/YRwbGEa3orQf7ltrcE2VTv20TPoqYSiygCLcBGAs/s320/PHTV.png" group-title="Undefined",PH (720p) [Not 24/7]
@@ -92,8 +86,6 @@ https://59825a54e4454.streamlock.net:8443/william233/william233/playlist.m3u8
 https://uni01rtmp.tulix.tv/4vehtv/4vehtv-firetv/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioTeleAmen.ht" tvg-country="HT" tvg-language="French" tvg-logo="https://i.imgur.com/dJvJGDg.jpg" group-title="Religious",Radio Tele Amen FM (360p) [Not 24/7]
 http://184.173.179.163:1935/daniel/daniel/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioTelePititManmanMari.ht" tvg-country="HT" tvg-language="French" tvg-logo="https://i.imgur.com/QaWwNvo.jpg" group-title="Religious",Radio Télé Pitit Manman Mari (720p) [Not 24/7]
-http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCLeNHM8XDkZmd2rhV3ZG7Vg/live
 #EXTINF:-1 tvg-id="RadioTelePlanetCompas.ht" tvg-country="HT" tvg-language="French" tvg-logo="https://i.imgur.com/ddb4lsa.png" group-title="Undefined",Radio Tele Planet Compas (720p) [Not 24/7]
 https://5dcab9aed5331.streamlock.net/mrcompas1/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioTeleShalom.ht" tvg-country="HT" tvg-language="French" tvg-logo="https://i.imgur.com/MSgSKym.png" group-title="Undefined",Radio Tele Shalom (720p) [Not 24/7]
@@ -138,8 +130,6 @@ http://ott.streann.com:8080/loadbalancer/services/public/channels/5ed71e232cdc24
 http://ss8.domint.net:2118/tf_str/futu/master.m3u8
 #EXTINF:-1 tvg-id="Teleimpacto.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://www.lyngsat.com/logo/tv/tt/teleimpacto-do.png" group-title="Undefined",Teleimpacto (720p) [Not 24/7]
 http://190.122.96.188:8888/http/013
-#EXTINF:-1 tvg-id="Telemilenio.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://i.imgur.com/SEdKWqE.png" group-title="Undefined",Telemilenio (720p) [Not 24/7]
-http://cm.hostlagarto.com:8081/Telemilenio/Telemilenio.myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="PR" tvg-language="" tvg-logo="" group-title="Undefined",Telemundo WKAQ Noticias Puerto Rico (1080p) [Not 24/7]
 https://wkaqlive-lh.akamaihd.net/i/PR_STREAM1@311877/master.m3u8
 #EXTINF:-1 tvg-id="Telenord8.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://1.bp.blogspot.com/-H6WpFuwnBw8/Xb8tpN3x27I/AAAAAAAAowE/i8xCRlptBkEGIn9nxcfdajE2ieOQ07GGQCLcBGAsYHQ/s200/Telenord.jpg" group-title="Undefined",Telenord 8 (1080p) [Not 24/7]
@@ -154,8 +144,6 @@ http://177.52.221.214:8000/play/a0fk/index.m3u8
 https://ss3.domint.net:3124/tls_str/telesur/playlist.m3u8
 #EXTINF:-1 tvg-id="Teleunion.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://3.bp.blogspot.com/-1P8ozDYekaw/XbBkLrf0Q4I/AAAAAAAAodQ/5qTLYC9km6YVHW8E1WoELvFneAUm1U7bwCPcBGAYYCw/s200/Teleunion%2B%25281%2529.png" group-title="Undefined",Teleunion (480p) [Not 24/7]
 http://server3.prostudionetwork.com:1945/teleunion/TU/playlist.m3u8
-#EXTINF:-1 tvg-id="TheIslamicNetwork.tt" tvg-country="TT" tvg-language="English" tvg-logo="https://i.imgur.com/Z2Io8n4.png" group-title="Religious",The Islamic Network (480p) [Not 24/7]
-http://daruttarbiyah.srfms.com:1935/daruttarbiyah/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="TheParliamentaryChannel.bs" tvg-country="BS" tvg-language="English" tvg-logo="https://i.imgur.com/35oFiNg.jpg" group-title="Legislative",The Parliamentary Channel (720p) [Not 24/7]
 https://cloud.streamcomedia.com/parliamentarychannel/smil:parliamentarychannel_streams.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TMA.gp" tvg-country="GP" tvg-language="French" tvg-logo="https://i.imgur.com/fQUzBsz.png" group-title="Music",TMA (1080p)
@@ -172,7 +160,5 @@ http://cm.hostlagarto.com:8081/Tvstv/TvstvHD.myStream/playlist.m3u8
 http://190.103.183.24:1935/Vallevision/ValleHD/playlist.m3u8
 #EXTINF:-1 tvg-id="VallevisionCanal10.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://es.live-tv-channels.org/pt-data/uploads/logo/do-vallevision-canal-10-9607-300x225.jpg" group-title="Undefined",Vallevision Canal 10 (720p) [Not 24/7]
 https://streaming.telecablecentral.com.do/Vallevision/ValleHD/playlist.m3u8
-#EXTINF:-1 tvg-id="ZNSTV.bs" tvg-country="BS" tvg-language="English" tvg-logo="https://znsbahamas.com/wp-content/uploads/2017/12/ZNS-PL-1.png" group-title="General",ZNS TV (240p) [Not 24/7]
-https://cloud.streamcomedia.com/znstv/smil:znstv_streams.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Zol106.do" tvg-country="DO" tvg-language="Spanish" tvg-logo="https://2.bp.blogspot.com/-OlrTJEjmmAI/Wr1YlnuxLOI/AAAAAAAAdIU/vTw_1pzwsTUbHwz_4zPiZwnbaeHDwiYAwCLcBGAs/s200/Zol%2B106.png" group-title="Undefined",Zol106 (720p) [Not 24/7]
 https://ss3.domint.net:3108/zol_str/vzol/playlist.m3u8
