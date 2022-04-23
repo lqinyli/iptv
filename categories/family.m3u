@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ru/tv.yandex.ru.epg.xml"
+#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ba/mtel.ba.epg.xml,https://iptv-org.github.io/epg/guides/co/siba.com.co.epg.xml,https://iptv-org.github.io/epg/guides/ru/tv.yandex.ru.epg.xml"
 #EXTINF:-1 tvg-id="8KanalKrym.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/GMQLSee.png" group-title="Family",8 канал Крым (576p)
 http://176.99.110.252/stream8/playlist.m3u8
 #EXTINF:-1 tvg-id="AMGTV.us" tvg-country="US" tvg-language="English" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/b1/Amgtv.PNG" group-title="Family",AMG TV (1080p)
@@ -10,9 +10,11 @@ http://cdnh4.iblups.com/hls/OVJNKV4pSr.m3u8
 #EXTINF:-1 tvg-id="DoveChannel.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/FVWqYQG.png" group-title="Family",Dove Channel (1080p)
 https://cinedigm.vo.llnwd.net/conssui/amagi_hls_data_xumo1234A-dovenow/CDN/master.m3u8
 #EXTINF:-1 tvg-id="FilmRiseFamily.us" tvg-country="US" tvg-language="English" tvg-logo="https://images-na.ssl-images-amazon.com/images/I/81VZaxj6a1L._SY355_.png" group-title="Family",FilmRise Family (720p)
-http://dai2.xumo.com/xumocdn/p=roku/amagi_hls_data_xumo1212A-filmrisefamily/CDN/playlist.m3u8
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfilmrisefamily/CDN/playlist.m3u8
 #EXTINF:-1 tvg-id="KinderTV.ua" tvg-country="CIS" tvg-language="Russian" tvg-logo="https://img.catcast.tv/uploads/02062021/banners/38144-60b7e4bbc80fc.png" group-title="Family",FilmTV Kinder (400p) [Not 24/7]
 https://v2.catcast.tv/content/38144/index.m3u8
+#EXTINF:-1 tvg-id="PinkFamily.rs" tvg-country="RS" tvg-language="Serbian" tvg-logo="https://mtel.ba/oec/images/tv_channels/f071e32f2d8372fc9c117023396132a1.png" group-title="Family",Pink Family (576p)
+http://109.105.201.198/PINKFAMILY/playlist.m3u8
 #EXTINF:-1 tvg-id="PlutoTVFamily.us" tvg-country="US" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/5dc3fc6b9133f500099c7d98/colorLogoPNG.png" group-title="Family",Pluto TV Family (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5dc3fc6b9133f500099c7d98/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-id="PositivTV.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/ULF3iOE.png" group-title="Family",Positiv TV (720p) [Not 24/7]
@@ -25,8 +27,12 @@ https://lds-realfamilies-samsunguau.amagi.tv/playlist.m3u8
 https://cloudfront.tubi.video/21df8036-fa23-49ff-9877-8af983546d2b/elw3phlf/stream.m3u8
 #EXTINF:-1 tvg-id="ThePetCollective.us" tvg-country="US" tvg-language="English" tvg-logo="https://images.pluto.tv/channels/5bb1ad55268cae539bcedb08/colorLogoPNG.png" group-title="Family",The Pet Collective (720p)
 https://dai2.xumo.com/amagi_hls_data_xumo1212A-petcollective/CDN/master.m3u8
+#EXTINF:-1 tvg-id="TVFamilia.ve" tvg-country="VE" tvg-language="Spanish" tvg-logo="https://i.imgur.com/ixIePRp.png" group-title="Family",TV Familia (720p)
+https://cdn01.yowi.tv/KPFPGJU8A6/master.m3u8
 #EXTINF:-1 tvg-id="TVSFamilyChannel.us" tvg-country="US" tvg-language="English" tvg-logo="https://i.imgur.com/iuQyJ7f.jpg" group-title="Family",TVS Family Channel (360p)
 https://rpn1.bozztv.com/36bay2/gusa-TVSFamilyChannel/index.m3u8
+#EXTINF:-1 tvg-id="VTC4Yeah1Family.vn" tvg-country="VN" tvg-language="Vietnamese" tvg-logo="https://upload.wikimedia.org/wikipedia/vi/archive/e/ef/20130331171011%21Yeah1family.png" group-title="Family",VTC4 Yeah1 Family (720p) [Geo-blocked]
+http://htv-drm-live-cdn.fptplay.net/CDN-FPT02/VTC4-SD-ABR/HTV-ABR/VTC4-SD-720p/playlist.m3u8
 #EXTINF:-1 tvg-id="STS.ru" tvg-country="RU" tvg-language="Russian" tvg-logo="https://i.imgur.com/pJNWVAz.png" group-title="Family" user-agent="Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.84 Safari/537.36 CrKey/1.21a.76178",СТС (540p) [Geo-blocked]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.84 Safari/537.36 CrKey/1.21a.76178
 https://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8
